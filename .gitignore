@@ -1,0 +1,12 @@
+# Firebase: NUNCA versionar credenciais
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+# Segredos (chave de API do agente, token do bot)
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,37 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-04",
+    "titulo": "Atos e processo administrativo",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "adm-0001",
+      "tema": "Atos administrativos – invalidação",
+      "enunciado": "Sobre a invalidação dos atos administrativos, à luz da Lei nº 9.784/1999 e da jurisprudência do Supremo Tribunal Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A Administração Pública só pode anular os próprios atos ilegais mediante prévia autorização judicial.",
+        "B": "O direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.",
+        "C": "O ato administrativo ilegal deve ser revogado, com efeitos ex nunc, preservando-se os direitos adquiridos.",
+        "D": "Os atos que apresentarem defeitos sanáveis devem ser obrigatoriamente anulados, ainda que não haja lesão ao interesse público nem prejuízo a terceiros.",
+        "E": "O prazo decadencial para anulação de atos favoráveis aplica-se inclusive quando comprovada a má-fé do beneficiário."
+      },
+      "correta": "B",
+      "dica": "Anular e revogar não são sinônimos. Pense em qual das duas atinge o ato ilegal e se existe um prazo para a Administração fazer isso.",
+      "explicacao": {
+        "A": "Pelo princípio da autotutela, a Administração anula os próprios atos ilegais sem depender do Judiciário (Súmula 473/STF e art. 53 da Lei 9.784/1999). O interessado pode ir ao Judiciário, mas isso não é condição para a anulação.",
+        "B": "É a literalidade do art. 54 da Lei 9.784/1999: o direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé. O prazo protege a segurança jurídica e a confiança de quem se beneficiou do ato.",
+        "C": "Ato ilegal não se revoga, se anula. A revogação alcança ato válido, por conveniência e oportunidade, com efeitos ex nunc; a anulação alcança ato ilegal e, em regra, retroage (ex tunc).",
+        "D": "O art. 55 da Lei 9.784/1999 permite convalidar atos com defeitos sanáveis quando não houver lesão ao interesse público nem prejuízo a terceiros. A anulação não é obrigatória nesse caso.",
+        "E": "O próprio art. 54 da Lei 9.784/1999 ressalva a comprovada má-fé: quando ela existe, o prazo decadencial de cinco anos não se aplica."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 53, 54 e 55", "data": "1999-01-29" },
+        { "tipo": "sumula", "referencia": "Súmula 473/STF", "data": "1969-12-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
