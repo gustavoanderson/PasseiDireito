@@ -6,7 +6,7 @@ Contexto do PasseiDireito. Leia antes de qualquer tarefa neste repositório.
 
 ## O que é
 
-App de estudo gamificado, no formato do Duolingo, para **uma única aluna**: a noiva do Gustavo, que vai prestar o concurso de **Procurador do Município de Curitiba** (Edital Normativo nº 6/2026, banca FAFIPA, publicado em 21/09/2026).
+App de estudo gamificado, no formato do Duolingo, para **uma única aluna**: a **Flávia**, noiva do Gustavo, que vai prestar o concurso de **Procurador do Município de Curitiba** (Edital Normativo nº 6/2026, banca FAFIPA, publicado em 21/09/2026).
 
 Android primeiro, web em seguida. O mesmo código Flutter gera os dois.
 
@@ -70,6 +70,20 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
   - adaptada sem dizer de qual prova veio.
 - **IDs são imutáveis.** O progresso da aluna aponta para eles.
 - Explicações são escritas a partir da fonte oficial, nunca copiadas de comentários de cursinho.
+
+## Progresso
+
+Cada resposta de trilha é gravada na hora ([app/lib/progresso.dart](app/lib/progresso.dart)). As telas dependem da interface `RegistroDeProgresso`; os testes usam `ProgressoEmMemoria`.
+
+**Por que não o SQLite + sincronização do DevLingo:** o PasseiDireito precisa rodar na **web** (discursiva), onde o SQLite do Flutter não roda sem remendo, e há **uma única usuária**, sem os casos de várias contas no aparelho que complicaram o DevLingo. O cache offline do próprio Firestore resolve os dois: grava no aparelho na hora e sobe quando houver rede.
+
+No Firestore, por conta (`usuarios/{uid}/...`):
+- `respostas/{auto}`: histórico, uma linha por resposta. Hoje ninguém lê; é para revisão de erros e estatísticas.
+- `unidades/{unidadeId}`: resumo com a **última** resposta de cada questão. É o que a tela inicial lê: um documento por unidade, e não um por resposta, para não estourar a cota gratuita de leituras.
+
+**`registrar` não espera o servidor.** `batch.commit()` só termina quando o servidor confirma; esperar travaria o "Continuar" sem internet. O SDK aplica a escrita no cache na hora. Nos testes, o Firestore falso aplica no ciclo seguinte, por isso o contrato em `progresso_test.dart` chama `pumpEventQueue()` antes de ler.
+
+**Firebase:** [app/lib/firebase_config.dart](app/lib/firebase_config.dart) devolve `null` até o projeto existir, e o app roda em modo de demonstração com aviso na tela. Esses valores não são segredo; quem protege os dados é o [firestore.rules](firestore.rules). A conta da Flávia é criada no console (e-mail e senha); não há tela de cadastro.
 
 ## Comandos (rode todos antes de cada commit)
 

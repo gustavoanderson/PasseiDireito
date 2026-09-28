@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'banco.dart';
+import 'progresso.dart';
 import 'tema.dart';
 
 /// Uma unidade da trilha, questão por questão.
@@ -9,9 +10,10 @@ import 'tema.dart';
 /// imediata com a explicação de todas as alternativas, dica disponível antes
 /// de confirmar, e a aluna segue na trilha mesmo errando.
 class TelaQuestao extends StatefulWidget {
-  const TelaQuestao({super.key, required this.unidade});
+  const TelaQuestao({super.key, required this.unidade, required this.registro});
 
   final Unidade unidade;
+  final RegistroDeProgresso registro;
 
   @override
   State<TelaQuestao> createState() => _TelaQuestaoState();
@@ -22,6 +24,8 @@ class _TelaQuestaoState extends State<TelaQuestao> {
   String? _escolhida;
   bool _confirmada = false;
   bool _dicaAberta = false;
+  // Abrir a dica e fechar de novo ainda conta como ter usado.
+  bool _dicaUsada = false;
   int _acertos = 0;
   final _rolagem = ScrollController();
 
@@ -41,11 +45,22 @@ class _TelaQuestaoState extends State<TelaQuestao> {
   }
 
   void _confirmar() {
+    final acertou = _escolhida == _questao.correta;
     setState(() {
       _confirmada = true;
       _dicaAberta = false;
-      if (_escolhida == _questao.correta) _acertos++;
+      if (acertou) _acertos++;
     });
+    // Salvo a cada questão: fechar o app no meio da unidade não perde nada.
+    widget.registro.registrar(Resposta(
+      questaoId: _questao.id,
+      unidadeId: widget.unidade.id,
+      materia: widget.unidade.materia,
+      escolhida: _escolhida!,
+      acertou: acertou,
+      usouDica: _dicaUsada,
+      em: DateTime.now(),
+    ));
   }
 
   void _continuar() {
@@ -64,6 +79,7 @@ class _TelaQuestaoState extends State<TelaQuestao> {
       _escolhida = null;
       _confirmada = false;
       _dicaAberta = false;
+      _dicaUsada = false;
     });
     _rolagem.jumpTo(0);
   }
@@ -149,7 +165,10 @@ class _TelaQuestaoState extends State<TelaQuestao> {
               _RodapePergunta(
                 dicaAberta: _dicaAberta,
                 podeConfirmar: _escolhida != null,
-                aoAlternarDica: () => setState(() => _dicaAberta = !_dicaAberta),
+                aoAlternarDica: () => setState(() {
+                  _dicaAberta = !_dicaAberta;
+                  _dicaUsada = true;
+                }),
                 aoConfirmar: _confirmar,
               ),
           ],

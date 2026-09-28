@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:passeidireito/banco.dart';
+import 'package:passeidireito/progresso.dart';
 import 'package:passeidireito/tela_questao.dart';
 import 'package:passeidireito/tema.dart';
 
@@ -23,15 +24,17 @@ final _unidade = Unidade(
   questoes: [_questao('adm-0001', 'B'), _questao('adm-0002', 'D')],
 );
 
-Future<void> _abrir(WidgetTester tester) async {
+Future<ProgressoEmMemoria> _abrir(WidgetTester tester) async {
+  final registro = ProgressoEmMemoria();
   // Tela alta o bastante para a explicação inteira caber sem rolar.
   tester.view.physicalSize = const Size(1080, 4000);
   tester.view.devicePixelRatio = 2.0;
   addTearDown(tester.view.reset);
   await tester.pumpWidget(ControleTema(
     alternar: (_) {},
-    child: MaterialApp(theme: temaClaro(), home: TelaQuestao(unidade: _unidade)),
+    child: MaterialApp(theme: temaClaro(), home: TelaQuestao(unidade: _unidade, registro: registro)),
   ));
+  return registro;
 }
 
 Future<void> _tocar(WidgetTester tester, String chave) async {
@@ -127,10 +130,42 @@ void main() {
     addTearDown(tester.view.reset);
     await tester.pumpWidget(ControleTema(
       alternar: (_) {},
-      child: MaterialApp(theme: temaEscuro(), home: TelaQuestao(unidade: _unidade)),
+      child: MaterialApp(theme: temaEscuro(), home: TelaQuestao(unidade: _unidade, registro: ProgressoEmMemoria())),
     ));
     await _tocar(tester, 'alternativa-A');
     await _tocar(tester, 'botao-confirmar');
     expect(find.text('Resposta incorreta'), findsOneWidget);
+  });
+
+  group('progresso', () {
+    testWidgets('cada questão confirmada é gravada na hora, com a escolha e o resultado', (tester) async {
+      final registro = await _abrir(tester);
+      await _tocar(tester, 'alternativa-A');
+      expect(registro.respostas, isEmpty, reason: 'escolher ainda não é responder');
+
+      await _tocar(tester, 'botao-confirmar');
+      expect(registro.respostas, hasLength(1));
+      final r = registro.respostas.single;
+      expect(r.questaoId, 'adm-0001');
+      expect(r.unidadeId, 'adm-04');
+      expect(r.materia, 'adm');
+      expect(r.escolhida, 'A');
+      expect(r.acertou, isFalse);
+      expect(r.usouDica, isFalse);
+    });
+
+    testWidgets('abrir a dica fica registrado, e a marca não passa para a questão seguinte', (tester) async {
+      final registro = await _abrir(tester);
+      await _tocar(tester, 'botao-dica');
+      await _tocar(tester, 'botao-dica'); // fechou de novo: ainda conta
+      await _tocar(tester, 'alternativa-B');
+      await _tocar(tester, 'botao-confirmar');
+      await _tocar(tester, 'botao-continuar');
+      await _tocar(tester, 'alternativa-D');
+      await _tocar(tester, 'botao-confirmar');
+
+      expect(registro.respostas.map((r) => r.usouDica), [true, false]);
+      expect(registro.respostas.map((r) => r.acertou), [true, true]);
+    });
   });
 }
