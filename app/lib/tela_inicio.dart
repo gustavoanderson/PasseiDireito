@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 
 import 'banco.dart';
 import 'progresso.dart';
+import 'tela_desempenho.dart';
 import 'tela_questao.dart';
+import 'tela_simulado.dart';
 import 'tema.dart';
 import 'trilha.dart';
 
@@ -28,7 +30,8 @@ class TelaInicio extends StatefulWidget {
 }
 
 class _TelaInicioState extends State<TelaInicio> {
-  late final Future<List<Materia>> _materias = widget.carregar().then(agruparPorMateria);
+  late final Future<List<Unidade>> _unidades = widget.carregar();
+  late final Future<List<Materia>> _materias = _unidades.then(agruparPorMateria);
   late Future<Map<String, ResumoUnidade>> _resumos = widget.registro.resumos();
 
   Future<void> _abrir(Materia materia, Map<String, bool> ultimas) async {
@@ -39,16 +42,43 @@ class _TelaInicioState extends State<TelaInicio> {
         registro: widget.registro,
       ),
     ));
-    // Na volta, o andamento tem que refletir o que ela acabou de fazer.
-    // Progresso que não aparece parece progresso perdido (lição do DevLingo).
+    _recarregar();
+  }
+
+  /// Na volta de qualquer tela, o andamento tem que refletir o que ela acabou
+  /// de fazer. Progresso que não aparece parece progresso perdido (DevLingo).
+  void _recarregar() {
+    if (!mounted) return;
     // Chaves, e não seta: com seta o callback devolveria o Future atribuído, o
     // Flutter recusa setState assim, e o erro sumia em silêncio dentro desta
     // função assíncrona — a tela ficava com o andamento antigo.
-    if (mounted) {
-      setState(() {
-        _resumos = widget.registro.resumos();
-      });
-    }
+    setState(() {
+      _resumos = widget.registro.resumos();
+    });
+  }
+
+  Future<void> _abrirSimulado() async {
+    final unidades = await _unidades;
+    if (!mounted) return;
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaSimulado(unidades: unidades, registro: widget.registro),
+    ));
+    _recarregar();
+  }
+
+  Future<void> _abrirDesempenho() async {
+    final (unidades, resumos, simulados) =
+        await (_unidades, widget.registro.resumos(), widget.registro.simulados()).wait;
+    if (!mounted) return;
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaDesempenho(
+        unidades: unidades,
+        ultimas: ultimasRespostas(resumos),
+        simulados: simulados,
+        registro: widget.registro,
+      ),
+    ));
+    _recarregar();
   }
 
   @override
@@ -94,6 +124,22 @@ class _TelaInicioState extends State<TelaInicio> {
                   _CartaoMateria(materia: m, ultimas: ultimas, aoTocar: () => _abrir(m, ultimas)),
                   const SizedBox(height: 10),
                 ],
+                const SizedBox(height: 18),
+                _Atalho(
+                  chave: 'abrir-simulado',
+                  icone: Icons.timer_outlined,
+                  titulo: 'Simulado da prova objetiva',
+                  subtitulo: 'Questões sorteadas, cronômetro e resultado no fim',
+                  aoTocar: _abrirSimulado,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-desempenho',
+                  icone: Icons.insights_outlined,
+                  titulo: 'Seu desempenho',
+                  subtitulo: 'Acertos, onde reforçar e caderno de erros',
+                  aoTocar: _abrirDesempenho,
+                ),
               ],
             );
           },
@@ -187,6 +233,59 @@ class _CartaoMateria extends StatelessWidget {
                     ),
                   ),
                 ],
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _Atalho extends StatelessWidget {
+  const _Atalho({
+    required this.chave,
+    required this.icone,
+    required this.titulo,
+    required this.subtitulo,
+    required this.aoTocar,
+  });
+
+  final String chave;
+  final IconData icone;
+  final String titulo;
+  final String subtitulo;
+  final VoidCallback aoTocar;
+
+  @override
+  Widget build(BuildContext context) {
+    final esquema = Theme.of(context).colorScheme;
+    return Padding(
+      padding: const EdgeInsets.only(right: 8),
+      child: Material(
+        key: Key(chave),
+        color: esquema.primaryContainer,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: aoTocar,
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Row(
+              children: [
+                Icon(icone, color: esquema.primary),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(titulo, style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600, color: esquema.onSurface)),
+                      const SizedBox(height: 2),
+                      Text(subtitulo, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
+                    ],
+                  ),
+                ),
+                Icon(Icons.chevron_right, color: esquema.onSurfaceVariant),
               ],
             ),
           ),

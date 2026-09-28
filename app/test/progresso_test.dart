@@ -52,6 +52,51 @@ void _contrato(String nome, RegistroDeProgresso Function() criar) {
       expect(resumo.acertos, 1);
     });
 
+    test('simulado entregue volta igual na leitura e entra no resumo', () async {
+      final p = criar();
+      final inicio = DateTime(2026, 12, 1, 9);
+      Resposta r(String id, String escolhida, bool acertou) => Resposta(
+            questaoId: id,
+            unidadeId: 'adm-04',
+            materia: 'adm',
+            escolhida: escolhida,
+            acertou: acertou,
+            usouDica: false,
+            em: inicio.add(const Duration(hours: 1)),
+            origem: OrigemResposta.simulado,
+          );
+      await p.registrarSimulado(ResultadoSimulado(
+        inicio: inicio,
+        duracao: const Duration(hours: 1),
+        tempoPrevisto: const Duration(hours: 5),
+        respostas: [r('adm-0001', 'A', true), r('adm-0002', semResposta, false)],
+      ));
+      await pumpEventQueue();
+
+      final s = (await p.simulados()).single;
+      expect(s.inicio, inicio);
+      expect(s.duracao, const Duration(hours: 1));
+      expect(s.tempoPrevisto, const Duration(hours: 5));
+      expect(s.nota, 50);
+      expect(s.emBranco, 1);
+      expect(s.respostas.first.origem, OrigemResposta.simulado);
+      expect((await p.resumos())['adm-04']!.ultimaPorQuestao, {'adm-0001': true, 'adm-0002': false});
+    });
+
+    test('simulados vêm do mais recente para o mais antigo', () async {
+      final p = criar();
+      for (final dia in [3, 10, 5]) {
+        await p.registrarSimulado(ResultadoSimulado(
+          inicio: DateTime(2026, 11, dia),
+          duracao: Duration.zero,
+          tempoPrevisto: Duration.zero,
+          respostas: const [],
+        ));
+      }
+      await pumpEventQueue();
+      expect((await p.simulados()).map((s) => s.inicio.day), [10, 5, 3]);
+    });
+
     test('responder uma questão não apaga as outras da mesma unidade', () async {
       final p = criar();
       await _registrar(p, _r('adm-0001', true));

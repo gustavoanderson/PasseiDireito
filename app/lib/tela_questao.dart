@@ -607,3 +607,60 @@ class TelaFimSessao extends StatelessWidget {
     );
   }
 }
+
+/// Uma questão já respondida, só para ler: a escolha dela, a correta e a
+/// explicação de todas as alternativas. Usada no caderno de erros e na
+/// revisão do simulado.
+class TelaRevisaoQuestao extends StatelessWidget {
+  const TelaRevisaoQuestao({super.key, required this.questao, required this.nomeDaMateria, this.escolhida});
+
+  final Questao questao;
+  final String nomeDaMateria;
+
+  /// A letra que ela marcou; null quando não se sabe (caderno de erros) ou em branco.
+  final String? escolhida;
+
+  @override
+  Widget build(BuildContext context) {
+    final esquema = Theme.of(context).colorScheme;
+    _EstadoAlternativa estado(String letra) {
+      if (letra == questao.correta) {
+        return letra == escolhida ? _EstadoAlternativa.acertou : _EstadoAlternativa.correta;
+      }
+      return letra == escolhida ? _EstadoAlternativa.errou : _EstadoAlternativa.apagada;
+    }
+
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        title: const Text('Revisão da questão'),
+        actions: const [BotaoTema()],
+      ),
+      body: SafeArea(
+        child: ListView(
+          padding: const EdgeInsets.fromLTRB(20, 6, 20, 24),
+          children: [
+            Wrap(
+              spacing: 8,
+              runSpacing: 6,
+              crossAxisAlignment: WrapCrossAlignment.center,
+              children: [
+                _Etiqueta(nomeDaMateria),
+                Text(questao.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
+              ],
+            ),
+            const SizedBox(height: 16),
+            Text(questao.enunciado, style: Theme.of(context).textTheme.titleLarge),
+            const SizedBox(height: 16),
+            for (final letra in letras) ...[
+              _Alternativa(letra: letra, texto: questao.alternativas[letra]!, estado: estado(letra), aoTocar: () {}),
+              const SizedBox(height: 10),
+            ],
+            const SizedBox(height: 6),
+            _Explicacao(questao: questao),
+          ],
+        ),
+      ),
+    );
+  }
+}
