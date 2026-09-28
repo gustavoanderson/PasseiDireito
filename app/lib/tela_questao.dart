@@ -4,15 +4,16 @@ import 'banco.dart';
 import 'progresso.dart';
 import 'tema.dart';
 
-/// Uma unidade da trilha, questão por questão.
+/// Uma sessão da trilha de uma matéria, questão por questão.
 ///
 /// Regras combinadas com o Gustavo (CLAUDE.md): uma tentativa, correção
 /// imediata com a explicação de todas as alternativas, dica disponível antes
 /// de confirmar, e a aluna segue na trilha mesmo errando.
 class TelaQuestao extends StatefulWidget {
-  const TelaQuestao({super.key, required this.unidade, required this.registro});
+  const TelaQuestao({super.key, required this.nomeDaMateria, required this.questoes, required this.registro});
 
-  final Unidade unidade;
+  final String nomeDaMateria;
+  final List<Questao> questoes;
   final RegistroDeProgresso registro;
 
   @override
@@ -27,9 +28,10 @@ class _TelaQuestaoState extends State<TelaQuestao> {
   // Abrir a dica e fechar de novo ainda conta como ter usado.
   bool _dicaUsada = false;
   int _acertos = 0;
+  bool _terminou = false;
   final _rolagem = ScrollController();
 
-  Questao get _questao => widget.unidade.questoes[_indice];
+  Questao get _questao => widget.questoes[_indice];
   bool get _acertou => _confirmada && _escolhida == _questao.correta;
 
   @override
@@ -51,11 +53,11 @@ class _TelaQuestaoState extends State<TelaQuestao> {
       _dicaAberta = false;
       if (acertou) _acertos++;
     });
-    // Salvo a cada questão: fechar o app no meio da unidade não perde nada.
+    // Salvo a cada questão: fechar o app no meio da sessão não perde nada.
     widget.registro.registrar(Resposta(
       questaoId: _questao.id,
-      unidadeId: widget.unidade.id,
-      materia: widget.unidade.materia,
+      unidadeId: _questao.unidadeId,
+      materia: _questao.materia,
       escolhida: _escolhida!,
       acertou: acertou,
       usouDica: _dicaUsada,
@@ -64,14 +66,12 @@ class _TelaQuestaoState extends State<TelaQuestao> {
   }
 
   void _continuar() {
-    final ultima = _indice == widget.unidade.questoes.length - 1;
+    final ultima = _indice == widget.questoes.length - 1;
     if (ultima) {
-      Navigator.of(context).pushReplacement(MaterialPageRoute(
-        builder: (_) => TelaFimUnidade(
-          unidade: widget.unidade,
-          acertos: _acertos,
-        ),
-      ));
+      // O placar é parte desta tela, e não uma rota que a substitui: assim
+      // "Voltar às matérias" fecha a trilha, e quem a abriu sabe quando
+      // recarregar o andamento.
+      setState(() => _terminou = true);
       return;
     }
     setState(() {
@@ -86,9 +86,12 @@ class _TelaQuestaoState extends State<TelaQuestao> {
 
   @override
   Widget build(BuildContext context) {
+    if (_terminou) {
+      return TelaFimSessao(nomeDaMateria: widget.nomeDaMateria, total: widget.questoes.length, acertos: _acertos);
+    }
     final q = _questao;
     final esquema = Theme.of(context).colorScheme;
-    final total = widget.unidade.questoes.length;
+    final total = widget.questoes.length;
 
     return Scaffold(
       body: SafeArea(
@@ -99,7 +102,7 @@ class _TelaQuestaoState extends State<TelaQuestao> {
               child: Row(
                 children: [
                   IconButton(
-                    tooltip: 'Sair da unidade',
+                    tooltip: 'Sair da trilha',
                     icon: const Icon(Icons.close),
                     color: esquema.onSurfaceVariant,
                     onPressed: () => Navigator.of(context).maybePop(),
@@ -132,7 +135,7 @@ class _TelaQuestaoState extends State<TelaQuestao> {
                     runSpacing: 6,
                     crossAxisAlignment: WrapCrossAlignment.center,
                     children: [
-                      _Etiqueta(widget.unidade.nomeDaMateria),
+                      _Etiqueta(widget.nomeDaMateria),
                       Text(q.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
                     ],
                   ),
@@ -555,16 +558,16 @@ class _RodapeResultado extends StatelessWidget {
   }
 }
 
-class TelaFimUnidade extends StatelessWidget {
-  const TelaFimUnidade({super.key, required this.unidade, required this.acertos});
+class TelaFimSessao extends StatelessWidget {
+  const TelaFimSessao({super.key, required this.nomeDaMateria, required this.total, required this.acertos});
 
-  final Unidade unidade;
+  final String nomeDaMateria;
+  final int total;
   final int acertos;
 
   @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
-    final total = unidade.questoes.length;
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -574,12 +577,12 @@ class TelaFimUnidade extends StatelessWidget {
             children: [
               const Spacer(),
               Text(
-                'Unidade concluída',
+                'Sessão concluída',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontFamily: fonteTitulo, fontSize: 28, fontWeight: FontWeight.w600, color: esquema.onSurface),
               ),
               const SizedBox(height: 8),
-              Text(unidade.titulo, textAlign: TextAlign.center, style: TextStyle(fontSize: 16, color: esquema.onSurfaceVariant)),
+              Text(nomeDaMateria, textAlign: TextAlign.center, style: TextStyle(fontSize: 16, color: esquema.onSurfaceVariant)),
               const SizedBox(height: 32),
               Text(
                 '$acertos de $total',
@@ -595,7 +598,7 @@ class TelaFimUnidade extends StatelessWidget {
                   minimumSize: const Size(0, _alturaBotao),
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                 ),
-                child: const Text('Voltar às trilhas'),
+                child: const Text('Voltar às matérias'),
               ),
             ],
           ),

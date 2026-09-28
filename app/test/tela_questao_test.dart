@@ -7,6 +7,8 @@ import 'package:passeidireito/tema.dart';
 
 Questao _questao(String id, String correta) => Questao(
       id: id,
+      materia: 'adm',
+      unidadeId: 'adm-04',
       tema: 'Tema de teste',
       enunciado: 'Enunciado da questão $id.',
       alternativas: {for (final l in letras) l: 'Texto da alternativa $l de $id'},
@@ -16,13 +18,15 @@ Questao _questao(String id, String correta) => Questao(
       fontes: const [Fonte(referencia: 'Lei 9.784/1999, art. 54')],
     );
 
-final _unidade = Unidade(
-  materia: 'adm',
-  id: 'adm-04',
-  titulo: 'Atos e processo administrativo',
-  itemEdital: 4,
-  questoes: [_questao('adm-0001', 'B'), _questao('adm-0002', 'D')],
-);
+final _sessao = [_questao('adm-0001', 'B'), _questao('adm-0002', 'D')];
+
+Widget _tela(ThemeData tema, RegistroDeProgresso registro) => ControleTema(
+      alternar: (_) {},
+      child: MaterialApp(
+        theme: tema,
+        home: TelaQuestao(nomeDaMateria: 'Direito Administrativo', questoes: _sessao, registro: registro),
+      ),
+    );
 
 Future<ProgressoEmMemoria> _abrir(WidgetTester tester) async {
   final registro = ProgressoEmMemoria();
@@ -30,10 +34,7 @@ Future<ProgressoEmMemoria> _abrir(WidgetTester tester) async {
   tester.view.physicalSize = const Size(1080, 4000);
   tester.view.devicePixelRatio = 2.0;
   addTearDown(tester.view.reset);
-  await tester.pumpWidget(ControleTema(
-    alternar: (_) {},
-    child: MaterialApp(theme: temaClaro(), home: TelaQuestao(unidade: _unidade, registro: registro)),
-  ));
+  await tester.pumpWidget(_tela(temaClaro(), registro));
   return registro;
 }
 
@@ -98,6 +99,12 @@ void main() {
     expect(find.text('SUA RESPOSTA'), findsOneWidget);
   });
 
+  testWidgets('dentro da questão aparecem a matéria e o tema', (tester) async {
+    await _abrir(tester);
+    expect(find.text('DIREITO ADMINISTRATIVO'), findsOneWidget);
+    expect(find.text('Tema de teste'), findsOneWidget);
+  });
+
   testWidgets('a dica some depois de confirmar', (tester) async {
     await _abrir(tester);
     await _tocar(tester, 'botao-dica');
@@ -121,17 +128,14 @@ void main() {
     await tester.tap(find.byKey(const Key('botao-continuar')));
     await tester.pumpAndSettle();
 
-    expect(find.text('Unidade concluída'), findsOneWidget);
+    expect(find.text('Sessão concluída'), findsOneWidget);
     expect(find.text('1 de 2'), findsOneWidget);
   });
 
   testWidgets('a tela abre também no modo escuro', (tester) async {
     tester.view.physicalSize = const Size(1080, 4000);
     addTearDown(tester.view.reset);
-    await tester.pumpWidget(ControleTema(
-      alternar: (_) {},
-      child: MaterialApp(theme: temaEscuro(), home: TelaQuestao(unidade: _unidade, registro: ProgressoEmMemoria())),
-    ));
+    await tester.pumpWidget(_tela(temaEscuro(), ProgressoEmMemoria()));
     await _tocar(tester, 'alternativa-A');
     await _tocar(tester, 'botao-confirmar');
     expect(find.text('Resposta incorreta'), findsOneWidget);

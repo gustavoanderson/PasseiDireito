@@ -4,9 +4,9 @@ import 'banco.dart';
 import 'progresso.dart';
 import 'tela_questao.dart';
 import 'tema.dart';
+import 'trilha.dart';
 
-/// As trilhas: uma lista por matéria, com as unidades na ordem do edital e o
-/// andamento de cada uma.
+/// A tela de entrada: uma linha por matéria. Tocou, começa a trilha.
 class TelaInicio extends StatefulWidget {
   const TelaInicio({
     super.key,
@@ -28,16 +28,27 @@ class TelaInicio extends StatefulWidget {
 }
 
 class _TelaInicioState extends State<TelaInicio> {
-  late final Future<List<Unidade>> _unidades = widget.carregar();
+  late final Future<List<Materia>> _materias = widget.carregar().then(agruparPorMateria);
   late Future<Map<String, ResumoUnidade>> _resumos = widget.registro.resumos();
 
-  Future<void> _abrir(Unidade unidade) async {
-    await Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => TelaQuestao(unidade: unidade, registro: widget.registro)),
-    );
+  Future<void> _abrir(Materia materia, Map<String, bool> ultimas) async {
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaQuestao(
+        nomeDaMateria: materia.nome,
+        questoes: montarSessao(materia.questoes, ultimas),
+        registro: widget.registro,
+      ),
+    ));
     // Na volta, o andamento tem que refletir o que ela acabou de fazer.
     // Progresso que não aparece parece progresso perdido (lição do DevLingo).
-    if (mounted) setState(() => _resumos = widget.registro.resumos());
+    // Chaves, e não seta: com seta o callback devolveria o Future atribuído, o
+    // Flutter recusa setState assim, e o erro sumia em silêncio dentro desta
+    // função assíncrona — a tela ficava com o andamento antigo.
+    if (mounted) {
+      setState(() {
+        _resumos = widget.registro.resumos();
+      });
+    }
   }
 
   @override
@@ -46,19 +57,15 @@ class _TelaInicioState extends State<TelaInicio> {
     return Scaffold(
       body: SafeArea(
         child: FutureBuilder(
-          future: Future.wait([_unidades, _resumos]),
+          future: Future.wait([_materias, _resumos]),
           builder: (context, estado) {
             if (estado.hasError) {
-              return Center(child: Text('Não consegui abrir as trilhas.\n${estado.error}'));
+              return Center(child: Text('Não consegui abrir as matérias.\n${estado.error}'));
             }
             if (!estado.hasData) return const Center(child: CircularProgressIndicator());
 
-            final unidades = estado.data![0] as List<Unidade>;
-            final resumos = estado.data![1] as Map<String, ResumoUnidade>;
-            final porMateria = <String, List<Unidade>>{};
-            for (final u in unidades) {
-              porMateria.putIfAbsent(u.materia, () => []).add(u);
-            }
+            final materias = estado.data![0] as List<Materia>;
+            final ultimas = ultimasRespostas(estado.data![1] as Map<String, ResumoUnidade>);
 
             return ListView(
               padding: const EdgeInsets.fromLTRB(20, 8, 12, 24),
@@ -82,17 +89,10 @@ class _TelaInicioState extends State<TelaInicio> {
                   const SizedBox(height: 16),
                   const _AvisoSemSalvar(),
                 ],
-                for (final entrada in porMateria.entries) ...[
-                  const SizedBox(height: 24),
-                  Text(
-                    nomesDasMaterias[entrada.key]!.toUpperCase(),
-                    style: TextStyle(fontSize: 12, fontWeight: FontWeight.w600, letterSpacing: 0.7, color: esquema.primary),
-                  ),
-                  const SizedBox(height: 8),
-                  for (final u in entrada.value) ...[
-                    _CartaoUnidade(unidade: u, resumo: resumos[u.id], aoTocar: () => _abrir(u)),
-                    const SizedBox(height: 10),
-                  ],
+                const SizedBox(height: 24),
+                for (final m in materias) ...[
+                  _CartaoMateria(materia: m, ultimas: ultimas, aoTocar: () => _abrir(m, ultimas)),
+                  const SizedBox(height: 10),
                 ],
               ],
             );
@@ -126,29 +126,27 @@ class _AvisoSemSalvar extends StatelessWidget {
   }
 }
 
-class _CartaoUnidade extends StatelessWidget {
-  const _CartaoUnidade({required this.unidade, required this.resumo, required this.aoTocar});
+class _CartaoMateria extends StatelessWidget {
+  const _CartaoMateria({required this.materia, required this.ultimas, required this.aoTocar});
 
-  final Unidade unidade;
-  final ResumoUnidade? resumo;
+  final Materia materia;
+  final Map<String, bool> ultimas;
   final VoidCallback aoTocar;
 
   @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
-    final total = unidade.questoes.length;
-    // Conta só questões que ainda existem na unidade: id aposentado não infla o número.
-    final ids = {for (final q in unidade.questoes) q.id};
-    final feitas = resumo?.ultimaPorQuestao.keys.where(ids.contains).length ?? 0;
-    final acertos = resumo?.ultimaPorQuestao.entries.where((e) => ids.contains(e.key) && e.value).length ?? 0;
-    final andamento = feitas == 0
-        ? 'Item ${unidade.itemEdital} do edital · $total questões'
-        : '$feitas de $total feitas · $acertos acertos';
+    final total = materia.questoes.length;
+    // Só conta questões que existem hoje: id aposentado não infla o número.
+    final respondidas = [for (final q in materia.questoes) if (ultimas.containsKey(q.id)) ultimas[q.id]!];
+    final feitas = respondidas.length;
+    final acertos = respondidas.where((a) => a).length;
+    final andamento = feitas == 0 ? (total == 1 ? '1 questão' : '$total questões') : '$feitas de $total feitas · $acertos acertos';
 
     return Padding(
       padding: const EdgeInsets.only(right: 8),
       child: Material(
-        key: Key('unidade-${unidade.id}'),
+        key: Key('materia-${materia.codigo}'),
         color: esquema.surface,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(12),
@@ -168,7 +166,7 @@ class _CartaoUnidade extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(unidade.titulo, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
+                          Text(materia.nome, style: const TextStyle(fontSize: 17, fontWeight: FontWeight.w600)),
                           const SizedBox(height: 4),
                           Text(andamento, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
                         ],
@@ -177,7 +175,7 @@ class _CartaoUnidade extends StatelessWidget {
                     Icon(Icons.chevron_right, color: esquema.onSurfaceVariant),
                   ],
                 ),
-                if (feitas > 0 && total > 0) ...[
+                if (feitas > 0) ...[
                   const SizedBox(height: 10),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(3),

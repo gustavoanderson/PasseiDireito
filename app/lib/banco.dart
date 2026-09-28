@@ -36,6 +36,8 @@ class Fonte {
 class Questao {
   const Questao({
     required this.id,
+    required this.materia,
+    required this.unidadeId,
     required this.tema,
     required this.enunciado,
     required this.alternativas,
@@ -46,6 +48,11 @@ class Questao {
   });
 
   final String id;
+
+  /// Código da matéria e unidade de origem. A Flávia não vê a unidade: ela
+  /// organiza o banco por item do edital e é onde o progresso é resumido.
+  final String materia;
+  final String unidadeId;
   final String tema;
   final String enunciado;
   final Map<String, String> alternativas;
@@ -54,8 +61,10 @@ class Questao {
   final Map<String, String> explicacao;
   final List<Fonte> fontes;
 
-  factory Questao.deJson(Map<String, dynamic> json) => Questao(
+  factory Questao.deJson(Map<String, dynamic> json, {required String materia, required String unidadeId}) => Questao(
         id: json['id'] as String,
+        materia: materia,
+        unidadeId: unidadeId,
         tema: json['tema'] as String,
         enunciado: json['enunciado'] as String,
         alternativas: Map<String, String>.from(json['alternativas'] as Map),
@@ -87,13 +96,16 @@ class Unidade {
 
   factory Unidade.deJson(Map<String, dynamic> json) {
     final unidade = json['unidade'] as Map<String, dynamic>;
+    final materia = json['materia'] as String;
+    final id = unidade['id'] as String;
     return Unidade(
-      materia: json['materia'] as String,
-      id: unidade['id'] as String,
+      materia: materia,
+      id: id,
       titulo: unidade['titulo'] as String,
       itemEdital: unidade['itemEdital'] as int,
       questoes: [
-        for (final q in json['questoes'] as List) Questao.deJson(q as Map<String, dynamic>),
+        for (final q in json['questoes'] as List)
+          Questao.deJson(q as Map<String, dynamic>, materia: materia, unidadeId: id),
       ],
     );
   }

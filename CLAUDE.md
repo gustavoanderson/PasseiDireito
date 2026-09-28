@@ -71,6 +71,16 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
 - **IDs são imutáveis.** O progresso da aluna aponta para eles.
 - Explicações são escritas a partir da fonte oficial, nunca copiadas de comentários de cursinho.
 
+## Navegação: matéria, e nada de assunto na escolha
+
+Regra do Gustavo (28/09/2026), dita com ênfase: **a tela inicial mostra só as matérias.** Tocou em "Direito Administrativo", a trilha começa direto na pergunta. O **tema aparece só dentro da questão**. No **simulado, nem tema nem matéria** aparecem na tela.
+
+As unidades dos arquivos (`adm-04`, `adm-07`...) existem para organizar o banco por item do edital e medir cobertura. **Nunca viram tela.**
+
+Cada entrada na trilha é uma **sessão de 10 questões** ([app/lib/trilha.dart](app/lib/trilha.dart)): primeiro as inéditas, na ordem do edital; depois as erradas; se acertou tudo, as acertadas. O placar da sessão é parte da própria tela de questão, e não uma rota que a substitui, para "Voltar às matérias" fechar a trilha e a tela inicial saber quando recarregar.
+
+**Defeito já cometido aqui:** `setState(() => _x = umFuture())` devolve o Future atribuído; o Flutter recusa esse setState com um erro que, dentro de função `async` disparada por toque, some em silêncio. A tela não redesenhava o andamento ao voltar da trilha. Use chaves quando o valor atribuído for um Future.
+
 ## Progresso
 
 Cada resposta de trilha é gravada na hora ([app/lib/progresso.dart](app/lib/progresso.dart)). As telas dependem da interface `RegistroDeProgresso`; os testes usam `ProgressoEmMemoria`.
