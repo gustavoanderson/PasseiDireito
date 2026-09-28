@@ -1,0 +1,37 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-03",
+    "titulo": "Advocacia pública e responsabilidade do parecerista",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "adm-0007",
+      "tema": "Parecer jurídico – responsabilidade e defesa do agente",
+      "enunciado": "A respeito da responsabilidade de quem emite opinião técnica e da proteção do agente público que decide conforme orientação jurídica, considerando a LINDB e a Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Pela LINDB, o agente público responde pessoalmente por suas decisões ou opiniões técnicas sempre que agir com culpa, ainda que leve.",
+        "B": "A representação judicial do agente pela advocacia pública, prevista na Lei nº 14.133/2021, é obrigatória e independe da vontade do agente.",
+        "C": "A representação pela advocacia pública é assegurada ao agente mesmo quando constarem dos autos provas da prática de atos ilícitos dolosos.",
+        "D": "O parecerista jurídico nunca pode ser responsabilizado por suas opiniões, em razão da inviolabilidade do advogado no exercício da profissão.",
+        "E": "Se o agente precisar defender-se em razão de ato praticado com estrita observância de parecer jurídico, a advocacia pública promoverá, a critério dele, sua representação, ainda que ele não ocupe mais o cargo em que praticou o ato."
+      },
+      "correta": "E",
+      "dica": "Dois dispositivos se completam aqui: o art. 28 da LINDB fixa o grau de culpa que gera responsabilidade pessoal, e o art. 10 da Lei 14.133 trata de quem seguiu o parecer. Repare em quem decide se haverá a representação.",
+      "explicacao": {
+        "E": "Correta. É a combinação do caput do art. 10 da Lei 14.133/2021 com o seu § 2º: quando o agente precisa se defender por ato praticado com estrita observância de parecer jurídico elaborado na forma do § 1º do art. 53, a advocacia pública promove, a critério do agente, sua representação judicial ou extrajudicial, inclusive se ele já não ocupa o cargo, emprego ou função.",
+        "A": "O art. 28 da LINDB (incluído pela Lei 13.655/2018) exige dolo ou erro grosseiro para a responsabilidade pessoal do agente por suas decisões ou opiniões técnicas. Culpa leve não basta.",
+        "B": "O caput do art. 10 diz que a representação ocorre \"a critério do agente público\". É uma garantia que ele pode aceitar ou recusar, preferindo advogado próprio.",
+        "C": "O § 1º, II, do art. 10 afasta a garantia justamente quando provas da prática de atos ilícitos dolosos constarem dos autos do processo administrativo ou judicial.",
+        "D": "A inviolabilidade do advogado não é absoluta. O art. 28 da LINDB admite a responsabilização pessoal por opiniões técnicas em caso de dolo ou erro grosseiro, e isso alcança o parecerista."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 28, incluído pela Lei 13.655/2018", "data": "2018-04-25" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 10", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

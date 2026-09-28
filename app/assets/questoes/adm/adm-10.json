@@ -1,0 +1,38 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-10",
+    "titulo": "Bens e serviços públicos",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "adm-0009",
+      "tema": "Bens públicos – classificação e regime jurídico",
+      "enunciado": "Acerca do regime jurídico dos bens públicos no Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os bens de uso especial podem ser alienados livremente, ainda que continuem afetados ao serviço público.",
+        "B": "Os bens dominicais, por não estarem afetados a uma finalidade pública, podem ser adquiridos por usucapião.",
+        "C": "O uso comum dos bens públicos é sempre gratuito, vedada qualquer retribuição.",
+        "D": "Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.",
+        "E": "Os edifícios destinados a serviço de autarquia municipal classificam-se como bens de uso comum do povo."
+      },
+      "correta": "D",
+      "dica": "A afetação é o que trava a alienação. Pense em qual categoria de bem público não está afetada, e lembre que nenhuma delas pode ser usucapida.",
+      "explicacao": {
+        "D": "Correta. É o art. 101 do Código Civil: os bens públicos dominicais podem ser alienados, observadas as exigências da lei (autorização legislativa, avaliação e licitação, conforme o caso).",
+        "A": "Pelo art. 100 do CC, os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem essa qualificação. Para aliená-los, é preciso antes desafetá-los.",
+        "B": "Nenhum bem público se sujeita a usucapião, inclusive os dominicais. É o art. 102 do CC, em linha com os arts. 183, § 3º, e 191, parágrafo único, da CF e com a Súmula 340 do STF.",
+        "C": "O art. 103 do CC diz que o uso comum dos bens públicos pode ser gratuito ou retribuído, conforme estabelecido legalmente pela entidade a que pertencem. Um exemplo é o estacionamento rotativo pago em via pública.",
+        "E": "Edifícios destinados a serviço ou estabelecimento da Administração, inclusive de suas autarquias, são bens de uso especial (art. 99, II, do CC). Bens de uso comum do povo são, por exemplo, rios, ruas e praças (art. 99, I)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 99 a 103", "data": "2002-01-10" },
+        { "tipo": "constituicao", "referencia": "CF, arts. 183, § 3º, e 191, parágrafo único", "data": "1988-10-05" },
+        { "tipo": "sumula", "referencia": "Súmula 340/STF", "data": "1963-12-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

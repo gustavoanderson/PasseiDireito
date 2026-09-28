@@ -1,0 +1,63 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-15",
+    "titulo": "Improbidade administrativa e Lei Anticorrupção",
+    "itemEdital": 15
+  },
+  "questoes": [
+    {
+      "id": "adm-0004",
+      "tema": "Lei 14.230/2021 – aplicação no tempo (Tema 1199/STF)",
+      "enunciado": "Acerca da aplicação no tempo das alterações promovidas pela Lei nº 14.230/2021 na Lei de Improbidade Administrativa, conforme a tese fixada pelo Supremo Tribunal Federal no Tema 1199 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A revogação da modalidade culposa de improbidade retroage para desconstituir as condenações por ato culposo já transitadas em julgado.",
+        "B": "O novo prazo prescricional de oito anos e as regras de prescrição intercorrente aplicam-se retroativamente a todos os processos em curso.",
+        "C": "Após a Lei nº 14.230/2021, admite-se a configuração do ato de improbidade que causa lesão ao erário (art. 10) por culpa grave.",
+        "D": "O condenado por ato culposo, com trânsito em julgado, pode obter a extinção das penas na fase de execução com fundamento na lei nova.",
+        "E": "A lei nova aplica-se aos atos culposos praticados na vigência do texto anterior e ainda sem condenação transitada em julgado, devendo o juízo analisar eventual dolo do agente."
+      },
+      "correta": "E",
+      "dica": "O STF separou três situações: processo ainda sem trânsito em julgado, condenação já transitada e prazos de prescrição. A lei nova só alcança uma delas.",
+      "explicacao": {
+        "E": "Correta. É o item 3 da tese do Tema 1199 (ARE 843.989, julgado em 18/08/2022): a Lei 14.230/2021 aplica-se aos atos culposos praticados na vigência do texto anterior, porém sem condenação transitada em julgado, em razão da revogação expressa da modalidade culposa, cabendo ao juízo analisar eventual dolo do agente.",
+        "A": "Contraria o item 2 da tese: a norma benéfica que revogou a modalidade culposa é irretroativa por força do art. 5º, XXXVI, da CF e não incide sobre a eficácia da coisa julgada.",
+        "B": "Contraria o item 4 da tese: o novo regime prescricional é irretroativo, e os novos marcos temporais se aplicam a partir da publicação da Lei 14.230/2021 (26/10/2021).",
+        "C": "Contraria o item 1 da tese e o art. 1º, § 1º, da Lei 8.429/1992: só há improbidade com dolo, inclusive no art. 10. O § 2º define o dolo como a vontade livre e consciente de alcançar o resultado ilícito, não bastando a voluntariedade do agente. Culpa, ainda que grave, não basta.",
+        "D": "Contraria o item 2 da tese: a revogação da modalidade culposa não incide sobre a coisa julgada nem durante o processo de execução das penas e seus incidentes."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1199 (ARE 843.989)", "data": "2022-08-18" },
+        { "tipo": "lei", "referencia": "Lei 8.429/1992, art. 1º, §§ 1º e 2º (Lei 14.230/2021)", "data": "2021-10-25" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XXXVI", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0005",
+      "tema": "Prescrição na ação de improbidade",
+      "enunciado": "Com base no art. 23 da Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ação para aplicação das sanções pode ser proposta até cinco anos após o término do exercício de mandato, de cargo em comissão ou de função de confiança.",
+        "B": "A instauração de inquérito civil interrompe o prazo prescricional, que recomeça a correr por inteiro após a conclusão do inquérito.",
+        "C": "A ação para a aplicação das sanções prescreve em oito anos, contados a partir da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.",
+        "D": "O inquérito civil para apuração do ato de improbidade deve ser concluído em 180 dias, prazo improrrogável.",
+        "E": "A publicação de sentença de improcedência interrompe o prazo prescricional."
+      },
+      "correta": "C",
+      "dica": "A Lei 14.230/2021 trocou os marcos ligados ao cargo por um prazo único contado do fato. Lembre também a diferença entre suspender e interromper.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do caput do art. 23 na redação da Lei 14.230/2021: prazo único de oito anos, contado da ocorrência do fato ou, nas infrações permanentes, do dia em que cessou a permanência.",
+        "A": "Era a regra do antigo inciso I do art. 23, revogado pela Lei 14.230/2021. O prazo deixou de depender do término do mandato ou do cargo e passou a ser de oito anos contados do fato.",
+        "B": "O § 1º do art. 23 fala em suspensão, não em interrupção: a instauração de inquérito civil ou de processo administrativo suspende o prazo por, no máximo, 180 dias corridos, e ele recomeça a correr após a conclusão ou quando esgotado o prazo de suspensão. Na suspensão o prazo continua de onde parou; não volta ao início.",
+        "D": "Pelo § 2º do art. 23, o inquérito civil deve ser concluído em 365 dias corridos, prorrogável uma única vez por igual período, mediante ato fundamentado. O número 180 aparece no § 1º, como limite da suspensão da prescrição, e é uma pegadinha comum.",
+        "E": "O § 4º, II, do art. 23 fala em publicação de sentença condenatória. Sentença de improcedência não interrompe a prescrição; os incisos III a V tratam de acórdãos que confirmam condenação ou reformam improcedência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.429/1992, art. 23, caput e §§ 1º, 2º e 4º (Lei 14.230/2021)", "data": "2021-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

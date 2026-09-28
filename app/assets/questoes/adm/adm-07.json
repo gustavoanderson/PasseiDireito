@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-07",
+    "titulo": "Licitações e contratos administrativos",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "adm-0002",
+      "tema": "Contratação direta – instrução do processo",
+      "enunciado": "Com base no art. 72 da Lei nº 14.133/2021, o processo de contratação direta, que compreende os casos de inexigibilidade e de dispensa de licitação, deverá ser instruído com determinados documentos. Assinale a alternativa que apresenta providência NÃO exigida pelo dispositivo.",
+      "alternativas": {
+        "A": "Parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos.",
+        "B": "Razão da escolha do contratado.",
+        "C": "Demonstração da compatibilidade da previsão de recursos orçamentários com o compromisso a ser assumido.",
+        "D": "Publicação de aviso em jornal de grande circulação, com antecedência mínima de oito dias úteis, para recebimento de propostas de outros interessados.",
+        "E": "Justificativa de preço."
+      },
+      "correta": "D",
+      "dica": "O art. 72 tem oito incisos, todos voltados a documentar a decisão dentro do processo. Procure a alternativa que traz uma exigência de publicidade que o artigo não prevê.",
+      "explicacao": {
+        "A": "Exigido. É o inciso III do art. 72: parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos. Atenção: o parecer jurídico não é opcional; o \"se for o caso\" se refere aos pareceres técnicos.",
+        "B": "Exigido. É o inciso VI do art. 72. Como não há disputa entre licitantes, o processo precisa mostrar por que aquele fornecedor, e não outro, foi o escolhido — é o que protege a impessoalidade na contratação direta.",
+        "C": "Exigido. É o inciso IV do art. 72. Sem a demonstração de que há recurso orçamentário compatível, a Administração assumiria um compromisso que talvez não possa pagar.",
+        "D": "É a resposta: o art. 72 não exige aviso em jornal nem prazo para outras propostas. Os documentos exigidos são os dos incisos I a VIII (demanda e estudos, estimativa de despesa, pareceres, compatibilidade orçamentária, habilitação do contratado, razão da escolha, justificativa de preço e autorização da autoridade). A publicidade que o artigo exige está no parágrafo único: o ato que autoriza a contratação direta ou o extrato do contrato deve ser divulgado e mantido à disposição do público em sítio eletrônico oficial.",
+        "E": "Exigido. É o inciso VII do art. 72. Não basta estimar a despesa (inciso II): é preciso justificar por que o preço contratado é adequado."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 72", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0003",
+      "tema": "Modalidades de licitação",
+      "enunciado": "Considerando o disposto no art. 28 da Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "São modalidades de licitação o pregão, a concorrência, o concurso, o leilão e o diálogo competitivo, sendo vedada a criação de outras modalidades ou a combinação daquelas previstas.",
+        "B": "A tomada de preços e o convite foram mantidos pela nova lei para as contratações de menor vulto dos Municípios.",
+        "C": "A Administração pode combinar duas modalidades de licitação quando o objeto for complexo, desde que justifique a escolha no estudo técnico preliminar.",
+        "D": "O credenciamento e o sistema de registro de preços integram o rol de modalidades de licitação do art. 28.",
+        "E": "Estados e Municípios podem criar, por lei própria, modalidades de licitação adicionais para atender às peculiaridades locais."
+      },
+      "correta": "A",
+      "dica": "Conte as modalidades do art. 28 e leia com atenção o § 2º: ele fecha a porta para qualquer novidade.",
+      "explicacao": {
+        "A": "Correta. É a combinação do caput do art. 28 (pregão, concorrência, concurso, leilão e diálogo competitivo) com o seu § 2º, que veda expressamente a criação de outras modalidades e a combinação das existentes. O rol é taxativo.",
+        "B": "A Lei 14.133/2021 não prevê tomada de preços nem convite. Essas modalidades existiam na Lei 8.666/1993 e desapareceram no novo regime: não estão no rol do art. 28, que é taxativo.",
+        "C": "O § 2º do art. 28 veda a combinação das modalidades previstas no caput. Não há justificativa, nem no estudo técnico preliminar, capaz de afastar uma vedação legal expressa.",
+        "D": "Credenciamento e sistema de registro de preços não são modalidades: são procedimentos auxiliares, previstos no art. 78, dos quais a Administração pode se servir, como diz o § 1º do art. 28.",
+        "E": "O § 2º do art. 28 veda a criação de outras modalidades. Além disso, normas gerais de licitação são de competência privativa da União (art. 22, XXVII, da CF): o ente local regulamenta, mas não cria modalidade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 28 e 78", "data": "2021-04-01" },
+        { "tipo": "constituicao", "referencia": "CF, art. 22, XXVII", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

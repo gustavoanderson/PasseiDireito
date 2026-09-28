@@ -67,6 +67,40 @@ class Cores extends ThemeExtension<Cores> {
   Cores lerp(ThemeExtension<Cores>? other, double t) => this;
 }
 
+/// Dá a qualquer tela o botão de lua/sol sem passar callback de mão em mão.
+class ControleTema extends InheritedWidget {
+  const ControleTema({super.key, required this.alternar, required super.child});
+
+  final void Function(Brightness atual) alternar;
+
+  static void alternarEm(BuildContext context) {
+    context.getInheritedWidgetOfExactType<ControleTema>()!.alternar(Theme.of(context).brightness);
+  }
+
+  @override
+  bool updateShouldNotify(ControleTema oldWidget) => false;
+}
+
+/// O botão de lua/sol do cabeçalho. Lua no claro (vai para o escuro), sol no escuro.
+class BotaoTema extends StatelessWidget {
+  const BotaoTema({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final escuro = Theme.of(context).brightness == Brightness.dark;
+    return IconButton(
+      key: const Key('botao-tema'),
+      tooltip: escuro ? 'Usar modo claro' : 'Usar modo escuro',
+      icon: Icon(escuro ? Icons.light_mode_outlined : Icons.dark_mode_outlined),
+      color: Theme.of(context).colorScheme.onSurfaceVariant,
+      onPressed: () => ControleTema.alternarEm(context),
+    );
+  }
+}
+
+const fonteTexto = 'IBMPlexSans';
+const fonteTitulo = 'SourceSerif4';
+
 ThemeData temaClaro() => _tema(
       brilho: Brightness.light,
       fundo: const Color(0xFFF5F4F0),
@@ -122,6 +156,7 @@ ThemeData _tema({
   );
   return ThemeData(
     colorScheme: esquema,
+    fontFamily: fonteTexto,
     scaffoldBackgroundColor: fundo,
     // Leitura em primeiro lugar: enunciado a 18 e alternativas a 16, como no mockup.
     textTheme: const TextTheme(

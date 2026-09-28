@@ -1,0 +1,37 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-14",
+    "titulo": "Responsabilidade civil do Estado",
+    "itemEdital": 14
+  },
+  "questoes": [
+    {
+      "id": "adm-0006",
+      "tema": "Legitimidade passiva do agente público (Tema 940/STF)",
+      "enunciado": "Servidor efetivo do Município de Curitiba, conduzindo veículo oficial em serviço, colide com automóvel particular. O proprietário do automóvel ajuíza ação indenizatória exclusivamente contra o servidor. À luz do art. 37, § 6º, da Constituição Federal e da tese fixada pelo STF no Tema 940 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O servidor é parte ilegítima para figurar no polo passivo; a ação deve ser proposta contra o Município, assegurado o direito de regresso contra o servidor nos casos de dolo ou culpa.",
+        "B": "A vítima pode escolher livremente se demanda o Município, o servidor ou ambos em litisconsórcio passivo.",
+        "C": "O Município responde subjetivamente, cabendo à vítima provar a culpa do servidor para obter a indenização.",
+        "D": "O direito de regresso do Município contra o servidor independe da demonstração de dolo ou culpa.",
+        "E": "O Município só responde se ficar demonstrado que o servidor não tem patrimônio suficiente para indenizar a vítima."
+      },
+      "correta": "A",
+      "dica": "O § 6º do art. 37 dá duas garantias: uma à vítima, contra o Estado, e outra ao servidor, que só responde perante o próprio Estado.",
+      "explicacao": {
+        "A": "Correta. É a tese do Tema 940 (RE 1.027.633, julgado em 14/08/2019): a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+        "B": "Era a posição que admitia a escolha pela vítima, superada pelo Tema 940. O STF adotou a chamada dupla garantia: a vítima tem a garantia de litigar contra o Estado, que responde objetivamente, e o servidor tem a garantia de só responder, em regresso, perante o ente ao qual está vinculado.",
+        "C": "O art. 37, § 6º, consagra a responsabilidade objetiva do Estado por atos comissivos de seus agentes (teoria do risco administrativo): a vítima prova conduta, dano e nexo causal, sem precisar demonstrar culpa.",
+        "D": "O regresso exige dolo ou culpa do agente. É o que diz a parte final do art. 37, § 6º, e o que repete a tese do Tema 940. A responsabilidade do servidor é subjetiva.",
+        "E": "A responsabilidade do Estado é direta e objetiva, não subsidiária. Não depende da situação patrimonial do servidor nem de ter a vítima tentado cobrar dele primeiro."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 940 (RE 1.027.633)", "data": "2019-08-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

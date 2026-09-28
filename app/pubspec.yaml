@@ -22,3 +22,17 @@ flutter:
   # cada arquivo antes de ele entrar aqui.
   assets:
     - assets/questoes/adm/
+
+  # Embutidas para funcionar offline. Licença OFL, em assets/fontes/.
+  fonts:
+    - family: IBMPlexSans
+      fonts:
+        - asset: assets/fontes/IBMPlexSans-Regular.ttf
+        - asset: assets/fontes/IBMPlexSans-Medium.ttf
+          weight: 500
+        - asset: assets/fontes/IBMPlexSans-SemiBold.ttf
+          weight: 600
+    - family: SourceSerif4
+      fonts:
+        - asset: assets/fontes/SourceSerif4-Semibold.ttf
+          weight: 600

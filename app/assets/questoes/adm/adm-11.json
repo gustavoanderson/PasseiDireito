@@ -1,0 +1,36 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-11",
+    "titulo": "Poder de polícia e intervenção do Estado",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "adm-0010",
+      "tema": "Delegação do poder de polícia (Tema 532/STF)",
+      "enunciado": "Um Município pretende atribuir a empresa estatal a fiscalização do trânsito, inclusive a aplicação de multas. Conforme a tese fixada pelo Supremo Tribunal Federal no Tema 532 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A delegação pode ser feita por decreto do Chefe do Poder Executivo, dispensada a edição de lei.",
+        "B": "É constitucional a delegação, por meio de lei, a pessoa jurídica de direito privado integrante da Administração indireta, de capital social majoritariamente público, que preste exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+        "C": "A delegação é admitida para sociedade de economia mista que explore atividade econômica em regime de livre concorrência, desde que o Município detenha o controle acionário.",
+        "D": "O poder de polícia pode ser delegado a empresa privada sem vínculo com a Administração, mediante contrato de concessão precedido de licitação.",
+        "E": "O STF vedou qualquer delegação do poder de polícia a pessoa jurídica de direito privado, por ser atividade típica de Estado."
+      },
+      "correta": "B",
+      "dica": "A tese do STF é uma lista de requisitos que precisam estar todos presentes. Confira: o veículo da delegação, quem é o delegatário, a composição do capital e o tipo de atividade.",
+      "explicacao": {
+        "B": "Correta. É a tese do Tema 532 (RE 633.782, caso BHTrans, julgado em 26/10/2020): é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+        "A": "A tese exige que a delegação seja feita por meio de lei. Decreto não basta.",
+        "C": "A tese exige regime não concorrencial e prestação exclusiva de serviço público de atuação própria do Estado. Estatal que explora atividade econômica em concorrência não preenche os requisitos, ainda que o Município detenha o controle.",
+        "D": "O delegatário precisa integrar a Administração indireta e ter capital majoritariamente público. Empresa privada sem vínculo com a Administração, por contrato de concessão, está fora da tese.",
+        "E": "O STF não vedou toda delegação. Ao contrário, admitiu-a, desde que presentes os requisitos da tese. No caso concreto, validou a aplicação de multas de trânsito pela BHTrans, sociedade de economia mista."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 532 (RE 633.782)", "data": "2020-10-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-13",
+    "titulo": "Agentes públicos e concurso público",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "adm-0011",
+      "tema": "Concurso público – direito à nomeação e provimento",
+      "enunciado": "Sobre concurso público e provimento de cargos, à luz da Constituição Federal e da jurisprudência do Supremo Tribunal Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O candidato aprovado dentro do número de vagas previsto no edital possui direito subjetivo à nomeação, que deve ocorrer durante o prazo de validade do certame.",
+        "B": "O surgimento de novas vagas durante o prazo de validade do concurso gera, automaticamente, direito à nomeação dos candidatos aprovados fora das vagas previstas no edital.",
+        "C": "É válida lei municipal que permita ao servidor efetivo ingressar, sem novo concurso, em cargo de outra carreira, desde que de mesma escolaridade.",
+        "D": "A exigência de exame psicotécnico para habilitação de candidato a cargo público pode decorrer apenas de previsão no edital.",
+        "E": "O prazo de validade do concurso público é de até quatro anos, prorrogável uma vez por igual período."
+      },
+      "correta": "A",
+      "dica": "O STF diferencia quem foi aprovado dentro das vagas do edital de quem ficou fora delas. Para os demais itens, lembre das súmulas vinculantes sobre provimento e psicotécnico e do art. 37, III, da CF.",
+      "explicacao": {
+        "A": "Correta. É a tese do Tema 161 (RE 598.099, julgado em 10/08/2011): o candidato aprovado dentro do número de vagas previsto no edital tem direito subjetivo à nomeação. A Administração escolhe o momento da nomeação, mas ela deve ocorrer dentro do prazo de validade do concurso.",
+        "B": "Contraria o Tema 784 (RE 837.311): o surgimento de novas vagas, ou a abertura de novo concurso durante a validade do anterior, não gera automaticamente direito à nomeação dos aprovados fora das vagas, salvo preterição arbitrária e imotivada pela Administração.",
+        "C": "Contraria a Súmula Vinculante 43: é inconstitucional toda modalidade de provimento que permita ao servidor investir-se, sem prévia aprovação em concurso destinado ao seu provimento, em cargo que não integra a carreira na qual foi anteriormente investido.",
+        "D": "Contraria a Súmula Vinculante 44: só por lei se pode sujeitar a exame psicotécnico a habilitação de candidato a cargo público. Previsão apenas no edital não basta.",
+        "E": "O art. 37, III, da CF fixa prazo de validade de até dois anos, prorrogável uma vez por igual período. É o que se vê no próprio edital da PGM Curitiba (item 1.3)."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 161 (RE 598.099)", "data": "2011-08-10" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 784 (RE 837.311)", "data": "2015-12-09" },
+        { "tipo": "sumula-vinculante", "referencia": "Súmulas Vinculantes 43 e 44/STF", "data": "2015-04-08" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, III", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

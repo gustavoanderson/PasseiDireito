@@ -1,0 +1,37 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-12",
+    "titulo": "Intervenção do Estado na propriedade e desapropriação",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "adm-0008",
+      "tema": "Desapropriação – caducidade da declaração",
+      "enunciado": "Quanto aos prazos de caducidade da declaração expropriatória e aos prazos correlatos previstos no Decreto-Lei nº 3.365/1941 e na Lei nº 4.132/1962, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A declaração de utilidade pública e a declaração de interesse social caducam no mesmo prazo de cinco anos.",
+        "B": "Na desapropriação por interesse social, o expropriante tem cinco anos para efetivá-la, sem qualquer outra exigência.",
+        "C": "Na desapropriação por utilidade pública, o decreto caduca se a desapropriação não se efetivar em cinco anos de sua expedição, e somente decorrido um ano o mesmo bem poderá ser objeto de nova declaração.",
+        "D": "Caducado o decreto de utilidade pública, o mesmo bem pode ser imediatamente objeto de nova declaração.",
+        "E": "Extingue-se em dez anos o direito de propor ação que vise à indenização por restrições decorrentes de atos do Poder Público."
+      },
+      "correta": "C",
+      "dica": "Os dois diplomas usam prazos diferentes, e um deles traz uma espécie de \"quarentena\" antes de uma nova declaração sobre o mesmo bem.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do art. 10 do Decreto-Lei 3.365/1941: a desapropriação deve efetivar-se por acordo ou ser intentada judicialmente em cinco anos da expedição do decreto, findos os quais ele caduca; e, nesse caso, somente decorrido um ano o mesmo bem pode ser objeto de nova declaração.",
+        "A": "Os prazos são diferentes. Utilidade pública: cinco anos (art. 10 do DL 3.365/1941). Interesse social: dois anos (art. 3º da Lei 4.132/1962).",
+        "B": "O art. 3º da Lei 4.132/1962 dá dois anos, contados da decretação, e exige mais do que efetivar a desapropriação: o expropriante deve também iniciar as providências de aproveitamento do bem nesse prazo.",
+        "D": "O art. 10 do DL 3.365/1941 impõe o intervalo de um ano após a caducidade para que o mesmo bem possa ser objeto de nova declaração.",
+        "E": "O prazo é de cinco anos, pelo parágrafo único do art. 10 do DL 3.365/1941 (incluído pela MP 2.183-56/2001)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, art. 10", "data": "1941-06-21" },
+        { "tipo": "lei", "referencia": "Lei 4.132/1962, art. 3º", "data": "1962-09-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
