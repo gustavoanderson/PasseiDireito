@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'banco.dart';
+import 'logo.dart';
 import 'progresso.dart';
 import 'tela_desempenho.dart';
 import 'tela_questao.dart';
@@ -102,6 +103,8 @@ class _TelaInicioState extends State<TelaInicio> {
               children: [
                 Row(
                   children: [
+                    const LogoPasseiDireito(tamanho: 44),
+                    const SizedBox(width: 10),
                     Expanded(
                       child: Text(
                         'PasseiDireito',

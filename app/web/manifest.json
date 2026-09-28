@@ -1,11 +1,11 @@
 {
-    "name": "passeidireito",
-    "short_name": "passeidireito",
+    "name": "PasseiDireito",
+    "short_name": "PasseiDireito",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#F5F4F0",
+    "theme_color": "#1F3A5F",
+    "description": "Estudo para o concurso de Procurador do Município de Curitiba (Edital 6/2026)",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

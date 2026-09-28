@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'logo.dart';
 import 'tema.dart';
 
 /// Entrada com e-mail e senha. A conta da Flávia é criada no console do
@@ -65,6 +66,8 @@ class _TelaLoginState extends State<TelaLogin> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
+                    const Center(child: LogoPasseiDireito(tamanho: 120)),
+                    const SizedBox(height: 16),
                     Text(
                       'PasseiDireito',
                       style: TextStyle(fontFamily: fonteTitulo, fontSize: 30, fontWeight: FontWeight.w600, color: esquema.onSurface),
