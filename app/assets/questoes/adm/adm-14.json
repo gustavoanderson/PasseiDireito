@@ -32,6 +32,58 @@
         { "tipo": "repercussao-geral", "referencia": "STF, Tema 940 (RE 1.027.633)", "data": "2019-08-14" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0048",
+      "tema": "Responsabilidade do contratado e encargos trabalhistas (Lei 14.133/2021)",
+      "enunciado": "O Município de Curitiba contratou empresa para prestar serviços contínuos de limpeza com regime de dedicação exclusiva de mão de obra. Durante a execução, um empregado da contratada causou dano a um munícipe, e a empresa deixou de pagar verbas trabalhistas. À luz dos arts. 120 e 121 da Lei nº 14.133/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A fiscalização exercida pelo Município exclui a responsabilidade da contratada pelos danos causados a terceiros na execução do contrato.",
+        "B": "A inadimplência da contratada quanto aos encargos trabalhistas transfere automaticamente ao Município a responsabilidade pelo seu pagamento, em qualquer contrato administrativo.",
+        "C": "O Município responde solidariamente pelos encargos trabalhistas e subsidiariamente pelos previdenciários, independentemente de falha na fiscalização.",
+        "D": "Os valores depositados em conta vinculada para garantir as obrigações trabalhistas podem ser penhorados para satisfazer credores da contratada.",
+        "E": "Nesse tipo de contratação, o Município responde solidariamente pelos encargos previdenciários e subsidiariamente pelos encargos trabalhistas, se comprovada falha na fiscalização do cumprimento das obrigações do contratado."
+      },
+      "correta": "E",
+      "dica": "A regra geral é que só o contratado responde pelos encargos. A exceção vale para um tipo específico de contrato e depende de um fato a ser comprovado; atenção à ordem entre solidária e subsidiária.",
+      "explicacao": {
+        "E": "Correta. É o § 2º do art. 121 da Lei 14.133/2021: exclusivamente nas contratações de serviços contínuos com dedicação exclusiva de mão de obra, a Administração responde solidariamente pelos encargos previdenciários e subsidiariamente pelos trabalhistas, se comprovada falha na fiscalização.",
+        "A": "O art. 120 diz o contrário: o contratado responde pelos danos causados diretamente à Administração ou a terceiros em razão da execução do contrato, e a fiscalização ou o acompanhamento pelo contratante não exclui nem reduz essa responsabilidade.",
+        "B": "Pelo caput e pelo § 1º do art. 121, somente o contratado responde pelos encargos, e sua inadimplência não transfere à Administração a responsabilidade pelo pagamento, ressalvada apenas a hipótese do § 2º.",
+        "C": "Inverte as responsabilidades e dispensa o requisito legal. Pelo § 2º do art. 121, a responsabilidade é solidária pelos previdenciários e subsidiária pelos trabalhistas, e depende de comprovada falha na fiscalização.",
+        "D": "O § 4º do art. 121 declara absolutamente impenhoráveis os valores depositados na conta vinculada prevista no inciso III do § 3º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 120 e 121", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0049",
+      "tema": "Responsabilidade de pessoas de direito público e de concessionárias",
+      "enunciado": "Sobre a responsabilidade civil das pessoas jurídicas de direito público e das concessionárias de serviço público, considerando a Constituição Federal, o Código Civil e a Lei nº 8.987/1995, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A concessionária responde apenas pelos prejuízos causados aos usuários do serviço, não respondendo pelos danos causados a terceiros não usuários nem ao poder concedente.",
+        "B": "Incumbe à concessionária a execução do serviço concedido, cabendo-lhe responder por todos os prejuízos causados ao poder concedente, aos usuários ou a terceiros, sem que a fiscalização exercida pelo órgão competente exclua ou atenue essa responsabilidade.",
+        "C": "A fiscalização exercida pelo poder concedente atenua a responsabilidade da concessionária na proporção da falha do órgão fiscalizador.",
+        "D": "Pelo Código Civil, as pessoas jurídicas de direito público interno respondem pelos atos de seus agentes que causem danos a terceiros, assegurado o direito regressivo contra o causador do dano independentemente de culpa ou dolo.",
+        "E": "O art. 37, § 6º, da Constituição aplica-se apenas às pessoas jurídicas de direito público, não alcançando as de direito privado prestadoras de serviços públicos."
+      },
+      "correta": "B",
+      "dica": "Repare nos três destinatários protegidos pelo art. 25 da Lei 8.987/1995 e no efeito que a lei atribui à fiscalização. Para o regresso, lembre o elemento subjetivo exigido do agente.",
+      "explicacao": {
+        "B": "Correta. É a literalidade do caput do art. 25 da Lei 8.987/1995. A concessionária responde perante o poder concedente, os usuários e terceiros, e a fiscalização estatal não serve de escudo para ela.",
+        "A": "O caput do art. 25 alcança os prejuízos causados ao poder concedente, aos usuários ou a terceiros. A lei não restringe a responsabilidade aos usuários.",
+        "C": "O art. 25 diz que a fiscalização exercida pelo órgão competente não exclui nem atenua a responsabilidade da concessionária.",
+        "D": "O art. 43 do Código Civil ressalva o direito regressivo contra os causadores do dano \"se houver, por parte destes, culpa ou dolo\". A responsabilidade do agente é subjetiva, como também diz o art. 37, § 6º, da CF.",
+        "E": "O art. 37, § 6º, da CF abrange expressamente as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos, que respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, art. 25, caput", "data": "1995-02-13" },
+        { "tipo": "lei", "referencia": "Código Civil, art. 43", "data": "2002-01-10" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -34,6 +34,56 @@
         { "tipo": "constituicao", "referencia": "CF, art. 37, III", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0046",
+      "tema": "Concursos públicos em Curitiba – normas gerais (Lei Municipal 16.639/2025)",
+      "enunciado": "A Lei Municipal nº 16.639/2025 dispõe sobre as normas gerais relativas a concursos e processos seletivos públicos na Administração Direta, Autárquica e Fundacional do Município de Curitiba. Segundo essa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Processo seletivo público é o processo de seleção para preenchimento de cargos públicos de provimento efetivo, regidos pelo regime estatutário.",
+        "B": "O edital normativo será publicado no Diário Oficial Eletrônico do Município e em meio eletrônico oficial, com antecedência mínima de 30 (trinta) dias da data de realização da primeira prova.",
+        "C": "A prova de títulos, quando prevista, terá caráter eliminatório e classificatório.",
+        "D": "Será reservado às pessoas com deficiência o percentual mínimo de 5% (cinco por cento) das vagas ofertadas, e, se a aplicação do percentual resultar em número decimal, ele será arredondado para o inteiro imediatamente superior, desde que não ultrapasse 20% (vinte por cento) das vagas.",
+        "E": "O prazo de validade do concurso será de até 2 (dois) anos, contados da publicação do edital de abertura, prorrogável uma única vez por igual período."
+      },
+      "correta": "D",
+      "dica": "A lei tem vários números que a banca pode trocar: antecedência do edital, termo inicial da validade e os percentuais da reserva. Um deles aparece duas vezes na mesma alternativa.",
+      "explicacao": {
+        "D": "Correta. É a combinação dos §§ 1º e 2º do art. 18 da Lei 16.639/2025. Pelo § 3º, o percentual se aplica sobre o total de vagas de cada cargo ou emprego.",
+        "A": "Pelo art. 2º, essa é a definição de concurso público (inciso I). Processo seletivo público (inciso II) é a seleção para empregos públicos regidos pela CLT.",
+        "B": "O art. 11 exige antecedência mínima de 60 (sessenta) dias da data da primeira prova.",
+        "C": "O art. 15 atribui à prova de títulos caráter apenas classificatório, pontuando formação e experiência profissional exigidas para o cargo.",
+        "E": "Pelo § 2º do art. 3º, a validade de até 2 anos, prorrogável uma única vez por igual período, conta-se da publicação da homologação do resultado final, e não do edital de abertura."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.639/2025, arts. 2º, 3º, 11, 15 e 18 (DOM nº 234, de 11/12/2025)", "data": "2025-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0047",
+      "tema": "Comissões, requisitos de ingresso e convocação (Lei Municipal 16.639/2025)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a Lei Municipal nº 16.639/2025, de Curitiba.\n\nI. É vedada a participação nas comissões do concurso de pessoa com vínculo em entidades de preparação para concursos públicos.\nII. A convocação dos candidatos classificados será feita por edital publicado no Diário Oficial Eletrônico do Município, que é o meio oficial e obrigatório de comunicação e marca o início da contagem dos prazos.\nIII. As comunicações complementares por e-mail ou aplicativo de mensagens substituem a publicação oficial quando o candidato tiver anuído expressamente com o seu uso.\nIV. É facultado ao candidato solicitar, uma única vez, deslocamento para o final da lista classificatória, mediante requerimento, dentro do prazo estabelecido.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "A lei distingue a publicação oficial das comunicações feitas por outros meios. Veja qual delas vale para contar prazo.",
+      "explicacao": {
+        "C": "Correta. I reproduz o art. 10, III; II, o art. 25, caput e § 1º; IV, o caput do art. 28. A III está errada: pelo § 3º do art. 25, as comunicações complementares têm caráter facultativo e informativo e não substituem a publicação oficial; a anuência do candidato (§ 4º) só autoriza o uso desses meios.",
+        "A": "A III está errada (as comunicações complementares não substituem a publicação oficial, § 3º do art. 25), e a alternativa deixa de fora II e IV, que reproduzem o art. 25, § 1º, e o art. 28.",
+        "B": "A III está errada, e a alternativa deixa de fora a I, que reproduz o art. 10, III: é vedada nas comissões a participação de pessoa com vínculo em entidades de preparação para concursos.",
+        "D": "A III está errada. O § 3º do art. 25 é expresso: as comunicações complementares não substituem a publicação oficial nem geram obrigações para a Administração em caso de não recebimento.",
+        "E": "Nem todas estão corretas: a III contraria o § 3º do art. 25, pelo qual a publicação no Diário Oficial é condição indispensável para a validade da convocação e as demais comunicações são apenas informativas."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.639/2025, arts. 10, 25 e 28 (DOM nº 234, de 11/12/2025)", "data": "2025-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

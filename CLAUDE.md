@@ -71,6 +71,23 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
 - **IDs são imutáveis.** O progresso da aluna aponta para eles.
 - Explicações são escritas a partir da fonte oficial, nunca copiadas de comentários de cursinho.
 
+## Fontes oficiais de Curitiba (descoberto pelos agentes em 29/09/2026)
+
+- **leismunicipais.com.br bloqueia acesso automático** (Cloudflare, 403). O SPL da Câmara exige login com captcha.
+- **Use o Legisladoc da Prefeitura:** `legisladocexterno.curitiba.pr.gov.br` (`AtosConsultaExterna.aspx`, `VisualizarHTML.aspx?id=`). Traz o texto, a situação ("Em Vigor", "Alterado", "Revogado") e os atos alteradores. O Diário Oficial Eletrônico sai em PDF pelo mesmo sistema.
+- **O texto compilado nem sempre incorpora as alterações:** a Lei Orgânica compilada não traz as Emendas 24/2024 e 25/2025, e a página "texto alterado" do Decreto 1.106/2024 não traz o Decreto 1.944/2025. Confira os atos alteradores um a um.
+- Constituição do Paraná: legislacao.pr.gov.br.
+
+## Achados sobre o edital e a legislação (para a Flávia e para recursos)
+
+- **Lei 11.001/2004** (carreira de Procurador), citada no edital, foi **revogada** pela Lei 16.200/2023, art. 38, I.
+- **Decreto 610/2019** (PPP), citado no edital, aparece como **revogado** no Legisladoc.
+- O edital chama a Lei Orgânica de Curitiba de "Lei 5.700/1977"; a Lei Orgânica em vigor é de **05/04/1990**.
+- **LC 236/2026** (DOU 4/9/2026, antes do corte) reescreveu os arts. 138, 151, 156 e 174 do CTN e criou os arts. 113-A e 208-A a 208-J.
+- **Lei 15.484/2026** (em vigor antes do corte) alterou o CPC em recursos e precedentes (relevância do REsp, art. 1.035-A). Ainda sem questão.
+- **EC 136/2025** mudou precatórios e juros contra a Fazenda; dispositivos antigos têm "Vide ADI". Ainda sem questão sobre juros.
+- Resoluções CNJ 492/2023 e 598/2024 tratam de perspectiva de gênero e raça, embora o edital as ponha em "processos estruturais".
+
 ## Navegação: matéria, e nada de assunto na escolha
 
 Regra do Gustavo (28/09/2026), dita com ênfase: **a tela inicial mostra só as matérias.** Tocou em "Direito Administrativo", a trilha começa direto na pergunta. O **tema aparece só dentro da questão**. No **simulado, nem tema nem matéria** aparecem na tela.

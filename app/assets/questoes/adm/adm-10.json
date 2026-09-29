@@ -33,6 +33,56 @@
         { "tipo": "sumula", "referencia": "Súmula 340/STF", "data": "1963-12-13" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0040",
+      "tema": "Extinção da concessão – encampação e caducidade (Lei 8.987/1995)",
+      "enunciado": "O Município de Curitiba pretende extinguir, antes do termo final, a concessão do serviço de transporte coletivo. No caso I, por razões de interesse público, sem falta da concessionária; no caso II, porque a concessionária presta o serviço de forma inadequada e deficiente. À luz da Lei nº 8.987/1995, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "No caso I, trata-se de caducidade, declarada por decreto, independentemente de indenização prévia.",
+        "B": "No caso II, trata-se de encampação, que depende de lei autorizativa específica.",
+        "C": "No caso I, trata-se de encampação, que depende de lei autorizativa específica e de prévio pagamento da indenização; no caso II, a caducidade será declarada por decreto do poder concedente, após processo administrativo com ampla defesa, independentemente de indenização prévia.",
+        "D": "Em ambos os casos, a extinção depende de ação judicial especialmente intentada para esse fim.",
+        "E": "No caso II, declarada a caducidade, o poder concedente passa a responder pelos encargos e obrigações da concessionária com seus empregados."
+      },
+      "correta": "C",
+      "dica": "Uma das formas de extinção decorre de uma escolha política e a outra, de uma falta da concessionária. Veja qual delas exige lei e indenização antes da retomada.",
+      "explicacao": {
+        "C": "Correta. O caso I é encampação: retomada do serviço durante o prazo da concessão, por interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização (art. 37). O caso II é caducidade (art. 38, § 1º, I), declarada por decreto após processo administrativo com ampla defesa, independentemente de indenização prévia, calculada no curso do processo (art. 38, §§ 2º e 4º).",
+        "A": "Retomada por interesse público, sem falta da concessionária, é encampação (art. 37), e não caducidade. A encampação exige indenização prévia.",
+        "B": "Serviço prestado de forma inadequada ou deficiente é hipótese de caducidade (art. 38, § 1º, I). A lei autorizativa específica é requisito da encampação.",
+        "D": "A ação judicial especialmente intentada é o caminho da concessionária para rescindir o contrato por descumprimento do poder concedente (art. 39). Encampação e caducidade são atos do próprio poder concedente.",
+        "E": "O § 6º do art. 38 diz o contrário: declarada a caducidade, não resultará para o poder concedente qualquer espécie de responsabilidade em relação aos encargos, ônus, obrigações ou compromissos com terceiros ou com empregados da concessionária."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, arts. 35, 37, 38 e 39", "data": "1995-02-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0041",
+      "tema": "Direitos do usuário de serviços públicos – manifestações (Lei 13.460/2017)",
+      "enunciado": "Considerando as regras da Lei nº 13.460/2017 sobre as manifestações dos usuários de serviços públicos, analise as afirmativas.\n\nI. A manifestação será dirigida à ouvidoria do órgão ou entidade responsável e conterá a identificação do requerente, sendo vedadas quaisquer exigências relativas aos motivos determinantes de sua apresentação.\nII. A identificação do requerente é informação pessoal protegida com restrição de acesso, nos termos da Lei nº 12.527/2011.\nIII. O recebimento de manifestação poderá ser recusado quando o órgão entender que o pedido é manifestamente improcedente.\nIV. A ouvidoria encaminhará a decisão administrativa final ao usuário no prazo de trinta dias, prorrogável de forma justificada uma única vez, por igual período.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, II e III estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Uma das afirmativas contraria um artigo que começa com \"Em nenhuma hipótese\".",
+      "explicacao": {
+        "D": "Correta. I reproduz o caput e o § 2º do art. 10; II, o § 7º do art. 10; IV, o art. 16. A III está errada: pelo art. 11, em nenhuma hipótese será recusado o recebimento de manifestações formuladas nos termos da lei, sob pena de responsabilidade do agente público.",
+        "A": "A III está errada, porque o art. 11 proíbe a recusa do recebimento de manifestações em qualquer hipótese. Além disso, a alternativa deixa de fora II e IV, que reproduzem o art. 10, § 7º, e o art. 16.",
+        "B": "Deixa de fora a I, que está correta: o caput do art. 10 manda dirigir a manifestação à ouvidoria, com identificação do requerente, e o § 2º veda exigências sobre os motivos determinantes da manifestação.",
+        "C": "Inclui a III, que está errada (art. 11: em nenhuma hipótese será recusado o recebimento), e deixa de fora a IV, que reproduz o prazo de 30 dias, prorrogável uma vez, do art. 16.",
+        "E": "A III está errada. O art. 11 impede a recusa do recebimento de manifestações, sob pena de responsabilidade do agente público; a análise do mérito vem depois, no procedimento dos arts. 12 e seguintes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.460/2017, arts. 10, 11 e 16", "data": "2017-06-26" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

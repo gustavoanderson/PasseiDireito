@@ -58,6 +58,31 @@
         { "tipo": "lei", "referencia": "Lei 8.429/1992, art. 23, caput e §§ 1º, 2º e 4º (Lei 14.230/2021)", "data": "2021-10-25" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0050",
+      "tema": "Acordo de leniência (Lei 12.846/2013)",
+      "enunciado": "Sobre o acordo de leniência previsto no art. 16 da Lei nº 12.846/2013 (Lei Anticorrupção), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O acordo de leniência não exime a pessoa jurídica da obrigação de reparar integralmente o dano causado.",
+        "B": "A celebração do acordo isenta a pessoa jurídica de todas as sanções, inclusive da multa, que é integralmente perdoada.",
+        "C": "A proposta de acordo de leniência rejeitada importa reconhecimento da prática do ato ilícito investigado.",
+        "D": "Em caso de descumprimento do acordo, a pessoa jurídica ficará impedida de celebrar novo acordo pelo prazo de 5 (cinco) anos.",
+        "E": "A celebração do acordo de leniência suspende o prazo prescricional dos atos ilícitos previstos na lei."
+      },
+      "correta": "A",
+      "dica": "A leniência premia a colaboração, mas há algo de que a pessoa jurídica nunca se livra. Nas demais, confira o percentual de redução da multa, o prazo de impedimento e o efeito sobre a prescrição.",
+      "explicacao": {
+        "A": "Correta. É o § 3º do art. 16 da Lei 12.846/2013. A leniência reduz sanções, mas o ressarcimento integral do dano ao erário não é negociável.",
+        "B": "Pelo § 2º do art. 16, o acordo isenta a pessoa jurídica das sanções do art. 6º, II (publicação extraordinária da decisão condenatória) e do art. 19, IV (proibição de receber incentivos, subsídios, doações e empréstimos públicos), e reduz em até 2/3 o valor da multa. Não há perdão integral.",
+        "C": "O § 7º do art. 16 diz o oposto: não importará em reconhecimento da prática do ato ilícito investigado a proposta de acordo de leniência rejeitada.",
+        "D": "O § 8º do art. 16 fixa o impedimento em 3 (três) anos, contados do conhecimento pela administração pública do descumprimento.",
+        "E": "O § 9º do art. 16 fala em interrupção, e não em suspensão, do prazo prescricional. Interrompido, o prazo recomeça do início."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.846/2013, art. 16, §§ 2º, 3º, 7º, 8º e 9º", "data": "2013-08-01" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }
