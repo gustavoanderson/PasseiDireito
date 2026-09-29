@@ -28,11 +28,25 @@
         "E": "O art. 156, § 2º, II, atribui o ITBI ao Município da situação do bem, e não ao do domicílio do adquirente."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, art. 150, III, b e c, e § 1º (EC 42/2003)", "data": "2003-12-19" },
-        { "tipo": "constituicao", "referencia": "CF, art. 156, §§ 1º, 1º-A (EC 116/2022) e 2º", "data": "2022-02-17" },
-        { "tipo": "constituicao", "referencia": "CF, art. 156, § 1º, III (EC 132/2023)", "data": "2023-12-20" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 150, III, b e c, e § 1º (EC 42/2003)",
+          "data": "2003-12-19"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, §§ 1º, 1º-A (EC 116/2022) e 2º",
+          "data": "2022-02-17"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, § 1º, III (EC 132/2023)",
+          "data": "2023-12-20"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "const-0026",
@@ -55,10 +69,20 @@
         "D": "O art. 156-B, § 2º, V, atribui a fiscalização, o lançamento, a cobrança e a representação administrativa e judicial relativas ao IBS às administrações tributárias e procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências. Ao Comitê Gestor cabe coordenar essas atividades. É um dispositivo de interesse direto da PGM."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, arts. 156-A, § 1º, e 156-B, §§ 2º e 3º (EC 132/2023)", "data": "2023-12-20" },
-        { "tipo": "constituicao", "referencia": "ADCT, arts. 128 e 129 (EC 132/2023)", "data": "2023-12-20" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 156-A, § 1º, e 156-B, §§ 2º e 3º (EC 132/2023)",
+          "data": "2023-12-20"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "ADCT, arts. 128 e 129 (EC 132/2023)",
+          "data": "2023-12-20"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "const-0027",
@@ -73,6 +97,7 @@
       },
       "correta": "B",
       "dica": "A data de corte para inclusão no orçamento já mudou três vezes (1º de julho, 2 de abril e a atual). A emenda mais recente sobre precatórios é de 2025.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
       "explicacao": {
         "B": "Correta. É o art. 100, § 5º, na redação dada pela EC 136, de 9/9/2025, que antecipou a data para 1º de fevereiro.",
         "A": "Dois de abril era a data da redação dada pela EC 114/2021, substituída pela EC 136/2025, que fixou 1º de fevereiro. Antes da EC 114/2021, a data era 1º de julho (EC 62/2009). É o tipo de detalhe que a banca cobra em edital que cita as EC 113 e 114.",
@@ -81,11 +106,25 @@
         "E": "O art. 100, § 27, II (EC 136/2025), atribui o sequestro ao Presidente do Tribunal de Justiça local, até o limite do valor devido. Além disso, os limites do § 23 ficam suspensos, o Prefeito responde na forma da legislação de responsabilidade fiscal e de improbidade, e o Município fica impedido de receber transferências voluntárias."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 5º e 27 (EC 136/2025)", "data": "2025-09-09" },
-        { "tipo": "constituicao", "referencia": "CF, art. 100, § 14 (EC 113/2021)", "data": "2021-12-08" },
-        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 2º (EC 94/2016) e 13 (EC 62/2009)", "data": "2016-12-15" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 5º e 27 (EC 136/2025)",
+          "data": "2025-09-09"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, § 14 (EC 113/2021)",
+          "data": "2021-12-08"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 2º (EC 94/2016) e 13 (EC 62/2009)",
+          "data": "2016-12-15"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

@@ -28,10 +28,20 @@
         "E": "O § 3º do art. 74 diz que a Procuradoria-Geral atuará obrigatoriamente no controle interno da legalidade dos atos do Poder Executivo e exercerá a defesa dos interesses do Município, incluídos os de natureza financeiro-orçamentária."
       },
       "fontes": [
-        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 74 (caput com redação da Emenda à LOM 24/2024)", "data": "2024-11-27" },
-        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, art. 28", "data": "2023-08-28" }
+        {
+          "tipo": "outro",
+          "referencia": "Lei Orgânica do Município de Curitiba, art. 74 (caput com redação da Emenda à LOM 24/2024)",
+          "data": "2024-11-27"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.200/2023, art. 28",
+          "data": "2023-08-28"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "const-0020",
@@ -46,6 +56,7 @@
       },
       "correta": "C",
       "dica": "A lei separa dois momentos: a inscrição no concurso e a posse. O registro na OAB é exigido em apenas um deles.",
+      "alerta": "Atenção: o edital cita a Lei 11.001/2004, mas ela foi revogada pela Lei 16.200/2023 (art. 38, I). Vale o que estava em vigor em 21/09/2026, data do edital: responda pela Lei 16.200/2023.",
       "explicacao": {
         "C": "Correta. É o § 9º do art. 4º da Lei 16.200/2023. O art. 7º, parágrafo único, completa: o registro na OAB/PR é requisito para a nomeação e posse, além do bacharelado em Direito. Não é exigido na inscrição.",
         "A": "Pelo art. 4º, a prova escrita tem caráter eliminatório (inciso I), mas a prova de títulos tem caráter classificatório (inciso II).",
@@ -54,9 +65,15 @@
         "E": "O art. 6º, § 1º, fixa a jornada do Procurador Municipal em 40 horas semanais."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, arts. 4º, 6º, 7º, 8º, 37 e 38", "data": "2023-08-28" }
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.200/2023, arts. 4º, 6º, 7º, 8º, 37 e 38",
+          "data": "2023-08-28"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "const-0021",
@@ -79,9 +96,15 @@
         "D": "O art. 128, § 3º, prevê lista tríplice, nomeação pelo Chefe do Executivo e mandato de dois anos, mas permite uma única recondução. Reconduções sucessivas não são admitidas."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, arts. 128, §§ 1º e 3º, 129, IX, 131 e 132 (EC 19/1998)", "data": "1998-06-04" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 128, §§ 1º e 3º, 129, IX, 131 e 132 (EC 19/1998)",
+          "data": "1998-06-04"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

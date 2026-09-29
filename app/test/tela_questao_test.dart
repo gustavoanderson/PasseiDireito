@@ -5,6 +5,8 @@ import 'package:passeidireito/progresso.dart';
 import 'package:passeidireito/tela_questao.dart';
 import 'package:passeidireito/tema.dart';
 
+import 'apoio.dart';
+
 Questao _questao(String id, String correta) => Questao(
       id: id,
       materia: 'adm',
@@ -139,6 +141,55 @@ void main() {
     await _tocar(tester, 'alternativa-A');
     await _tocar(tester, 'botao-confirmar');
     expect(find.text('Resposta incorreta'), findsOneWidget);
+  });
+
+  group('flag de mudança na lei', () {
+    Future<void> abrirCom(WidgetTester tester, String? alerta) async {
+      tester.view.physicalSize = const Size(1080, 4000);
+      tester.view.devicePixelRatio = 2.0;
+      addTearDown(tester.view.reset);
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaQuestao(
+            nomeDaMateria: 'Direito Tributário',
+            questoes: [questaoDeTeste('trib-0010', alerta: alerta)],
+            registro: ProgressoEmMemoria(),
+          ),
+        ),
+      ));
+    }
+
+    testWidgets('aparece na questão que tem alerta', (tester) async {
+      await abrirCom(tester, 'Mudança recente: vale a redação em vigor em 21/09/2026.');
+      expect(find.byKey(const Key('flag-mudanca')), findsOneWidget);
+      expect(find.text('MUDANÇA NA LEI · vale 21/09/2026'), findsOneWidget);
+      // Pequena por padrão: o texto completo só abre ao tocar.
+      expect(find.byKey(const Key('flag-texto')), findsNothing);
+      await tester.tap(find.byKey(const Key('flag-mudanca')));
+      await tester.pump();
+      expect(find.text('Mudança recente: vale a redação em vigor em 21/09/2026.'), findsOneWidget);
+    });
+
+    testWidgets('não aparece na questão sem alerta', (tester) async {
+      await abrirCom(tester, null);
+      expect(find.byKey(const Key('flag-mudanca')), findsNothing);
+    });
+
+    testWidgets('continua visível na revisão da questão', (tester) async {
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaEscuro(),
+          home: TelaRevisaoQuestao(
+            questao: questaoDeTeste('trib-0010', alerta: 'Vale a norma em vigor em 21/09/2026.'),
+            nomeDaMateria: 'Direito Tributário',
+          ),
+        ),
+      ));
+      expect(find.byKey(const Key('flag-mudanca')), findsOneWidget);
+    });
   });
 
   group('progresso', () {

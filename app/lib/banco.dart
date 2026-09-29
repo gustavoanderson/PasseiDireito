@@ -45,6 +45,7 @@ class Questao {
     required this.dica,
     required this.explicacao,
     required this.fontes,
+    this.alerta,
   });
 
   final String id;
@@ -61,6 +62,9 @@ class Questao {
   final Map<String, String> explicacao;
   final List<Fonte> fontes;
 
+  /// Flag de mudança na lei. Aparece na trilha e na revisão, nunca no simulado.
+  final String? alerta;
+
   factory Questao.deJson(Map<String, dynamic> json, {required String materia, required String unidadeId}) => Questao(
         id: json['id'] as String,
         materia: materia,
@@ -74,6 +78,7 @@ class Questao {
         fontes: [
           for (final f in json['fontes'] as List) Fonte.deJson(f as Map<String, dynamic>),
         ],
+        alerta: json['alerta'] as String?,
       );
 }
 

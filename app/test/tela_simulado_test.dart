@@ -15,10 +15,16 @@ class _Relogio {
   void avancar(Duration d) => agora = agora.add(d);
 }
 
-// 3 questões de adm (gabarito A) e 1 de const (gabarito A).
+// 3 questões de adm (gabarito A) e 1 de const (gabarito A), esta com flag de mudança na lei.
 final _unidades = [
   unidadeDeTeste('adm-07', 'Licitações e contratos', 3),
-  unidadeDeTeste('const-03', 'Controle de constitucionalidade', 1),
+  Unidade(
+    materia: 'const',
+    id: 'const-03',
+    titulo: 'Controle de constitucionalidade',
+    itemEdital: 3,
+    questoes: [questaoDeTeste('const-0301', unidade: 'const-03', alerta: 'Mudança recente. Vale a norma em vigor em 21/09/2026.')],
+  ),
 ];
 
 Future<(ProgressoEmMemoria, _Relogio)> _abrir(WidgetTester tester) async {
@@ -83,6 +89,15 @@ void main() {
     await _tocar(tester, 'alternativa-B'); // errada
     expect(find.text('Resposta incorreta'), findsNothing);
     expect(find.textContaining('Explicação'), findsNothing);
+  });
+
+  testWidgets('a flag de mudança na lei não aparece durante o simulado', (tester) async {
+    await _abrir(tester);
+    await _tocar(tester, 'comecar-simulado');
+    for (var i = 0; i < 4; i++) {
+      expect(find.byKey(const Key('flag-mudanca')), findsNothing, reason: 'questão ${i + 1}');
+      if (i < 3) await _tocar(tester, 'proxima');
+    }
   });
 
   testWidgets('o cronômetro desce com o relógio e o simulado se entrega sozinho ao zerar', (tester) async {

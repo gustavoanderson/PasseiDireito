@@ -1,7 +1,7 @@
 // Construtores de dados de teste compartilhados.
 import 'package:passeidireito/banco.dart';
 
-Questao questaoDeTeste(String id, {String? unidade, String correta = 'A', String? tema}) {
+Questao questaoDeTeste(String id, {String? unidade, String correta = 'A', String? tema, String? alerta}) {
   final u = unidade ?? '${id.split('-').first}-01';
   return Questao(
     id: id,
@@ -14,6 +14,7 @@ Questao questaoDeTeste(String id, {String? unidade, String correta = 'A', String
     dica: 'Dica da $id.',
     explicacao: {for (final l in letras) l: 'Explicação $l da $id'},
     fontes: const [Fonte(referencia: 'Lei X')],
+    alerta: alerta,
   );
 }
 

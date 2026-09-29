@@ -20,6 +20,7 @@
       },
       "correta": "E",
       "dica": "A EC 136/2025 antecipou a data de corte do § 5º e criou, nos §§ 23 a 30, um teto de pagamento para Estados, DF e Municípios, que pode ser superado em certas condições.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
       "explicacao": {
         "E": "Correta. É o § 5º do art. 100 na redação da EC 136/2025: a data de apresentação para inclusão obrigatória no orçamento passou a ser 1º de fevereiro, com pagamento até o final do exercício seguinte e atualização monetária.",
         "A": "Na redação dada pela EC 136/2025, o § 5º do art. 100 fixa como data de apresentação 1º de fevereiro, e não 2 de abril. A emenda antecipou o marco de inclusão orçamentária; decore a data vigente.",
@@ -28,9 +29,15 @@
         "D": "O § 28 do art. 100 autoriza Estados, DF e Municípios a efetuar pagamentos de precatórios que superem os limites do § 23, mediante dotação orçamentária específica."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 5º, 23 e 28 (EC 136/2025)", "data": "2025-09-09" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 5º, 23 e 28 (EC 136/2025)",
+          "data": "2025-09-09"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0045",
@@ -45,6 +52,7 @@
       },
       "correta": "A",
       "dica": "Releia os §§ 2º, 4º, 8º e 13 do art. 100. Um deles fixa um piso para as leis locais de pequeno valor.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
       "explicacao": {
         "A": "Correta. É o § 4º do art. 100 (EC 62/2009): para os fins do § 3º, podem ser fixados por leis próprias valores distintos às entidades de direito público, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do RGPS.",
         "B": "O § 8º do art. 100 veda o fracionamento, repartição ou quebra do valor da execução para fins de enquadramento de parcela do total como obrigação de pequeno valor.",
@@ -53,9 +61,15 @@
         "E": "O § 1º do art. 100 (redação da EC 136/2025) dá aos débitos alimentícios preferência sobre todos os demais, exceto sobre aqueles referidos no § 2º (idosos, doentes graves e pessoas com deficiência), que têm prioridade ainda maior."
       },
       "fontes": [
-        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 1º, 2º, 4º, 8º, 13 e 14 (EC 62/2009, EC 94/2016, EC 113/2021 e EC 136/2025)", "data": "2025-09-09" }
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 1º, 2º, 4º, 8º, 13 e 14 (EC 62/2009, EC 94/2016, EC 113/2021 e EC 136/2025)",
+          "data": "2025-09-09"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

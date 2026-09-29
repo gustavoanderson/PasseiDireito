@@ -20,6 +20,7 @@
       },
       "correta": "B",
       "dica": "O art. 208-D usa um único número para impugnação, recurso voluntário e recurso especial, e outro, menor, para os embargos. Os parágrafos tratam da contagem, do recesso e das pautas.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
       "explicacao": {
         "B": "Correta. O art. 208-D, I, fixa 20 dias para a impugnação; o inciso IV, 5 dias para os embargos de declaração; e o § 3º manda contar os prazos em dias úteis, excluindo-se o dia do início e incluindo-se o do vencimento.",
         "A": "O prazo de impugnação é de 20 dias (art. 208-D, I), e o § 3º determina a contagem em dias úteis.",
@@ -28,9 +29,15 @@
         "E": "O § 1º do art. 208-D exige divulgação das pautas de julgamento com antecedência mínima de 10 dias."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, art. 208-D (LC 236/2026)", "data": "2026-09-04" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 208-D (LC 236/2026)",
+          "data": "2026-09-04"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0032",
@@ -45,6 +52,7 @@
       },
       "correta": "D",
       "dica": "Uma das alternativas repete, para o processo administrativo, uma regra que a Lei de Execução Fiscal já previa no parágrafo único do art. 38.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
       "explicacao": {
         "D": "Correta. É o parágrafo único do art. 208-E do CTN (LC 236/2026), que repete a lógica do art. 38, parágrafo único, da Lei 6.830/1980: a ação judicial com o mesmo objeto importa renúncia ao poder de recorrer na esfera administrativa e desistência do recurso interposto.",
         "A": "O § 1º do art. 208-A exige o duplo grau de jurisdição dos entes federativos com mais de 100.000 habitantes residentes, apurados pelo último censo do IBGE (§ 2º). Curitiba está nesse grupo.",
@@ -53,10 +61,20 @@
         "E": "O parágrafo único do art. 211-B diz o contrário: a não implementação no prazo de dois anos acarreta a aplicação direta dos arts. 208-A a 208-J até que sobrevenha legislação específica."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, arts. 208-A, 208-C, 208-E e 211-B (LC 236/2026)", "data": "2026-09-04" },
-        { "tipo": "lei", "referencia": "Lei 6.830/1980, art. 38, parágrafo único", "data": "1980-09-22" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 208-A, 208-C, 208-E e 211-B (LC 236/2026)",
+          "data": "2026-09-04"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 38, parágrafo único",
+          "data": "1980-09-22"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

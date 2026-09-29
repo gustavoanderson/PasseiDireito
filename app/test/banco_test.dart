@@ -69,6 +69,10 @@ void main() {
     expect(q.alternativas.keys, letras);
     expect(q.explicacao.keys, letras);
     expect(q.fontes, isNotEmpty);
+
+    final comAlerta = [for (final u in unidades) ...u.questoes.where((q) => q.alerta != null)];
+    expect(comAlerta.map((q) => q.id), containsAll(['const-0020', 'trib-0010', 'trib-0044']));
+    expect(comAlerta.every((q) => q.alerta!.contains('21/09/2026')), isTrue);
   });
 
   testWidgets('a tela inicial mostra só as matérias, sem os assuntos', (tester) async {

@@ -20,6 +20,7 @@
       },
       "correta": "E",
       "dica": "A LC 236/2026 incluiu um art. 171-C que responde diretamente a uma das afirmativas. E releia o verbo inicial do art. 171.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
       "explicacao": {
         "E": "Correta. I reproduz o art. 171 e seu parágrafo único; II é o art. 151, VIII, incluído pela LC 236/2026. A III contraria o art. 171-C e a IV contraria o próprio art. 171, que exige lei.",
         "A": "Inclui a III, que contraria o art. 171-C do CTN (LC 236/2026): a transação, a mediação e a arbitragem especial tributária e aduaneira não caracterizam renúncia de receita para fins do art. 14 da LRF.",
@@ -28,9 +29,15 @@
         "D": "A IV está errada: o art. 171 do CTN condiciona a transação à lei, que indicará a autoridade competente para autorizá-la em cada caso. E a alternativa exclui a I, transcrição do próprio art. 171."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, arts. 97, VI, 151, VIII, 171 e 171-C (LC 236/2026)", "data": "2026-09-04" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 97, VI, 151, VIII, 171 e 171-C (LC 236/2026)",
+          "data": "2026-09-04"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

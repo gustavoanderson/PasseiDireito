@@ -17,6 +17,8 @@ class Cores extends ThemeExtension<Cores> {
     required this.dicaSuave,
     required this.dicaTexto,
     required this.sobreSelo,
+    required this.alerta,
+    required this.sobreAlerta,
   });
 
   final Color acerto;
@@ -32,6 +34,10 @@ class Cores extends ThemeExtension<Cores> {
   /// Cor do ícone (✓ ou ✗) dentro do selo preenchido de acerto ou erro.
   final Color sobreSelo;
 
+  /// Flag de mudança na lei: violeta vivo, que não se confunde com dica, acerto ou erro.
+  final Color alerta;
+  final Color sobreAlerta;
+
   static Cores de(BuildContext context) => Theme.of(context).extension<Cores>()!;
 
   static const claro = Cores(
@@ -45,6 +51,8 @@ class Cores extends ThemeExtension<Cores> {
     dicaSuave: Color(0xFFF6E9CF),
     dicaTexto: Color(0xFF5E3C0C),
     sobreSelo: Color(0xFFFFFFFF),
+    alerta: Color(0xFF6D28D9),
+    sobreAlerta: Color(0xFFFFFFFF),
   );
 
   static const escuro = Cores(
@@ -58,6 +66,8 @@ class Cores extends ThemeExtension<Cores> {
     dicaSuave: Color(0xFF33280F),
     dicaTexto: Color(0xFFF3CC85),
     sobreSelo: Color(0xFF11161C),
+    alerta: Color(0xFFC4B5FD),
+    sobreAlerta: Color(0xFF1E1033),
   );
 
   @override

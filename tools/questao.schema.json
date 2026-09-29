@@ -4,7 +4,12 @@
   "title": "PasseiDireito – unidade de trilha",
   "description": "Um arquivo = uma unidade da trilha de uma materia, com suas questoes de multipla escolha. O simulado sorteia questoes de todos os arquivos.",
   "type": "object",
-  "required": ["versaoFormato", "materia", "unidade", "questoes"],
+  "required": [
+    "versaoFormato",
+    "materia",
+    "unidade",
+    "questoes"
+  ],
   "additionalProperties": false,
   "properties": {
     "versaoFormato": {
@@ -15,11 +20,26 @@
     "materia": {
       "description": "Codigo da materia. Civil so cai na discursiva, mas tem trilha propria.",
       "type": "string",
-      "enum": ["adm", "const", "trib", "pc", "urb", "trab", "prev", "pen", "emp", "civ"]
+      "enum": [
+        "adm",
+        "const",
+        "trib",
+        "pc",
+        "urb",
+        "trab",
+        "prev",
+        "pen",
+        "emp",
+        "civ"
+      ]
     },
     "unidade": {
       "type": "object",
-      "required": ["id", "titulo", "itemEdital"],
+      "required": [
+        "id",
+        "titulo",
+        "itemEdital"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -27,7 +47,11 @@
           "type": "string",
           "pattern": "^[a-z]+-[0-9]{2}$"
         },
-        "titulo": { "type": "string", "minLength": 3, "maxLength": 80 },
+        "titulo": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 80
+        },
         "itemEdital": {
           "description": "Numero do item da materia no Anexo II do Edital 6/2026. E o que permite medir a cobertura do edital.",
           "type": "integer",
@@ -38,27 +62,69 @@
     "questoes": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/definitions/questao" }
+      "items": {
+        "$ref": "#/definitions/questao"
+      }
     }
   },
   "definitions": {
-    "letra": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+    "letra": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
     "cincoTextos": {
       "description": "Um texto para cada letra, A a E, nem mais nem menos: a prova da FAFIPA tem cinco alternativas.",
       "type": "object",
-      "required": ["A", "B", "C", "D", "E"],
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
       "additionalProperties": false,
       "properties": {
-        "A": { "type": "string", "minLength": 1 },
-        "B": { "type": "string", "minLength": 1 },
-        "C": { "type": "string", "minLength": 1 },
-        "D": { "type": "string", "minLength": 1 },
-        "E": { "type": "string", "minLength": 1 }
+        "A": {
+          "type": "string",
+          "minLength": 1
+        },
+        "B": {
+          "type": "string",
+          "minLength": 1
+        },
+        "C": {
+          "type": "string",
+          "minLength": 1
+        },
+        "D": {
+          "type": "string",
+          "minLength": 1
+        },
+        "E": {
+          "type": "string",
+          "minLength": 1
+        }
       }
     },
     "questao": {
       "type": "object",
-      "required": ["id", "tema", "enunciado", "alternativas", "correta", "dica", "explicacao", "fontes", "origem"],
+      "required": [
+        "id",
+        "tema",
+        "enunciado",
+        "alternativas",
+        "correta",
+        "dica",
+        "explicacao",
+        "fontes",
+        "origem"
+      ],
       "additionalProperties": false,
       "properties": {
         "id": {
@@ -66,10 +132,21 @@
           "type": "string",
           "pattern": "^[a-z]+-[0-9]{4}$"
         },
-        "tema": { "type": "string", "minLength": 3, "maxLength": 100 },
-        "enunciado": { "type": "string", "minLength": 20 },
-        "alternativas": { "$ref": "#/definitions/cincoTextos" },
-        "correta": { "$ref": "#/definitions/letra" },
+        "tema": {
+          "type": "string",
+          "minLength": 3,
+          "maxLength": 100
+        },
+        "enunciado": {
+          "type": "string",
+          "minLength": 20
+        },
+        "alternativas": {
+          "$ref": "#/definitions/cincoTextos"
+        },
+        "correta": {
+          "$ref": "#/definitions/letra"
+        },
         "dica": {
           "description": "Orienta sem entregar. O validador recusa dica que cite a letra da resposta.",
           "type": "string",
@@ -85,14 +162,32 @@
           "minItems": 1,
           "items": {
             "type": "object",
-            "required": ["tipo", "referencia", "data"],
+            "required": [
+              "tipo",
+              "referencia",
+              "data"
+            ],
             "additionalProperties": false,
             "properties": {
               "tipo": {
                 "type": "string",
-                "enum": ["constituicao", "lei", "decreto", "sumula", "sumula-vinculante", "repercussao-geral", "repetitivo", "controle-concentrado", "tce-pr", "outro"]
+                "enum": [
+                  "constituicao",
+                  "lei",
+                  "decreto",
+                  "sumula",
+                  "sumula-vinculante",
+                  "repercussao-geral",
+                  "repetitivo",
+                  "controle-concentrado",
+                  "tce-pr",
+                  "outro"
+                ]
               },
-              "referencia": { "type": "string", "minLength": 5 },
+              "referencia": {
+                "type": "string",
+                "minLength": 5
+              },
               "data": {
                 "description": "Data da norma, da sumula ou da tese (AAAA-MM-DD).",
                 "type": "string",
@@ -103,16 +198,30 @@
         },
         "origem": {
           "type": "object",
-          "required": ["tipo"],
+          "required": [
+            "tipo"
+          ],
           "additionalProperties": false,
           "properties": {
-            "tipo": { "type": "string", "enum": ["inedita", "adaptada"] },
+            "tipo": {
+              "type": "string",
+              "enum": [
+                "inedita",
+                "adaptada"
+              ]
+            },
             "prova": {
               "description": "Prova de onde a questao foi adaptada, quando for o caso. Ex.: NC-UFPR 2019, PGM Curitiba.",
               "type": "string",
               "minLength": 5
             }
           }
+        },
+        "alerta": {
+          "description": "Flag de mudança na lei: aparece na trilha e na revisão (nunca no simulado). Deve dizer que vale a norma em vigor em 21/09/2026, data de publicação do edital.",
+          "type": "string",
+          "minLength": 40,
+          "maxLength": 320
         }
       }
     }

@@ -124,6 +124,10 @@ def validar_arquivo(caminho, dados, esquema, relatorio, ids_vistos, enunciados_v
             if fonte["data"] > DATA_DE_CORTE:
                 relatorio.erro(onde, f"fonte '{fonte['referencia']}' e de {fonte['data']}, depois da data de corte {DATA_DE_CORTE}")
 
+        # A flag existe para lembrar a regra da data de corte; sem citá-la, ela confunde.
+        if "alerta" in q and "21/09/2026" not in q["alerta"]:
+            relatorio.erro(onde, "o alerta precisa citar a data do edital (21/09/2026)")
+
         if q["origem"]["tipo"] == "adaptada" and "prova" not in q["origem"]:
             relatorio.erro(onde, "questao adaptada precisa dizer de qual prova veio")
 

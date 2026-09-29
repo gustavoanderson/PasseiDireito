@@ -139,6 +139,10 @@ class _TelaQuestaoState extends State<TelaQuestao> {
                       Text(q.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
                     ],
                   ),
+                  if (q.alerta != null) ...[
+                    const SizedBox(height: 12),
+                    FlagMudanca(q.alerta!),
+                  ],
                   const SizedBox(height: 16),
                   Text(q.enunciado, style: Theme.of(context).textTheme.titleLarge),
                   if (_dicaAberta && !_confirmada) ...[
@@ -649,6 +653,10 @@ class TelaRevisaoQuestao extends StatelessWidget {
                 Text(questao.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
               ],
             ),
+            if (questao.alerta != null) ...[
+              const SizedBox(height: 12),
+              FlagMudanca(questao.alerta!),
+            ],
             const SizedBox(height: 16),
             Text(questao.enunciado, style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 16),
@@ -659,6 +667,62 @@ class TelaRevisaoQuestao extends StatelessWidget {
             const SizedBox(height: 6),
             _Explicacao(questao: questao),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Flag pequena de mudança na lei: uma etiqueta de uma linha que, tocada,
+/// abre o texto completo. Lembra que vale a norma em vigor na data do edital.
+/// Não aparece no simulado, porque a prova não traz esse aviso.
+class FlagMudanca extends StatefulWidget {
+  const FlagMudanca(this.texto, {super.key});
+
+  final String texto;
+
+  @override
+  State<FlagMudanca> createState() => _FlagMudancaState();
+}
+
+class _FlagMudancaState extends State<FlagMudanca> {
+  bool _aberta = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final cores = Cores.de(context);
+    final estilo = TextStyle(fontSize: 12.5, height: 1.4, fontWeight: FontWeight.w600, color: cores.sobreAlerta);
+    return Align(
+      alignment: Alignment.centerLeft,
+      child: Material(
+        key: const Key('flag-mudanca'),
+        color: cores.alerta,
+        borderRadius: BorderRadius.circular(8),
+        clipBehavior: Clip.antiAlias,
+        child: InkWell(
+          onTap: () => setState(() => _aberta = !_aberta),
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(8, 5, 8, 5),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Icon(Icons.flag, size: 14, color: cores.sobreAlerta),
+                    const SizedBox(width: 6),
+                    Flexible(child: Text('MUDANÇA NA LEI · vale 21/09/2026', style: estilo.copyWith(letterSpacing: 0.4))),
+                    Icon(_aberta ? Icons.expand_less : Icons.expand_more, size: 16, color: cores.sobreAlerta),
+                  ],
+                ),
+                if (_aberta) ...[
+                  const SizedBox(height: 6),
+                  Text(widget.texto, key: const Key('flag-texto'), style: estilo.copyWith(fontWeight: FontWeight.w500, fontSize: 13)),
+                ],
+              ],
+            ),
+          ),
         ),
       ),
     );

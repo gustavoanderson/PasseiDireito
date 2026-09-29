@@ -127,6 +127,18 @@ class TestValidador(unittest.TestCase):
         self.gravar(dados)
         self.assertReprova("de qual prova veio")
 
+    def test_alerta_que_cita_a_data_do_edital_passa(self):
+        dados = copy.deepcopy(self.base)
+        self.questao(dados)["alerta"] = "Mudança recente na lei. Responda pela norma em vigor em 21/09/2026, data do edital."
+        self.gravar(dados)
+        self.assertEqual(self.rodar().erros, [])
+
+    def test_alerta_sem_a_data_do_edital_reprova(self):
+        dados = copy.deepcopy(self.base)
+        self.questao(dados)["alerta"] = "Mudança recente na lei: confira a redação nova antes de responder."
+        self.gravar(dados)
+        self.assertReprova("citar a data do edital")
+
     # --- organizacao do banco ---
 
     def test_id_repetido_em_outro_arquivo_reprova(self):
