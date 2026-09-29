@@ -38,7 +38,7 @@ Os arquivos (PDF e .txt) estão no scratchpad da sessão, em `...\scratchpad\faf
 | 3 | Pref. Bandeirantes-PR | 2017 | Advogado | 30 (21) | A–D | 0 | https://eticaconcursos.com.br/provas/fafipa-2017-prefeitura-de-bandeirantes-pr-advogado |
 | 4 | Câmara de Campina Grande do Sul-PR | 2018 | Advogado | 30 (15) | A–D | 2 (Q14 informática; Q30 específica) | https://eticaconcursos.com.br/provas/fafipa-2018-camara-de-campina-grande-do-sul-pr-advogado |
 | 5 | CREA-PR | 2019 | Agente Profissional – Advogado | 50 (35) | A–E | não verificável (só obtive o gabarito preliminar) | https://eticaconcursos.com.br/provas/fafipa-2019-crea-pr-agente-profissional-advogado |
-| 6 | **Pref. Foz do Iguaçu-PR** | 2019 | **Procurador do Município Júnior** | **80 (80)** | A–E | 2 (Q42, Q76) | https://eticaconcursos.com.br/provas/fafipa-2019-prefeitura-de-foz-do-iguacu-pr-procurador-do-municipio-junior |
+| 6 | **Pref. Foz do Iguaçu-PR** | 2019 | **Procurador do Município Júnior** | **80 (80)** | A–E | 2 (Q42, Q76), pelo gabarito definitivo (Anexo II do Edital 002/08/18/2019) | https://eticaconcursos.com.br/provas/fafipa-2019-prefeitura-de-foz-do-iguacu-pr-procurador-do-municipio-junior |
 | 7 | IPREV Nova Esperança-PR | 2019 | Advogado | 40 (20) | A–E | 0 | https://eticaconcursos.com.br/provas/fafipa-2019-prefeitura-de-nova-esperanca-pr-advogado |
 | 8 | Câmara de Novo Horizonte do Sul-MS | 2021 | Assessor Jurídico | 50 (30)* | A–E | 0 | https://eticaconcursos.com.br/provas/fafipa-2021-camara-de-novo-horizonte-do-sul-ms-assessor-juridico |
 | 9 | Pref. Brasilândia-MS | 2021 | Advogado | 30 (15) | A–D | 0 | https://eticaconcursos.com.br/provas/fafipa-2021-prefeitura-de-brasilandia-ms-advogado |
@@ -272,7 +272,7 @@ Os pareceres são padronizados e curtos. Motivos registrados para cargos jurídi
 | "divergência histórica dos fatos, gerando dupla interpretação" | 1 | São Mateus do Sul 2025 (Q17, conhecimentos comuns) |
 | "Erro de digitação de gabarito" (gabarito alterado, sem anulação) | 3 | FOZPREV 2025 (Q24→C); Fund. Araucária 2025 (Q12→C); Cianorte 2026 (Q9→A) |
 
-Nos cadernos antigos: em Campina Grande do Sul 2018, a Q14 foi anulada por conteúdo fora do edital (Windows 10) e a Q30 por "omissão em relação ao princípio da publicidade". Em Foz 2019 houve 2 anuladas (Q42 e Q76), mas não consultei o parecer. Na Q42, as duas alternativas "completas" incluem "parcelamento" entre as formas de extinção do crédito, o que é compatível com "nenhuma alternativa correta". Isso é inferência minha.
+Nos cadernos antigos: em Campina Grande do Sul 2018, a Q14 foi anulada por conteúdo fora do edital (Windows 10) e a Q30 por "omissão em relação ao princípio da publicidade". Em Foz 2019 houve 2 anuladas (Q42 e Q76), mas não obtive o parecer. Na Q76 (Lei 12.305/2010), o texto extraído não permite inferir o motivo. Na Q42, as duas alternativas "completas" incluem "parcelamento" entre as formas de extinção do crédito, o que é compatível com "nenhuma alternativa correta". Isso é inferência minha.
 
 **Inferências (não confirmadas, porque os cadernos recentes não foram obtidos):**
 - O defeito mais comum da banca é deixar a questão **sem alternativa correta** (10 de 18). Isso combina com o estilo de afirmativas e de alternativas quase literais: um detalhe trocado a mais ou uma lei desatualizada torna todas erradas. As provas antigas ainda usam a Lei 8.666/93 e o texto original da LIA, antes da Lei 14.230/2021; a desatualização normativa é um risco plausível.
