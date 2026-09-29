@@ -1,0 +1,91 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-09",
+    "titulo": "Tributação, finanças e precatórios na Constituição",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "const-0025",
+      "tema": "Impostos municipais e limitações ao poder de tributar",
+      "enunciado": "Com base nos arts. 150 e 156 da Constituição Federal, assinale a alternativa correta a respeito dos impostos de competência do Município de Curitiba.",
+      "alternativas": {
+        "A": "O IPTU não pode ser progressivo em razão do valor do imóvel, admitindo-se apenas a progressividade no tempo prevista no art. 182, § 4º, II.",
+        "B": "É vedado ao Poder Executivo atualizar a base de cálculo do IPTU, providência que depende sempre de lei municipal específica para cada exercício.",
+        "C": "A vedação de cobrar tributo antes de decorridos noventa dias da publicação da lei que o instituiu ou aumentou não se aplica à fixação da base de cálculo do IPTU.",
+        "D": "O IPTU incide sobre o imóvel em que funciona templo de qualquer culto quando a entidade religiosa é apenas locatária do bem.",
+        "E": "O ITBI compete ao Município do domicílio do adquirente do imóvel."
+      },
+      "correta": "C",
+      "dica": "O § 1º do art. 150 lista exceções às duas anterioridades, e a lista da noventena menciona a base de cálculo de dois impostos sobre propriedade.",
+      "explicacao": {
+        "C": "Correta. O art. 150, § 1º (redação da EC 42/2003), afasta a anterioridade nonagesimal (art. 150, III, c) da fixação da base de cálculo do IPVA (art. 155, III) e do IPTU (art. 156, I). A anterioridade de exercício (III, b) continua valendo para essa fixação.",
+        "A": "O art. 156, § 1º, I (EC 29/2000), autoriza o IPTU progressivo em razão do valor do imóvel, sem prejuízo da progressividade no tempo do art. 182, § 4º, II. O inciso II admite ainda alíquotas diferentes de acordo com a localização e o uso do imóvel.",
+        "B": "O art. 156, § 1º, III, incluído pela EC 132/2023, permite que o IPTU tenha sua base de cálculo atualizada pelo Poder Executivo, conforme critérios estabelecidos em lei municipal.",
+        "D": "O art. 156, § 1º-A (EC 116/2022), diz que o IPTU não incide sobre templos de qualquer culto, ainda que as entidades abrangidas pela imunidade do art. 150, VI, b, sejam apenas locatárias do bem imóvel.",
+        "E": "O art. 156, § 2º, II, atribui o ITBI ao Município da situação do bem, e não ao do domicílio do adquirente."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 150, III, b e c, e § 1º (EC 42/2003)", "data": "2003-12-19" },
+        { "tipo": "constituicao", "referencia": "CF, art. 156, §§ 1º, 1º-A (EC 116/2022) e 2º", "data": "2022-02-17" },
+        { "tipo": "constituicao", "referencia": "CF, art. 156, § 1º, III (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0026",
+      "tema": "Reforma Tributária – IBS, Comitê Gestor e transição (EC 132/2023)",
+      "enunciado": "A Emenda Constitucional nº 132/2023 instituiu o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, Distrito Federal e Municípios. Com base nos arts. 156-A e 156-B da Constituição Federal e nas regras de transição do ADCT, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O IBS terá legislação própria em cada Município, que definirá livremente as hipóteses de incidência e a alíquota aplicável no seu território.",
+        "B": "O IBS será cobrado pelo somatório das alíquotas do Estado e do Município de origem da operação.",
+        "C": "Na instância máxima de deliberação do Comitê Gestor, os 27 representantes do conjunto dos Municípios e do Distrito Federal são todos eleitos com base nos votos de cada Município ponderados pelas respectivas populações.",
+        "D": "A representação judicial relativa ao IBS será realizada exclusivamente pelo Comitê Gestor, afastada a atuação das procuradorias dos Municípios.",
+        "E": "De 2029 a 2032, as alíquotas do ICMS e do ISS serão fixadas em proporções decrescentes das alíquotas das respectivas legislações (de 9/10 em 2029 a 6/10 em 2032), e esses impostos ficam extintos a partir de 2033."
+      },
+      "correta": "E",
+      "dica": "O ISS não acaba de uma vez: o ADCT prevê uma redução gradual por quatro anos antes da extinção. Nas demais, pense em legislação única, destino e no papel das procuradorias locais.",
+      "explicacao": {
+        "E": "Correta. É o art. 128 do ADCT (9/10 em 2029, 8/10 em 2030, 7/10 em 2031 e 6/10 em 2032) combinado com o art. 129 do ADCT, que extingue a partir de 2033 os impostos dos arts. 155, II (ICMS), e 156, III (ISS).",
+        "A": "O art. 156-A, § 1º, IV, determina que o IBS terá legislação única e uniforme em todo o território nacional. O que cada ente fixa é a sua alíquota própria, por lei específica (inciso V), e a mesma alíquota vale para todas as operações, ressalvadas as hipóteses constitucionais (inciso VI).",
+        "B": "O art. 156-A, § 1º, VII, manda cobrar o IBS pelo somatório das alíquotas do Estado e do Município de destino da operação. A tributação no destino é um dos pilares da reforma.",
+        "C": "O art. 156-B, § 3º, II, divide os 27 representantes municipais: 14 eleitos com base nos votos de cada Município, com valor igual para todos, e 13 com base nos votos ponderados pelas respectivas populações.",
+        "D": "O art. 156-B, § 2º, V, atribui a fiscalização, o lançamento, a cobrança e a representação administrativa e judicial relativas ao IBS às administrações tributárias e procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências. Ao Comitê Gestor cabe coordenar essas atividades. É um dispositivo de interesse direto da PGM."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 156-A, § 1º, e 156-B, §§ 2º e 3º (EC 132/2023)", "data": "2023-12-20" },
+        { "tipo": "constituicao", "referencia": "ADCT, arts. 128 e 129 (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0027",
+      "tema": "Precatórios após as EC 113/2021, 114/2021 e 136/2025",
+      "enunciado": "O Município de Curitiba foi condenado por sentença transitada em julgado ao pagamento de valor que exige a expedição de precatório. Com base no art. 100 da Constituição Federal, na redação vigente, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 2 de abril, fazendo-se o pagamento até o final do exercício seguinte.",
+        "B": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de fevereiro, fazendo-se o pagamento até o final do exercício seguinte, quando terão seus valores atualizados monetariamente.",
+        "C": "Os débitos de natureza alimentícia cujos titulares tenham 60 anos de idade serão pagos com preferência sobre todos os demais, até o valor equivalente ao quíntuplo do fixado em lei para as obrigações de pequeno valor.",
+        "D": "O credor somente poderá ceder seus créditos em precatórios a terceiros com a concordância do ente devedor.",
+        "E": "Se os recursos para pagamento de precatórios do Município não forem tempestivamente liberados, o Presidente do Supremo Tribunal Federal determinará o sequestro das contas municipais."
+      },
+      "correta": "B",
+      "dica": "A data de corte para inclusão no orçamento já mudou três vezes (1º de julho, 2 de abril e a atual). A emenda mais recente sobre precatórios é de 2025.",
+      "explicacao": {
+        "B": "Correta. É o art. 100, § 5º, na redação dada pela EC 136, de 9/9/2025, que antecipou a data para 1º de fevereiro.",
+        "A": "Dois de abril era a data da redação dada pela EC 114/2021, substituída pela EC 136/2025, que fixou 1º de fevereiro. Antes da EC 114/2021, a data era 1º de julho (EC 62/2009). É o tipo de detalhe que a banca cobra em edital que cita as EC 113 e 114.",
+        "C": "O art. 100, § 2º (EC 94/2016), limita a superpreferência dos titulares com 60 anos, portadores de doença grave ou pessoas com deficiência ao triplo do valor fixado em lei para as obrigações de pequeno valor (§ 3º), admitido o fracionamento; o restante segue a ordem cronológica.",
+        "D": "O art. 100, § 13, permite ao credor ceder, total ou parcialmente, seus créditos em precatórios a terceiros, independentemente da concordância do devedor. A cessão só produz efeitos após comunicação, por petição protocolizada, ao Tribunal de origem e ao ente devedor (§ 14, redação da EC 113/2021).",
+        "E": "O art. 100, § 27, II (EC 136/2025), atribui o sequestro ao Presidente do Tribunal de Justiça local, até o limite do valor devido. Além disso, os limites do § 23 ficam suspensos, o Prefeito responde na forma da legislação de responsabilidade fiscal e de improbidade, e o Município fica impedido de receber transferências voluntárias."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 5º e 27 (EC 136/2025)", "data": "2025-09-09" },
+        { "tipo": "constituicao", "referencia": "CF, art. 100, § 14 (EC 113/2021)", "data": "2021-12-08" },
+        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 2º (EC 94/2016) e 13 (EC 62/2009)", "data": "2016-12-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

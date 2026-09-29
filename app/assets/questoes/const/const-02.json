@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-02",
+    "titulo": "Poder constituinte e princípios fundamentais",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "const-0004",
+      "tema": "Emenda constitucional – procedimento e limites (art. 60)",
+      "enunciado": "Considerando o art. 60 da Constituição Federal, que disciplina o poder constituinte derivado reformador, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A Constituição poderá ser emendada mediante proposta de um terço, no mínimo, das Assembleias Legislativas das unidades da Federação, manifestando-se cada uma delas pela maioria absoluta de seus membros.",
+        "B": "A proposta será discutida e votada em cada Casa do Congresso Nacional, em dois turnos, considerando-se aprovada se obtiver, em ambos, a maioria absoluta dos votos dos respectivos membros.",
+        "C": "A matéria constante de proposta de emenda rejeitada ou havida por prejudicada não pode ser objeto de nova proposta na mesma sessão legislativa.",
+        "D": "A emenda à Constituição será promulgada pelo Presidente da República, após a sanção, com o respectivo número de ordem.",
+        "E": "Não será objeto de deliberação a proposta de emenda tendente a abolir o voto direto, secreto, universal, obrigatório e periódico."
+      },
+      "correta": "C",
+      "dica": "Na emenda constitucional não há sanção nem veto, e o quórum é mais alto que o da lei complementar. Confira também, palavra por palavra, a lista do § 4º.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do art. 60, § 5º, da CF. Atenção: para projeto de lei, o art. 67 permite a reapresentação na mesma sessão legislativa mediante proposta da maioria absoluta dos membros de qualquer das Casas; para emenda constitucional, não há essa exceção.",
+        "A": "O art. 60, III, exige proposta de mais da metade das Assembleias Legislativas, manifestando-se cada uma delas pela maioria relativa de seus membros. A alternativa troca as duas frações. Um terço é a fração do inciso I (membros da Câmara ou do Senado).",
+        "B": "O art. 60, § 2º, exige três quintos dos votos dos membros de cada Casa, em dois turnos. Maioria absoluta é o quórum da lei complementar (art. 69).",
+        "D": "O art. 60, § 3º, atribui a promulgação às Mesas da Câmara dos Deputados e do Senado Federal. A emenda não passa por sanção ou veto do Presidente da República.",
+        "E": "O art. 60, § 4º, II, protege o voto direto, secreto, universal e periódico. A obrigatoriedade do voto (art. 14, § 1º) não está entre as cláusulas pétreas, e essa inclusão indevida é uma pegadinha recorrente."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 60", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0005",
+      "tema": "Poder constituinte revisor e decorrente; limitações",
+      "enunciado": "Analise as afirmativas a seguir, com base na Constituição Federal e no Ato das Disposições Constitucionais Transitórias (ADCT).\n\nI. A vedação de emenda à Constituição na vigência de intervenção federal, de estado de defesa ou de estado de sítio constitui limitação circunstancial ao poder de reforma.\nII. A revisão constitucional prevista no ADCT seria realizada após cinco anos, contados da promulgação da Constituição, pelo voto da maioria absoluta dos membros do Congresso Nacional, em sessão unicameral.\nIII. O ADCT determinou que cada Assembleia Legislativa, com poderes constituintes, elaborasse a Constituição do Estado no prazo de um ano, e que a Câmara Municipal votasse a Lei Orgânica respectiva, em dois turnos, no prazo de seis meses após a promulgação da Constituição Estadual.\nIV. A forma republicana de governo figura expressamente no rol de matérias que não podem ser objeto de proposta de emenda tendente a aboli-las.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "Releia os quatro incisos do § 4º do art. 60 e procure neles a forma de governo. Para o ADCT, os números que importam são cinco anos, um ano e seis meses.",
+      "explicacao": {
+        "E": "Correta. I, II e III reproduzem, respectivamente, o art. 60, § 1º, da CF (limitação circunstancial: situações de crise em que a Constituição não pode ser emendada), o art. 3º do ADCT (revisão) e o art. 11 do ADCT (poder constituinte decorrente dos Estados e a Lei Orgânica municipal). A IV é falsa.",
+        "A": "Deixa de fora a afirmativa III, que está correta: é o art. 11, caput e parágrafo único, do ADCT (Constituição Estadual em um ano; Lei Orgânica em seis meses, em dois turnos de discussão e votação).",
+        "B": "A afirmativa IV é falsa. O art. 60, § 4º, lista forma federativa de Estado, voto direto, secreto, universal e periódico, separação dos Poderes e direitos e garantias individuais. A forma republicana não está ali; o art. 2º do ADCT até previu o plebiscito de 1993 sobre república ou monarquia.",
+        "C": "Inclui a afirmativa IV, que é falsa (a forma republicana não está no art. 60, § 4º), e exclui a II, que é correta (art. 3º do ADCT: cinco anos, maioria absoluta, sessão unicameral).",
+        "D": "Nem todas estão corretas: a IV é falsa, porque a forma republicana de governo não integra o rol expresso do art. 60, § 4º, da CF."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 60, §§ 1º e 4º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "ADCT, arts. 2º, 3º e 11", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0006",
+      "tema": "Princípios fundamentais – fundamentos, objetivos e relações internacionais",
+      "enunciado": "Com base nos arts. 1º a 4º da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A dignidade da pessoa humana é um dos objetivos fundamentais da República Federativa do Brasil.",
+        "B": "Constitui objetivo fundamental da República Federativa do Brasil erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais.",
+        "C": "A concessão de asilo político é um dos fundamentos da República Federativa do Brasil.",
+        "D": "O pluralismo político é princípio que rege a República Federativa do Brasil apenas nas suas relações internacionais.",
+        "E": "Garantir o desenvolvimento nacional é um dos fundamentos do Estado Democrático de Direito, ao lado da soberania e da cidadania."
+      },
+      "correta": "B",
+      "dica": "Os objetivos do art. 3º começam com verbos (construir, garantir, erradicar, promover). Os fundamentos do art. 1º são substantivos.",
+      "explicacao": {
+        "B": "Correta. É o art. 3º, III, da CF. Os objetivos fundamentais são: construir uma sociedade livre, justa e solidária (I); garantir o desenvolvimento nacional (II); erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais (III); promover o bem de todos, sem preconceitos (IV).",
+        "A": "A dignidade da pessoa humana é fundamento da República (art. 1º, III), e não objetivo. Fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.",
+        "C": "A concessão de asilo político é princípio das relações internacionais (art. 4º, X), e não fundamento da República.",
+        "D": "O pluralismo político é fundamento da República (art. 1º, V), e não princípio restrito às relações internacionais. O art. 4º traz outros princípios, como independência nacional e prevalência dos direitos humanos.",
+        "E": "Garantir o desenvolvimento nacional é objetivo fundamental (art. 3º, II), e não fundamento. Soberania e cidadania, estas sim, são fundamentos (art. 1º, I e II)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 1º, 3º e 4º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

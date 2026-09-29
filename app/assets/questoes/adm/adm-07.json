@@ -57,6 +57,81 @@
         { "tipo": "constituicao", "referencia": "CF, art. 22, XXVII", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0031",
+      "tema": "Alteração unilateral e extinção do contrato a pedido do contratado",
+      "enunciado": "Em contrato de prestação de serviços regido pela Lei nº 14.133/2021, a Administração deixou de pagar as faturas do contratado. Considerando as regras sobre alteração e extinção dos contratos administrativos dessa lei, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O contratado é obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 50% (cinquenta por cento) do valor inicial atualizado de qualquer contrato de serviços.",
+        "B": "O contratado tem direito à extinção do contrato quando houver atraso superior a 1 (um) mês, contado da emissão da nota fiscal, dos pagamentos devidos pela Administração.",
+        "C": "O contratado tem direito à extinção do contrato em caso de atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração, salvo, entre outras hipóteses, em caso de calamidade pública.",
+        "D": "O direito à extinção por atraso de pagamento subsiste mesmo quando o atraso decorrer de fato para o qual o próprio contratado tenha contribuído.",
+        "E": "Diante do atraso, o contratado só pode pedir a extinção do contrato, não lhe sendo assegurado optar pela suspensão do cumprimento de suas obrigações."
+      },
+      "correta": "C",
+      "dica": "O § 2º do art. 137 traz prazos em meses e em dias úteis; o § 3º traz as exceções e uma alternativa à extinção.",
+      "explicacao": {
+        "C": "Correta. É o art. 137, § 2º, IV, da Lei 14.133/2021, combinado com o § 3º, I, que afasta essa hipótese em caso de calamidade pública, de grave perturbação da ordem interna ou de guerra, ou quando o contratado tiver dado causa ao fato.",
+        "A": "Pelo art. 125, o limite geral para acréscimos ou supressões unilaterais é de 25% do valor inicial atualizado do contrato. Os 50% valem apenas para acréscimos no caso de reforma de edifício ou de equipamento.",
+        "B": "O prazo do art. 137, § 2º, IV, é de atraso superior a 2 (dois) meses, contado da emissão da nota fiscal. Um mês de atraso não gera, por si, direito à extinção.",
+        "D": "O § 3º, I, do art. 137 afasta a extinção quando o fato decorrer de ato ou fato que o contratado tenha praticado, do qual tenha participado ou para o qual tenha contribuído.",
+        "E": "O § 3º, II, do art. 137 assegura ao contratado o direito de optar pela suspensão do cumprimento das obrigações até a normalização da situação, admitido o restabelecimento do equilíbrio econômico-financeiro."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 125 e 137, §§ 2º e 3º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0032",
+      "tema": "Contrato Público para Solução Inovadora – CPSI (LC 182/2021)",
+      "enunciado": "Com base na Lei Complementar nº 182/2021 (Marco Legal das Startups), que disciplina a licitação e o Contrato Público para Solução Inovadora (CPSI), assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O CPSI tem vigência limitada a 24 (vinte e quatro) meses, prorrogável por igual período.",
+        "B": "O edital deve descrever detalhadamente a solução técnica pretendida, sendo vedado limitar o escopo à indicação do problema a ser resolvido.",
+        "C": "A análise da documentação de habilitação precede a fase de julgamento das propostas e alcança todos os licitantes.",
+        "D": "Encerrado o CPSI, a Administração só poderá contratar o fornecimento da solução resultante mediante nova licitação.",
+        "E": "Encerrado o CPSI, a Administração poderá celebrar com a mesma contratada, sem nova licitação, contrato de fornecimento do produto, processo ou solução resultante, com vigência limitada a 24 (vinte e quatro) meses, prorrogável por mais um período de até 24 (vinte e quatro) meses."
+      },
+      "correta": "E",
+      "dica": "A lei separa dois contratos em sequência: um para testar a solução, outro para fornecê-la. Cada um tem sua própria vigência.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 15 da LC 182/2021 combinado com o seu § 2º. O contrato de fornecimento dispensa nova licitação porque a seleção já ocorreu na licitação especial que precedeu o CPSI.",
+        "A": "O CPSI tem vigência limitada a 12 (doze) meses, prorrogável por mais um período de até 12 meses (art. 14, caput). Os 24 meses são do contrato de fornecimento posterior (art. 15, § 2º).",
+        "B": "O § 1º do art. 13 permite exatamente o contrário: o escopo pode restringir-se à indicação do problema e dos resultados esperados, dispensada a descrição de solução técnica previamente mapeada, cabendo aos licitantes propor os meios de resolução.",
+        "C": "Pelo § 7º do art. 13, a análise da habilitação é posterior ao julgamento das propostas e contempla somente os proponentes selecionados.",
+        "D": "O art. 15 autoriza a Administração a celebrar o contrato de fornecimento com a mesma contratada \"sem nova licitação\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar 182/2021, arts. 13, 14 e 15", "data": "2021-06-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0033",
+      "tema": "Critérios de julgamento (art. 33 da Lei 14.133/2021)",
+      "enunciado": "Nos termos do art. 33 da Lei nº 14.133/2021, o julgamento das propostas será realizado de acordo com determinados critérios. Assinale a alternativa que NÃO apresenta um critério de julgamento previsto nesse dispositivo.",
+      "alternativas": {
+        "A": "Maior desconto.",
+        "B": "Melhor técnica ou conteúdo artístico.",
+        "C": "Maior retorno econômico.",
+        "D": "Menor preço global com preferência para empresas sediadas no Município licitante.",
+        "E": "Maior lance, no caso de leilão."
+      },
+      "correta": "D",
+      "dica": "O art. 33 tem seis incisos. Um critério que favorece licitante pelo local de sua sede esbarraria na isonomia.",
+      "explicacao": {
+        "D": "É a resposta. O art. 33 prevê menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (no leilão) e maior retorno econômico. Não há critério que dê preferência a empresas pela sede no Município, o que violaria a igualdade entre licitantes.",
+        "A": "Previsto no inciso II do art. 33. Pelo art. 34, o julgamento por maior desconto, como o por menor preço, considera o menor dispêndio para a Administração, atendidos os parâmetros mínimos de qualidade do edital.",
+        "B": "Previsto no inciso III do art. 33. É o critério típico do concurso, em que se escolhe trabalho técnico, científico ou artístico.",
+        "C": "Previsto no inciso VI do art. 33. É usado nos contratos de eficiência, em que a remuneração do contratado depende da economia gerada para a Administração.",
+        "E": "Previsto no inciso V do art. 33, que o vincula expressamente ao leilão, modalidade usada para alienação de bens."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 33 e 34", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

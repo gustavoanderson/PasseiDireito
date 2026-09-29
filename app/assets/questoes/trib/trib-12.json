@@ -1,0 +1,36 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-12",
+    "titulo": "Transação tributária e dívida ativa",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "trib-0038",
+      "tema": "Transação tributária no CTN (LC 236/2026)",
+      "enunciado": "Considere as afirmativas abaixo sobre a transação tributária, com base no Código Tributário Nacional, na redação dada pela Lei Complementar nº 236/2026.\n\nI. A lei pode facultar aos sujeitos ativo e passivo celebrar transação que, mediante concessões mútuas, importe em determinação de litígio e consequente extinção do crédito tributário, indicando a autoridade competente para autorizá-la em cada caso.\nII. A proposta de transação aceita pela administração, nos termos da legislação específica, suspende a exigibilidade do crédito tributário.\nIII. A transação caracteriza renúncia de receita e deve, por isso, vir acompanhada da estimativa de impacto orçamentário-financeiro exigida pelo art. 14 da Lei de Responsabilidade Fiscal.\nIV. A transação independe de lei, podendo ser celebrada por ato discricionário do Procurador do Município.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I, II e III estão corretas.",
+        "B": "Somente as afirmativas III e IV estão corretas.",
+        "C": "Somente as afirmativas I e III estão corretas.",
+        "D": "Somente as afirmativas II e IV estão corretas.",
+        "E": "Somente as afirmativas I e II estão corretas."
+      },
+      "correta": "E",
+      "dica": "A LC 236/2026 incluiu um art. 171-C que responde diretamente a uma das afirmativas. E releia o verbo inicial do art. 171.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 171 e seu parágrafo único; II é o art. 151, VIII, incluído pela LC 236/2026. A III contraria o art. 171-C e a IV contraria o próprio art. 171, que exige lei.",
+        "A": "Inclui a III, que contraria o art. 171-C do CTN (LC 236/2026): a transação, a mediação e a arbitragem especial tributária e aduaneira não caracterizam renúncia de receita para fins do art. 14 da LRF.",
+        "B": "As duas estão erradas: o art. 171-C afasta a caracterização de renúncia de receita, e o art. 171 diz que a lei pode facultar a transação e que a lei indicará a autoridade competente. Sem lei, não há transação (ver também o art. 97, VI, do CTN).",
+        "C": "A III está errada (art. 171-C do CTN), e a alternativa exclui a II, que reproduz o art. 151, VIII, incluído pela LC 236/2026.",
+        "D": "A IV está errada: o art. 171 do CTN condiciona a transação à lei, que indicará a autoridade competente para autorizá-la em cada caso. E a alternativa exclui a I, transcrição do próprio art. 171."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, arts. 97, VI, 151, VIII, 171 e 171-C (LC 236/2026)", "data": "2026-09-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-07",
+    "titulo": "Execução e cumprimento de sentença contra a Fazenda Pública",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "pc-0019",
+      "tema": "Cumprimento de sentença contra a Fazenda (arts. 534 e 535)",
+      "enunciado": "Transitou em julgado sentença que condenou o Município ao pagamento de quantia certa. Iniciado o cumprimento de sentença, e com base nos arts. 534 e 535 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Município será intimado para, no prazo de 15 (quinze) dias, pagar o débito, sob pena de multa de dez por cento e de honorários de dez por cento.",
+        "B": "A multa de dez por cento prevista para o executado que não paga voluntariamente no cumprimento de sentença não se aplica à Fazenda Pública.",
+        "C": "A Fazenda Pública impugnará a execução por meio de embargos, em autos apartados, no prazo de 30 (trinta) dias.",
+        "D": "Alegado excesso de execução, a impugnação será conhecida ainda que a Fazenda não declare de imediato o valor que entende correto, cabendo ao contador judicial apurá-lo.",
+        "E": "Na impugnação, a Fazenda pode arguir o pagamento ou a prescrição ocorridos antes do trânsito em julgado, ainda que não alegados na fase de conhecimento."
+      },
+      "correta": "B",
+      "dica": "Contra a Fazenda, o cumprimento de sentença não começa com ordem de pagar: o pagamento depende de precatório ou de requisição. Isso explica por que certa sanção não se aplica.",
+      "explicacao": {
+        "A": "O art. 535, caput, manda intimar a Fazenda para, querendo, impugnar a execução no prazo de 30 (trinta) dias. Não há intimação para pagar em 15 dias: o pagamento se faz por precatório ou requisição de pequeno valor (art. 100 da CF), e o art. 534, § 2º, afasta a multa do art. 523, § 1º.",
+        "B": "Correta. É a literalidade do art. 534, § 2º: a multa prevista no § 1º do art. 523 não se aplica à Fazenda Pública. A razão é que a Fazenda não pode pagar espontaneamente fora da ordem do precatório.",
+        "C": "O art. 535, caput, fala em impugnação \"nos próprios autos\". Embargos, em 30 dias, são a defesa da Fazenda na execução de título extrajudicial (art. 910).",
+        "D": "O art. 535, § 2º, exige que a executada declare de imediato o valor que entende correto, \"sob pena de não conhecimento da arguição\".",
+        "E": "O art. 535, VI, admite causas modificativas ou extintivas da obrigação, como pagamento, novação, compensação, transação ou prescrição, \"desde que supervenientes ao trânsito em julgado da sentença\". As anteriores ficaram cobertas pela coisa julgada (art. 508)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 508, 523, 534, 535 e 910", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0020",
+      "tema": "Execução de título extrajudicial contra a Fazenda (art. 910)",
+      "enunciado": "Um fornecedor ajuizou execução fundada em título executivo extrajudicial contra o Município. Nos termos do art. 910 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Município será citado para pagar a dívida em 3 (três) dias, sob pena de penhora de bens dominicais.",
+        "B": "O Município será citado para opor embargos no prazo de 15 (quinze) dias, contado em dobro por força do art. 183.",
+        "C": "Não opostos embargos, o juiz determinará o pagamento imediato, mediante depósito judicial, independentemente de precatório.",
+        "D": "Nos embargos, a Fazenda Pública só poderá alegar as matérias taxativamente previstas para a impugnação ao cumprimento de sentença.",
+        "E": "Nos embargos, a Fazenda Pública poderá alegar qualquer matéria que lhe seria lícito deduzir como defesa no processo de conhecimento."
+      },
+      "correta": "E",
+      "dica": "Na execução de título extrajudicial não houve processo de conhecimento anterior. Pense no que isso muda quanto à amplitude da defesa.",
+      "explicacao": {
+        "A": "Pelo art. 910, caput, a Fazenda é citada para opor embargos em 30 dias, e não para pagar sob pena de penhora. Bens públicos são impenhoráveis, e o pagamento segue o art. 100 da CF (§ 1º do art. 910).",
+        "B": "O prazo do art. 910 é de 30 (trinta) dias. Por ser prazo próprio fixado para o ente público, não se dobra (art. 183, § 2º).",
+        "C": "O art. 910, § 1º, manda expedir precatório ou requisição de pequeno valor, observado o art. 100 da Constituição, quando não opostos embargos ou transitada em julgado a decisão que os rejeitar.",
+        "D": "O art. 910, § 2º, é mais amplo: a Fazenda pode alegar qualquer matéria de defesa do processo de conhecimento. O § 3º manda aplicar os arts. 534 e 535 apenas \"no que couber\".",
+        "E": "Correta. É a literalidade do art. 910, § 2º. Como o título extrajudicial não passou pelo crivo do juiz, a defesa da Fazenda não sofre a limitação que a coisa julgada impõe na impugnação ao cumprimento de sentença."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 183, § 2º, e 910", "data": "2015-03-16" },
+        { "tipo": "constituicao", "referencia": "CF, art. 100", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0021",
+      "tema": "Obrigações de pequeno valor em Curitiba (Lei Municipal 10.235/2001)",
+      "enunciado": "A Lei Municipal nº 10.235/2001 regulamenta, no Município de Curitiba, as obrigações de pequeno valor a que alude o § 3º do art. 100 da Constituição Federal. Com base nessa lei, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É facultado ao exequente renunciar ao crédito no que exceder o limite legal, para optar pelo pagamento sem precatório, e esse pagamento implica quitação total do crédito exequendo.",
+        "B": "O pagamento da obrigação de pequeno valor será efetuado no prazo de 60 (sessenta) dias, contado do trânsito em julgado da sentença condenatória.",
+        "C": "É permitido ao credor fracionar o valor total da obrigação, recebendo parte como obrigação de pequeno valor e o restante por precatório.",
+        "D": "O enquadramento no limite de pequeno valor é aferido na data do ajuizamento da ação de conhecimento.",
+        "E": "O valor-limite das obrigações de pequeno valor é fixo e só pode ser alterado por nova lei aprovada pela Câmara Municipal."
+      },
+      "correta": "A",
+      "dica": "A lei municipal tem cinco parágrafos no art. 1º e um prazo contado a partir de um ato da Procuradoria-Geral do Município. Releia também quem pode rever o valor.",
+      "explicacao": {
+        "A": "Correta. É a combinação do art. 1º, § 4º (faculdade de renunciar ao excedente para receber na forma da lei) com o § 5º (o pagamento sem precatório implica quitação total do crédito). A renúncia deve ser expressa e instruir o requerimento (art. 2º, § 2º).",
+        "B": "O art. 2º fixa o prazo de 90 (noventa) dias, contado do recebimento da requisição pela Procuradoria-Geral do Município, e não do trânsito em julgado.",
+        "C": "O art. 1º, § 2º, veda o fracionamento, repartição ou quebra do valor total da obrigação, controversa ou incontroversa, ressalvada a hipótese do art. 23 da Lei 8.906/1994 (honorários do advogado) reconhecida em juízo. A vedação também está no art. 100, § 8º, da CF.",
+        "D": "Pelo art. 1º, § 1º, os débitos, individualizados por ação judicial, devem atender ao limite estabelecido na data em que os respectivos cálculos se tornarem incontroversos.",
+        "E": "O art. 5º autoriza o Poder Executivo Municipal a rever anualmente o valor, publicando-o no Diário Oficial. Foi o que fez o Decreto nº 2.674/2025, que o fixou em R$ 8.537,55, com efeitos financeiros a partir de 1º/01/2026 (o valor original do art. 1º era de R$ 5.181,00)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 10.235/2001, arts. 1º, 2º e 5º", "data": "2001-09-13" },
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 2.674/2025, art. 1º", "data": "2025-12-19" },
+        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 3º, 4º e 8º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

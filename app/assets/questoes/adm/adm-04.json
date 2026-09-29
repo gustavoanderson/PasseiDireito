@@ -32,6 +32,84 @@
         { "tipo": "sumula", "referencia": "Súmula 473/STF", "data": "1969-12-03" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0021",
+      "tema": "Processo administrativo em Curitiba – recurso e reconsideração (Lei 16.466/2024)",
+      "enunciado": "Com base na Lei Municipal nº 16.466/2024, que dispõe sobre o processo administrativo no âmbito da Administração Pública Direta, Autárquica e Fundacional do Município de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Da publicação da decisão caberá, no prazo de 15 (quinze) dias úteis, um único recurso à autoridade imediatamente superior, que, salvo disposição legal em contrário, não tem efeito suspensivo.",
+        "B": "O recurso administrativo tramitará por até três instâncias administrativas, no prazo de 10 (dez) dias contados da ciência da decisão.",
+        "C": "O recurso tem sempre efeito suspensivo, por força do contraditório e da ampla defesa.",
+        "D": "O pedido de reconsideração é cabível contra qualquer decisão, pode ser renovado e deve ser dirigido à autoridade imediatamente superior àquela que decidiu.",
+        "E": "O pedido de reconsideração pode resultar em agravamento da pena, se a autoridade verificar que a sanção aplicada foi insuficiente."
+      },
+      "correta": "A",
+      "dica": "A lei municipal não copiou a Lei 9.784/1999 nesse ponto: compare o número de recursos, o prazo e a forma de contagem.",
+      "explicacao": {
+        "A": "Correta. É a combinação do caput do art. 46 da Lei 16.466/2024 (prazo de 15 dias úteis, um único recurso à autoridade imediatamente superior) com o seu § 1º: salvo disposição legal em contrário, o recurso não tem efeito suspensivo, que pode ser dado, de ofício ou a pedido, havendo justo receio de prejuízo de difícil ou incerta reparação.",
+        "B": "Mistura a lei federal com a municipal. A tramitação por até três instâncias e o prazo de dez dias são regras da Lei 9.784/1999 (arts. 57 e 59). Em Curitiba, o art. 46 da Lei 16.466/2024 prevê um único recurso, em 15 dias úteis.",
+        "C": "O § 1º do art. 46 diz o oposto: salvo disposição legal em contrário, o recurso não tem efeito suspensivo. O efeito suspensivo é excepcional e depende de justo receio de prejuízo de difícil ou incerta reparação.",
+        "D": "Pelo art. 50, a reconsideração só cabe contra decisão originariamente tomada pela autoridade máxima do órgão ou entidade, contra a qual não caiba recurso hierárquico, e é vedada sua renovação. Pelo § 1º, ela é dirigida obrigatoriamente à própria autoridade que proferiu a decisão.",
+        "E": "O § 2º do art. 50 veda expressamente que o pedido de reconsideração resulte em agravamento de pena."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 46 e 50 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" },
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 57 e 59", "data": "1999-01-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0022",
+      "tema": "Anulação, decadência e convalidação na lei municipal (Lei 16.466/2024)",
+      "enunciado": "Sobre a anulação e a convalidação dos atos administrativos no Município de Curitiba, nos termos da Lei Municipal nº 16.466/2024, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O direito da Administração de anular os atos de que decorram efeitos favoráveis para os destinatários decai em 10 (dez) anos, contados da data em que foram praticados.",
+        "B": "O prazo decadencial para anular atos favoráveis aplica-se inclusive ao ato com ofensa direta à Constituição Federal.",
+        "C": "Os atos que apresentarem defeitos sanáveis podem ser convalidados, a critério da autoridade, ainda que a convalidação acarrete prejuízo a terceiros.",
+        "D": "Em caso de invalidação, os valores de natureza alimentar recebidos de boa-fé pelo administrado, em decorrência de errônea interpretação da lei pela Administração, devem ser integralmente restituídos.",
+        "E": "No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento."
+      },
+      "correta": "E",
+      "dica": "O art. 53 da lei municipal tem uma ressalva a mais que o art. 54 da Lei 9.784/1999. Leia também os artigos seguintes, sobre convalidação e verbas alimentares.",
+      "explicacao": {
+        "E": "Correta. É o § 1º do art. 53 da Lei 16.466/2024, na mesma linha do § 1º do art. 54 da Lei 9.784/1999: nos efeitos patrimoniais contínuos, a decadência corre a partir do primeiro pagamento.",
+        "A": "O prazo é de 5 (cinco) anos, contados da data em que os atos foram praticados, pelo caput do art. 53 da Lei 16.466/2024.",
+        "B": "O caput do art. 53 ressalva duas situações do prazo decadencial: a comprovada má-fé e o ato com ofensa direta à Constituição Federal. A segunda ressalva não está no art. 54 da Lei 9.784/1999, e é uma diferença que a banca pode explorar.",
+        "C": "O art. 54 da lei municipal diz que os atos com defeitos sanáveis \"devem ser convalidados\", mas só em decisão na qual se evidencie não acarretar lesão ao interesse público nem prejuízo a terceiros.",
+        "D": "O art. 55 diz o contrário: em caso de invalidação, não estão sujeitos à repetição os valores de natureza alimentar recebidos de boa-fé pelo administrado, em decorrência de errônea ou inadequada interpretação da lei por parte da Administração."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 53 a 55 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" },
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, art. 54", "data": "1999-01-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0023",
+      "tema": "Delegação e avocação de competência (Lei 9.784/1999)",
+      "enunciado": "Considerando as regras de delegação e avocação de competência previstas na Lei nº 9.784/1999, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A delegação só pode ser feita a órgão ou titular hierarquicamente subordinado ao delegante.",
+        "B": "A decisão de recursos administrativos pode ser delegada, desde que o ato de delegação seja publicado no meio oficial.",
+        "C": "As decisões adotadas por delegação devem mencionar explicitamente essa qualidade e considerar-se-ão editadas pelo delegado.",
+        "D": "O ato de delegação é irrevogável durante o prazo nele fixado, em respeito à segurança jurídica.",
+        "E": "A avocação temporária de competência atribuída a órgão hierarquicamente inferior é livre, dispensando justificativa."
+      },
+      "correta": "C",
+      "dica": "Lembre quem responde pelo ato praticado por delegação, e quais matérias a lei tira do alcance da delegação.",
+      "explicacao": {
+        "C": "Correta. É o § 3º do art. 14 da Lei 9.784/1999. Como o ato se considera editado pelo delegado, é contra ele que se volta, por exemplo, o mandado de segurança.",
+        "A": "O art. 12 admite a delegação a outros órgãos ou titulares \"ainda que estes não lhe sejam hierarquicamente subordinados\", quando for conveniente em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.",
+        "B": "O art. 13 veda a delegação de três matérias: edição de atos de caráter normativo, decisão de recursos administrativos e matérias de competência exclusiva do órgão ou autoridade. A publicação não supera essa vedação.",
+        "D": "O § 2º do art. 14 diz que o ato de delegação é revogável a qualquer tempo pela autoridade delegante. A Lei 16.466/2024, de Curitiba, repete a regra no parágrafo único do art. 25.",
+        "E": "O art. 15 só permite a avocação temporária em caráter excepcional e por motivos relevantes devidamente justificados."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 12 a 15", "data": "1999-01-29" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, art. 25 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

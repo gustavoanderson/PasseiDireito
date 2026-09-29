@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-10",
+    "titulo": "Intervenção do Poder Público, tutelas contra a Fazenda e suspensão",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "pc-0028",
+      "tema": "Intervenção anômala das pessoas jurídicas de direito público (Lei 9.469/1997)",
+      "enunciado": "Em ação entre particulares, cuja decisão pode ter reflexos econômicos indiretos sobre as finanças do Município, a Procuradoria-Geral do Município avalia intervir no processo. Com base no art. 5º, parágrafo único, da Lei nº 9.469/1997, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente a União pode intervir nessas condições, pois o dispositivo não alcança Estados e Municípios.",
+        "B": "O Município somente poderá intervir se demonstrar interesse jurídico, na qualidade de assistente simples.",
+        "C": "O Município poderá intervir independentemente da demonstração de interesse jurídico, para esclarecer questões de fato e de direito, juntar documentos e memoriais e, se for o caso, recorrer, hipótese em que será considerado parte para fins de deslocamento de competência.",
+        "D": "A intervenção só é admitida quando a decisão puder ter reflexos econômicos diretos sobre o ente público.",
+        "E": "A simples intervenção do Município desloca imediatamente a competência para a vara da Fazenda Pública, ainda que ele não recorra."
+      },
+      "correta": "C",
+      "dica": "A chamada intervenção anômala dispensa o requisito clássico da assistência. Observe também em que momento o interveniente passa a ser tratado como parte.",
+      "explicacao": {
+        "A": "O caput do art. 5º trata da intervenção da União nas causas de suas entidades, mas o parágrafo único estende a intervenção às \"pessoas jurídicas de direito público\", categoria que inclui os Municípios.",
+        "B": "O parágrafo único permite a intervenção \"independentemente da demonstração de interesse jurídico\". Basta o reflexo econômico, ainda que indireto. É isso que diferencia essa intervenção da assistência do CPC (art. 119).",
+        "C": "Correta. É a literalidade do art. 5º, parágrafo único, da Lei 9.469/1997: o ente pode esclarecer questões de fato e de direito, juntar documentos e memoriais e, se for o caso, recorrer; ao recorrer, é considerado parte para fins de deslocamento de competência.",
+        "D": "O dispositivo fala em decisão que possa ter reflexos, \"ainda que indiretos\", de natureza econômica.",
+        "E": "Pelo parágrafo único, o ente público só é considerado parte para fins de deslocamento de competência na hipótese de recorrer. A mera intervenção para esclarecer questões ou juntar documentos não desloca a competência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.469/1997, art. 5º, parágrafo único", "data": "1997-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0029",
+      "tema": "Restrições às liminares contra o Poder Público (Lei 8.437/1992)",
+      "enunciado": "Acerca das restrições à concessão de liminares e tutelas provisórias contra o Poder Público, previstas nos arts. 1º a 4º da Lei nº 8.437/1992 e no art. 1.059 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Não será cabível medida liminar que esgote, no todo ou em qualquer parte, o objeto da ação.",
+        "B": "As restrições da Lei nº 8.437/1992 aplicavam-se às medidas cautelares do CPC/1973 e não se estendem à tutela provisória disciplinada pelo CPC/2015.",
+        "C": "A vedação de medida cautelar inominada em primeiro grau, quando impugnado ato de autoridade sujeita a mandado de segurança de competência originária de tribunal, aplica-se também à ação popular e à ação civil pública.",
+        "D": "Concedida a liminar contra o Poder Público, basta a comunicação ao dirigente do órgão ou entidade, dispensada a intimação do respectivo representante judicial.",
+        "E": "O recurso interposto contra sentença proferida em processo cautelar que importe em outorga ou adição de vencimentos a servidor público não terá efeito suspensivo."
+      },
+      "correta": "A",
+      "dica": "O art. 1.059 do CPC faz a ponte entre a tutela provisória atual e a Lei 8.437/1992. Dentro do art. 1º dessa lei, um parágrafo proíbe a liminar satisfativa.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 1º, § 3º, da Lei 8.437/1992, aplicável à tutela provisória requerida contra a Fazenda Pública por força do art. 1.059 do CPC.",
+        "B": "O art. 1.059 do CPC/2015 manda aplicar à tutela provisória requerida contra a Fazenda Pública o disposto nos arts. 1º a 4º da Lei 8.437/1992. As restrições continuam valendo.",
+        "C": "O art. 1º, § 2º, da Lei 8.437/1992 exclui essa vedação (a do § 1º) nos processos de ação popular e de ação civil pública.",
+        "D": "O art. 1º, § 4º, exige que, sem prejuízo da comunicação ao dirigente do órgão ou entidade, o respectivo representante judicial seja imediatamente intimado.",
+        "E": "O art. 3º dispõe o contrário: o recurso voluntário ou ex officio contra sentença em processo cautelar que importe em outorga ou adição de vencimentos ou de reclassificação funcional terá efeito suspensivo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.437/1992, arts. 1º e 3º", "data": "1992-06-30" },
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 1.059", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0030",
+      "tema": "Suspensão de liminar e de segurança",
+      "enunciado": "Uma liminar concedida contra o Município ameaça causar grave lesão à economia pública. Considerando o art. 4º da Lei nº 8.437/1992 e o art. 15 da Lei nº 12.016/2009, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O pedido de suspensão pode ser formulado por qualquer das partes do processo, inclusive pelo particular prejudicado pela liminar.",
+        "B": "A interposição de agravo de instrumento contra a liminar concedida nas ações movidas contra o Poder Público não prejudica nem condiciona o julgamento do pedido de suspensão.",
+        "C": "Da decisão do presidente do tribunal que suspende a liminar em mandado de segurança cabe agravo, com efeito suspensivo, no prazo de 15 (quinze) dias.",
+        "D": "A suspensão deferida pelo presidente do tribunal vigorará até a prolação da sentença de primeiro grau.",
+        "E": "Indeferido o pedido de suspensão pelo presidente do tribunal local, não cabe novo pedido a nenhum outro tribunal."
+      },
+      "correta": "B",
+      "dica": "A suspensão não é recurso: corre em paralelo a ele e tem legitimados, prazo de agravo e duração próprios.",
+      "explicacao": {
+        "A": "Os legitimados são a pessoa jurídica de direito público interessada e o Ministério Público (art. 4º, caput, da Lei 8.437/1992; art. 15, caput, da Lei 12.016/2009). O particular não pode pedir suspensão.",
+        "B": "Correta. É o art. 4º, § 6º, da Lei 8.437/1992, repetido no art. 15, § 3º, da Lei 12.016/2009. O pedido de suspensão e o agravo têm fundamentos diferentes (lesão à ordem, à saúde, à segurança e à economia públicas, de um lado; ilegalidade da decisão, de outro) e podem tramitar ao mesmo tempo.",
+        "C": "O art. 15, caput, da Lei 12.016/2009 prevê agravo \"sem efeito suspensivo, no prazo de 5 (cinco) dias\", levado a julgamento na sessão seguinte à interposição.",
+        "D": "O art. 4º, § 9º, da Lei 8.437/1992 dispõe que a suspensão vigorará até o trânsito em julgado da decisão de mérito na ação principal.",
+        "E": "O art. 4º, § 4º, da Lei 8.437/1992 e o art. 15, § 1º, da Lei 12.016/2009 admitem novo pedido de suspensão ao presidente do tribunal competente para conhecer de eventual recurso especial ou extraordinário."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.437/1992, art. 4º (redação da MP 2.180-35/2001)", "data": "2001-08-24" },
+        { "tipo": "lei", "referencia": "Lei 12.016/2009, art. 15", "data": "2009-08-07" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

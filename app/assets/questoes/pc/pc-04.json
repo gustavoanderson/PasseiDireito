@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-04",
+    "titulo": "Atos processuais, prazos, nulidades e tutela provisória",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "pc-0010",
+      "tema": "Contagem de prazos processuais",
+      "enunciado": "Sobre a contagem dos prazos processuais, conforme os arts. 219, 220, 222 e 224 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A contagem em dias úteis aplica-se tanto aos prazos processuais quanto aos prazos de direito material, como os de prescrição e decadência.",
+        "B": "Durante a suspensão dos prazos entre 20 de dezembro e 20 de janeiro, realizam-se normalmente audiências e sessões de julgamento, pois os juízes continuam exercendo suas atribuições.",
+        "C": "Suspende-se o curso do prazo processual nos dias compreendidos entre 20 de dezembro e 20 de janeiro, inclusive, período em que os membros da Advocacia Pública, ressalvadas as férias individuais e os feriados, continuam exercendo suas atribuições.",
+        "D": "Considera-se como data de publicação o próprio dia da disponibilização da informação no Diário da Justiça eletrônico.",
+        "E": "O juiz pode reduzir prazos peremptórios sem a anuência das partes, quando a urgência da causa o justificar."
+      },
+      "correta": "C",
+      "dica": "Lembre-se de que a suspensão de fim de ano atinge os prazos, mas não o funcionamento dos órgãos; e de que o Diário eletrônico tem duas datas: a da disponibilização e a da publicação.",
+      "explicacao": {
+        "A": "O parágrafo único do art. 219 é expresso: a contagem em dias úteis aplica-se somente aos prazos processuais. Prescrição e decadência são prazos de direito material e correm em dias corridos.",
+        "B": "O art. 220, § 2º, proíbe: durante a suspensão do prazo, não se realizarão audiências nem sessões de julgamento.",
+        "C": "Correta. É a combinação do caput do art. 220 (suspensão entre 20 de dezembro e 20 de janeiro, inclusive) com o seu § 1º, que manda juízes, membros do Ministério Público, da Defensoria Pública e da Advocacia Pública e auxiliares da Justiça continuarem exercendo suas atribuições, ressalvadas as férias individuais e os feriados.",
+        "D": "Pelo art. 224, § 2º, considera-se data de publicação o primeiro dia útil seguinte ao da disponibilização; e, pelo § 3º, o prazo começa no primeiro dia útil que seguir ao da publicação.",
+        "E": "O art. 222, § 1º, veda ao juiz reduzir prazos peremptórios sem anuência das partes. O que o art. 222 permite é a prorrogação, por até dois meses, em comarca de difícil transporte, limite que pode ser excedido em calamidade pública (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 219, 220, 222 e 224", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0011",
+      "tema": "Tutela antecipada antecedente e estabilização (arts. 303 e 304)",
+      "enunciado": "Nos termos dos arts. 303 e 304 do Código de Processo Civil, a respeito da tutela antecipada requerida em caráter antecedente, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Concedida a tutela antecipada, o autor deverá aditar a petição inicial no prazo improrrogável de 5 (cinco) dias.",
+        "B": "Não interposto recurso contra a decisão concessiva, a tutela estabilizada faz coisa julgada material após o decurso de 2 (dois) anos.",
+        "C": "O direito de rever, reformar ou invalidar a tutela antecipada estabilizada extingue-se após 5 (cinco) anos, contados do trânsito em julgado da decisão concessiva.",
+        "D": "Não realizado o aditamento da petição inicial, o juiz converterá o procedimento antecedente em procedimento comum, com citação do réu para contestar.",
+        "E": "A tutela antecipada concedida nesses termos torna-se estável se da decisão que a conceder não for interposto o respectivo recurso, caso em que o processo será extinto."
+      },
+      "correta": "E",
+      "dica": "Há dois prazos que costumam ser trocados: o do aditamento da inicial e o da ação para rever a tutela estabilizada. E a estabilização não se confunde com coisa julgada.",
+      "explicacao": {
+        "A": "O art. 303, § 1º, I, fixa o prazo de 15 (quinze) dias para o aditamento, \"ou em outro prazo maior que o juiz fixar\". O prazo de 5 dias aparece no § 6º, para a emenda da inicial quando o juiz entender que não há elementos para conceder a tutela.",
+        "B": "O art. 304, § 6º, diz que a decisão que concede a tutela não fará coisa julgada. A estabilidade dos efeitos só é afastada por decisão proferida na ação do § 2º. O prazo de dois anos é para propor essa ação, não para formar coisa julgada.",
+        "C": "O art. 304, § 5º, fixa o prazo em 2 (dois) anos, contados da ciência da decisão que extinguiu o processo.",
+        "D": "Pelo art. 303, § 2º, não realizado o aditamento, o processo será extinto sem resolução do mérito.",
+        "E": "Correta. É a literalidade do caput e do § 1º do art. 304. A questão segue a letra da lei, que fala em \"recurso\"; o alcance dessa expressão (se outras formas de impugnação impedem a estabilização) é debatido, mas a prova da FAFIPA costuma cobrar o texto legal."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 303 e 304", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0012",
+      "tema": "Nulidades processuais",
+      "enunciado": "Com base nos arts. 276 a 283 do Código de Processo Civil, que disciplinam as nulidades, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Quando puder decidir o mérito a favor da parte a quem aproveite a decretação da nulidade, o juiz não a pronunciará nem mandará repetir o ato ou suprir-lhe a falta.",
+        "B": "Quando a lei prescrever determinada forma sob pena de nulidade, a decretação desta pode ser requerida por qualquer das partes, inclusive pela que lhe deu causa.",
+        "C": "A falta de intimação do Ministério Público nos feitos em que deva intervir acarreta a nulidade do processo, que o juiz decretará independentemente de manifestação do órgão ministerial sobre a existência de prejuízo.",
+        "D": "A nulidade dos atos pode ser alegada a qualquer tempo, pois as nulidades processuais não se sujeitam à preclusão.",
+        "E": "Anulado o ato, consideram-se de nenhum efeito todos os atos subsequentes, dependam ou não daquele que foi anulado."
+      },
+      "correta": "A",
+      "dica": "O sistema de nulidades do CPC gira em torno de duas ideias: sem prejuízo não há nulidade, e o que puder ser aproveitado deve ser aproveitado.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 282, § 2º. Se o juiz pode julgar o mérito a favor de quem seria beneficiado pela anulação, anular seria inútil: a parte não sofreu prejuízo.",
+        "B": "O art. 276 veda: a decretação da nulidade não pode ser requerida pela parte que lhe deu causa. Ninguém se beneficia da própria torpeza.",
+        "C": "O art. 279, § 2º, diz que a nulidade só pode ser decretada após a intimação do Ministério Público, que se manifestará sobre a existência ou a inexistência de prejuízo.",
+        "D": "O art. 278, caput, manda alegar a nulidade na primeira oportunidade em que couber à parte falar nos autos, sob pena de preclusão. A exceção do parágrafo único é para as nulidades que o juiz deva decretar de ofício, ou quando a parte provar legítimo impedimento.",
+        "E": "O art. 281 atinge apenas os atos subsequentes que dependam do ato anulado, e acrescenta que a nulidade de uma parte do ato não prejudica as outras que dela sejam independentes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 276 a 283", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

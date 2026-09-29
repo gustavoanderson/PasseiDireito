@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-02",
+    "titulo": "Espécies tributárias e fato gerador",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "trib-0004",
+      "tema": "Empréstimo compulsório e contribuição de melhoria",
+      "enunciado": "Com base nos arts. 145 e 148 da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os Municípios podem instituir empréstimo compulsório, por lei ordinária, para atender a despesas extraordinárias decorrentes de calamidade pública em seu território.",
+        "B": "A União pode instituir empréstimo compulsório por lei ordinária em caso de guerra externa ou sua iminência, dada a urgência da situação.",
+        "C": "Os recursos provenientes de empréstimo compulsório ingressam no orçamento sem vinculação, podendo ser aplicados em qualquer despesa pública.",
+        "D": "Somente a União, mediante lei complementar, pode instituir empréstimo compulsório, e a aplicação dos recursos é vinculada à despesa que fundamentou sua instituição.",
+        "E": "A contribuição de melhoria pode ser instituída em razão da prestação de serviço público específico e divisível que valorize o imóvel do contribuinte."
+      },
+      "correta": "D",
+      "dica": "O art. 148 responde a três perguntas: quem institui, por qual veículo normativo e o que acontece com o dinheiro arrecadado.",
+      "explicacao": {
+        "D": "Correta. O caput do art. 148 atribui à União, mediante lei complementar, a instituição de empréstimos compulsórios, e o parágrafo único vincula a aplicação dos recursos à despesa que fundamentou a sua instituição.",
+        "A": "A competência é exclusiva da União (art. 148, caput). Município não institui empréstimo compulsório, nem por lei complementar, nem por lei ordinária.",
+        "B": "Mesmo na hipótese do art. 148, I (calamidade pública, guerra externa ou sua iminência), o veículo exigido é a lei complementar. A urgência só afasta a anterioridade (art. 150, § 1º), não a exigência de lei complementar.",
+        "C": "O parágrafo único do art. 148 determina que a aplicação dos recursos será vinculada à despesa que fundamentou a instituição do empréstimo compulsório. Não há livre destinação.",
+        "E": "A contribuição de melhoria decorre de obras públicas (art. 145, III, da CF), e não de serviço público. Serviço público específico e divisível é fato gerador de taxa (art. 145, II)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 145, II e III, e 148", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0005",
+      "tema": "Obrigação tributária e fato gerador",
+      "enunciado": "Considerando os arts. 113 a 118 do Código Tributário Nacional, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Tratando-se de situação jurídica, considera-se ocorrido o fato gerador desde o momento em que se verifiquem as circunstâncias materiais necessárias a que produza os efeitos que normalmente lhe são próprios.",
+        "B": "Salvo disposição de lei em contrário, o negócio jurídico sujeito a condição suspensiva reputa-se perfeito e acabado desde o momento de sua celebração.",
+        "C": "A definição legal do fato gerador é interpretada considerando a validade jurídica dos atos efetivamente praticados, de modo que o ato nulo não pode dar origem à obrigação tributária.",
+        "D": "Fato gerador da obrigação acessória é a situação definida em lei como necessária e suficiente à sua ocorrência.",
+        "E": "A obrigação acessória, pelo simples fato da sua inobservância, converte-se em obrigação principal relativamente à penalidade pecuniária."
+      },
+      "correta": "E",
+      "dica": "Compare com cuidado as definições dos arts. 114 e 115 e as regras de momento dos arts. 116 e 117. Uma das alternativas é a transcrição de um parágrafo do art. 113.",
+      "explicacao": {
+        "E": "Correta. É a literalidade do § 3º do art. 113: a obrigação acessória, pelo simples fato da sua inobservância, converte-se em obrigação principal relativamente à penalidade pecuniária. Por isso a multa por descumprimento de dever instrumental é cobrada como crédito tributário.",
+        "A": "A alternativa troca as hipóteses do art. 116. O critério das circunstâncias materiais é o da situação de fato (inciso I). Para a situação jurídica (inciso II), o fato gerador ocorre desde o momento em que ela esteja definitivamente constituída, nos termos do direito aplicável.",
+        "B": "Pelo art. 117, I, sendo suspensiva a condição, o negócio reputa-se perfeito desde o implemento da condição. O momento da celebração vale para a condição resolutória (inciso II).",
+        "C": "O art. 118, I, manda interpretar a definição legal do fato gerador abstraindo-se da validade jurídica dos atos efetivamente praticados e da natureza do seu objeto ou dos seus efeitos. A invalidade do ato não impede, por si, a tributação.",
+        "D": "Essa é a definição do fato gerador da obrigação principal (art. 114). O da obrigação acessória (art. 115) é qualquer situação que, na forma da legislação aplicável, impõe a prática ou a abstenção de ato que não configure obrigação principal."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 113 a 118", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

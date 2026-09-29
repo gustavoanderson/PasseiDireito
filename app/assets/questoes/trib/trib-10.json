@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-10",
+    "titulo": "Processo administrativo tributário",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "trib-0031",
+      "tema": "Prazos no processo administrativo fiscal (CTN, art. 208-D)",
+      "enunciado": "A Lei Complementar nº 236/2026 incluiu no Código Tributário Nacional normas gerais sobre o processo administrativo fiscal, aplicáveis à União, aos Estados, ao Distrito Federal e aos Municípios. Nos termos do art. 208-D do CTN, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A impugnação deve ser apresentada em 30 dias contados da ciência da lavratura do auto de infração, e os prazos são contados em dias corridos.",
+        "B": "A impugnação deve ser apresentada em 20 dias contados da ciência da lavratura do auto de infração, os embargos de declaração em 5 dias, e os prazos são contados em dias úteis, excluindo-se o dia do início e incluindo-se o do vencimento.",
+        "C": "O recurso voluntário deve ser interposto em 15 dias contados da ciência da decisão de primeira instância desfavorável.",
+        "D": "O curso do prazo processual suspende-se nos dias compreendidos entre 20 de dezembro e 6 de janeiro, inclusive.",
+        "E": "As pautas de julgamento devem ser divulgadas com antecedência mínima de 5 dias."
+      },
+      "correta": "B",
+      "dica": "O art. 208-D usa um único número para impugnação, recurso voluntário e recurso especial, e outro, menor, para os embargos. Os parágrafos tratam da contagem, do recesso e das pautas.",
+      "explicacao": {
+        "B": "Correta. O art. 208-D, I, fixa 20 dias para a impugnação; o inciso IV, 5 dias para os embargos de declaração; e o § 3º manda contar os prazos em dias úteis, excluindo-se o dia do início e incluindo-se o do vencimento.",
+        "A": "O prazo de impugnação é de 20 dias (art. 208-D, I), e o § 3º determina a contagem em dias úteis.",
+        "C": "O recurso voluntário também tem prazo de 20 dias contados da ciência da decisão de primeira instância desfavorável (art. 208-D, II).",
+        "D": "O § 5º do art. 208-D suspende o curso do prazo processual entre 20 de dezembro e 20 de janeiro, inclusive, e não até 6 de janeiro.",
+        "E": "O § 1º do art. 208-D exige divulgação das pautas de julgamento com antecedência mínima de 10 dias."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, art. 208-D (LC 236/2026)", "data": "2026-09-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0032",
+      "tema": "Processo administrativo fiscal – normas gerais da LC 236/2026",
+      "enunciado": "Sobre as normas gerais de processo administrativo fiscal incluídas no Código Tributário Nacional pela Lei Complementar nº 236/2026 (arts. 208-A a 208-J e 211-B), assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O duplo grau de jurisdição no contencioso administrativo fiscal só é obrigatório para os entes federativos com mais de 500.000 habitantes residentes.",
+        "B": "A oposição de embargos de declaração suspende o prazo para a interposição de outros recursos, que volta a correr pelo saldo restante.",
+        "C": "Cabe recurso hierárquico ao Secretário Municipal de Finanças contra decisão definitiva favorável ao sujeito passivo proferida em processo administrativo fiscal.",
+        "D": "A propositura de ação judicial pelo sujeito passivo com o mesmo objeto do processo administrativo fiscal importará renúncia ao poder de recorrer na esfera administrativa e desistência do recurso acaso interposto.",
+        "E": "O ente que não atualizar sua legislação no prazo de dois anos fica dispensado de observar os critérios dos arts. 208-A a 208-J até que edite lei própria."
+      },
+      "correta": "D",
+      "dica": "Uma das alternativas repete, para o processo administrativo, uma regra que a Lei de Execução Fiscal já previa no parágrafo único do art. 38.",
+      "explicacao": {
+        "D": "Correta. É o parágrafo único do art. 208-E do CTN (LC 236/2026), que repete a lógica do art. 38, parágrafo único, da Lei 6.830/1980: a ação judicial com o mesmo objeto importa renúncia ao poder de recorrer na esfera administrativa e desistência do recurso interposto.",
+        "A": "O § 1º do art. 208-A exige o duplo grau de jurisdição dos entes federativos com mais de 100.000 habitantes residentes, apurados pelo último censo do IBGE (§ 2º). Curitiba está nesse grupo.",
+        "B": "O § 1º do art. 208-C diz que os embargos de declaração interrompem o prazo para a interposição de outros recursos, por qualquer das partes. Interrupção devolve o prazo inteiro; não é suspensão.",
+        "C": "O § 2º do art. 208-C veda o recurso hierárquico a Secretário de Estado, a Ministro de Estado ou a qualquer outro integrante do Poder Executivo contra decisão definitiva favorável ao sujeito passivo.",
+        "E": "O parágrafo único do art. 211-B diz o contrário: a não implementação no prazo de dois anos acarreta a aplicação direta dos arts. 208-A a 208-J até que sobrevenha legislação específica."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, arts. 208-A, 208-C, 208-E e 211-B (LC 236/2026)", "data": "2026-09-04" },
+        { "tipo": "lei", "referencia": "Lei 6.830/1980, art. 38, parágrafo único", "data": "1980-09-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

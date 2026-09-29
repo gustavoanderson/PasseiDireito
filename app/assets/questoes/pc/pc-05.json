@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-05",
+    "titulo": "Procedimento comum, provas, sentença e coisa julgada",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "pc-0013",
+      "tema": "Contestação, reconvenção e revelia",
+      "enunciado": "Acerca da contestação, da reconvenção e da revelia, conforme os arts. 341 a 346 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O réu somente pode propor reconvenção se também oferecer contestação, pois a reconvenção deve ser deduzida na própria peça de defesa.",
+        "B": "A revelia não produz o efeito de presunção de veracidade das alegações de fato formuladas pelo autor se o litígio versar sobre direitos indisponíveis.",
+        "C": "A desistência da ação principal impede o prosseguimento do processo quanto à reconvenção, que dela é acessória.",
+        "D": "O ônus da impugnação especificada dos fatos aplica-se ao curador especial, mas não ao defensor público.",
+        "E": "Os prazos contra o revel que não tenha patrono nos autos fluirão da data de sua intimação pessoal."
+      },
+      "correta": "B",
+      "dica": "O art. 345 lista quando a revelia não gera presunção de veracidade; o art. 343 dá autonomia à reconvenção.",
+      "explicacao": {
+        "A": "O art. 343, § 6º, diz que o réu pode propor reconvenção independentemente de oferecer contestação. O caput manda propô-la na contestação quando houver contestação, mas não exige que ela exista.",
+        "B": "Correta. É o art. 345, II. Sobre direitos indisponíveis não se admite confissão, e por isso a omissão do réu não pode levar à presunção de veracidade dos fatos alegados pelo autor.",
+        "C": "O art. 343, § 2º, dispõe que a desistência da ação ou a ocorrência de causa extintiva que impeça o exame de seu mérito não obsta ao prosseguimento do processo quanto à reconvenção. A reconvenção é ação autônoma.",
+        "D": "O art. 341, parágrafo único, exclui do ônus da impugnação especificada o defensor público, o advogado dativo e o curador especial. Nenhum dos três está sujeito a ele.",
+        "E": "Pelo art. 346, os prazos contra o revel sem patrono nos autos fluem da data de publicação do ato decisório no órgão oficial, e não de intimação pessoal."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 341, 343, 345 e 346", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0014",
+      "tema": "Ônus da prova (art. 373)",
+      "enunciado": "Com base no art. 373 do Código de Processo Civil, que disciplina o ônus da prova, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Diante da excessiva dificuldade de uma das partes em produzir a prova, o juiz pode redistribuir o ônus diretamente na sentença, dispensando decisão prévia.",
+        "B": "Incumbe ao autor provar tanto o fato constitutivo de seu direito quanto a inexistência de fatos impeditivos, modificativos ou extintivos alegados pelo réu.",
+        "C": "A decisão que atribui o ônus da prova de modo diverso pode gerar situação em que a desincumbência do encargo seja impossível para a parte, desde que ela tenha maior facilidade de acesso às informações.",
+        "D": "A distribuição diversa do ônus da prova pode ocorrer por convenção das partes, celebrada antes ou durante o processo, salvo quando recair sobre direito indisponível da parte ou tornar excessivamente difícil a uma parte o exercício do direito.",
+        "E": "A decisão interlocutória que redistribui o ônus da prova não é impugnável por agravo de instrumento, devendo a questão ser suscitada em preliminar de apelação."
+      },
+      "correta": "D",
+      "dica": "Os §§ 3º e 4º do art. 373 tratam da distribuição por acordo das partes. Veja os dois limites que a lei impõe a esse acordo e o momento em que ele pode ser feito.",
+      "explicacao": {
+        "A": "O art. 373, § 1º, exige decisão fundamentada e que se dê à parte a oportunidade de se desincumbir do ônus que lhe foi atribuído. Redistribuir o ônus na sentença surpreenderia a parte, que já não poderia produzir a prova.",
+        "B": "Pelo art. 373, II, o ônus quanto à existência de fato impeditivo, modificativo ou extintivo do direito do autor é do réu. Ao autor cabe o fato constitutivo (inciso I).",
+        "C": "O art. 373, § 2º, veda justamente isso: a decisão de distribuição diversa não pode gerar situação em que a desincumbência do encargo seja impossível ou excessivamente difícil.",
+        "D": "Correta. É a combinação do art. 373, § 3º, I e II (limites da convenção: direito indisponível e dificuldade excessiva), com o § 4º (a convenção pode ser celebrada antes ou durante o processo). Em causas da Fazenda que envolvam direito indisponível, a convenção sobre o ônus da prova encontra esse limite legal.",
+        "E": "O art. 1.015, XI, prevê agravo de instrumento contra a decisão interlocutória que versar sobre redistribuição do ônus da prova nos termos do art. 373, § 1º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 373 e 1.015, XI", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0015",
+      "tema": "Fundamentação da sentença e limites da coisa julgada",
+      "enunciado": "Considerando os arts. 489 e 503 a 506 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A resolução de questão prejudicial, decidida expressa e incidentemente, faz coisa julgada ainda que o réu tenha sido revel, desde que dela dependa o julgamento do mérito.",
+        "B": "Considera-se fundamentada a decisão que se limita a invocar enunciado de súmula, pois a súmula dispensa a identificação de seus fundamentos determinantes.",
+        "C": "Não se considera fundamentada a decisão que deixar de seguir enunciado de súmula, jurisprudência ou precedente invocado pela parte, sem demonstrar a existência de distinção no caso em julgamento ou a superação do entendimento.",
+        "D": "A sentença faz coisa julgada às partes entre as quais é dada e aos terceiros que tenham interesse jurídico na causa.",
+        "E": "A verdade dos fatos, estabelecida como fundamento da sentença, faz coisa julgada quando for determinante para a conclusão do julgado."
+      },
+      "correta": "C",
+      "dica": "O § 1º do art. 489 lista seis situações de decisão sem fundamentação. Duas delas tratam de precedentes: uma de quem aplica, outra de quem deixa de aplicar.",
+      "explicacao": {
+        "A": "O art. 503, § 1º, II, exige contraditório prévio e efetivo sobre a questão prejudicial, \"não se aplicando no caso de revelia\". Além disso, o juízo precisa ter competência em razão da matéria e da pessoa para resolvê-la como questão principal (inciso III).",
+        "B": "O art. 489, § 1º, V, considera não fundamentada a decisão que se limita a invocar precedente ou enunciado de súmula, sem identificar seus fundamentos determinantes nem demonstrar que o caso se ajusta a eles.",
+        "C": "Correta. É a literalidade do art. 489, § 1º, VI. O juiz pode deixar de aplicar o precedente invocado, mas tem de fazer a distinção (distinguishing) ou demonstrar a superação (overruling).",
+        "D": "O art. 506 diz que a sentença faz coisa julgada às partes entre as quais é dada, não prejudicando terceiros.",
+        "E": "O art. 504, II, dispõe que não faz coisa julgada a verdade dos fatos estabelecida como fundamento da sentença. O inciso I acrescenta que os motivos também não fazem coisa julgada, ainda que importantes para determinar o alcance do dispositivo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 489, 503, 504 e 506", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-08",
+    "titulo": "Regulamentação da Lei 14.133/2021 em Curitiba",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "adm-0034",
+      "tema": "Estudo técnico preliminar em Curitiba (Decreto Municipal 383/2023)",
+      "enunciado": "O Decreto Municipal nº 383/2023 regulamenta a elaboração do estudo técnico preliminar (ETP) no âmbito da Administração Direta, Autárquica e Fundacional do Município de Curitiba. Segundo esse decreto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Deve ser observada a segregação de funções, sendo vedada a elaboração do ETP por servidor responsável pela condução do procedimento licitatório.",
+        "B": "O ETP é obrigatório inclusive nas alterações contratuais realizadas por termo aditivo ou apostilamento, como os acréscimos quantitativos e as prorrogações de serviços contínuos.",
+        "C": "Para todas as aquisições e contratações, o ETP deve conter obrigatoriamente todos os quinze elementos listados no decreto, sem possibilidade de justificativa para a ausência de algum deles.",
+        "D": "A elaboração do ETP é vedada nos casos de emergência ou de calamidade pública.",
+        "E": "A aprovação dos estudos técnicos preliminares compete exclusivamente ao Prefeito, vedada a delegação."
+      },
+      "correta": "A",
+      "dica": "O decreto aplica ao ETP uma ideia que a Lei 14.133/2021 trata como princípio: quem planeja não deve ser quem conduz o certame.",
+      "explicacao": {
+        "A": "Correta. É o § 1º do art. 4º do Decreto 383/2023: a designação dos servidores deve separar atribuições e responsabilidades nas diferentes etapas da contratação, sendo vedada a elaboração do ETP por servidor responsável pela condução do procedimento licitatório. É a segregação de funções do art. 5º e do art. 7º, § 1º, da Lei 14.133/2021.",
+        "B": "O art. 12, II, do decreto dispensa o ETP nas alterações contratuais realizadas por termo aditivo ou apostilamento, inclusive acréscimos quantitativos e prorrogações de serviços contínuos.",
+        "C": "O § 1º do art. 6º exige, para todas as contratações, ao menos os elementos dos incisos I, IV, VI, VIII e XIII (necessidade, quantidades, estimativa de valor, parcelamento e posicionamento conclusivo); a falta dos demais deve ser justificada no processo.",
+        "D": "O ETP não é vedado na emergência: o art. 11, IV, apenas faculta sua elaboração, mediante justificativa do órgão promotor, nos casos de emergência ou de calamidade pública.",
+        "E": "Pelo art. 3º, I, a aprovação do ETP cabe à autoridade máxima do órgão ou entidade (definida no Decreto 380/2023 como o Secretário, o Procurador-Geral ou o Presidente da autarquia ou fundação), que pode subdelegá-la, na forma do parágrafo único do art. 3º (redação do Decreto 1.392/2023)."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 383/2023, arts. 3º, 4º, 6º, 11 e 12 (DOM nº 47, de 10/03/2023; art. 3º, parágrafo único, com redação do Decreto 1.392/2023)", "data": "2023-03-10" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 5º e 7º, § 1º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0035",
+      "tema": "Pesquisa de preços em Curitiba (Decreto Municipal 384/2023)",
+      "enunciado": "Sobre a pesquisa de preços e a definição do valor estimado para aquisição de bens e contratação de serviços em geral, nos termos do Decreto Municipal nº 384/2023, de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A pesquisa direta com fornecedores é o parâmetro preferencial e dispensa justificativa, bastando a cotação de dois fornecedores.",
+        "B": "Na pesquisa direta, exige-se no mínimo 3 (três) fornecedores ou prestadores de serviços, mediante solicitação formal de cotação, com justificativa da escolha desses fornecedores e sem orçamentos obtidos com mais de 6 (seis) meses de antecedência da data de divulgação do edital.",
+        "C": "É permitida a obtenção de estimativa de preços em sítios de leilão ou de intermediação de vendas, desde que registrada a data de acesso.",
+        "D": "O orçamento estimado sigiloso não pode ser acessado pelos órgãos de controle interno e externo antes do encerramento da licitação.",
+        "E": "Na licitação com critério de julgamento por maior desconto, o preço estimado ou o máximo aceitável é sempre sigiloso."
+      },
+      "dica": "O decreto repete o art. 23 da Lei 14.133/2021 quanto à pesquisa com fornecedores. Nas demais afirmações, preste atenção às palavras \"permitida\", \"não pode\" e \"sempre\".",
+      "correta": "B",
+      "explicacao": {
+        "B": "Correta. É o art. 6º, § 2º, IV, do Decreto 384/2023, que reproduz o critério do art. 23, § 1º, IV, da Lei 14.133/2021. Pelo § 5º do art. 6º, a pesquisa feita exclusivamente com fornecedores só é admitida com justificativa expressa do afastamento dos outros critérios.",
+        "A": "O § 5º do art. 6º só admite pesquisa exclusivamente com fornecedores mediante justificativa expressa, e o art. 13 a trata como hipótese excepcional. O mínimo é de três fornecedores (art. 6º, § 2º, IV).",
+        "C": "O art. 31 do decreto veda a obtenção de estimativa de preços em sítios de leilão ou de intermediação de vendas.",
+        "D": "O art. 23 admite o orçamento sigiloso, desde que justificado, mas ressalva que o sigilo não prevalece para os órgãos de controle interno e externo. O art. 26 manda disponibilizar a eles, permanentemente, a planilha e as memórias de cálculo.",
+        "E": "O parágrafo único do art. 23 diz o oposto: no critério de maior desconto, o preço estimado ou o máximo aceitável constará do edital, pois o desconto é calculado sobre ele."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 384/2023, arts. 6º, 13, 23, 26 e 31 (DOM nº 47, de 10/03/2023)", "data": "2023-03-10" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 23, § 1º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0036",
+      "tema": "Sistematização das normas municipais de licitação (Decreto Municipal 380/2023)",
+      "enunciado": "O Decreto Municipal nº 380/2023 dispõe sobre definições e sistematização das normas municipais que regulamentam a Lei nº 14.133/2021 em Curitiba. De acordo com esse decreto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Eventuais edições de novos decretos municipais ou alterações nos existentes que regulamentam a Lei nº 14.133/2021 deverão ser previamente submetidas à análise e manifestação expressa da Procuradoria-Geral do Município.",
+        "B": "As normas municipais que regulamentam a Lei nº 14.133/2021 devem ser aplicadas isoladamente, prevalecendo sempre a mais recente sobre as demais.",
+        "C": "Órgão promotor é o órgão ou entidade responsável pela instauração da licitação, mediante a divulgação do edital, e por sua homologação.",
+        "D": "Autoridade máxima é o agente público designado por ato normativo específico, dotado de poder de decisão, em qualquer nível hierárquico.",
+        "E": "Os conceitos do art. 6º da Lei nº 14.133/2021 não se aplicam aos procedimentos municipais, que têm definições próprias e exaustivas."
+      },
+      "correta": "A",
+      "dica": "Lembre qual órgão atua como guardião jurídico da regulamentação municipal de licitações. Nas definições, não confunda quem requisita com quem instaura, nem autoridade competente com autoridade máxima.",
+      "explicacao": {
+        "A": "Correta. É o art. 7º do Decreto 380/2023. O controle jurídico prévio pela PGM garante coerência entre os vários decretos que regulamentam a lei.",
+        "B": "O art. 2º diz que essas normas devem ser aplicadas de modo conjunto, de acordo com o objeto da contratação.",
+        "C": "A definição é de órgão instaurador (art. 3º, VII). Órgão promotor (art. 3º, V) é o que requisita o bem ou a contratação do serviço e é responsável pela assinatura e gestão dos termos decorrentes da licitação ou contratação direta.",
+        "D": "Essa é a definição de autoridade competente (art. 3º, XII). Autoridade máxima (art. 3º, XIII) é o representante oficial do órgão, na figura do Secretário e do Procurador-Geral, ou da entidade autárquica ou fundacional, na figura de seu Presidente.",
+        "E": "O § 1º do art. 3º manda aplicar nos procedimentos municipais os conceitos do art. 6º da Lei 14.133/2021 e das normas municipais regulamentares específicas, no que couber."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 380/2023, arts. 2º, 3º e 7º (republicado no DOM nº 48, de 13/03/2023)", "data": "2023-03-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

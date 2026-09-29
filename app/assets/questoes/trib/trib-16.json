@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-16",
+    "titulo": "Precatórios e RPV",
+    "itemEdital": 16
+  },
+  "questoes": [
+    {
+      "id": "trib-0044",
+      "tema": "Precatórios – inclusão orçamentária e limite de pagamento (EC 136/2025)",
+      "enunciado": "Com base no art. 100 da Constituição Federal, na redação dada pela Emenda Constitucional nº 136/2025, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 2 de abril, fazendo-se o pagamento até o final do exercício seguinte.",
+        "B": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de julho, fazendo-se o pagamento no mesmo exercício.",
+        "C": "O Município que não possua estoque de precatórios em mora tem os pagamentos de precatórios limitados a 2% da receita corrente líquida apurada no exercício financeiro anterior.",
+        "D": "O limite de pagamento de precatórios dos Municípios impede que o ente pague valores superiores a ele, ainda que haja dotação orçamentária específica.",
+        "E": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de fevereiro, fazendo-se o pagamento até o final do exercício seguinte, quando terão seus valores atualizados monetariamente."
+      },
+      "correta": "E",
+      "dica": "A EC 136/2025 antecipou a data de corte do § 5º e criou, nos §§ 23 a 30, um teto de pagamento para Estados, DF e Municípios, que pode ser superado em certas condições.",
+      "explicacao": {
+        "E": "Correta. É o § 5º do art. 100 na redação da EC 136/2025: a data de apresentação para inclusão obrigatória no orçamento passou a ser 1º de fevereiro, com pagamento até o final do exercício seguinte e atualização monetária.",
+        "A": "A data de 2 de abril era a da redação anterior do § 5º (EC 114/2021). A EC 136/2025 a alterou para 1º de fevereiro.",
+        "B": "O § 5º fixa 1º de fevereiro como data de apresentação e o final do exercício seguinte como prazo de pagamento. A data de 1º de julho é da redação original, anterior às emendas.",
+        "C": "O § 23, I, limita os pagamentos a 1% da receita corrente líquida do exercício anterior para os entes sem estoque ou com estoque em mora de até 15% dessa receita. Os percentuais sobem em faixas de 0,5 ponto até 5% (incisos II a IX).",
+        "D": "O § 28 do art. 100 autoriza Estados, DF e Municípios a efetuar pagamentos de precatórios que superem os limites do § 23, mediante dotação orçamentária específica."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 5º, 23 e 28 (EC 136/2025)", "data": "2025-09-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0045",
+      "tema": "Obrigações de pequeno valor, preferências e cessão de precatórios",
+      "enunciado": "Com base no art. 100 da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os entes podem fixar, por leis próprias, valores distintos para as obrigações de pequeno valor, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do regime geral de previdência social.",
+        "B": "Admite-se o fracionamento do valor da execução para que parte do crédito seja paga como obrigação de pequeno valor e o restante por precatório.",
+        "C": "A cessão de créditos em precatórios a terceiros depende da concordância do ente devedor.",
+        "D": "A preferência dos débitos alimentícios de titulares com doença grave ou deficiência alcança os titulares com 65 anos de idade ou mais.",
+        "E": "Os débitos de natureza alimentícia comuns são pagos com preferência sobre todos os demais, inclusive sobre os débitos alimentícios de titulares idosos, com doença grave ou com deficiência."
+      },
+      "correta": "A",
+      "dica": "Releia os §§ 2º, 4º, 8º e 13 do art. 100. Um deles fixa um piso para as leis locais de pequeno valor.",
+      "explicacao": {
+        "A": "Correta. É o § 4º do art. 100 (EC 62/2009): para os fins do § 3º, podem ser fixados por leis próprias valores distintos às entidades de direito público, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do RGPS.",
+        "B": "O § 8º do art. 100 veda o fracionamento, repartição ou quebra do valor da execução para fins de enquadramento de parcela do total como obrigação de pequeno valor.",
+        "C": "O § 13 do art. 100 permite ao credor ceder o crédito, total ou parcialmente, independentemente da concordância do devedor. Pelo § 14, a cessão só produz efeitos após comunicação ao tribunal de origem e ao ente devedor.",
+        "D": "O § 2º do art. 100 fala em titulares com 60 anos de idade, portadores de doença grave ou pessoas com deficiência, e não 65.",
+        "E": "O § 1º do art. 100 (redação da EC 136/2025) dá aos débitos alimentícios preferência sobre todos os demais, exceto sobre aqueles referidos no § 2º (idosos, doentes graves e pessoas com deficiência), que têm prioridade ainda maior."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 1º, 2º, 4º, 8º, 13 e 14 (EC 62/2009, EC 94/2016, EC 113/2021 e EC 136/2025)", "data": "2025-09-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -26,6 +26,9 @@ flutter:
   # cada arquivo antes de ele entrar aqui.
   assets:
     - assets/questoes/adm/
+    - assets/questoes/const/
+    - assets/questoes/trib/
+    - assets/questoes/pc/
 
   # Embutidas para funcionar offline. Licença OFL, em assets/fontes/.
   fonts:

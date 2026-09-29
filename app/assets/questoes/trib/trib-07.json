@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-07",
+    "titulo": "ITBI",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "trib-0022",
+      "tema": "ITBI – fato gerador, competência e contribuinte",
+      "enunciado": "Com base nos arts. 35, 41 e 42 do Código Tributário Nacional, na redação dada pela Lei Complementar nº 227/2026, assinale a alternativa correta sobre o Imposto sobre a Transmissão Inter vivos, por Ato Oneroso, de Bens Imóveis e de Direitos a Eles Relativos.",
+      "alternativas": {
+        "A": "O imposto incide sobre a transmissão inter vivos, por ato oneroso, de quaisquer direitos reais sobre imóveis, inclusive os direitos reais de garantia.",
+        "B": "O imposto compete ao Município do domicílio do adquirente.",
+        "C": "O imposto incide também sobre a transmissão causa mortis da propriedade de bens imóveis.",
+        "D": "O imposto tem como fato gerador, entre outros, a cessão inter vivos, por ato oneroso, de direitos relativos à transmissão da propriedade ou do domínio útil de bens imóveis e à transmissão de direitos reais sobre imóveis.",
+        "E": "O contribuinte é sempre o adquirente, sendo vedado à lei municipal eleger o transmitente."
+      },
+      "correta": "D",
+      "dica": "O art. 35 tem três incisos: dois de transmissão e um de cessão. Veja também a quem o art. 41 atribui o imposto e o que o art. 42 deixa para a lei.",
+      "explicacao": {
+        "D": "Correta. É o art. 35, III, do CTN, na redação da LC 227/2026: a cessão inter vivos, por ato oneroso, de direitos relativos às transmissões referidas nos incisos I e II. No mesmo sentido, o art. 156, II, da CF fala em cessão de direitos à sua aquisição.",
+        "A": "O art. 35, II, exclui expressamente os direitos reais de garantia, na mesma linha do art. 156, II, da CF (exceto os de garantia).",
+        "B": "O art. 41 do CTN (redação da LC 227/2026) e o art. 156, § 2º, II, da CF atribuem o imposto ao Município da situação do bem, ou ao Distrito Federal.",
+        "C": "O imposto municipal alcança apenas a transmissão inter vivos por ato oneroso. A transmissão causa mortis é fato gerador do ITCMD, de competência estadual.",
+        "E": "O art. 42 do CTN diz que contribuinte do imposto é qualquer das partes na operação tributada, como dispuser a lei. A escolha cabe à lei municipal."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, arts. 35, 41 e 42 (LC 227/2026)", "data": "2026-01-13" },
+        { "tipo": "constituicao", "referencia": "CF, art. 156, II, e § 2º, II", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0023",
+      "tema": "ITBI – não incidência na integralização de capital e atividade preponderante",
+      "enunciado": "Com base nos arts. 36 e 37 do CTN e no art. 156, § 2º, I, da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Considera-se caracterizada a atividade preponderante do adquirente quando mais de 50% da sua receita operacional, nos dois anos anteriores e nos dois anos subsequentes à aquisição, decorrer de venda ou locação de imóveis ou de cessão de direitos relativos à sua aquisição.",
+        "B": "Considera-se caracterizada a atividade preponderante quando mais de 30% da receita operacional da pessoa jurídica adquirente decorrer de transações imobiliárias.",
+        "C": "O imposto não incide sobre a transmissão de imóvel incorporado ao patrimônio de pessoa jurídica em realização de capital, ainda que a atividade preponderante da adquirente seja a locação de imóveis.",
+        "D": "A não incidência alcança a integralização de capital, mas não a transmissão decorrente de incorporação ou fusão de pessoas jurídicas.",
+        "E": "Se a pessoa jurídica adquirente iniciar suas atividades após a aquisição, a preponderância será apurada considerando os dois primeiros anos seguintes à data da aquisição."
+      },
+      "correta": "A",
+      "dica": "O art. 37 traz dois períodos de apuração: um para a empresa que já existia e outro para a que começa depois da aquisição. Os números são diferentes.",
+      "explicacao": {
+        "A": "Correta. É o § 1º do art. 37 do CTN: mais de 50% da receita operacional, nos dois anos anteriores e nos dois anos subsequentes à aquisição, decorrente das transações mencionadas no artigo (venda ou locação de imóveis e cessão de direitos relativos à sua aquisição).",
+        "B": "O percentual do § 1º do art. 37 é mais de 50% da receita operacional, e não 30%.",
+        "C": "O art. 37 do CTN e o art. 156, § 2º, I, da CF afastam a não incidência quando a atividade preponderante do adquirente for a compra e venda de imóveis, a locação de bens imóveis ou o arrendamento mercantil. Nesse caso o imposto é devido.",
+        "D": "O art. 36, II, do CTN e o art. 156, § 2º, I, da CF também afastam o imposto na transmissão decorrente de incorporação ou fusão (a CF menciona ainda cisão e extinção de pessoa jurídica), ressalvada a atividade preponderante.",
+        "E": "Pelo § 2º do art. 37, se a adquirente iniciar as atividades após a aquisição, ou menos de dois anos antes dela, a preponderância é apurada nos três primeiros anos seguintes à data da aquisição."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 36 e 37", "data": "1966-10-25" },
+        { "tipo": "constituicao", "referencia": "CF, art. 156, § 2º, I", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0024",
+      "tema": "ITBI – base de cálculo e valor venal (LC 227/2026)",
+      "enunciado": "Sobre a base de cálculo do imposto municipal sobre a transmissão inter vivos de bens imóveis, conforme o art. 38 do CTN, com os parágrafos incluídos pela Lei Complementar nº 227/2026, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A base de cálculo é obrigatoriamente o valor venal adotado para o lançamento do IPTU do mesmo exercício.",
+        "B": "Os critérios utilizados pela administração tributária para estimar o valor venal são sigilosos, para evitar a manipulação dos preços declarados.",
+        "C": "Valor venal é o valor pelo qual o bem ou direito seria negociado à vista, em condições normais de mercado, estimado por critérios técnicos, e o contribuinte pode contestá-lo mediante avaliação contraditória em procedimento específico previsto na legislação municipal ou distrital.",
+        "D": "Os serviços notariais e registrais estão dispensados de compartilhar com o Município informações sobre as operações com imóveis, em razão do sigilo profissional.",
+        "E": "A estimativa do valor venal deve considerar, cumulativamente, todos os critérios técnicos enumerados no § 2º do art. 38."
+      },
+      "correta": "C",
+      "dica": "Os §§ 1º a 4º do art. 38 tratam do conceito de valor venal, dos critérios de estimativa, da transparência e da contestação, e do dever dos cartórios.",
+      "explicacao": {
+        "C": "Correta. O § 1º do art. 38 define valor venal como o valor pelo qual o bem seria negociado à vista, em condições normais de mercado; o § 2º manda estimá-lo por critérios técnicos; o § 3º permite a contestação mediante avaliação contraditória em procedimento específico, nos termos da legislação municipal ou distrital.",
+        "A": "O art. 38 não vincula a base de cálculo do imposto ao valor venal do IPTU. A base é o valor venal dos bens ou direitos transmitidos, entendido como o valor de mercado à vista (§ 1º), estimado pelos critérios do § 2º.",
+        "B": "O § 3º do art. 38 obriga as administrações tributárias dos Municípios e do DF a divulgar os critérios utilizados para estimar o valor venal.",
+        "D": "O § 4º do art. 38 obriga os serviços registrais e notariais a compartilhar com as administrações tributárias municipais e distrital as informações das operações com imóveis, sob pena de multa prevista em lei municipal ou distrital.",
+        "E": "O § 2º do art. 38 exige que se considere pelo menos um dos critérios listados (preços de mercado, informações de cartórios e agentes financeiros, características do imóvel, outros parâmetros técnicos), e não todos cumulativamente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, art. 38, §§ 1º a 4º (LC 227/2026)", "data": "2026-01-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

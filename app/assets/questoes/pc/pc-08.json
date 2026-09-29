@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-08",
+    "titulo": "Juizado Especial da Fazenda Pública e métodos consensuais",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "pc-0022",
+      "tema": "Juizado Especial da Fazenda Pública (Lei 12.153/2009)",
+      "enunciado": "Com base na Lei nº 12.153/2009, que dispõe sobre os Juizados Especiais da Fazenda Pública no âmbito dos Estados, do Distrito Federal, dos Territórios e dos Municípios, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Podem ser autores no Juizado Especial da Fazenda Pública as pessoas físicas e quaisquer pessoas jurídicas de direito privado, desde que a causa não ultrapasse 60 (sessenta) salários mínimos.",
+        "B": "Incluem-se na competência do Juizado Especial da Fazenda Pública os mandados de segurança cujo valor não exceda 60 (sessenta) salários mínimos.",
+        "C": "As pessoas jurídicas de direito público gozam, no Juizado Especial da Fazenda Pública, de prazo em dobro para a interposição de recursos.",
+        "D": "No foro onde estiver instalado Juizado Especial da Fazenda Pública, a sua competência é absoluta.",
+        "E": "A sentença que condena o Município no Juizado Especial da Fazenda Pública sujeita-se a reexame necessário quando o valor da condenação superar 30 (trinta) salários mínimos."
+      },
+      "correta": "D",
+      "dica": "Diferentemente do Juizado Especial Cível comum, em que o autor pode escolher, aqui a lei não deixa opção. Lembre também que a lei do Juizado afasta prerrogativas processuais da Fazenda.",
+      "explicacao": {
+        "A": "O art. 5º, I, admite como autores apenas as pessoas físicas e as microempresas e empresas de pequeno porte definidas na LC 123/2006. As demais pessoas jurídicas de direito privado não podem demandar no Juizado da Fazenda.",
+        "B": "O art. 2º, § 1º, I, exclui expressamente da competência do Juizado as ações de mandado de segurança, de desapropriação, de divisão e demarcação, populares, por improbidade administrativa, execuções fiscais e as demandas sobre direitos difusos e coletivos, qualquer que seja o valor.",
+        "C": "O art. 7º afasta o prazo diferenciado: não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, inclusive a interposição de recursos. É exceção expressa ao art. 183 do CPC.",
+        "D": "Correta. É a literalidade do art. 2º, § 4º. Onde houver Juizado da Fazenda instalado, a causa que se enquadre na sua competência não pode ser proposta na vara comum da Fazenda Pública.",
+        "E": "O art. 11 dispõe que, nas causas de que trata a Lei 12.153/2009, não haverá reexame necessário, qualquer que seja o valor. O número 30 salários mínimos aparece no art. 13, § 3º, II, como limite provisório da obrigação de pequeno valor dos Municípios até a edição de lei própria."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.153/2009, arts. 2º, 5º, 7º, 11 e 13", "data": "2009-12-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0023",
+      "tema": "Autocomposição na Administração Pública (Lei 13.140/2015)",
+      "enunciado": "Acerca da autocomposição de conflitos em que for parte pessoa jurídica de direito público, conforme os arts. 32 a 34 da Lei nº 13.140/2015, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A submissão do conflito às câmaras de prevenção e resolução administrativa de conflitos é condição para o ajuizamento de ação contra o Município.",
+        "B": "A instauração de procedimento administrativo para a resolução consensual de conflito no âmbito da administração pública suspende a prescrição, retroagindo a suspensão à data de formalização do pedido.",
+        "C": "Havendo consenso entre as partes, o acordo celebrado perante a câmara será reduzido a termo e constituirá título executivo judicial.",
+        "D": "Incluem-se na competência das câmaras as controvérsias que somente possam ser resolvidas por atos ou concessão de direitos sujeitos a autorização do Poder Legislativo.",
+        "E": "Não se compreendem na competência das câmaras os conflitos que envolvam equilíbrio econômico-financeiro de contratos celebrados pela administração com particulares."
+      },
+      "correta": "B",
+      "dica": "O art. 34 trata dos efeitos do pedido de solução consensual sobre a prescrição e diz quando o procedimento se considera instaurado.",
+      "explicacao": {
+        "A": "O art. 32, § 2º, diz que a submissão do conflito às câmaras é facultativa e cabível apenas nos casos previstos no regulamento do respectivo ente federado.",
+        "B": "Correta. O art. 34, caput, prevê a suspensão da prescrição, e o § 1º esclarece que se considera instaurado o procedimento quando o órgão ou entidade pública emitir juízo de admissibilidade, retroagindo a suspensão à data de formalização do pedido de resolução consensual. Em matéria tributária, observa-se o CTN (§ 2º).",
+        "C": "Pelo art. 32, § 3º, o acordo reduzido a termo constitui título executivo extrajudicial, e não judicial: não há homologação por juiz.",
+        "D": "O art. 32, § 4º, exclui da competência das câmaras justamente as controvérsias que somente possam ser resolvidas por atos ou concessão de direitos sujeitos a autorização do Poder Legislativo.",
+        "E": "O art. 32, § 5º, inclui expressamente na competência das câmaras a prevenção e a resolução de conflitos que envolvam equilíbrio econômico-financeiro de contratos celebrados pela administração com particulares."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.140/2015, arts. 32 e 34", "data": "2015-06-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0024",
+      "tema": "Negócios jurídicos processuais e calendário (arts. 190 e 191)",
+      "enunciado": "O Município e um particular, em ação que versa sobre direito que admite autocomposição, pretendem ajustar o procedimento e fixar um calendário processual. À luz dos arts. 190 e 191 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O juiz pode recusar aplicação à convenção processual sempre que a considerar inconveniente para a condução do processo.",
+        "B": "A convenção sobre ônus, poderes, faculdades e deveres processuais só pode ser celebrada depois de instaurado o processo.",
+        "C": "O calendário para a prática dos atos processuais pode ser fixado pelo juiz, de ofício, independentemente da concordância das partes.",
+        "D": "Os prazos previstos no calendário podem ser modificados a pedido de qualquer das partes, independentemente de justificativa.",
+        "E": "O calendário vincula as partes e o juiz, e dispensa-se a intimação das partes para a prática de ato processual ou a realização de audiência cujas datas nele tiverem sido designadas."
+      },
+      "correta": "E",
+      "dica": "O calendário nasce de comum acordo e, por isso, obriga todos os que o firmaram, inclusive o juiz. Veja também quando o juiz pode negar eficácia ao negócio processual.",
+      "explicacao": {
+        "A": "O art. 190, parágrafo único, permite ao juiz recusar aplicação à convenção \"somente\" nos casos de nulidade, de inserção abusiva em contrato de adesão ou de manifesta situação de vulnerabilidade de alguma parte. Conveniência não é motivo.",
+        "B": "O art. 190, caput, admite a convenção \"antes ou durante o processo\".",
+        "C": "O art. 191, caput, exige comum acordo entre o juiz e as partes para a fixação do calendário.",
+        "D": "O art. 191, § 1º, diz que os prazos do calendário somente serão modificados em casos excepcionais, devidamente justificados.",
+        "E": "Correta. É a combinação do art. 191, § 1º (o calendário vincula as partes e o juiz) com o § 2º (dispensa de intimação para os atos com data designada). No âmbito de Curitiba, o art. 12 da LC Municipal 141/2023 prevê expressamente a celebração de negócio jurídico processual do art. 190 do CPC que auxilie a Administração na celebração de acordo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 190 e 191", "data": "2015-03-16" },
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, art. 12", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-06",
+    "titulo": "Recursos, processos nos tribunais e precedentes",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "pc-0016",
+      "tema": "Remessa necessária: limites de valor (art. 496, § 3º)",
+      "enunciado": "Em ação de procedimento comum, o juiz proferiu sentença condenando o Município de Curitiba ao pagamento de quantia certa e líquida equivalente a 300 (trezentos) salários-mínimos. Não houve apelação. À luz do art. 496 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A sentença está sujeita à remessa necessária, pois o limite de dispensa aplicável aos Municípios é de 1.000 (mil) salários-mínimos.",
+        "B": "A sentença está sujeita à remessa necessária, pois o limite de dispensa de 100 (cem) salários-mínimos aplica-se a todos os Municípios, inclusive às capitais.",
+        "C": "A sentença não está sujeita à remessa necessária, pois a condenação é inferior a 500 (quinhentos) salários-mínimos, limite aplicável aos Municípios que constituam capitais dos Estados.",
+        "D": "A sentença está sujeita à remessa necessária, porque a dispensa em razão do valor só se aplica quando a sentença estiver fundada em súmula de tribunal superior.",
+        "E": "A sentença não está sujeita à remessa necessária, porque o reexame das sentenças proferidas contra a Fazenda Pública depende de apelação voluntária do ente público."
+      },
+      "correta": "C",
+      "dica": "O § 3º do art. 496 tem três faixas de valor, conforme o ente. Verifique em qual delas se encaixa uma capital de Estado.",
+      "explicacao": {
+        "A": "O limite de 1.000 salários-mínimos (art. 496, § 3º, I) é o da União e de suas autarquias e fundações de direito público, não o dos Municípios.",
+        "B": "O limite de 100 salários-mínimos (§ 3º, III) vale para \"todos os demais Municípios\", isto é, os que não são capitais. As capitais estão no inciso II, com os Estados e o Distrito Federal.",
+        "C": "Correta. O art. 496, § 3º, II, dispensa a remessa quando a condenação ou o proveito econômico for de valor certo e líquido inferior a 500 salários-mínimos para os Estados, o Distrito Federal, suas autarquias e fundações e os Municípios que constituam capitais dos Estados. Curitiba é capital do Paraná, e 300 é menos que 500.",
+        "D": "As hipóteses do § 3º (valor) e do § 4º (sentença fundada em súmula de tribunal superior, repetitivos, IRDR ou IAC, ou orientação vinculante do próprio ente) são autônomas. Basta uma delas para afastar a remessa.",
+        "E": "A remessa necessária independe de recurso: pelo art. 496, § 1º, não interposta a apelação no prazo legal, o juiz ordenará a remessa dos autos ao tribunal e, se não o fizer, o presidente do tribunal os avocará. Aqui a dispensa decorre do valor, não da falta de apelação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 496, §§ 1º, 3º e 4º", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0017",
+      "tema": "Incidente de resolução de demandas repetitivas (IRDR)",
+      "enunciado": "Acerca do incidente de resolução de demandas repetitivas (IRDR), disciplinado nos arts. 976 a 987 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É incabível o IRDR quando um dos tribunais superiores, no âmbito de sua respectiva competência, já tiver afetado recurso para definição de tese sobre questão de direito material ou processual repetitiva.",
+        "B": "É cabível o IRDR quando houver efetiva repetição de processos que contenham controvérsia sobre a mesma questão de fato ou de direito, ainda que sem risco à isonomia.",
+        "C": "A desistência ou o abandono do processo de onde se originou o incidente impede o exame de mérito do IRDR.",
+        "D": "O incidente será julgado no prazo de 2 (dois) anos; superado esse prazo, cessa automaticamente a suspensão dos processos, sem possibilidade de decisão em sentido contrário.",
+        "E": "Julgado o incidente, a tese jurídica será aplicada aos processos que tramitem na justiça comum, excluídos os que tramitem nos juizados especiais."
+      },
+      "correta": "A",
+      "dica": "O IRDR exige, ao mesmo tempo, repetição de processos sobre questão unicamente de direito e risco à isonomia e à segurança jurídica. E ele cede quando a questão já foi levada a um tribunal superior.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 976, § 4º. Se o STF ou o STJ já afetaram recurso repetitivo sobre a questão, não faz sentido o tribunal local instaurar incidente para fixar tese sobre a mesma matéria.",
+        "B": "O art. 976 exige, simultaneamente, repetição de processos sobre a mesma questão \"unicamente de direito\" (inciso I) e risco de ofensa à isonomia e à segurança jurídica (inciso II).",
+        "C": "O art. 976, § 1º, diz o contrário: a desistência ou o abandono do processo não impede o exame de mérito do incidente. E o § 2º manda o Ministério Público assumir a titularidade nesse caso.",
+        "D": "O prazo do art. 980 é de 1 (um) ano, e o parágrafo único ressalva que, superado o prazo, cessa a suspensão dos processos \"salvo decisão fundamentada do relator em sentido contrário\".",
+        "E": "O art. 985, I, manda aplicar a tese a todos os processos individuais ou coletivos sobre idêntica questão de direito na área de jurisdição do tribunal, \"inclusive àqueles que tramitem nos juizados especiais do respectivo Estado ou região\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 976, 980 e 985", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0018",
+      "tema": "Ação rescisória proposta pela Fazenda Pública",
+      "enunciado": "O Município pretende propor ação rescisória contra acórdão de mérito transitado em julgado que lhe foi desfavorável. Com base nos arts. 966 a 975 do Código de Processo Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O direito à rescisão extingue-se em 5 (cinco) anos, contados do trânsito em julgado da última decisão proferida no processo.",
+        "B": "A propositura da ação rescisória suspende automaticamente o cumprimento da decisão rescindenda.",
+        "C": "A ação rescisória deve abranger toda a decisão rescindenda, não sendo admitida contra apenas um de seus capítulos.",
+        "D": "O Município está dispensado de depositar a importância de cinco por cento sobre o valor da causa exigida do autor da rescisória.",
+        "E": "Fundada a ação em prova nova, o prazo conta-se da data de sua descoberta, sem limite máximo contado do trânsito em julgado."
+      },
+      "correta": "D",
+      "dica": "Há um depósito que funciona como multa para rescisórias temerárias. Veja quem a lei dispensa dele e, depois, confira os prazos do art. 975.",
+      "explicacao": {
+        "A": "O art. 975, caput, fixa o prazo de 2 (dois) anos, contados do trânsito em julgado da última decisão proferida no processo. Cinco anos é o limite máximo da hipótese de prova nova (§ 2º).",
+        "B": "O art. 969 dispõe que a propositura da ação rescisória não impede o cumprimento da decisão rescindenda, ressalvada a concessão de tutela provisória.",
+        "C": "O art. 966, § 3º, permite expressamente que a ação rescisória tenha por objeto apenas 1 (um) capítulo da decisão.",
+        "D": "Correta. O art. 968, § 1º, afasta a exigência do depósito de 5% do inciso II para a União, os Estados, o Distrito Federal, os Municípios, suas autarquias e fundações de direito público, o Ministério Público, a Defensoria Pública e os beneficiários da gratuidade da justiça.",
+        "E": "O art. 975, § 2º, fixa o termo inicial na data da descoberta da prova nova, mas \"observado o prazo máximo de 5 (cinco) anos, contado do trânsito em julgado da última decisão proferida no processo\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 966, 968, 969 e 975", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

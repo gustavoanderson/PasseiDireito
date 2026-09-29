@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-04",
+    "titulo": "Reforma Tributária do consumo: IBS, CBS e transição",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "trib-0013",
+      "tema": "Transição do ISS para o IBS (ADCT, arts. 125 a 129)",
+      "enunciado": "Com base nas regras de transição incluídas no Ato das Disposições Constitucionais Transitórias pela Emenda Constitucional nº 132/2023, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Em 2026, o IBS é cobrado à alíquota municipal de 0,1% (um décimo por cento), e a CBS à alíquota de 0,9% (nove décimos por cento).",
+        "B": "Em 2027 e 2028, o IBS será cobrado exclusivamente à alíquota municipal de 0,1% (um décimo por cento).",
+        "C": "O ISS será extinto a partir de 2029, quando o IBS passará a ser cobrado integralmente.",
+        "D": "Durante a redução gradual das alíquotas do ISS, os benefícios fiscais relativos ao imposto serão mantidos integralmente até 2032.",
+        "E": "De 2029 a 2032, as alíquotas do ISS serão fixadas em 9/10, 8/10, 7/10 e 6/10 das alíquotas previstas nas respectivas legislações, e o imposto será extinto a partir de 2033."
+      },
+      "correta": "E",
+      "dica": "Monte a linha do tempo: 2026 (teste), 2027 e 2028 (alíquotas simbólicas estadual e municipal), 2029 a 2032 (redução proporcional) e o ano da extinção.",
+      "explicacao": {
+        "E": "Correta. É a combinação do art. 128 do ADCT (9/10 em 2029, 8/10 em 2030, 7/10 em 2031 e 6/10 em 2032) com o art. 129, que extingue a partir de 2033 os impostos dos arts. 155, II (ICMS), e 156, III (ISS). A LC 116/2003, art. 8º-B, repete a redução (10%, 20%, 30% e 40%).",
+        "A": "O art. 125 do ADCT fixa para 2026 a alíquota estadual de 0,1% para o IBS, e não municipal. A CBS é de 0,9%, e o valor recolhido é compensável com PIS e Cofins.",
+        "B": "O art. 127 do ADCT prevê para 2027 e 2028 a alíquota estadual de 0,05% e a municipal de 0,05%. Não há cobrança exclusivamente municipal.",
+        "C": "Em 2029 começa a redução do ISS (art. 128 do ADCT), não a sua extinção. A extinção se dá a partir de 2033 (art. 129).",
+        "D": "O § 1º do art. 128 do ADCT manda reduzir os benefícios ou incentivos fiscais ou financeiros na mesma proporção das alíquotas. No mesmo sentido, o § 1º do art. 8º-B da LC 116/2003."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "ADCT, arts. 125 a 129 (EC 132/2023)", "data": "2023-12-20" },
+        { "tipo": "lei", "referencia": "LC 116/2003, art. 8º-B (LC 214/2025)", "data": "2025-01-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0014",
+      "tema": "Comitê Gestor do IBS (CF, art. 156-B)",
+      "enunciado": "Sobre o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS), nos termos do art. 156-B da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Comitê Gestor é autarquia federal vinculada ao Ministério da Fazenda, sujeita à supervisão ministerial.",
+        "B": "A instância máxima de deliberação tem 27 membros representando cada Estado e o Distrito Federal e 27 membros representando o conjunto dos Municípios e do Distrito Federal, sendo 14 destes eleitos com votos de igual valor para todos os Municípios e 13 com votos ponderados pelas respectivas populações.",
+        "C": "O controle externo do Comitê Gestor é exercido pelo Tribunal de Contas da União.",
+        "D": "A fiscalização, o lançamento, a cobrança e a representação judicial relativos ao IBS são realizados diretamente pelo Comitê Gestor, excluída a atuação das procuradorias municipais.",
+        "E": "As deliberações do Comitê Gestor são aprovadas pela maioria simples do conjunto de todos os seus membros, sem distinção entre Estados e Municípios."
+      },
+      "correta": "B",
+      "dica": "O § 3º do art. 156-B divide os representantes municipais em dois grupos com critérios de eleição diferentes. Veja também quem exerce o controle externo e quem cobra o imposto.",
+      "explicacao": {
+        "B": "Correta. É o § 3º do art. 156-B: 27 membros representando cada Estado e o DF e 27 representando o conjunto dos Municípios e do DF, eleitos 14 com base nos votos de cada Município com valor igual para todos e 13 com votos ponderados pelas populações.",
+        "A": "O § 1º do art. 156-B define o Comitê Gestor como entidade pública sob regime especial, com independência técnica, administrativa, orçamentária e financeira. Não é autarquia federal nem se vincula ao Ministério da Fazenda.",
+        "C": "Pelo § 2º, IV, do art. 156-B, o controle externo do Comitê Gestor será exercido pelos Estados, pelo Distrito Federal e pelos Municípios, e não pelo TCU.",
+        "D": "O § 2º, V, do art. 156-B atribui a fiscalização, o lançamento, a cobrança e a representação administrativa e judicial às administrações tributárias e procuradorias dos Estados, do DF e dos Municípios, cabendo ao Comitê a coordenação dessas atividades.",
+        "E": "O § 4º do art. 156-B exige votos cumulativos: no conjunto dos Estados e DF, maioria absoluta dos representantes que também correspondam a mais de 50% da população do País; no conjunto dos Municípios e DF, maioria absoluta dos seus representantes."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 156-B (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0015",
+      "tema": "Características do IBS (CF, art. 156-A)",
+      "enunciado": "Considerando o art. 156-A da Constituição Federal, incluído pela Emenda Constitucional nº 132/2023, assinale a alternativa correta sobre o Imposto sobre Bens e Serviços (IBS).",
+      "alternativas": {
+        "A": "O IBS integrará sua própria base de cálculo, à semelhança do que ocorria com o ICMS.",
+        "B": "O IBS incidirá sobre as exportações, assegurado ao exportador apenas o ressarcimento posterior dos créditos acumulados.",
+        "C": "O IBS terá legislação única e uniforme em todo o território nacional, cada ente federativo fixará sua alíquota própria por lei específica, e o imposto será cobrado pelo somatório das alíquotas do Estado e do Município de destino da operação.",
+        "D": "O IBS será cobrado pelo somatório das alíquotas do Estado e do Município de origem da operação, onde se localiza o estabelecimento do fornecedor.",
+        "E": "Cada Município poderá conceder, por lei própria, incentivos e benefícios fiscais relativos à sua parcela do IBS, observada a alíquota mínima de 2%."
+      },
+      "correta": "C",
+      "dica": "Três incisos do § 1º do art. 156-A se completam: legislação única, alíquota própria de cada ente e o critério territorial da cobrança.",
+      "explicacao": {
+        "C": "Correta. Reúne os incisos IV (legislação única e uniforme em todo o território nacional), V (cada ente fixa sua alíquota própria por lei específica) e VII (cobrança pelo somatório das alíquotas do Estado e do Município de destino) do § 1º do art. 156-A.",
+        "A": "O inciso IX do § 1º do art. 156-A diz que o IBS não integrará sua própria base de cálculo, nem a do IS (art. 153, VIII), a da CBS e outras ali listadas.",
+        "B": "O inciso III do § 1º do art. 156-A diz que o IBS não incidirá sobre as exportações, assegurados ao exportador a manutenção e o aproveitamento dos créditos.",
+        "D": "O critério é o do destino, não o da origem (art. 156-A, § 1º, VII). A lei complementar define o destino da operação (§ 5º, IV), podendo usar, por exemplo, o local da entrega ou do domicílio do adquirente.",
+        "E": "O inciso X do § 1º do art. 156-A veda a concessão de incentivos e benefícios financeiros ou fiscais relativos ao IBS, excetuadas as hipóteses previstas na própria Constituição. A alíquota mínima de 2% é regra do ISS (LC 116/2003, art. 8º-A)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 156-A, § 1º (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

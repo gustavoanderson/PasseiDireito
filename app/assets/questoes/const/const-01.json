@@ -1,0 +1,89 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-01",
+    "titulo": "Teoria da Constituição e hermenêutica",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "const-0001",
+      "tema": "Aplicabilidade dos direitos fundamentais e supremacia da Constituição",
+      "enunciado": "Com base no texto da Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "As normas definidoras dos direitos e garantias fundamentais somente têm aplicação depois de regulamentadas por lei.",
+        "B": "Os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais em que a República Federativa do Brasil seja parte.",
+        "C": "O Brasil se submete à jurisdição de qualquer Tribunal Penal Internacional, independentemente de ter manifestado adesão à sua criação.",
+        "D": "Compete ao Superior Tribunal de Justiça, precipuamente, a guarda da Constituição.",
+        "E": "A lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada, salvo quando se tratar de lei de ordem pública."
+      },
+      "correta": "B",
+      "dica": "Um dos parágrafos finais do art. 5º funciona como cláusula de abertura: o catálogo de direitos da Constituição não é fechado.",
+      "explicacao": {
+        "B": "Correta. É a literalidade do art. 5º, § 2º, da CF, a chamada cláusula de abertura (ou de não tipicidade) dos direitos fundamentais: o rol do art. 5º não é exaustivo.",
+        "A": "O art. 5º, § 1º, diz o contrário: as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata. Algumas delas dependem de lei para produzir todos os efeitos, mas a regra geral do texto é a aplicação imediata.",
+        "C": "O art. 5º, § 4º (EC 45/2004), limita a submissão ao Tribunal Penal Internacional a cuja criação o Brasil tenha manifestado adesão. A adesão é condição, não detalhe.",
+        "D": "O art. 102, caput, atribui a guarda precípua da Constituição ao Supremo Tribunal Federal. O STJ cuida da uniformização da lei federal (art. 105). É no art. 102 que o texto expressa a supremacia da Constituição e o seu guardião.",
+        "E": "O art. 5º, XXXVI, não traz ressalva alguma: a lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada. A exceção para lei de ordem pública não está no texto constitucional."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XXXVI e §§ 1º e 2º, e art. 102, caput", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, § 4º (EC 45/2004)", "data": "2004-12-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0002",
+      "tema": "Recepção, repristinação e direito intertemporal",
+      "enunciado": "Acerca da sucessão de normas no tempo, da recepção e da repristinação, assinale a alternativa correta, de acordo com o Ato das Disposições Constitucionais Transitórias, a Lei de Introdução às Normas do Direito Brasileiro (Decreto-Lei nº 4.657/1942) e a Lei nº 9.868/1999.",
+      "alternativas": {
+        "A": "Vigente o novo sistema tributário nacional, o ADCT assegurou a aplicação de toda a legislação tributária anterior, inclusive a incompatível com ele, até a edição das novas leis dos entes federados.",
+        "B": "A concessão de medida cautelar em ação direta de inconstitucionalidade nunca restaura a legislação anterior à lei suspensa, pois o ordenamento brasileiro não admite repristinação.",
+        "C": "O sistema tributário nacional previsto na Constituição de 1988 entrou integralmente em vigor na data de sua promulgação.",
+        "D": "Salvo disposição em contrário, a lei revogada não se restaura por ter a lei revogadora perdido a vigência.",
+        "E": "A lei nova que estabeleça disposições gerais ou especiais a par das já existentes revoga a lei anterior."
+      },
+      "correta": "D",
+      "dica": "A repristinação não é proibida no Brasil: ela só não é automática. Procure a alternativa que diz exatamente isso.",
+      "explicacao": {
+        "D": "Correta. É o art. 2º, § 3º, da LINDB. A repristinação (a volta da lei revogada quando a revogadora perde a vigência) não é automática; depende de disposição expressa. A mesma lógica vale para a nova Constituição: norma não recepcionada pela Constituição anterior não \"ressuscita\" com a Constituição nova sem previsão expressa.",
+        "A": "O art. 34, § 5º, do ADCT assegurou a aplicação da legislação anterior no que não seja incompatível com o novo sistema e com a legislação editada nos termos dos §§ 3º e 4º. É um exemplo textual de recepção: só sobrevive o que é materialmente compatível.",
+        "B": "O art. 11, § 2º, da Lei 9.868/1999 diz o contrário: a concessão da cautelar torna aplicável a legislação anterior acaso existente, salvo expressa manifestação em sentido contrário. É o efeito repristinatório da cautelar, previsto em lei.",
+        "C": "O art. 34, caput, do ADCT fixou a entrada em vigor do sistema tributário a partir do primeiro dia do quinto mês seguinte ao da promulgação, mantido até então o sistema da Constituição de 1967. Só alguns dispositivos (arts. 148, 149, 150, 154, I, 156, III, e 159, I, c) entraram em vigor com a promulgação (§ 1º).",
+        "E": "O art. 2º, § 2º, da LINDB diz que a lei nova que estabeleça disposições gerais ou especiais a par das já existentes não revoga nem modifica a lei anterior. A revogação ocorre nas hipóteses do § 1º: declaração expressa, incompatibilidade ou regulação inteira da matéria."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 4.657/1942 (LINDB), art. 2º, §§ 1º a 3º", "data": "1942-09-04" },
+        { "tipo": "constituicao", "referencia": "ADCT, art. 34, caput e §§ 1º e 5º", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, art. 11, § 2º", "data": "1999-11-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0003",
+      "tema": "Interpretação conforme e técnicas de decisão",
+      "enunciado": "Nos termos do art. 28 da Lei nº 9.868/1999, que trata da decisão na ação direta de inconstitucionalidade e na ação declaratória de constitucionalidade, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A declaração de constitucionalidade ou de inconstitucionalidade, inclusive a interpretação conforme a Constituição e a declaração parcial de inconstitucionalidade sem redução de texto, tem eficácia contra todos e efeito vinculante em relação aos órgãos do Poder Judiciário e à Administração Pública federal, estadual e municipal.",
+        "B": "A interpretação conforme a Constituição, por não declarar a inconstitucionalidade de nenhum trecho do texto, produz efeitos apenas entre as partes do processo objetivo.",
+        "C": "A declaração parcial de inconstitucionalidade sem redução de texto vincula os órgãos do Poder Judiciário, mas não a Administração Pública municipal.",
+        "D": "Dentro do prazo de trinta dias após o trânsito em julgado, o Supremo Tribunal Federal fará publicar a íntegra do acórdão em seção especial do Diário da Justiça.",
+        "E": "O efeito vinculante da decisão alcança apenas a Administração Pública federal, cabendo a Estados e Municípios aderir a ela por ato próprio."
+      },
+      "correta": "A",
+      "dica": "O parágrafo único do art. 28 cita expressamente duas técnicas de decisão ao lado da declaração pura e simples. Veja quem fica vinculado.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do parágrafo único do art. 28 da Lei 9.868/1999. A lei equipara, quanto à eficácia erga omnes e ao efeito vinculante, a declaração pura e simples às técnicas da interpretação conforme e da declaração parcial sem redução de texto.",
+        "B": "O parágrafo único do art. 28 inclui expressamente a interpretação conforme a Constituição entre as decisões com eficácia contra todos e efeito vinculante. Não há efeito só entre as partes: o processo objetivo nem tem partes em sentido próprio.",
+        "C": "O parágrafo único do art. 28 estende o efeito vinculante à Administração Pública federal, estadual e municipal, sem distinguir a técnica de decisão utilizada.",
+        "D": "O caput do art. 28 fixa o prazo de dez dias após o trânsito em julgado, e o que se publica é a parte dispositiva do acórdão, em seção especial do Diário da Justiça e do Diário Oficial da União.",
+        "E": "O efeito vinculante decorre da própria lei e alcança a Administração Pública das três esferas (federal, estadual e municipal), sem necessidade de adesão. A CF diz o mesmo no art. 102, § 2º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, art. 28, caput e parágrafo único", "data": "1999-11-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

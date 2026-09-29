@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-06",
+    "titulo": "Organização dos Poderes",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "const-0016",
+      "tema": "Processo legislativo municipal – sanção e veto (LOM Curitiba)",
+      "enunciado": "O Prefeito de Curitiba recebeu projeto de lei aprovado pela Câmara Municipal e considera parte dele contrária ao interesse público. Com base no art. 57 da Lei Orgânica do Município de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Prefeito poderá vetar o projeto no prazo de quinze dias corridos, contados da data do recebimento, comunicando os motivos do veto ao Presidente da Câmara em até cinco dias.",
+        "B": "Decorrido o prazo para sanção ou veto, o silêncio do Prefeito importará veto total do projeto.",
+        "C": "O veto parcial poderá recair sobre palavras ou expressões isoladas de um artigo, desde que não altere o sentido do texto.",
+        "D": "Se a lei não for promulgada pelo Prefeito em quarenta e oito horas, após a rejeição do veto, caberá ao Vice-Prefeito promulgá-la.",
+        "E": "O veto será apreciado em sessão única, dentro de trinta dias a contar do seu recebimento, só podendo ser rejeitado pelo voto da maioria absoluta dos integrantes da Câmara Municipal, em votação pública e aberta."
+      },
+      "correta": "E",
+      "dica": "O rito municipal copia o federal em quase tudo, mas conta o prazo do Prefeito de um jeito específico. E a promulgação subsidiária fica dentro da própria Câmara.",
+      "explicacao": {
+        "E": "Correta. É o art. 57, § 4º, da Lei Orgânica, na redação da Emenda à LOM 16/2013, que tornou a votação do veto pública e aberta. Se o prazo se esgotar sem deliberação, o veto vai à ordem do dia da sessão imediata, sobrestadas as demais proposições (§ 5º).",
+        "A": "O art. 57, § 1º, fixa o prazo de quinze dias úteis, contados do recebimento, e a comunicação dos motivos do veto ao Presidente da Câmara dentro de quarenta e oito horas.",
+        "B": "O art. 57, § 3º, dispõe que, decorrido o prazo de quinze dias úteis, o silêncio do Prefeito implicará sanção (sanção tácita), e não veto.",
+        "C": "O art. 57, § 2º, determina que o veto parcial somente abrangerá texto integral de artigo, parágrafo, inciso ou alínea. É a mesma regra do art. 66, § 2º, da CF: não existe veto de palavras isoladas.",
+        "D": "Pelo art. 57, § 7º, se o Prefeito não promulgar a lei em quarenta e oito horas (sanção tácita ou rejeição do veto), a promulgação cabe ao Presidente da Câmara Municipal e, se este não o fizer em igual prazo, ao Vice-Presidente da Câmara. O Vice-Prefeito não participa."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 57 (§ 4º com redação da Emenda à LOM 16/2013)", "data": "2013-11-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0017",
+      "tema": "Fiscalização do Município e Tribunais de Contas (EC 139/2026)",
+      "enunciado": "Com base nos arts. 31 e 75 da Constituição Federal, na redação vigente após a Emenda Constitucional nº 139/2026, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O parecer prévio emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar só deixará de prevalecer por decisão da maioria absoluta dos membros da Câmara Municipal.",
+        "B": "Os Tribunais de Contas são instituições permanentes, essenciais ao exercício do controle externo.",
+        "C": "As contas dos Municípios ficarão, durante trinta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação.",
+        "D": "O Município com mais de um milhão de habitantes pode criar, por lei, Tribunal de Contas municipal próprio.",
+        "E": "A fiscalização do Município é exercida pelo Tribunal de Contas do Estado, mediante controle externo, cabendo à Câmara Municipal apenas o controle interno."
+      },
+      "correta": "B",
+      "dica": "A emenda de 2026 acrescentou ao art. 75 uma qualificação dos Tribunais de Contas parecida com a que a Constituição dá ao Ministério Público e à Defensoria. Nas demais, confira quórum, prazo e quem é o titular do controle externo.",
+      "explicacao": {
+        "B": "Correta. É o início do art. 75, caput, na redação dada pela EC 139, de 5/5/2026: os Tribunais de Contas são instituições permanentes, essenciais ao exercício do controle externo. A mesma emenda acrescentou ao art. 31, § 1º, e ao art. 75 a cláusula \"vedada sua extinção, criação ou instalação\".",
+        "A": "O art. 31, § 2º, exige decisão de dois terços dos membros da Câmara Municipal para afastar o parecer prévio. A LOM de Curitiba (art. 60, parágrafo único) e a Constituição do Paraná (art. 18, § 2º) repetem o quórum.",
+        "C": "O art. 31, § 3º, fixa o prazo de sessenta dias, anualmente, durante o qual as contas ficam à disposição de qualquer contribuinte, que poderá questionar-lhes a legitimidade, nos termos da lei.",
+        "D": "O art. 31, § 4º, veda a criação de Tribunais, Conselhos ou órgãos de Contas Municipais, sem exceção pelo porte do Município. Após a EC 139/2026, o § 1º do art. 31 e o art. 75 também passaram a vedar a extinção, a criação ou a instalação desses órgãos.",
+        "E": "O art. 31, caput, atribui a fiscalização do Município ao Poder Legislativo Municipal, mediante controle externo, e aos sistemas de controle interno do Executivo. O Tribunal de Contas auxilia a Câmara no controle externo (§ 1º), mas não é o seu titular."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 31 e 75 (EC 139/2026)", "data": "2026-05-05" },
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 60", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0018",
+      "tema": "Imunidades parlamentares e CPIs",
+      "enunciado": "Sobre o Poder Legislativo na Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os Vereadores são invioláveis por suas opiniões, palavras e votos em todo o território nacional, ainda que fora do exercício do mandato.",
+        "B": "As comissões parlamentares de inquérito são criadas mediante requerimento da maioria absoluta dos membros da Casa, para apuração de fato determinado e por prazo certo.",
+        "C": "As comissões parlamentares de inquérito podem promover diretamente a responsabilidade civil ou criminal dos infratores, dispensada a atuação do Ministério Público.",
+        "D": "Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável, caso em que os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.",
+        "E": "As imunidades de Deputados e Senadores ficam automaticamente suspensas durante o estado de sítio."
+      },
+      "correta": "D",
+      "dica": "A imunidade do Vereador tem limite territorial e funcional. A dos congressistas tem uma única exceção para a prisão.",
+      "explicacao": {
+        "D": "Correta. É a literalidade do art. 53, § 2º, da CF, na redação da EC 35/2001 (imunidade formal quanto à prisão).",
+        "A": "O art. 29, VIII, da CF garante a inviolabilidade dos Vereadores por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do Município. Há limite territorial e exigência de nexo com o mandato. A Constituição não estende ao Vereador a imunidade formal do art. 53, § 2º, quanto à prisão.",
+        "B": "O art. 58, § 3º, exige requerimento de um terço dos membros da Casa, e não maioria absoluta. É direito da minoria parlamentar: basta o terço, e a maioria não pode barrar a criação.",
+        "C": "O art. 58, § 3º, dá às CPIs poderes de investigação próprios das autoridades judiciais, mas suas conclusões, se for o caso, são encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores. CPI investiga; não processa nem pune.",
+        "E": "O art. 53, § 8º, dispõe que as imunidades subsistirão durante o estado de sítio, só podendo ser suspensas mediante o voto de dois terços dos membros da Casa respectiva, nos casos de atos praticados fora do recinto do Congresso que sejam incompatíveis com a execução da medida."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 29, VIII, e 58, § 3º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 53, §§ 2º e 8º (EC 35/2001)", "data": "2001-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

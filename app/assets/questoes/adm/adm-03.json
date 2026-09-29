@@ -32,6 +32,57 @@
         { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 10", "data": "2021-04-01" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0019",
+      "tema": "Erro grosseiro e decisor que adota o parecer (Decreto 9.830/2019)",
+      "enunciado": "O Decreto federal nº 9.830/2019 regulamenta os arts. 20 a 30 da LINDB. Considerando o seu art. 12, que trata da responsabilização do agente público por decisões ou opiniões técnicas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Considera-se erro grosseiro aquele praticado com culpa, ainda que leve, desde que dele resulte dano ao erário.",
+        "B": "O montante expressivo do dano ao erário é, por si só, elemento suficiente para caracterizar o erro grosseiro.",
+        "C": "A responsabilização pela opinião técnica não se estende de forma automática ao decisor que a adotou como fundamento de decidir, e somente se configurará se houver elementos suficientes para ele aferir o dolo ou o erro grosseiro da opinião técnica, ou se houver conluio entre os agentes.",
+        "D": "O mero nexo de causalidade entre a conduta do agente e o resultado danoso basta para a responsabilização.",
+        "E": "No exercício do poder hierárquico, o superior responde por culpa in vigilando sempre que houver dano causado por subordinado."
+      },
+      "correta": "C",
+      "dica": "O decreto repete várias vezes a mesma ideia: sem dolo ou erro grosseiro comprovado, não há responsabilização. Veja qual afirmação trata da relação entre quem opina e quem decide.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do § 6º do art. 12 do Decreto 9.830/2019. A regra protege o gestor que decide com base em parecer: ele só responde pela opinião técnica viciada se tinha elementos para perceber o dolo ou o erro grosseiro, ou se houve conluio.",
+        "A": "O § 1º do art. 12 define erro grosseiro como o erro manifesto, evidente e inescusável praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia. Culpa leve não basta, em linha com o art. 28 da LINDB.",
+        "B": "O § 5º do art. 12 diz o contrário: o montante do dano ao erário, ainda que expressivo, não poderá, por si só, ser elemento para caracterizar o erro grosseiro ou o dolo.",
+        "D": "O § 3º do art. 12 afasta a responsabilização pelo mero nexo de causalidade entre a conduta e o resultado danoso, exceto se comprovado o dolo ou o erro grosseiro do agente público.",
+        "E": "O § 7º do art. 12 limita a culpa in vigilando: no exercício do poder hierárquico, só responde aquele cuja omissão caracterizar erro grosseiro ou dolo."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto federal 9.830/2019, art. 12", "data": "2019-06-10" },
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 28", "data": "2018-04-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0020",
+      "tema": "Controle prévio de legalidade pela assessoria jurídica (Lei 14.133/2021)",
+      "enunciado": "Acerca da atuação do órgão de assessoramento jurídico da Administração no processo de contratação, nos termos do art. 53 da Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O controle prévio de legalidade restringe-se aos processos licitatórios, não alcançando contratações diretas, convênios e adesões a atas de registro de preços.",
+        "B": "A análise jurídica é sempre obrigatória, não podendo ser dispensada em nenhuma hipótese.",
+        "C": "A dispensa da análise jurídica pode ser decidida caso a caso pela autoridade que conduz a licitação, conforme a urgência da contratação.",
+        "D": "É dispensável a análise jurídica nas hipóteses previamente definidas em ato da autoridade jurídica máxima competente, que deverá considerar o baixo valor, a baixa complexidade da contratação, a entrega imediata do bem ou a utilização de minutas previamente padronizadas pelo órgão de assessoramento jurídico.",
+        "E": "O parecer jurídico deve ser elaborado em linguagem técnica, dispensada a exposição dos pressupostos de fato e de direito considerados na análise."
+      },
+      "correta": "D",
+      "dica": "O art. 53 admite uma exceção à análise jurídica, mas diz quem a define e com base em quais critérios.",
+      "explicacao": {
+        "D": "Correta. É a literalidade do § 5º do art. 53 da Lei 14.133/2021. A dispensa não é casuística: depende de ato prévio da autoridade jurídica máxima competente, baseado nos critérios que a lei enumera.",
+        "A": "O § 4º do art. 53 estende o controle prévio de legalidade às contratações diretas, acordos, termos de cooperação, convênios, ajustes, adesões a atas de registro de preços, outros instrumentos congêneres e seus termos aditivos.",
+        "B": "A análise jurídica é a regra (caput do art. 53), mas o § 5º admite que ela seja dispensável nas hipóteses definidas em ato da autoridade jurídica máxima competente.",
+        "C": "A dispensa não fica a critério da autoridade que conduz a contratação, nem é decidida caso a caso pela urgência. O § 5º exige hipóteses previamente definidas em ato da autoridade jurídica máxima competente.",
+        "E": "O § 1º, II, do art. 53 exige manifestação em linguagem simples e compreensível, de forma clara e objetiva, com apreciação de todos os elementos indispensáveis à contratação e com exposição dos pressupostos de fato e de direito levados em consideração."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 53", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

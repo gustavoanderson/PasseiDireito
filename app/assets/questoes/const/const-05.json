@@ -1,0 +1,89 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-05",
+    "titulo": "Organização do Estado e Federação",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "const-0013",
+      "tema": "Repartição de competências – concorrente e municipal",
+      "enunciado": "Sobre a repartição de competências na Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "No âmbito da legislação concorrente, a superveniência de lei federal sobre normas gerais revoga a lei estadual no que lhe for contrário.",
+        "B": "O art. 24 da Constituição inclui expressamente os Municípios entre os entes com competência para legislar concorrentemente sobre direito urbanístico e proteção do meio ambiente.",
+        "C": "Compete aos Municípios criar, organizar e suprimir distritos, independentemente da legislação estadual.",
+        "D": "Inexistindo lei federal sobre normas gerais, os Estados exercerão a competência legislativa plena, para atender a suas peculiaridades.",
+        "E": "Compete aos Municípios organizar e prestar os serviços públicos de interesse local, incluído o de transporte coletivo, que a Constituição qualifica como serviço de caráter complementar."
+      },
+      "correta": "D",
+      "dica": "No art. 24, a lei federal posterior não apaga a lei estadual: o verbo usado pelo § 4º é mais brando que revogar.",
+      "explicacao": {
+        "D": "Correta. É o art. 24, § 3º, da CF. Na lacuna da União, o Estado legisla com plenitude; se depois vier a lei federal de normas gerais, ela suspende a eficácia da lei estadual naquilo que lhe for contrário (§ 4º).",
+        "A": "O art. 24, § 4º, diz suspende a eficácia, e não revoga. A diferença importa: se a lei federal deixar de existir, a lei estadual volta a produzir efeitos, pois nunca foi revogada.",
+        "B": "O caput do art. 24 atribui a competência concorrente à União, aos Estados e ao Distrito Federal. Os Municípios não estão no rol; sua atuação legislativa se dá pelo interesse local e pela suplementação da legislação federal e estadual, no que couber (art. 30, I e II).",
+        "C": "O art. 30, IV, condiciona a criação, a organização e a supressão de distritos à observância da legislação estadual. A Constituição do Paraná repete a ressalva no art. 17, IV.",
+        "E": "O art. 30, V, qualifica o transporte coletivo como serviço de caráter essencial, e não complementar."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 24 e 30", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Constituição do Estado do Paraná, art. 17, IV (EC estadual 7/2000)", "data": "2000-04-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0014",
+      "tema": "Intervenção estadual nos Municípios",
+      "enunciado": "Acerca da intervenção do Estado do Paraná em seus Municípios, disciplinada nos arts. 35 e 36 da Constituição Federal e no art. 20 da Constituição do Estado do Paraná, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Quando o Tribunal de Justiça der provimento a representação para prover a execução de lei, de ordem ou de decisão judicial, fica dispensada a apreciação pela Assembleia Legislativa, e o decreto limita-se a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade.",
+        "B": "O Estado poderá intervir no Município quando deixar de ser paga, ainda que por motivo de força maior, por um ano, a dívida fundada.",
+        "C": "O decreto de intervenção estadual será submetido à apreciação da Câmara Municipal do Município afetado, no prazo de vinte e quatro horas.",
+        "D": "A União poderá intervir diretamente em Município situado em Estado-membro para assegurar a observância do princípio da autonomia municipal.",
+        "E": "Cessados os motivos da intervenção, as autoridades afastadas de seus cargos não retornam a eles, cabendo ao interventor concluir o mandato."
+      },
+      "correta": "A",
+      "dica": "Nas hipóteses de representação julgada pelo Tribunal de Justiça, a intervenção pode ser mínima e dispensa o controle político. Confira também quem aprecia o decreto.",
+      "explicacao": {
+        "A": "Correta. É o art. 36, § 3º, da CF, aplicado à hipótese do art. 35, IV, e reproduzido no art. 20, § 5º, da Constituição do Paraná. Quando a intervenção decorre de decisão judicial, o controle político pela Assembleia é dispensado, e o decreto pode se limitar a suspender o ato.",
+        "B": "O art. 35, I, da CF (e o art. 20, I, da Constituição do Paraná) exige que a dívida fundada deixe de ser paga, sem motivo de força maior, por dois anos consecutivos. A alternativa troca o prazo e a ressalva.",
+        "C": "O art. 36, § 1º, da CF submete o decreto à apreciação da Assembleia Legislativa do Estado, no prazo de 24 horas. A Constituição do Paraná (art. 20, § 1º) também exige a prévia apreciação e aprovação da Assembleia. A Câmara Municipal não aprecia o decreto: é perante ela que o interventor assume os encargos (art. 20, § 2º).",
+        "D": "Pelo art. 35 da CF, a União só intervém em Municípios localizados em Território Federal. O Município situado em Estado-membro sofre intervenção apenas do Estado. A autonomia municipal (art. 34, VII, c) é princípio cuja violação autoriza a intervenção da União no Estado, e não no Município.",
+        "E": "O art. 36, § 4º, da CF e o art. 20, § 6º, da Constituição do Paraná dispõem que, cessados os motivos da intervenção, as autoridades afastadas de seus cargos a estes voltarão, salvo impedimento legal."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 34, VII, 35 e 36", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Constituição do Estado do Paraná, art. 20", "data": "1989-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0015",
+      "tema": "Lei Orgânica de Curitiba – emenda",
+      "enunciado": "Um grupo de Vereadores pretende alterar a Lei Orgânica do Município de Curitiba. Com base no art. 29 da Constituição Federal e no art. 51 da Lei Orgânica do Município de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A proposta de emenda pode ser apresentada por um quinto, no mínimo, dos membros da Câmara Municipal.",
+        "B": "A iniciativa popular de emenda à Lei Orgânica exige proposta subscrita por um por cento do eleitorado do Município.",
+        "C": "A proposta será discutida e votada em dois turnos, com interstício mínimo de dez dias, e considerada aprovada se obtiver dois terços dos votos dos membros da Câmara Municipal, em ambos os turnos.",
+        "D": "Aprovada, a emenda será enviada ao Prefeito para sanção e promulgação, com o respectivo número de ordem.",
+        "E": "A Lei Orgânica pode ser emendada durante intervenção estadual no Município, desde que a proposta seja aprovada por unanimidade."
+      },
+      "correta": "C",
+      "dica": "A Lei Orgânica de Curitiba segue de perto o modelo do art. 29 da Constituição quanto à votação, e o do art. 60 quanto à promulgação e às limitações circunstanciais.",
+      "explicacao": {
+        "C": "Correta. É o art. 51, § 3º, da Lei Orgânica de Curitiba, que repete para a emenda o rito que o art. 29, caput, da CF exige para a própria Lei Orgânica: dois turnos, interstício mínimo de dez dias e dois terços dos membros da Câmara.",
+        "A": "O art. 51, I, da LOM exige proposta de um terço, no mínimo, dos membros da Câmara Municipal. As outras iniciativas são a do Prefeito (II) e a popular (III).",
+        "B": "O art. 51, III, da LOM exige proposta subscrita por cinco por cento do eleitorado do Município. É o mesmo percentual da iniciativa popular de lei no art. 29, XIII, da CF e no art. 55 da LOM.",
+        "D": "O art. 51, § 6º, da LOM atribui a promulgação à Mesa da Câmara Municipal, com o respectivo número de ordem. Não há sanção do Prefeito, assim como não há sanção presidencial na emenda à Constituição (art. 60, § 3º, da CF).",
+        "E": "O art. 51, § 1º, da LOM veda emendas na vigência de estado de sítio ou de estado de defesa, ou no caso de o Município estar sob intervenção estadual. A vedação é absoluta, e nenhum quórum a supera."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 29, caput e XIII", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 51 e 55", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

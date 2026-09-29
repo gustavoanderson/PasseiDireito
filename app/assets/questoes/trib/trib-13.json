@@ -1,0 +1,36 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-13",
+    "titulo": "Repartição das receitas tributárias",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "trib-0039",
+      "tema": "Receitas tributárias pertencentes aos Municípios",
+      "enunciado": "Com base nos arts. 158 e 159 da Constituição Federal, na redação vigente após a Emenda Constitucional nº 132/2023, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Pertencem aos Municípios 25% do produto da arrecadação do IPVA relativo aos veículos licenciados em seus territórios.",
+        "B": "Pertencem aos Municípios 50% do produto da arrecadação do imposto de renda incidente na fonte sobre rendimentos pagos, a qualquer título, por eles, suas autarquias e fundações.",
+        "C": "Pertencem aos Municípios 50% do produto da arrecadação do ITR relativamente aos imóveis neles situados, cabendo a totalidade na hipótese da opção a que se refere o art. 153, § 4º, III.",
+        "D": "Das parcelas do ICMS pertencentes aos Municípios, no mínimo 50% são creditadas na proporção do valor adicionado nas operações realizadas em seus territórios.",
+        "E": "Do produto da arrecadação do IR, do IPI e do Imposto Seletivo, a União entrega ao Fundo de Participação dos Municípios exclusivamente 22,5%, sem outras parcelas."
+      },
+      "correta": "C",
+      "dica": "Confira os percentuais do art. 158, incisos I a IV, e do § 1º. No art. 159, I, conte todas as alíneas que beneficiam o FPM.",
+      "explicacao": {
+        "C": "Correta. É o art. 158, II, da CF (EC 42/2003): 50% do ITR relativo aos imóveis situados no Município, cabendo a totalidade se o Município optar por fiscalizar e cobrar o imposto (art. 153, § 4º, III).",
+        "A": "O art. 158, III (redação da EC 132/2023), atribui aos Municípios 50% do IPVA dos veículos licenciados em seus territórios e, quanto aos veículos aquáticos e aéreos, dos cujos proprietários sejam neles domiciliados.",
+        "B": "O art. 158, I, atribui aos Municípios o produto integral da arrecadação do IR retido na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. Não há divisão com a União.",
+        "D": "O art. 158, § 1º, I, exige no mínimo 65% na proporção do valor adicionado; até 35% seguem lei estadual, com no mínimo 10 pontos percentuais por indicadores educacionais (inciso II).",
+        "E": "O art. 159, I, prevê para o FPM 22,5% (alínea b) mais 1% entregue em dezembro (alínea d), 1% em julho (alínea e) e 1% em setembro (alínea f). A soma do inciso I chega a 50%."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 158 e 159 (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

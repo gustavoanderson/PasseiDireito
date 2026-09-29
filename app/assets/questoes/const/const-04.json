@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-04",
+    "titulo": "Direitos e garantias fundamentais",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "const-0010",
+      "tema": "Mandado de injunção (Lei 13.300/2016)",
+      "enunciado": "Com base na Lei nº 13.300/2016, que disciplina o processo e o julgamento dos mandados de injunção individual e coletivo, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A decisão no mandado de injunção tem, por natureza, eficácia erga omnes, e produz efeitos até o advento da norma regulamentadora.",
+        "B": "A norma regulamentadora superveniente produzirá efeitos ex tunc em relação aos beneficiados por decisão transitada em julgado, ainda que lhes seja menos favorável.",
+        "C": "Reconhecido o estado de mora legislativa, será deferida a injunção para determinar prazo razoável para a edição da norma, determinação que será dispensada quando comprovado que o impetrado deixou de atender, em mandado de injunção anterior, ao prazo estabelecido.",
+        "D": "O mandado de injunção coletivo não pode ser promovido pela Defensoria Pública, cuja atuação se limita ao mandado de injunção individual em favor de necessitados.",
+        "E": "O indeferimento do pedido por insuficiência de prova impede a renovação da impetração, ainda que fundada em outros elementos probatórios."
+      },
+      "correta": "C",
+      "dica": "O art. 8º tem dois incisos e um parágrafo único que funciona como uma sanção ao impetrado que já foi omisso antes.",
+      "explicacao": {
+        "C": "Correta. É o art. 8º, I, e parágrafo único, da Lei 13.300/2016. Além de fixar prazo, a injunção estabelece as condições para o exercício do direito caso a mora não seja suprida (inciso II). Se o impetrado já descumpriu prazo em injunção anterior, o juiz pula a etapa do prazo.",
+        "A": "Pelo art. 9º, caput, a decisão tem eficácia subjetiva limitada às partes, e produz efeitos até o advento da norma regulamentadora. A eficácia ultra partes ou erga omnes é excepcional: pode ser conferida quando inerente ou indispensável ao exercício do direito (§ 1º).",
+        "B": "O art. 11 diz o contrário: a norma superveniente produz efeitos ex nunc em relação aos beneficiados por decisão transitada em julgado, salvo se a aplicação da norma editada lhes for mais favorável.",
+        "D": "O art. 12, IV, legitima expressamente a Defensoria Pública para o mandado de injunção coletivo, quando a tutela for especialmente relevante para a promoção dos direitos humanos e a defesa dos direitos individuais e coletivos dos necessitados. Também são legitimados o MP, os partidos com representação no Congresso e as entidades sindicais e associações com pelo menos um ano de funcionamento.",
+        "E": "O art. 9º, § 3º, dispõe que o indeferimento do pedido por insuficiência de prova não impede a renovação da impetração fundada em outros elementos probatórios."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.300/2016, arts. 8º, 9º, 11 e 12", "data": "2016-06-23" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, LXXI", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0011",
+      "tema": "Estatuto da Pessoa com Deficiência – capacidade e curatela",
+      "enunciado": "De acordo com a Lei nº 13.146/2015 (Lei Brasileira de Inclusão da Pessoa com Deficiência – Estatuto da Pessoa com Deficiência), assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A avaliação da deficiência, quando necessária, será exclusivamente médica, realizada por perito único designado pelo Poder Executivo.",
+        "B": "A curatela afetará tão somente os atos relacionados aos direitos de natureza patrimonial e negocial, não alcançando o direito ao próprio corpo, à sexualidade, ao matrimônio, à privacidade, à educação, à saúde, ao trabalho e ao voto.",
+        "C": "A pessoa com deficiência está obrigada à fruição dos benefícios decorrentes de ação afirmativa instituídos em seu favor.",
+        "D": "A deficiência afeta a capacidade civil da pessoa para casar-se, ato que depende de autorização judicial ou do curador.",
+        "E": "A curatela da pessoa com deficiência é medida protetiva ordinária e, uma vez definida, vigora por prazo indeterminado."
+      },
+      "correta": "B",
+      "dica": "O Estatuto parte da capacidade plena e trata a curatela como exceção. Veja qual alternativa preserva a autonomia da pessoa nos atos existenciais.",
+      "explicacao": {
+        "B": "Correta. É a soma do art. 85, caput e § 1º, da Lei 13.146/2015. A curatela passou a ser restrita ao campo patrimonial e negocial; os atos existenciais (corpo, sexualidade, casamento, privacidade, educação, saúde, trabalho e voto) ficam com a própria pessoa.",
+        "A": "O art. 2º, § 1º, determina que a avaliação da deficiência, quando necessária, será biopsicossocial, realizada por equipe multiprofissional e interdisciplinar, considerando impedimentos do corpo, fatores socioambientais, psicológicos e pessoais, limitação de atividades e restrição de participação.",
+        "C": "O art. 4º, § 2º, diz o oposto: a pessoa com deficiência não está obrigada à fruição de benefícios decorrentes de ação afirmativa.",
+        "D": "O art. 6º, I, afirma que a deficiência não afeta a plena capacidade civil da pessoa, inclusive para casar-se e constituir união estável. E o art. 85, § 1º, exclui o matrimônio do alcance da curatela.",
+        "E": "O art. 84, § 3º, define a curatela como medida protetiva extraordinária, proporcional às necessidades e às circunstâncias de cada caso, que durará o menor tempo possível. O art. 85, § 2º, exige que a sentença exponha as razões de sua definição."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.146/2015, arts. 2º, § 1º, 4º, § 2º, 6º, 84 e 85", "data": "2015-07-06" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0012",
+      "tema": "Estatuto da Pessoa Idosa (Lei 10.741/2003)",
+      "enunciado": "Com base na Lei nº 10.741/2003 (Estatuto da Pessoa Idosa), na redação vigente, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Estatuto destina-se a regular os direitos assegurados às pessoas com idade igual ou superior a 65 anos.",
+        "B": "Aos maiores de 60 anos é assegurada a gratuidade dos transportes coletivos públicos urbanos e semiurbanos, inclusive nos serviços seletivos e especiais.",
+        "C": "Às pessoas idosas a partir de 60 anos que não possuam meios de prover a própria subsistência, nem de tê-la provida por sua família, é assegurado o benefício mensal de um salário mínimo, nos termos da Loas.",
+        "D": "A prioridade na tramitação dos processos judiciais cessa com a morte do beneficiado, não se estendendo ao cônjuge ou companheiro sobrevivente.",
+        "E": "Entre as pessoas idosas, é assegurada prioridade especial aos maiores de 80 anos, atendendo-se suas necessidades sempre preferencialmente em relação às demais pessoas idosas."
+      },
+      "correta": "E",
+      "dica": "O Estatuto trabalha com três idades diferentes: a que define quem é pessoa idosa, a que dá acesso a alguns benefícios específicos e a que dá prioridade dentro da prioridade.",
+      "explicacao": {
+        "E": "Correta. É o art. 3º, § 2º, do Estatuto, na redação da Lei 14.423/2022. A mesma lógica vale para os processos: entre os de pessoas idosas, os dos maiores de 80 anos têm prioridade especial (art. 71, § 5º).",
+        "A": "O art. 1º fixa a idade em 60 anos: o Estatuto regula os direitos das pessoas com idade igual ou superior a 60 anos. A idade de 65 anos aparece em direitos específicos, como a gratuidade no transporte urbano e o benefício assistencial.",
+        "B": "O art. 39 assegura a gratuidade aos maiores de 65 anos (e não de 60), e excetua os serviços seletivos e especiais quando prestados paralelamente aos serviços regulares. A CF diz o mesmo no art. 230, § 2º.",
+        "C": "O art. 34 assegura o benefício de um salário mínimo às pessoas idosas a partir de 65 anos que não possuam meios de prover a subsistência nem de tê-la provida pela família. A idade de 60 anos não basta.",
+        "D": "O art. 71, § 2º, dispõe que a prioridade não cessará com a morte do beneficiado, estendendo-se em favor do cônjuge supérstite, companheiro ou companheira, com união estável, maior de 60 anos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.741/2003, arts. 1º, 3º, § 2º, 34, 39 e 71 (redação da Lei 14.423/2022)", "data": "2022-07-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

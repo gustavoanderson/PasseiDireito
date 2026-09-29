@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-09",
+    "titulo": "Administração tributária, dívida ativa, certidões e garantias",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "trib-0028",
+      "tema": "Sigilo fiscal (art. 198 do CTN)",
+      "enunciado": "Com base no art. 198 do Código Tributário Nacional, assinale a alternativa correta sobre o sigilo fiscal.",
+      "alternativas": {
+        "A": "A autoridade administrativa de outro órgão pode obter informação protegida por sigilo fiscal mediante simples solicitação, independentemente da instauração de processo administrativo.",
+        "B": "O intercâmbio de informação sigilosa no âmbito da Administração Pública pode ser feito por qualquer meio, dispensado o recibo.",
+        "C": "É vedada a divulgação de informações relativas a representações fiscais para fins penais.",
+        "D": "Não é vedada a divulgação de informações relativas a inscrições na Dívida Ativa da Fazenda Pública e a parcelamento ou moratória.",
+        "E": "A administração tributária não pode requisitar informações cadastrais e patrimoniais do sujeito passivo a entidades privadas que operem cadastros e registros."
+      },
+      "correta": "D",
+      "dica": "O § 3º do art. 198 enumera o que pode ser divulgado. O § 1º, II, e o § 2º impõem formalidades para o compartilhamento entre órgãos.",
+      "explicacao": {
+        "D": "Correta. É o art. 198, § 3º, II e III, do CTN: não é vedada a divulgação de informações relativas a inscrições na Dívida Ativa e a parcelamento ou moratória.",
+        "A": "O § 1º, II, do art. 198 exige que seja comprovada a instauração regular de processo administrativo no órgão solicitante, com o objetivo de investigar o sujeito passivo por prática de infração administrativa.",
+        "B": "O § 2º do art. 198 exige processo regularmente instaurado e entrega pessoal à autoridade solicitante, mediante recibo que formalize a transferência e assegure a preservação do sigilo.",
+        "C": "O § 3º, I, do art. 198 diz o contrário: não é vedada a divulgação de informações relativas a representações fiscais para fins penais.",
+        "E": "O § 4º do art. 198 (incluído pela LC 208/2024) autoriza a administração tributária a requisitar informações cadastrais e patrimoniais a órgãos ou entidades, públicos ou privados, que operem cadastros e registros ou controlem operações de bens e direitos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, art. 198 (LCs 104/2001, 187/2021 e 208/2024)", "data": "2024-12-02" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0029",
+      "tema": "Fraude à execução fiscal, indisponibilidade e preferências",
+      "enunciado": "Considere as afirmativas abaixo, com base nos arts. 185, 185-A e 186 do Código Tributário Nacional.\n\nI. Presume-se fraudulenta a alienação ou oneração de bens ou rendas, ou seu começo, por sujeito passivo em débito para com a Fazenda Pública, por crédito tributário regularmente inscrito como dívida ativa.\nII. A presunção de fraude não se aplica se o devedor tiver reservado bens ou rendas suficientes ao total pagamento da dívida inscrita.\nIII. A indisponibilidade de bens decretada com base no art. 185-A pode alcançar todos os bens do devedor, sem limitação ao valor total exigível.\nIV. O crédito tributário prefere a qualquer outro, inclusive aos créditos decorrentes da legislação do trabalho.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "O § 1º do art. 185-A impõe um teto à indisponibilidade, e o art. 186 tem uma ressalva logo no caput.",
+      "explicacao": {
+        "A": "Correta. I é o caput do art. 185 (redação da LC 118/2005): o marco é a inscrição em dívida ativa. II é o parágrafo único do art. 185. As afirmativas III e IV estão erradas.",
+        "B": "A III está errada: o § 1º do art. 185-A limita a indisponibilidade ao valor total exigível e manda o juiz levantar imediatamente a indisponibilidade dos bens ou valores que excederem esse limite.",
+        "C": "A IV está errada: o art. 186 ressalva os créditos decorrentes da legislação do trabalho ou do acidente de trabalho. Além disso, a alternativa deixa de fora a afirmativa I, que é correta.",
+        "D": "As duas afirmativas estão erradas: a indisponibilidade limita-se ao valor exigível (art. 185-A, § 1º) e o crédito tributário não prefere aos créditos trabalhistas e de acidente de trabalho (art. 186, caput).",
+        "E": "As afirmativas III e IV estão erradas. O art. 185-A, § 1º, limita a indisponibilidade ao valor total exigível, e o art. 186 ressalva os créditos trabalhistas e de acidente do trabalho."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN, arts. 185, 185-A e 186 (LC 118/2005)", "data": "2005-02-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0030",
+      "tema": "Certidões negativas e positivas com efeito de negativa",
+      "enunciado": "Com base nos arts. 193 e 206 a 208 do Código Tributário Nacional e na Súmula 446 do STJ, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Salvo autorização legal, o órgão público só pode contratar com quem prove a quitação de todos os tributos devidos a qualquer ente da Federação, ainda que não relacionados à atividade objeto do contrato.",
+        "B": "A dispensa da prova de quitação de tributos para a prática de ato indispensável para evitar a caducidade de direito depende de disposição legal permissiva.",
+        "C": "Tem os mesmos efeitos da certidão negativa a certidão de que conste a existência de créditos não vencidos, em curso de cobrança executiva em que tenha sido efetivada a penhora, ou cuja exigibilidade esteja suspensa.",
+        "D": "O funcionário que expedir, com dolo ou fraude, certidão negativa que contenha erro contra a Fazenda Pública responde apenas nas esferas funcional e criminal, não pelo crédito tributário.",
+        "E": "Declarado e não pago o débito tributário pelo contribuinte, é ilegítima a recusa de expedição de certidão negativa, porque o crédito ainda não foi lançado pelo Fisco."
+      },
+      "correta": "C",
+      "dica": "Pense na certidão positiva com efeito de negativa: o art. 206 lista três situações em que há débito, mas ele não impede a certidão.",
+      "explicacao": {
+        "C": "Correta. É o art. 206 do CTN: tem os mesmos efeitos da certidão negativa a certidão que aponte créditos não vencidos, em curso de cobrança executiva com penhora efetivada, ou com exigibilidade suspensa.",
+        "A": "O art. 193 do CTN exige prova da quitação de todos os tributos devidos à Fazenda Pública interessada, relativos à atividade em cujo exercício o particular contrata ou concorre. Não se estende a tributos de outros entes nem a atividades estranhas ao contrato.",
+        "B": "O art. 207 diz que, independentemente de disposição legal permissiva, será dispensada a prova de quitação quando se tratar de ato indispensável para evitar a caducidade de direito, respondendo os participantes pelo tributo eventualmente devido.",
+        "D": "O art. 208 responsabiliza pessoalmente o funcionário pelo crédito tributário e juros de mora acrescidos, e o parágrafo único acrescenta que isso não exclui a responsabilidade criminal e funcional.",
+        "E": "A Súmula 446 do STJ diz o contrário: declarado e não pago o débito, é legítima a recusa de expedição de certidão negativa ou positiva com efeito de negativa. A declaração do contribuinte já constitui o crédito (Súmula 436)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 193 e 206 a 208", "data": "1966-10-25" },
+        { "tipo": "sumula", "referencia": "STJ, Súmula 446", "data": "2010-04-28" },
+        { "tipo": "sumula", "referencia": "STJ, Súmula 436", "data": "2010-04-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

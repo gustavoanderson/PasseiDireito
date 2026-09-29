@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-07",
+    "titulo": "Funções essenciais à Justiça e a PGM de Curitiba",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "const-0019",
+      "tema": "Procuradoria-Geral do Município na Lei Orgânica de Curitiba",
+      "enunciado": "De acordo com o art. 74 da Lei Orgânica do Município de Curitiba, com a redação vigente (Emenda à Lei Orgânica nº 24/2024), assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Compete exclusivamente à Procuradoria-Geral do Município, além de outras competências estabelecidas em lei, a cobrança judicial e extrajudicial da dívida ativa do Município.",
+        "B": "O cargo de Procurador-Geral do Município é de livre nomeação do Prefeito, obrigatoriamente dentre os integrantes da carreira, com prerrogativas de Secretário Municipal.",
+        "C": "O ingresso na carreira de Procurador do Município depende de concurso público de provas, assegurada a participação da Ordem dos Advogados do Brasil na fase de homologação.",
+        "D": "As atribuições da Procuradoria-Geral podem ser exercidas por servidores de outras carreiras jurídicas do Município, mediante designação do Prefeito.",
+        "E": "A atuação da Procuradoria-Geral no controle interno da legalidade dos atos do Poder Executivo é facultativa, dependendo de solicitação do Secretário interessado."
+      },
+      "correta": "A",
+      "dica": "O art. 74 tem cinco parágrafos, e quase todos usam palavras fortes: \"exclusivamente\", \"obrigatoriamente\", \"vedada\". A exceção é o § 1º, que usa um advérbio mais brando.",
+      "explicacao": {
+        "A": "Correta. É o § 4º do art. 74 da LOM: além de outras competências estabelecidas em lei, compete exclusivamente à Procuradoria-Geral do Município a cobrança judicial e extrajudicial da dívida ativa do Município.",
+        "B": "O § 1º do art. 74 diz que o Procurador-Geral é de livre nomeação do Prefeito, preferencialmente (e não obrigatoriamente) dentre os integrantes da carreira. Os demais cargos de direção, esses sim, são privativos de Procuradores do Município. A mesma regra está no art. 28 da Lei 16.200/2023.",
+        "C": "O § 2º do art. 74 exige concurso público de provas e títulos, realizado pela PGM, assegurada a participação da OAB em todas as suas fases, e não só na homologação. A fórmula repete a do art. 132 da CF para os Procuradores dos Estados.",
+        "D": "O § 5º do art. 74 veda exatamente isso: o exercício das atribuições da PGM é exclusivo dos Procuradores integrantes da carreira, sendo vedada a realização de suas atribuições por terceiros, servidores ou não.",
+        "E": "O § 3º do art. 74 diz que a Procuradoria-Geral atuará obrigatoriamente no controle interno da legalidade dos atos do Poder Executivo e exercerá a defesa dos interesses do Município, incluídos os de natureza financeiro-orçamentária."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 74 (caput com redação da Emenda à LOM 24/2024)", "data": "2024-11-27" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, art. 28", "data": "2023-08-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0020",
+      "tema": "Carreira de Procurador do Município de Curitiba (Lei 16.200/2023)",
+      "enunciado": "A Lei Municipal nº 16.200/2023 instituiu o Plano de Carreira dos Procuradores do Município de Curitiba. Com base nessa lei, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O concurso público compõe-se de prova escrita e de prova de títulos, ambas de caráter eliminatório.",
+        "B": "O ingresso no cargo de Procurador do Município pode ocorrer por aproveitamento de servidor titular de outro cargo jurídico da Administração Municipal.",
+        "C": "É permitida a inscrição no concurso de bacharel não inscrito na Ordem dos Advogados do Brasil – Seção do Paraná, ficando a posse no cargo condicionada à prova de inscrição no referido órgão.",
+        "D": "A Lei nº 11.001/2004 continua em vigor e aplica-se subsidiariamente à carreira naquilo que a nova lei não disciplinar.",
+        "E": "A jornada de trabalho do Procurador do Município é de 30 horas semanais."
+      },
+      "correta": "C",
+      "dica": "A lei separa dois momentos: a inscrição no concurso e a posse. O registro na OAB é exigido em apenas um deles.",
+      "explicacao": {
+        "C": "Correta. É o § 9º do art. 4º da Lei 16.200/2023. O art. 7º, parágrafo único, completa: o registro na OAB/PR é requisito para a nomeação e posse, além do bacharelado em Direito. Não é exigido na inscrição.",
+        "A": "Pelo art. 4º, a prova escrita tem caráter eliminatório (inciso I), mas a prova de títulos tem caráter classificatório (inciso II).",
+        "B": "O art. 8º veda o ingresso no cargo por transformação, transferência, aproveitamento ou qualquer outro meio de provimento que não o previsto na lei, isto é, o concurso público de provas e títulos (art. 6º).",
+        "D": "A Lei 11.001/2004 foi substituída (art. 1º) e expressamente revogada pelo art. 38, I, da Lei 16.200/2023, com as alterações das Leis 11.875/2006, 14.411/2014 e 14.583/2014. A lei que se aplica subsidiariamente à carreira é o Estatuto da Advocacia, a Lei federal 8.906/1994 (art. 37).",
+        "E": "O art. 6º, § 1º, fixa a jornada do Procurador Municipal em 40 horas semanais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, arts. 4º, 6º, 7º, 8º, 37 e 38", "data": "2023-08-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0021",
+      "tema": "Advocacia Pública e Ministério Público na Constituição",
+      "enunciado": "Sobre as funções essenciais à Justiça na Constituição Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O Advogado-Geral da União é nomeado pelo Presidente da República dentre integrantes da carreira maiores de trinta e cinco anos, após aprovação pelo Senado Federal.",
+        "B": "Na execução da dívida ativa de natureza tributária, a representação da União cabe diretamente ao Advogado-Geral da União, vedada a atuação de órgão vinculado.",
+        "C": "O Ministério Público pode exercer a representação judicial e a consultoria jurídica de entidades públicas, quando o ente não dispuser de advocacia pública organizada.",
+        "D": "Os Procuradores-Gerais de Justiça dos Estados são nomeados pelo Chefe do Poder Executivo, a partir de lista tríplice, para mandato de dois anos, permitidas reconduções sucessivas.",
+        "E": "Os Procuradores dos Estados e do Distrito Federal ingressam na carreira por concurso público de provas e títulos, com participação da OAB em todas as fases, e adquirem estabilidade após três anos de efetivo exercício, mediante avaliação de desempenho perante os órgãos próprios, após relatório circunstanciado das corregedorias."
+      },
+      "correta": "E",
+      "dica": "Compare a escolha do chefe da AGU com a do chefe do Ministério Público: uma exige carreira e aprovação externa, a outra não. E confira quantas reconduções o art. 128 admite.",
+      "explicacao": {
+        "E": "Correta. É o art. 132 da CF (redação da EC 19/1998), caput e parágrafo único. A Lei Orgânica de Curitiba reproduz a fórmula do concurso, com OAB em todas as fases, para os Procuradores do Município (art. 74, § 2º).",
+        "A": "O art. 131, § 1º, diz que o Advogado-Geral da União é de livre nomeação pelo Presidente da República dentre cidadãos maiores de trinta e cinco anos, de notável saber jurídico e reputação ilibada. Não precisa ser da carreira nem passar pelo Senado. Quem exige carreira e aprovação do Senado é o art. 128, § 1º, para o Procurador-Geral da República.",
+        "B": "O art. 131, § 3º, atribui a representação da União na execução da dívida ativa de natureza tributária à Procuradoria-Geral da Fazenda Nacional, observado o disposto em lei. O próprio caput admite a atuação da AGU diretamente ou através de órgão vinculado.",
+        "C": "O art. 129, IX, permite ao MP outras funções compatíveis com sua finalidade, mas lhe veda expressamente a representação judicial e a consultoria jurídica de entidades públicas. Não há exceção para ente sem procuradoria.",
+        "D": "O art. 128, § 3º, prevê lista tríplice, nomeação pelo Chefe do Executivo e mandato de dois anos, mas permite uma única recondução. Reconduções sucessivas não são admitidas."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 128, §§ 1º e 3º, 129, IX, 131 e 132 (EC 19/1998)", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

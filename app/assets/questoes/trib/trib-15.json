@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-15",
+    "titulo": "Responsabilidade fiscal (LC 101/2000)",
+    "itemEdital": 15
+  },
+  "questoes": [
+    {
+      "id": "trib-0042",
+      "tema": "Despesa com pessoal – limites e recondução",
+      "enunciado": "Com base nos arts. 19, 20, 22 e 23 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), assinale a alternativa correta quanto aos Municípios.",
+      "alternativas": {
+        "A": "A despesa total com pessoal do Município não pode exceder 50% da receita corrente líquida.",
+        "B": "Na esfera municipal, o limite do Poder Legislativo, incluído o Tribunal de Contas do Município quando houver, é de 3% da receita corrente líquida.",
+        "C": "A verificação do cumprimento dos limites de despesa com pessoal é realizada ao final de cada semestre.",
+        "D": "Ultrapassado o limite, o percentual excedente terá de ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro.",
+        "E": "As vedações do parágrafo único do art. 22, como a criação de cargos, aplicam-se quando a despesa total com pessoal exceder 90% do limite."
+      },
+      "correta": "D",
+      "dica": "Municípios: 60% no total, repartidos em 6% e 54%. O controle é quadrimestral, o alerta prudencial é de 95% e a recondução tem prazo e fração mínima.",
+      "explicacao": {
+        "D": "Correta. É o caput do art. 23 da LRF: o percentual excedente terá de ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro, adotando-se, entre outras, as providências do art. 169, §§ 3º e 4º, da CF.",
+        "A": "O art. 19, III, fixa para os Municípios o limite de 60% da receita corrente líquida. O de 50% é o da União (inciso I).",
+        "B": "O art. 20, III, reparte o limite municipal em 6% para o Legislativo, incluído o Tribunal de Contas do Município quando houver, e 54% para o Executivo. O de 3% é o do Legislativo estadual.",
+        "C": "O art. 22 manda verificar o cumprimento dos limites ao final de cada quadrimestre.",
+        "E": "O parágrafo único do art. 22 aplica as vedações (vantagens, criação de cargo, alteração de carreira, provimento, hora extra) quando a despesa exceder 95% do limite, e não 90%."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 101/2000, arts. 19, 20, 22 e 23", "data": "2000-05-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0043",
+      "tema": "Final de mandato e arrecadação própria",
+      "enunciado": "Com base nos arts. 11, 21 e 42 da Lei Complementar nº 101/2000, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É vedada a realização de transferências voluntárias para o ente que não institua, preveja e arrecade efetivamente as taxas de sua competência.",
+        "B": "É nulo de pleno direito o ato de que resulte aumento da despesa com pessoal nos 90 dias anteriores ao final do mandato do titular de Poder ou órgão.",
+        "C": "Na determinação da disponibilidade de caixa para os fins do art. 42, não são considerados os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "D": "A vedação do art. 42 aplica-se durante todo o último ano do mandato do titular de Poder ou órgão.",
+        "E": "É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito."
+      },
+      "correta": "E",
+      "dica": "Três prazos parecidos: os últimos dois quadrimestres (art. 42), os 180 dias do art. 21 e nenhum prazo para o dever de arrecadar do art. 11.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 42 da LRF. O parágrafo único completa: na determinação da disponibilidade de caixa, consideram-se os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "A": "O parágrafo único do art. 11 veda as transferências voluntárias para o ente que não observe o caput no que se refere aos impostos, e não às taxas.",
+        "B": "O art. 21, II (redação da LC 173/2020), fulmina de nulidade o ato que aumente a despesa com pessoal nos 180 dias anteriores ao final do mandato, e não 90.",
+        "C": "O parágrafo único do art. 42 diz o contrário: na determinação da disponibilidade de caixa serão considerados os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "D": "O art. 42 fala nos últimos dois quadrimestres do mandato (de maio a dezembro do último ano), e não em todo o último ano."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 101/2000, arts. 11, 21 (LC 173/2020) e 42", "data": "2020-05-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

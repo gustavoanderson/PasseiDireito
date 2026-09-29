@@ -1,0 +1,90 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-05",
+    "titulo": "IPTU",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "trib-0016",
+      "tema": "IPTU – zona urbana e base de cálculo",
+      "enunciado": "Com base nos arts. 32 e 33 do Código Tributário Nacional e na Súmula 626 do STJ, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Para fins de IPTU, a zona urbana deve contar com pelo menos três dos melhoramentos enumerados no § 1º do art. 32 do CTN, construídos ou mantidos pelo Poder Público.",
+        "B": "Entre os melhoramentos que caracterizam a zona urbana está a escola primária ou o posto de saúde a uma distância máxima de cinco quilômetros do imóvel.",
+        "C": "A zona urbana, para fins de IPTU, é definida em lei federal, cabendo ao Município apenas aplicar os critérios dela constantes.",
+        "D": "A lei municipal pode considerar urbanas as áreas urbanizáveis ou de expansão urbana constantes de loteamentos aprovados, e a incidência do IPTU nessas áreas não está condicionada à existência dos melhoramentos do § 1º do art. 32 do CTN.",
+        "E": "Na determinação da base de cálculo do IPTU, inclui-se o valor dos bens móveis mantidos em caráter permanente no imóvel para sua utilização ou aformoseamento."
+      },
+      "correta": "D",
+      "dica": "O § 1º do art. 32 traz um requisito mínimo e o § 2º uma possibilidade de ampliação. O STJ sumulou a relação entre os dois.",
+      "explicacao": {
+        "D": "Correta. É o § 2º do art. 32 do CTN (áreas urbanizáveis ou de expansão urbana em loteamentos aprovados) somado à Súmula 626 do STJ: nessas áreas, a incidência do IPTU não está condicionada aos melhoramentos do § 1º.",
+        "A": "O § 1º do art. 32 exige melhoramentos em pelo menos dois dos incisos, e não três: meio-fio ou calçamento com canalização pluvial, abastecimento de água, esgoto, iluminação pública, escola primária ou posto de saúde.",
+        "B": "O inciso V do § 1º do art. 32 fala em escola primária ou posto de saúde a uma distância máxima de três quilômetros do imóvel.",
+        "C": "O § 1º do art. 32 diz que a zona urbana é a definida em lei municipal, observado o requisito mínimo de melhoramentos previsto no próprio CTN.",
+        "E": "O parágrafo único do art. 33 diz o contrário: não se considera o valor dos bens móveis mantidos, em caráter permanente ou temporário, no imóvel, para efeito de sua utilização, exploração, aformoseamento ou comodidade. A base é o valor venal do imóvel."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 32 e 33", "data": "1966-10-25" },
+        { "tipo": "sumula", "referencia": "STJ, Súmula 626", "data": "2018-12-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0017",
+      "tema": "IPTU – progressividade, alíquotas e atualização da base",
+      "enunciado": "Com base no art. 156, § 1º, e no art. 150, § 1º, da Constituição Federal, e no art. 34 do CTN, assinale a alternativa correta sobre o IPTU.",
+      "alternativas": {
+        "A": "Sem prejuízo da progressividade no tempo prevista no art. 182, § 4º, II, da Constituição, o IPTU pode ser progressivo em razão do valor do imóvel e ter alíquotas diferentes de acordo com a localização e o uso do imóvel.",
+        "B": "O IPTU só admite progressividade no tempo, como sanção ao imóvel não edificado, subutilizado ou não utilizado.",
+        "C": "A Constituição veda a fixação de alíquotas diferentes do IPTU em razão do uso do imóvel, por ofensa à isonomia.",
+        "D": "A lei que fixa a base de cálculo do IPTU somente produz efeitos após noventa dias de sua publicação, por força da anterioridade nonagesimal.",
+        "E": "Contribuinte do IPTU é apenas o proprietário do imóvel, não podendo a lei eleger o possuidor ou o titular do domínio útil."
+      },
+      "correta": "A",
+      "dica": "Desde a EC 29/2000 o § 1º do art. 156 tem incisos específicos sobre valor, localização e uso. E o § 1º do art. 150 tem uma regra própria para a base de cálculo do IPTU.",
+      "explicacao": {
+        "A": "Correta. É o art. 156, § 1º, I e II, da CF (EC 29/2000): sem prejuízo da progressividade no tempo do art. 182, § 4º, II, o IPTU pode ser progressivo em razão do valor do imóvel e ter alíquotas diferentes de acordo com a localização e o uso.",
+        "B": "Além da progressividade no tempo (art. 182, § 4º, II), a Constituição admite expressamente a progressividade fiscal em razão do valor do imóvel (art. 156, § 1º, I).",
+        "C": "O art. 156, § 1º, II, autoriza expressamente alíquotas diferentes de acordo com a localização e o uso do imóvel.",
+        "D": "O § 1º do art. 150 exclui da noventena (art. 150, III, c) a fixação da base de cálculo do IPTU (art. 156, I). Continua valendo a anterioridade do exercício. Além disso, a EC 132/2023 incluiu o inciso III no § 1º do art. 156: a base pode ser atualizada pelo Poder Executivo, conforme critérios estabelecidos em lei municipal.",
+        "E": "O art. 34 do CTN diz que contribuinte do IPTU é o proprietário, o titular do domínio útil ou o possuidor a qualquer título."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 156, § 1º (EC 29/2000 e EC 132/2023), e art. 150, § 1º", "data": "2023-12-20" },
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), art. 34", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0018",
+      "tema": "IPTU – sujeito passivo, lançamento e sucessão",
+      "enunciado": "Considere as afirmativas abaixo sobre o IPTU.\n\nI. O contribuinte do IPTU é notificado do lançamento pelo envio do carnê ao seu endereço.\nII. Cabe à legislação municipal estabelecer o sujeito passivo do IPTU.\nIII. O locatário tem legitimidade para repetir o indébito de IPTU quando o contrato de locação lhe transferir o encargo de pagar o imposto.\nIV. Os créditos de IPTU sub-rogam-se na pessoa do adquirente do imóvel, salvo quando conste do título a prova de sua quitação; na arrematação em hasta pública, a sub-rogação ocorre sobre o respectivo preço.\n\nCom base nas Súmulas 397, 399 e 614 do STJ e no art. 130 do CTN, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Lembre o art. 123 do CTN: acordos entre particulares sobre quem paga o tributo não mudam o sujeito passivo. O STJ sumulou a consequência disso para o inquilino.",
+      "explicacao": {
+        "B": "Correta. I reproduz a Súmula 397 do STJ; II, a Súmula 399; IV, o art. 130, caput e parágrafo único, do CTN. A III está errada: pela Súmula 614, o locatário não possui legitimidade ativa para discutir a relação jurídico-tributária de IPTU nem para repetir o indébito.",
+        "A": "Deixa de fora a afirmativa IV, que é a transcrição do art. 130 do CTN: sub-rogação na pessoa do adquirente, salvo prova de quitação no título, e sub-rogação sobre o preço na arrematação em hasta pública.",
+        "C": "Inclui a III, contrária à Súmula 614 do STJ (o locatário não tem legitimidade para repetir indébito de IPTU, ainda que pague o imposto por força do contrato), e exclui a I, que é a Súmula 397.",
+        "D": "A III está errada (Súmula 614 do STJ), e a alternativa exclui as afirmativas I e II, que reproduzem as Súmulas 397 e 399 do STJ.",
+        "E": "A afirmativa III contraria a Súmula 614 do STJ. A cláusula contratual que transfere ao inquilino o pagamento do IPTU não o torna sujeito passivo (art. 123 do CTN)."
+      },
+      "fontes": [
+        { "tipo": "sumula", "referencia": "STJ, Súmulas 397 e 399", "data": "2009-09-23" },
+        { "tipo": "sumula", "referencia": "STJ, Súmula 614", "data": "2018-05-09" },
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 123 e 130", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
