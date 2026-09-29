@@ -10,7 +10,7 @@
     {
       "id": "trib-0044",
       "tema": "Precatórios – inclusão orçamentária e limite de pagamento (EC 136/2025)",
-      "enunciado": "Com base no art. 100 da Constituição Federal, na redação dada pela Emenda Constitucional nº 136/2025, assinale a alternativa correta.",
+      "enunciado": "Com base no art. 100 da Constituição Federal, na redação dada pela Emenda Constitucional nº 136/2025, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 2 de abril, fazendo-se o pagamento até o final do exercício seguinte.",
         "B": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de julho, fazendo-se o pagamento no mesmo exercício.",
@@ -22,8 +22,8 @@
       "dica": "A EC 136/2025 antecipou a data de corte do § 5º e criou, nos §§ 23 a 30, um teto de pagamento para Estados, DF e Municípios, que pode ser superado em certas condições.",
       "explicacao": {
         "E": "Correta. É o § 5º do art. 100 na redação da EC 136/2025: a data de apresentação para inclusão obrigatória no orçamento passou a ser 1º de fevereiro, com pagamento até o final do exercício seguinte e atualização monetária.",
-        "A": "A data de 2 de abril era a da redação anterior do § 5º (EC 114/2021). A EC 136/2025 a alterou para 1º de fevereiro.",
-        "B": "O § 5º fixa 1º de fevereiro como data de apresentação e o final do exercício seguinte como prazo de pagamento. A data de 1º de julho é da redação original, anterior às emendas.",
+        "A": "Na redação dada pela EC 136/2025, o § 5º do art. 100 fixa como data de apresentação 1º de fevereiro, e não 2 de abril. A emenda antecipou o marco de inclusão orçamentária; decore a data vigente.",
+        "B": "O § 5º fixa 1º de fevereiro como data de apresentação e o final do exercício seguinte, e não o mesmo exercício, como prazo de pagamento dos precatórios incluídos no orçamento.",
         "C": "O § 23, I, limita os pagamentos a 1% da receita corrente líquida do exercício anterior para os entes sem estoque ou com estoque em mora de até 15% dessa receita. Os percentuais sobem em faixas de 0,5 ponto até 5% (incisos II a IX).",
         "D": "O § 28 do art. 100 autoriza Estados, DF e Municípios a efetuar pagamentos de precatórios que superem os limites do § 23, mediante dotação orçamentária específica."
       },
@@ -35,7 +35,7 @@
     {
       "id": "trib-0045",
       "tema": "Obrigações de pequeno valor, preferências e cessão de precatórios",
-      "enunciado": "Com base no art. 100 da Constituição Federal, assinale a alternativa correta.",
+      "enunciado": "Com base no art. 100 da Constituição Federal, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Os entes podem fixar, por leis próprias, valores distintos para as obrigações de pequeno valor, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do regime geral de previdência social.",
         "B": "Admite-se o fracionamento do valor da execução para que parte do crédito seja paga como obrigação de pequeno valor e o restante por precatório.",

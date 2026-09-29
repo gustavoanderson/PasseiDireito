@@ -10,7 +10,7 @@
     {
       "id": "trib-0006",
       "tema": "Solidariedade e capacidade tributária",
-      "enunciado": "Com base nos arts. 123 a 126 do Código Tributário Nacional, assinale a alternativa correta.",
+      "enunciado": "Com base nos arts. 123 a 126 do Código Tributário Nacional, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Salvo disposição de lei em contrário, a isenção outorgada pessoalmente a um dos obrigados solidários exonera todos os demais.",
         "B": "A solidariedade tributária não comporta benefício de ordem e, salvo disposição de lei em contrário, a interrupção da prescrição em favor ou contra um dos obrigados favorece ou prejudica aos demais.",
@@ -28,9 +28,15 @@
         "E": "O art. 126, III, diz que a capacidade tributária passiva independe de estar a pessoa jurídica regularmente constituída, bastando que configure uma unidade econômica ou profissional."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 123 a 126", "data": "1966-10-25" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 123 a 126",
+          "data": "1966-10-25"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0007",
@@ -53,14 +59,20 @@
         "E": "O art. 133 abrange os tributos relativos ao fundo ou estabelecimento devidos até a data do ato, e o art. 129 estende a regra aos créditos constituídos, em curso de constituição ou constituídos depois, desde que relativos a obrigações surgidas até aquela data. Não há restrição aos inscritos em dívida ativa."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 129 e 133 (LC 118/2005)", "data": "2005-02-09" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 129 e 133 (LC 118/2005)",
+          "data": "2005-02-09"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0008",
       "tema": "Responsabilidade de terceiros e redirecionamento",
-      "enunciado": "Considere as afirmativas abaixo sobre a responsabilidade tributária de terceiros, com base nos arts. 134 e 135 do CTN e nas Súmulas 430 e 435 do STJ.\n\nI. O inadimplemento da obrigação tributária pela sociedade não gera, por si só, a responsabilidade solidária do sócio-gerente.\nII. Presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, o que legitima o redirecionamento da execução fiscal para o sócio-gerente.\nIII. Na responsabilidade do art. 134 do CTN, os terceiros respondem por todas as penalidades, inclusive as de caráter punitivo.\nIV. Os diretores, gerentes ou representantes de pessoas jurídicas de direito privado são pessoalmente responsáveis pelos créditos correspondentes a obrigações tributárias resultantes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos.\n\nAssinale a alternativa correta.",
+      "enunciado": "Considere as afirmativas abaixo sobre a responsabilidade tributária de terceiros, com base nos arts. 134 e 135 do CTN e nas Súmulas 430 e 435 do STJ.\n\nI. O inadimplemento da obrigação tributária pela sociedade não gera, por si só, a responsabilidade solidária do sócio-gerente.\nII. Presume-se dissolvida irregularmente a empresa que deixar de funcionar no seu domicílio fiscal, sem comunicação aos órgãos competentes, o que legitima o redirecionamento da execução fiscal para o sócio-gerente.\nIII. Na responsabilidade do art. 134 do CTN, os terceiros respondem por todas as penalidades, inclusive as de caráter punitivo.\nIV. Os diretores, gerentes ou representantes de pessoas jurídicas de direito privado são pessoalmente responsáveis pelos créditos correspondentes a obrigações tributárias resultantes de atos praticados com excesso de poderes ou infração de lei, contrato social ou estatutos.\n\nAssinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Somente as afirmativas I e II estão corretas.",
         "B": "Somente as afirmativas II e III estão corretas.",
@@ -78,16 +90,30 @@
         "E": "A afirmativa III está errada. O parágrafo único do art. 134 do CTN restringe a responsabilidade, em matéria de penalidades, às de caráter moratório; multas punitivas não se transferem por essa via."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 134 e 135", "data": "1966-10-25" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 430", "data": "2010-03-24" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 435", "data": "2010-04-14" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 134 e 135",
+          "data": "1966-10-25"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 430",
+          "data": "2010-03-24"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 435",
+          "data": "2010-04-14"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0009",
       "tema": "Decadência no lançamento por homologação (LC 236/2026)",
-      "enunciado": "Sobre a decadência do direito de constituir o crédito tributário, considerando os arts. 150 e 173 do CTN, com a redação dada pela Lei Complementar nº 236/2026, e as Súmulas 555 e 622 do STJ, assinale a alternativa correta.",
+      "enunciado": "Sobre a decadência do direito de constituir o crédito tributário, considerando os arts. 150 e 173 do CTN, com a redação dada pela Lei Complementar nº 236/2026, e as Súmulas 555 e 622 do STJ, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "No caso de pagamento parcial de tributo sujeito a lançamento por homologação, o prazo decadencial é contado da ocorrência do fato gerador.",
         "B": "Quando não houver declaração nem pagamento de tributo sujeito a lançamento por homologação, o prazo decadencial conta-se da ocorrência do fato gerador.",
@@ -105,11 +131,25 @@
         "E": "O art. 173, II, prevê o novo prazo apenas quando a decisão anular o lançamento por vício formal. A troca de formal por material é a pegadinha."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, art. 150, §§ 4º a 6º, e art. 173 (LC 236/2026)", "data": "2026-09-04" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 555", "data": "2015-12-09" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 622", "data": "2018-12-12" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 150, §§ 4º a 6º, e art. 173 (LC 236/2026)",
+          "data": "2026-09-04"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 555",
+          "data": "2015-12-09"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 622",
+          "data": "2018-12-12"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0010",
@@ -132,14 +172,20 @@
         "E": "Suspende. É o art. 151, X, incluído pela LC 236/2026, que alcança também a carta de fiança bancária e as garantias convencionadas por negócio jurídico processual."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, arts. 151, 156 e 164 (LC 236/2026)", "data": "2026-09-04" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 151, 156 e 164 (LC 236/2026)",
+          "data": "2026-09-04"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0011",
       "tema": "Prescrição da ação de cobrança (art. 174 do CTN, LC 236/2026)",
-      "enunciado": "Com base no art. 174 do Código Tributário Nacional, na redação dada pela Lei Complementar nº 236/2026, assinale a alternativa correta.",
+      "enunciado": "Com base no art. 174 do Código Tributário Nacional, na redação dada pela Lei Complementar nº 236/2026, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "A ação para a cobrança do crédito tributário prescreve em cinco anos, contados da ocorrência do fato gerador.",
         "B": "O protesto extrajudicial da certidão de dívida ativa interrompe a prescrição.",
@@ -157,14 +203,20 @@
         "E": "O art. 174, § 1º, V, incluído pela LC 236/2026, coloca a instauração do procedimento de mediação entre as causas de interrupção da prescrição."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, art. 174, caput e §§ 1º e 3º (LC 236/2026)", "data": "2026-09-04" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 174, caput e §§ 1º e 3º (LC 236/2026)",
+          "data": "2026-09-04"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0012",
       "tema": "Denúncia espontânea e responsabilidade por infrações",
-      "enunciado": "Acerca da responsabilidade por infrações e da denúncia espontânea, com base nos arts. 136 e 138 do CTN (redação da Lei Complementar nº 236/2026) e na Súmula 360 do STJ, assinale a alternativa correta.",
+      "enunciado": "Acerca da responsabilidade por infrações e da denúncia espontânea, com base nos arts. 136 e 138 do CTN (redação da Lei Complementar nº 236/2026) e na Súmula 360 do STJ, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Considera-se espontânea a denúncia apresentada após o início de medida de fiscalização relacionada com a infração, desde que antes da lavratura do auto de infração.",
         "B": "O benefício da denúncia espontânea aplica-se aos tributos sujeitos a lançamento por homologação regularmente declarados, mas pagos a destempo.",
@@ -182,11 +234,56 @@
         "D": "O art. 136 diz o oposto: salvo disposição de lei em contrário, a responsabilidade por infrações independe da intenção do agente ou do responsável e da efetividade, natureza e extensão dos efeitos do ato."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, arts. 136 e 138 (LC 236/2026)", "data": "2026-09-04" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 360", "data": "2008-08-27" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 436", "data": "2010-04-14" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 136 e 138 (LC 236/2026)",
+          "data": "2026-09-04"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 360",
+          "data": "2008-08-27"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 436",
+          "data": "2010-04-14"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0049",
+      "tema": "Exclusão do crédito tributário – isenção e anistia",
+      "enunciado": "Com base nos arts. 175 a 180 do Código Tributário Nacional, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a isenção, ainda quando prevista em contrato, é sempre decorrente de lei que especifique as condições e requisitos exigidos para a sua concessão.",
+        "B": "salvo disposição de lei em contrário, a isenção não é extensiva às taxas e às contribuições de melhoria, nem aos tributos instituídos posteriormente à sua concessão.",
+        "C": "a anistia abrange exclusivamente as infrações cometidas anteriormente à vigência da lei que a concede.",
+        "D": "a exclusão do crédito tributário não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal cujo crédito seja excluído, ou dela consequentes.",
+        "E": "a isenção concedida por prazo certo e em função de determinadas condições pode ser revogada ou modificada por lei a qualquer tempo, independentemente do prazo fixado."
+      },
+      "correta": "E",
+      "dica": "O art. 178 tem uma ressalva logo no início que protege quem cumpriu condições para obter um benefício com prazo.",
+      "explicacao": {
+        "E": "É a resposta. O art. 178 diz que a isenção pode ser revogada ou modificada por lei a qualquer tempo, salvo se concedida por prazo certo e em função de determinadas condições. A isenção condicionada e a prazo não pode ser suprimida antes do termo.",
+        "A": "Correto. É o caput do art. 176: a isenção, ainda quando prevista em contrato, decorre sempre de lei que especifique condições, requisitos, tributos alcançados e, sendo caso, o prazo.",
+        "B": "Correto. É o art. 177, I e II: salvo lei em contrário, a isenção não se estende às taxas e contribuições de melhoria nem aos tributos criados depois da sua concessão.",
+        "C": "Correto. É o caput do art. 180. A anistia não alcança atos qualificados como crimes ou contravenções, nem os praticados com dolo, fraude ou simulação (inciso I).",
+        "D": "Correto. É o parágrafo único do art. 175: isenção e anistia excluem o crédito, mas não dispensam as obrigações acessórias."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 175 a 180 (art. 178 na redação da LC 24/1975)",
+          "data": "1975-01-07"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

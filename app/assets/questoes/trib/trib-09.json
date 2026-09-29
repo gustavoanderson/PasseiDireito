@@ -10,7 +10,7 @@
     {
       "id": "trib-0028",
       "tema": "Sigilo fiscal (art. 198 do CTN)",
-      "enunciado": "Com base no art. 198 do Código Tributário Nacional, assinale a alternativa correta sobre o sigilo fiscal.",
+      "enunciado": "Com base no art. 198 do Código Tributário Nacional, assinale a alternativa CORRETA sobre o sigilo fiscal.",
       "alternativas": {
         "A": "A autoridade administrativa de outro órgão pode obter informação protegida por sigilo fiscal mediante simples solicitação, independentemente da instauração de processo administrativo.",
         "B": "O intercâmbio de informação sigilosa no âmbito da Administração Pública pode ser feito por qualquer meio, dispensado o recibo.",
@@ -28,14 +28,20 @@
         "E": "O § 4º do art. 198 (incluído pela LC 208/2024) autoriza a administração tributária a requisitar informações cadastrais e patrimoniais a órgãos ou entidades, públicos ou privados, que operem cadastros e registros ou controlem operações de bens e direitos."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, art. 198 (LCs 104/2001, 187/2021 e 208/2024)", "data": "2024-12-02" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 198 (LCs 104/2001, 187/2021 e 208/2024)",
+          "data": "2024-12-02"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0029",
       "tema": "Fraude à execução fiscal, indisponibilidade e preferências",
-      "enunciado": "Considere as afirmativas abaixo, com base nos arts. 185, 185-A e 186 do Código Tributário Nacional.\n\nI. Presume-se fraudulenta a alienação ou oneração de bens ou rendas, ou seu começo, por sujeito passivo em débito para com a Fazenda Pública, por crédito tributário regularmente inscrito como dívida ativa.\nII. A presunção de fraude não se aplica se o devedor tiver reservado bens ou rendas suficientes ao total pagamento da dívida inscrita.\nIII. A indisponibilidade de bens decretada com base no art. 185-A pode alcançar todos os bens do devedor, sem limitação ao valor total exigível.\nIV. O crédito tributário prefere a qualquer outro, inclusive aos créditos decorrentes da legislação do trabalho.\n\nAssinale a alternativa correta.",
+      "enunciado": "Considere as afirmativas abaixo, com base nos arts. 185, 185-A e 186 do Código Tributário Nacional.\n\nI. Presume-se fraudulenta a alienação ou oneração de bens ou rendas, ou seu começo, por sujeito passivo em débito para com a Fazenda Pública, por crédito tributário regularmente inscrito como dívida ativa.\nII. A presunção de fraude não se aplica se o devedor tiver reservado bens ou rendas suficientes ao total pagamento da dívida inscrita.\nIII. A indisponibilidade de bens decretada com base no art. 185-A pode alcançar todos os bens do devedor, sem limitação ao valor total exigível.\nIV. O crédito tributário prefere a qualquer outro, inclusive aos créditos decorrentes da legislação do trabalho.\n\nAssinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Somente as afirmativas I e II estão corretas.",
         "B": "Somente as afirmativas I, II e III estão corretas.",
@@ -53,14 +59,20 @@
         "E": "As afirmativas III e IV estão erradas. O art. 185-A, § 1º, limita a indisponibilidade ao valor total exigível, e o art. 186 ressalva os créditos trabalhistas e de acidente do trabalho."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN, arts. 185, 185-A e 186 (LC 118/2005)", "data": "2005-02-09" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 185, 185-A e 186 (LC 118/2005)",
+          "data": "2005-02-09"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
     },
     {
       "id": "trib-0030",
       "tema": "Certidões negativas e positivas com efeito de negativa",
-      "enunciado": "Com base nos arts. 193 e 206 a 208 do Código Tributário Nacional e na Súmula 446 do STJ, assinale a alternativa correta.",
+      "enunciado": "Com base nos arts. 193 e 206 a 208 do Código Tributário Nacional e na Súmula 446 do STJ, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Salvo autorização legal, o órgão público só pode contratar com quem prove a quitação de todos os tributos devidos a qualquer ente da Federação, ainda que não relacionados à atividade objeto do contrato.",
         "B": "A dispensa da prova de quitação de tributos para a prática de ato indispensável para evitar a caducidade de direito depende de disposição legal permissiva.",
@@ -78,11 +90,61 @@
         "E": "A Súmula 446 do STJ diz o contrário: declarado e não pago o débito, é legítima a recusa de expedição de certidão negativa ou positiva com efeito de negativa. A declaração do contribuinte já constitui o crédito (Súmula 436)."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 193 e 206 a 208", "data": "1966-10-25" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 446", "data": "2010-04-28" },
-        { "tipo": "sumula", "referencia": "STJ, Súmula 436", "data": "2010-04-14" }
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 193 e 206 a 208",
+          "data": "1966-10-25"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 446",
+          "data": "2010-04-28"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 436",
+          "data": "2010-04-14"
+        }
       ],
-      "origem": { "tipo": "inedita" }
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0046",
+      "tema": "Dívida ativa tributária – inscrição e termo (LC 236/2026)",
+      "enunciado": "Sobre a dívida ativa tributária, nos termos dos arts. 201 a 203 do Código Tributário Nacional, na redação dada pela Lei Complementar nº 236/2026, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "constitui dívida ativa tributária a proveniente de crédito dessa natureza, regularmente inscrita na repartição administrativa competente, depois de esgotado o prazo fixado para pagamento pela lei ou por decisão final proferida em processo regular.",
+        "B": "a fluência de juros de mora não exclui a liquidez do crédito.",
+        "C": "o termo de inscrição deve indicar o nome do devedor, sendo dispensada a indicação dos corresponsáveis, que só podem ser incluídos na fase de execução.",
+        "D": "o controle de legalidade da inscrição consiste na análise dos requisitos de certeza, liquidez e exigibilidade e pode ser realizado pela Fazenda a qualquer tempo, de ofício ou a requerimento do interessado.",
+        "E": "a omissão de requisito do termo de inscrição é causa de nulidade da inscrição e do processo de cobrança dela decorrente, mas pode ser sanada até a decisão de primeira instância, mediante substituição da certidão nula."
+      },
+      "correta": "C",
+      "dica": "A LC 236/2026 reescreveu o inciso I do art. 202. Confira quem deve constar do termo de inscrição.",
+      "explicacao": {
+        "C": "É a resposta. O art. 202, I, na redação da LC 236/2026, exige o nome do devedor e dos corresponsáveis, bem como, sempre que possível, o domicílio ou a residência de um e de outros. No mesmo sentido, o art. 2º, § 5º, I, da Lei 6.830/1980.",
+        "A": "Correto. É a literalidade do caput do art. 201 do CTN: a inscrição pressupõe crédito tributário e o esgotamento do prazo para pagamento fixado pela lei ou por decisão final em processo regular.",
+        "B": "Correto. É o § 1º do art. 201, na redação da LC 236/2026: a fluência de juros de mora não exclui, para os efeitos do artigo, a liquidez do crédito.",
+        "D": "Correto. É o § 2º do art. 201, incluído pela LC 236/2026, que qualifica o controle de legalidade da inscrição como direito do contribuinte e dever da Fazenda Pública credora.",
+        "E": "Correto. É o art. 203 do CTN. Depois da substituição da certidão, devolve-se o prazo ao sujeito passivo, e a defesa somente poderá versar sobre a parte modificada."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 201 a 203 (LC 236/2026)",
+          "data": "2026-09-04"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 2º, § 5º, I",
+          "data": "1980-09-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }
