@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-12",
+    "titulo": "Ações especiais e coletivas: monitória, reivindicatória e ACP",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "pc-0034",
+      "tema": "Ação monitória contra a Fazenda Pública",
+      "enunciado": "Um fornecedor, munido de prova escrita sem eficácia de título executivo, propõe ação monitória contra o Município. Com base nos arts. 700 a 702 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A ação monitória não é admissível em face da Fazenda Pública, em razão do regime constitucional de precatórios.",
+        "B": "Sendo ré a Fazenda Pública e não apresentados os embargos, aplica-se o regime da remessa necessária, observando-se, a seguir, no que couber, as regras do cumprimento de sentença.",
+        "C": "Os embargos à ação monitória dependem de prévia segurança do juízo.",
+        "D": "A oposição dos embargos não suspende a eficácia da decisão que deferiu a expedição do mandado de pagamento.",
+        "E": "Na ação monitória, não se admite reconvenção."
+      },
+      "correta": "B",
+      "dica": "O § 6º do art. 700 resolve a questão do cabimento, e o § 4º do art. 701 cria uma regra especial para quando a Fazenda fica inerte.",
+      "explicacao": {
+        "A": "O art. 700, § 6º, é expresso: é admissível ação monitória em face da Fazenda Pública. O pagamento, ao final, seguirá o regime de precatório ou de requisição de pequeno valor.",
+        "B": "Correta. É a literalidade do art. 701, § 4º. Se a Fazenda não embarga, o título não se constitui de pleno direito como ocorreria contra um particular (§ 2º): aplica-se antes o art. 496, isto é, a remessa necessária, e só depois o cumprimento de sentença contra a Fazenda.",
+        "C": "O art. 702, caput, diz que o réu pode opor embargos \"independentemente de prévia segurança do juízo\", nos próprios autos e no prazo do art. 701.",
+        "D": "O art. 702, § 4º, dispõe que a oposição dos embargos suspende a eficácia da decisão do caput do art. 701 até o julgamento em primeiro grau.",
+        "E": "O art. 702, § 6º, admite a reconvenção na ação monitória, vedando apenas a reconvenção à reconvenção."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 496, 700, § 6º, 701, §§ 2º e 4º, e 702", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0035",
+      "tema": "Ação civil pública (Lei 7.347/1985)",
+      "enunciado": "Sobre a ação civil pública, conforme a Lei nº 7.347/1985, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "O Município tem legitimidade para propor a ação principal e a ação cautelar.",
+        "B": "Não será cabível ação civil pública para veicular pretensões que envolvam tributos, contribuições previdenciárias, o FGTS ou outros fundos de natureza institucional cujos beneficiários podem ser individualmente determinados.",
+        "C": "Os órgãos públicos legitimados poderão tomar dos interessados compromisso de ajustamento de sua conduta às exigências legais, mediante cominações, que terá eficácia de título executivo judicial.",
+        "D": "Não haverá adiantamento de custas, emolumentos, honorários periciais e quaisquer outras despesas, nem condenação da associação autora, salvo comprovada má-fé, em honorários de advogado, custas e despesas processuais.",
+        "E": "As ações serão propostas no foro do local onde ocorrer o dano, cujo juízo terá competência funcional para processar e julgar a causa."
+      },
+      "correta": "C",
+      "dica": "O compromisso de ajustamento de conduta é firmado fora do processo, sem homologação judicial. Pense em que espécie de título isso gera.",
+      "explicacao": {
+        "A": "Afirmativa correta. O art. 5º, III, inclui a União, os Estados, o Distrito Federal e os Municípios entre os legitimados.",
+        "B": "Afirmativa correta. É a literalidade do parágrafo único do art. 1º, incluído pela MP 2.180-35/2001. Para o procurador municipal, isso significa que a discussão coletiva de tributo municipal não se faz por ação civil pública.",
+        "C": "É a resposta, pois a afirmativa é falsa. O art. 5º, § 6º, atribui ao compromisso de ajustamento de conduta eficácia de título executivo extrajudicial, e não judicial.",
+        "D": "Afirmativa correta. É a literalidade do art. 18, na redação da Lei 8.078/1990. A isenção de ônus sucumbenciais protege a associação autora, salvo má-fé.",
+        "E": "Afirmativa correta. É o art. 2º, caput. Por se tratar de competência funcional, ela é absoluta. O parágrafo único acrescenta que a propositura previne a jurisdição para ações posteriores com a mesma causa de pedir ou o mesmo objeto."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 7.347/1985, arts. 1º, parágrafo único, 2º, 5º, III e § 6º, e 18", "data": "1985-07-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0036",
+      "tema": "Reivindicatória de bem público e usucapião",
+      "enunciado": "O Município de Curitiba ajuíza ação reivindicatória para reaver terreno dominical de sua propriedade, ocupado há vinte anos por particular que, na contestação, alega ter adquirido o imóvel por usucapião. À luz da Constituição Federal, do Código Civil e do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A defesa do particular não prospera, pois os bens públicos, inclusive os dominicais, não estão sujeitos a usucapião; e a ação, por versar sobre direito de propriedade de imóvel, deve ser proposta no foro de situação da coisa.",
+        "B": "Por serem alienáveis, os bens dominicais podem ser adquiridos por usucapião, desde que cumprido o prazo da usucapião extraordinária.",
+        "C": "A ação reivindicatória pode ser proposta no foro de domicílio do réu ou no foro de eleição, pois a competência territorial é relativa.",
+        "D": "Somente os bens de uso comum do povo e os de uso especial são insuscetíveis de usucapião, por serem inalienáveis enquanto conservarem essa qualificação.",
+        "E": "Se o Município tivesse proposto ação possessória, o particular poderia, na pendência dela, propor contra o Município ação de reconhecimento do domínio."
+      },
+      "correta": "A",
+      "dica": "Não confunda alienabilidade com possibilidade de usucapião: o Código Civil e a Constituição tratam das duas coisas em dispositivos diferentes.",
+      "explicacao": {
+        "A": "Correta. O art. 102 do Código Civil diz que os bens públicos não estão sujeitos a usucapião, sem distinguir a categoria, e os arts. 183, § 3º, e 191, parágrafo único, da CF dizem que os imóveis públicos não serão adquiridos por usucapião. O art. 1.228 do CC garante ao proprietário o direito de reaver a coisa de quem injustamente a possua, e o art. 47, caput e § 1º, do CPC fixa o foro de situação da coisa, sem opção quando o litígio recai sobre direito de propriedade.",
+        "B": "Os dominicais podem ser alienados, observadas as exigências da lei (CC, art. 101), mas isso não os torna usucapíveis: o art. 102 do CC e os arts. 183, § 3º, e 191, parágrafo único, da CF vedam a usucapião de bens públicos sem exceção.",
+        "C": "O art. 47, § 1º, do CPC só permite a opção pelo foro de domicílio do réu ou de eleição se o litígio não recair sobre direito de propriedade, vizinhança, servidão, divisão e demarcação de terras e nunciação de obra nova. A reivindicatória versa sobre propriedade.",
+        "D": "A inalienabilidade (CC, art. 100) é que se restringe aos bens de uso comum e de uso especial. A vedação da usucapião (CC, art. 102) alcança todos os bens públicos, inclusive os dominicais.",
+        "E": "O art. 557 do CPC veda ao autor e ao réu, na pendência de ação possessória, propor ação de reconhecimento do domínio, exceto se a pretensão for deduzida em face de terceira pessoa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 183, § 3º, e 191, parágrafo único", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 100, 101, 102 e 1.228", "data": "2002-01-10" },
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 47 e 557", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-15",
+    "titulo": "Processo eletrônico (Lei 11.419/2006)",
+    "itemEdital": 15
+  },
+  "questoes": [
+    {
+      "id": "pc-0043",
+      "tema": "Prática de atos e Diário da Justiça eletrônico",
+      "enunciado": "Com base nos arts. 3º e 4º da Lei nº 11.419/2006, que dispõe sobre a informatização do processo judicial, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Consideram-se realizados os atos processuais por meio eletrônico no dia e hora em que a secretaria do juízo receber a petição e certificar seu recebimento.",
+        "B": "Quando a petição eletrônica for enviada para atender prazo processual, serão consideradas tempestivas as transmitidas até o encerramento do expediente forense do último dia.",
+        "C": "Considera-se como data da publicação o próprio dia da disponibilização da informação no Diário da Justiça eletrônico.",
+        "D": "A publicação eletrônica no Diário da Justiça eletrônico substitui qualquer outro meio e publicação oficial, para quaisquer efeitos legais, à exceção dos casos que, por lei, exigem intimação ou vista pessoal.",
+        "E": "Os prazos processuais terão início no mesmo dia considerado como data da publicação no Diário da Justiça eletrônico."
+      },
+      "correta": "D",
+      "dica": "No Diário eletrônico há três momentos em sequência: a disponibilização, a publicação e o início do prazo. E há uma ressalva importante para quem tem direito a intimação pessoal, como a Fazenda.",
+      "explicacao": {
+        "A": "O art. 3º, caput, considera realizados os atos no dia e hora do seu envio ao sistema do Poder Judiciário, do que deve ser fornecido protocolo eletrônico. Não depende de ato da secretaria.",
+        "B": "O art. 3º, parágrafo único, considera tempestivas as petições transmitidas até as 24 (vinte e quatro) horas do último dia do prazo. O mesmo está no art. 213 do CPC.",
+        "C": "O art. 4º, § 3º, considera data da publicação o primeiro dia útil seguinte ao da disponibilização (no mesmo sentido, o art. 224, § 2º, do CPC).",
+        "D": "Correta. É a literalidade do art. 4º, § 2º. A ressalva final interessa ao procurador: para a Fazenda, que tem direito a intimação pessoal (art. 183 do CPC), a publicação no Diário não basta.",
+        "E": "O art. 4º, § 4º, diz que os prazos terão início no primeiro dia útil que seguir ao considerado como data da publicação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.419/2006, arts. 3º e 4º", "data": "2006-12-19" },
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 183, 213 e 224", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0044",
+      "tema": "Intimação eletrônica em portal próprio (art. 5º)",
+      "enunciado": "Sobre as intimações feitas por meio eletrônico em portal próprio, nos termos do art. 5º da Lei nº 11.419/2006, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A consulta ao teor da intimação deverá ser feita em até 15 (quinze) dias úteis contados da data do envio, sob pena de considerar-se a intimação automaticamente realizada na data do término desse prazo.",
+        "B": "Considera-se realizada a intimação no dia em que o intimando efetivar a consulta eletrônica ao seu teor, certificando-se nos autos a sua realização.",
+        "C": "Se a consulta se der em dia não útil, a intimação será considerada realizada no primeiro dia útil seguinte.",
+        "D": "As intimações feitas na forma do art. 5º, inclusive da Fazenda Pública, serão consideradas pessoais para todos os efeitos legais.",
+        "E": "Nos casos urgentes em que a intimação eletrônica possa causar prejuízo a qualquer das partes, o ato processual deverá ser realizado por outro meio que atinja a sua finalidade, conforme determinado pelo juiz."
+      },
+      "correta": "A",
+      "dica": "A intimação tácita no portal tem um prazo que não segue a regra dos dias úteis do CPC. Confira o número e a forma de contagem no § 3º.",
+      "explicacao": {
+        "A": "É a resposta, pois a afirmativa é falsa. O art. 5º, § 3º, fixa o prazo de 10 (dez) dias corridos contados da data do envio da intimação. Esgotado esse prazo sem consulta, a intimação considera-se automaticamente realizada. Os dois detalhes trocados (15 e dias úteis) são pegadinhas típicas.",
+        "B": "Afirmativa correta. É o art. 5º, § 1º: a intimação se considera feita no dia da consulta, com certidão nos autos.",
+        "C": "Afirmativa correta. É o art. 5º, § 2º. Depois, o prazo começa a correr no dia útil seguinte à consulta ou ao término do prazo para consulta (art. 231, V, do CPC).",
+        "D": "Afirmativa correta. É o art. 5º, § 6º. É por isso que a intimação pelo portal satisfaz a exigência de intimação pessoal da Fazenda (art. 183, § 1º, do CPC, que admite a intimação pessoal por meio eletrônico).",
+        "E": "Afirmativa correta. É o art. 5º, § 5º, que também se aplica quando for evidenciada tentativa de burla ao sistema."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.419/2006, art. 5º", "data": "2006-12-19" },
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 183, § 1º, e 231, V", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0045",
+      "tema": "Comunicações eletrônicas com a Fazenda e indisponibilidade do sistema",
+      "enunciado": "Considerando a Lei nº 11.419/2006 e o art. 246 do Código de Processo Civil, analise as assertivas abaixo.\nI. No processo eletrônico, todas as citações, intimações e notificações, inclusive da Fazenda Pública, serão feitas por meio eletrônico, na forma da Lei nº 11.419/2006.\nII. Se o sistema do Poder Judiciário se tornar indisponível por motivo técnico, o prazo para a prática de ato por petição eletrônica fica automaticamente prorrogado para o primeiro dia útil seguinte à resolução do problema.\nIII. A União, os Estados, o Distrito Federal, os Municípios e as entidades da administração indireta são obrigados a manter cadastro nos sistemas de processo em autos eletrônicos, para efeito de recebimento de citações e intimações.\nIV. Os documentos produzidos eletronicamente e juntados aos processos eletrônicos com garantia da origem e de seu signatário serão considerados originais para todos os efeitos legais.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, II e III estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas I, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "E",
+      "dica": "Confira cada assertiva com o texto: art. 9º, art. 10, § 2º, e art. 11 da Lei 11.419/2006, e art. 246, §§ 1º e 2º, do CPC.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora as assertivas III e IV, que também estão corretas (art. 246, §§ 1º e 2º, do CPC e art. 11, caput, da Lei 11.419/2006).",
+        "B": "Errada, porque deixa de fora a assertiva IV, que reproduz o art. 11, caput, da Lei 11.419/2006.",
+        "C": "Errada, porque deixa de fora as assertivas I (art. 9º, caput, da Lei 11.419/2006) e III (art. 246, § 2º, do CPC), ambas verdadeiras.",
+        "D": "Errada, porque deixa de fora a assertiva II, que reproduz o art. 10, § 2º, da Lei 11.419/2006.",
+        "E": "Correta. I é o art. 9º, caput, da Lei 11.419/2006; II é o art. 10, § 2º; III é o art. 246, § 1º, do CPC (redação da Lei 14.195/2021), estendido aos entes públicos e à administração indireta pelo § 2º; IV é o art. 11, caput, da Lei 11.419/2006."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.419/2006, arts. 9º, 10, § 2º, e 11", "data": "2006-12-19" },
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 246, §§ 1º e 2º (redação da Lei 14.195/2021)", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

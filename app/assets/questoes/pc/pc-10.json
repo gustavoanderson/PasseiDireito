@@ -10,7 +10,7 @@
     {
       "id": "pc-0028",
       "tema": "Intervenção anômala das pessoas jurídicas de direito público (Lei 9.469/1997)",
-      "enunciado": "Em ação entre particulares, cuja decisão pode ter reflexos econômicos indiretos sobre as finanças do Município, a Procuradoria-Geral do Município avalia intervir no processo. Com base no art. 5º, parágrafo único, da Lei nº 9.469/1997, assinale a alternativa correta.",
+      "enunciado": "Em ação entre particulares, cuja decisão pode ter reflexos econômicos indiretos sobre as finanças do Município, a Procuradoria-Geral do Município avalia intervir no processo. Com base no art. 5º, parágrafo único, da Lei nº 9.469/1997, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Somente a União pode intervir nessas condições, pois o dispositivo não alcança Estados e Municípios.",
         "B": "O Município somente poderá intervir se demonstrar interesse jurídico, na qualidade de assistente simples.",
@@ -35,7 +35,7 @@
     {
       "id": "pc-0029",
       "tema": "Restrições às liminares contra o Poder Público (Lei 8.437/1992)",
-      "enunciado": "Acerca das restrições à concessão de liminares e tutelas provisórias contra o Poder Público, previstas nos arts. 1º a 4º da Lei nº 8.437/1992 e no art. 1.059 do Código de Processo Civil, assinale a alternativa correta.",
+      "enunciado": "Acerca das restrições à concessão de liminares e tutelas provisórias contra o Poder Público, previstas nos arts. 1º a 4º da Lei nº 8.437/1992 e no art. 1.059 do Código de Processo Civil, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "Não será cabível medida liminar que esgote, no todo ou em qualquer parte, o objeto da ação.",
         "B": "As restrições da Lei nº 8.437/1992 aplicavam-se às medidas cautelares do CPC/1973 e não se estendem à tutela provisória disciplinada pelo CPC/2015.",
@@ -61,7 +61,7 @@
     {
       "id": "pc-0030",
       "tema": "Suspensão de liminar e de segurança",
-      "enunciado": "Uma liminar concedida contra o Município ameaça causar grave lesão à economia pública. Considerando o art. 4º da Lei nº 8.437/1992 e o art. 15 da Lei nº 12.016/2009, assinale a alternativa correta.",
+      "enunciado": "Uma liminar concedida contra o Município ameaça causar grave lesão à economia pública. Considerando o art. 4º da Lei nº 8.437/1992 e o art. 15 da Lei nº 12.016/2009, assinale a alternativa CORRETA.",
       "alternativas": {
         "A": "O pedido de suspensão pode ser formulado por qualquer das partes do processo, inclusive pelo particular prejudicado pela liminar.",
         "B": "A interposição de agravo de instrumento contra a liminar concedida nas ações movidas contra o Poder Público não prejudica nem condiciona o julgamento do pedido de suspensão.",
@@ -79,7 +79,7 @@
         "E": "O art. 4º, § 4º, da Lei 8.437/1992 e o art. 15, § 1º, da Lei 12.016/2009 admitem novo pedido de suspensão ao presidente do tribunal competente para conhecer de eventual recurso especial ou extraordinário."
       },
       "fontes": [
-        { "tipo": "lei", "referencia": "Lei 8.437/1992, art. 4º (redação da MP 2.180-35/2001)", "data": "2001-08-24" },
+        { "tipo": "lei", "referencia": "Lei 8.437/1992, art. 4º, §§ 4º, 6º e 9º (incluídos pela MP 2.180-35/2001)", "data": "1992-06-30" },
         { "tipo": "lei", "referencia": "Lei 12.016/2009, art. 15", "data": "2009-08-07" }
       ],
       "origem": { "tipo": "inedita" }

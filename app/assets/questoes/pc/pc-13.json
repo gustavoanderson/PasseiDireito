@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-13",
+    "titulo": "Processos estruturais e controle judicial de políticas públicas",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "pc-0037",
+      "tema": "Controle judicial de políticas públicas (Tema 698/STF)",
+      "enunciado": "Em ação civil pública, discute-se a grave deficiência do atendimento em unidades de saúde de um Município. Conforme a tese fixada pelo Supremo Tribunal Federal no Tema 698 da repercussão geral (RE 684.612), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A intervenção do Poder Judiciário em políticas públicas voltadas à realização de direitos fundamentais viola o princípio da separação dos Poderes, ainda que haja ausência ou deficiência grave do serviço.",
+        "B": "A decisão judicial deve, como regra, determinar medidas pontuais e específicas, como a contratação de número certo de profissionais em prazo fixado pelo juiz.",
+        "C": "O déficit de profissionais de saúde somente pode ser suprido por meio de concurso público, vedada a contratação de organizações sociais.",
+        "D": "A decisão judicial, como regra, em lugar de determinar medidas pontuais, deve apontar as finalidades a serem alcançadas e determinar à Administração Pública que apresente um plano e/ou os meios adequados para alcançar o resultado.",
+        "E": "A intervenção judicial somente é admitida quando a lei orçamentária já contiver dotação específica para a política pública questionada."
+      },
+      "correta": "D",
+      "dica": "O Tema 698 é a principal referência do STF sobre decisões estruturais: o juiz define o fim e cobra um plano; a Administração escolhe os meios.",
+      "explicacao": {
+        "A": "Contraria o item 1 da tese: a intervenção do Poder Judiciário em políticas públicas voltadas à realização de direitos fundamentais, em caso de ausência ou deficiência grave do serviço, não viola o princípio da separação dos Poderes.",
+        "B": "Contraria o item 2 da tese, que diz que a decisão, como regra, \"em lugar de determinar medidas pontuais\", deve apontar as finalidades e exigir um plano da Administração.",
+        "C": "Contraria o item 3 da tese: no caso de serviços de saúde, o déficit de profissionais pode ser suprido por concurso público ou, por exemplo, pelo remanejamento de recursos humanos e pela contratação de organizações sociais (OS) e de OSCIP.",
+        "D": "Correta. É o item 2 da tese do Tema 698 (RE 684.612, julgado em 03/07/2023). É a lógica do processo estrutural: o Judiciário fixa o resultado a alcançar e a Administração, que conhece suas capacidades, apresenta o plano.",
+        "E": "A tese não condiciona a intervenção à existência de dotação orçamentária específica. Ela autoriza a intervenção diante da ausência ou deficiência grave do serviço e orienta a forma da decisão (finalidades e plano)."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 698 (RE 684.612)", "data": "2023-07-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0038",
+      "tema": "Medidas executivas atípicas (arts. 139, IV, e 536, § 1º)",
+      "enunciado": "Acerca dos poderes do juiz para efetivar suas decisões, previstos nos arts. 139 e 536 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Incumbe ao juiz determinar todas as medidas indutivas, coercitivas, mandamentais ou sub-rogatórias necessárias para assegurar o cumprimento de ordem judicial.",
+        "B": "As medidas indutivas, coercitivas, mandamentais ou sub-rogatórias do art. 139, IV, são vedadas nas ações que tenham por objeto prestação pecuniária, nas quais se aplicam apenas os meios típicos de execução.",
+        "C": "No cumprimento de sentença de obrigação de fazer ou de não fazer, o juiz poderá, de ofício ou a requerimento, determinar a imposição de multa, a busca e apreensão, a remoção de pessoas e coisas, o desfazimento de obras e o impedimento de atividade nociva.",
+        "D": "O executado incidirá nas penas de litigância de má-fé quando injustificadamente descumprir a ordem judicial, sem prejuízo de sua responsabilização por crime de desobediência.",
+        "E": "Ao deparar-se com diversas demandas individuais repetitivas, o juiz deverá oficiar o Ministério Público, a Defensoria Pública e, na medida do possível, outros legitimados, para, se for o caso, promover a propositura da ação coletiva respectiva."
+      },
+      "correta": "B",
+      "dica": "Releia o final do inciso IV do art. 139: ele menciona expressamente um tipo de ação.",
+      "explicacao": {
+        "A": "Afirmativa correta. É o art. 139, IV, que dá ao juiz o chamado poder geral de efetivação, base das medidas atípicas.",
+        "B": "É a resposta, pois a afirmativa é falsa. O art. 139, IV, termina com a expressão \"inclusive nas ações que tenham por objeto prestação pecuniária\". As medidas atípicas cabem também nas obrigações de pagar.",
+        "C": "Afirmativa correta. É o art. 536, caput e § 1º. O rol do § 1º é exemplificativo (\"entre outras medidas\"), o que permite ao juiz, também contra o Poder Público, escolher a medida adequada ao resultado.",
+        "D": "Afirmativa correta. É a literalidade do art. 536, § 3º: o descumprimento injustificado gera sanção processual e pode configurar crime.",
+        "E": "Afirmativa correta. É o art. 139, X, que conecta o processo individual à tutela coletiva, técnica útil para conflitos estruturais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 139, IV e X, e 536, §§ 1º e 3º", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0039",
+      "tema": "Resoluções CNJ 492/2023 (gênero) e 598/2024 (raça)",
+      "enunciado": "Sobre as Resoluções nº 492/2023 e nº 598/2024 do Conselho Nacional de Justiça, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A Resolução nº 492/2023 estabelece, para a adoção de Perspectiva de Gênero nos julgamentos dos órgãos do Poder Judiciário, as diretrizes do protocolo aprovado pelo Grupo de Trabalho constituído pela Portaria CNJ nº 27/2021.",
+        "B": "A Resolução nº 598/2024 estabelece as diretrizes para a adoção de Perspectiva Racial nos julgamentos, constantes do protocolo elaborado pelo Grupo de Trabalho constituído pela Portaria Presidência nº 73/2024.",
+        "C": "As duas resoluções determinam que os tribunais, em colaboração com as escolas da magistratura, promovam cursos de formação inicial e continuada que incluam, obrigatoriamente, conteúdos relativos a direitos humanos, gênero, raça e etnia, com periodicidade mínima anual.",
+        "D": "A Resolução nº 492/2023 instituiu, no âmbito do Conselho Nacional de Justiça, o Comitê de Acompanhamento e Capacitação sobre Julgamento com Perspectiva de Gênero no Poder Judiciário, em caráter nacional e permanente.",
+        "E": "A Resolução nº 598/2024 atribui o acompanhamento de seu cumprimento a comitês a serem criados por cada tribunal de justiça, sem participação de órgão nacional."
+      },
+      "correta": "E",
+      "dica": "As duas resoluções têm estrutura quase idêntica. A diferença está no órgão incumbido de acompanhar o cumprimento: um comitê criado pela própria resolução ou um fórum que já existia.",
+      "explicacao": {
+        "A": "Afirmativa correta. É o art. 1º da Resolução CNJ 492/2023, que adotou o Protocolo para Julgamento com Perspectiva de Gênero.",
+        "B": "Afirmativa correta. É o art. 1º da Resolução CNJ 598/2024, que adotou o Protocolo para Julgamento com Perspectiva Racial.",
+        "C": "Afirmativa correta. É o art. 2º, caput, das duas resoluções, que também mandam os tribunais facilitar o acesso ao protocolo (QR Code, link etc.) e incluem a capacitação nos regulamentos do Prêmio CNJ de Qualidade.",
+        "D": "Afirmativa correta. É o art. 3º da Resolução CNJ 492/2023; o art. 4º lista as atribuições do Comitê, a começar por acompanhar o cumprimento da resolução.",
+        "E": "É a resposta, pois a afirmativa é falsa. O art. 3º da Resolução CNJ 598/2024 atribui ao Fórum Nacional do Poder Judiciário para a Equidade Racial (Fonaer), instituído pela Resolução CNJ 490/2023, o acompanhamento do cumprimento da resolução, entre outras atribuições."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Resolução CNJ 492/2023, arts. 1º a 4º", "data": "2023-03-17" },
+        { "tipo": "outro", "referencia": "Resolução CNJ 598/2024, arts. 1º a 3º", "data": "2024-11-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
