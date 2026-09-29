@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-12",
+    "titulo": "Educação, meio ambiente, família e povos indígenas",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "const-0034",
+      "tema": "Educação – deveres do Município",
+      "enunciado": "Com base nos arts. 208, 211 e 212 da Constituição Federal, assinale a alternativa CORRETA sobre os deveres do Município em matéria de educação.",
+      "alternativas": {
+        "A": "Os Municípios atuarão prioritariamente no ensino fundamental e na educação infantil.",
+        "B": "Os Municípios aplicarão, anualmente, no mínimo dezoito por cento da receita resultante de impostos, compreendida a proveniente de transferências, na manutenção e desenvolvimento do ensino.",
+        "C": "A educação básica obrigatória e gratuita abrange a faixa dos 6 aos 14 anos de idade.",
+        "D": "Os recursos vinculados à manutenção e desenvolvimento do ensino podem ser utilizados para o pagamento de aposentadorias e pensões dos profissionais do magistério.",
+        "E": "O acesso ao ensino obrigatório e gratuito é norma programática, sem exigibilidade individual perante o Poder Público."
+      },
+      "correta": "A",
+      "dica": "Cada ente tem sua prioridade no art. 211. E, no art. 212, dezoito é o número de um só ente.",
+      "explicacao": {
+        "A": "Correta. É o art. 211, § 2º, da CF (redação da EC 14/1996). Os Estados e o DF atuam prioritariamente no ensino fundamental e médio (§ 3º).",
+        "B": "O art. 212, caput, fixa o mínimo de vinte e cinco por cento para Estados, DF e Municípios. Dezoito por cento é o mínimo da União.",
+        "C": "O art. 208, I (redação da EC 59/2009), garante educação básica obrigatória e gratuita dos 4 aos 17 anos de idade, assegurada a oferta gratuita a todos os que não tiveram acesso na idade própria.",
+        "D": "O art. 212, § 7º (EC 108/2020), veda o uso desses recursos para pagamento de aposentadorias e de pensões.",
+        "E": "O art. 208, § 1º, qualifica o acesso ao ensino obrigatório e gratuito como direito público subjetivo, exigível do Estado. O § 2º acrescenta que o não oferecimento, ou a oferta irregular, importa responsabilidade da autoridade competente."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 208, I e §§ 1º e 2º (EC 59/2009), 211, § 2º (EC 14/1996), e 212, caput e § 7º (EC 108/2020)", "data": "2020-08-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0035",
+      "tema": "Meio ambiente (art. 225)",
+      "enunciado": "Sobre a proteção constitucional do meio ambiente (art. 225 da Constituição Federal), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "as condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos causados.",
+        "B": "incumbe ao Poder Público definir, em todas as unidades da Federação, espaços territoriais e seus componentes a serem especialmente protegidos, sendo a alteração e a supressão permitidas somente através de lei.",
+        "C": "incumbe ao Poder Público exigir estudo prévio de impacto ambiental para a instalação de qualquer obra ou atividade, admitido o sigilo do estudo quando envolver segredo industrial do empreendedor.",
+        "D": "a Floresta Amazônica brasileira, a Mata Atlântica, a Serra do Mar, o Pantanal Mato-Grossense e a Zona Costeira são patrimônio nacional.",
+        "E": "aquele que explorar recursos minerais fica obrigado a recuperar o meio ambiente degradado, de acordo com solução técnica exigida pelo órgão público competente, na forma da lei."
+      },
+      "correta": "C",
+      "dica": "O estudo prévio de impacto ambiental não é exigido para toda obra, e a Constituição diz expressamente o que acontece com ele depois de feito.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta em dois pontos. O art. 225, § 1º, IV, exige o estudo prévio de impacto ambiental para obra ou atividade potencialmente causadora de significativa degradação do meio ambiente (não para qualquer obra), e determina que a ele se dará publicidade.",
+        "A": "Correta. É o art. 225, § 3º: as esferas penal, administrativa e civil (reparação) são independentes, e a pessoa jurídica também responde penalmente.",
+        "B": "Correta. É o art. 225, § 1º, III, que ainda veda qualquer utilização que comprometa a integridade dos atributos que justificam a proteção.",
+        "D": "Correta. É o art. 225, § 4º. A Serra do Mar, que corta o Paraná, está no rol. Cerrado e Caatinga não estão, e costumam aparecer como pegadinha.",
+        "E": "Correta. É o art. 225, § 2º: a obrigação de recuperar a área degradada acompanha a própria atividade de mineração, segundo a solução técnica do órgão competente."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 225, § 1º, III e IV, e §§ 2º a 4º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0036",
+      "tema": "Criança e adolescente e povos indígenas",
+      "enunciado": "Considerando os arts. 227 e 231 da Constituição Federal, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "os filhos, havidos ou não da relação do casamento, ou por adoção, terão os mesmos direitos e qualificações, proibidas quaisquer designações discriminatórias relativas à filiação.",
+        "B": "o direito a proteção especial da criança e do adolescente abrange a idade mínima de quatorze anos para admissão ao trabalho, observado o disposto no art. 7º, XXXIII.",
+        "C": "as terras tradicionalmente ocupadas pelos índios destinam-se a sua posse permanente, cabendo-lhes o usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes.",
+        "D": "a pesquisa e a lavra das riquezas minerais em terras indígenas só podem ser efetivadas com autorização do Congresso Nacional, ouvidas as comunidades afetadas, ficando-lhes assegurada participação nos resultados da lavra, na forma da lei.",
+        "E": "as terras tradicionalmente ocupadas pelos índios podem ser alienadas mediante autorização do Congresso Nacional, e os direitos sobre elas prescrevem em vinte anos."
+      },
+      "correta": "E",
+      "dica": "O § 4º do art. 231 usa três adjetivos que excluem qualquer negócio com essas terras e qualquer perda do direito pelo tempo.",
+      "explicacao": {
+        "E": "É a resposta, pois está incorreta. O art. 231, § 4º, diz que essas terras são inalienáveis e indisponíveis, e os direitos sobre elas, imprescritíveis. O Congresso autoriza a exploração de recursos hídricos e minerais (§ 3º), não a alienação.",
+        "A": "Correta. É o art. 227, § 6º, que consagra a igualdade entre os filhos.",
+        "B": "Correta. É o art. 227, § 3º, I. O art. 7º, XXXIII, proíbe qualquer trabalho a menores de dezesseis anos, salvo na condição de aprendiz, a partir de quatorze.",
+        "C": "Correta. É o art. 231, § 2º. A propriedade dessas terras é da União (art. 20, XI); aos índios cabe a posse permanente e o usufruto exclusivo.",
+        "D": "Correta. É o art. 231, § 3º, que também exige a autorização do Congresso para o aproveitamento dos recursos hídricos, incluídos os potenciais energéticos."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 227, §§ 3º e 6º, e 231, §§ 2º a 4º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

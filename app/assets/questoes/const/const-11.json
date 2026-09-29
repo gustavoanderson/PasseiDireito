@@ -1,0 +1,91 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-11",
+    "titulo": "Seguridade social, saúde e assistência social",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "const-0031",
+      "tema": "Responsabilidade dos entes e medicamentos (Tema 793, SV 60 e 61)",
+      "enunciado": "Maria ajuizou ação contra o Município de Curitiba pedindo o fornecimento de medicamento. A Procuradoria-Geral do Município precisa avaliar a responsabilidade do ente e as regras aplicáveis à judicialização de fármacos. À luz da tese do Tema 793 da repercussão geral e das Súmulas Vinculantes 60 e 61 do Supremo Tribunal Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A responsabilidade do Município é apenas subsidiária: ele só pode ser demandado depois de comprovada a impossibilidade de a União e o Estado fornecerem o medicamento.",
+        "B": "A concessão judicial de medicamento registrado na ANVISA, mas não incorporado às listas de dispensação do SUS, dispensa a observância das teses firmadas no Tema 6 da repercussão geral quando o autor comprovar urgência.",
+        "C": "As demandas relativas a medicamentos não incorporados ao SUS, com registro na ANVISA, tramitam sempre na Justiça Estadual, qualquer que seja o valor do tratamento.",
+        "D": "O pedido e a análise administrativos de fármacos na rede pública de saúde devem seguir os fluxos de cada ente, e a judicialização do caso não está sujeita aos acordos interfederativos homologados pelo STF no Tema 1.234.",
+        "E": "Os entes da federação, em decorrência da competência comum, são solidariamente responsáveis nas demandas prestacionais na área da saúde, cabendo à autoridade judicial direcionar o cumprimento conforme as regras de repartição de competências e determinar o ressarcimento a quem suportou o ônus financeiro."
+      },
+      "correta": "E",
+      "dica": "Solidariedade não impede o juiz de organizar quem cumpre e quem ressarce. E as duas súmulas vinculantes de 2024 mandam observar, e não afastar, os precedentes que citam.",
+      "explicacao": {
+        "E": "Correta. É a literalidade da tese do Tema 793 (RE 855.178, tese fixada em 23/05/2019). A solidariedade decorre da competência comum em saúde; a descentralização e a hierarquização do SUS (art. 198 da CF) orientam o juiz a direcionar o cumprimento e o ressarcimento.",
+        "A": "Contraria o Tema 793: a responsabilidade dos entes é solidária, não subsidiária. Nos precedentes representativos da SV 60, o STF registra que o polo passivo pode ser composto por qualquer dos entes, isoladamente ou conjuntamente.",
+        "B": "Contraria a Súmula Vinculante 61 (DJE de 3/10/2024): a concessão judicial de medicamento registrado na ANVISA, mas não incorporado às listas de dispensação do SUS, deve observar as teses firmadas no Tema 6 da repercussão geral (RE 566.471). Não há exceção por urgência no enunciado.",
+        "C": "Contraria o item I.1 da tese do Tema 1.234 (RE 1.366.243, julgado em 16/09/2024): essas demandas tramitam na Justiça Federal quando o valor do tratamento anual do fármaco, pela tabela CMED (PMVG), for igual ou superior a 210 salários mínimos.",
+        "D": "Contraria a Súmula Vinculante 60: o pedido e a análise administrativos de fármacos, a judicialização do caso e seus desdobramentos devem observar os três acordos interfederativos (e seus fluxos) homologados pelo STF no Tema 1.234 (RE 1.366.243)."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 793 (RE 855.178)", "data": "2019-05-23" },
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 60", "data": "2024-09-16" },
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 61", "data": "2024-10-03" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.234 (RE 1.366.243), item I.1", "data": "2024-09-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0032",
+      "tema": "SUS – diretrizes, financiamento e participação da comunidade",
+      "enunciado": "Sobre o Sistema Único de Saúde, considerando o art. 198 da Constituição Federal e a Lei nº 8.142/1990, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a Conferência de Saúde reunir-se-á a cada quatro anos com a representação dos vários segmentos sociais, para avaliar a situação de saúde e propor as diretrizes para a formulação da política de saúde nos níveis correspondentes.",
+        "B": "o Conselho de Saúde é órgão colegiado de caráter consultivo e temporário, e suas decisões produzem efeitos independentemente de homologação pelo chefe do poder legalmente constituído.",
+        "C": "a representação dos usuários nos Conselhos de Saúde e nas Conferências será paritária em relação ao conjunto dos demais segmentos.",
+        "D": "as ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único, organizado com as diretrizes de descentralização, com direção única em cada esfera de governo, atendimento integral, com prioridade para as atividades preventivas, e participação da comunidade.",
+        "E": "os Municípios aplicarão anualmente em ações e serviços públicos de saúde recursos mínimos calculados sobre o produto da arrecadação dos impostos dos arts. 156 e 156-A e dos recursos de que tratam os arts. 158 e 159, I, b, e § 3º, da Constituição."
+      },
+      "correta": "B",
+      "dica": "A Lei 8.142/1990 dá ao Conselho de Saúde duas qualidades que são o oposto do que uma das alternativas diz.",
+      "explicacao": {
+        "B": "É a resposta, pois está incorreta. O art. 1º, § 2º, da Lei 8.142/1990 define o Conselho de Saúde como órgão de caráter permanente e deliberativo, composto por representantes do governo, prestadores de serviço, profissionais de saúde e usuários, cujas decisões serão homologadas pelo chefe do poder legalmente constituído em cada esfera de governo.",
+        "A": "Correta. É o art. 1º, § 1º, da Lei 8.142/1990. A Conferência é convocada pelo Poder Executivo ou, extraordinariamente, por ela própria ou pelo Conselho de Saúde.",
+        "C": "Correta. É o art. 1º, § 4º, da Lei 8.142/1990: metade das vagas é dos usuários; a outra metade, do governo, dos prestadores e dos profissionais somados.",
+        "D": "Correta. É o caput e os incisos I a III do art. 198 da CF. A participação da comunidade é justamente o que a Lei 8.142/1990 organiza nas Conferências e nos Conselhos de Saúde.",
+        "E": "Correta. É o art. 198, § 2º, III, da CF, na redação da EC 132/2023, que incluiu na base o IBS (art. 156-A). Os percentuais são fixados em lei complementar (§ 3º, I)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.142/1990, art. 1º", "data": "1990-12-28" },
+        { "tipo": "constituicao", "referencia": "CF, art. 198, caput e § 2º, III (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0033",
+      "tema": "Assistência social e benefício de prestação continuada",
+      "enunciado": "Com base nos arts. 203 e 204 da Constituição Federal e no art. 20 da Lei nº 8.742/1993 (Lei Orgânica da Assistência Social), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O benefício de prestação continuada é a garantia de meio salário mínimo mensal à pessoa com deficiência e ao idoso que comprovem não possuir meios de prover a própria manutenção.",
+        "B": "O benefício de prestação continuada é devido ao idoso a partir de 60 anos de idade que comprove não possuir meios de prover a própria manutenção nem de tê-la provida por sua família.",
+        "C": "Na assistência social, a coordenação e a execução dos programas cabem exclusivamente à esfera federal, vedada a atuação de entidades beneficentes.",
+        "D": "A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social.",
+        "E": "A participação da população, por meio de organizações representativas, restringe-se ao controle das ações, sendo vedada na formulação das políticas de assistência social."
+      },
+      "correta": "D",
+      "dica": "Saúde e assistência social não dependem de contribuição; a previdência, sim. Confira também o valor e a idade do benefício.",
+      "explicacao": {
+        "D": "Correta. É o caput do art. 203 da CF. É o traço que distingue a assistência social da previdência, que tem caráter contributivo (art. 201).",
+        "A": "O art. 203, V, da CF e o art. 20 da Lei 8.742/1993 garantem um salário mínimo mensal, e não meio.",
+        "B": "O art. 20 da Lei 8.742/1993 (redação da Lei 12.435/2011) garante o benefício ao idoso com 65 anos ou mais. O Estatuto da Pessoa Idosa (art. 34) usa a mesma idade.",
+        "C": "O art. 204, I, da CF adota a descentralização político-administrativa: coordenação e normas gerais na esfera federal; coordenação e execução dos respectivos programas nas esferas estadual e municipal, bem como por entidades beneficentes e de assistência social.",
+        "E": "O art. 204, II, da CF prevê a participação da população, por meio de organizações representativas, na formulação das políticas e no controle das ações em todos os níveis."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 203 e 204", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 8.742/1993, art. 20, caput (Lei 12.435/2011)", "data": "2011-07-06" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
