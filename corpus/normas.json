@@ -1,0 +1,50 @@
+{
+  "descricao": "Normas federais da base de consulta da IA. Fonte: Planalto (texto compilado). O montador baixa, corta por artigo e grava em corpus/federal/<id>.json.",
+  "normas": [
+    {"id": "cf", "titulo": "Constituição Federal de 1988", "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"},
+    {"id": "lindb", "titulo": "LINDB (Decreto-Lei 4.657/1942)", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657.htm"},
+    {"id": "cc", "titulo": "Código Civil (Lei 10.406/2002)", "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm"},
+    {"id": "cpc", "titulo": "Código de Processo Civil (Lei 13.105/2015)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"},
+    {"id": "ctn", "titulo": "Código Tributário Nacional (Lei 5.172/1966)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm"},
+
+    {"id": "l14133", "titulo": "Lei 14.133/2021 (Licitações e Contratos)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm"},
+    {"id": "l9784", "titulo": "Lei 9.784/1999 (Processo Administrativo Federal)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm"},
+    {"id": "l8429", "titulo": "Lei 8.429/1992 (Improbidade Administrativa)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm"},
+    {"id": "l12846", "titulo": "Lei 12.846/2013 (Anticorrupção)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12846.htm"},
+    {"id": "l11107", "titulo": "Lei 11.107/2005 (Consórcios Públicos)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2005/lei/l11107.htm"},
+    {"id": "l13019", "titulo": "Lei 13.019/2014 (MROSC)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l13019.htm"},
+    {"id": "l11079", "titulo": "Lei 11.079/2004 (PPP)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l11079.htm"},
+    {"id": "l13303", "titulo": "Lei 13.303/2016 (Estatais)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13303.htm"},
+    {"id": "l8987", "titulo": "Lei 8.987/1995 (Concessões)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8987cons.htm"},
+    {"id": "l13460", "titulo": "Lei 13.460/2017 (Usuários de serviços públicos)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm"},
+    {"id": "l13874", "titulo": "Lei 13.874/2019 (Liberdade Econômica)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm"},
+    {"id": "del3365", "titulo": "Decreto-Lei 3.365/1941 (Desapropriação)", "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del3365.htm"},
+    {"id": "l4132", "titulo": "Lei 4.132/1962 (Desapropriação por interesse social)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l4132.htm"},
+    {"id": "l12527", "titulo": "Lei 12.527/2011 (Acesso à Informação)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm"},
+    {"id": "l13709", "titulo": "Lei 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"},
+
+    {"id": "l6830", "titulo": "Lei 6.830/1980 (Execução Fiscal)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l6830.htm"},
+    {"id": "l4320", "titulo": "Lei 4.320/1964 (Direito Financeiro)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l4320.htm"},
+    {"id": "lc101", "titulo": "LC 101/2000 (Responsabilidade Fiscal)", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm"},
+    {"id": "lc116", "titulo": "LC 116/2003 (ISS)", "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp116.htm"},
+
+    {"id": "l12016", "titulo": "Lei 12.016/2009 (Mandado de Segurança)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12016.htm"},
+    {"id": "l4717", "titulo": "Lei 4.717/1965 (Ação Popular)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l4717.htm"},
+    {"id": "l7347", "titulo": "Lei 7.347/1985 (Ação Civil Pública)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l7347orig.htm"},
+    {"id": "l9868", "titulo": "Lei 9.868/1999 (ADI e ADC)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm"},
+    {"id": "l9882", "titulo": "Lei 9.882/1999 (ADPF)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm"},
+    {"id": "l12153", "titulo": "Lei 12.153/2009 (Juizado Especial da Fazenda Pública)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12153.htm"},
+    {"id": "l13140", "titulo": "Lei 13.140/2015 (Mediação)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13140.htm"},
+    {"id": "l9469", "titulo": "Lei 9.469/1997 (Intervenção da União e acordos)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9469.htm"},
+    {"id": "l8437", "titulo": "Lei 8.437/1992 (Cautelares contra o Poder Público)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8437.htm"},
+    {"id": "dec20910", "titulo": "Decreto 20.910/1932 (Prescrição quinquenal)", "url": "https://www.planalto.gov.br/ccivil_03/decreto/antigos/d20910.htm"},
+
+    {"id": "l8213", "titulo": "Lei 8.213/1991 (Benefícios do RGPS)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm"},
+    {"id": "l8212", "titulo": "Lei 8.212/1991 (Custeio da Seguridade)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8212cons.htm"},
+    {"id": "l9717", "titulo": "Lei 9.717/1998 (Regimes Próprios)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9717.htm"},
+
+    {"id": "l10257", "titulo": "Lei 10.257/2001 (Estatuto da Cidade)", "url": "https://www.planalto.gov.br/ccivil_03/leis/leis_2001/l10257.htm"},
+    {"id": "l6938", "titulo": "Lei 6.938/1981 (Política Nacional do Meio Ambiente)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l6938.htm"},
+    {"id": "l12651", "titulo": "Lei 12.651/2012 (Código Florestal)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12651.htm"}
+  ]
+}

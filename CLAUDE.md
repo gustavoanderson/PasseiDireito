@@ -112,10 +112,21 @@ No Firestore, por conta (`usuarios/{uid}/...`):
 
 **Firebase:** [app/lib/firebase_config.dart](app/lib/firebase_config.dart) devolve `null` até o projeto existir, e o app roda em modo de demonstração com aviso na tela. Esses valores não são segredo; quem protege os dados é o [firestore.rules](firestore.rules). A conta da Flávia é criada no console (e-mail e senha); não há tela de cadastro.
 
+## Base de lei da IA (corpus)
+
+Decisão do Gustavo (29/09/2026): **sem pagar IA à parte.** Gemini (nível gratuito) como principal e Workers AI da Cloudflare como reserva. "Treinar" a IA = esta base de consulta (RAG) + a régua do edital + calibração com espelhos da FAFIPA, e **não** retreinar modelo: modelo retreinado decora lei mal e não acompanha mudança.
+
+- [corpus/normas.json](corpus/normas.json): a lista das normas federais; [tools/montar_corpus.py](tools/montar_corpus.py) baixa do Planalto, corta por artigo ([tools/fatiar_lei.py](tools/fatiar_lei.py)) e grava `corpus/federal/<id>.json`.
+- Cada artigo guarda texto vigente, capítulo, notas de redação, `videStf` (ADI/ADC/ADPF) e `revogado`.
+- **Armadilhas do HTML do Planalto, todas com teste:** redação antiga riscada (`<strike>`); redação antiga às vezes SEM risco, ao lado da nova (fica a versão com nota "Redação dada", não simplesmente a última: a Lei 8.212, art. 21, provou a diferença); redação de MP caducada sem risco ("Vigência encerrada"); quebra de linha no meio do parágrafo; "Art. 8º-A" com a letra depois do ordinal; número partido pela formatação ("Art. 5 7."); o ADCT vem depois da assinatura da CF.
+- **Trava da data de corte:** a lei é baixada hoje. Toda norma de 2026 citada nas notas precisa de data conferida em [corpus/normas_2026.json](corpus/normas_2026.json). Artigo **incluído** por norma posterior a 21/09/2026 sai da base; **alterado** por ela reprova o montador. Já aconteceu: a **Lei 15.512/2026 é de 22/09/2026** e incluiu o art. 1º-E na Lei 6.938/1981.
+- Pendente: legislação de Curitiba (Legisladoc) e do Paraná, súmulas e teses.
+
 ## Comandos (rode todos antes de cada commit)
 
 ```bash
 python tools/validar_questoes.py app/assets/questoes/   # banco
 python tools/test_validar_questoes.py                   # validador
+python tools/test_fatiar_lei.py                         # extrator da base de lei
 cd app && flutter analyze && flutter test               # app
 ```
