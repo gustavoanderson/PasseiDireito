@@ -17,7 +17,8 @@ Uso como biblioteca: fatiar(html) -> lista de artigos.
 import html as html_lib
 import re
 
-_RISCADO = re.compile(r"(?is)<strike\b.*?</strike>")
+# Planalto risca com <strike>; o Legisladoc de Curitiba, com <s>. "<s\b" não pega <span>/<strong>.
+_RISCADO = re.compile(r"(?is)<(strike|s|del)\b[^>]*>.*?</\1\s*>")
 _SCRIPT = re.compile(r"(?is)<(script|style)\b.*?</\1>")
 _QUEBRA = re.compile(r"(?i)<br\s*/?>|</p>|</h\d>|</div>|</tr>")
 _TAG = re.compile(r"<[^>]+>")
@@ -26,12 +27,13 @@ _TAG = re.compile(r"<[^>]+>")
 # e "Art. 8º-A", em que a letra vem DEPOIS do ordinal.
 _ARTIGO = re.compile(r"^Art\.\s*(\d+(?:\.\d+)?(?: \d+(?=\s*\.))?)\s*(?:º|°|o)?\s*(-\s*[A-Z]+)?\s*\.?\s*[-–]?\s*")
 _TITULO_SECAO = re.compile(r"^(TÍTULO|CAPÍTULO|Seção|SEÇÃO|Subseção|LIVRO|PARTE)\b")
-_ADCT = re.compile(r"ATO DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS")
+_ADCT = re.compile(r"^ATO DAS DISPOSIÇÕES (CONSTITUCIONAIS )?TRANSITÓRIAS")
 _NOTA = re.compile(
     r"\(((?:Redação dada|Incluíd[oa]|Acrescid[oa]|Revogad[oa]|Vide|Renumerad[oa]|Regulamento|Vigência|Promulga|Produção de efeito|Declarad[oa])[^()]*(?:\([^()]*\)[^()]*)*)\)"
 )
 _VIDE_STF = re.compile(r"\b(ADI|ADIN|ADC|ADPF|ADO)\s*n?º?\s*([\d.]+)", re.IGNORECASE)
-_FIM = re.compile(r"^(Brasília|Rio de Janeiro),\s+\d")
+# Assinatura: "Brasília, 5 de outubro..." (federal) e "PALÁCIO 29 DE MARÇO, ..." (Curitiba).
+_FIM = re.compile(r"^((Brasília|Rio de Janeiro),\s+\d|PAL[ÁA]CIO 29 DE MAR[ÇC]O)", re.IGNORECASE)
 
 
 def decodificar(conteudo: bytes) -> str:
@@ -62,8 +64,11 @@ def fatiar(html: str) -> list[dict]:
     for p in paragrafos(html):
         # Depois da assinatura vêm anexos e mensagens de veto, que não são
         # artigos da norma. A exceção é a CF: o ADCT vem depois da assinatura.
-        if _ADCT.search(p):
-            prefixo, local, assinado = "ADCT-", "ADCT", False
+        m_adct = _ADCT.search(p)
+        if m_adct:
+            # CF: "ADCT"; Lei Orgânica de Curitiba: "ADT" (sem "Constitucionais").
+            sigla = "ADCT" if m_adct.group(1) else "ADT"
+            prefixo, local, assinado = f"{sigla}-", sigla, False
             continue
         if _FIM.match(p):
             assinado = True

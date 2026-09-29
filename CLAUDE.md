@@ -81,7 +81,10 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
 ## Achados sobre o edital e a legislação (para a Flávia e para recursos)
 
 - **Lei 11.001/2004** (carreira de Procurador), citada no edital, foi **revogada** pela Lei 16.200/2023, art. 38, I.
-- **Decreto 610/2019** (PPP), citado no edital, aparece como **revogado** no Legisladoc.
+- **Decreto 610/2019**, citado no edital em PPP, está **revogado** e sua ementa é de **contratos e convênios**, não de PPP.
+- **Lei 7.833/1991** (política municipal de meio ambiente), citada no edital, está **revogada** no Legisladoc.
+- **Decretos 469/2023, 723/2023 e 388/2025**, citados no edital como regulamentos da Lei 14.133, **não conferem**: no Legisladoc esses números são atos de pessoal (nomeação, exoneração). Ficaram fora da base.
+- **Lei 2.942/1966** (parcelamento do solo) só existe escaneada, sem texto: fora da base até ser digitada.
 - O edital chama a Lei Orgânica de Curitiba de "Lei 5.700/1977"; a Lei Orgânica em vigor é de **05/04/1990**.
 - **LC 236/2026** (DOU 4/9/2026, antes do corte) reescreveu os arts. 138, 151, 156 e 174 do CTN e criou os arts. 113-A e 208-A a 208-J.
 - **Lei 15.484/2026** (em vigor antes do corte) alterou o CPC em recursos e precedentes (relevância do REsp, art. 1.035-A). Ainda sem questão.
@@ -120,7 +123,8 @@ Decisão do Gustavo (29/09/2026): **sem pagar IA à parte.** Gemini (nível grat
 - Cada artigo guarda texto vigente, capítulo, notas de redação, `videStf` (ADI/ADC/ADPF) e `revogado`.
 - **Armadilhas do HTML do Planalto, todas com teste:** redação antiga riscada (`<strike>`); redação antiga às vezes SEM risco, ao lado da nova (fica a versão com nota "Redação dada", não simplesmente a última: a Lei 8.212, art. 21, provou a diferença); redação de MP caducada sem risco ("Vigência encerrada"); quebra de linha no meio do parágrafo; "Art. 8º-A" com a letra depois do ordinal; número partido pela formatação ("Art. 5 7."); o ADCT vem depois da assinatura da CF.
 - **Trava da data de corte:** a lei é baixada hoje. Toda norma de 2026 citada nas notas precisa de data conferida em [corpus/normas_2026.json](corpus/normas_2026.json). Artigo **incluído** por norma posterior a 21/09/2026 sai da base; **alterado** por ela reprova o montador. Já aconteceu: a **Lei 15.512/2026 é de 22/09/2026** e incluiu o art. 1º-E na Lei 6.938/1981.
-- Pendente: legislação de Curitiba (Legisladoc) e do Paraná, súmulas e teses.
+- **Curitiba:** [corpus/normas_curitiba.json](corpus/normas_curitiba.json) → [tools/montar_corpus_curitiba.py](tools/montar_corpus_curitiba.py) → `corpus/curitiba/`. A busca do Legisladoc só responde a um navegador de verdade: o Playwright pilota o Chrome instalado ([tools/legisladoc.py](tools/legisladoc.py)). A página do ato traz o texto "Alterado" (vigente) e depois o "Original": só o primeiro entra. O Legisladoc risca com `<s>`, não `<strike>`. Busca com mais de um resultado = republicação; fica a mais recente. **Ementa conferida contra o edital**: número que não confere entra com `ignorar` e motivo.
+- Pendente: Constituição do Paraná, súmulas e teses (STF, STJ, TCE-PR).
 
 ## Comandos (rode todos antes de cada commit)
 

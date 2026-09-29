@@ -1,0 +1,300 @@
+{
+ "id": "dec-2306-2023",
+ "titulo": "Decreto 2.306/2023 (transação)",
+ "legisladocId": "394191",
+ "url": "https://legisladocexterno.curitiba.pr.gov.br/VisualizarHTML.aspx?id=394191",
+ "situacao": "Alterado",
+ "publicacao": "07/12/2023",
+ "ementa": "Regulamenta as normas da Lei Complementar Municipal nº 141, de 14 de novembro de 2023, relativamente ao parcelamento e desconto especial de débitos inscritos em dívida ativa devidos ao Município de Curitiba",
+ "baixadoEm": "2026-09-29",
+ "artigos": [
+  {
+   "id": "1",
+   "local": "",
+   "texto": "Art. 1º Este Decreto disciplina os critérios para a transação na cobrança de débitos inscritos em dívida ativa devidos ao Município de Curitiba, mediante pagamento à vista, parcelamento e concessão de descontos.\nDO PAGAMENTO À VISTA, PARCELAMENTO E REPARCELAMENTO",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "2",
+   "local": "",
+   "texto": "Art. 2º O pagamento à vista, o parcelamento e o reparcelamento de débitos inscritos em dívida ativa devidos ao Município devem seguir as regras previstas neste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "3",
+   "local": "",
+   "texto": "Art. 3º O pagamento à vista de débitos inscritos em dívida ativa e o pagamento das parcelas de acordo de parcelamento será realizado por meio de Documento de Arrecadação Municipal - DAM emitido pelo devedor via internet no site do Município de Curitiba.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "4",
+   "local": "",
+   "texto": "Art. 4º O parcelamento de débitos inscritos em dívida ativa poderá ser realizado em até 120 (cento e vinte) parcelas mensais e sucessivas de acordo com o valor do débito, observando o valor mínimo de cada parcela previsto no § 4º e obedecendo a seguinte escala:\nI - débitos até R$ 600, 00 em até 12 parcelas;\nII - débitos de R$ 601, 00 a 1.200, 00 em até 24 parcelas;\nIII - débitos de R$ 1.201, 00 a 10.000, 00 em até 36 parcelas;\nIV - débitos de R$ 10.001, 00 a 50.000, 00 em até 48 parcelas;\nV - débitos de R$ 50.001, 00 a 200.000, 00 em até 60 parcelas;\nVI - débitos de R$ 200.001, 00 a 400.000, 00 em até 90 parcelas;\nVII - débitos acima de R$ 400.001, 00 em até 120 parcelas.\n§ 1º O valor do débito será consolidado na data do pagamento à vista ou do parcelamento, compreendendo o valor original atualizado monetariamente desde a data do seu vencimento até data do parcelamento, acrescido, se for o caso, de multa e juros sobre o valor atualizado.\n§ 2º No primeiro dia de cada mês o valor de cada parcela será atualizado pela variação do Índice de Preços ao Consumidor Amplo - IPCA ou outro índice que vier a substituí-lo e acrescido de juros moratórios de 1% (um por cento) ao mês.\n§ 3º O valor de cada parcela não poderá ser inferior a R$ 100, 00 (cem reais) para débitos de ISS e de R$ 50, 00 (cinquenta reais) para os demais débitos.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "5",
+   "local": "",
+   "texto": "Art. 5º O parcelamento de débitos tributários e não tributários, inscritos em dívida ativa, do devedor em recuperação judicial ou falência, poderá ser realizado em até 120 (cento e vinte) parcelas mensais e sucessivas, independentemente do valor, observados os valores mínimos da parcela previstos nesse Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "6",
+   "local": "",
+   "texto": "Art. 6º O parcelamento deverá ser realizado preferencialmente pela internet no site do Município de Curitiba.\n§ 1º A primeira parcela deve ser paga obrigatoriamente na data do parcelamento.\n§ 2º A validade do acordo de parcelamento fica condicionada ao pagamento tempestivo da primeira parcela, não se admitindo pagamento após esse prazo.\n§ 3º As demais parcelas vencerão no mesmo dia dos meses subsequentes.\n§ 4º O parcelamento será revogado automaticamente, independente de notificação, pelo atraso no pagamento das demais parcelas em período superior à 60 (sessenta) dias contados da data do seu vencimento.\n§ 5º O pagamento da parcela deve ser realizado antecipadamente quando não houver expediente bancário no dia do seu vencimento.\n§ 6º O pagamento das parcelas, será realizado por meio de Documento de Arrecadação Municipal - DAM, emitido pelo devedor via internet no site do Município de Curitiba.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "7",
+   "local": "",
+   "texto": "Art. 7º É permitido o reparcelamento dos débitos, sob condição do recolhimento na primeira parcela do valor correspondente a:\nI - no mínimo 10% (dez por cento) do total dos débitos consolidados, para o primeiro reparcelamento, na primeira parcela; ou\nII - no mínimo 20% (vinte por cento) do total dos débitos consolidados, para o segundo reparcelamento e seguintes na primeira parcela, caso haja débito com histórico de reparcelamento anterior.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "8",
+   "local": "",
+   "texto": "Art. 8º São também devidos no pagamento à vista ou no parcelamento:\nI - honorários no caso de débitos executados no percentual de 10% (dez por cento) e de débitos protestados no percentual de 5%, (cinco por cento) nos termos da Lei Municipal nº 11.534, de 11 de outubro de 2005, e da Lei Municipal Complementar nº 110, de 27 de junho de 2018;\nII - custas judiciais, devidas ao Poder Judiciário;\nIII - custas de protestos, devidas aos Cartórios de Protesto.\n§ 1º O pagamento dos honorários e das custas judiciais é de responsabilidade do devedor.\n§ 2º No caso de pagamento parcelado, o valor dos honorários referidos no inciso I deste artigo, deverá ser recolhido em idêntico número de parcelas e corrigido pelos mesmos índices do débito consolidado.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "9",
+   "local": "",
+   "texto": "Art. 9º O Procurador-Geral e o Procurador Fiscal do Município poderão, excepcionalmente, autorizar o parcelamento de modo diverso do estabelecido no presente Decreto, mantido, porém, o valor mínimo de cada parcela e o limite máximo do número de parcelas.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "10",
+   "local": "",
+   "texto": "Art. 10. Os débitos parcelados em razão da aplicação do Decreto nº 270, de 20 de março de 2003, poderão ser parcelados em até 120 (cento e vinte) vezes, com o valor mínimo de R$ 10, 00.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "11",
+   "local": "",
+   "texto": "Art. 11. Não poderão ser parcelados os:\nI - os débitos em execução fiscal com leilão marcado;\nII - débitos em discussão judicial, com decisões já transitadas em julgado, quando nas ações judiciais existir depósito dos valores devidos, carta de fiança ou seguro garantia.\nDO PAGAMENTO À VISTA E PARCELAMENTO COM DESCONTOS ESPECIAIS",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "12",
+   "local": "",
+   "texto": "Art. 12. Os débitos de natureza tributária ou não tributária inscritos em dívida ativa em atraso a mais de 7 anos, contados da data 14 de novembro de 2023, data vigência da Lei Complementar Municipal nº 141, de 14 de novembro de 2023, poderão ser pagos à vista ou parcelados, com desconto, da seguinte forma:\nI - em parcela única com a exclusão de 100% (cem por cento) do valor dos juros e 100% (cem por cento) do valor da multa moratória;\nII - em até 06 parcelas com a exclusão de 90% (noventa por cento) do valor dos juros e 80% (oitenta por cento) do valor da multa moratória;\nIII - em até 12 (doze) parcelas com a exclusão de 70% (setenta por cento) do valor dos juros e 60% (sessenta por cento) do valor da multa moratória;\nIV - em até 24 (vinte e quatro) parcelas com a exclusão de 50% (cinquenta por cento) do valor dos juros e 40% (quarenta por cento) do valor da multa moratória.\n§ 1º O valor do débito será consolidado na data do parcelamento, compreendendo o valor original atualizado monetariamente desde a data do seu vencimento até data do parcelamento, excluindo-se a multa e os juros de acordo com opção prevista nos incisos I a IV deste artigo.\n§ 2º No primeiro dia de cada mês o valor de cada parcela será atualizado pela variação do Índice de Preços ao Consumidor Amplo - IPCA ou índice que vier a substituí-lo e acrescido de juros moratórios de 1% (um por cento) ao mês.\n§ 3º As parcelas serão mensais e sucessivas.\n§ 4º O valor de cada parcela não poderá ser inferior a R$ 100, 00 (cem reais) para débitos de ISS e de R$ 50, 00 (cinquenta reais) para os demais débitos.\n§ 5º Para fins de enquadramento nesta modalidade de pagamento à vista ou parcelamento, estão abrangidos os débitos, inscritos em dívida ativa, relativos a fatos geradores ocorridos até 31 de dezembro de 2016. (Redação dada pelo Decreto nº 1105/2024)\n§ 6º São elegíveis ao desconto especial de que trata esse capítulo os débitos inscritos em dívida ativa em data anterior a 15 de novembro de 2016.\n§ 7º Sobre os débitos não tributários haverá somente o desconto em relação aos juros.\n§ 8º Os devedores com acordo de parcelamento vigente poderão aderir ao pagamento à vista ou parcelamento com desconto especial, com relação ao saldo devedor, após o cancelamento do acordo anterior.\n§ 9º Não haverá qualquer desconto cumulativo em relação a qualquer outro benefício de juros e multa.\n§ 10 O parcelamento com desconto especial somente pode ser realizado na forma dos incisos I a IV do caput, o parcelamento poderá ser realizado em mais parcelas, sem desconto, nos termos do art. 4º, deste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [
+    "Redação dada pelo Decreto nº 1105/2024"
+   ],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "13",
+   "local": "",
+   "texto": "Art. 13. Para débitos objeto de cobrança por execução fiscal e com leilão marcado, os benefícios deste Decreto serão somente para pagamento à vista previsto no inciso I do art. 12, deste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "14",
+   "local": "",
+   "texto": "Art. 14. Não poderão ser pagos ou parcelados com descontos especiais os débitos em discussão judicial, com decisões já transitadas em julgado, quando nas ações judiciais existir depósito dos valores devidos, carta de fiança ou seguro garantia.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "15",
+   "local": "",
+   "texto": "Art. 15. Os débitos de natureza tributária ou não tributária inscritos em dívida ativa, do devedor em recuperação judicial ou falência poderão ser quitados à vista ou em parcelas mensais e sucessivas, na forma prevista no art. 12, independentemente do tempo de atraso, ou nos termos do art. 5º, deste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "16",
+   "local": "",
+   "texto": "Art. 16. A adesão ao pagamento à vista ou parcelamento com descontos especiais deverá ser realizado preferencialmente pela internet no site do Município de Curitiba.\n§ 1º A primeira parcela deve ser paga obrigatoriamente na data do parcelamento.\n§ 2º A validade do pagamento à vista ou do parcelamento com descontos especiais fica condicionada ao pagamento tempestivo da parcela única ou da primeira parcela, na data do vencimento, não se admitindo pagamento após esse prazo.\n§ 3º As demais parcelas vencerão no mesmo dia dos meses subsequentes.\n§ 4º O parcelamento será revogado automaticamente, independente de notificação, pelo atraso no pagamento das demais parcelas em período superior à 60 (sessenta) dias contados da data do seu vencimento.\n§ 5º O pagamento da parcela deve ser realizado antecipadamente quando não houver expediente bancário no dia do seu vencimento.\n§ 6º O pagamento das parcelas, será realizado por meio de Documento de Arrecadação Municipal - DAM, emitido pelo devedor via internet no site do Município de Curitiba.\n§ 7º A adesão ao pagamento à vista ou parcelamento com desconto especial deverá ser solicitada mediante pedido administrativo nas seguintes hipóteses:\nI - para débitos inscritos em dívida ativa relativos Imposto sobre Serviços - ISS com valor igual ou superior a R$ 1.000.000, 00 (um milhão de reais);\nII - para os demais débitos com valor igual ou superior a R$ 500.000, 00 (quinhentos mil reais);\nIII - para débitos do devedor em recuperação judicial ou falência.\n§ 1º Os valores mencionados nos incisos I e II se referem a totalidade de débitos vinculados à indicação fiscal, inscrição municipal ou número fiscal.\n§ 2º O pedido administrativo para adesão ao parcelamento deve ser protocolado exclusivamente via PROCEC.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "17",
+   "local": "",
+   "texto": "Art. 17. É permitido o reparcelamento com desconto especial, sob condição do recolhimento na primeira parcela do valor correspondente a:\nI - no mínimo 10% (dez por cento) do total dos débitos consolidados, para o primeiro parcelamento, na primeira parcela; ou\nII - no mínimo 20% (vinte por cento) do total dos débitos consolidados, para o segundo reparcelamento e seguintes na primeira parcela, caso haja débito com histórico de reparcelamento anterior.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "18",
+   "local": "",
+   "texto": "Art. 18. São também devidos no pagamento à vista e parcelamento com descontos especiais:\nI - honorários no caso de débitos executados no percentual de 10% (dez por cento)e de débitos protestados no percentual de 5%, (cinco por cento)nos termos da Lei Municipal nº 11.534, de 11 de outubro de 2005, e da Lei Complementar Municipal nº 110, de 27 de junho de 2018;\nII - custas judiciais, devidas ao Poder Judiciário;\nIII - custas de protestos, devidas aos Cartórios de Protesto.\n§ 1º O pagamento dos honorários e das custas judiciais é de responsabilidade do devedor.\n§ 2º Os honorários integrarão a composição dos valores pagos à vista ou parcelados, que serão reduzidos de acordo com os descontos previstos no caput deste artigo.\nDAS DISPOSIÇÕES EM COMUM AS MODALIDADES DE PAGAMENTO À VISTA E PARCELAMENTO",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "19",
+   "local": "",
+   "texto": "Art. 19. Somente é permitido o e o parcelamento na forma prevista nos arts. 2º a 11 deste Decreto se forem englobados todos os débitos vinculados à indicação fiscal, inscrição municipal ou número fiscal.\n§ 1º O sujeito passivo poderá combinar uma ou mais modalidades de pagamento à vista e parcelamento disponíveis, de modo a abranger todo o passivo fiscal.\n§ 2º É permito somente o pagamento à vista ou parcelamento dos débitos que se enquadrem nos requisitos previstos nos arts. 12 a 18 deste Decreto vinculados à indicação fiscal, inscrição municipal ou número fiscal.\n§ 3º Quando em uma mesma execução fiscal existirem débitos passíveis e não passíveis de pagamento à vista ou parcelamento com descontos especiais, somente será permitido o pagamento à vista ou parcelamento de todo os débitos, ficando o número de parcelas limitado ao disposto no art. 12 deste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "20",
+   "local": "",
+   "texto": "Art. 20. Após a efetivação do parcelamento a Procuradoria Fiscal do Município providenciará o pedido de suspensão da execução fiscal, até a quitação integral do débito.\nParágrafo único. A suspensão da exigibilidade de débitos, para fins de expedição de certidões, será reconhecida somente após a comprovação do pagamento da primeira parcela e enquanto o parcelamento estiver vigente.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "21",
+   "local": "",
+   "texto": "Art. 21. Os gravames decorrentes de medida cautelar fiscal e das garantias prestadas administrativamente ou nas ações de execução fiscal ou em quaisquer outras ações judiciais permanecerão até quitação total dos débitos.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "22",
+   "local": "",
+   "texto": "Art. 22. A adesão as formas de pagamento à vista ou parcelamento previstas neste Decreto implica:\nI - na confissão irrevogável e irretratável da totalidade dos débitos fiscais abrangidos pelo parcelamento, confissão extrajudicial, nos termos dos arts 389 e seguintes do Código de Processo Civil bem como reconhecimento expresso da certeza e liquidez do crédito correspondente, produzindo os efeitos previstos no art. 174, parágrafo único do Código Tributário Nacional, art. 202, inciso VI do Código Civil e nos arts. 389 e 395 do Código de Processo Civil;\nII - na expressa renúncia a quaisquer alegações de direito, atuais ou futuras, sobre as quais se fundam ações judiciais ou recursos administrativos e, na desistência dos já existentes, mediante requerimento de extinção do processo com resolução de mérito nos termos da alínea \"c\" do inciso III do art. 487 do Código de Processo Civil, sendo devidos honorários de sucumbência em favor do Município;\nIII - na ciência quanto a existência de execuções fiscais nos casos de débitos em cobrança judicial, dando-se por citado o devedor no momento da adesão ao parcelamento e, na ciência quanto a responsabilidade pelo pagamento das custas judiciais devidas ao Poder Judiciário;\nIV - aceitação plena e irretratável de todas as condições estabelecidas.\n§ 1º A cópia do requerimento de que trata o inciso II do caput protocolado perante o juízo da ação judicial, deverá ser apresentada à Procuradoria-Geral do Município. O protocolo deverá ser realizado exclusivamente via PROCEC no prazo máximo de 60 (sessenta) dias contados da data do pagamento à vista ou da adesão a qualquer forma de parcelamento.\n§ 2º Não sendo comprovada a desistência das ações judiciais nos termos o inciso II do caput, na forma prevista no § 1º, a concessão dos descontos previstos no art. 12, deste Decreto para pagamento à vista ou parcelamento, será revogada. Restabelecendo-se o valor do débito sem os descontos concedidos, com prosseguimento da cobrança.\n§ 3º Nas ações judiciais mencionadas no inciso II, em razão da desistência da ação judicial são devidos honorários de sucumbência ao Município de Curitiba, sem prejuízo daqueles já fixados na Execução Fiscal nos termos dos arts. 8º e 18, deste Decreto.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "23",
+   "local": "",
+   "texto": "Art. 23. As regras deste Decreto não são aplicáveis ao parcelamento dos débitos inscritos em dívida ativa de empresas optantes pelo Regime do Simples Nacional instituído pela Lei Complementar Federal nº 123, de 14 de dezembro de 2006.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "24",
+   "local": "",
+   "texto": "Art. 24. Não incidirá direito aos descontos de multa e juros mencionados neste Decreto sobre os valores já quitados em acordos de parcelamentos efetuados anteriormente em andamento ou não.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "25",
+   "local": "",
+   "texto": "Art. 25. A inclusão de débitos nos parcelamentos de que trata este Decreto não implica em novação da dívida.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "26",
+   "local": "",
+   "texto": "Art. 26. Este Decreto entra em vigor na data de sua publicação.",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "notas": [],
+   "videStf": [],
+   "revogado": false
+  }
+ ]
+}

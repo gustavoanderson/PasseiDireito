@@ -1,0 +1,485 @@
+{
+  "descricao": "Normas de Curitiba citadas no Anexo II do Edital 6/2026. Fonte: Legisladoc da Prefeitura. O montador busca pelo tipo, número e ano, baixa o texto vigente e grava corpus/curitiba/<id>.json.",
+  "normas": [
+    {
+      "id": "lom",
+      "tipo": "lei-organica",
+      "numero": "",
+      "ano": null,
+      "titulo": "Lei Orgânica do Município de Curitiba"
+    },
+    {
+      "id": "elo-24-2024",
+      "tipo": "emenda-lei-organica",
+      "numero": 24,
+      "ano": 2024,
+      "titulo": "Emenda à Lei Orgânica 24/2024"
+    },
+    {
+      "id": "elo-25-2025",
+      "tipo": "emenda-lei-organica",
+      "numero": 25,
+      "ano": 2025,
+      "titulo": "Emenda à Lei Orgânica 25/2025"
+    },
+    {
+      "id": "lei-7671-1991",
+      "tipo": "lei",
+      "numero": 7671,
+      "ano": 1991,
+      "titulo": "Lei 7.671/1991 (organização administrativa)"
+    },
+    {
+      "id": "lei-9226-1997",
+      "tipo": "lei",
+      "numero": 9226,
+      "ano": 1997,
+      "titulo": "Lei 9.226/1997 (Programa Municipal de Publicização)"
+    },
+    {
+      "id": "dec-1192-2017",
+      "tipo": "decreto",
+      "numero": 1192,
+      "ano": 2017,
+      "titulo": "Decreto 1.192/2017 (publicização)"
+    },
+    {
+      "id": "lei-16466-2024",
+      "tipo": "lei",
+      "numero": 16466,
+      "ano": 2024,
+      "titulo": "Lei 16.466/2024 (processo administrativo)"
+    },
+    {
+      "id": "dec-435-2026",
+      "tipo": "decreto",
+      "numero": 435,
+      "ano": 2026,
+      "titulo": "Decreto 435/2026 (processo administrativo)"
+    },
+    {
+      "id": "lei-15461-2019",
+      "tipo": "lei",
+      "numero": 15461,
+      "ano": 2019,
+      "titulo": "Lei 15.461/2019"
+    },
+    {
+      "id": "lc-141-2023",
+      "tipo": "lei-complementar",
+      "numero": 141,
+      "ano": 2023,
+      "titulo": "LC 141/2023 (autocomposição e transação)"
+    },
+    {
+      "id": "dec-868-2024",
+      "tipo": "decreto",
+      "numero": 868,
+      "ano": 2024,
+      "titulo": "Decreto 868/2024"
+    },
+    {
+      "id": "dec-1106-2024",
+      "tipo": "decreto",
+      "numero": 1106,
+      "ano": 2024,
+      "titulo": "Decreto 1.106/2024 (autocomposição)"
+    },
+    {
+      "id": "dec-1883-2021",
+      "tipo": "decreto",
+      "numero": 1883,
+      "ano": 2021,
+      "titulo": "Decreto 1.883/2021 (Lei 14.133)"
+    },
+    {
+      "id": "dec-700-2023",
+      "tipo": "decreto",
+      "numero": 700,
+      "ano": 2023,
+      "titulo": "Decreto 700/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-701-2023",
+      "tipo": "decreto",
+      "numero": 701,
+      "ano": 2023,
+      "titulo": "Decreto 701/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-384-2023",
+      "tipo": "decreto",
+      "numero": 384,
+      "ano": 2023,
+      "titulo": "Decreto 384/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-383-2023",
+      "tipo": "decreto",
+      "numero": 383,
+      "ano": 2023,
+      "titulo": "Decreto 383/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-2051-2025",
+      "tipo": "decreto",
+      "numero": 2051,
+      "ano": 2025,
+      "titulo": "Decreto 2.051/2025 (Lei 14.133)"
+    },
+    {
+      "id": "dec-2067-2025",
+      "tipo": "decreto",
+      "numero": 2067,
+      "ano": 2025,
+      "titulo": "Decreto 2.067/2025 (Lei 14.133)"
+    },
+    {
+      "id": "dec-380-2023",
+      "tipo": "decreto",
+      "numero": 380,
+      "ano": 2023,
+      "titulo": "Decreto 380/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-469-2023",
+      "tipo": "decreto",
+      "numero": 469,
+      "ano": 2023,
+      "titulo": "Decreto 469/2023 (Lei 14.133)",
+      "ignorar": "O ato 469/2023 do Legisladoc é uma nomeação de pessoal, não um decreto de licitação: o número citado no edital não confere."
+    },
+    {
+      "id": "dec-385-2023",
+      "tipo": "decreto",
+      "numero": 385,
+      "ano": 2023,
+      "titulo": "Decreto 385/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-388-2025",
+      "tipo": "decreto",
+      "numero": 388,
+      "ano": 2025,
+      "titulo": "Decreto 388/2025 (Lei 14.133)",
+      "ignorar": "O ato 388/2025 do Legisladoc é uma nomeação para cargo em comissão, não um decreto de licitação: o número citado no edital não confere."
+    },
+    {
+      "id": "dec-1206-2023",
+      "tipo": "decreto",
+      "numero": 1206,
+      "ano": 2023,
+      "titulo": "Decreto 1.206/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-460-2023",
+      "tipo": "decreto",
+      "numero": 460,
+      "ano": 2023,
+      "titulo": "Decreto 460/2023 (Lei 14.133)"
+    },
+    {
+      "id": "dec-723-2023",
+      "tipo": "decreto",
+      "numero": 723,
+      "ano": 2023,
+      "titulo": "Decreto 723/2023 (Lei 14.133)",
+      "ignorar": "O ato 723/2023 do Legisladoc é uma exoneração, não um decreto de licitação: o número citado no edital não confere."
+    },
+    {
+      "id": "lei-16538-2025",
+      "tipo": "lei",
+      "numero": 16538,
+      "ano": 2025,
+      "titulo": "Lei 16.538/2025 (PARS S/A)"
+    },
+    {
+      "id": "lei-16763-2026",
+      "tipo": "lei",
+      "numero": 16763,
+      "ano": 2026,
+      "titulo": "Lei 16.763/2026 (Programa Municipal de Parcerias Estratégicas)"
+    },
+    {
+      "id": "dec-1067-2016",
+      "tipo": "decreto",
+      "numero": 1067,
+      "ano": 2016,
+      "titulo": "Decreto 1.067/2016 (parcerias)"
+    },
+    {
+      "id": "dec-352-2023",
+      "tipo": "decreto",
+      "numero": 352,
+      "ano": 2023,
+      "titulo": "Decreto 352/2023"
+    },
+    {
+      "id": "dec-2046-2023",
+      "tipo": "decreto",
+      "numero": 2046,
+      "ano": 2023,
+      "titulo": "Decreto 2.046/2023"
+    },
+    {
+      "id": "dec-610-2019",
+      "tipo": "decreto",
+      "numero": 610,
+      "ano": 2019,
+      "titulo": "Decreto 610/2019 (contratos e convênios; revogado — o edital o cita em PPP)"
+    },
+    {
+      "id": "lei-16639-2025",
+      "tipo": "lei",
+      "numero": 16639,
+      "ano": 2025,
+      "titulo": "Lei 16.639/2025 (concursos públicos)"
+    },
+    {
+      "id": "dec-1292-2026",
+      "tipo": "decreto",
+      "numero": 1292,
+      "ano": 2026,
+      "titulo": "Decreto 1.292/2026 (concursos públicos)"
+    },
+    {
+      "id": "lei-1656-1958",
+      "tipo": "lei",
+      "numero": 1656,
+      "ano": 1958,
+      "titulo": "Lei 1.656/1958 (Estatuto dos Funcionários)"
+    },
+    {
+      "id": "dec-1671-2019",
+      "tipo": "decreto",
+      "numero": 1671,
+      "ano": 2019,
+      "titulo": "Decreto 1.671/2019 (Lei Anticorrupção)"
+    },
+    {
+      "id": "lei-16268-2023",
+      "tipo": "lei",
+      "numero": 16268,
+      "ano": 2023,
+      "titulo": "Lei 16.268/2023 (Controladoria-Geral)"
+    },
+    {
+      "id": "dec-1055-2026",
+      "tipo": "decreto",
+      "numero": 1055,
+      "ano": 2026,
+      "titulo": "Decreto 1.055/2026 (Código de Ética)"
+    },
+    {
+      "id": "lei-16321-2024",
+      "tipo": "lei",
+      "numero": 16321,
+      "ano": 2024,
+      "titulo": "Lei 16.321/2024 (inteligência artificial)"
+    },
+    {
+      "id": "lei-11001-2004",
+      "tipo": "lei",
+      "numero": 11001,
+      "ano": 2004,
+      "titulo": "Lei 11.001/2004 (carreira de Procurador, revogada)"
+    },
+    {
+      "id": "lei-11875-2006",
+      "tipo": "lei",
+      "numero": 11875,
+      "ano": 2006,
+      "titulo": "Lei 11.875/2006 (atribuições da PGM)"
+    },
+    {
+      "id": "lei-16200-2023",
+      "tipo": "lei",
+      "numero": 16200,
+      "ano": 2023,
+      "titulo": "Lei 16.200/2023 (Plano de Carreira dos Procuradores)"
+    },
+    {
+      "id": "lc-40-2001",
+      "tipo": "lei-complementar",
+      "numero": 40,
+      "ano": 2001,
+      "titulo": "LC 40/2001 (Código Tributário Municipal)"
+    },
+    {
+      "id": "dec-2305-2023",
+      "tipo": "decreto",
+      "numero": 2305,
+      "ano": 2023,
+      "titulo": "Decreto 2.305/2023 (transação)"
+    },
+    {
+      "id": "dec-2306-2023",
+      "tipo": "decreto",
+      "numero": 2306,
+      "ano": 2023,
+      "titulo": "Decreto 2.306/2023 (transação)"
+    },
+    {
+      "id": "lc-101-2017",
+      "tipo": "lei-complementar",
+      "numero": 101,
+      "ano": 2017,
+      "titulo": "LC 101/2017 (responsabilidade fiscal municipal)"
+    },
+    {
+      "id": "lei-10235-2001",
+      "tipo": "lei",
+      "numero": 10235,
+      "ano": 2001,
+      "titulo": "Lei 10.235/2001 (precatórios e RPV)"
+    },
+    {
+      "id": "lei-14771-2015",
+      "tipo": "lei",
+      "numero": 14771,
+      "ano": 2015,
+      "titulo": "Lei 14.771/2015 (Plano Diretor)"
+    },
+    {
+      "id": "lei-15511-2019",
+      "tipo": "lei",
+      "numero": 15511,
+      "ano": 2019,
+      "titulo": "Lei 15.511/2019 (zoneamento, uso e ocupação do solo)"
+    },
+    {
+      "id": "lei-15626-2020",
+      "tipo": "lei",
+      "numero": 15626,
+      "ano": 2020,
+      "titulo": "Lei 15.626/2020"
+    },
+    {
+      "id": "lei-16361-2024",
+      "tipo": "lei",
+      "numero": 16361,
+      "ano": 2024,
+      "titulo": "Lei 16.361/2024 (potencial construtivo adicional)"
+    },
+    {
+      "id": "lei-16448-2024",
+      "tipo": "lei",
+      "numero": 16448,
+      "ano": 2024,
+      "titulo": "Lei 16.448/2024"
+    },
+    {
+      "id": "lei-11095-2004",
+      "tipo": "lei",
+      "numero": 11095,
+      "ano": 2004,
+      "titulo": "Lei 11.095/2004 (Código de Posturas)"
+    },
+    {
+      "id": "lei-14794-2016",
+      "tipo": "lei",
+      "numero": 14794,
+      "ano": 2016,
+      "titulo": "Lei 14.794/2016 (patrimônio cultural)"
+    },
+    {
+      "id": "lei-2942-1966",
+      "tipo": "lei",
+      "numero": 2942,
+      "ano": 1966,
+      "titulo": "Lei 2.942/1966 (parcelamento do solo)",
+      "ignorar": "Só existe como imagem escaneada no Legisladoc; sem texto para extrair (pendente de digitação ou OCR)."
+    },
+    {
+      "id": "lei-9460-1998",
+      "tipo": "lei",
+      "numero": 9460,
+      "ano": 1998,
+      "titulo": "Lei 9.460/1998 (regularização do parcelamento)"
+    },
+    {
+      "id": "dec-390-2026",
+      "tipo": "decreto",
+      "numero": 390,
+      "ano": 2026,
+      "titulo": "Decreto 390/2026 (Reurb)"
+    },
+    {
+      "id": "dec-360-2019",
+      "tipo": "decreto",
+      "numero": 360,
+      "ano": 2019,
+      "titulo": "Decreto 360/2019 (patrimônio cultural)"
+    },
+    {
+      "id": "lei-7833-1991",
+      "tipo": "lei",
+      "numero": 7833,
+      "ano": 1991,
+      "titulo": "Lei 7.833/1991 (política de meio ambiente)"
+    },
+    {
+      "id": "lei-9806-2000",
+      "tipo": "lei",
+      "numero": 9806,
+      "ano": 2000,
+      "titulo": "Lei 9.806/2000 (Código Florestal Municipal)"
+    },
+    {
+      "id": "lei-15744-2020",
+      "tipo": "lei",
+      "numero": 15744,
+      "ano": 2020,
+      "titulo": "Lei 15.744/2020 (unidades de conservação)"
+    },
+    {
+      "id": "lei-14587-2015",
+      "tipo": "lei",
+      "numero": 14587,
+      "ano": 2015,
+      "titulo": "Lei 14.587/2015 (RPPNM)"
+    },
+    {
+      "id": "lei-9626-1999",
+      "tipo": "lei",
+      "numero": 9626,
+      "ano": 1999,
+      "titulo": "Lei 9.626/1999 (RPPS de Curitiba)"
+    },
+    {
+      "id": "lei-10817-2003",
+      "tipo": "lei",
+      "numero": 10817,
+      "ano": 2003,
+      "titulo": "Lei 10.817/2003 (RPPS)"
+    },
+    {
+      "id": "lei-12072-2006",
+      "tipo": "lei",
+      "numero": 12072,
+      "ano": 2006,
+      "titulo": "Lei 12.072/2006 (RPPS)"
+    },
+    {
+      "id": "lei-15042-2017",
+      "tipo": "lei",
+      "numero": 15042,
+      "ano": 2017,
+      "titulo": "Lei 15.042/2017 (RPPS)"
+    },
+    {
+      "id": "lei-16768-2026",
+      "tipo": "lei",
+      "numero": 16768,
+      "ano": 2026,
+      "titulo": "Lei 16.768/2026 (citada pelo edital no RPPS; a ementa trata de remuneração e gratificação)"
+    },
+    {
+      "id": "lei-15072-2017",
+      "tipo": "lei",
+      "numero": 15072,
+      "ano": 2017,
+      "titulo": "Lei 15.072/2017 (Curitiba Prev)"
+    }
+  ]
+}

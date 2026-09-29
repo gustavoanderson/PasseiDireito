@@ -21,6 +21,8 @@ HTML = """
 <p>Art. 178. O Código Penal passa a vigorar acrescido do seguinte artigo:</p>
 <p>“Art. 337-E. Admitir, possibilitar ou dar causa à contratação direta fora das hipóteses previstas em lei:</p>
 <p>Pena - reclusão, de 4 (quatro) a 8 (oito) anos, e multa.”</p>
+<p><s> <strong>Art. 70</strong> Texto revogado riscado ao estilo do Legisladoc.</s> <span>(Revogado pela Lei Complementar nº 133/2021)</span></p>
+<p><span>Art. 71.</span> <strong>Vigente</strong> depois do riscado.</p>
 <p>Art. 8º O sucessor responde até o limite da herança.</p>
 <p>Art. 8º-A A responsabilidade sucessória aplica-se também à fusão. (Incluído pela Lei nº 14.230, de 2021)</p>
 <p>Art. 9º Podem promover a desapropriação, mediante autorização: (Redação dada pela Medida Provisória nº 1.065, de 2021) Vigência encerrada</p>
@@ -87,6 +89,19 @@ class TestFatiar(unittest.TestCase):
     def test_quebra_de_linha_do_html_nao_parte_o_artigo(self):
         self.assertIn("6", self.por_id)
         self.assertEqual(self.por_id["5"]["texto"], "Art. 5º Todos são iguais perante a lei.")
+
+    def test_disposicoes_transitorias_da_lei_organica(self):
+        artigos = {a["id"]: a for a in fatiar(
+            "<p>Art. 7º Todo Poder emana do povo.</p><p>ATO DAS DISPOSIÇÕES TRANSITÓRIAS</p>"
+            "<p>Art. 7º Os serviços públicos delegados continuarão regidos pelos atos de concessão.</p>"
+        )}
+        self.assertIn("Todo Poder", artigos["7"]["texto"])
+        self.assertIn("serviços públicos", artigos["ADT-7"]["texto"])
+        self.assertFalse(artigos["7"]["conferir"])
+
+    def test_riscado_do_legisladoc_com_tag_s_e_descartado(self):
+        self.assertNotIn("70", self.por_id)
+        self.assertIn("Vigente", self.por_id["71"]["texto"])
 
     def test_letra_depois_do_ordinal(self):
         self.assertIn("8-A", self.por_id)

@@ -1,0 +1,4 @@
+# Ferramentas do repositório (não do app)
+jsonschema>=4
+# Só para montar a base de Curitiba: pilota o Chrome instalado (channel="chrome"), sem baixar navegador.
+playwright>=1.40
