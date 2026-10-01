@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-05",
+    "titulo": "Regularização fundiária urbana e usucapião especial",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "urb-0016",
+      "tema": "Reurb: classificação, legitimados e legitimação fundiária (Lei 13.465/2017)",
+      "enunciado": "Sobre a Regularização Fundiária Urbana (Reurb), disciplinada pela Lei nº 13.465/2017, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "o Município deverá classificar a modalidade da Reurb no prazo de até 90 dias, e a sua inércia implica o indeferimento automático do requerimento.",
+        "B": "a Defensoria Pública, em nome dos beneficiários hipossuficientes, e o Ministério Público podem requerer a Reurb.",
+        "C": "a legitimação fundiária constitui forma originária de aquisição do direito real de propriedade, conferida por ato do poder público, exclusivamente no âmbito da Reurb, a quem detiver ou possuir unidade imobiliária integrante de núcleo urbano informal consolidado existente em 22 de dezembro de 2016.",
+        "D": "na Reurb-S, é isenta de custas e emolumentos, entre outros atos registrais, a primeira averbação de construção residencial, desde que respeitado o limite de até setenta metros quadrados.",
+        "E": "a ausência de manifestação dos titulares de domínio e dos confinantes notificados será interpretada como concordância com a Reurb."
+      },
+      "correta": "A",
+      "dica": "Na Reurb, o silêncio da Administração e o silêncio dos notificados jogam a favor da regularização. Confira também o prazo do art. 30.",
+      "explicacao": {
+        "A": "É a incorreta, e por isso a resposta. O art. 30, § 2º, dá ao Município até CENTO E OITENTA dias para classificar a modalidade ou indeferir fundamentadamente. E o § 3º diz que a inércia implica a fixação AUTOMÁTICA da modalidade indicada pelo legitimado e o prosseguimento do procedimento, sem prejuízo de revisão futura mediante estudo técnico.",
+        "B": "Correto. É o art. 14, IV e V. O rol inclui ainda os entes federativos, os beneficiários (individual ou coletivamente, ou por associações e cooperativas) e os proprietários, loteadores ou incorporadores.",
+        "C": "Correto. É o art. 23, caput, da Lei 13.465/2017. A data de 22/12/2016 também limita a Reurb promovida por legitimação fundiária (art. 9º, § 2º).",
+        "D": "Correto. É o art. 13, § 1º, V. Pelo § 2º, esses atos independem da comprovação do pagamento de tributos ou penalidades tributárias.",
+        "E": "Correto. É o art. 31, § 6º. Havendo impugnação, inicia-se o procedimento extrajudicial de composição de conflitos (§ 3º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.465/2017, arts. 13, 14, 23, 30 e 31", "data": "2017-07-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0017",
+      "tema": "Reurb-S em Curitiba (Decreto Municipal 390/2026)",
+      "enunciado": "O Decreto Municipal nº 390/2026 regulamenta a Lei Federal nº 13.465/2017 e estabelece o procedimento administrativo da regularização fundiária urbana na modalidade social no Município de Curitiba. De acordo com esse Decreto, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A REURB-S aplica-se aos núcleos urbanos informais ocupados por população predominantemente de baixa renda, cuja renda familiar não ultrapasse 5 salários mínimos federais.",
+        "B": "Em um mesmo núcleo urbano informal, poderão coexistir as duas modalidades de REURB, desde que a parte ocupada predominantemente por população de baixa renda seja regularizada por meio de REURB-S e o restante do núcleo por meio de REURB-E.",
+        "C": "Na REURB-S, os lotes possuirão área mínima de 125 m² e testada mínima de 5 m, em conformidade com a Lei nº 6.766/1979.",
+        "D": "Na REURB-S, será exigida a destinação de áreas para a implantação de equipamentos comunitários ou urbanos quando a área a ser regularizada superar dez mil metros quadrados.",
+        "E": "A COHAB-CT terá o prazo de até 180 dias para a análise preliminar do requerimento de REURB-S."
+      },
+      "correta": "B",
+      "dica": "O Decreto admite que um mesmo núcleo tenha moradores de faixas de renda diferentes. Para os números, lembre que a Reurb-S flexibiliza os parâmetros da Lei 6.766/1979.",
+      "explicacao": {
+        "B": "Correta. É o art. 3º, § 2º, do Decreto 390/2026. O § 1º acrescenta que a classificação pode ser coletiva ou individual por unidade imobiliária.",
+        "A": "O art. 3º, I, fixa o limite de renda familiar em 3 (TRÊS) salários mínimos federais. A Lei 13.465/2017 não fixa número; quem o fixa é o Decreto municipal.",
+        "C": "O art. 32, I, do Decreto fixa para a REURB-S área mínima de 60 m² e testada mínima de 3,50 m. Os números 125 m² e 5 m são os do art. 4º, II, da Lei 6.766/1979, e a Lei 13.465/2017 (art. 11, § 1º) permite ao Município dispensar esses parâmetros na Reurb.",
+        "D": "O art. 31 diz o contrário: na REURB-S, independentemente da dimensão da área, NÃO será exigida a destinação de áreas para equipamentos comunitários ou urbanos.",
+        "E": "O art. 12 dá à COHAB-CT até 90 (noventa) dias para a análise preliminar. Os 180 dias aparecem na Lei 13.465/2017 (art. 30, § 2º), para a classificação da modalidade pelo Município."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 390/2026, arts. 3º, 12, 31 e 32", "data": "2026-03-23" },
+        { "tipo": "lei", "referencia": "Lei 13.465/2017, arts. 11, § 1º, e 30, § 2º", "data": "2017-07-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0018",
+      "tema": "Usucapião especial urbana individual e coletiva (Estatuto da Cidade)",
+      "enunciado": "Acerca da usucapião especial de imóvel urbano, prevista nos arts. 9º a 13 da Lei nº 10.257/2001, analise as assertivas abaixo.\nI. O herdeiro legítimo continua, de pleno direito, a posse de seu antecessor, desde que já resida no imóvel por ocasião da abertura da sucessão.\nII. Os núcleos urbanos informais existentes sem oposição há mais de cinco anos e cuja área total dividida pelo número de possuidores seja inferior a duzentos e cinquenta metros quadrados por possuidor são suscetíveis de serem usucapidos coletivamente, desde que os possuidores não sejam proprietários de outro imóvel urbano ou rural.\nIII. Na ação de usucapião especial urbana, a intervenção do Ministério Público é facultativa, cabendo ao juiz avaliar a sua conveniência.\nIV. A associação de moradores da comunidade, regularmente constituída, com personalidade jurídica, é parte legítima para propor a ação como substituta processual, desde que explicitamente autorizada pelos representados.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e III estão corretas.",
+        "C": "Somente as assertivas I, II e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Uma das assertivas troca uma palavra do art. 12, § 1º, sobre a participação de um órgão no processo.",
+      "explicacao": {
+        "C": "Correta. A I é o art. 9º, § 3º; a II é o art. 10, caput (redação da Lei 13.465/2017); a IV é o art. 12, III. A III é falsa: o art. 12, § 1º, diz que, na ação de usucapião especial urbana, é OBRIGATÓRIA a intervenção do Ministério Público.",
+        "A": "Omite a assertiva IV, que é verdadeira: o art. 12, III, legitima a associação de moradores como substituta processual, desde que explicitamente autorizada pelos representados.",
+        "B": "Inclui a assertiva III, que é falsa (a intervenção do MP é obrigatória, art. 12, § 1º), e omite as assertivas I e IV, verdadeiras.",
+        "D": "A assertiva III é falsa, pois o art. 12, § 1º, torna obrigatória a intervenção do Ministério Público. Além disso, a alternativa omite a I e a II, verdadeiras.",
+        "E": "Nem todas estão corretas: a assertiva III contraria o art. 12, § 1º, do Estatuto da Cidade, que exige a intervenção do Ministério Público."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 9º, 10 e 12", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
