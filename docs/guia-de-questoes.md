@@ -10,6 +10,8 @@ As questões são para uma prova real: Procurador do Município de Curitiba, Edi
 
 1. **Data de corte: 21/09/2026.** Lei, súmula e tese valem na redação vigente nessa data. Nada posterior.
 2. **Só escreva sobre texto que você leu na fonte oficial nesta sessão.** Nunca de memória.
+   - **Primeiro, a base de lei do repositório:** `corpus/federal/<id>.json` (Planalto) e `corpus/curitiba/<id>.json` (Legisladoc). Cada arquivo tem `artigos`, e cada artigo tem `texto` (a redação vigente em 21/09/2026, já sem o riscado e sem o que norma posterior ao edital acrescentou), `notas`, `videStf` e `revogado`. A lista do que existe está em `corpus/normas.json` e `corpus/normas_curitiba.json`. Ler daí é mais rápido e mais seguro do que baixar de novo: as armadilhas do HTML do Planalto já foram tratadas.
+   - Artigo com `videStf` não vazio: não use como gabarito sem ler a decisão. Artigo com `conferir: true`: não use.
    - Leis federais: `https://www.planalto.gov.br/ccivil_03/...`. O WebFetch costuma dar ECONNRESET no Planalto; use `curl -s -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/153"` e extraia o texto (a página é cp1252 ou utf-8; o texto quebra linha no meio do artigo — junte os espaços antes de procurar "Art. 72.").
    - STF (teses de repercussão geral, súmulas): portal.stf.jus.br. STJ (repetitivos, súmulas): stj.jus.br / scon.stj.jus.br. Conferir a tese em fonte oficial ou tribunal (TJ, TRF) que a transcreva.
    - Curitiba e Paraná: leismunicipais.com.br (Curitiba), www.cmc.pr.gov.br, www.legislacao.pr.gov.br, www.tce.pr.gov.br. **Se não conseguir ler o texto oficial da norma municipal, não escreva a questão:** registre o item como pendente no seu relatório.
