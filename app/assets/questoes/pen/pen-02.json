@@ -1,0 +1,163 @@
+{
+  "versaoFormato": 1,
+  "materia": "pen",
+  "unidade": {
+    "id": "pen-02",
+    "titulo": "Persecução penal, Administração Pública e Advocacia Pública",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "pen-0012",
+      "tema": "Peculato culposo e reparação do dano",
+      "enunciado": "Mévio, servidor público municipal responsável pelo almoxarifado, deixou, por negligência, de trancar o depósito sob sua guarda, o que permitiu que terceiro subtraísse equipamentos de informática pertencentes ao Município. Considerando o art. 312 do Código Penal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Mévio responde por peculato-furto (art. 312, § 1º), punido com reclusão de dois a doze anos, por ter concorrido para a subtração valendo-se da facilidade do cargo.",
+        "B": "A conduta de Mévio é atípica, pois o Código Penal não prevê modalidade culposa entre os crimes praticados por funcionário público contra a Administração.",
+        "C": "Se Mévio reparar o dano depois da sentença irrecorrível, extingue-se a sua punibilidade.",
+        "D": "A reparação do dano por Mévio, ainda que anterior à sentença irrecorrível, apenas reduz de metade a pena imposta.",
+        "E": "Mévio pode responder por peculato culposo, e a reparação do dano, se preceder a sentença irrecorrível, extingue a sua punibilidade."
+      },
+      "correta": "E",
+      "dica": "Mévio não quis a subtração: apenas concorreu, sem dolo, para o crime de outra pessoa. Veja os §§ 2º e 3º do art. 312.",
+      "explicacao": {
+        "E": "Correta. O art. 312, § 2º, do CP pune o funcionário que concorre culposamente para o crime de outrem (detenção de três meses a um ano). Pelo § 3º, a reparação do dano, se precede à sentença irrecorrível, extingue a punibilidade.",
+        "A": "O peculato-furto do § 1º do art. 312 é doloso: o funcionário subtrai ou concorre para que seja subtraído, em proveito próprio ou alheio. Mévio agiu por negligência, sem querer a subtração; sua conduta se encaixa no peculato culposo (§ 2º).",
+        "B": "O art. 312, § 2º, do CP prevê expressamente o peculato culposo. É uma das poucas modalidades culposas entre os crimes funcionais, e por isso é muito cobrada.",
+        "C": "Pelo art. 312, § 3º, do CP, a reparação POSTERIOR à sentença irrecorrível não extingue a punibilidade: apenas reduz de metade a pena imposta.",
+        "D": "A alternativa troca as consequências do § 3º do art. 312: a reparação ANTERIOR à sentença irrecorrível extingue a punibilidade; só a posterior reduz a pena de metade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Penal, art. 312, §§ 1º a 3º", "data": "1940-12-07" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pen-0013",
+      "tema": "Crimes funcionais: concussão, corrupção passiva e afins",
+      "enunciado": "Acerca dos crimes praticados por funcionário público contra a Administração em geral (arts. 312 a 327 do Código Penal), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Comete concussão o funcionário que solicita ou recebe, para si ou para outrem, vantagem indevida, ou aceita promessa de tal vantagem, em razão da função.",
+        "B": "Comete excesso de exação o funcionário que exige tributo ou contribuição social que sabe ou deveria saber indevido, ou, quando devido, emprega na cobrança meio vexatório ou gravoso que a lei não autoriza.",
+        "C": "Na corrupção passiva, a pena é aumentada de um terço se, em consequência da vantagem ou promessa, o funcionário retarda ou deixa de praticar qualquer ato de ofício ou o pratica infringindo dever funcional.",
+        "D": "Patrocinar, direta ou indiretamente, interesse privado perante a administração pública, valendo-se da qualidade de funcionário, é advocacia administrativa, punida mais gravemente se o interesse é ilegítimo.",
+        "E": "Dar às verbas ou rendas públicas aplicação diversa da estabelecida em lei configura o crime de emprego irregular de verbas ou rendas públicas."
+      },
+      "correta": "A",
+      "dica": "Compare os verbos nucleares: um dos crimes se caracteriza pela imposição da vantagem à vítima, e não por pedi-la ou aceitá-la.",
+      "explicacao": {
+        "A": "É a resposta. Solicitar, receber ou aceitar promessa de vantagem indevida são os verbos da CORRUPÇÃO PASSIVA (art. 317 do CP). A concussão (art. 316) tem como verbo EXIGIR vantagem indevida, ainda que fora da função ou antes de assumi-la, mas em razão dela.",
+        "B": "Correta a afirmação. É o art. 316, § 1º, do CP (excesso de exação), punido com reclusão de 3 a 8 anos e multa.",
+        "C": "Correta a afirmação. É o art. 317, § 1º, do CP (corrupção passiva exaurida ou majorada).",
+        "D": "Correta a afirmação. É o art. 321 do CP: detenção de um a três meses, ou multa; se o interesse é ilegítimo, detenção de três meses a um ano, além da multa (parágrafo único).",
+        "E": "Correta a afirmação. É o art. 315 do CP, punido com detenção de um a três meses, ou multa. Para o Prefeito há tipo específico no Decreto-Lei 201/1967 (art. 1º, III)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Penal, arts. 315, 316, 317 e 321", "data": "1940-12-07" },
+        { "tipo": "lei", "referencia": "Decreto-Lei 201/1967, art. 1º, III", "data": "1967-02-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pen-0014",
+      "tema": "Funcionário público para fins penais e perda do cargo",
+      "enunciado": "Analise as afirmativas abaixo, com base nos arts. 92 e 327 do Código Penal.\n\nI. Considera-se funcionário público, para os efeitos penais, quem, embora transitoriamente ou sem remuneração, exerce cargo, emprego ou função pública.\nII. Equipara-se a funcionário público quem trabalha para empresa prestadora de serviço contratada ou conveniada para a execução de atividade típica da Administração Pública.\nIII. A pena dos crimes praticados por funcionário público contra a Administração em geral será aumentada da terça parte quando os autores forem ocupantes de cargos em comissão ou de função de direção ou assessoramento de órgão da administração direta, sociedade de economia mista, empresa pública ou fundação instituída pelo poder público.\nIV. A perda do cargo, quando aplicada pena privativa de liberdade igual ou superior a um ano em crime praticado com abuso de poder ou violação de dever para com a Administração Pública, decorre automaticamente da condenação, sem necessidade de declaração na sentença.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I e IV estão corretas.",
+        "C": "Somente as afirmativas II e III estão corretas.",
+        "D": "Somente as afirmativas I, II e III estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "O conceito penal de funcionário público é amplo; já os efeitos extrapenais da condenação, como regra, precisam ser fundamentados pelo juiz.",
+      "explicacao": {
+        "D": "Correta. I reproduz o caput do art. 327 do CP; II, a parte final do § 1º; III, o § 2º. A IV está errada: pelo art. 92, § 1º, do CP, os efeitos do art. 92 não são automáticos e devem ser motivadamente declarados na sentença.",
+        "A": "Deixa de fora a III, que está correta: o art. 327, § 2º, do CP aumenta da terça parte a pena dos ocupantes de cargo em comissão ou função de direção ou assessoramento, inclusive em sociedade de economia mista e empresa pública.",
+        "B": "Inclui a IV, que está errada. A perda do cargo do art. 92, I, a, do CP depende de declaração motivada na sentença (§ 1º, incluído pela Lei 14.994/2024), embora independa de pedido expresso da acusação.",
+        "C": "Deixa de fora a I, que está correta: é o caput do art. 327 do CP, que considera funcionário público, para fins penais, até quem exerce a função transitoriamente ou sem remuneração.",
+        "E": "A IV está errada: o art. 92, § 1º, do CP diz que os efeitos da condenação nele previstos não são automáticos, devendo ser motivadamente declarados na sentença. A exceção do § 2º (efeitos automáticos) vale para crimes contra a mulher por razões da condição do sexo feminino e certos crimes do ECA, não para os crimes funcionais em geral."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Penal, art. 327, caput e §§ 1º e 2º", "data": "1940-12-07" },
+        { "tipo": "lei", "referencia": "Código Penal, art. 92, I, a, e § 1º (este incluído pela Lei 14.994/2024)", "data": "1940-12-07" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pen-0015",
+      "tema": "Crimes em licitações e contratos (CP, arts. 337-E a 337-P)",
+      "enunciado": "Sobre os crimes em licitações e contratos administrativos, inseridos no Código Penal pela Lei nº 14.133/2021 (arts. 337-E a 337-P), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Admitir, possibilitar ou dar causa à contratação direta fora das hipóteses previstas em lei é crime punido com reclusão de 4 a 8 anos e multa.",
+        "B": "Pagar fatura com preterição da ordem cronológica de sua exigibilidade é uma das condutas do crime de modificação ou pagamento irregular em contrato administrativo.",
+        "C": "No crime de afastamento de licitante, não é punido quem se abstém ou desiste de licitar em razão de vantagem oferecida, pois o tipo alcança apenas quem oferece a vantagem.",
+        "D": "Celebrar contrato com empresa ou profissional declarado inidôneo é punido mais gravemente do que apenas admiti-lo à licitação.",
+        "E": "A pena de multa cominada a esses crimes seguirá a metodologia de cálculo do Código Penal e não poderá ser inferior a 2% do valor do contrato licitado ou celebrado com contratação direta."
+      },
+      "correta": "C",
+      "dica": "No afastamento de licitante, a lei pune os dois lados do acerto.",
+      "explicacao": {
+        "C": "É a resposta. O parágrafo único do art. 337-K do CP diz que incorre na mesma pena quem se abstém ou desiste de licitar em razão de vantagem oferecida. São punidos tanto quem oferece quanto quem aceita sair da disputa.",
+        "A": "Correta a afirmação. É o art. 337-E do CP (contratação direta ilegal): reclusão de 4 a 8 anos e multa.",
+        "B": "Correta a afirmação. O art. 337-H do CP pune quem admite ou dá causa a modificação ou vantagem indevida ao contratado durante a execução do contrato, ou, ainda, paga fatura com preterição da ordem cronológica de exigibilidade.",
+        "D": "Correta a afirmação. Pelo art. 337-M do CP, admitir à licitação empresa ou profissional inidôneo: reclusão de 1 a 3 anos e multa; celebrar contrato com ele (§ 1º): reclusão de 3 a 6 anos e multa. O § 2º estende as penas ao próprio inidôneo que participa ou contrata.",
+        "E": "Correta a afirmação. É o art. 337-P do CP, que fixa o piso de 2% do valor do contrato para a multa desses crimes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Penal, arts. 337-E, 337-H, 337-K, 337-M e 337-P (incluídos pela Lei 14.133/2021)", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pen-0016",
+      "tema": "Crimes de responsabilidade dos Prefeitos (DL 201/1967)",
+      "enunciado": "Considerando o Decreto-Lei nº 201/1967, que dispõe sobre a responsabilidade dos Prefeitos, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os órgãos federais, estaduais ou municipais interessados na apuração da responsabilidade do Prefeito podem requerer a abertura do inquérito policial ou a instauração da ação penal pelo Ministério Público, bem como intervir, em qualquer fase do processo, como assistente da acusação.",
+        "B": "Os crimes de responsabilidade previstos no art. 1º somente podem ser julgados pelo Poder Judiciário após prévio pronunciamento da Câmara dos Vereadores.",
+        "C": "Os crimes definidos no art. 1º são de ação penal pública condicionada à representação da Câmara Municipal.",
+        "D": "A condenação definitiva em qualquer dos crimes do art. 1º acarreta a perda do cargo e a inabilitação, pelo prazo de oito anos, para o exercício de cargo ou função pública, eletivo ou de nomeação.",
+        "E": "Apropriar-se de bens ou rendas públicas, ou desviá-los em proveito próprio ou alheio, é punido com detenção de três meses a três anos."
+      },
+      "correta": "A",
+      "dica": "O Decreto-Lei abre ao próprio Município lesado um papel ativo na persecução penal do Prefeito.",
+      "explicacao": {
+        "A": "Correta. É o art. 2º, § 1º, do DL 201/1967. Para a Procuradoria do Município, é a base para requerer a investigação e atuar como assistente de acusação contra o Prefeito.",
+        "B": "O caput do art. 1º do DL 201/1967 diz que esses crimes estão sujeitos ao julgamento do Poder Judiciário INDEPENDENTEMENTE do pronunciamento da Câmara dos Vereadores.",
+        "C": "Pelo § 1º do art. 1º do DL 201/1967, os crimes nele definidos são de ação pública, sem qualquer condição de procedibilidade ligada à Câmara.",
+        "D": "O prazo de inabilitação do § 2º do art. 1º do DL 201/1967 é de CINCO anos, sem prejuízo da reparação civil do dano causado ao patrimônio público ou particular.",
+        "E": "Pelo § 1º do art. 1º do DL 201/1967, os crimes dos incisos I (apropriação ou desvio) e II (uso indevido de bens, rendas ou serviços) são punidos com RECLUSÃO de dois a doze anos; detenção de três meses a três anos é a pena dos demais incisos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 201/1967, arts. 1º e 2º, § 1º", "data": "1967-02-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pen-0017",
+      "tema": "Município como vítima: reparação do dano, ação civil e assistência",
+      "enunciado": "Um servidor desviou recursos de um Município e foi denunciado pelo Ministério Público. Considerando as disposições do Código de Processo Penal sobre a reparação do dano, a ação civil e o assistente de acusação, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O juiz, ao proferir sentença condenatória, fixará valor mínimo para reparação dos danos causados pela infração, considerando os prejuízos sofridos pelo ofendido.",
+        "B": "Transitada em julgado a sentença condenatória, a execução no juízo cível poderá ser efetuada pelo valor mínimo fixado na sentença, sem prejuízo da liquidação para a apuração do dano efetivamente sofrido.",
+        "C": "O Município, como ofendido, pode intervir como assistente do Ministério Público, sendo admitido enquanto não passar em julgado a sentença e recebendo a causa no estado em que se achar.",
+        "D": "O despacho de arquivamento do inquérito e a decisão que julgar extinta a punibilidade não impedem a propositura da ação civil para ressarcimento do dano.",
+        "E": "A sentença absolutória no juízo criminal impede, em qualquer caso, a propositura da ação civil de reparação do dano pelo Município."
+      },
+      "correta": "E",
+      "dica": "Só uma espécie de absolvição fecha a porta do juízo cível. Procure a alternativa que generaliza.",
+      "explicacao": {
+        "E": "É a resposta. Pelo art. 66 do CPP, não obstante a sentença absolutória, a ação civil poderá ser proposta quando não tiver sido, categoricamente, reconhecida a inexistência material do fato. E o art. 67, III, acrescenta que não impede a ação civil a sentença que decidir que o fato não constitui crime.",
+        "A": "Correta a afirmação. É o art. 387, IV, do CPP, na redação da Lei 11.719/2008.",
+        "B": "Correta a afirmação. É o parágrafo único do art. 63 do CPP: o valor mínimo fixado na sentença pode ser executado de imediato, e a liquidação permite buscar o dano integral.",
+        "C": "Correta a afirmação. São os arts. 268 e 269 do CPP. O MP é ouvido previamente sobre a admissão (art. 272) e não cabe recurso do despacho que admite ou não o assistente (art. 273).",
+        "D": "Correta a afirmação. É o art. 67, I e II, do CPP. As esferas penal e civil são independentes, salvo quando o juízo criminal decide categoricamente sobre a existência do fato."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código de Processo Penal, arts. 63, 66, 67, 268, 269, 272, 273 e 387, IV", "data": "1941-10-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

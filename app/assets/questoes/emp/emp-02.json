@@ -1,0 +1,113 @@
+{
+  "versaoFormato": 1,
+  "materia": "emp",
+  "unidade": {
+    "id": "emp-02",
+    "titulo": "Sociedades: personalidade, tipos, S.A. e estatais",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "emp-0004",
+      "tema": "Desconsideração da personalidade jurídica, inclusive inversa (CC, art. 50)",
+      "enunciado": "Acerca da personalidade jurídica e de sua desconsideração, nos termos dos arts. 49-A e 50 do Código Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O juiz pode desconsiderar a personalidade jurídica de ofício sempre que verificar a insolvência da sociedade.",
+        "B": "A mera existência de grupo econômico autoriza a desconsideração da personalidade jurídica das sociedades que o integram.",
+        "C": "Constitui desvio de finalidade a mera expansão ou a alteração da finalidade original da atividade econômica específica da pessoa jurídica.",
+        "D": "As regras de desconsideração do art. 50 aplicam-se também à extensão das obrigações de sócios ou de administradores à pessoa jurídica.",
+        "E": "Desconsiderada a personalidade jurídica, os efeitos das obrigações estendem-se aos bens particulares de todos os sócios, independentemente de terem sido beneficiados pelo abuso."
+      },
+      "correta": "D",
+      "dica": "Desde 2019, o art. 50 tem cinco parágrafos; um deles admite que a desconsideração funcione no sentido contrário ao tradicional.",
+      "explicacao": {
+        "D": "Correta. É o art. 50, § 3º, do CC (incluído pela Lei 13.874/2019), que positivou a chamada desconsideração inversa: os bens da pessoa jurídica respondem por obrigações do sócio ou administrador, presentes os mesmos requisitos de abuso.",
+        "A": "O caput do art. 50 do CC exige requerimento da parte ou do Ministério Público, quando lhe couber intervir, e abuso da personalidade (desvio de finalidade ou confusão patrimonial). Insolvência, por si só, não basta, e não há desconsideração de ofício nesse dispositivo.",
+        "B": "O art. 50, § 4º, do CC diz que a mera existência de grupo econômico, sem os requisitos do caput, NÃO autoriza a desconsideração.",
+        "C": "O art. 50, § 5º, do CC diz que NÃO constitui desvio de finalidade a mera expansão ou a alteração da finalidade original da atividade econômica específica da pessoa jurídica.",
+        "E": "O caput do art. 50 do CC limita a extensão aos bens particulares de administradores ou de sócios BENEFICIADOS direta ou indiretamente pelo abuso. A regra reforça o art. 49-A: a pessoa jurídica não se confunde com seus sócios."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 49-A e 50 (redação da Lei 13.874/2019)", "data": "2019-09-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0005",
+      "tema": "Sociedade em comum e sociedade limitada",
+      "enunciado": "Sobre a sociedade em comum e a sociedade limitada, conforme o Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Na sociedade em comum, todos os sócios respondem solidária e ilimitadamente pelas obrigações sociais, excluído do benefício de ordem aquele que contratou pela sociedade.",
+        "B": "Na sociedade limitada, a responsabilidade de cada sócio é restrita ao valor de suas quotas, não respondendo os sócios, em nenhuma hipótese, pela integralização do capital subscrito pelos demais.",
+        "C": "A sociedade limitada pode ser constituída por uma ou mais pessoas.",
+        "D": "Na sociedade limitada, é vedada contribuição que consista em prestação de serviços.",
+        "E": "Os sócios, nas relações entre si ou com terceiros, somente por escrito podem provar a existência da sociedade em comum, mas os terceiros podem prová-la de qualquer modo."
+      },
+      "correta": "B",
+      "dica": "Leia o caput do art. 1.052 até o fim: a limitação da responsabilidade tem uma ressalva ligada ao capital social.",
+      "explicacao": {
+        "B": "É a resposta. O art. 1.052 do CC limita a responsabilidade de cada sócio ao valor de suas quotas, MAS todos respondem solidariamente pela integralização do capital social. Enquanto o capital não estiver integralizado, um sócio pode ser cobrado pelo que outro deixou de integralizar.",
+        "A": "Correta a afirmação. É o art. 990 do CC. Aquele que contratou pela sociedade em comum fica excluído do benefício de ordem previsto no art. 1.024, ao contrário dos demais sócios.",
+        "C": "Correta a afirmação. É o art. 1.052, § 1º, do CC, incluído pela Lei 13.874/2019, que admitiu a sociedade limitada unipessoal.",
+        "D": "Correta a afirmação. É o art. 1.055, § 2º, do CC. O sócio de serviço existe na sociedade simples, mas é vedado na limitada.",
+        "E": "Correta a afirmação. É o art. 987 do CC: a exigência de prova escrita vale para os sócios; terceiros podem provar a sociedade de qualquer modo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 987, 990, 1.052 e 1.055", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0006",
+      "tema": "S.A.: transformação, incorporação, fusão e responsabilidade do administrador",
+      "enunciado": "Analise as afirmativas abaixo, com base na Lei nº 6.404/1976.\n\nI. A incorporação é a operação pela qual uma ou mais sociedades são absorvidas por outra, que lhes sucede em todos os direitos e obrigações.\nII. A fusão é a operação pela qual a companhia transfere parcelas do seu patrimônio para uma ou mais sociedades, constituídas para esse fim ou já existentes.\nIII. A transformação é a operação pela qual a sociedade passa, independentemente de dissolução e liquidação, de um tipo para outro.\nIV. O administrador é pessoalmente responsável pelas obrigações que contrair em nome da sociedade e em virtude de ato regular de gestão.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente a afirmativa I está correta.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I e III estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Uma afirmativa descreve, com o nome trocado, outra operação societária; outra inverte a regra sobre atos regulares de gestão.",
+      "explicacao": {
+        "C": "Correta. I reproduz o art. 227 da Lei 6.404/1976 e III, o art. 220. II e IV estão erradas.",
+        "A": "Deixa de fora a III, que está correta: é o art. 220 da Lei 6.404/1976. A transformação não extingue a pessoa jurídica; ela apenas muda de tipo.",
+        "B": "As duas estão erradas. A II descreve a CISÃO (art. 229); a fusão é a união de duas ou mais sociedades para formar sociedade nova (art. 228). A IV contraria o art. 158: o administrador NÃO é pessoalmente responsável pelas obrigações que contrair em nome da sociedade em ato regular de gestão; responde pelos prejuízos se agir com culpa ou dolo ou violar a lei ou o estatuto.",
+        "D": "Inclui a IV, que está errada. Pelo art. 158 da Lei 6.404/1976, o administrador não responde pessoalmente pelas obrigações contraídas em ato regular de gestão; responde civilmente pelos prejuízos quando age com culpa ou dolo, ou com violação da lei ou do estatuto.",
+        "E": "A II descreve a cisão, e não a fusão (arts. 228 e 229 da Lei 6.404/1976), e a IV contraria o caput do art. 158."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.404/1976, arts. 158, 220, 227, 228 e 229", "data": "1976-12-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0007",
+      "tema": "Empresa pública e sociedade de economia mista",
+      "enunciado": "Considerando a Lei nº 13.303/2016 e as disposições da Lei nº 6.404/1976 sobre as companhias de economia mista, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Empresa pública é a entidade dotada de personalidade jurídica de direito privado, com criação autorizada por lei e com patrimônio próprio, cujo capital social é integralmente detido pela União, pelos Estados, pelo Distrito Federal ou pelos Municípios.",
+        "B": "Desde que a maioria do capital votante permaneça em propriedade do Município, admite-se no capital de empresa pública municipal a participação de outras pessoas jurídicas de direito público interno e de entidades da administração indireta.",
+        "C": "As companhias de economia mista terão obrigatoriamente Conselho de Administração, e nelas o funcionamento do conselho fiscal será permanente.",
+        "D": "A pessoa jurídica que controla a sociedade de economia mista tem os deveres e as responsabilidades do acionista controlador e deverá exercer o poder de controle no interesse da companhia, respeitado o interesse público que justificou sua criação.",
+        "E": "A sociedade de economia mista pode adotar qualquer tipo societário, desde que a maioria do capital votante pertença ao ente público, e sujeita-se à recuperação judicial e à falência reguladas pela Lei nº 11.101/2005."
+      },
+      "correta": "E",
+      "dica": "A forma societária da economia mista é fixada em lei, e a Lei de Falências tem um artigo que exclui certas entidades do seu alcance.",
+      "explicacao": {
+        "E": "É a resposta, por dois motivos. Pelos arts. 4º e 5º da Lei 13.303/2016, a sociedade de economia mista é constituída SOB A FORMA DE SOCIEDADE ANÔNIMA. E o art. 2º, I, da Lei 11.101/2005 diz que a lei de falências NÃO se aplica a empresa pública e sociedade de economia mista.",
+        "A": "Correta a afirmação. É o caput do art. 3º da Lei 13.303/2016. O traço distintivo é o capital integralmente público, ao passo que na economia mista basta a maioria das ações com direito a voto (art. 4º).",
+        "B": "Correta a afirmação. É o parágrafo único do art. 3º da Lei 13.303/2016: o capital continua integralmente público, ainda que dividido entre entes e entidades, desde que a maioria do capital votante fique com o ente instituidor.",
+        "C": "Correta a afirmação. São os arts. 239 e 240 da Lei 6.404/1976, que garantem ainda à minoria o direito de eleger um conselheiro de administração e um membro do conselho fiscal. A Lei 13.303/2016 (art. 13, IV) também prevê Conselho Fiscal de funcionamento permanente.",
+        "D": "Correta a afirmação. É o art. 4º, § 1º, da Lei 13.303/2016, que remete aos deveres do acionista controlador da Lei 6.404/1976 (arts. 116 e 117) e repete a ideia do art. 238 desta."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.303/2016, arts. 3º, 4º, 5º e 13, IV", "data": "2016-06-30" },
+        { "tipo": "lei", "referencia": "Lei 6.404/1976, arts. 238, 239 e 240", "data": "1976-12-15" },
+        { "tipo": "lei", "referencia": "Lei 11.101/2005, art. 2º, I", "data": "2005-02-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

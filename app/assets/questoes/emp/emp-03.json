@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "emp",
+  "unidade": {
+    "id": "emp-03",
+    "titulo": "Defesa da concorrência (Lei 12.529/2011)",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "emp-0008",
+      "tema": "Infrações da ordem econômica (Lei 12.529/2011, arts. 31 e 36)",
+      "enunciado": "De acordo com a Lei nº 12.529/2011, sobre as infrações da ordem econômica, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Constituem infração da ordem econômica, independentemente de culpa, os atos sob qualquer forma manifestados que tenham por objeto ou possam produzir os efeitos previstos na lei, ainda que não sejam alcançados.",
+        "B": "A lei aplica-se às pessoas físicas ou jurídicas de direito público ou privado, mesmo que exerçam atividade sob regime de monopólio legal.",
+        "C": "Acordar com concorrente, sob qualquer forma, preços, condições, vantagens ou abstenção em licitação pública caracteriza infração da ordem econômica, na medida em que configure hipótese prevista no caput do art. 36.",
+        "D": "A conquista de mercado resultante de processo natural fundado na maior eficiência de agente econômico em relação a seus competidores caracteriza o ilícito de dominação de mercado relevante.",
+        "E": "Presume-se posição dominante sempre que uma empresa ou grupo de empresas for capaz de alterar unilateral ou coordenadamente as condições de mercado ou quando controlar 20% ou mais do mercado relevante, percentual que pode ser alterado pelo Cade para setores específicos."
+      },
+      "correta": "D",
+      "dica": "A lei de defesa da concorrência não pune quem vence a disputa por ser melhor que os rivais.",
+      "explicacao": {
+        "D": "É a resposta. O art. 36, § 1º, da Lei 12.529/2011 diz que a conquista de mercado resultante de processo natural fundado na maior eficiência NÃO caracteriza o ilícito de dominação de mercado relevante (inciso II do caput).",
+        "A": "Correta a afirmação. É o caput do art. 36 da Lei 12.529/2011: a responsabilidade é objetiva (independe de culpa) e basta que o ato tenha por objeto ou possa produzir os efeitos, mesmo que não alcançados.",
+        "B": "Correta a afirmação. É o art. 31 da Lei 12.529/2011. Por isso, o próprio Município e suas entidades podem responder por infração à ordem econômica.",
+        "C": "Correta a afirmação. É o art. 36, § 3º, I, d, da Lei 12.529/2011 (cartel em licitação). Interessa ao Município, que pode ser vítima desse tipo de conluio.",
+        "E": "Correta a afirmação. É o art. 36, § 2º, da Lei 12.529/2011: a presunção de posição dominante se dá com 20% ou mais do mercado relevante, percentual alterável pelo Cade para setores específicos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.529/2011, arts. 31 e 36", "data": "2011-11-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0009",
+      "tema": "Controle de atos de concentração (Lei 12.529/2011, arts. 88 e 90)",
+      "enunciado": "Sobre o controle de atos de concentração econômica pelo Cade, nos termos dos arts. 88 e 90 da Lei nº 12.529/2011, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O controle dos atos de concentração de submissão obrigatória é prévio, e tais atos não podem ser consumados antes de apreciados, sob pena de nulidade, sendo ainda imposta multa pecuniária.",
+        "B": "A fusão de duas ou mais empresas anteriormente independentes não é considerada ato de concentração, submetendo-se apenas ao registro na Junta Comercial.",
+        "C": "O consórcio formado por duas ou mais empresas para participar de licitação promovida pela administração pública é ato de concentração de submissão obrigatória ao Cade.",
+        "D": "Os atos de concentração que possam criar ou reforçar posição dominante são proibidos e não podem ser autorizados em nenhuma hipótese.",
+        "E": "O controle dos atos de concentração deve ser realizado em, no máximo, 90 dias, contados do protocolo da petição, prazo que não admite dilação."
+      },
+      "correta": "A",
+      "dica": "A Lei 12.529/2011 trocou o controle posterior pelo controle prévio: primeiro o Cade aprova, depois as empresas fecham o negócio.",
+      "explicacao": {
+        "A": "Correta. É o art. 88, §§ 2º e 3º, da Lei 12.529/2011: o controle é prévio, e o ato consumado antes da apreciação é nulo, com multa e possibilidade de processo administrativo. O § 4º exige ainda que as condições de concorrência sejam preservadas até a decisão final.",
+        "B": "Pelo art. 90, I, da Lei 12.529/2011, realiza-se ato de concentração quando duas ou mais empresas anteriormente independentes se fundem.",
+        "C": "O parágrafo único do art. 90 da Lei 12.529/2011 exclui do conceito de ato de concentração os contratos associativos, consórcios e joint ventures destinados às licitações promovidas pela administração pública direta e indireta e aos contratos delas decorrentes.",
+        "D": "O art. 88, § 6º, da Lei 12.529/2011 permite autorizar esses atos, nos limites estritamente necessários, quando aumentem a produtividade ou a competitividade, melhorem a qualidade ou propiciem eficiência e desenvolvimento, e desde que parte relevante dos benefícios seja repassada aos consumidores.",
+        "E": "O prazo do art. 88, § 2º, da Lei 12.529/2011 é de, no máximo, 240 dias, e o § 9º admite dilação por até 60 dias a pedido das partes ou por até 90 dias por decisão fundamentada do Tribunal."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.529/2011, arts. 88 e 90", "data": "2011-11-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0010",
+      "tema": "Cade, multas e prescrição (Lei 12.529/2011, arts. 4º, 37 e 46)",
+      "enunciado": "Considerando a natureza do Cade e as penalidades previstas na Lei nº 12.529/2011, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Cade é órgão sem personalidade jurídica, integrante da estrutura do Ministério da Fazenda.",
+        "B": "No caso de empresa, a multa por infração da ordem econômica será de 0,1% a 20% do valor do faturamento bruto da empresa, grupo ou conglomerado, obtido no último exercício anterior à instauração do processo administrativo, no ramo de atividade em que ocorreu a infração, e nunca será inferior à vantagem auferida, quando for possível sua estimação.",
+        "C": "O administrador direta ou indiretamente responsável pela infração responde independentemente de culpa ou dolo, com multa de 1% a 20% daquela aplicada à empresa.",
+        "D": "Em caso de reincidência, as multas cominadas serão aplicadas em triplo.",
+        "E": "Prescrevem em 10 anos as ações punitivas da administração pública federal destinadas a apurar infrações da ordem econômica, contados da data da prática do ilícito."
+      },
+      "correta": "B",
+      "dica": "A responsabilidade da empresa é objetiva, mas a do administrador pessoa física não é; e o prazo de prescrição é o mesmo da regra geral das ações punitivas federais.",
+      "explicacao": {
+        "B": "Correta. É o art. 37, I, da Lei 12.529/2011. O piso (vantagem auferida) impede que a infração compense financeiramente.",
+        "A": "Pelo art. 4º da Lei 12.529/2011, o Cade é entidade judicante com jurisdição em todo o território nacional, constituída como AUTARQUIA FEDERAL (logo, com personalidade jurídica), vinculada ao Ministério da Justiça, com sede e foro no Distrito Federal.",
+        "C": "O art. 37, III, da Lei 12.529/2011 exige que seja comprovada a culpa ou o dolo do administrador. A responsabilidade independente de culpa (art. 36) é a da pessoa que pratica a infração, não a do administrador.",
+        "D": "Pelo art. 37, § 1º, da Lei 12.529/2011, em caso de reincidência as multas são aplicadas em DOBRO.",
+        "E": "O art. 46 da Lei 12.529/2011 fixa a prescrição em 5 anos, contados da prática do ilícito ou, na infração permanente ou continuada, do dia em que cessar a prática. Se o fato também for crime, vale o prazo da lei penal (§ 4º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.529/2011, arts. 4º, 37 e 46", "data": "2011-11-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "emp",
+  "unidade": {
+    "id": "emp-04",
+    "titulo": "Falência e recuperação de empresas; créditos da Fazenda Pública",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "emp-0011",
+      "tema": "Classificação dos créditos na falência e crédito tributário",
+      "enunciado": "Sobre a classificação dos créditos na falência, considerando a Lei nº 11.101/2005, com as alterações da Lei nº 14.112/2020, e o Código Tributário Nacional, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Os créditos derivados da legislação trabalhista são classificados em primeiro lugar, limitados a 150 salários-mínimos por credor, e os saldos que excederem esse limite são quirografários.",
+        "B": "Os créditos tributários, independentemente da sua natureza e do tempo de constituição, são classificados logo após os créditos com garantia real até o limite do valor do bem gravado, excetuados os créditos extraconcursais e as multas tributárias.",
+        "C": "As multas tributárias integram a classe dos créditos tributários e, por isso, são pagas antes dos créditos quirografários.",
+        "D": "Os tributos relativos a fatos geradores ocorridos após a decretação da falência são créditos extraconcursais, pagos com precedência sobre os créditos do art. 83.",
+        "E": "Na falência, o crédito tributário não prefere aos créditos extraconcursais ou às importâncias passíveis de restituição, nem aos créditos com garantia real, no limite do valor do bem gravado."
+      },
+      "correta": "C",
+      "dica": "Na falência, a lei separa o tributo da sanção: o tributo tem classe privilegiada, a punição vai para o fim da fila.",
+      "explicacao": {
+        "C": "É a resposta. O art. 83, III, da Lei 11.101/2005 exclui as multas tributárias da classe dos créditos tributários, e o inciso VII as coloca, junto com as multas contratuais e as penas pecuniárias, DEPOIS dos quirografários (inciso VI). O CTN diz o mesmo: na falência, a multa tributária prefere apenas aos créditos subordinados (art. 186, parágrafo único, III).",
+        "A": "Correta a afirmação. É o art. 83, I, combinado com o inciso VI, c, da Lei 11.101/2005: o excedente aos 150 salários-mínimos vira crédito quirografário. Os créditos de acidente de trabalho também estão no inciso I.",
+        "B": "Correta a afirmação. É o art. 83, III, da Lei 11.101/2005, na redação da Lei 14.112/2020: os créditos tributários vêm na terceira posição, depois dos trabalhistas (I) e dos com garantia real (II).",
+        "D": "Correta a afirmação. É o art. 84, V, da Lei 11.101/2005 (respeitada, entre eles, a ordem do art. 83) e o art. 188 do CTN, que considera extraconcursais os créditos tributários decorrentes de fatos geradores ocorridos no curso do processo de falência.",
+        "E": "Correta a afirmação. É o art. 186, parágrafo único, I, do CTN, incluído pela LC 118/2005, em harmonia com a ordem dos arts. 83 e 84 da Lei 11.101/2005."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.101/2005, arts. 83 e 84 (redação da Lei 14.112/2020)", "data": "2020-12-24" },
+        { "tipo": "lei", "referencia": "Código Tributário Nacional, arts. 186 e 188 (redação da LC 118/2005)", "data": "2005-02-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0012",
+      "tema": "Execução fiscal na recuperação judicial e na falência",
+      "enunciado": "Analise as afirmativas abaixo sobre a relação entre a execução fiscal e os processos de recuperação judicial e de falência, nos termos da Lei nº 11.101/2005, com as alterações da Lei nº 14.112/2020.\n\nI. O deferimento do processamento da recuperação judicial não suspende as execuções fiscais, admitida a competência do juízo da recuperação para determinar a substituição dos atos de constrição que recaiam sobre bens de capital essenciais à manutenção da atividade empresarial até o encerramento da recuperação judicial.\nII. Na falência, o juiz instaurará, de ofício, para cada Fazenda Pública credora, incidente de classificação de crédito público e determinará sua intimação eletrônica para que, no prazo de 30 dias, apresente a relação completa de seus créditos inscritos em dívida ativa.\nIII. No incidente de classificação de crédito público, a decisão sobre a existência, a exigibilidade e o valor do crédito compete ao juízo falimentar.\nIV. Na falência, as execuções fiscais permanecerão suspensas até o encerramento da falência, sem prejuízo da possibilidade de prosseguimento contra os corresponsáveis.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "No incidente de crédito público, a lei divide o trabalho entre dois juízos: um cuida de classificar e pagar; o outro, de dizer se a dívida existe e quanto vale.",
+      "explicacao": {
+        "D": "Correta. I reproduz o art. 6º, § 7º-B; II, o caput do art. 7º-A; IV, o art. 7º-A, § 4º, V, todos da Lei 11.101/2005. A III está errada.",
+        "A": "Deixa de fora a IV, que está correta: pelo art. 7º-A, § 4º, V, da Lei 11.101/2005, as execuções fiscais ficam suspensas até o encerramento da falência, podendo prosseguir contra os corresponsáveis.",
+        "B": "Inclui a III, que está errada. Pelo art. 7º-A, § 4º, II, da Lei 11.101/2005, a decisão sobre a existência, a exigibilidade e o valor do crédito compete ao JUÍZO DA EXECUÇÃO FISCAL; ao juízo falimentar cabem os cálculos e a classificação para os fins da lei, a arrecadação, a realização do ativo e o pagamento (inciso I).",
+        "C": "Inclui a III, que está errada (art. 7º-A, § 4º, II: a existência, exigibilidade e valor do crédito são decididos pelo juízo da execução fiscal), e deixa de fora a II, que reproduz o caput do art. 7º-A.",
+        "E": "A III está errada: o art. 7º-A, § 4º, II, da Lei 11.101/2005 atribui ao juízo da execução fiscal, e não ao falimentar, a decisão sobre existência, exigibilidade e valor do crédito público."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.101/2005, arts. 6º, § 7º-B, e 7º-A (incluídos pela Lei 14.112/2020)", "data": "2020-12-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0013",
+      "tema": "Recuperação judicial: requisitos, plano e suspensão",
+      "enunciado": "Uma sociedade empresária que exerce regularmente suas atividades há três anos pretende requerer recuperação judicial. Considerando a Lei nº 11.101/2005, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O plano de recuperação deverá ser apresentado no prazo de 90 dias da publicação da decisão que deferir o processamento, prorrogável uma vez por igual período.",
+        "B": "Deferido o processamento, a devedora não poderá desistir do pedido de recuperação judicial, salvo se obtiver aprovação da desistência na assembleia-geral de credores.",
+        "C": "Estão sujeitos à recuperação judicial apenas os créditos já vencidos na data do pedido.",
+        "D": "A suspensão das execuções contra a devedora perdura por 180 dias, contados do deferimento do processamento, prorrogável sucessivamente enquanto o plano não for votado.",
+        "E": "A devedora não poderá requerer recuperação judicial se tiver obtido concessão de recuperação judicial há menos de 8 anos."
+      },
+      "correta": "B",
+      "dica": "Uma vez deferido o processamento, a recuperação deixa de ser assunto só do devedor: os credores passam a ter voz sobre o destino do pedido.",
+      "explicacao": {
+        "B": "Correta. É o art. 52, § 4º, da Lei 11.101/2005. Depois do deferimento, a desistência depende da aprovação da assembleia-geral de credores.",
+        "A": "Pelo art. 53 da Lei 11.101/2005, o plano deve ser apresentado no prazo IMPRORROGÁVEL de 60 dias da publicação da decisão que deferir o processamento, sob pena de convolação em falência (art. 73, II).",
+        "C": "O art. 49 da Lei 11.101/2005 sujeita à recuperação todos os créditos existentes na data do pedido, AINDA QUE NÃO VENCIDOS (ressalvadas as exceções dos §§ 3º e 4º, como a alienação fiduciária).",
+        "D": "Pelo art. 6º, § 4º, da Lei 11.101/2005, a suspensão dura 180 dias, prorrogável por igual período UMA ÚNICA VEZ, em caráter excepcional, desde que o devedor não tenha concorrido com a superação do prazo.",
+        "E": "O art. 48, II, da Lei 11.101/2005 impede o pedido de quem obteve concessão de recuperação judicial há menos de 5 anos. Os demais requisitos incluem mais de 2 anos de atividade regular, que a devedora do enunciado cumpre."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.101/2005, arts. 6º, § 4º, 48, 49, 52, § 4º, 53 e 73", "data": "2005-02-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0014",
+      "tema": "Atos ineficazes e revogáveis; pedido de restituição",
+      "enunciado": "Acerca dos atos ineficazes e revogáveis e do pedido de restituição na falência, nos termos da Lei nº 11.101/2005, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É ineficaz em relação à massa falida, tenha ou não o contratante conhecimento do estado de crise econômico-financeira do devedor, o pagamento de dívidas não vencidas realizado pelo devedor dentro do termo legal.",
+        "B": "É ineficaz em relação à massa falida a prática de atos a título gratuito desde 2 anos antes da decretação da falência.",
+        "C": "A ineficácia dos atos do art. 129 poderá ser declarada de ofício pelo juiz, alegada em defesa ou pleiteada mediante ação própria ou incidentalmente no curso do processo.",
+        "D": "Pode ser pedida a restituição de coisa vendida a crédito e entregue ao devedor nos 15 dias anteriores ao requerimento de sua falência, se ainda não alienada.",
+        "E": "A ação revocatória, que exige prova do conluio fraudulento entre o devedor e o terceiro e do efetivo prejuízo à massa, só pode ser proposta pelo administrador judicial, no prazo de 1 ano contado da decretação da falência."
+      },
+      "correta": "E",
+      "dica": "Compare a legitimidade e o prazo da revocatória com a importância de proteger todos os credores.",
+      "explicacao": {
+        "E": "É a resposta. Pelo art. 132 da Lei 11.101/2005, a ação revocatória pode ser proposta pelo administrador judicial, por QUALQUER CREDOR ou pelo MINISTÉRIO PÚBLICO, no prazo de 3 ANOS contado da decretação da falência. A exigência de conluio e prejuízo está correta (art. 130).",
+        "A": "Correta a afirmação. É o art. 129, I, da Lei 11.101/2005. Na ineficácia objetiva, pouco importam o conhecimento da crise ou a intenção de fraudar.",
+        "B": "Correta a afirmação. É o art. 129, IV, da Lei 11.101/2005. O mesmo prazo de 2 anos vale para a renúncia à herança ou a legado (inciso V).",
+        "C": "Correta a afirmação. É o parágrafo único do art. 129 da Lei 11.101/2005, que dispensa a ação revocatória para os casos de ineficácia objetiva.",
+        "D": "Correta a afirmação. É o parágrafo único do art. 85 da Lei 11.101/2005. O caput admite ainda a restituição pelo proprietário de bem arrecadado ou em poder do devedor na data da falência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.101/2005, arts. 85, 129, 130 e 132", "data": "2005-02-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
