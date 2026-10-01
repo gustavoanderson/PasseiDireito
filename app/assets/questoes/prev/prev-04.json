@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-04",
+    "titulo": "RPPS de Curitiba: IPMC, filiação e segregação de massa",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "prev-0008",
+      "tema": "Estrutura do IPMC (Lei Municipal 9.626/1999)",
+      "enunciado": "De acordo com a Lei Municipal nº 9.626/1999, que dispõe sobre o Sistema de Seguridade Social dos Servidores do Município de Curitiba, assinale a alternativa INCORRETA quanto ao Instituto de Previdência dos Servidores do Município de Curitiba (IPMC).",
+      "alternativas": {
+        "A": "O IPMC tem personalidade jurídica autárquica, sede e foro na Cidade de Curitiba e duração indeterminada, cabendo-lhe a execução do Regime Próprio de Previdência Social dos servidores públicos municipais.",
+        "B": "O Diretor-Presidente do IPMC participa das reuniões do Conselho de Administração com direito a voz e voto.",
+        "C": "O Conselho de Administração é composto por sete membros, entre os quais um Conselheiro indicado pela Câmara Municipal de Curitiba.",
+        "D": "O Conselho Fiscal, órgão de controle interno, é composto por cinco membros.",
+        "E": "O ato de concessão do benefício previdenciário de aposentadoria ou pensão será publicado no Diário Oficial e encaminhado à apreciação do Tribunal de Contas do Estado."
+      },
+      "correta": "B",
+      "dica": "O art. 17, § 3º, separa quem dirige o Instituto de quem delibera no Conselho.",
+      "explicacao": {
+        "B": "É a resposta, porque a alternativa está errada. Pelo art. 17, § 3º, da Lei 9.626/1999, o Diretor-Presidente do IPMC participa das reuniões do Conselho de Administração com direito a voz, MAS SEM DIREITO A VOTO. Quem tem voz e voto, inclusive o de desempate, é o Presidente do Conselho (§ 2º).",
+        "A": "Correta. É o art. 15 da Lei 9.626/1999, que mudou o nome do antigo instituto de previdência e assistência para Instituto de Previdência dos Servidores do Município de Curitiba – IPMC.",
+        "C": "Correta. É o art. 17 da Lei 9.626/1999: presidente escolhido pelo Prefeito e mais seis conselheiros, um deles indicado pela Câmara Municipal (inciso VII).",
+        "D": "Correta. É o art. 19 da Lei 9.626/1999, combinado com o art. 16, III, que define o Conselho Fiscal como órgão de controle interno.",
+        "E": "Correta. É o art. 30 da Lei 9.626/1999. O registro pelo Tribunal de Contas decorre do art. 71, III, da CF, aplicado aos Municípios pelo art. 75."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal 9.626/1999 (Curitiba), arts. 15, 16, 17, 19 e 30", "data": "1999-07-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0009",
+      "tema": "Filiação ao RPPS de Curitiba, unicidade e servidor cedido ou licenciado",
+      "enunciado": "Considere as assertivas abaixo, sobre o Regime Próprio de Previdência Social dos servidores do Município de Curitiba, à luz da Lei Complementar Municipal nº 133/2021 e da Lei Municipal nº 12.072/2006.\n\nI. Agentes públicos regidos pela legislação do trabalho, temporários de qualquer espécie, empregados públicos, agentes políticos e comissionados sem vínculo efetivo com o Município não poderão, nem seus dependentes e pensionistas, vincular-se ao RPPS.\nII. Admite-se a existência de mais de um RPPS no Município, desde que a Câmara Municipal institua regime próprio para os seus servidores.\nIII. O servidor titular de cargo efetivo filiado ao RPPS municipal permanece vinculado a esse regime quando cedido a outro ente federativo.\nIV. O servidor em licença sem vencimentos que deixar de recolher diretamente ao IPMC as contribuições previdenciárias terá o período normalmente computado como tempo de contribuição.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I, III e IV estão corretas.",
+        "D": "Somente as assertivas I e III estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "A LC 133/2021 repete a vedação constitucional de mais de um regime próprio por ente, e a Lei 12.072/2006 diz o que acontece com o tempo de quem não recolhe durante a licença.",
+      "explicacao": {
+        "D": "Correta. A assertiva I reproduz o art. 3º, § 2º, da LC 133/2021; a III, o art. 11, II, da Lei 12.072/2006 (no mesmo sentido, o art. 1º-A da Lei federal 9.717/1998). As assertivas II e IV estão erradas.",
+        "A": "A assertiva II está errada: o art. 4º, § 1º, da LC 133/2021 veda a existência de mais de um RPPS no Município, e o IPMC é o único responsável pela gestão do regime, que abrange também a Câmara Municipal (art. 3º, I). É a regra do art. 40, § 20, da CF.",
+        "B": "As duas assertivas estão erradas. A II contraria o art. 4º, § 1º, da LC 133/2021 (vedação de mais de um RPPS); a IV contraria os arts. 16 e 19 da Lei 12.072/2006, pelos quais o servidor em licença sem vencimentos deve recolher diretamente ao IPMC, e quem não recolhe tem interrompida a contagem do tempo de contribuição até a regularização.",
+        "C": "A assertiva IV está errada: pelo art. 19 da Lei 12.072/2006, o servidor que não efetivar o recolhimento terá interrompida a contagem do seu tempo de contribuição até a regularização. O art. 18 ainda exige a comprovação da regularidade das contribuições para requerer qualquer benefício.",
+        "E": "As assertivas II e IV estão erradas: o Município só pode ter um RPPS (art. 4º, § 1º, da LC 133/2021), e a falta de recolhimento durante a licença sem vencimentos interrompe a contagem do tempo de contribuição (art. 19 da Lei 12.072/2006)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar 133/2021 de Curitiba, arts. 3º e 4º", "data": "2021-12-15" },
+        { "tipo": "lei", "referencia": "Lei Municipal 12.072/2006 (Curitiba), arts. 11, 16, 18 e 19", "data": "2006-12-19" },
+        { "tipo": "lei", "referencia": "Lei 9.717/1998, art. 1º-A", "data": "1998-11-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0010",
+      "tema": "Segregação de massa do RPPS de Curitiba (LC 147/2025)",
+      "enunciado": "A Lei Complementar Municipal nº 147/2025 alterou a Lei Complementar nº 133/2021 e instituiu a segregação de massa no Regime Próprio de Previdência Social dos servidores do Município de Curitiba. Sobre o tema, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Fundo Previdenciário (FP-CURITIBA) é estruturado sob o regime de repartição simples, e o Fundo Financeiro (FF-CURITIBA), sob o regime de capitalização.",
+        "B": "Integram o FP-CURITIBA os segurados ativos admitidos no serviço público municipal até 31/12/2007, que nele permanecem após se aposentarem.",
+        "C": "O FP-CURITIBA possui caráter permanente e continuado, enquanto o FF-CURITIBA será extinto automaticamente quando cessado o pagamento do último benefício sob seu encargo.",
+        "D": "Havendo insuficiência de recursos no FF-CURITIBA, admite-se a transferência de recursos do FP-CURITIBA para o pagamento da folha de benefícios.",
+        "E": "A alteração dos parâmetros ou a extinção da segregação de massa pode ser feita por decreto do Prefeito, desde que precedida de avaliação atuarial."
+      },
+      "correta": "C",
+      "dica": "Um fundo acumula reservas para o futuro; o outro paga com as receitas do mês e tem data para acabar.",
+      "explicacao": {
+        "C": "Correta. É o art. 2º-B, § 4º, da LC 133/2021, incluído pela LC 147/2025. O FF-CURITIBA reúne a massa mais antiga e se encerra com o último benefício; o FP-CURITIBA, capitalizado, é permanente.",
+        "A": "Os regimes financeiros foram trocados. Pelo art. 2º-A, § 1º, da LC 133/2021 (LC 147/2025), o FP-CURITIBA é estruturado sob o regime de CAPITALIZAÇÃO, e o FF-CURITIBA, sob o regime de REPARTIÇÃO SIMPLES.",
+        "B": "Pelo art. 2º-B, § 1º, I, integram o FP-CURITIBA os segurados ativos admitidos A PARTIR de 31/12/2007. Os servidores ativos não abrangidos por essa regra vão para o FF-CURITIBA (§ 2º, I).",
+        "D": "O art. 5º da LC 147/2025 veda a transferência de recursos ou obrigações entre o FP-CURITIBA e o FF-CURITIBA, em nenhuma hipótese. A insuficiência do FF-CURITIBA é coberta pelo Município, por repasses ou aportes (art. 33, II, e, e art. 34, § 2º, da LC 133/2021, na redação da LC 147/2025).",
+        "E": "Pelo art. 2º-A, § 3º, da LC 133/2021 (LC 147/2025), a alteração dos parâmetros ou a extinção da segregação somente pode ocorrer por LEI COMPLEMENTAR específica, com demonstração técnica do equilíbrio financeiro e atuarial e anuência dos órgãos competentes municipais e federais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar 147/2025 de Curitiba (arts. 2º-A e 2º-B da LC 133/2021; art. 5º)", "data": "2025-06-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

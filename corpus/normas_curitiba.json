@@ -480,6 +480,20 @@
       "numero": 15072,
       "ano": 2017,
       "titulo": "Lei 15.072/2017 (Curitiba Prev)"
+    },
+    {
+      "id": "lc-133-2021",
+      "tipo": "lei-complementar",
+      "numero": 133,
+      "ano": 2021,
+      "titulo": "LC 133/2021 (reforma da previdência de Curitiba; fora do edital, mas é ela que rege benefícios e alíquotas do RPPS)"
+    },
+    {
+      "id": "lc-147-2025",
+      "tipo": "lei-complementar",
+      "numero": 147,
+      "ano": 2025,
+      "titulo": "LC 147/2025 (segregação de massa e alíquota patronal do RPPS; não incorporada ao compilado da LC 133)"
     }
   ]
 }

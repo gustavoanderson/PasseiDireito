@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-02",
+    "titulo": "RGPS: segurados, filiação, custeio e benefícios",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "prev-0003",
+      "tema": "Manutenção da qualidade de segurado – período de graça (art. 15 da Lei 8.213/1991)",
+      "enunciado": "Sobre a manutenção da qualidade de segurado do Regime Geral de Previdência Social independentemente de contribuições (período de graça), nos termos do art. 15 da Lei nº 8.213/1991, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Mantém a qualidade de segurado, sem limite de prazo, quem está em gozo de qualquer benefício, inclusive do auxílio-acidente.",
+        "B": "O prazo de 12 meses após a cessação das contribuições será prorrogado para até 36 meses se o segurado já tiver pago mais de 120 contribuições mensais sem interrupção que acarrete a perda da qualidade de segurado.",
+        "C": "O prazo do segurado que deixar de exercer atividade remunerada será acrescido de 6 meses para o segurado desempregado, desde que comprovada essa situação pelo registro no órgão próprio.",
+        "D": "O segurado retido ou recluso mantém a qualidade de segurado até 6 meses após o livramento.",
+        "E": "O segurado facultativo mantém a qualidade de segurado até 6 meses após a cessação das contribuições."
+      },
+      "correta": "E",
+      "dica": "Confira os números de meses de cada inciso do art. 15 e dos §§ 1º e 2º: o segurado facultativo, que contribui por opção, tem um dos períodos de graça mais curtos.",
+      "explicacao": {
+        "E": "Correta. É o art. 15, VI, da Lei 8.213/1991. Durante o período de graça, o segurado conserva todos os seus direitos perante a Previdência Social (§ 3º).",
+        "A": "O art. 15, I (redação da Lei 13.846/2019), mantém sem limite de prazo quem está em gozo de benefício, EXCETO do auxílio-acidente.",
+        "B": "Pelo § 1º do art. 15, a prorrogação é para até 24 (vinte e quatro) meses, e não 36. Os 36 meses só podem ser alcançados somando o acréscimo de 12 meses do desempregado (§ 2º).",
+        "C": "Pelo § 2º do art. 15, o acréscimo para o desempregado, comprovada a situação pelo registro no órgão próprio do Ministério do Trabalho e da Previdência Social, é de 12 (doze) meses, e não de 6.",
+        "D": "Pelo art. 15, IV, o segurado retido ou recluso mantém a qualidade de segurado até 12 (doze) meses após o livramento."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.213/1991, art. 15", "data": "1991-07-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0004",
+      "tema": "RGPS na Constituição e prestações sem carência",
+      "enunciado": "Acerca do Regime Geral de Previdência Social, considerando o art. 201 da Constituição Federal e a Lei nº 8.213/1991, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É vedada a filiação ao Regime Geral de Previdência Social, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência.",
+        "B": "Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo.",
+        "C": "Independe de carência a concessão de pensão por morte, salário-família e auxílio-acidente.",
+        "D": "O salário-maternidade da segurada empregada depende do cumprimento de carência de dez contribuições mensais.",
+        "E": "É assegurada aposentadoria no RGPS aos 65 anos de idade, se homem, e aos 62 anos de idade, se mulher, observado tempo mínimo de contribuição."
+      },
+      "correta": "D",
+      "dica": "O art. 26 da Lei 8.213/1991 lista as prestações que independem de carência; confira se a segurada empregada está entre elas.",
+      "explicacao": {
+        "D": "É a resposta, porque a alternativa está errada. O art. 26, VI, da Lei 8.213/1991 dispensa a carência do salário-maternidade para as seguradas empregada, trabalhadora avulsa e empregada doméstica.",
+        "A": "Correta. É o art. 201, § 5º, da CF (redação da EC 20/1998): quem participa de regime próprio não pode filiar-se ao RGPS como facultativo.",
+        "B": "Correta. É o art. 201, § 2º, da CF. A garantia vale para benefícios substitutivos da renda, como aposentadorias e pensão.",
+        "C": "Correta. É o art. 26, I, da Lei 8.213/1991, com redação da Lei 13.846/2019.",
+        "E": "Correta. É o art. 201, § 7º, I, da CF, com redação da EC 103/2019. O tempo mínimo de contribuição fica a cargo da lei."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 201, §§ 2º, 5º e 7º, I (EC 20/1998 e EC 103/2019)", "data": "2019-11-12" },
+        { "tipo": "lei", "referencia": "Lei 8.213/1991, art. 26, I e VI", "data": "1991-07-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

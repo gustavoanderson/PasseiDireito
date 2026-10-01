@@ -1,0 +1,65 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-07",
+    "titulo": "Processo do trabalho: competência, Fazenda Pública, recursos e prescrição",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "trab-0013",
+      "tema": "Prerrogativas da Fazenda Pública no processo do trabalho (DL 779/1969)",
+      "enunciado": "O Município de Curitiba foi demandado em reclamação trabalhista por empregado público celetista. Considerando o Decreto-Lei nº 779/1969 e a Consolidação das Leis do Trabalho, assinale a alternativa INCORRETA quanto às prerrogativas do Município nesse processo.",
+      "alternativas": {
+        "A": "O Município goza do quádruplo do prazo fixado no art. 841, in fine, da CLT, entre o recebimento da notificação e a audiência.",
+        "B": "O Município tem prazo em dobro para recurso.",
+        "C": "O Município está dispensado do depósito para interposição de recurso.",
+        "D": "O Município é isento do pagamento de custas, o que não o exime da obrigação de reembolsar as despesas judiciais realizadas pela parte vencedora.",
+        "E": "Sendo o valor da causa inferior a quarenta salários mínimos, a reclamação seguirá o procedimento sumaríssimo, como ocorre com qualquer reclamado."
+      },
+      "correta": "E",
+      "dica": "O art. 852-A da CLT tem um parágrafo único que exclui certos réus do rito mais rápido.",
+      "explicacao": {
+        "E": "É a resposta, porque a alternativa está errada. O parágrafo único do art. 852-A da CLT exclui do procedimento sumaríssimo as demandas em que é parte a Administração Pública direta, autárquica e fundacional. A causa contra o Município segue o rito ordinário, qualquer que seja o valor.",
+        "A": "Correta. É o art. 1º, II, do DL 779/1969. O art. 841 da CLT manda designar a audiência para a primeira data desimpedida depois de 5 dias da notificação; para a Fazenda, esse intervalo mínimo é quadruplicado (20 dias).",
+        "B": "Correta. É o art. 1º, III, do DL 779/1969. Como o prazo recursal trabalhista é de 8 dias (art. 895 da CLT), o Município recorre em 16 dias.",
+        "C": "Correta. É o art. 1º, IV, do DL 779/1969: a Fazenda Pública não faz o depósito recursal do art. 899 da CLT.",
+        "D": "Correta. É o art. 790-A, I e parágrafo único, da CLT: União, Estados, DF, Municípios e suas autarquias e fundações que não explorem atividade econômica são isentos de custas, mas devem reembolsar as despesas judiciais da parte vencedora."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 779/1969, art. 1º, II, III e IV", "data": "1969-08-21" },
+        { "tipo": "lei", "referencia": "CLT, art. 790-A (Lei 10.537/2002)", "data": "2002-08-27" },
+        { "tipo": "lei", "referencia": "CLT, art. 852-A, parágrafo único (Lei 9.957/2000)", "data": "2000-01-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0014",
+      "tema": "Competência (ADI 3.395), prescrição, prazo recursal e preposto",
+      "enunciado": "Sobre a competência da Justiça do Trabalho e o processo do trabalho, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A pretensão quanto a créditos resultantes das relações de trabalho prescreve em dois anos, contados da lesão, até o limite de cinco anos após a extinção do contrato de trabalho.",
+        "B": "Segundo o STF, na ADI 3.395, o inciso I do art. 114 da Constituição Federal não abrange causas ajuizadas para discussão de relação jurídico-estatutária entre o Poder Público dos entes da Federação e seus servidores.",
+        "C": "O ajuizamento de reclamação trabalhista interrompe a prescrição em relação a todos os pedidos decorrentes do contrato de trabalho, ainda que não formulados na ação.",
+        "D": "Cabe recurso ordinário das decisões definitivas ou terminativas das Varas do Trabalho no prazo de quinze dias.",
+        "E": "O preposto que substitui o empregador na audiência deve ser, necessariamente, empregado da parte reclamada."
+      },
+      "correta": "B",
+      "dica": "Pense em quem julga a causa de um servidor estatutário do Município: o STF deu interpretação conforme ao art. 114, I.",
+      "explicacao": {
+        "B": "Correta. Na ADI 3.395 (Plenário, sessão virtual encerrada em 14/4/2020), o STF julgou parcialmente procedente o pedido e deu interpretação conforme à Constituição, sem redução de texto, para fixar que o art. 114, I, da CF não abrange causas de relação jurídico-estatutária entre o Poder Público e seus servidores. Essas causas são da Justiça comum.",
+        "A": "Os prazos foram invertidos. Pelo art. 7º, XXIX, da CF e pelo art. 11 da CLT, a prescrição é de CINCO anos, até o limite de DOIS anos após a extinção do contrato.",
+        "C": "Pelo art. 11, § 3º, da CLT, a interrupção ocorre pelo ajuizamento da reclamação, ainda que em juízo incompetente e mesmo se extinta sem resolução do mérito, mas produz efeitos APENAS em relação aos pedidos idênticos.",
+        "D": "O prazo do recurso ordinário é de 8 (oito) dias (art. 895, I, da CLT). Quinze dias é o prazo geral do CPC, que não se aplica aqui.",
+        "E": "O art. 843, § 3º, da CLT, incluído pela Lei 13.467/2017, dispõe que o preposto NÃO precisa ser empregado da parte reclamada; basta que tenha conhecimento do fato (§ 1º)."
+      },
+      "fontes": [
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 3.395 (interpretação conforme do art. 114, I, da CF)", "data": "2020-04-14" },
+        { "tipo": "lei", "referencia": "CLT, arts. 11, caput e § 3º, e 843, § 3º (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, art. 895, I (Lei 11.925/2009)", "data": "2009-04-17" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

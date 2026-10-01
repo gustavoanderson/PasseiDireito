@@ -1,0 +1,64 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-06",
+    "titulo": "Organização sindical e greve no setor público",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "trab-0011",
+      "tema": "Liberdade e unicidade sindical (art. 8º da CF) e contribuição sindical",
+      "enunciado": "Sobre a organização sindical, nos termos do art. 8º da Constituição Federal e da Consolidação das Leis do Trabalho, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É vedada a criação de mais de uma organização sindical, em qualquer grau, representativa de categoria profissional ou econômica, na mesma base territorial, que será definida pelos trabalhadores ou empregadores interessados, não podendo ser inferior à área de um Município.",
+        "B": "A lei poderá exigir autorização do Estado para a fundação de sindicato, como condição prévia ao registro no órgão competente.",
+        "C": "A participação dos sindicatos nas negociações coletivas de trabalho é facultativa, podendo o acordo coletivo ser firmado diretamente entre a empresa e comissão de empregados.",
+        "D": "O aposentado filiado tem direito a votar nas organizações sindicais, mas não a ser votado.",
+        "E": "O desconto da contribuição sindical independe de autorização do trabalhador, bastando a notificação do empregador pelo sindicato da categoria."
+      },
+      "correta": "A",
+      "dica": "A Constituição combina liberdade de associação com uma restrição territorial herdada do modelo anterior. Qual é a menor base territorial possível?",
+      "explicacao": {
+        "A": "Correta. É o art. 8º, II, da CF: o princípio da unicidade sindical. A base territorial é definida pelos interessados, mas não pode ser inferior à área de um Município.",
+        "B": "O art. 8º, I, da CF diz o contrário: a lei NÃO poderá exigir autorização do Estado para a fundação de sindicato, ressalvado o registro no órgão competente, vedadas ao Poder Público a interferência e a intervenção na organização sindical.",
+        "C": "O art. 8º, VI, da CF torna OBRIGATÓRIA a participação dos sindicatos nas negociações coletivas de trabalho. No acordo coletivo, quem negocia pelos empregados é o sindicato profissional (art. 611, § 1º, da CLT).",
+        "D": "O art. 8º, VII, da CF assegura ao aposentado filiado o direito de votar E de ser votado nas organizações sindicais.",
+        "E": "Desde a Lei 13.467/2017, os arts. 578 e 579 da CLT condicionam a contribuição sindical à autorização prévia e expressa de quem participa da categoria, e o art. 545 só obriga o desconto em folha quando o empregado o autorizou."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 8º, I, II, VI e VII", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "CLT, arts. 545, 578 e 579 (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0012",
+      "tema": "Greve de servidores: desconto dos dias, competência e base constitucional",
+      "enunciado": "Sobre o direito de greve e a sindicalização no setor público, considere as assertivas abaixo, à luz da Constituição Federal e das teses de repercussão geral do Supremo Tribunal Federal.\n\nI. A administração pública deve proceder ao desconto dos dias de paralisação decorrentes do exercício do direito de greve pelos servidores públicos, permitida a compensação em caso de acordo, sendo o desconto incabível se ficar demonstrado que a greve foi provocada por conduta ilícita do Poder Público.\nII. A justiça comum, federal ou estadual, é competente para julgar a abusividade de greve de servidores públicos celetistas da Administração pública direta, autarquias e fundações públicas.\nIII. O direito de greve do servidor público será exercido nos termos e nos limites definidos em lei complementar.\nIV. É garantido ao servidor público civil o direito à livre associação sindical.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e III estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I, III e IV estão corretas.",
+        "D": "Somente as assertivas I, II e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Desde a EC 19/1998, o art. 37, VII, exige um tipo de lei que não é a complementar. Confira as teses dos Temas 531 e 544.",
+      "explicacao": {
+        "D": "Correta. A assertiva I é a tese do Tema 531 (RE 693.456, julgado em 27/10/2016); a II, a tese do Tema 544 (RE 846.854, fixada em 1º/8/2017), que vale mesmo para servidores celetistas da administração direta, autárquica e fundacional; a IV é o art. 37, VI, da CF. Só a III está errada.",
+        "A": "A assertiva III está errada: desde a EC 19/1998, o art. 37, VII, da CF fala em lei ESPECÍFICA, e não em lei complementar. Além disso, faltaram as assertivas II e IV, corretas.",
+        "B": "Incompleta: a assertiva I também está correta, pois reproduz a tese do Tema 531 (desconto dos dias parados, compensação por acordo e exceção para greve provocada por conduta ilícita do Poder Público).",
+        "C": "A assertiva III está errada (o art. 37, VII, da CF exige lei específica, e não complementar), e a II, que é a tese do Tema 544, foi deixada de fora.",
+        "E": "A assertiva III está errada. O art. 37, VII, da CF, na redação dada pela EC 19/1998, exige lei específica para disciplinar a greve dos servidores, e não lei complementar."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 531 (RE 693.456)", "data": "2016-10-27" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 544 (RE 846.854)", "data": "2017-08-01" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, VI e VII (EC 19/1998)", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

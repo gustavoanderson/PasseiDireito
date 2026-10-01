@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-01",
+    "titulo": "Princípios, fontes, proteção constitucional e relação de emprego",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "trab-0001",
+      "tema": "Direitos dos trabalhadores no art. 7º da CF",
+      "enunciado": "Considerando os direitos dos trabalhadores urbanos e rurais previstos no art. 7º da Constituição Federal, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É direito do trabalhador a ação, quanto aos créditos resultantes das relações de trabalho, com prazo prescricional de cinco anos, até o limite de dois anos após a extinção do contrato de trabalho.",
+        "B": "É proibido o trabalho noturno, perigoso ou insalubre a menores de dezesseis anos e qualquer trabalho a menores de quatorze anos, salvo na condição de aprendiz, a partir de doze anos.",
+        "C": "A remuneração do serviço extraordinário deve ser superior, no mínimo, em cinquenta por cento à do normal.",
+        "D": "A licença à gestante é assegurada sem prejuízo do emprego e do salário, com a duração de cento e vinte dias.",
+        "E": "A duração do trabalho normal não pode ser superior a oito horas diárias e quarenta e quatro semanais, facultada a compensação de horários e a redução da jornada, mediante acordo ou convenção coletiva de trabalho."
+      },
+      "correta": "B",
+      "dica": "Uma das alternativas trocou as três idades do inciso XXXIII por idades menores. Lembre-se das idades de 18, 16 e 14 anos.",
+      "explicacao": {
+        "B": "É a resposta, porque a alternativa está errada. O art. 7º, XXXIII, da CF proíbe o trabalho noturno, perigoso ou insalubre a menores de DEZOITO anos e qualquer trabalho a menores de DEZESSEIS anos, salvo na condição de aprendiz, a partir de QUATORZE anos (redação da EC 20/1998). A alternativa rebaixou todas as idades.",
+        "A": "Correta. É o art. 7º, XXIX, da CF (redação da EC 28/2000), reproduzido no art. 11 da CLT: cinco anos para trás, contados do ajuizamento, desde que a ação seja proposta em até dois anos após o fim do contrato.",
+        "C": "Correta. É o art. 7º, XVI, da CF. A CLT repete o mínimo de 50% no art. 59, § 1º, e o art. 611-B, X, impede que a negociação coletiva reduza esse adicional.",
+        "D": "Correta. É o art. 7º, XVIII, da CF. O art. 611-B, XIII, da CLT também torna ilícita a redução da licença-maternidade abaixo de cento e vinte dias por norma coletiva.",
+        "E": "Correta. É o art. 7º, XIII, da CF: o limite é de 8 horas diárias e 44 semanais, e a compensação e a redução de jornada dependem de acordo ou convenção coletiva."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 7º, XIII, XVI, XVIII, XXIX e XXXIII", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0002",
+      "tema": "Empregado, grupo econômico e fontes do Direito do Trabalho (CLT)",
+      "enunciado": "Com base nos arts. 2º, 3º e 8º da Consolidação das Leis do Trabalho, analise as assertivas abaixo.\n\nI. Considera-se empregado toda pessoa física que prestar serviços de natureza não eventual a empregador, sob a dependência deste e mediante salário.\nII. A mera identidade de sócios caracteriza grupo econômico, gerando a responsabilidade solidária das empresas pelas obrigações decorrentes da relação de emprego.\nIII. O direito comum será fonte subsidiária do direito do trabalho.\nIV. Súmulas e outros enunciados de jurisprudência editados pelo Tribunal Superior do Trabalho e pelos Tribunais Regionais do Trabalho não poderão restringir direitos legalmente previstos nem criar obrigações que não estejam previstas em lei.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I e III estão corretas.",
+        "D": "Somente as assertivas I, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Uma das assertivas contraria um parágrafo incluído pela Reforma Trabalhista (Lei 13.467/2017) que exige mais do que sócios em comum.",
+      "explicacao": {
+        "D": "Correta. A assertiva I reproduz o art. 3º da CLT; a III, o art. 8º, § 1º; e a IV, o art. 8º, § 2º, ambos com redação da Lei 13.467/2017. Só a II está errada.",
+        "A": "A assertiva II está errada: o art. 2º, § 3º, da CLT diz que NÃO caracteriza grupo econômico a mera identidade de sócios, sendo necessárias a demonstração do interesse integrado, a efetiva comunhão de interesses e a atuação conjunta das empresas. Além disso, ficaram de fora as assertivas III e IV, que estão corretas.",
+        "B": "A assertiva II está errada (art. 2º, § 3º, da CLT: a mera identidade de sócios não basta para o grupo econômico), e a alternativa omite as assertivas I e III, que reproduzem o art. 3º e o art. 8º, § 1º, da CLT.",
+        "C": "Incompleta. As assertivas I e III estão corretas, mas a IV também está: é o texto literal do art. 8º, § 2º, da CLT, incluído pela Lei 13.467/2017.",
+        "E": "A assertiva II está errada. O art. 2º, § 2º, prevê a responsabilidade solidária das empresas do grupo, mas o § 3º afasta a caracterização do grupo pela mera identidade de sócios."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT (Decreto-Lei 5.452/1943), arts. 2º e 3º", "data": "1943-05-01" },
+        { "tipo": "lei", "referencia": "CLT, arts. 2º, § 3º, e 8º, §§ 1º e 2º (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

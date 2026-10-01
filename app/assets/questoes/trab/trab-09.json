@@ -1,0 +1,63 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-09",
+    "titulo": "Desconsideração da personalidade jurídica no processo do trabalho",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "trab-0017",
+      "tema": "IDPJ na CLT: recursos e suspensão do processo (art. 855-A)",
+      "enunciado": "Nos termos do art. 855-A da Consolidação das Leis do Trabalho, que manda aplicar ao processo do trabalho o incidente de desconsideração da personalidade jurídica previsto nos arts. 133 a 137 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Da decisão interlocutória que acolher ou rejeitar o incidente na fase de cognição cabe recurso ordinário imediato.",
+        "B": "A instauração do incidente não suspende o processo, que prossegue normalmente em relação à pessoa jurídica.",
+        "C": "Da decisão proferida pelo relator em incidente instaurado originariamente no tribunal cabe recurso ordinário.",
+        "D": "Da decisão interlocutória que acolher ou rejeitar o incidente na fase de execução cabe agravo de petição, independentemente de garantia do juízo.",
+        "E": "Na fase de execução, o agravo de petição contra a decisão que acolhe o incidente só é admitido após a garantia integral do juízo pelo sócio atingido."
+      },
+      "correta": "D",
+      "dica": "O § 1º do art. 855-A separa três situações (cognição, execução e tribunal), e cada uma tem resposta própria sobre o recurso.",
+      "explicacao": {
+        "D": "Correta. É o art. 855-A, § 1º, II, da CLT. A dispensa de garantia do juízo é a diferença em relação aos embargos à execução, que pressupõem a garantia (art. 884).",
+        "A": "Pelo art. 855-A, § 1º, I, na fase de cognição NÃO cabe recurso de imediato, na forma do § 1º do art. 893 da CLT: a decisão interlocutória só é impugnada no recurso contra a decisão definitiva.",
+        "B": "Pelo art. 855-A, § 2º, a instauração do incidente SUSPENDE o processo, sem prejuízo da tutela de urgência de natureza cautelar do art. 301 do CPC.",
+        "C": "Pelo art. 855-A, § 1º, III, cabe AGRAVO INTERNO da decisão do relator em incidente instaurado originariamente no tribunal (no mesmo sentido, o art. 136, parágrafo único, do CPC).",
+        "E": "O art. 855-A, § 1º, II, admite o agravo de petição INDEPENDENTEMENTE de garantia do juízo. Exigir garantia do sócio, que ainda discute se deve responder, inverteria a lógica do incidente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 855-A (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CPC (Lei 13.105/2015), art. 136, parágrafo único", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0018",
+      "tema": "IDPJ: legitimidade, cabimento, citação e efeitos (arts. 133 a 137 do CPC)",
+      "enunciado": "Em execução trabalhista contra empresa sem bens, o exequente pretende atingir o patrimônio dos sócios. Considerando os arts. 133 a 137 do Código de Processo Civil, aplicáveis ao processo do trabalho por força do art. 855-A da CLT, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O incidente será instaurado a pedido da parte ou do Ministério Público, quando lhe couber intervir no processo.",
+        "B": "O incidente é cabível em todas as fases do processo de conhecimento, no cumprimento de sentença e na execução fundada em título executivo extrajudicial.",
+        "C": "Dispensa-se a instauração do incidente se a desconsideração for requerida na petição inicial, hipótese em que será citado o sócio ou a pessoa jurídica.",
+        "D": "Instaurado o incidente, o sócio será citado para manifestar-se e requerer as provas cabíveis no prazo de 15 dias.",
+        "E": "Acolhido o pedido de desconsideração, a alienação ou a oneração de bens havida em fraude de execução será nula de pleno direito em relação a todos os credores do sócio."
+      },
+      "correta": "E",
+      "dica": "O art. 137 do CPC usa uma categoria de invalidade diferente da nulidade e a restringe a uma pessoa.",
+      "explicacao": {
+        "E": "É a resposta, porque a alternativa está errada. Pelo art. 137 do CPC, acolhido o pedido, a alienação ou a oneração de bens havida em fraude de execução será INEFICAZ em relação AO REQUERENTE. Não há nulidade, nem efeito em favor de todos os credores.",
+        "A": "Correta. É o art. 133, caput, do CPC. O § 2º estende o regime à desconsideração inversa.",
+        "B": "Correta. É o art. 134, caput, do CPC. Por isso o art. 855-A, § 1º, da CLT disciplina o recurso tanto na cognição quanto na execução.",
+        "C": "Correta. É o art. 134, § 2º, do CPC. Nesse caso não há suspensão do processo (art. 134, § 3º), porque o sócio já é réu desde o início.",
+        "D": "Correta. É o art. 135 do CPC: o sócio ou a pessoa jurídica é citado e tem 15 dias para se manifestar e requerer provas."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CPC (Lei 13.105/2015), arts. 133 a 137", "data": "2015-03-16" },
+        { "tipo": "lei", "referencia": "CLT, art. 855-A (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-03",
+    "titulo": "Ente público, concurso, terceirização e contratação nula",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "trab-0005",
+      "tema": "Terceirização e responsabilidade subsidiária da Administração (Temas 246 e 1118/STF)",
+      "enunciado": "O Município X contratou, mediante licitação, empresa de conservação e limpeza. Encerrado o contrato, um empregado da empresa ajuizou reclamação trabalhista pedindo verbas rescisórias não pagas pela empregadora e a responsabilização subsidiária do Município. À luz das teses fixadas pelo Supremo Tribunal Federal nos Temas 246 e 1118 da repercussão geral, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O inadimplemento dos encargos trabalhistas pela empresa transfere automaticamente ao Município a responsabilidade subsidiária pelo seu pagamento.",
+        "B": "Cabe ao Município, por inversão do ônus da prova, demonstrar que fiscalizou adequadamente o contrato, sob pena de responder subsidiariamente.",
+        "C": "Comprovada a falha na fiscalização, o Município responde solidariamente pelos encargos trabalhistas, e não apenas subsidiariamente.",
+        "D": "Reconhecida a irregularidade da terceirização, forma-se o vínculo de emprego diretamente com o Município, que deverá anotar a carteira do trabalhador.",
+        "E": "Cabe ao autor comprovar o comportamento negligente do Município ou o nexo de causalidade entre o dano e a conduta do poder público, e há comportamento negligente quando a Administração permanece inerte após receber notificação formal de que a contratada descumpre suas obrigações trabalhistas."
+      },
+      "correta": "E",
+      "dica": "O Tema 246 afastou a responsabilidade automática; o Tema 1118 decidiu quem prova a culpa e deu um exemplo concreto de negligência.",
+      "explicacao": {
+        "E": "Correta. São os itens 1 e 2 da tese do Tema 1118 (RE 1.298.647, julgado em 13/2/2025): não há responsabilidade subsidiária amparada exclusivamente na inversão do ônus da prova, sendo imprescindível a comprovação, pela parte autora, do comportamento negligente ou do nexo de causalidade; e há comportamento negligente quando a Administração permanece inerte após notificação formal enviada pelo trabalhador, sindicato, Ministério do Trabalho, Ministério Público, Defensoria Pública ou outro meio idôneo.",
+        "A": "Contraria a tese do Tema 246 (RE 760.931, fixada em 26/4/2017): o inadimplemento dos encargos trabalhistas dos empregados do contratado NÃO transfere automaticamente ao Poder Público a responsabilidade pelo pagamento, seja em caráter solidário ou subsidiário.",
+        "B": "Contraria o item 1 da tese do Tema 1118: não há responsabilidade subsidiária amparada exclusivamente na premissa da inversão do ônus da prova. O ônus de provar a negligência é da parte autora.",
+        "C": "Pelo art. 121, § 2º, da Lei 14.133/2021, nos serviços contínuos com dedicação exclusiva de mão de obra, a Administração responde SOLIDARIAMENTE pelos encargos previdenciários e SUBSIDIARIAMENTE pelos trabalhistas, se comprovada falha na fiscalização. Para os trabalhistas, a responsabilidade é subsidiária.",
+        "D": "A contratação irregular por empresa interposta não gera vínculo de emprego com órgãos da Administração Pública direta, indireta ou fundacional, porque a investidura em cargo ou emprego público depende de concurso (CF, art. 37, II; Súmula 331, II, do TST)."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 246 (RE 760.931)", "data": "2017-04-26" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1118 (RE 1.298.647)", "data": "2025-02-13" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 121, § 2º", "data": "2021-04-01" },
+        { "tipo": "sumula", "referencia": "TST, Súmula 331, II", "data": "2011-05-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0006",
+      "tema": "Contratação sem concurso: nulidade e efeitos (Tema 308/STF)",
+      "enunciado": "Sobre a contratação de pessoal pela Administração Pública sem prévia aprovação em concurso público, considere as assertivas abaixo, à luz da Constituição Federal e da tese do Tema 308 da repercussão geral do Supremo Tribunal Federal.\n\nI. A não observância da exigência de concurso público implica a nulidade do ato e a punição da autoridade responsável, nos termos da lei.\nII. A contratação nula não gera efeitos jurídicos válidos para o contratado, a não ser o direito à percepção dos salários referentes ao período trabalhado e ao levantamento dos depósitos efetuados no FGTS.\nIII. Declarada a nulidade, o contratado faz jus ao aviso prévio, às férias acrescidas de um terço e à indenização de 40% sobre os depósitos do FGTS.\nIV. A contratação irregular de trabalhador por empresa interposta gera vínculo de emprego diretamente com o órgão da Administração Pública direta tomador dos serviços.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I e III estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas I, II e III estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "A",
+      "dica": "O STF reconheceu apenas dois efeitos à contratação nula, e o art. 37, II, da CF vale também quando o trabalhador é contratado por intermediário.",
+      "explicacao": {
+        "A": "Correta. A assertiva I é o art. 37, § 2º, da CF, e a II é a tese do Tema 308 (RE 705.140, julgado em 28/8/2014), que remete ao art. 19-A da Lei 8.036/1990 quanto ao FGTS. As assertivas III e IV estão erradas.",
+        "B": "A assertiva III está errada: pela tese do Tema 308, a contratação nula não gera quaisquer efeitos jurídicos válidos além dos salários do período trabalhado e do levantamento do FGTS. Aviso prévio, férias com um terço e multa de 40% não são devidos. Além disso, faltou a assertiva II, que está correta.",
+        "C": "A assertiva IV está errada: a contratação irregular por empresa interposta não gera vínculo de emprego com a Administração direta, indireta ou fundacional (Súmula 331, II, do TST), porque a investidura depende de concurso (CF, art. 37, II). E faltou a assertiva I, correta.",
+        "D": "A assertiva III está errada. A tese do Tema 308 restringe os efeitos da contratação nula aos salários do período trabalhado e ao levantamento do FGTS; verbas rescisórias típicas, como aviso prévio e multa de 40%, não são devidas.",
+        "E": "As assertivas III e IV estão erradas. A III amplia os efeitos que o STF limitou a salários e FGTS; a IV contraria o art. 37, II, da CF e a Súmula 331, II, do TST."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, II e § 2º", "data": "1988-10-05" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 308 (RE 705.140)", "data": "2014-08-28" },
+        { "tipo": "sumula", "referencia": "TST, Súmula 331, II", "data": "2011-05-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

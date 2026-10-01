@@ -32,6 +32,8 @@ flutter:
     - assets/questoes/pen/
     - assets/questoes/emp/
     - assets/questoes/urb/
+    - assets/questoes/trab/
+    - assets/questoes/prev/
 
   # Embutidas para funcionar offline. Licença OFL, em assets/fontes/.
   fonts:

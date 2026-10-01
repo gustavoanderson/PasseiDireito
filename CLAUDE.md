@@ -88,6 +88,8 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
 - **Decreto 610/2019**, citado no edital em PPP, está **revogado** e sua ementa é de **contratos e convênios**, não de PPP.
 - **Lei 7.833/1991** (política municipal de meio ambiente), citada no edital, está **revogada** no Legisladoc.
 - **Decretos 469/2023, 723/2023 e 388/2025**, citados no edital como regulamentos da Lei 14.133, **não conferem**: no Legisladoc esses números são atos de pessoal (nomeação, exoneração). Ficaram fora da base.
+- **Previdência de Curitiba:** a **LC 133/2021** (reforma previdenciária municipal), que **não está no edital**, revogou os capítulos de benefícios e alíquotas da Lei 9.626/1999 e é quem rege o RPPS hoje. A **LC 147/2025** (segregação de massa, patronal de 28%) não está incorporada ao compilado da LC 133 no Legisladoc. A **Lei 16.768/2026** diz na ementa que altera a Lei 10.817/2003, mas nenhum artigo dela faz isso. O compilado da Lei 15.072/2017 não traz as Leis 16.277/2023 e 16.734/2026.
+- **Pendente no extrator:** na Lei 8.212/1991 (`corpus/federal/l8212.json`), o art. 22 saiu cortado e o art. 21 com redações duplicadas. Nenhuma questão usa esses artigos.
 - **Lei 2.942/1966** (parcelamento do solo) só existe escaneada, sem texto: fora da base até ser digitada.
 - O edital chama a Lei Orgânica de Curitiba de "Lei 5.700/1977"; a Lei Orgânica em vigor é de **05/04/1990**.
 - **LC 236/2026** (DOU 4/9/2026, antes do corte) reescreveu os arts. 138, 151, 156 e 174 do CTN e criou os arts. 113-A e 208-A a 208-J.
