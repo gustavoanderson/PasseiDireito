@@ -28,6 +28,10 @@ As regras do [CLAUDE.md do DevLingo](../DevLingo/CLAUDE.md) valem aqui também. 
 | Prova objetiva | 13/12/2026 |
 | Prova discursiva | 24/02/2027 |
 
+## Prioridade atual (decisão do Gustavo, 01/10/2026)
+
+**MVP da prova objetiva o quanto antes:** trilhas de todas as matérias da objetiva, no celular da Flávia. Ela estuda **só a objetiva** até 13/12/2026; a **discursiva com IA fica para depois da prova**. Base de lei, corretor e Gemini continuam no repositório, sem prioridade agora.
+
 ## Decisões tomadas, e por quem
 
 | Decisão | Data |
@@ -122,6 +126,8 @@ Decisão do Gustavo (29/09/2026): **sem pagar IA à parte.** Gemini (nível grat
 - [corpus/normas.json](corpus/normas.json): a lista das normas federais; [tools/montar_corpus.py](tools/montar_corpus.py) baixa do Planalto, corta por artigo ([tools/fatiar_lei.py](tools/fatiar_lei.py)) e grava `corpus/federal/<id>.json`.
 - Cada artigo guarda texto vigente, capítulo, notas de redação, `videStf` (ADI/ADC/ADPF) e `revogado`.
 - **Armadilhas do HTML do Planalto, todas com teste:** redação antiga riscada (`<strike>`); redação antiga às vezes SEM risco, ao lado da nova (fica a versão com nota "Redação dada", não simplesmente a última: a Lei 8.212, art. 21, provou a diferença); redação de MP caducada sem risco ("Vigência encerrada"); quebra de linha no meio do parágrafo; "Art. 8º-A" com a letra depois do ordinal; número partido pela formatação ("Art. 5 7."); o ADCT vem depois da assinatura da CF.
+- **Trava da data de corte, por trecho e não por artigo:** norma posterior que só INCLUIU um parágrafo tira só esse parágrafo. A primeira versão tirava o artigo inteiro e o furto e o roubo (CP, arts. 155 e 157) sumiram da base. Redação TROCADA por norma posterior exige [corpus/correcoes.json](corpus/correcoes.json), com a fonte que permite reconstruí-la (ex.: CDC, art. 57, MP 1.393 de 25/09/2026).
+- **"Art. 155 - Subtrair" não é o art. 155-S:** o sufixo de letra vem colado ("8º-A"); com espaço antes do traço é separador (CP, CLT).
 - **Trava da data de corte:** a lei é baixada hoje. Toda norma de 2026 citada nas notas precisa de data conferida em [corpus/normas_2026.json](corpus/normas_2026.json). Artigo **incluído** por norma posterior a 21/09/2026 sai da base; **alterado** por ela reprova o montador. Já aconteceu: a **Lei 15.512/2026 é de 22/09/2026** e incluiu o art. 1º-E na Lei 6.938/1981.
 - **Curitiba:** [corpus/normas_curitiba.json](corpus/normas_curitiba.json) → [tools/montar_corpus_curitiba.py](tools/montar_corpus_curitiba.py) → `corpus/curitiba/`. A busca do Legisladoc só responde a um navegador de verdade: o Playwright pilota o Chrome instalado ([tools/legisladoc.py](tools/legisladoc.py)). A página do ato traz o texto "Alterado" (vigente) e depois o "Original": só o primeiro entra. O Legisladoc risca com `<s>`, não `<strike>`. Busca com mais de um resultado = republicação; fica a mais recente. **Ementa conferida contra o edital**: número que não confere entra com `ignorar` e motivo.
 - Pendente: Constituição do Paraná, súmulas e teses (STF, STJ, TCE-PR).
@@ -132,5 +138,6 @@ Decisão do Gustavo (29/09/2026): **sem pagar IA à parte.** Gemini (nível grat
 python tools/validar_questoes.py app/assets/questoes/   # banco
 python tools/test_validar_questoes.py                   # validador
 python tools/test_fatiar_lei.py                         # extrator da base de lei
+python tools/test_montar_corpus.py                      # trava da data de corte
 cd app && flutter analyze && flutter test               # app
 ```

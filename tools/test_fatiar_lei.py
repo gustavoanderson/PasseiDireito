@@ -90,6 +90,18 @@ class TestFatiar(unittest.TestCase):
         self.assertIn("6", self.por_id)
         self.assertEqual(self.por_id["5"]["texto"], "Art. 5º Todos são iguais perante a lei.")
 
+    def test_norma_que_comeca_depois_da_assinatura(self):
+        html = (
+            "<p>Art. 1º Fica aprovada a Consolidação que a este acompanha.</p>"
+            "<p>Rio de Janeiro, 1 de maio de 1943.</p>"
+            "<p>CONSOLIDAÇÃO DAS LEIS DO TRABALHO</p>"
+            "<p>Art. 1º - Esta Consolidação estatui as normas do trabalho.</p>"
+            "<p>Art. 2º - Considera-se empregador a empresa.</p>"
+        )
+        artigos = {a["id"]: a for a in fatiar(html, comecar_em=r"^CONSOLIDAÇÃO DAS LEIS DO TRABALHO$")}
+        self.assertEqual(sorted(artigos), ["1", "2"])
+        self.assertIn("estatui as normas", artigos["1"]["texto"])
+
     def test_disposicoes_transitorias_da_lei_organica(self):
         artigos = {a["id"]: a for a in fatiar(
             "<p>Art. 7º Todo Poder emana do povo.</p><p>ATO DAS DISPOSIÇÕES TRANSITÓRIAS</p>"

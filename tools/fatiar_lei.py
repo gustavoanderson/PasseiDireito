@@ -25,7 +25,9 @@ _TAG = re.compile(r"<[^>]+>")
 
 # Início de artigo: "Art. 23.", "Art. 5º", "Art. 23-A.", "Art. 1o", "Art. 208-J.",
 # e "Art. 8º-A", em que a letra vem DEPOIS do ordinal.
-_ARTIGO = re.compile(r"^Art\.\s*(\d+(?:\.\d+)?(?: \d+(?=\s*\.))?)\s*(?:º|°|o)?\s*(-\s*[A-Z]+)?\s*\.?\s*[-–]?\s*")
+# O sufixo de letra vem COLADO ("8º-A", "23-A"); com espaço antes do traço é o
+# separador da CLT ("Art. 1º - Esta Consolidação"), que antes virava "1-E".
+_ARTIGO = re.compile(r"^Art\.\s*(\d+(?:\.\d+)?(?: \d+(?=\s*\.))?)(?:º|°|o)?(-[A-Z]{1,3}\b)?\s*\.?\s*[-–]?\s*")
 _TITULO_SECAO = re.compile(r"^(TÍTULO|CAPÍTULO|Seção|SEÇÃO|Subseção|LIVRO|PARTE)\b")
 _ADCT = re.compile(r"^ATO DAS DISPOSIÇÕES (CONSTITUCIONAIS )?TRANSITÓRIAS")
 _NOTA = re.compile(
@@ -55,13 +57,19 @@ def paragrafos(html: str) -> list[str]:
     return [linha for linha in linhas if linha]
 
 
-def fatiar(html: str) -> list[dict]:
+def fatiar(html: str, comecar_em: str | None = None) -> list[dict]:
+    """[comecar_em]: regex do parágrafo onde a norma de verdade começa. Existe
+    para a CLT, que é um ANEXO depois da assinatura do Decreto-Lei 5.452/1943."""
     artigos: list[dict] = []
     atual = None
     local = ""
     prefixo = ""
     assinado = False
+    esperando = comecar_em is not None
     for p in paragrafos(html):
+        if esperando:
+            esperando = not re.search(comecar_em, p)
+            continue
         # Depois da assinatura vêm anexos e mensagens de veto, que não são
         # artigos da norma. A exceção é a CF: o ADCT vem depois da assinatura.
         m_adct = _ADCT.search(p)

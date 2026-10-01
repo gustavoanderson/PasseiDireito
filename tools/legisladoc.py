@@ -15,7 +15,7 @@ incorporadas, o vigente) e depois o "Original". Ler os dois duplicava artigos.
 
 import html as html_lib
 import re
-import urllib.request
+import subprocess
 
 BASE = "https://legisladocexterno.curitiba.pr.gov.br"
 NAVEGADOR = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/153 Safari/537.36"
@@ -53,8 +53,13 @@ def ler_resultados(html: str) -> list[dict]:
 
 
 def baixar_ato(id_: str) -> str:
-    req = urllib.request.Request(f"{BASE}/VisualizarHTML.aspx?id={id_}", headers={"User-Agent": NAVEGADOR})
-    return urllib.request.urlopen(req, timeout=90).read().decode("utf-8", "replace")
+    # curl, e não urllib: o Python não reconhece a raiz GlobalSign R46 da cadeia
+    # da Prefeitura (CERTIFICATE_VERIFY_FAILED em 01/10/2026), e o curl do
+    # Windows valida pelo repositório do sistema. Verificação mantida ligada.
+    return subprocess.run(
+        ["curl", "-sfL", "--retry", "2", "-A", NAVEGADOR, f"{BASE}/VisualizarHTML.aspx?id={id_}"],
+        capture_output=True, check=True, timeout=180,
+    ).stdout.decode("utf-8", "replace")
 
 
 def corpo_vigente(html: str) -> str:

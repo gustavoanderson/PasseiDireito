@@ -2,7 +2,7 @@
  "id": "ctn",
  "titulo": "Código Tributário Nacional (Lei 5.172/1966)",
  "url": "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm",
- "baixadoEm": "2026-09-29",
+ "baixadoEm": "2026-10-01",
  "artigos": [
   {
    "id": "1",
@@ -2130,7 +2130,7 @@
    "revogado": false
   },
   {
-   "id": "178-A",
+   "id": "178",
    "local": "Seção II",
    "texto": "Art. 178 - A isenção, salvo se concedida por prazo certo e em função de determinadas condições, pode ser revogada ou modificada por lei, a qualquer tempo, observado o disposto no inciso III do art. 104. (Redação dada pela Lei Complementar nº 24, de 1975)",
    "versoesDescartadas": 0,

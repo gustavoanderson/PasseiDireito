@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "23/12/1998",
  "ementa": "DISPOE REGULARIZACAO PARCELAMENTOS SOLO FINS URBANOS IMPLANTADOS IRREGULARMENTE CURTIBA ATE 31/12/93 DOP",
- "baixadoEm": "2026-09-29",
+ "baixadoEm": "2026-10-01",
  "artigos": [
   {
    "id": "1",
@@ -110,7 +110,7 @@
    "revogado": false
   },
   {
-   "id": "10-N",
+   "id": "10",
    "local": "",
    "texto": "Art. 10 - No laudo técnico de que trata esta lei deverão ser contemplados os seguintes aspectos:\nI - diagnóstico caracterizando a irreversibilidade do parcelamento;\nII - proposta técnica e urbanística para a regularização do parcelamento.",
    "versoesDescartadas": 0,
@@ -121,7 +121,7 @@
    "revogado": false
   },
   {
-   "id": "11-O",
+   "id": "11",
    "local": "",
    "texto": "Art. 11 - O projeto de regularização do parcelamento deverá apresentar em planta as curvas de nível, de metro em metro, bem como as quadras, os lotes, as construções existentes, as áreas remanescentes e as áreas destinadas ao uso público.\n§ 1º - O laudo técnico, o projeto de regularização de parcelamento e respectivos memoriais descritivos, bem como o cronograma de obras e serviços deverão ser assinados por profissional habilitado e pelo parcelador, que se responsabilizarão civil e criminalmente pelas informações prestadas.\n§ 2º - No caso de omissão do parcelador, o projeto e a execução das obras poderão ser executados pelo Município, com ressarcimento posterior dos gastos, via cobrança judicial se necessário.",
    "versoesDescartadas": 0,
@@ -132,7 +132,7 @@
    "revogado": false
   },
   {
-   "id": "12-O",
+   "id": "12",
    "local": "",
    "texto": "Art. 12 - O parcelador ou seu representante legal deverá ser notificado pelo Município das conclusões decorrentes da análise técnica e jurídica do pedido de regularização, devendo atender às exigências formuladas, no prazo de 30 (trinta) dias, prorrogável, no máximo por 90 (noventa) dias, sob pena do Município regularizar o parcelamento, conforme suas determinações.\nParágrafo Único. O Município, quando promover a regularização na forma deste artigo, poderá ingressar em juízo com ação competente para reaver as importâncias dispendidas.",
    "versoesDescartadas": 0,
@@ -143,7 +143,7 @@
    "revogado": false
   },
   {
-   "id": "13-C",
+   "id": "13",
    "local": "",
    "texto": "Art. 13 - Concluída a análise técnica e aceita a proposta da regularização, deverá o Município expedir a licença para execução de obras e serviços, acompanhada do respectivo cronograma físico-financeiro, podendo exigir, quando necessário, garantias para a execução das obras.",
    "versoesDescartadas": 0,
@@ -154,7 +154,7 @@
    "revogado": false
   },
   {
-   "id": "14-A",
+   "id": "14",
    "local": "",
    "texto": "Art. 14 - A Licença de Regularização somente será expedida após o cumprimento das exigências feitas para a regularização do parcelamento e sua aceitação técnica pelo Município.\nParágrafo Único. A regularização de parcelamentos de que trata esta lei não implica no reconhecimento, pelo Município, de quaisquer obrigações assumidas pelo parcelador, junto aos adquirentes de lotes.",
    "versoesDescartadas": 0,
@@ -165,7 +165,7 @@
    "revogado": false
   },
   {
-   "id": "15-E",
+   "id": "15",
    "local": "",
    "texto": "Art. 15 - Expedido o Auto de Regularização, deverá ser requerida averbação ou o registro, quando for o caso, junto ao Cartório de Registro de Imóveis, da regularização do parcelamento.\nParágrafo Único. No caso previsto no § 1º do art. 4º desta lei , somente será requerido o registro ou averbação, conforme o caso, após a definição do domínio da área parcelada.",
    "versoesDescartadas": 0,
@@ -176,7 +176,7 @@
    "revogado": false
   },
   {
-   "id": "16-O",
+   "id": "16",
    "local": "",
    "texto": "Art. 16 - O Município a seu critério poderá requerer a averbação ou registro, conforme o caso, das áreas públicas, na hipótese do parcelador não atender às exigências técnicas formuladas, desde que estas não impliquem em modificações no traçado do plano urbanístico implantado.\nParágrafo Único. Ocorrendo a situação prevista no caput deste artigo, paralelamente à averbação ou registro, conforme o caso, o Município prosseguirá na cobrança das exigências técnicas, de responsabilidade do parcelador.\nCapítuloIII\nDOS PARÂMETROS TÉCNICOS E URBANÍSTICOS",
    "versoesDescartadas": 0,
@@ -202,7 +202,7 @@
    "revogado": false
   },
   {
-   "id": "18-A",
+   "id": "18",
    "local": "",
    "texto": "Art. 18 - As obras e serviços necessários à regularização do parcelamento serão exigidos pelo Município, através de projetos específicos, de forma a assegurar:\nI - a estabilidade dos lotes, dos logradouros, das áreas institucionais e dos terrenos limítrofes;\nII - a drenagem das águas pluviais;\nIII - a preservação das quadras e dos logradouros públicos, de processos erosivos;\nIV - a trafegabilidade das vias, com tratamento adequado;\nV - a integração com o sistema viário existente;\nVI - o abastecimento de água e energia elétrica;\nVII - o esgotamento das águas servidas.",
    "versoesDescartadas": 0,
@@ -213,7 +213,7 @@
    "revogado": false
   },
   {
-   "id": "19-O",
+   "id": "19",
    "local": "",
    "texto": "Art. 19 - O Município poderá, quando necessário, exigir do parcelador as garantias previstas na legislação municipal vigente de parcelamento do solo, visando assegurar a execução das obras e serviços necessários à regularização do parcelamento.\nParágrafo Único. Quando as associações de adquirentes de lotes, legalmente constituídas, assumirem a execução das obras e serviços, poderão ser dispensadas da apresentação de garantias.\nCapítuloIV\nDAS DISPOSIÇÕES GERAIS",
    "versoesDescartadas": 0,
@@ -224,7 +224,7 @@
    "revogado": false
   },
   {
-   "id": "20-D",
+   "id": "20",
    "local": "",
    "texto": "Art. 20 - Detectada a implantação de novos parcelamentos do solo de forma irregular, serão adotadas de imediato pelo Município as providências visando a notificação do parcelador, para interromper a implantação do parcelamento e para desfazê-lo.",
    "versoesDescartadas": 0,
@@ -235,7 +235,7 @@
    "revogado": false
   },
   {
-   "id": "21-A",
+   "id": "21",
    "local": "",
    "texto": "Art. 21 - Após a expedição da notificação deverá ser encaminhada ao Ministério Público, em caráter de urgência, a Notícia-crime, objetivando a adoção das medidas de natureza penal.\n§ 1º - O Município deverá também oficiar a todos os órgãos públicos envolvidos, para a adoção das medidas cabíveis, nas esferas de suas competências.\n§ 2º - Expedida a notificação, o Município poderá promover o cadastramento dos adquirentes de lotes, para fins de depósito judicial, e intervir no parcelamento, para garantir os padrões de desenvolvimento urbano e propiciar a defesa dos direitos dos adquirentes de lotes.\n§ 3º - O Município se ressarcirá dos gastos decorrentes da intervenção que efetuar, mediante o levantamento do depósito judicial das prestações.",
    "versoesDescartadas": 0,
@@ -246,7 +246,7 @@
    "revogado": false
   },
   {
-   "id": "22-O",
+   "id": "22",
    "local": "",
    "texto": "Art. 22 - O Município poderá, no caso da inobservância das exigências previstas no art.11 ou das obrigações previstas no parágrafo único do art. 6º desta lei , executar as obras e serviços necessários à regularização do parcelamento, ou ao retorno da área parcelada à sua condição original cobrando do parcelador infrator o custo apropriado, acrescido de 30% (trinta por cento) sobre o valor das obras e serviços, a título de custos gerenciais, sem prejuízo da multa cabível, juros, eventuais acréscimos legais e demais despesas advindas do processo de cobrança.\nParágrafo Único. Consideram-se como despesas a serem ressarcidas pelo parcelador.dentre outras, as seguintes: levantamentos topográficos, projetos, obras e serviços destinados à regularização do parcelamento e à reparação de danos ambientais, no caso de reconstituição de área degradada, e ao seu retorno a condição de gleba.\nArt 23 - O parcelador sujeitar-se-á à aplicação das penalidades cabíveis, até a efetiva regularização do parcelamento do solo irregularmente implantado.\nParágrafo Único. A aplicação das penalidades só será suspensa se o parcelador estiver atendendo às exigências técnicas decorrentes do processo de regularização do parcelamento.",
    "versoesDescartadas": 0,
@@ -257,7 +257,7 @@
    "revogado": false
   },
   {
-   "id": "24-A",
+   "id": "24",
    "local": "",
    "texto": "Art. 24 - A instituição das novas indicações fiscais dos lotes e o lançamento do Imposto Predial e Territorial Urbano poderão ser efetuados após a aprovação do projeto de regularização, ou após a definição, pelo órgão técnico competente da Prefeitura, da planta urbanística do parcelamento já executado, independentemente da época de sua implantação.\n§ 1º - A autorização do lançamento de que trata o caput deste artigo, não interfere na cobrança de eventuais exigências técnicas ou de serviços a serem executados pelo parcelador, nos termos desta lei .\n§ 2º - Na hipótese da regularização do parcelamento ocorrer por requerimento da associação de moradores ou por adquirentes de lotes, de acordo com o estabelecido no art. 8º, eventual débito de exercícios anteriores do Imposto Predial e Territorial Urbano e taxas incidentes sobre a gleba ou área maior, poderá ser pago em até 36 (trinta e seis) parcelas, descontando-se do montante lançado as importâncias relativas às áreas destinadas a ruas, praças e espaços livres já implantados.\n§ 3º - A hipótese prevista no parágrafo anterior não impedirá o prosseguimento da regularização e posterior registro.",
    "versoesDescartadas": 0,
@@ -268,7 +268,7 @@
    "revogado": false
   },
   {
-   "id": "25-N",
+   "id": "25",
    "local": "",
    "texto": "Art. 25 - Nos casos de regularização de parcelamentos do solo em áreas pertencentes à Administração direta e entidades da Administração indireta do Município, os critérios serão definidos por ato do Poder Executivo.",
    "versoesDescartadas": 0,
@@ -279,7 +279,7 @@
    "revogado": false
   },
   {
-   "id": "26-P",
+   "id": "26",
    "local": "",
    "texto": "Art. 26 - Poderão ser responsabilizados civil e criminalmente os servidores encarregados da fiscalização, quando da omissão ou interrupção da aplicação dos dispositivos legais vigentes, para uma efetiva paralisação de novos parcelamentos irregulares.\nParágrafo Único. O Poder Executivo garantirá os recursos humanos e administrativos necessários ao efetivo exercício da atividade fiscalizatória relativa ao parcelamento do solo.",
    "versoesDescartadas": 0,
@@ -290,7 +290,7 @@
    "revogado": false
   },
   {
-   "id": "27-O",
+   "id": "27",
    "local": "",
    "texto": "Art. 27 - O Poder Executivo regulamentará a presente lei por decreto, no prazo de 60 (sessenta) dias.",
    "versoesDescartadas": 0,
@@ -301,7 +301,7 @@
    "revogado": false
   },
   {
-   "id": "28-E",
+   "id": "28",
    "local": "",
    "texto": "Art. 28 - Esta lei entra em vigor na data de sua publicação, revogadas as disposições em contrário.",
    "versoesDescartadas": 0,

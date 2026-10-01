@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from fatiar_lei import decodificar, fatiar  # noqa: E402
+from fatiar_lei import _NOTA, decodificar, fatiar  # noqa: E402
 
 RAIZ = Path(__file__).parent.parent / "corpus"
 DATA_DE_CORTE = "2026-09-21"
@@ -51,9 +51,35 @@ def normas_de_2026(artigos: list[dict]) -> set[str]:
     return achadas
 
 
+def aplicar_corte(artigo: dict, posteriores: set[str]) -> str:
+    """Tira do artigo o que norma POSTERIOR ao edital fez. Devolve:
+    "intacto"   - nada a fazer;
+    "aparado"   - só linhas INCLUÍDAS depois saíram (ex.: um § novo no art. 155 do CP);
+    "removido"  - o próprio caput é novo: o artigo inteiro não existia em 21/09/2026;
+    "alterado"  - alguma linha teve a REDAÇÃO trocada: precisa de correcoes.json.
+
+    Lição de 01/10/2026: a primeira versão tirava o artigo inteiro quando a
+    norma posterior só incluíra um parágrafo, e o furto (art. 155 do CP) e o
+    roubo (art. 157) sumiram da base."""
+    def cita_posterior(linha: str) -> bool:
+        return bool(normas_de_2026([{"notas": _NOTA.findall(linha)}]) & posteriores)
+
+    linhas = artigo["texto"].split("\n")
+    if not any(cita_posterior(l) for l in linhas):
+        return "intacto"
+    if any(cita_posterior(l) and not re.search(r"(?i)\(Inclu[íi]d[oa]", l) for l in linhas):
+        return "alterado"
+    if cita_posterior(linhas[0]):
+        return "removido"
+    artigo["texto"] = "\n".join(l for l in linhas if not cita_posterior(l))
+    artigo["notas"] = [nota.strip() for nota in _NOTA.findall(artigo["texto"])]
+    return "aparado"
+
+
 def main(ids: list[str]) -> int:
     lista = json.loads((RAIZ / "normas.json").read_text(encoding="utf-8"))["normas"]
     datas_2026 = json.loads((RAIZ / "normas_2026.json").read_text(encoding="utf-8"))
+    correcoes = json.loads((RAIZ / "correcoes.json").read_text(encoding="utf-8"))
     if ids:
         lista = [n for n in lista if n["id"] in ids]
 
@@ -63,7 +89,7 @@ def main(ids: list[str]) -> int:
     avisos = []
     for n in lista:
         try:
-            artigos = fatiar(decodificar(baixar(n["url"])))
+            artigos = fatiar(decodificar(baixar(n["url"])), comecar_em=n.get("comecarEm"))
         except subprocess.CalledProcessError as e:
             problemas.append(f"{n['id']}: falha ao baixar ({e.returncode})")
             continue
@@ -82,12 +108,21 @@ def main(ids: list[str]) -> int:
         mantidos = []
         for a in artigos:
             citadas = normas_de_2026([a]) & posteriores
-            if not citadas:
+            efeito = aplicar_corte(a, posteriores)
+            if efeito == "intacto":
                 mantidos.append(a)
-            elif all(re.match(r"(?i)inclu", nota) for nota in a["notas"] if any(c.split()[-1].split("/")[0] in nota.replace(".", "") for c in citadas)):
-                print(f"  {n['id']}: art. {a['id']} fora da base (incluído por {', '.join(sorted(citadas))}, posterior ao corte)")
+            elif efeito == "aparado":
+                print(f"  {n['id']}: art. {a['id']} sem o trecho incluído por {', '.join(sorted(citadas))}, posterior ao corte")
+                mantidos.append(a)
+            elif efeito == "removido":
+                print(f"  {n['id']}: art. {a['id']} fora da base (criado por {', '.join(sorted(citadas))}, posterior ao corte)")
+            elif a["id"] in correcoes.get(n["id"], {}):
+                c = correcoes[n["id"]][a["id"]]
+                a.update(texto=c["texto"], notas=[f"Redação de 21/09/2026 restaurada: {c['motivo']}"], videStf=[])
+                print(f"  {n['id']}: art. {a['id']} restaurado na redação de 21/09/2026 ({c['fonte']})")
+                mantidos.append(a)
             else:
-                problemas.append(f"{n['id']}: art. {a['id']} alterado por {', '.join(sorted(citadas))}, POSTERIOR ao corte — restaurar a redação de 21/09/2026")
+                problemas.append(f"{n['id']}: art. {a['id']} alterado por {', '.join(sorted(citadas))}, POSTERIOR ao corte — restaurar a redação de 21/09/2026 em corpus/correcoes.json")
                 mantidos.append(a)
         artigos = mantidos
 
