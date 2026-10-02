@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "03/01/2000",
  "ementa": "INSTITUI O CÓDIGO FLORESTAL DO MUNICÍPIO DE CURITIBA, REVOGA AS LEIS Nº 8353/93 E 8436/94, E DÁ OUTRAS PROVIDÊNCIAS.",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -33,11 +33,13 @@
   {
    "id": "3",
    "local": "",
-   "texto": "Art. 3º É vedado, sem a devida autorização, o corte, derrubada ou a prática de qualquer ação que possa provocar dano, alteração do desenvolvimento natural ou morte de árvore em bem público ou em terreno particular.\nDAS FORMAÇÕES VEGETAIS",
+   "texto": "Art. 3º É vedado, sem a devida autorização, o corte ou derrubada, assim como a prática de qualquer ação que possa provocar dano, alteração do desenvolvimento natural ou morte de árvore em bem público ou em terreno particular, independentemente de dolo, ficando os infratores sujeitos às penalidades previstas nesta Lei.\n§ 1º Consideram-se danos ações como: poda total ou parcial de raízes, envenenamento, anelamento total ou parcial de galhos e do caule, promoção de perfurações em raízes, galhos e/ou caule, promoção de lesões diversas no caule, queima, entre outras formas de vandalização.\n§ 2º Entende-se por envenenamento a exposição, promoção de contato e/ou inserção de substância(s) que promova(m) intoxicação crônica ou aguda no espécime, podendo levar à morte da árvore.\n§ 3º Entende-se por anelamento a remoção integral ou parcial de 01 (um) ou mais anéis de casca ao redor do caule ou de ramos, interrompendo o fluxo de nutrientes e podendo levar à morte da árvore.\n§ 4º Demais ações real ou potencialmente danosas aqui não contempladas serão analisadas e quantificadas pelo corpo técnico pertencente à Secretaria Municipal do Meio Ambiente - SMMA.\n§ 5º Caso o dano promova severo comprometimento que leve à necessidade de corte da árvore, a autuação pelo agente fiscalizador deverá ser tipificada como morte provocada. (Redação dada pela Lei nº 16.627, de 2025)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Artigo inteiro reescrito: passou de uma frase genérica para um rol detalhado do que configura \"dano\" à árvore (poda de raízes, envenenamento, anelamento, lesões, queima), com definições próprias de envenenamento e anelamento, e criou a tipificação de \"morte provocada\" quando o dano leva à necessidade de corte. Fonte: Lei 16.627/2025 de Curitiba, art. 1º, I (Legisladoc, ato 459474, publicada em 27/11/2025)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -271,11 +273,13 @@
   {
    "id": "24",
    "local": "SEÇÃO II",
-   "texto": "Art. 24 - É vedada a poda excessiva ou drástica de arborização pública, ou de árvores em propriedade particular, que afete significativamente o desenvolvimento natural da copa.\n§ 1º - Entende-se por poda excessiva ou drástica:\na) corte de mais de 50% (cinqüenta por cento) do total da massa verde da copa;\nb) corte da parte superior da copa, eliminando a gema apical;\nc) corte de somente um lado da copa, ocasionando o desequilíbrio estrutural da árvore.\n§ 2º - Quando forem constatados problemas fitossanitários ou riscos imediatos à população no caso de arborização viária, a Secretaria Municipal do Meio Ambiente - SMMA, ou suas concessionárias, poderão executar a poda drástica.",
+   "texto": "Art. 24. É vedada a poda excessiva ou drástica de arborização pública, ou de árvores em propriedade particular, que afete significativamente o desenvolvimento natural da copa. (Redação dada pela Lei nº 16.627, de 2025)\n§ 1º Entende-se por poda excessiva ou drástica:\na) corte de mais de 50% (cinquenta por cento) do total da massa verde da copa;\nb) corte da parte superior da copa, eliminando a gema apical;\nc) corte de somente um lado da copa, ocasionando o desequilíbrio estrutural da árvore.\n§ 2º Quando forem constatados problemas fitossanitários ou riscos imediatos à população no caso de arborização viária, mediante laudo expedido por profissional legalmente habilitado integrante do corpo técnico da Secretaria Municipal do Meio Ambiente - SMMA, a SMMA e/ou suas concessionárias, de posse da devida ordem de serviço, poderão executar a poda drástica.\n§ 3º Caso constatados erros técnicos nas podas executadas por empresas concessionárias ou terceirizadas, a SMMA notificará a empresa para correção técnica imediata, inclusive com reposição de árvores danificadas, sob pena de suspensão do contrato e retenção de pagamento até a regularização, conforme laudo técnico de profissional habilitado.\n§ 4º A poda de árvores no Município de Curitiba deverá seguir as recomendações técnicas de poda constantes no Plano Municipal de Arborização de Curitiba e ABNT NBR-16246. (Redação dada pela Lei nº 16.627, de 2025)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput mantido em substância, mas reescrito; acrescidos os §§ 2º (laudo técnico exigido antes da poda drástica), 3º (notificação de empresas por erro técnico) e 4º (remissão ao Plano Municipal de Arborização e à ABNT NBR-16246), ausentes do compilado. Fonte: Lei 16.627/2025 de Curitiba, art. 1º, II (Legisladoc, ato 459474, publicada em 27/11/2025)"
+   ],
    "videStf": [],
    "revogado": false
   },

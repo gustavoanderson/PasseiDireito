@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "02/05/2023",
  "ementa": "Regulamenta os procedimentos auxiliares das licitações e contratações, conforme disposto no §1º do artigo 78 da Lei Federal n.º 14.133, de 1º de abril de 2021, no âmbito da Administração Direta, Autárquica e Fundacional do Município de Curitiba.",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -66,11 +66,13 @@
   {
    "id": "6",
    "local": "CAPÍTULO I DO CREDENCIAMENTO",
-   "texto": "Art. 6º O aviso público do edital de credenciamento será publicado no Portal Nacional de Contratações Públicas - PNCP, no Portal de Compras do Município de Curitiba e o extrato do edital no Diário Oficial Eletrônico - Atos do Município de Curitiba e em jornal diário de grande circulação local.\n§ 1º O prazo mínimo de publicação não poderá ser inferior a 15 (quinze) dias úteis para o início do recebimento dos documentos para credenciamento, devendo ficar permanentemente aberto para participação de interessados.\n§ 2º Na hipótese de credenciamento para contratação em mercados fluidos o instrumento convocatório será publicado com antecedência mínima de 8 (oito) dias úteis.\n§ 3º A obrigação de publicação em jornal diário de grande circulação local deverá ocorrer até o dia 31 de dezembro de 2023, sendo facultativa após esta data, nos termos do § 2º do artigo 175 da Lei Federal nº 14.133, de 1º de abril de 2021.\n§ 4º Qualquer alteração nas condições de credenciamento será divulgada e publicada pela mesma forma em que se deu a do texto original.",
+   "texto": "Art. 6º O aviso público do edital de credenciamento será publicado no Portal Nacional de Contratações Públicas - PNCP, no Portal de Compras do Município de Curitiba e o extrato do edital no Diário Oficial Eletrônico - Atos do Município de Curitiba e em jornal diário de grande circulação, nos termos do § 1º do art. 54 da Lei Federal nº 14.133, de 1º de abril de 2021. (Redação dada pelo Decreto nº 1.242, de 2024)\n§ 1º O prazo mínimo de publicação não poderá ser inferior a 15 (quinze) dias úteis para o início do recebimento dos documentos para credenciamento, devendo ficar permanentemente aberto para participação de interessados.\n§ 2º Na hipótese de credenciamento para contratação em mercados fluidos o instrumento convocatório será publicado com antecedência mínima de 8 (oito) dias úteis.\n§ 3º (Revogado pelo Decreto nº 1.242, de 2024)\n§ 4º Qualquer alteração nas condições de credenciamento será divulgada e publicada pela mesma forma em que se deu a do texto original.",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput reescrito (cita agora o § 1º do art. 54 da Lei 14.133 em vez de exigir jornal \"local\") e § 3º revogado (a obrigatoriedade de publicação em jornal até 31/12/2023 perdeu objeto). Fonte: Decreto 1.242/2024 de Curitiba, arts. 7º e 15, II (Legisladoc, ato 429023, publicada em 14/08/2024)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -935,11 +937,13 @@
   {
    "id": "85",
    "local": "Seção II Do órgão Participante",
-   "texto": "Art. 85. Na hipótese de licitação ou contratação direta para registro de preços que envolver mais de um órgão ou entidade, observadas as regras de competência definidas no Regulamento específico das contratações municipais, será considerado órgão gerenciador, que exercerá as atribuições por meio de gestor designado:\nI - a SMAP: quando o objeto do registro de preços for aquisição e contratação estratégica;\nII - a SMAP: quando do registro de preços participar mais de um órgão ou entidade, incluindo a SMAP;\nIII - a SMAP: quando o requisitante do registro de preços não possuir servidor designado para a operacionalização da licitação e da dispensa eletrônica;\nIV - o órgão ou a entidade que detenha a maior parcela do valor a ser licitado ou contratado diretamente: em procedimento de que participe mais de um órgão ou entidade e sem a participação da SMAP.\n§ 1º Na hipótese do inciso IV do caput deste artigo, caso o órgão ou entidade que detenha a maior parcela não disponha de agente operador do certame, será considerado órgão gerenciador aquele que detenha a segunda maior parcela e, assim, sucessivamente.\n§ 2º Os casos omissos, não disciplinados por meio deste artigo, deverão ser objeto de orientação e definição expressas pela SMAP, a serem informadas nos autos.",
+   "texto": "Art. 85. Na hipótese de licitação ou contratação direta para registro de preços que envolver mais de um órgão ou entidade, observadas as regras de competência definidas no Regulamento específico das contratações municipais, será considerado órgão gerenciador, que exercerá as atribuições por meio de gestor designado:\nI - a SMATI: quando o objeto do registro de preços for aquisição e contratação estratégica;\nII - o órgão promotor: quando do registro de preços participar mais de um órgão ou entidade;\nIII - a SMATI: quando o órgão promotor ou requisitante não possuir servidor designado para a operacionalização da licitação e da dispensa eletrônica, cabendo ao órgão promotor ou requisitante a homologação do certame. (Redação dada pelo Decreto nº 2.204, de 2025)\n§ 1º (Revogado pelo Decreto nº 2.204, de 2025)\n§ 2º Os casos omissos, não disciplinados por meio deste artigo, deverão ser objeto de orientação e definição expressas pela SMAP, a serem informadas nos autos.",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Incisos I a III reescritos (substituíram \"SMAP\" por \"SMATI\" e \"órgão promotor\" no inciso II; o inciso III passou a dar a homologação ao órgão promotor, não à SMATI) e o inciso IV e o § 1º (regra de maior parcela de valor) foram revogados. O compilado trazia a redação original, ainda com os 4 incisos e os dois parágrafos. Fonte: Decreto 2.204/2025 de Curitiba, arts. 5º e 6º (Legisladoc, ato 459321, republicado em 25/11/2025)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -1505,6 +1509,19 @@
    "revogado": false
   },
   {
+   "id": "136-A",
+   "local": "",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "videStf": [],
+   "texto": "Art. 136-A. A adesão à ata de registro de preços na condição de não participante poderá ser exercida por órgãos e entidades da Administração Pública de outros municípios, relativamente a ata de registro de preços gerenciada pelo Município de Curitiba.\n§ 1º A adesão a que se refere o caput poderá ser permitida a qualquer ata de registro de preços, desde que vigente, precedida de licitação sob o sistema de registro de preços e expressamente admitida no Edital.\n§ 2º As aquisições ou as contratações adicionais a que se refere o caput deste artigo não poderão exceder, por órgão ou entidade, a 50% (cinquenta por cento) dos quantitativos dos itens do instrumento convocatório registrados na ata de registro de preços para o órgão gerenciador e para os órgãos participantes.\n§ 3º O quantitativo decorrente das adesões à ata de registro de preços a que se refere o caput deste artigo não poderá exceder, na totalidade, ao dobro do quantitativo de cada item registrado na ata de registro de preços para o órgão gerenciador e órgãos participantes, independentemente do número de órgãos não participantes que aderirem.\n§ 4º Caberá ao fornecedor ou prestador beneficiário da ata de registro de preços, observadas as condições nela estabelecidas, optar pela aceitação ou não do fornecimento ou prestação decorrente de adesão, o que fará no compromisso de não prejudicar as obrigações presentes e futuras decorrentes da ata, assumidas com o órgão gerenciador e com os órgãos participantes.\n§ 5º É de exclusiva responsabilidade do órgão ou da entidade não participante a verificação sobre existência de justificativa da vantagem da adesão, da demonstração da compatibilidade dos valores registrados com aqueles praticados no mercado, a realização da consulta ao órgão gerenciador e pedido de aceitação prévia ao fornecedor.\n§ 6º Compete ao órgão gerenciador da ata de registro de preços a análise do pedido e o respeito aos limites legais dos quantitativos das atas, além das atribuições previstas nas normas municipais.\n§ 7º Após a autorização do órgão ou da entidade gerenciadora, o órgão ou a entidade não participante efetivará a aquisição ou a contratação solicitada, observado o prazo de vigência da ata de registro de preços.\n§ 8º O órgão ou entidade aderente deverá comunicar ao órgão gerenciador da ata de registro de preços qualquer irregularidade cometida pelo fornecedor ou prestador de serviço, bem como eventuais sanções aplicadas em decorrência do descumprimento das obrigações assumidas, para fins de registro no cadastro de fornecedores e avaliação da manutenção da ata de registro de preços. (Incluído pelo Decreto nº 172, de 2026)",
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Artigo novo: permite a adesão de órgãos de OUTROS municípios (não participantes) às atas de registro de preços gerenciadas por Curitiba, com limites de 50% por órgão aderente e o dobro do quantitativo total. Fonte: Decreto 172/2026 de Curitiba, art. 1º (Legisladoc, ato 463884, publicada em 11/02/2026)"
+   ],
+   "revogado": false
+  },
+  {
    "id": "137",
    "local": "Subseção I Da Adesão Interna no Âmbito Municipal",
    "texto": "Art. 137. Os órgãos e entidades do Município de Curitiba não participantes do certame podem aderir à ARP, respeitadas as regras previstas na Lei Federal nº 14.133, de 1º de abril de 2021 e neste Decreto, hipótese em que a solicitação de cotas deverá ser formalizada em procedimento específico e respeitados os quantitativos licitados.\n§ 1º Para que ocorra a adesão de ARP por órgãos não participantes, deverão ser observados os seguintes requisitos:\nI - apresentação pelo órgão não participante de justificativa da necessidade pública e da vantagem da adesão, inclusive em situações de provável desabastecimento ou descontinuidade de serviço público;\nII - justificativa pelo órgão não participante da não participação no momento em que houve o planejamento e instauração da licitação ou da contratação direta;\nIII - demonstração de que os valores registrados estão compatíveis com os valores praticados pelo mercado na forma do artigo 23 da Lei Federal nº 14.133, de 1º de abril de 2021 e das normas gerais previstas no Regulamento específico das contratações municipais;\nIV - prévia consulta e aceitação do órgão gerenciador e do fornecedor;\nV - informação sobre a observância da quantidade constante da ARP e sua compatibilidade com a expectativa de aquisição no exercício, para que não ocorra fracionamento.\n§ 2º Caberá ao fornecedor beneficiário da ARP, observadas as condições nela estabelecidas, optar pela aceitação ou não do fornecimento em virtude de sua adesão, desde que não prejudique as obrigações presentes e futuras decorrentes da ARP.\n§ 3º As aquisições ou as contratações adicionais não poderão exceder, por órgão ou entidade, a 50% (cinquenta por cento) dos quantitativos dos itens do instrumento convocatório registrados na ARP para o órgão gerenciador e para os órgãos participantes.\n§ 4º O quantitativo decorrente das adesões à ARP não poderá exceder, na totalidade, ao dobro do quantitativo de cada item registrado na ARP para o órgão gerenciador e órgãos participantes, independentemente do número de órgãos não participantes que aderirem.\n§ 5º Compete ao órgão não participante os atos relativos à gestão e a verificação quanto ao cumprimento pelo fornecedor das obrigações contratualmente assumidas e a aplicação de eventuais penalidades decorrentes do descumprimento de cláusulas contratuais em relação às suas próprias contratações, informando, quando for o caso, as ocorrências ao gestor indicado.",
@@ -1661,22 +1678,26 @@
   {
    "id": "151",
    "local": "TÍTULO III DAS DISPOSIÇÕES FINAIS",
-   "texto": "Art. 151. A SMAP poderá editar normas complementares a este Decreto.",
+   "texto": "Art. 151. Compete à SMATI editar normas complementares, orientações e procedimentos necessários à aplicação deste Decreto. (Redação dada pelo Decreto nº 172, de 2026)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput reescrito: a competência deixou de ser da SMAP (que \"poderia editar normas complementares\") e passou à SMATI, agora também para orientações e procedimentos. Fonte: Decreto 172/2026 de Curitiba, art. 2º (Legisladoc, ato 463884, publicada em 11/02/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },
   {
    "id": "152",
    "local": "TÍTULO III DAS DISPOSIÇÕES FINAIS",
-   "texto": "Art. 152. Nos casos omissos, a SMAP poderá autorizar a utilização das normas aplicáveis à União, mediante a publicação de instrução normativa.",
+   "texto": "Art. 152. Compete à SMATI analisar e dirimir eventuais omissões, situações e questionamentos que lhe forem encaminhados, necessários à aplicação deste Decreto. (Redação dada pelo Decreto nº 172, de 2026)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput reescrito: deixou de autorizar a aplicação subsidiária das normas da União e passou a atribuir à SMATI a competência de dirimir omissões e questões sobre a aplicação do Decreto. Fonte: Decreto 172/2026 de Curitiba, art. 2º (Legisladoc, ato 463884, publicada em 11/02/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },

@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "19/12/2024",
  "ementa": "Dispõe sobre o processo administrativo, no âmbito da Administração Pública Direta, Autárquica e Fundacional do Município de Curitiba.",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -154,11 +154,13 @@
   {
    "id": "14",
    "local": "TÍTULO I",
-   "texto": "Art. 14 São direitos do administrado, entre outros:\nI - receber do agente público tratamento respeitoso;\nII - ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter acesso aos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas;\nIII - ser representado por mandatário ou advogado constituído;\nIV - exercer os direitos ao contraditório e à ampla defesa;\nV - o uso do nome social e o reconhecimento da identidade de gênero às pessoas trans e intersexuais em seus registros, sistemas e documentos;\nVI - demonstrada prova de sua condição, têm direito a tramitação prioritária os processos administrativos em que figurem como parte ou interessado:\na) pessoas idosas, com idade igual ou superior a 60 (sessenta) anos;\nb) pessoas que tenham deficiência física ou intelectual, pessoa com tuberculose ativa, esclerose múltipla, neoplasia maligna, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, estados avançados da doença de Pagett, contaminação por radiação, síndrome de imunodeficiência adquirida ou outra doença grave, com base em conclusão da medicina especializada mesmo que a doença tenha sido contraída após o início do processo;\nc) pessoas com transtorno do espectro autista.\nCapítulo III\nDOS DEVERES DO ADMINISTRADO",
+   "texto": "Art. 14 São direitos do administrado, entre outros:\nI - receber do agente público tratamento respeitoso;\nII - ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter acesso aos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas;\nIII - ser representado por mandatário ou advogado constituído;\nIV - exercer os direitos ao contraditório e à ampla defesa;\nV - o uso do nome social e o reconhecimento da identidade de gênero às pessoas trans e intersexuais em seus registros, sistemas e documentos;\nVI - demonstrada prova de sua condição, têm direito a tramitação prioritária os processos administrativos em que figurem como parte ou interessado:\na) pessoas idosas, com idade igual ou superior a 60 (sessenta) anos;\nb) pessoas que tenham deficiência física ou intelectual, pessoa com tuberculose ativa, esclerose múltipla, neoplasia maligna, hanseníase, paralisia irreversível e incapacitante, cardiopatia grave, doença de Parkinson, espondiloartrose anquilosante, nefropatia grave, hepatopatia grave, estados avançados da doença de Pagett, contaminação por radiação, síndrome de imunodeficiência adquirida ou outra doença grave, com base em conclusão da medicina especializada mesmo que a doença tenha sido contraída após o início do processo;\nc) pessoas com transtorno do espectro autista.\nd) que figure como parte de negócio jurídico ou beneficiado por ato administrativo bilateral decorrente de parceria estratégica, nos termos do Programa Municipal de Parcerias Estratégicas, quanto a licenças, alvarás e autorizações de qualquer natureza, emitidos pela Administração Pública Municipal, necessários à estruturação e execução da respectiva parceria. (Incluído pela Lei nº 16.763, de 2026)\nCapítulo III\nDOS DEVERES DO ADMINISTRADO",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Acrescentada a alínea \"d\" ao inciso VI (tramitação prioritária): processos administrativos relacionados a parceria estratégica do PMPE (licenças, alvarás e autorizações) passam a ter tramitação prioritária. Fonte: Lei 16.763/2026 de Curitiba, art. 25 e 26 (Legisladoc, ato 473167, publicada em 03/07/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },

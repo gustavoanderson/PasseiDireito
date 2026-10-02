@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "21/07/2004",
  "ementa": "\"Dispõe sobre as normas que regulam a aprovação de projetos, o licenciamento de obras e atividades, a execução, manutenção e conservação de obras no Município, e dá outras providências.\"",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -79,11 +79,13 @@
   {
    "id": "7",
    "local": "CAPÍTULO III",
-   "texto": "Art. 7º O processamento do pedido de licenciamento para obras públicas terá prioridade sobre quaisquer outros pedidos de licenciamento.",
+   "texto": "Art. 7º O processamento do pedido de licenciamento para obras públicas terá prioridade sobre quaisquer outros pedidos de licenciamento.\nParágrafo único. Para fins do caput, serão consideradas obras públicas aquelas executadas no âmbito de parcerias estratégicas integrantes do Programa Municipal de Parcerias Estratégicas. (Incluído pela Lei nº 16.763, de 2026)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Acrescentado parágrafo único: as obras executadas no âmbito de parcerias do Programa Municipal de Parcerias Estratégicas (PMPE) também contam como \"obras públicas\" para fins da prioridade de licenciamento do caput. Fonte: Lei 16.763/2026 de Curitiba, art. 27 (Legisladoc, ato 473167, publicada em 03/07/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -365,11 +367,13 @@
   {
    "id": "33",
    "local": "Seção II",
-   "texto": "Art. 33. O alvará de licença para localização e funcionamento de novas atividades será exigido mesmo que o estabelecimento esteja localizado no recinto de outro já licenciado.\n§ 1º Excetuam-se das exigências deste artigo, os órgãos da Administração Direta e Indireta da União, do Estado ou do Município.\n§ 2º O alvará de licença deverá permanecer em lugar facilmente visível.\n§ 3º Em estabelecimentos de risco à saúde, as atividades desenvolvidas deverão ser compatíveis entre si, e devidamente autorizadas pela autoridade sanitária municipal, mesmo quando desenvolvidas em horários diferentes.",
+   "texto": "Art. 33. O alvará de licença para localização e funcionamento de novas atividades será exigido mesmo que o estabelecimento esteja localizado no recinto de outro já licenciado.\n§ 1º Excetuam-se das exigências deste artigo: (Redação dada pela Lei nº 16.081, de 2022)\nI - órgãos da Administração Direta e Indireta da União, do Estado ou do Município;\nII - condomínios residenciais e comerciais, não se aplicando às atividades de gestão e administração de shopping centers e centros comerciais;\nIII - atividades desenvolvidas de forma automatizada através de autoatendimento, sem suporte humano e permanência de público no local;\na) a empresa deverá possuir sede ou filial devidamente licenciada no Município para todas as atividades, inclusive as exercidas de forma automatizada;\nb) deverá constar a forma de atuação \"máquinas automáticas\" no alvará de licença para localização e funcionamento, ou outra forma que vier a substituí-la;\nc) permitida a instalação em locais devidamente licenciados, exceto os casos previstos no inciso II deste artigo;\nd) a dispensa não exime as pessoas naturais e jurídicas do dever de observar as demais obrigações estabelecidas na legislação pertinente, inclusive as normas de proteção ao meio ambiente, de repressão à poluição sonora e à perturbação do sossego público, assim como os regulamentos aplicáveis à legislação sanitária e de prevenção contra incêndio e pânico, estando sujeitas à fiscalização pelos órgãos competentes.\nIV - os casos previstos de dispensa, conforme regulamentação por legislação federal específica.\n§ 2º O alvará de licença deverá permanecer em lugar facilmente visível.\n§ 3º Em estabelecimentos de risco à saúde, as atividades desenvolvidas deverão ser compatíveis entre si, e devidamente autorizadas pela autoridade sanitária municipal, mesmo quando desenvolvidas em horários diferentes.",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: § 1º reescrito: a lista de dispensas do alvará deixou de ser genérica (só órgãos públicos) e passou a ter 4 incisos, incluindo condomínios (II) e atividades automatizadas sem suporte humano, como máquinas de autoatendimento (III, com as alíneas a a d). Fonte: Lei 16.081/2022 de Curitiba, art. 1º (Legisladoc, ato 364712, publicada em 24/10/2022)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -3667,11 +3671,13 @@
   {
    "id": "334",
    "local": "Seção IX",
-   "texto": "Art. 334 Não manter o terreno, edificado ou não, limpo, drenado, roçado e capinado. (art. 166)\nPena - Multa de R$ 25, 00 (vinte e cinco reais) por m².\nParágrafo único. O proprietário do terreno edificado ou não será notificado para tomada de providências no prazo de 30 (trinta) dias, em caso de descumprimento, será aplicada a pena. (Redação alterada através da Lei nº 14950/2016)",
+   "texto": "Art. 334. Não manter o terreno, edificado ou não, limpo, drenado, roçado e capinado (art. 166).\nPena - Multa de R$ 33,62 por m2. (Redação dada pela Lei nº 16.161, de 2023)\n§ 1º O proprietário do terreno, edificado ou não, será notificado para tomada de providências no prazo de trinta dias, podendo ser reduzido para três dias em terrenos com potenciais focos de transmissão de dengue, onde sejam constatados resíduos que permitam acúmulo de água, como pneus, plásticos, vasilhames, potes, latas, garrafas, tampas e semelhantes. Em caso de descumprimento, será aplicada a multa. (Redação dada pela Lei nº 16.161, de 2023)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput e § 1º (que passou a ser o antigo parágrafo único) reescritos pela Lei 16.161/2023: a multa subiu de R$ 25,00 para R$ 33,62 por m², e o prazo de notificação passou a poder ser reduzido para 3 dias em terrenos com foco de dengue. O compilado trazia a redação da Lei 14.950/2016 (multa de R$ 25,00), sem sequer refletir a alteração intermediária da Lei 16.114/2022. Fonte: Lei 16.161/2023 de Curitiba, art. 1º (Legisladoc, ato 378791, publicada em 16/05/2023)"
+   ],
    "videStf": [],
    "revogado": false
   },

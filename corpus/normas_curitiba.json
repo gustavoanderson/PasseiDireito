@@ -306,6 +306,13 @@
       "titulo": "LC 40/2001 (Código Tributário Municipal)"
     },
     {
+      "id": "lc-108-2017",
+      "tipo": "lei-complementar",
+      "numero": 108,
+      "ano": 2017,
+      "titulo": "LC 108/2017 (ITBI de Curitiba)"
+    },
+    {
       "id": "dec-2305-2023",
       "tipo": "decreto",
       "numero": 2305,

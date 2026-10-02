@@ -6,16 +6,18 @@
  "situacao": "Alterado",
  "publicacao": "25/06/2025",
  "ementa": "Autoriza a criação da empresa estatal PARS S.A. e altera dispositivo da Lei nº 13.912, de 23 de dezembro de 2011.",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
    "local": "",
-   "texto": "Art. 1º Fica a autorizada a criação de pessoa jurídica de direito privado, sob a forma de sociedade por ações, denominada PARS S.A, vinculada à Secretaria Municipal de Planejamento, Finanças e Orçamento, tendo por objeto social promover a implementação do Programa Municipal de Parcerias Público-Privadas criado pela Lei nº 11.929, de 3 de outubro de 2006, por meio das seguintes ações:\nI - estruturar a modelagem de projetos de concessão e de parcerias público-privadas para o Município de Curitiba e para outros Entes da Administração Pública Federal, Estadual e Municipal;\nII - gerir os ativos financeiros e contratuais transferidos pelo Município de Curitiba;\nIII - auxiliar os Entes Públicos na realização de investimentos em obras e serviços públicos;\nIV - prestar consultoria na elaboração de projetos de infraestrutura e urbanização;\nV - prestar serviços relacionados às atividades de fiscalização e/ou gestão de contratos administrativos;\nVI - ser sócia e/ou acionista de empresa privada, cujo objeto social esteja relacionado às suas finalidades institucionais;\nVII - atuar em outras atividades relacionadas com as finalidades previstas neste artigo.\nParágrafo único. As atividades desenvolvidas pela PARS respeitarão as atribuições executadas pelos órgãos já existentes da Administração Municipal, em regime de cooperação, de forma que não haja sobreposição de competências.",
+   "texto": "Art. 1º Fica autorizada a criação de pessoa jurídica de direito privado, sob a forma de sociedade por ações, denominada PARS S.A, vinculada à Secretaria Municipal de Planejamento, Finanças e Orçamento, tendo por objeto social promover a implementação do Programa Municipal de Parcerias Estratégicas, por meio das seguintes ações: (Redação dada pela Lei nº 16.763, de 2026)\nI - estruturar a modelagem de projetos de concessão, de parcerias público-privadas e outras modalidades de parcerias estratégicas para o Município de Curitiba e para outros entes da Administração Pública Federal, Estadual e Municipal;\nII - gerir os ativos financeiros e contratuais transferidos pelo Município de Curitiba;\nIII - auxiliar os Entes Públicos na realização de investimentos em obras e serviços públicos;\nIV - prestar consultoria na elaboração de projetos de infraestrutura e urbanização;\nV - prestar serviços relacionados às atividades de fiscalização e/ou gestão de contratos administrativos;\nVI - ser sócia e/ou acionista de empresa privada, cujo objeto social esteja relacionado às suas finalidades institucionais;\nVII - atuar em outras atividades relacionadas com as finalidades previstas neste artigo.\nParágrafo único. As atividades desenvolvidas pela PARS respeitarão as atribuições executadas pelos órgãos já existentes da Administração Municipal, em regime de cooperação, de forma que não haja sobreposição de competências.",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput e inciso I reescritos: a PARS S.A deixou de vincular-se só ao antigo Programa Municipal de Parcerias Público-Privadas (Lei 11.929/2006) e passou a servir ao novo Programa Municipal de Parcerias Estratégicas (PMPE), com rol ampliado de modalidades no inciso I. Os incisos II a VII e o parágrafo único não foram tocados. Fonte: Lei 16.763/2026 de Curitiba, art. 25 e 26 (Legisladoc, ato 473167, publicada em 03/07/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },

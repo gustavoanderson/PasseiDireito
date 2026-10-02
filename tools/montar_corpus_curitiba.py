@@ -33,10 +33,37 @@ def data_br(texto: str) -> datetime.date | None:
         return None
 
 
+def aplicar_correcoes(artigos: list[dict], correcoes: dict) -> list[str]:
+    """Põe a redação de 21/09/2026 onde o texto "Alterado" do Legisladoc ficou
+    para trás. Lição de 01/10/2026: a LC 108/2017 (ITBI) aparecia sem as
+    mudanças das LCs 134/2022 e 148/2025, com os arts. 13 e 14 revogados ainda
+    "vigentes", e questões foram escritas sobre o texto velho. Devolve o que
+    foi feito, para o relatório."""
+    feitos = []
+    por_id = {a["id"]: a for a in artigos}
+    for id_, c in correcoes.items():
+        a = por_id.get(id_)
+        if a is None:
+            if not c.get("novo"):
+                feitos.append(f"art. {id_}: correção sem artigo correspondente — conferir")
+                continue
+            a = {"id": id_, "local": "", "versoesDescartadas": 0, "conferir": False, "duplicado": False, "videStf": []}
+            depois = next((i for i, x in enumerate(artigos) if x["id"] == c.get("depoisDe")), len(artigos) - 1)
+            artigos.insert(depois + 1, a)
+            por_id[id_] = a
+        a["texto"] = c["texto"]
+        a["notas"] = [f"Redação de 21/09/2026 reconstruída: {c['motivo']} Fonte: {c['fonte']}"]
+        a["revogado"] = bool(c.get("revogado"))
+        a["conferir"] = False
+        feitos.append(f"art. {id_}: {c['motivo']}")
+    return feitos
+
+
 def main(ids: list[str]) -> int:
     from playwright.sync_api import sync_playwright
 
     lista = json.loads((RAIZ / "normas_curitiba.json").read_text(encoding="utf-8"))["normas"]
+    correcoes = json.loads((RAIZ / "correcoes_curitiba.json").read_text(encoding="utf-8"))
     if ids:
         lista = [n for n in lista if n["id"] in ids]
     saida = RAIZ / "curitiba"
@@ -75,6 +102,8 @@ def main(ids: list[str]) -> int:
             if len(artigos) < 1:
                 problemas.append(f"{n['id']}: nenhum artigo extraído do ato {ato['id']}")
                 continue
+            for feito in aplicar_correcoes(artigos, correcoes.get(n["id"], {})):
+                print(f"  {n['id']}: {feito}")
             conferir = [a["id"] for a in artigos if a["conferir"]]
             if conferir:
                 problemas.append(f"{n['id']}: versões sem nota de redação, conferir: arts. {', '.join(conferir)}")

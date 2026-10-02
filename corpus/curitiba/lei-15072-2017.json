@@ -6,7 +6,7 @@
  "situacao": "Alterado",
  "publicacao": "26/09/2017",
  "ementa": "Institui o regime de previdência complementar no âmbito do Município de Curitiba, fixa o limite máximo para a concessão de aposentadorias e pensões, de que trata o art. 40, da Constituição Federal, autoriza a criação de entidade fechada de previdência complementar e dá outras providências.",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -220,11 +220,13 @@
   {
    "id": "20",
    "local": "SEÇÃO II",
-   "texto": "Art. 20. A CuritibaPrev será integralmente mantida por taxa de administração definida anualmente no Plano de Gestão Administrativa e aprovada pelo Conselho Deliberativo.\nParágrafo único. A taxa de administração será de no máximo 1% a.a. (um por cento ao ano) sobre o montante dos recursos garantidores dos planos de benefícios.(Redação alterada pela Lei nº 15663/2020)",
+   "texto": "Art. 20. A CuritibaPrev será mantida por fontes de financiamento destinadas à cobertura de suas despesas administrativas, definidas no Plano de Gestão Administrativa e aprovadas pelo Conselho Deliberativo, observada a legislação federal aplicável à previdência complementar e as normas expedidas pela Superintendência Nacional de Previdência Complementar - PREVIC. (Redação dada pela Lei nº 16.734, de 2026)",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
-   "notas": [],
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Caput reescrito (deixou de falar em \"taxa de administração\" fixa e passou a remeter às normas federais da PREVIC) e o parágrafo único (teto de 1% a.a.) foi revogado. Fonte: Lei 16.734/2026 de Curitiba, arts. 1º e 3º (Legisladoc, ato 470196, publicada em 22/05/2026)"
+   ],
    "videStf": [],
    "revogado": false
   },
@@ -424,6 +426,19 @@
    "duplicado": false,
    "notas": [],
    "videStf": [],
+   "revogado": false
+  },
+  {
+   "id": "38-A",
+   "local": "",
+   "versoesDescartadas": 0,
+   "conferir": false,
+   "duplicado": false,
+   "videStf": [],
+   "texto": "Art. 38-A. Fica o Poder Executivo autorizado a efetuar o repasse financeiro, a título de adiantamento, para custeio administrativo da CuritibaPrev no percentual de até 0,25% (zero vírgula vinte e cinco por cento), calculado sobre o valor do somatório da remuneração base de cálculo de contribuição previdenciária de todos os servidores ativos vinculados ao RPPS, apurado no exercício financeiro anterior. (Incluído pela Lei nº 16.277, de 2023)",
+   "notas": [
+    "Redação de 21/09/2026 reconstruída: Artigo novo: autoriza repasse financeiro de até 0,25% para custeio administrativo da CuritibaPrev. Fonte: Lei 16.277/2023 de Curitiba, art. 1º (Legisladoc, ato 395270, publicada em 20/12/2023)"
+   ],
    "revogado": false
   },
   {
