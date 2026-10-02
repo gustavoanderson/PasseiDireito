@@ -1,30 +1,37 @@
 # Status do PasseiDireito
 
-Atualizado em 02/10/2026, madrugada. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 02/10/2026, à tarde. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 ## Onde estamos
 
 **Prioridade:** MVP da prova objetiva (13/12/2026). Discursiva com IA e a segunda leitura ficam para depois da prova, por decisão do Gustavo.
 
-**O app (v0.1):**
+**O app (v0.2, commitado e buildado em 02/10/2026):**
 - Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
-- APK em `D:\repositorio\PasseiDireito-v0.1.apk`, com 295 questões. Ainda não foi testado em celular de verdade.
+- APK em `D:\repositorio\PasseiDireito-v0.2.apk` (52 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
+- Suíte inteira verde: validador do banco, 5 suítes de testes Python, `flutter analyze` e `flutter test` (73 testes).
+- 4 commits em 02/10: correção do extrator federal, correção da base de Curitiba, +150 questões, documentação.
 
-**Banco de questões: 400 questões, validador verde.** Desde o último commit (e593202) entraram +105. **Nada disso foi commitado ainda.**
+| Matéria | Questões | Peso no edital | Questões/peso |
+|---|---|---|---|
+| Administrativo | 96 | 22 | 4,4 |
+| Constitucional | 71 | 19 | 3,7 |
+| Tributário | 89 | 19 | 4,7 |
+| Processo Civil | 80 | 19 | 4,2 |
+| Urbanístico/Ambiental | 36 | 7 | 5,1 |
+| Trabalho | 22 | 5 | 4,4 |
+| Previdenciário | 17 | 3 | 5,7 |
+| Penal | 17 | 3 | 5,7 |
+| Empresarial | 17 | 3 | 5,7 |
 
-| Matéria | Questões | Maior ID | INCORRETA/EXCETO | Peso no edital |
-|---|---|---|---|---|
-| Administrativo | 86 | adm-0094 | 26% | 22 |
-| Constitucional | 36 | const-0036 | 13% | 19 |
-| Tributário | 89 | trib-0089 | 26% | 19 |
-| Processo Civil | 80 | pc-0080 | 32% | 19 |
-| Urbanístico/Ambiental | 36 | urb-0036 | 38% | 7 |
-| Trabalho | 22 | trab-0022 | 40% | 5 |
-| Previdenciário | 17 | prev-0017 | 41% | 3 |
-| Penal | 17 | pen-0017 | 41% | 3 |
-| Empresarial | 17 | emp-0017 | 41% | 3 |
+Proporção equilibrada entre matérias (3,7 a 5,7 questões por ponto de peso). Decisão de 02/10: parar de expandir volume por ora (já passou de 300, a meta original) — próxima vez, Constitucional e Processo Civil são as que têm menor razão questões/peso.
 
-Os IDs de Administrativo pulam números (adm-0094 é o maior, com 86 questões). Isso é normal: ID nunca é reutilizado.
+**Pendências abertas, para a próxima sessão:**
+- **Matinhos:** checar fundacaofafipa.org.br/informacoes/4197 (prazo 07/10/2026 às 23h59 para o caderno).
+- Duas lacunas de ferramenta na base de Curitiba (Lei 1.656/1958 arts. 102-269; Decreto 868/2024 Anexo) — sem questão exposta hoje, mas não escrever questão nova nesses trechos.
+- Duas pendências jurídicas sem fonte firme (lei-15042-2017 art. 5º; lei-7671-1991 art. 2º "f").
+- Artigos federais "conferir" (sem nota de redação em nenhuma versão): l14133 arts. 37 e 54; l13709 art. 62; l8213 art. 60; l13869 arts. 3, 9, 13, 15, 16, 20, 30, 32, 38, 43; l13465 art. 16.
+- APK nunca testado num celular real.
 
 ## O que aconteceu em 01/10/2026
 
@@ -67,23 +74,7 @@ Os IDs de Administrativo pulam números (adm-0094 é o maior, com 86 questões).
 6. **Matinhos.** Se o caderno chegar até 07/10, adaptar as questões com `origem: {"tipo":"adaptada","prova":"FAFIPA 2026, PGM Matinhos/PR"}`.
    - Tirar as questões de lei municipal de Matinhos.
    - Usar o gabarito definitivo e excluir as anuladas.
-7. **Commit e APK.** Rodar a suíte inteira (comandos no CLAUDE.md), commitar e gerar o APK v0.2.
-
-### Banco em 02/10/2026, à tarde — 445 questões, decisão de parar o volume por ora
-
-| Matéria | Questões | Peso no edital | Questões/peso |
-|---|---|---|---|
-| Administrativo | 96 | 22 | 4,4 |
-| Constitucional | 71 | 19 | 3,7 |
-| Tributário | 89 | 19 | 4,7 |
-| Processo Civil | 80 | 19 | 4,2 |
-| Urbanístico/Ambiental | 36 | 7 | 5,1 |
-| Trabalho | 22 | 5 | 4,4 |
-| Previdenciário | 17 | 3 | 5,7 |
-| Penal | 17 | 3 | 5,7 |
-| Empresarial | 17 | 3 | 5,7 |
-
-A proporção está equilibrada entre matérias (3,7 a 5,7 questões por ponto de peso). **Decisão:** parar de expandir volume por ora — o banco já passou de 300 (meta original) para 445 — e fechar o ciclo: terminar a auditoria de Curitiba em andamento, depois suíte completa, commit e APK v0.2. Se quiser mais volume depois, Constitucional e Processo Civil são as próximas a reforçar (menor razão questões/peso).
+7. ~~Commit e APK.~~ **Feito em 02/10, à tarde.** Suíte inteira verde (validador, 5 suítes de testes Python, `flutter analyze` e `flutter test` — 73 testes). 4 commits (extrator, Curitiba, banco de questões, documentação). APK em `D:\repositorio\PasseiDireito-v0.2.apk` (52 MB), com 445 questões.
 
 ## Dúvidas jurídicas registradas pelos agentes (para a revisão)
 
