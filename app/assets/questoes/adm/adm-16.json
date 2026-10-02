@@ -81,6 +81,57 @@
         { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.268/2023, arts. 2º, 10, 17 e 18 (DOM nº 230, de 11/12/2023)", "data": "2023-12-11" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0102",
+      "tema": "Controle externo do Município (CF, art. 31)",
+      "enunciado": "Sobre a fiscalização do Município, nos termos do art. 31 da Constituição Federal, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É permitida a criação de novos Tribunais, Conselhos ou Órgãos de Contas Municipais, desde que autorizada por lei complementar estadual.",
+        "B": "A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+        "C": "O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver, vedada sua extinção, criação ou instalação.",
+        "D": "O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal.",
+        "E": "As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+      },
+      "correta": "A",
+      "dica": "O § 4º do art. 31 trata da criação de novos órgãos de contas municipais. Compare com o § 1º, que fala da extinção, criação ou instalação dos órgãos já existentes.",
+      "alerta": "Mudança recente: a Emenda Constitucional nº 139/2026 (publicada em 05/05/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "É a resposta, porque está errada. O § 4º do art. 31 é categórico: é vedada a criação de Tribunais, Conselhos ou Órgãos de Contas Municipais, sem exceção por lei complementar estadual.",
+        "B": "Correta. É o caput do art. 31: o controle do Município soma a fiscalização externa, pela Câmara, e o controle interno, pelo próprio Executivo.",
+        "C": "Correta. É o § 1º do art. 31, na redação dada pela Emenda Constitucional 139/2026, que acrescentou a vedação à extinção, criação ou instalação desses órgãos de contas.",
+        "D": "Correta. É o § 2º do art. 31: o quórum de dois terços para afastar o parecer prévio prestigia a avaliação técnica do órgão de contas sobre as contas do Prefeito.",
+        "E": "Correta. É o § 3º do art. 31: o prazo de sessenta dias de exposição das contas é instrumento de participação popular no controle das finanças municipais."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 31, caput e §§ 1º (redação da EC 139/2026), 2º, 3º e 4º", "data": "2026-05-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0103",
+      "tema": "Ação popular (Lei 4.717/1965)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a ação popular regida pela Lei nº 4.717/1965.\n\nI. Qualquer cidadão é parte legítima para pleitear a anulação ou a declaração de nulidade de atos lesivos ao patrimônio de entidades autárquicas e de sociedades de economia mista, entre outras pessoas e entidades.\nII. Na defesa do patrimônio público, caberá a suspensão liminar do ato lesivo impugnado.\nIII. A sentença que julgar procedente a ação popular condenará ao pagamento de perdas e danos os responsáveis pela prática do ato e os beneficiários dele, ressalvada a ação regressiva contra os funcionários causadores do dano, quando incorrerem em culpa.\nIV. A sentença que concluir pela carência ou pela improcedência da ação não está sujeita a reexame, produzindo efeitos imediatamente após a sua prolação.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II, III e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "A Lei 4.717/1965 submete a sentença desfavorável ao autor popular a um controle que a afirmativa IV nega. Compare com o que acontece quando a ação é julgada procedente.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 1º; II, o art. 5º, § 4º; III, o art. 11. A IV está errada: pelo art. 19, a sentença que concluir pela carência ou pela improcedência está sujeita ao duplo grau de jurisdição, não produzindo efeito senão depois de confirmada pelo tribunal.",
+        "A": "Deixa de fora a III, que está correta: o art. 11 condena ao pagamento de perdas e danos os responsáveis pela prática do ato lesivo e seus beneficiários, ressalvada a ação regressiva contra funcionários que tenham agido com culpa.",
+        "B": "Inclui a IV, que está errada (o art. 19 sujeita a sentença de carência ou improcedência ao duplo grau de jurisdição), e omite a I, que reproduz o art. 1º da Lei 4.717/1965.",
+        "C": "Inclui a IV, que contraria o art. 19, e deixa de fora a II, que reproduz o § 4º do art. 5º (suspensão liminar do ato lesivo).",
+        "D": "Nem todas estão corretas. A IV inverte o art. 19: a sentença de carência ou improcedência não produz efeito antes de confirmada pelo tribunal, justamente para proteger o patrimônio público de uma decisão desfavorável ao autor popular."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 4.717/1965, arts. 1º, 5º, § 4º, 11 e 19", "data": "1965-06-29" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

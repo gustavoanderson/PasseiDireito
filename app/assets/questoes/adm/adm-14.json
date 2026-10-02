@@ -84,6 +84,129 @@
         { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0087",
+      "tema": "Responsabilidade civil do Estado nas teses do STF",
+      "enunciado": "Considere as afirmativas a seguir, sobre a responsabilidade civil do Estado, à luz do Código Civil e das teses fixadas pelo Supremo Tribunal Federal em repercussão geral.\n\nI. Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.\nII. Caracteriza-se a responsabilidade civil objetiva do Estado por danos decorrentes de crime praticado por pessoa foragida do sistema prisional, ainda que não demonstrado o nexo causal direto entre o momento da fuga e a conduta praticada.\nIII. O Estado responde, objetivamente, pelos atos dos tabeliães e registradores oficiais que, no exercício de suas funções, causem dano a terceiros, assentado o dever de regresso contra o responsável, nos casos de dolo ou culpa, sob pena de improbidade administrativa.\nIV. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Responsabilidade objetiva dispensa culpa, mas não dispensa nexo causal. Uma das afirmativas esquece isso.",
+      "explicacao": {
+        "C": "Correta. I é a tese do Tema 592 (RE 841.526); III é a tese do Tema 777 (RE 842.846); IV reproduz o art. 43 do Código Civil. A II contraria o Tema 362 (RE 608.880): não se caracteriza a responsabilidade objetiva do Estado por crime de foragido quando não demonstrado o nexo causal direto entre o momento da fuga e a conduta praticada.",
+        "A": "Inclui a II, que está errada pelo Tema 362 do STF (é preciso nexo causal direto entre a fuga e o crime), e omite III e IV.",
+        "B": "A II está errada (Tema 362) e a alternativa omite a I, que é a tese do Tema 592 sobre a morte de detento, e a IV, que é o art. 43 do Código Civil.",
+        "D": "Deixa de fora a I, que está correta: no Tema 592, o STF afirmou a responsabilidade do Estado pela morte de detento quando descumprido o dever específico de proteção do art. 5º, XLIX, da CF.",
+        "E": "Nem todas estão corretas. A II dispensa o nexo causal direto que o STF exigiu no Tema 362 para responsabilizar o Estado por crime praticado por foragido."
+      },
+      "fontes": [
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 592 (RE 841.526)",
+          "data": "2016-03-30"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 362 (RE 608.880)",
+          "data": "2020-09-08"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 777 (RE 842.846)",
+          "data": "2019-02-27"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Código Civil, art. 43",
+          "data": "2002-01-10"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0088",
+      "tema": "Prescrição contra e a favor da Fazenda Pública",
+      "enunciado": "Sobre a prescrição nas relações entre particulares e a Fazenda Pública, considerando o Decreto nº 20.910/1932 e as teses fixadas pelo Supremo Tribunal Federal em repercussão geral, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A prescrição das ações contra a Fazenda Pública pode ser interrompida quantas vezes for necessário e, uma vez interrompida, recomeça a correr pelo prazo integral.",
+        "B": "As dívidas passivas dos Municípios, bem como todo e qualquer direito ou ação contra a Fazenda municipal, seja qual for a sua natureza, prescrevem em 5 (cinco) anos contados da data do ato ou fato do qual se originarem.",
+        "C": "O direito à reclamação administrativa que não tiver prazo fixado em lei para ser formulada prescreve em 1 (um) ano a contar da data do ato ou fato do qual se originar.",
+        "D": "É prescritível a ação de reparação de danos à Fazenda Pública decorrente de ilícito civil.",
+        "E": "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato doloso tipificado na Lei de Improbidade Administrativa."
+      },
+      "correta": "A",
+      "dica": "O Decreto 20.910/1932 é generoso com a Fazenda na interrupção: limita quantas vezes ela ocorre e quanto tempo volta a correr.",
+      "explicacao": {
+        "A": "É a incorreta. Pelo art. 8º do Decreto 20.910/1932, a prescrição somente pode ser interrompida uma vez; e, pelo art. 9º, a prescrição interrompida recomeça a correr pela metade do prazo, da data do ato que a interrompeu ou do último ato ou termo do processo.",
+        "B": "Correta. É o art. 1º do Decreto 20.910/1932: prescrição quinquenal contra a Fazenda federal, estadual ou municipal, qualquer que seja a natureza do direito.",
+        "C": "Correta. É o art. 6º do Decreto 20.910/1932. Durante o estudo, o reconhecimento ou o pagamento da dívida pela repartição, a prescrição não corre (art. 4º).",
+        "D": "Correta. É a tese do Tema 666 do STF (RE 669.069): a reparação de danos à Fazenda decorrente de ilícito civil está sujeita a prescrição.",
+        "E": "Correta. É a tese do Tema 897 do STF (RE 852.475): a imprescritibilidade do art. 37, § 5º, da CF alcança só o ressarcimento fundado em ato doloso de improbidade."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Decreto 20.910/1932, arts. 1º, 4º, 6º, 8º e 9º",
+          "data": "1932-01-06"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 666 (RE 669.069)",
+          "data": "2016-02-03"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 897 (RE 852.475)",
+          "data": "2018-08-08"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0089",
+      "tema": "Omissão na fiscalização: fogos de artifício (Tema 366 do STF)",
+      "enunciado": "Uma explosão ocorreu em residência na qual funcionava comércio de fogos de artifício, causando danos aos imóveis vizinhos. Os prejudicados ajuizaram ação indenizatória contra o Município, alegando omissão no dever de fiscalizar. À luz da tese fixada pelo Supremo Tribunal Federal no Tema 366 da repercussão geral, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Município responde objetivamente por qualquer dano decorrente de atividade sujeita ao poder de polícia, bastando a demonstração do dano e de que a atividade não foi fiscalizada.",
+        "B": "O Município nunca responde nesses casos, porque a omissão estatal exclui a responsabilidade civil do Estado.",
+        "C": "A responsabilidade do Município depende da comprovação de dolo do agente encarregado da fiscalização.",
+        "D": "Basta a existência genérica do dever de fiscalizar, previsto em lei municipal, para que fique caracterizada a responsabilidade do Município.",
+        "E": "É necessária a violação de um dever jurídico específico de agir, que ocorrerá quando for concedida a licença para funcionamento sem as cautelas legais ou quando for de conhecimento do poder público eventuais irregularidades praticadas pelo particular."
+      },
+      "correta": "E",
+      "dica": "O STF não transformou o Município em segurador universal nem o isentou: exigiu um dever de agir concreto, e disse quando ele existe.",
+      "explicacao": {
+        "E": "Correta. É a tese do Tema 366 (RE 136.861): para caracterizar a responsabilidade civil do Estado por danos do comércio de fogos de artifício, é preciso violação de um dever jurídico específico de agir, presente quando a licença é concedida sem as cautelas legais ou quando o poder público conhece as irregularidades do particular.",
+        "A": "O STF rejeitou a ideia de que a simples falta de fiscalização gere responsabilidade. Sem violação de dever específico de agir, não há responsabilidade do Município (Tema 366).",
+        "B": "A omissão não exclui a responsabilidade: o próprio Tema 366 indica quando ela existe (licença concedida sem cautelas ou ciência das irregularidades).",
+        "C": "A tese não exige dolo do agente fiscal. O que se exige é a violação de um dever jurídico específico de agir; a culpa ou o dolo do agente importam para o regresso (art. 37, § 6º, da CF).",
+        "D": "É exatamente o que o STF afastou: o dever genérico de fiscalizar não basta; é preciso um dever específico, nas situações descritas na tese do Tema 366."
+      },
+      "fontes": [
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 366 (RE 136.861)",
+          "data": "2020-03-11"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 37, § 6º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

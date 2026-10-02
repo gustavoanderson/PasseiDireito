@@ -105,6 +105,83 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "const-0055",
+      "tema": "Carreira de Procurador do Município – princípios e órgãos (Lei 16.200/2023)",
+      "enunciado": "Com base nos arts. 2º, 9º e 22 da Lei Municipal nº 16.200/2023, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A carreira de Procurador do Município de Curitiba tem natureza transitória, vinculada ao mandato do Chefe do Poder Executivo que a instituiu.",
+        "B": "A PGM manterá um Conselho Superior, presidido pelo Procurador-Geral e composto por titulares do cargo de Procurador do Município, cuja atuação ocorre sem remuneração adicional.",
+        "C": "O Sistema de Avaliação Funcional aplicável aos Procuradores do Município é inteiramente distinto do Programa de Gestão de Desempenho Funcional comum aos demais servidores municipais.",
+        "D": "É permitida a realização das atribuições da carreira por terceiros não integrantes dela, desde que sob supervisão de Procurador do Município.",
+        "E": "O plano de carreira não elenca entre seus princípios básicos a corresponsabilidade da Administração e de cada Procurador individualmente, tema reservado a normas infralegais."
+      },
+      "correta": "B",
+      "dica": "Veja quem senta no Conselho Superior da PGM e se essa cadeira rende algum extra financeiro.",
+      "explicacao": {
+        "B": "Correta. É o art. 22, caput e § 2º, da Lei 16.200/2023: o Conselho Superior é presidido pelo Procurador-Geral, composto por titulares do cargo, e sua atuação não gera remuneração adicional.",
+        "A": "O art. 2º, caput, da Lei 16.200/2023 qualifica a carreira como de natureza permanente, e não transitória ou vinculada a mandato de governo.",
+        "C": "O art. 9º, caput, da Lei 16.200/2023 diz o contrário: o Sistema de Avaliação Funcional dos Procuradores é parte integrante do Programa de Gestão de Desempenho Funcional instituído pela Lei 16.037/2022, comum aos servidores municipais.",
+        "D": "O art. 2º, caput, da Lei 16.200/2023 veda expressamente a realização das atribuições da carreira por terceiros não integrantes dela, servidores ou não, sem ressalva de supervisão.",
+        "E": "O art. 2º, parágrafo único, II, da Lei 16.200/2023 lista exatamente essa corresponsabilidade entre os princípios básicos do plano de carreira."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, arts. 2º, 9º e 22", "data": "2023-08-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0056",
+      "tema": "Regime jurídico da carreira de Procurador do Município (Lei 16.200/2023)",
+      "enunciado": "Com base nos arts. 36, 37 e 38 da Lei Municipal nº 16.200/2023, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Não são aplicáveis ao cargo de Procurador do Município os arts. 35 a 52 da Lei nº 1.656, de 21 de agosto de 1958.",
+        "B": "Aplica-se à carreira de Procurador do Município de Curitiba, subsidiariamente aos termos da Lei 16.200/2023, o disposto na Lei Federal nº 8.906, de 1994 (Estatuto da Advocacia).",
+        "C": "A Lei 16.200/2023 revogou a Lei Municipal nº 11.001/2004, com as alterações que esta sofreu.",
+        "D": "A Lei 1.656/1958, de que tratam os arts. 35 a 52, é o Estatuto dos Servidores Públicos do Município de Curitiba, e sua inaplicabilidade afasta qualquer regime de estabilidade dos Procuradores do Município.",
+        "E": "O art. 38 da Lei 16.200/2023 revoga dispositivos de leis anteriores que tratavam da matéria agora disciplinada pelo novo plano de carreira."
+      },
+      "correta": "D",
+      "dica": "O art. 36 afasta só um bloco de artigos de uma lei bem mais ampla; não confunda exceção pontual com revogação total.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 36 afasta apenas os arts. 35 a 52 da Lei 1.656/1958 em relação aos Procuradores do Município; não afasta a lei inteira, nem o regime geral de estabilidade do servidor público, assegurado pelo art. 41 da Constituição Federal e pelas demais normas do Estatuto municipal que continuam aplicáveis à carreira.",
+        "A": "Correta. É o art. 36 da Lei 16.200/2023, que afasta só esse bloco específico de artigos do Estatuto geral.",
+        "B": "Correta. É o art. 37 da Lei 16.200/2023, que remete ao Estatuto da Advocacia como fonte subsidiária.",
+        "C": "Correta. É o art. 38, I, da Lei 16.200/2023, que revoga expressamente a Lei 11.001/2004 e suas alterações.",
+        "E": "Correta. É o art. 38 da Lei 16.200/2023, que revoga a legislação anterior incompatível com o novo plano de carreira."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.200/2023, arts. 36, 37 e 38", "data": "2023-08-28" },
+        { "tipo": "constituicao", "referencia": "CF, art. 41 (EC 19/1998)", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0057",
+      "tema": "Advocacia e Defensoria Pública como funções essenciais à Justiça",
+      "enunciado": "Sobre a advocacia e a Defensoria Pública, disciplinadas nos arts. 133 a 135 da Constituição Federal, analise as afirmativas a seguir.\n\nI. O advogado é indispensável à administração da justiça, sendo inviolável por seus atos e manifestações no exercício da profissão, nos limites da lei.\nII. A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe a orientação jurídica, a promoção dos direitos humanos e a defesa dos direitos individuais e coletivos, de forma integral e gratuita, aos necessitados.\nIII. São princípios institucionais da Defensoria Pública a unidade, a indivisibilidade e a independência funcional, os mesmos que a Constituição atribui ao Ministério Público.\nIV. Às Defensorias Públicas Estaduais são asseguradas autonomia funcional e administrativa e a iniciativa de sua proposta orçamentária, dispensada a observância do disposto no art. 99, § 2º, da Constituição Federal.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Compare o § 4º do art. 134 com o § 1º do art. 127: a Defensoria importou os mesmos três princípios do Ministério Público. Já o § 2º do art. 134 remete a outro artigo: ele dispensa ou exige essa remissão?",
+      "explicacao": {
+        "B": "Correta. I e II reproduzem os arts. 133 e 134, caput, da CF. A III está correta: o art. 134, § 4º (EC 80/2014), estende à Defensoria Pública os mesmos princípios institucionais que o art. 127, § 1º, atribui ao Ministério Público: unidade, indivisibilidade e independência funcional. A IV é falsa: o art. 134, § 2º, não dispensa, mas sim subordina expressamente a proposta orçamentária da Defensoria ao disposto no art. 99, § 2º, da CF.",
+        "A": "Deixa de fora a III, que está correta: a Defensoria Pública realmente compartilha com o Ministério Público os mesmos três princípios institucionais.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz fielmente o art. 133 da CF sobre o advogado.",
+        "D": "Nem todas estão corretas: a IV inverte o texto do art. 134, § 2º, que subordina, e não dispensa, a proposta orçamentária da Defensoria à regra do art. 99, § 2º.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a IV, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 133, 134 e 135 (EC 80/2014)", "data": "2014-06-04" },
+        { "tipo": "constituicao", "referencia": "CF, art. 127, § 1º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

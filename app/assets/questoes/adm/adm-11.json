@@ -81,6 +81,31 @@
         { "tipo": "lei", "referencia": "Lei 13.874/2019, arts. 1º, § 4º, 4º e 4º-A (incluído pela Lei 14.195/2021)", "data": "2021-08-26" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0100",
+      "tema": "Poder de polícia: definição e exercício regular (CTN, art. 78)",
+      "enunciado": "Nos termos do art. 78 do Código Tributário Nacional, que define o poder de polícia, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente, dispensada a observância do processo legal nos casos de urgência devidamente justificada.",
+        "B": "O exercício do poder de polícia, por envolver atividade vinculada, nunca comporta discricionariedade por parte da autoridade administrativa.",
+        "C": "Considera-se poder de polícia a atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente, entre outros, à segurança, à higiene, à ordem, aos costumes e à disciplina da produção e do mercado.",
+        "D": "O poder de polícia alcança apenas o exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, não se estendendo à segurança, à higiene ou aos costumes.",
+        "E": "É irregular o exercício do poder de polícia sempre que a autoridade administrativa decida com base em critério discricionário, ainda que dentro dos limites da lei aplicável."
+      },
+      "correta": "C",
+      "dica": "O parágrafo único do art. 78 fixa três condições para o exercício regular do poder de polícia: o órgão, o processo e os limites da discricionariedade.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do caput do art. 78 do CTN, na redação do Ato Complementar 31/1966: a enumeração dos interesses públicos (segurança, higiene, ordem, costumes, disciplina da produção e do mercado, entre outros) é ampla, e não se restringe às atividades econômicas sujeitas a concessão ou autorização.",
+        "A": "O parágrafo único do art. 78 exige, para o exercício regular, a observância do processo legal, sem abrir exceção para casos de urgência.",
+        "B": "O parágrafo único do art. 78 admite expressamente que o poder de polícia seja exercido em atividade que a lei tenha como discricionária, desde que sem abuso ou desvio de poder: discricionariedade não é, por si só, irregularidade.",
+        "D": "O caput do art. 78 enumera, ao lado das atividades econômicas dependentes de concessão ou autorização, outros interesses, como a segurança, a higiene, a ordem e os costumes, que a alternativa indevidamente exclui.",
+        "E": "O parágrafo único do art. 78 só torna irregular o exercício discricionário quando há abuso ou desvio de poder; a mera discricionariedade dentro dos limites legais não compromete a regularidade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), art. 78, caput e parágrafo único (redação do Ato Complementar 31/1966)", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

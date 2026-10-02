@@ -85,6 +85,124 @@
         { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 123 e 130", "data": "1966-10-25" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0054",
+      "tema": "IPTU em Curitiba: fato imponível, sujeito passivo e lançamento (LC 40/2001)",
+      "enunciado": "Sobre o Imposto Sobre a Propriedade Predial e Territorial Urbana no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Considera-se ocorrido o fato imponível no dia 1º de janeiro de cada exercício financeiro.",
+        "B": "A base imponível do imposto é o valor venal do imóvel.",
+        "C": "O imposto será lançado anualmente, de ofício, considerando-se as circunstâncias objetivas e subjetivas existentes à data da ocorrência do fato imponível.",
+        "D": "Quando um imóvel possuir mais de um proprietário, titular do domínio útil ou possuidor, o imposto será obrigatoriamente lançado em nome de todos eles, em partes iguais.",
+        "E": "As alíquotas do imposto serão diferenciadas em função da utilização e progressivas em razão do valor venal dos imóveis, fracionado por faixas."
+      },
+      "correta": "D",
+      "dica": "O parágrafo único do art. 34 da LC 40/2001 dá à Administração uma escolha quando há vários titulares, e atribui ao escolhido uma qualidade específica.",
+      "explicacao": {
+        "A": "Correta. É o art. 33 da LC 40/2001, em linha com a regra geral de que o IPTU é tributo de fato gerador anual.",
+        "B": "Correta. É o art. 35 da LC 40/2001 (redação da LC 149/2025): a base de cálculo do IPTU é definida pelo valor venal do imóvel, atualizado por ato do Poder Executivo conforme os critérios da lei e do regulamento. O valor venal é apurado com base na Planta Genérica de Valores e nos elementos do imóvel, constantes do Cadastro Imobiliário (art. 36, caput, também na redação da LC 149/2025).",
+        "C": "Correta. É o art. 44 da LC 40/2001: lançamento anual e de ofício, à luz da situação existente no fato imponível.",
+        "D": "Incorreta, e por isso é a resposta. Pelo parágrafo único do art. 34 da LC 40/2001, havendo mais de um proprietário, titular do domínio útil ou possuidor, o imposto será lançado, a critério da Administração, em nome de UM deles, que assumirá a qualidade de responsável solidário tributário.",
+        "E": "Correta. É o art. 39, I, da LC 40/2001 (redação da LC 136/2022): para os imóveis edificados, as alíquotas são diferenciadas em função do uso e progressivas em razão do valor venal, fracionado por faixas. O imposto de cada unidade autônoma resulta da soma das alíquotas aplicadas a cada faixa (parágrafo único do art. 39), o que a Constituição permite no art. 156, § 1º, I e II."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 33, 34 e 44, redação original, compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 35, caput (redação dada pela LC 149/2025)",
+          "data": "2025-12-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 39, I e parágrafo único (redação dada pela LC 136/2022)",
+          "data": "2022-12-08"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, § 1º (EC 29/2000)",
+          "data": "2000-09-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0055",
+      "tema": "IPTU em Curitiba: imóvel não edificado e valor venal (LC 40/2001, arts. 36 e 42)",
+      "enunciado": "De acordo com os arts. 36 e 42 do Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É considerado não edificado o imóvel cujo valor venal total da edificação não alcance a décima parte do valor venal do respectivo lote ou terreno.",
+        "B": "Não se considera não edificado o imóvel de uso não residencial vinculado a alvará de funcionamento, cuja área destinada a essa atividade seja igual ou superior à metade da área do terreno, ainda que o valor venal da edificação seja ínfimo.",
+        "C": "Não se considera não edificado o imóvel de uso residencial destinado à produção de hortifrutigranjeiros, cuja área reservada a essa finalidade não seja inferior a um terço da área do lote ou terreno.",
+        "D": "Os critérios da Planta Genérica de Valores Imobiliários prevalecem sobre o valor comprovado por Laudo de Avaliação de determinado imóvel, nos termos do § 3º do art. 36 da LC 40/2001.",
+        "E": "São considerados não edificados, entre outros casos, os imóveis com edificação em andamento, paralisada, condenada, em ruínas ou sem condições de uso, bem como aqueles com edificação que a Administração considere inadequada ou sem permissão para uso apropriado, conforme a Lei de Zoneamento, Uso e Ocupação do Solo."
+      },
+      "correta": "E",
+      "dica": "O art. 42 reúne, em incisos e alíneas, a regra da vigésima parte do valor do terreno e suas exceções a 2/3 da área do terreno. E um parágrafo do art. 36 resolve o conflito entre a planta genérica e o laudo de avaliação.",
+      "explicacao": {
+        "A": "O art. 42, V, da LC 40/2001 (redação da LC 136/2022) fala na vigésima parte (1/20) do valor venal do lote ou terreno, e não na décima parte.",
+        "B": "A exceção do art. 42, V, \"c\", da LC 40/2001 exige que a área destinada ao uso não residencial vinculado ao alvará não seja inferior a 2/3 (dois terços) da área do terreno, e não apenas à metade.",
+        "C": "A exceção do art. 42, V, \"d\", da LC 40/2001 exige área destinada à produção de hortifrutigranjeiros não inferior a 2/3 (dois terços) da área do lote ou terreno, e não a um terço.",
+        "D": "É o contrário: o § 3º do art. 36 da LC 40/2001 (redação da LC 149/2025) manda prevalecer sobre os critérios da Planta Genérica de Valores Imobiliários o valor comprovado por Laudo de Avaliação elaborado por profissional habilitado, ressalvada avaliação contraditória.",
+        "E": "Correta. São as hipóteses dos incisos II e IV do art. 42 da LC 40/2001 (redação da LC 136/2022): edificação em andamento, paralisada, condenada, em ruínas ou sem condições de uso (inciso II), e edificação que a Administração considere inadequada ou sem permissão para uso apropriado (inciso IV). A consequência é que o imóvel é tributado como não edificado, em regra com alíquota maior (art. 39, II)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 42, II, IV e V (redação dada pela LC 136/2022)",
+          "data": "2022-12-08"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 36, caput e § 3º (redação dada pela LC 149/2025)",
+          "data": "2025-12-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0056",
+      "tema": "IPTU em Curitiba: reduções, isenções e vedação de antecipação (LC 40/2001)",
+      "enunciado": "Considere as afirmativas abaixo, com base no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001).\n\nI. Para os imóveis considerados Patrimônio Histórico Cultural, poderá ser concedida redução de até 100% do IPTU, com relação à área de interesse de preservação.\nII. Os imóveis edificados de uso não residencial onde estiverem instalados hotéis vinculados a alvará de funcionamento regular, ou hospitais conveniados ao Sistema Único de Saúde (SUS), têm redução de 40% na alíquota do imposto.\nIII. É permitida a antecipação do recolhimento do IPTU antes do início do exercício financeiro a que se refere, com desconto de até 20%.\nIV. São isentas do IPTU as pessoas jurídicas integrantes da Administração Autárquica, Fundacional e as Sociedades de Economia Mista do Município de Curitiba.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Procure no art. 80 da LC 40/2001 um parágrafo incluído em 2009 que trata do momento do recolhimento do IPTU, e no art. 43 o percentual de redução aplicável a hotéis e hospitais do SUS.",
+      "explicacao": {
+        "A": "Exclui a IV, que reproduz o art. 86 da LC 40/2001: a isenção alcança autarquias, fundações e sociedades de economia mista do Município. Note que a lei inclui a sociedade de economia mista, que é pessoa de direito privado.",
+        "B": "A III está errada: o art. 80, § 7º, veda a antecipação do recolhimento do IPTU antes do início do exercício financeiro. O desconto de até 20% do caput do art. 80 vale para o pagamento integral no prazo, e não para antecipação ao exercício. E a alternativa exclui as afirmativas I e IV, que estão corretas.",
+        "C": "Correta. I é o art. 88; II é o art. 43, I, da LC 40/2001 (redação da LC 136/2022), que reduz em 40% a alíquota dos imóveis edificados de uso não residencial onde estiverem instalados hotéis vinculados a alvará de funcionamento ou hospitais conveniados ao SUS; IV é o art. 86. A III contraria o § 7º do art. 80 (LC 71/2009), que veda a antecipação do recolhimento do IPTU antes do início do exercício a que se refere.",
+        "D": "A III está errada (art. 80, § 7º), e a alternativa exclui as afirmativas I (art. 88) e II (art. 43, I, redação da LC 136/2022), ambas corretas.",
+        "E": "A III está errada. O § 7º do art. 80 da LC 40/2001 veda expressamente o recolhimento do IPTU antes do início do exercício financeiro a que se refere."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 43, I (redação dada pela LC 136/2022)",
+          "data": "2022-12-08"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 80, caput e § 7º (LC 71/2009), 86 e 88, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

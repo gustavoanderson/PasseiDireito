@@ -146,6 +146,38 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "trib-0064",
+      "tema": "Fiscalização tributária: documento de início e dever de informar (CTN, arts. 194 a 197)",
+      "enunciado": "Sobre a fiscalização tributária, nos termos dos arts. 194 a 197 do Código Tributário Nacional, com a redação dada pela Lei Complementar nº 236/2026, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O procedimento de fiscalização será precedido de documento que contenha, entre outras informações, o objeto da fiscalização, o período a ser examinado e o prazo de duração do procedimento.",
+        "B": "A legislação tributária sobre fiscalização não se aplica às pessoas que gozem de imunidade tributária ou de isenção de caráter pessoal.",
+        "C": "Na fiscalização em estabelecimento ou domicílio do contribuinte, o acompanhamento de força policial fica condicionado ao justo receio de resistência ao ato fiscalizatório, que deverá ser reduzido a termo.",
+        "D": "Mediante intimação escrita, os bancos e demais instituições financeiras são obrigados a prestar à autoridade administrativa as informações de que disponham com relação aos bens, negócios ou atividades de terceiros.",
+        "E": "A fiscalização em estabelecimento ou domicílio do contribuinte deverá ser feita mediante a entrega de uma das vias do documento de início da fiscalização ao contribuinte, seu representante legal ou preposto."
+      },
+      "correta": "B",
+      "dica": "O § 1º do art. 194 diz a quem se aplica a legislação de fiscalização, e inclui expressamente quem não paga o tributo.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Correta. É o art. 196, § 2º, II e IV, do CTN, incluído pela LC 236/2026. O documento também identifica as autoridades e o contribuinte (I) e indica como confirmar sua autenticidade (III).",
+        "B": "Incorreta, e por isso é a resposta. O art. 194, § 1º, do CTN (redação da LC 236/2026) manda aplicar a legislação de fiscalização às pessoas naturais ou jurídicas, contribuintes ou não, INCLUSIVE às que gozem de imunidade tributária ou de isenção de caráter pessoal. A imunidade não dispensa as obrigações acessórias.",
+        "C": "Correta. É o art. 196, § 4º, do CTN (LC 236/2026): o receio de resistência é reduzido a termo e consta do documento entregue ao fiscalizado.",
+        "D": "Correta. É o art. 197, II, do CTN. O parágrafo único ressalva os fatos sobre os quais o informante deva guardar segredo profissional.",
+        "E": "Correta. É o art. 196, § 3º, do CTN, incluído pela LC 236/2026."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 194, § 1º, 196, §§ 2º a 4º (LC 236/2026), e 197",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

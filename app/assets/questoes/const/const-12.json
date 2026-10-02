@@ -81,6 +81,57 @@
         { "tipo": "constituicao", "referencia": "CF, arts. 227, §§ 3º e 6º, e 231, §§ 2º a 4º", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0070",
+      "tema": "Família na Constituição Federal (art. 226)",
+      "enunciado": "Com base no art. 226 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A família, base da sociedade, tem especial proteção do Estado, e o casamento é civil e gratuita a sua celebração.",
+        "B": "O casamento religioso tem efeito civil, nos termos da lei.",
+        "C": "Para efeito da proteção do Estado, é reconhecida a união estável entre o homem e a mulher como entidade familiar, devendo a lei facilitar sua conversão em casamento, sendo essa a única configuração de entidade familiar reconhecida além do casamento.",
+        "D": "O casamento civil pode ser dissolvido pelo divórcio.",
+        "E": "O planejamento familiar é livre decisão do casal, competindo ao Estado propiciar recursos educacionais e científicos para o exercício desse direito, vedada qualquer forma coercitiva por parte de instituições oficiais ou privadas."
+      },
+      "correta": "C",
+      "dica": "O parágrafo seguinte ao da união estável reconhece mais uma configuração de família.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta. O art. 226, § 4º, reconhece também como entidade familiar a comunidade formada por qualquer dos pais e seus descendentes (a família monoparental), de modo que a união estável não é a única configuração reconhecida além do casamento.",
+        "A": "Correta. É o art. 226, caput e § 1º, da CF, sobre a proteção à família e a gratuidade do casamento.",
+        "B": "Correta. É o art. 226, § 2º, da CF, sobre o efeito civil do casamento religioso.",
+        "D": "Correta. É o art. 226, § 6º, da CF, na redação da EC 66/2010, que extinguiu a separação judicial como requisito prévio ao divórcio.",
+        "E": "Correta. É o art. 226, § 7º, da CF, sobre a livre decisão do casal no planejamento familiar."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 226, caput e §§ 1º, 2º, 4º e 7º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 226, § 6º (EC 66/2010)", "data": "2010-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0071",
+      "tema": "Cultura e desporto na Constituição Federal (arts. 215 a 217)",
+      "enunciado": "Com base nos arts. 215 a 217 da Constituição Federal, todas as alternativas estão corretas, EXCETO:",
+      "alternativas": {
+        "A": "O Estado garantirá a todos o pleno exercício dos direitos culturais e acesso às fontes da cultura nacional, e apoiará e incentivará a valorização e a difusão das manifestações culturais.",
+        "B": "Constituem patrimônio cultural brasileiro os bens de natureza material e imaterial, tomados individualmente ou em conjunto, portadores de referência à identidade, à ação, à memória dos diferentes grupos formadores da sociedade brasileira.",
+        "C": "O Poder Público, com a colaboração da comunidade, promoverá e protegerá o patrimônio cultural brasileiro, por meio de inventários, registros, vigilância, tombamento e desapropriação, entre outras formas de acautelamento e preservação.",
+        "D": "É dever do Estado fomentar práticas desportivas formais e não formais, como direito de cada um, observada a autonomia das entidades desportivas dirigentes e associações quanto à sua organização e funcionamento.",
+        "E": "O Poder Judiciário admitirá de imediato ações relativas à disciplina e às competições desportivas, independentemente do esgotamento das instâncias da justiça desportiva."
+      },
+      "correta": "E",
+      "dica": "O § 1º do art. 217 impõe uma etapa prévia antes de o caso chegar ao Judiciário; veja qual é essa etapa.",
+      "explicacao": {
+        "E": "É a resposta, pois está incorreta. O art. 217, § 1º, da CF exige o esgotamento das instâncias da justiça desportiva antes de o Poder Judiciário admitir ações relativas à disciplina e às competições desportivas, e não o inverso.",
+        "A": "Correta. É a literalidade do art. 215, caput, da CF, sobre o exercício dos direitos culturais.",
+        "B": "Correta. É a literalidade do art. 216, caput, da CF, que define o patrimônio cultural brasileiro.",
+        "C": "Correta. É o art. 216, § 1º, da CF, que lista os instrumentos de proteção desse patrimônio.",
+        "D": "Correta. É o art. 217, caput e I, da CF, sobre o dever estatal de fomentar o desporto."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 215, 216 e 217", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

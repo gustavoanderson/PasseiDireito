@@ -82,6 +82,108 @@
         { "tipo": "lei", "referencia": "Lei 10.741/2003, arts. 1º, 3º, § 2º, 34, 39 e 71 (redação da Lei 14.423/2022)", "data": "2022-07-22" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0043",
+      "tema": "Mandado de segurança individual e coletivo (Lei 12.016/2009)",
+      "enunciado": "Com base na Lei nº 12.016/2009, que disciplina o mandado de segurança individual e coletivo, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Concede-se mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, sempre que, ilegalmente ou com abuso de poder, alguém sofrer violação ou houver justo receio de sofrê-la por parte de autoridade.",
+        "B": "Não se concederá mandado de segurança quando se tratar de decisão judicial da qual caiba recurso com efeito suspensivo, ou de decisão judicial transitada em julgado.",
+        "C": "O mandado de segurança coletivo pode ser impetrado por organização sindical, entidade de classe ou associação legalmente constituída e em funcionamento há pelo menos um ano, dispensada, para tanto, autorização especial dos associados.",
+        "D": "O direito de requerer mandado de segurança extingue-se decorridos cento e vinte dias, contados da ciência, pelo interessado, do ato impugnado, prazo que se suspende durante as férias forenses.",
+        "E": "Concedida a segurança, a sentença está sujeita obrigatoriamente ao duplo grau de jurisdição, e se estende à autoridade coatora o direito de recorrer."
+      },
+      "correta": "D",
+      "dica": "Releia o artigo que fixa o prazo de cento e vinte dias e veja se ele abre alguma exceção ligada ao calendário forense.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 23 da Lei 12.016/2009 fixa o prazo de cento e vinte dias, contados da ciência do ato impugnado, sem prever qualquer suspensão durante férias forenses ou recesso; é prazo de natureza decadencial, que corre de forma contínua.",
+        "A": "Correta. É o art. 1º, caput, da Lei 12.016/2009, que reproduz a garantia do art. 5º, LXIX, da CF.",
+        "B": "Correta. É o art. 5º, II e III, da Lei 12.016/2009: a via recursal ou a coisa julgada afastam o mandado de segurança.",
+        "C": "Correta. É o art. 21, caput, da Lei 12.016/2009, que dispensa a autorização especial dos associados ou filiados.",
+        "E": "Correta. É o art. 14, §§ 1º e 2º, da Lei 12.016/2009: há duplo grau obrigatório e a autoridade coatora também pode recorrer."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.016/2009, arts. 1º, 5º, 14, 21 e 23", "data": "2009-08-07" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, LXIX", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0044",
+      "tema": "Ação popular (Lei 4.717/1965 e art. 5º, LXXIII, da CF)",
+      "enunciado": "Com base no art. 5º, LXXIII, da Constituição Federal e na Lei nº 4.717/1965, que disciplina a ação popular, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Qualquer pessoa física ou jurídica é parte legítima para propor ação popular que vise a anular ato lesivo ao patrimônio público.",
+        "B": "A ação popular visa anular ato lesivo ao patrimônio público ou de entidade de que o Estado participe, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural, ficando o autor, salvo comprovada má-fé, isento de custas judiciais e do ônus da sucumbência.",
+        "C": "A ação deve ser proposta exclusivamente contra as pessoas públicas ou privadas e entidades lesadas, sendo vedada a inclusão, no polo passivo, das autoridades que praticaram o ato impugnado.",
+        "D": "Julgada procedente a ação popular, a sentença que decretar a invalidade do ato não gera, por si só, o dever de os responsáveis indenizarem o erário, salvo condenação em ação autônoma de ressarcimento.",
+        "E": "A competência para processar e julgar a ação popular contra ato lesivo ao patrimônio de Município é sempre da Justiça Federal, dada a repercussão do interesse público municipal."
+      },
+      "correta": "B",
+      "dica": "Pense no cidadão como autor típico dessa ação, e no que acontece com ele se perder, de boa-fé.",
+      "explicacao": {
+        "B": "Correta. É o art. 5º, LXXIII, da CF, reproduzido pelo art. 11 da Lei 4.717/1965 quanto ao efeito da procedência. O cidadão que ajuíza a ação de boa-fé fica isento de custas e de sucumbência, mesmo que a ação seja julgada improcedente.",
+        "A": "O art. 5º, LXXIII, da CF e o art. 1º da Lei 4.717/1965 legitimam apenas o cidadão, e não qualquer pessoa física ou jurídica; a cidadania se comprova com o título de eleitor.",
+        "C": "O art. 6º da Lei 4.717/1965 manda propor a ação também contra as autoridades, funcionários ou administradores que houverem autorizado, aprovado, ratificado ou praticado o ato impugnado, e contra os beneficiários diretos dele.",
+        "D": "O art. 11 da Lei 4.717/1965 diz o contrário: a sentença que, julgando procedente a ação popular, decretar a invalidade do ato, já condena ao pagamento de perdas e danos os responsáveis pela sua prática e os beneficiários, sem necessidade de ação autônoma.",
+        "E": "O art. 5º da Lei 4.717/1965 fixa a competência pela origem do ato impugnado: é competente o juízo que, pela organização judiciária de cada Estado, julga as causas que interessem ao ente de onde se origina o ato, o que pode ser a Justiça Estadual quando o ato impugnado for municipal."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, LXXIII", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 4.717/1965, arts. 1º, 5º, 6º e 11", "data": "1965-06-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0045",
+      "tema": "Direitos individuais do art. 5º da Constituição Federal",
+      "enunciado": "Sobre os direitos e garantias individuais do art. 5º da Constituição Federal, analise as afirmativas a seguir.\n\nI. A casa é asilo inviolável do indivíduo, ninguém nela podendo penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial.\nII. É inviolável o sigilo da correspondência e das comunicações telegráficas, de dados e das comunicações telefônicas, admitida a quebra do sigilo das comunicações telefônicas, por ordem judicial, nas hipóteses e na forma que a lei estabelecer, para fins de investigação criminal ou instrução processual penal.\nIII. Nenhum brasileiro será extraditado, salvo o naturalizado, em caso de crime comum praticado antes da naturalização, ou de comprovado envolvimento em tráfico ilícito de entorpecentes e drogas afins, na forma da lei.\nIV. Ninguém será preso senão em flagrante delito ou por ordem escrita e fundamentada de autoridade judiciária competente, sem exceção, nem mesmo em caso de transgressão militar ou crime propriamente militar.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Releia o inciso que trata da prisão e procure, no final dele, uma ressalva ligada à vida militar.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem fielmente os incisos XI, XII e LI do art. 5º da CF. A IV é falsa: o próprio inciso LXI ressalva os casos de transgressão militar ou crime propriamente militar, hipóteses em que a prisão pode ocorrer sem a exigência genérica de ordem escrita de autoridade judiciária.",
+        "A": "Deixa de fora a afirmativa II, que está correta: o sigilo das comunicações telefônicas, ao contrário dos demais sigilos do inciso XII, pode ser quebrado por ordem judicial, para fins de investigação criminal ou instrução processual penal.",
+        "C": "Inclui a afirmativa IV, que é falsa, e deixa de fora a I, que reproduz corretamente a inviolabilidade de domicílio do inciso XI.",
+        "D": "Nem todas estão corretas: a IV ignora a ressalva do inciso LXI para a transgressão militar e o crime propriamente militar.",
+        "E": "Inclui a afirmativa IV, que é falsa pelo motivo exposto na explicação da alternativa B, e deixa de fora a III, que reproduz corretamente o inciso LI."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XI, XII, LI e LXI", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0046",
+      "tema": "Remédios constitucionais – comparação de cabimento",
+      "enunciado": "Sobre os remédios constitucionais previstos no art. 5º da Constituição Federal, todas as alternativas descrevem corretamente a respectiva garantia, EXCETO:",
+      "alternativas": {
+        "A": "Conceder-se-á habeas corpus sempre que alguém sofrer ou se achar ameaçado de sofrer violência ou coação em sua liberdade de locomoção, por ilegalidade ou abuso de poder.",
+        "B": "Conceder-se-á mandado de segurança para proteger direito líquido e certo, não amparado por habeas corpus ou habeas data, quando o responsável pela ilegalidade ou abuso de poder for autoridade pública ou agente de pessoa jurídica no exercício de atribuições do Poder Público.",
+        "C": "Conceder-se-á mandado de injunção sempre que a falta de norma regulamentadora torne inviável o exercício dos direitos e liberdades constitucionais e das prerrogativas inerentes à nacionalidade, à soberania e à cidadania.",
+        "D": "Conceder-se-á habeas data para assegurar o conhecimento de informações relativas à pessoa do impetrante, constantes de registros ou bancos de dados de entidades governamentais ou de caráter público, e para a retificação de dados, quando se prefira fazê-lo por processo sigiloso, judicial ou administrativo.",
+        "E": "São gratuitas as ações de habeas corpus e habeas data, e, na forma da lei, os atos necessários ao exercício da cidadania."
+      },
+      "correta": "D",
+      "dica": "Compare a alternativa do habeas data com o texto exato do inciso: um pequeno advérbio de negação muda o sentido da frase inteira.",
+      "explicacao": {
+        "D": "É a resposta, pois inverte o texto. O art. 5º, LXXII, b, da CF cabe para a retificação de dados quando NÃO se prefira fazê-lo por processo sigiloso, judicial ou administrativo, e não quando se prefira, como diz a alternativa.",
+        "A": "Correta. É a literalidade do art. 5º, LXVIII, da CF, que institui o habeas corpus.",
+        "B": "Correta. É a literalidade do art. 5º, LXIX, da CF, que institui o mandado de segurança.",
+        "C": "Correta. É a literalidade do art. 5º, LXXI, da CF, que institui o mandado de injunção.",
+        "E": "Correta. É a literalidade do art. 5º, LXXVII, da CF, sobre a gratuidade dessas ações."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, LXVIII, LXIX, LXXI, LXXII e LXXVII", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -82,6 +82,171 @@
         { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, art. 12", "data": "2023-11-14" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0072",
+      "tema": "Competência do Juizado da Fazenda Pública: exclusões",
+      "enunciado": "Sobre a competência do Juizado Especial da Fazenda Pública, nos termos do art. 2º da Lei nº 12.153/2009, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Compete ao Juizado processar, conciliar e julgar causas cíveis de interesse dos Municípios até o valor de 60 (sessenta) salários mínimos.",
+        "B": "Não se incluem na sua competência as causas sobre bens imóveis dos Municípios e das autarquias e fundações públicas a eles vinculadas.",
+        "C": "Incluem-se na sua competência as causas que tenham como objeto a impugnação da pena de demissão imposta a servidor público civil, desde que o valor da causa não ultrapasse 60 (sessenta) salários mínimos.",
+        "D": "Quando a pretensão versar sobre obrigações vincendas, a soma de 12 (doze) parcelas vincendas e de eventuais parcelas vencidas não poderá exceder o valor de alçada do Juizado.",
+        "E": "Não se incluem na sua competência as ações de desapropriação, de divisão e demarcação, as ações populares, as de improbidade administrativa e as execuções fiscais."
+      },
+      "correta": "C",
+      "dica": "As exclusões do § 1º do art. 2º não dependem do valor. Procure a afirmativa que tenta trazer de volta, pelo valor, uma matéria excluída.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 2º, caput. O valor de alçada do Juizado da Fazenda Pública é de 60 salários mínimos.",
+        "B": "Correta a afirmativa: art. 2º, § 1º, II. As causas sobre imóveis do ente público ficam fora do Juizado, qualquer que seja o valor.",
+        "C": "Esta é a incorreta. O art. 2º, § 1º, III, exclui da competência do Juizado as causas que tenham como objeto a impugnação da pena de demissão imposta a servidores públicos civis ou de sanções disciplinares aplicadas a militares, qualquer que seja o valor.",
+        "D": "Correta a afirmativa: art. 2º, § 2º. Para obrigações vincendas, somam-se 12 parcelas vincendas e as eventuais vencidas.",
+        "E": "Correta a afirmativa: art. 2º, § 1º, I, que também exclui o mandado de segurança e as demandas sobre direitos ou interesses difusos e coletivos."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, art. 2º",
+          "data": "2009-12-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0073",
+      "tema": "Procedimento no Juizado da Fazenda Pública (arts. 3º a 10)",
+      "enunciado": "Com base nos arts. 3º a 10 da Lei nº 12.153/2009, que disciplinam o procedimento no Juizado Especial da Fazenda Pública, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Não haverá prazo diferenciado para a prática de qualquer ato processual pelas pessoas jurídicas de direito público, e a citação para a audiência de conciliação deverá ser efetuada com antecedência mínima de 30 (trinta) dias.",
+        "B": "O juiz só pode deferir providências cautelares e antecipatórias a requerimento das partes, vedada a concessão de ofício.",
+        "C": "Cabe recurso contra qualquer decisão interlocutória proferida no Juizado, a ser julgado pela Turma Recursal.",
+        "D": "A entidade ré deverá fornecer ao Juizado a documentação de que disponha para o esclarecimento da causa até a prolação da sentença.",
+        "E": "Para o exame técnico necessário à conciliação ou ao julgamento, o juiz nomeará pessoa habilitada, que apresentará o laudo até 10 (dez) dias antes da audiência."
+      },
+      "correta": "A",
+      "dica": "No Juizado da Fazenda, o ente público perde uma prerrogativa de prazo e ganha uma garantia de antecedência. Verifique os números.",
+      "explicacao": {
+        "A": "Correta. É o art. 7º. A Fazenda não tem prazo diferenciado no Juizado e, em contrapartida, a lei lhe garante citação com pelo menos 30 dias de antecedência da audiência de conciliação.",
+        "B": "O art. 3º permite ao juiz deferir quaisquer providências cautelares e antecipatórias \"de ofício ou a requerimento das partes\", para evitar dano de difícil ou de incerta reparação.",
+        "C": "O art. 4º diz que, exceto nos casos do art. 3º (providências cautelares e antecipatórias), somente será admitido recurso contra a sentença.",
+        "D": "O art. 9º manda apresentar a documentação \"até a instalação da audiência de conciliação\", e não até a sentença.",
+        "E": "O prazo do art. 10 é de até 5 (cinco) dias antes da audiência."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, arts. 3º, 4º, 7º, 9º e 10",
+          "data": "2009-12-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0074",
+      "tema": "Pagamento de quantia no Juizado da Fazenda Pública (art. 13)",
+      "enunciado": "Com base no art. 13 da Lei nº 12.153/2009, que trata do cumprimento das decisões que impõem obrigação de pagar quantia certa no Juizado Especial da Fazenda Pública, analise as assertivas abaixo.\nI. Tratando-se de obrigação de pequeno valor, o pagamento será efetuado no prazo máximo de 90 (noventa) dias, contado da entrega da requisição do juiz à autoridade citada para a causa, independentemente de precatório.\nII. Desatendida a requisição judicial, o juiz determinará o sequestro do numerário suficiente ao cumprimento da decisão, após a prévia audiência da Fazenda Pública.\nIII. Até que se dê a publicação da lei do respectivo ente, o limite das obrigações de pequeno valor será de 30 (trinta) salários mínimos quanto aos Municípios.\nIV. O saque do valor depositado poderá ser feito pela parte autora, pessoalmente, em qualquer agência do banco depositário, independentemente de alvará.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I e III estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas I, III e IV estão corretas.",
+        "E": "Somente as assertivas III e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "O art. 13 foi desenhado para ser rápido: prazo curto, sequestro imediato e saque sem alvará.",
+      "explicacao": {
+        "A": "Errada. As duas assertivas são falsas: o prazo do art. 13, I, é de 60 (sessenta) dias, e o sequestro do § 1º é determinado \"imediatamente\", \"dispensada a audiência da Fazenda Pública\".",
+        "B": "Errada, porque inclui a assertiva I. O prazo máximo do art. 13, I, é de 60 dias. Os 90 dias aparecem na Lei Municipal 10.235/2001 de Curitiba, contados do recebimento da requisição pela Procuradoria-Geral do Município, e não na Lei 12.153/2009, que é a pedida no enunciado.",
+        "C": "Errada, porque inclui a assertiva II. O sequestro do art. 13, § 1º, dispensa a audiência da Fazenda Pública.",
+        "D": "Errada, porque inclui a assertiva I. O prazo do art. 13, I, é de 60 (sessenta) dias contados da entrega da requisição.",
+        "E": "Correta. III: art. 13, § 3º, II (30 salários mínimos para os Municípios até a lei local; em Curitiba, a Lei 10.235/2001 fixou valor próprio). IV: art. 13, § 6º. A I erra o prazo (60 dias, art. 13, I) e a II contraria o § 1º, que dispensa a audiência da Fazenda."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, art. 13",
+          "data": "2009-12-22"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 10.235/2001, arts. 1º e 2º",
+          "data": "2001-09-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0075",
+      "tema": "Juízes leigos, Turmas Recursais e uniformização (arts. 15 a 19)",
+      "enunciado": "Acerca dos auxiliares da Justiça, das Turmas Recursais e do pedido de uniformização no Juizado Especial da Fazenda Pública, conforme os arts. 15 a 19 da Lei nº 12.153/2009, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Os juízes leigos são recrutados entre advogados com mais de 2 (dois) anos de experiência, e os conciliadores, preferentemente, entre bacharéis em Direito.",
+        "B": "As Turmas Recursais são compostas por juízes em exercício no primeiro grau de jurisdição, com mandato de 2 (dois) anos, admitida a recondução independentemente da existência de outro juiz na sede da Turma.",
+        "C": "Os juízes leigos ficam impedidos de exercer a advocacia perante todos os Juizados Especiais da Fazenda Pública instalados em território nacional, enquanto no desempenho de suas funções.",
+        "D": "O pedido de uniformização fundado em divergência entre Turmas do mesmo Estado será julgado em reunião conjunta das Turmas em conflito, sob a presidência de desembargador indicado pelo Tribunal de Justiça.",
+        "E": "Quando as Turmas de diferentes Estados derem à lei federal interpretações divergentes, ou quando a decisão estiver em contrariedade com súmula do Superior Tribunal de Justiça, o pedido de uniformização será por este julgado."
+      },
+      "correta": "B",
+      "dica": "Na composição das Turmas Recursais, a lei fixa um mandato e uma regra restritiva com uma única exceção.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 15, § 1º. Juízes leigos vêm da advocacia com mais de 2 anos; conciliadores, preferentemente, do bacharelado em Direito.",
+        "B": "Esta é a incorreta. O art. 17, § 2º, diz que não será permitida a recondução, \"salvo quando não houver outro juiz na sede da Turma Recursal\". O mandato de 2 anos está certo (art. 17, caput).",
+        "C": "Correta a afirmativa: art. 15, § 2º. O impedimento é nacional, e não só na comarca.",
+        "D": "Correta a afirmativa: art. 18, § 1º. A divergência entre Turmas do mesmo Estado é resolvida em reunião conjunta presidida por desembargador.",
+        "E": "Correta a afirmativa: art. 18, § 3º. A divergência interestadual sobre lei federal, ou a contrariedade a súmula do STJ, vai ao próprio STJ."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, arts. 15, 17 e 18",
+          "data": "2009-12-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0076",
+      "tema": "Recurso inominado e sucumbência no Juizado da Fazenda",
+      "enunciado": "Considerando a Lei nº 12.153/2009 e a aplicação subsidiária da Lei nº 9.099/1995, determinada pelo art. 27 daquela lei, é INCORRETO afirmar, sobre o Juizado Especial da Fazenda Pública, que:",
+      "alternativas": {
+        "A": "O recurso contra a sentença será interposto no prazo de 10 (dez) dias, contados da ciência da sentença, por petição escrita, da qual constarão as razões e o pedido do recorrente.",
+        "B": "No recurso, as partes serão obrigatoriamente representadas por advogado.",
+        "C": "O recurso terá somente efeito devolutivo, podendo o juiz dar-lhe efeito suspensivo para evitar dano irreparável para a parte.",
+        "D": "A sentença de primeiro grau condenará o vencido ao pagamento de custas e de honorários advocatícios, fixados entre dez e vinte por cento do valor da condenação.",
+        "E": "Os representantes judiciais dos réus presentes à audiência poderão conciliar, transigir ou desistir nos termos e nas hipóteses previstas na lei do respectivo ente da Federação."
+      },
+      "correta": "D",
+      "dica": "No sistema dos Juizados, o primeiro grau é gratuito e sem sucumbência. O custo aparece em outro momento.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 42, caput, da Lei 9.099/1995, aplicável por força do art. 27 da Lei 12.153/2009, que não regula o prazo do recurso.",
+        "B": "Correta a afirmativa: art. 41, § 2º, da Lei 9.099/1995. Em primeiro grau, a assistência por advogado pode ser facultativa; no recurso, não.",
+        "C": "Correta a afirmativa: art. 43 da Lei 9.099/1995. A regra é o efeito apenas devolutivo; o suspensivo depende de decisão do juiz.",
+        "D": "Esta é a incorreta. Pelo art. 55 da Lei 9.099/1995, a sentença de primeiro grau não condenará o vencido em custas e honorários, ressalvada a litigância de má-fé. A condenação entre 10% e 20% é imposta ao recorrente vencido, em segundo grau.",
+        "E": "Correta a afirmativa: art. 8º da Lei 12.153/2009. O poder de conciliar, transigir ou desistir depende da lei do próprio ente."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, arts. 8º e 27",
+          "data": "2009-12-22"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 9.099/1995, arts. 41, 42, 43 e 55",
+          "data": "1995-09-26"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

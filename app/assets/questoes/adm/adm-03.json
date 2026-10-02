@@ -83,6 +83,31 @@
         { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 53", "data": "2021-04-01" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0097",
+      "tema": "Procuradoria-Geral do Município de Curitiba (Lei Orgânica, art. 74)",
+      "enunciado": "Com base no art. 74 da Lei Orgânica do Município de Curitiba, na redação dada pela Emenda à Lei Orgânica nº 24/2024, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O cargo de Procurador-Geral do Município é privativo de integrante da carreira, vedada a nomeação de profissional estranho aos quadros da Procuradoria-Geral.",
+        "B": "Compete à Procuradoria-Geral do Município a cobrança judicial e extrajudicial da dívida ativa do Município, em conjunto e solidariamente com a Secretaria Municipal de Finanças.",
+        "C": "O ingresso na carreira de Procurador do Município depende de concurso público de provas e títulos, realizado pela Procuradoria-Geral do Município, dispensada a participação da Ordem dos Advogados do Brasil em suas fases.",
+        "D": "O exercício das atribuições da Procuradoria-Geral do Município pode ser realizado por terceiros não integrantes da carreira, desde que supervisionados por Procurador do Município.",
+        "E": "A Procuradoria-Geral do Município é órgão central do sistema jurídico municipal, diretamente vinculado ao Prefeito, com funções de supervisionar os serviços jurídicos da administração direta e indireta no âmbito do Poder Executivo."
+      },
+      "correta": "E",
+      "dica": "O art. 74 trata de cinco pontos: a quem a Procuradoria se vincula, como se escolhe o Procurador-Geral, como se ingressa na carreira, quem cobra a dívida ativa e se terceiros podem exercer as atribuições da instituição.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 74 da Lei Orgânica, na redação dada pela Emenda à Lei Orgânica nº 24/2024: a Procuradoria-Geral é instituição essencial à justiça, órgão central do sistema jurídico municipal, vinculada diretamente ao Prefeito, com a função de supervisionar os serviços jurídicos da administração direta e indireta do Executivo.",
+        "A": "O § 1º do art. 74 diz que o cargo de Procurador-Geral é de livre nomeação do Prefeito, preferencialmente dentre os integrantes da carreira, e não privativo dela. Só os demais cargos de direção é que são privativos de Procuradores do Município.",
+        "B": "O § 4º do art. 74 atribui essa cobrança com exclusividade à Procuradoria-Geral do Município, e não em conjunto com a Secretaria de Finanças.",
+        "C": "O § 2º do art. 74 assegura a participação da Ordem dos Advogados do Brasil em todas as fases do concurso de ingresso na carreira, e não a dispensa.",
+        "D": "O § 5º do art. 74 veda a realização das atribuições da Procuradoria-Geral por terceiros, servidores ou não, ainda que sob supervisão de Procurador do Município: o exercício é exclusivo dos integrantes da carreira."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Orgânica do Município de Curitiba, art. 74, caput e §§ 1º, 2º, 4º e 5º (redação dada pela Emenda à Lei Orgânica nº 24/2024, DOM de 27/11/2024)", "data": "2024-11-27" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

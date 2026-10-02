@@ -84,6 +84,33 @@
         { "tipo": "lei", "referencia": "Lei 9.868/1999, art. 28, caput e parágrafo único", "data": "1999-11-10" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0037",
+      "tema": "Eficácia e aplicabilidade das normas constitucionais",
+      "enunciado": "Sobre a classificação das normas constitucionais quanto à eficácia e aplicabilidade, segundo a doutrina de José Afonso da Silva e o texto da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A norma do art. 5º, XIII, da CF, que assegura o livre exercício de qualquer trabalho, ofício ou profissão, \"atendidas as qualificações profissionais que a lei estabelecer\", é de eficácia contida: produz efeitos desde logo, mas a lei pode restringir seu alcance.",
+        "B": "A norma do art. 7º, XI, da CF, que assegura a participação nos lucros ou resultados \"conforme definido em lei\", é de eficácia limitada: depende de lei para produzir todos os seus efeitos.",
+        "C": "A norma do art. 5º, § 1º, da CF, segundo a qual as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata, é a base constitucional para a presunção de eficácia plena ou, ao menos, de exigibilidade imediata desses direitos.",
+        "D": "Normas constitucionais de eficácia limitada não produzem nenhum efeito jurídico antes da edição da lei integradora, nem mesmo o de revogar a legislação anterior com elas incompatível.",
+        "E": "A norma do art. 37, VII, da CF, que condiciona o exercício do direito de greve do servidor público aos \"termos e limites definidos em lei específica\", é de eficácia limitada quanto à lei que ainda falta editar."
+      },
+      "correta": "D",
+      "dica": "Pense no que já acontece, mesmo antes da lei integradora chegar: alguma coisa muda no ordenamento com a simples promulgação da norma.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. Mesmo as normas de eficácia limitada produzem, desde a promulgação, um efeito mínimo: revogam a legislação anterior com elas incompatível e servem de parâmetro para a interpretação do restante do ordenamento. O que falta a elas é a produção de todos os efeitos pretendidos, até a edição da lei integradora.",
+        "A": "Correta. O art. 5º, XIII, é o exemplo clássico de norma de eficácia contida: garante o direito desde logo, mas admite que lei infraconstitucional reduza o seu alcance, fixando as qualificações profissionais exigidas para cada ofício.",
+        "B": "Correta. O art. 7º, XI, depende de lei para produzir todos os seus efeitos quanto à participação nos lucros ou resultados; até a edição dessa lei, o direito não é exercitável em toda a extensão que a norma promete.",
+        "C": "Correta. O art. 5º, § 1º, consagra a aplicação imediata dos direitos e garantias fundamentais, o que a doutrina lê como uma presunção de que essas normas, em regra, têm eficácia plena ou, ao menos, exigibilidade desde logo, mesmo quando a letra do dispositivo remeta à lei.",
+        "E": "Correta. O art. 37, VII, é norma de eficácia limitada: o direito de greve do servidor público existe desde a promulgação, mas o seu exercício depende da lei específica ainda não editada pelo Congresso Nacional."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XIII e § 1º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 7º, XI", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, VII (EC 19/1998)", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

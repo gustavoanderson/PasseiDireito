@@ -85,6 +85,109 @@
         { "tipo": "lei", "referencia": "CTN, art. 82-A (LC 227/2026)", "data": "2026-01-13" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0061",
+      "tema": "Taxas de serviço em Curitiba: expediente e coleta de lixo (LC 40/2001)",
+      "enunciado": "Sobre as taxas de serviços previstas no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São taxas de serviços as de Expediente e de Coleta de Lixo.",
+        "B": "O fato imponível ocorre no dia 1º de janeiro de cada exercício, para a Taxa de Coleta de Lixo, e quando da prestação de cada serviço, para a Taxa de Expediente.",
+        "C": "A fixação da unidade de valor estimado da Taxa de Coleta de Lixo levará em conta, obrigatoriamente, o valor do IPTU lançado para o imóvel.",
+        "D": "O lançamento da Taxa de Coleta de Lixo poderá ser efetuado no mesmo instrumento de lançamento do IPTU.",
+        "E": "É sujeito passivo da Taxa de Coleta de Lixo o proprietário, titular do domínio útil ou possuidor de imóvel alcançado ou beneficiado pelo serviço."
+      },
+      "correta": "C",
+      "dica": "O art. 61 da LC 40/2001 (redação de 2017) usa a palavra 'independente' ao tratar da relação entre a taxa e o IPTU.",
+      "explicacao": {
+        "A": "Correta. É o art. 54 da LC 40/2001. As demais taxas do Código são de polícia (art. 64).",
+        "B": "Correta. É o art. 56, I e II, da LC 40/2001: a Taxa de Coleta de Lixo tem fato imponível anual, e a de Expediente ocorre a cada serviço prestado.",
+        "C": "Incorreta, e por isso é a resposta. O art. 61 da LC 40/2001 (LC 104/2017) manda considerar preços correntes de mercado, as despesas do exercício anterior com cada serviço e outros dados pertinentes, INDEPENDENTE do valor do IPTU. Atrelar a taxa ao imposto aproximaria a base de cálculo dela da de um imposto, o que o art. 145, § 2º, da CF proíbe.",
+        "D": "Correta. É o art. 63 da LC 40/2001. Cobrar no mesmo carnê não muda a natureza da taxa, que remunera serviço específico e divisível.",
+        "E": "Correta. É o art. 57, I, da LC 40/2001. Para a Taxa de Expediente, o sujeito passivo é o interessado na expedição do documento (inciso II)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 54 a 63 (art. 61 na redação da LC 104/2017), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 145, II e § 2º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0062",
+      "tema": "Taxas de polícia em Curitiba: fato imponível, base e isenções (LC 40/2001)",
+      "enunciado": "Com base no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa CORRETA sobre as taxas pelo exercício do poder de polícia.",
+      "alternativas": {
+        "A": "O fato imponível da Taxa de Apreensão e Depósito de Coisas ou Animais ocorre na efetiva apreensão por agente público; o das demais taxas de polícia, na solicitação, pelo contribuinte, da atividade municipal a elas referente.",
+        "B": "A Taxa de Vigilância Sanitária é taxa de serviço, cobrada pela utilização efetiva ou potencial do serviço de fiscalização sanitária.",
+        "C": "A base imponível das taxas de polícia é o valor venal do imóvel em que se localiza o estabelecimento.",
+        "D": "As taxas de polícia são lançadas por homologação, cabendo ao contribuinte apurar e recolher o valor devido.",
+        "E": "As entidades sem fins lucrativos são isentas das taxas de polícia para a obtenção de qualquer alvará de localização e funcionamento, independentemente de declaração de utilidade pública."
+      },
+      "correta": "A",
+      "dica": "O art. 66 da LC 40/2001 separa uma taxa de polícia das demais quanto ao momento do fato imponível.",
+      "explicacao": {
+        "A": "Correta. É o art. 66, I e II, da LC 40/2001. Na apreensão, quem provoca a atividade é o próprio agente público; nas demais taxas de polícia, é o pedido do contribuinte.",
+        "B": "A Taxa de Vigilância Sanitária está no rol das taxas de polícia (art. 64, X), e não das taxas de serviço, que são só as de Expediente e de Coleta de Lixo (art. 54).",
+        "C": "Pelo art. 68, a base imponível das taxas de polícia é o valor estimado das atividades administrativas necessárias à realização do fato imponível, e não o valor venal do imóvel.",
+        "D": "O art. 71 da LC 40/2001 determina que as taxas de polícia serão lançadas de ofício.",
+        "E": "O art. 91-A isenta as entidades sem fins lucrativos das taxas de polícia para o PRIMEIRO alvará de localização e funcionamento. A isenção só se estende à renovação ou a outro alvará se a entidade comprovar a declaração de utilidade pública (parágrafo único)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 54, 64, 66, 68, 71 e 91-A (LC 76/2010), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0063",
+      "tema": "Contribuição de melhoria em Curitiba (LC 40/2001, arts. 72 a 77 e 80, § 6º)",
+      "enunciado": "Considere as afirmativas abaixo sobre a Contribuição de Melhoria no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001).\n\nI. A hipótese de incidência é a realização de obra pública municipal da qual advenha benefício direto ou indireto aos imóveis localizados na zona de influência.\nII. O prazo para impugnação, pelo sujeito passivo, de qualquer dos elementos fixados no edital relativo à obra será de 30 dias, contado da publicação.\nIII. A impugnação terá efeito suspensivo e será apreciada em duas instâncias administrativas.\nIV. O crédito tributário da contribuição de melhoria poderá ser parcelado em até 36 vezes, conforme dispuser o regulamento.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I e II estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "O § 2º do art. 76 diz quem aprecia a impugnação ao edital da obra, em quantas instâncias e com qual efeito.",
+      "explicacao": {
+        "A": "A III está errada (art. 76, § 2º: única instância e sem efeito suspensivo), e a alternativa exclui as afirmativas II e IV, que estão corretas.",
+        "B": "A III está errada, e a alternativa exclui as afirmativas I (art. 72) e IV (art. 80, § 6º).",
+        "C": "Exclui a IV, que reproduz o art. 80, § 6º: parcelamento em até 36 vezes, com desconto de até 20% à vista e de até 10% no parcelamento em até 18 vezes, a juízo da autoridade.",
+        "D": "Correta. I é o art. 72; II é o art. 76, § 1º (compatível com o mínimo de 30 dias do art. 82, II, do CTN); IV é o art. 80, § 6º (LC 58/2005). A III contraria o art. 76, § 2º: a impugnação é apreciada em ÚNICA instância pelo titular do órgão ou entidade responsável pelo orçamento da obra e NÃO tem efeito suspensivo.",
+        "E": "A III está errada. Pelo art. 76, § 2º, da LC 40/2001, a impugnação deve conter comprovação efetiva das alegações, é apreciada em única instância e não tem efeito suspensivo."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 72, 76 e 80, § 6º (LC 58/2005), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 81 e 82",
+          "data": "1966-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

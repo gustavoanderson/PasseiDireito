@@ -83,6 +83,145 @@
         { "tipo": "lei", "referencia": "Decreto-Lei 406/1968, art. 9º, §§ 1º e 3º (LC 56/1987)", "data": "1987-12-15" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0057",
+      "tema": "ISS em Curitiba: alíquotas (LC 40/2001, arts. 4º e 4º-A)",
+      "enunciado": "Sobre as alíquotas do Imposto Sobre Serviços previstas nos arts. 4º e 4º-A do Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Os serviços de registros públicos, cartórios e notariais sujeitam-se à alíquota de 2% (dois por cento).",
+        "B": "O transporte coletivo sujeita-se à alíquota de 2% (dois por cento).",
+        "C": "Os serviços de vigilância sujeitam-se à alíquota de 2,5% (dois e meio por cento).",
+        "D": "Os serviços de hospitais, sanatórios, manicômios, casas de saúde e prontos-socorros sujeitam-se à alíquota de 4% (quatro por cento).",
+        "E": "A alíquota mínima do imposto é de 2%, e ele não será objeto de benefício que resulte em carga tributária menor que a decorrente dessa alíquota, exceto para os serviços dos subitens 7.02, 7.05 e 16.01 da Lista de Serviços, respeitadas as imunidades constitucionais."
+      },
+      "correta": "A",
+      "dica": "Os cartórios aparecem no mesmo inciso do art. 4º que as operadoras de planos de saúde e os hospitais.",
+      "explicacao": {
+        "A": "Incorreta, e por isso é a resposta. Pelo art. 4º, III, c, da LC 40/2001 (LC 107/2017), os serviços de registros públicos, cartórios e notariais sujeitam-se à alíquota de 4%, e não de 2%.",
+        "B": "Correta. É o art. 4º, I, a, da LC 40/2001. A alíquota de 2% coincide com a mínima nacional do art. 8º-A da LC 116/2003.",
+        "C": "Correta. É o art. 4º, II, b, da LC 40/2001, ao lado de limpeza e conservação, corretagem de seguros, representação comercial, composição gráfica e recauchutagem de pneus.",
+        "D": "Correta. É o art. 4º, III, a, da LC 40/2001. Quando prestados ao SUS, os serviços hospitalares têm alíquota de 2% (inciso VI, c).",
+        "E": "Correta. É o art. 4º-A e seu parágrafo único (LC 106/2017), que repetem a regra da alíquota mínima e as mesmas exceções do art. 8º-A, § 1º, da LC 116/2003 (subitens 7.02, 7.05 e 16.01 da lista)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 4º (LC 52/2004, 107/2017 e 112/2018) e 4º-A (LC 106/2017), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC 116/2003, art. 8º-A (LC 157/2016)",
+          "data": "2016-12-29"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0058",
+      "tema": "ISS em Curitiba: tributação fixa das sociedades profissionais (LC 40/2001, arts. 10 e 11)",
+      "enunciado": "Sobre o regime de tributação fixa anual do Imposto Sobre Serviços para as sociedades profissionais, nos termos dos arts. 10 e 11 do Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A sociedade pode ter pessoa jurídica como sócia, desde que todos os profissionais que prestam o serviço sejam habilitados.",
+        "B": "Para o enquadramento, o contribuinte deve apresentar requerimento no prazo máximo de 60 (sessenta) dias antes do início do exercício fiscal.",
+        "C": "O fornecimento de dados inexatos para o enquadramento implica o desenquadramento apenas a partir do exercício seguinte, sem cobrança do imposto sobre o faturamento pretérito.",
+        "D": "O pagamento de pró-labore aos administradores e aos sócios da sociedade profissional não implica a exclusão do regime de ISS fixo.",
+        "E": "Considera-se ocorrido o fato imponível no dia 1º de julho de cada exercício, ou, no início de atividade, na data do pedido de inscrição no cadastro fiscal."
+      },
+      "correta": "D",
+      "dica": "O § 4º do art. 10, incluído em 2017, afasta uma dúvida comum sobre a remuneração dos sócios.",
+      "explicacao": {
+        "A": "O art. 10, IV, exige que a sociedade não possua pessoa jurídica como sócio. A habilitação dos profissionais é requisito à parte (inciso V).",
+        "B": "O § 1º do art. 10 fixa o prazo máximo de 30 (trinta) dias antes do início do exercício fiscal para o requerimento de enquadramento.",
+        "C": "O § 3º do art. 10 prevê desenquadramento RETROATIVO e recolhimento do ISS sobre o faturamento, com os acréscimos legais, quando fornecidos dados inexatos.",
+        "D": "Correta. É o § 4º do art. 10 da LC 40/2001 (LC 107/2017). O imposto, nesse regime, é fixo e multiplicado pelo número de profissionais habilitados que prestam serviço em nome da sociedade (caput).",
+        "E": "Pelo art. 11, o fato imponível ocorre no dia 1º de janeiro de cada exercício, e não em 1º de julho. No início de atividade, ocorre na data do pedido de inscrição, com cálculo proporcional aos meses restantes (parágrafo único)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 10 (LC 48/2003, 65/2007 e 107/2017) e 11, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0059",
+      "tema": "ISS em Curitiba: responsáveis e substitutos tributários (LC 40/2001, arts. 8º e 8º-A)",
+      "enunciado": "Acerca da responsabilidade pela retenção e pelo recolhimento do Imposto Sobre Serviços no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O proprietário do imóvel onde é prestado serviço de construção civil é responsável pelo imposto devido pelo prestador, quando este não comprovar o respectivo pagamento ao Município de Curitiba.",
+        "B": "A pessoa jurídica de direito público imune não pode ser responsável pela retenção do imposto, por força da imunidade recíproca.",
+        "C": "Os responsáveis pela retenção são obrigados a reter o imposto no ato do pagamento do serviço, excluindo-se sua responsabilidade se comprovado o recolhimento do imposto respectivo.",
+        "D": "Os substitutos tributários do art. 8º-A estão obrigados ao recolhimento integral do imposto e, quando for o caso, de multa e acréscimos legais, independentemente de ter sido efetuada a retenção na fonte.",
+        "E": "Os condomínios e outros entes despersonalizados podem ser responsáveis pela retenção quando o prestador não emitir documento fiscal ou, prestando serviço pessoal, não comprovar inscrição no cadastro fiscal."
+      },
+      "correta": "B",
+      "dica": "Releia o inciso XI do art. 8º: ele usa uma expressão concessiva sobre imunidade e isenção.",
+      "explicacao": {
+        "A": "Correta. É o art. 8º, VI, da LC 40/2001: o proprietário do imóvel responde pelo ISS da obra quando o prestador de construção civil não comprovar o pagamento a Curitiba.",
+        "B": "Incorreta, e por isso é a resposta. O art. 8º, XI, da LC 40/2001 torna responsável a pessoa jurídica de direito público, AINDA QUE IMUNE OU ISENTA, tomadora ou intermediária de determinados serviços (construção civil, vigilância, mão de obra, entre outros). A imunidade protege o patrimônio do ente; não o dispensa do dever de reter o imposto devido pelo prestador.",
+        "C": "Correta. É o § 3º do art. 8º (LC 48/2003): a retenção se faz no ato do pagamento, e a responsabilidade é excluída se comprovado o recolhimento.",
+        "D": "Correta. É o § 2º do art. 8º-A (LC 65/2007). Para o substituto, a falta de retenção não o exime do recolhimento integral.",
+        "E": "Correta. O § 1º do art. 8º estende aos condomínios e entes despersonalizados os incisos I (prestador que não emitiu documento fiscal) e II (trabalho pessoal sem comprovante de inscrição)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 8º (LC 48/2003, 80/2011 e 107/2017) e 8º-A (LC 65/2007 e 107/2017), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0060",
+      "tema": "ISS em Curitiba: declaração, lançamento e multas (LC 40/2001, arts. 16 a 27)",
+      "enunciado": "Considere as afirmativas abaixo, com base no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001).\n\nI. A declaração do imposto calculado por alíquotas percentuais, bem como a emissão de Nota Fiscal de Serviços Eletrônica, constituem confissão de dívida do ISS incidente na operação.\nII. Descumprido o dever de recolher o imposto sujeito a homologação, a multa equivalerá a 40% do valor atualizado do imposto; nos casos de dolo, fraude ou simulação, será de 60%.\nIII. Se o sujeito passivo pagar ou parcelar o crédito objeto do auto de infração no prazo de 30 dias da notificação do lançamento, a multa será reduzida em 50% ou em 25%, respectivamente.\nIV. Os contribuintes sujeitos à tributação fixa serão notificados do lançamento pessoalmente, por via postal com aviso de recebimento, vedada a notificação por edital.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "O ISS fixo é lançado pela Fazenda, e o art. 18 diz por qual meio de publicidade o contribuinte é notificado.",
+      "explicacao": {
+        "A": "Exclui a III, que reproduz o art. 27 da LC 40/2001: redução de 50% da multa no pagamento e de 25% no parcelamento feitos em 30 dias da notificação do lançamento ou da ciência da decisão de primeira instância.",
+        "B": "A IV está errada (art. 18: notificação por edital), e a alternativa exclui as afirmativas I (art. 16, § 1º) e III (art. 27), que estão corretas.",
+        "C": "A IV está errada: o art. 18 da LC 40/2001 prevê justamente a notificação por edital no órgão de imprensa oficial local. E a alternativa exclui a II, que reproduz o art. 26.",
+        "D": "A IV está errada. O ISS fixo é lançado pela Fazenda Municipal e notificado mediante publicação de edital (art. 18), que deve conter o nome e a inscrição do contribuinte, o valor, o prazo de pagamento e o de impugnação.",
+        "E": "Correta. I é o art. 16, § 1º; II é o art. 26, caput (redação dada pela LC 146/2025) e § 2º; III é o art. 27 da LC 40/2001. A IV contraria o art. 18, que manda notificar os contribuintes sujeitos à tributação fixa mediante publicação de edital no órgão de imprensa oficial local. Observação: o art. 142, § 5º, do CTN (LC 236/2026) passou a prever reduções de 50% e 40% para pagamento e parcelamento no prazo de impugnação, e o art. 211-A deu aos Municípios dois anos para adaptar suas leis; em 21/09/2026 vigorava a redação da LC 40/2001."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 16 (LC 107/2017), 18 e 27, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), art. 26, caput (redação dada pela LC 146/2025)",
+          "data": "2025-06-09"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 142, § 5º, e 211-A (LC 236/2026)",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

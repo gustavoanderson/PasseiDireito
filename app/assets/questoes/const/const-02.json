@@ -82,6 +82,33 @@
         { "tipo": "constituicao", "referencia": "CF, arts. 1º, 3º e 4º", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0038",
+      "tema": "Classificação do poder constituinte",
+      "enunciado": "Sobre as espécies de poder constituinte reconhecidas pela doutrina e disciplinadas na Constituição Federal e no Ato das Disposições Constitucionais Transitórias (ADCT), analise as afirmativas a seguir.\n\nI. O poder constituinte originário, que instituiu a Constituição de 1988, é inicial, autônomo e incondicionado, não se submetendo a limites postos pelo direito anterior.\nII. O poder constituinte derivado reformador é exercido pelo Congresso Nacional nos termos do art. 60 da CF, e se sujeita a limites formais, circunstanciais e materiais, estes últimos consubstanciados nas cláusulas pétreas do § 4º.\nIII. O poder constituinte derivado decorrente é exercido pelos Estados-membros na elaboração de suas Constituições, e também pelos Municípios na elaboração de suas Leis Orgânicas, sempre com observância dos princípios estabelecidos na Constituição Federal.\nIV. O poder constituinte derivado revisor, de natureza transitória, foi exercido uma única vez, cinco anos após a promulgação da Constituição, pelo voto da maioria absoluta do Congresso Nacional, em sessão unicameral, nos termos do art. 3º do ADCT.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Pense em quem, de fato, elabora uma Constituição, e compare com quem apenas organiza a própria estrutura por meio de uma lei especial.",
+      "explicacao": {
+        "B": "Correta. As afirmativas I, II e IV descrevem corretamente o poder constituinte originário (inicial, autônomo e incondicionado), o derivado reformador (art. 60 da CF, com limites formais, circunstanciais e materiais) e o derivado revisor (art. 3º do ADCT, exercido uma única vez). A III é falsa: a doutrina reserva o nome \"poder constituinte decorrente\" à elaboração das Constituições Estaduais pelos Estados-membros (art. 25 da CF); a edição da Lei Orgânica municipal é tratada como exercício da capacidade de autoorganização do Município (art. 29 da CF), e não como poder constituinte, porque a Lei Orgânica é lei, hierarquicamente subordinada à Constituição Federal e à Constituição Estadual, e não uma Constituição em sentido próprio.",
+        "A": "Deixa de fora a afirmativa IV, que está correta: a revisão constitucional do art. 3º do ADCT foi de fato exercida uma única vez, por maioria absoluta do Congresso Nacional, em sessão unicameral.",
+        "C": "Inclui a afirmativa III, que é falsa pelo motivo exposto na explicação da alternativa B, e deixa de fora a I, que está correta: o poder constituinte originário, por definição, não se sujeita a limites do direito anterior.",
+        "D": "Nem todas estão corretas: a III equipara o poder constituinte decorrente dos Estados-membros à capacidade de autoorganização dos Municípios, que a doutrina não trata como poder constituinte.",
+        "E": "Deixa de fora a afirmativa II, que está correta: o poder constituinte derivado reformador tem, de fato, limites formais (quórum e processo do art. 60), circunstanciais (§ 1º) e materiais (cláusulas pétreas do § 4º)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 60", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, arts. 25 e 29", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "ADCT, art. 3º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

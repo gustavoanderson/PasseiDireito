@@ -84,6 +84,259 @@
         { "tipo": "constituicao", "referencia": "CF, art. 100, §§ 3º, 4º e 8º", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0064",
+      "tema": "Embargos à execução (arts. 914 a 919)",
+      "enunciado": "Sobre os embargos à execução fundada em título extrajudicial, conforme os arts. 914 a 919 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "O executado, independentemente de penhora, depósito ou caução, poderá se opor à execução por meio de embargos.",
+        "B": "Os embargos serão oferecidos no prazo de 15 (quinze) dias, contado em dobro quando os executados forem litisconsortes com procuradores diferentes, de escritórios de advocacia distintos.",
+        "C": "Os embargos à execução não terão efeito suspensivo, mas o juiz poderá atribuí-lo, a requerimento do embargante, quando verificados os requisitos para a concessão da tutela provisória e desde que a execução já esteja garantida por penhora, depósito ou caução suficientes.",
+        "D": "Quando houver mais de um executado, o prazo para cada um deles embargar conta-se a partir da juntada do respectivo comprovante da citação, salvo no caso de cônjuges ou de companheiros, quando será contado a partir da juntada do último.",
+        "E": "Alegado excesso de execução sem a indicação do valor correto ou sem o demonstrativo do cálculo, os embargos serão liminarmente rejeitados, sem resolução de mérito, se o excesso for o seu único fundamento."
+      },
+      "correta": "B",
+      "dica": "Uma regra geral de contagem de prazos entre litisconsortes é afastada expressamente no capítulo dos embargos à execução.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 914, caput. No CPC/2015, a garantia do juízo não é requisito dos embargos; é requisito só para o efeito suspensivo (art. 919, § 1º).",
+        "B": "Esta é a incorreta. O prazo é de 15 dias (art. 915, caput), mas o § 3º do art. 915 afasta expressamente o art. 229: não há prazo em dobro para litisconsortes com procuradores diferentes nos embargos à execução.",
+        "C": "Correta a afirmativa: art. 919, caput e § 1º. O efeito suspensivo exige requerimento, requisitos da tutela provisória e garantia do juízo.",
+        "D": "Correta a afirmativa: art. 915, § 1º. Cada executado tem o seu prazo, salvo cônjuges e companheiros, contados da última juntada.",
+        "E": "Correta a afirmativa: art. 917, §§ 3º e 4º, I. Se houver outro fundamento, os embargos seguem, mas o juiz não examina o excesso (§ 4º, II)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 914, 915, 917 e 919",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0065",
+      "tema": "Parcelamento na execução (art. 916)",
+      "enunciado": "Com base no art. 916 do Código de Processo Civil, que trata do parcelamento do débito na execução de título extrajudicial, analise as assertivas abaixo.\nI. No prazo para embargos, reconhecendo o crédito do exequente e comprovando o depósito de trinta por cento do valor em execução, acrescido de custas e de honorários de advogado, o executado poderá requerer que lhe seja permitido pagar o restante em até 6 (seis) parcelas mensais, acrescidas de correção monetária e de juros de um por cento ao mês.\nII. A opção pelo parcelamento importa renúncia ao direito de opor embargos.\nIII. O não pagamento de qualquer das prestações acarretará, cumulativamente, o vencimento das prestações subsequentes, com o imediato reinício dos atos executivos, e a imposição de multa de dez por cento sobre o valor das prestações não pagas.\nIV. O parcelamento também se aplica ao cumprimento de sentença, desde que requerido no prazo de 15 (quinze) dias para o pagamento voluntário.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I e IV estão corretas.",
+        "C": "Somente as assertivas II, III e IV estão corretas.",
+        "D": "Somente as assertivas I, II e III estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Guarde os números do parcelamento (30%, 6 parcelas, 1% ao mês, multa de 10%) e o último parágrafo do artigo, que delimita onde ele cabe.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora a assertiva III, que reproduz o art. 916, § 5º, I e II.",
+        "B": "Errada, porque inclui a assertiva IV. O art. 916, § 7º, é expresso: o parcelamento não se aplica ao cumprimento da sentença.",
+        "C": "Errada, porque inclui a assertiva IV (contrária ao art. 916, § 7º) e deixa de fora a assertiva I, que é o caput do art. 916.",
+        "D": "Correta. I: art. 916, caput. II: art. 916, § 6º. III: art. 916, § 5º. A assertiva IV contraria o § 7º, que exclui o parcelamento do cumprimento de sentença.",
+        "E": "Errada, porque a assertiva IV é falsa: pelo art. 916, § 7º, o parcelamento não se aplica ao cumprimento da sentença."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 916",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0066",
+      "tema": "Prescrição intercorrente na execução (art. 921)",
+      "enunciado": "Em execução de título executivo extrajudicial regida pelo Código de Processo Civil, não foram localizados bens penhoráveis do executado. Com base no art. 921 do CPC, na redação dada pela Lei nº 14.195/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O termo inicial da prescrição no curso do processo será a ciência da primeira tentativa infrutífera de localização do devedor ou de bens penhoráveis, e a prescrição será suspensa, por uma única vez, pelo prazo máximo de 1 (um) ano.",
+        "B": "O juiz suspenderá a execução pelo prazo de 2 (dois) anos, durante o qual se suspenderá a prescrição.",
+        "C": "A prescrição intercorrente só pode ser reconhecida a requerimento do executado, vedado o seu reconhecimento de ofício.",
+        "D": "Reconhecida a prescrição no curso do processo, o exequente será condenado ao pagamento das custas e dos honorários advocatícios.",
+        "E": "Arquivados os autos, a execução não poderá ser retomada, ainda que sejam encontrados bens penhoráveis antes de consumada a prescrição."
+      },
+      "correta": "A",
+      "dica": "O art. 921 tem um prazo de suspensão, um marco inicial para a prescrição e uma regra sobre os ônus da extinção. Confira cada um.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 921, § 4º, na redação da Lei 14.195/2021. A suspensão do § 1º (1 ano) só ocorre uma vez.",
+        "B": "O prazo do art. 921, § 1º, é de 1 (um) ano. Decorrido esse prazo sem localização do executado ou de bens, os autos são arquivados (§ 2º).",
+        "C": "O art. 921, § 5º, permite ao juiz, depois de ouvidas as partes no prazo de 15 dias, reconhecer a prescrição de ofício e extinguir o processo.",
+        "D": "O art. 921, § 5º, determina a extinção \"sem ônus para as partes\".",
+        "E": "O art. 921, § 3º, manda desarquivar os autos para prosseguimento da execução se, a qualquer tempo, forem encontrados bens penhoráveis."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 921, §§ 1º a 5º",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.195/2021 (nova redação do art. 921 do CPC)",
+          "data": "2021-08-26"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0067",
+      "tema": "Impenhorabilidade (art. 833)",
+      "enunciado": "Acerca da impenhorabilidade de bens, conforme o art. 833 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "São impenhoráveis os recursos públicos recebidos por instituições privadas para aplicação compulsória em educação, saúde ou assistência social.",
+        "B": "É impenhorável a quantia depositada em caderneta de poupança, até o limite de 40 (quarenta) salários-mínimos.",
+        "C": "A impenhorabilidade dos vencimentos e salários não se aplica à penhora para pagamento de prestação alimentícia, independentemente de sua origem, nem às importâncias excedentes a 50 (cinquenta) salários-mínimos mensais.",
+        "D": "É impenhorável a pequena propriedade rural, assim definida em lei, desde que trabalhada pela família.",
+        "E": "A impenhorabilidade é oponível à execução de dívida relativa ao próprio bem, inclusive àquela contraída para a sua aquisição."
+      },
+      "correta": "E",
+      "dica": "Um dos parágrafos do art. 833 afasta a proteção quando a dívida nasceu do próprio bem. Procure a afirmativa que inverte essa regra.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 833, IX. A verba pública com destinação compulsória social não pode ser desviada pela penhora.",
+        "B": "Correta a afirmativa: art. 833, X. Cuidado com a troca entre 40 (poupança) e 50 (o teto de remuneração do § 2º).",
+        "C": "Correta a afirmativa: art. 833, § 2º, que excepciona os incisos IV e X.",
+        "D": "Correta a afirmativa: art. 833, VIII. A proteção exige que a pequena propriedade rural seja trabalhada pela família.",
+        "E": "Esta é a incorreta. O art. 833, § 1º, diz o oposto: a impenhorabilidade NÃO é oponível à execução de dívida relativa ao próprio bem, inclusive àquela contraída para sua aquisição."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 833",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0068",
+      "tema": "Cumprimento de sentença: impugnação e título inconstitucional",
+      "enunciado": "Considerando os arts. 523 a 525 e 534 a 535 do Código de Processo Civil, analise as assertivas abaixo sobre o cumprimento de sentença.\nI. No cumprimento de sentença que impuser à Fazenda Pública o dever de pagar quantia certa, havendo pluralidade de exequentes, cada um deverá apresentar o seu próprio demonstrativo discriminado e atualizado do crédito.\nII. No cumprimento de sentença contra particular, transcorrido o prazo para pagamento voluntário, inicia-se o prazo de 15 (quinze) dias para que o executado, independentemente de penhora ou nova intimação, apresente, nos próprios autos, sua impugnação.\nIII. A apresentação de impugnação pelo particular executado suspende automaticamente a prática dos atos executivos, inclusive os de expropriação.\nIV. Considera-se também inexigível a obrigação reconhecida em título executivo judicial fundado em lei considerada inconstitucional pelo Supremo Tribunal Federal, em controle concentrado ou difuso, e os efeitos da decisão do STF poderão ser modulados no tempo.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I, II e IV estão corretas.",
+        "B": "Somente as assertivas I e III estão corretas.",
+        "C": "Somente as assertivas II e III estão corretas.",
+        "D": "Somente as assertivas I e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "A",
+      "dica": "No CPC/2015, nem a impugnação nem os embargos suspendem a execução por si sós. O efeito suspensivo é exceção e depende de garantia.",
+      "explicacao": {
+        "A": "Correta. I: art. 534, § 1º. II: art. 525, caput. IV: art. 525, §§ 12 e 13, e art. 535, §§ 5º e 6º. A assertiva III contraria o art. 525, § 6º.",
+        "B": "Errada, porque inclui a assertiva III. Pelo art. 525, § 6º, a impugnação não impede os atos executivos, inclusive os de expropriação; o efeito suspensivo depende de requerimento, garantia do juízo e dos requisitos ali previstos.",
+        "C": "Errada, porque inclui a assertiva III (contrária ao art. 525, § 6º) e deixa de fora as assertivas I e IV, verdadeiras.",
+        "D": "Errada, porque deixa de fora a assertiva II, que reproduz o art. 525, caput: o prazo de impugnação corre automaticamente depois do prazo para pagamento.",
+        "E": "Errada, porque a assertiva III é falsa. A regra é a ausência de efeito suspensivo da impugnação (art. 525, § 6º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 525, caput e §§ 6º, 12 e 13, 534, § 1º, e 535, §§ 5º e 6º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0069",
+      "tema": "Protesto da decisão e cadastro de inadimplentes (arts. 517 e 782)",
+      "enunciado": "Sobre o protesto da decisão judicial e a inclusão do nome do executado em cadastros de inadimplentes, conforme os arts. 517 e 782 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A decisão judicial transitada em julgado pode ser levada a protesto imediatamente após o trânsito em julgado, ainda que não transcorrido o prazo para pagamento voluntário.",
+        "B": "A certidão de teor da decisão, necessária para o protesto, deverá ser fornecida no prazo de 10 (dez) dias.",
+        "C": "A requerimento da parte, o juiz pode determinar a inclusão do nome do executado em cadastros de inadimplentes, e a inscrição será cancelada imediatamente se for efetuado o pagamento, se for garantida a execução ou se a execução for extinta por qualquer outro motivo.",
+        "D": "A inclusão do nome do executado em cadastros de inadimplentes só é admitida na execução de título extrajudicial, não se aplicando à execução de título judicial.",
+        "E": "Proposta ação rescisória pelo executado, o protesto será automaticamente cancelado pelo cartório."
+      },
+      "correta": "C",
+      "dica": "O protesto vem depois da chance de pagar; o cadastro de inadimplentes depende de pedido e cai quando a dívida é paga ou garantida.",
+      "explicacao": {
+        "A": "O art. 517, caput, só admite o protesto \"depois de transcorrido o prazo para pagamento voluntário previsto no art. 523\".",
+        "B": "O prazo do art. 517, § 2º, é de 3 (três) dias, e o mesmo prazo vale para o cancelamento do protesto após a quitação (§ 4º).",
+        "C": "Correta. É o que dizem os §§ 3º e 4º do art. 782. A inscrição depende de requerimento da parte e é cancelada assim que paga, garantida ou extinta a execução.",
+        "D": "O art. 782, § 5º, manda aplicar os §§ 3º e 4º à execução definitiva de título judicial.",
+        "E": "O art. 517, § 3º, permite ao executado que propôs ação rescisória requerer, a suas expensas, a anotação da propositura à margem do título protestado. O cancelamento depende da satisfação integral da obrigação (§ 4º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 517 e 782, §§ 3º a 5º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0070",
+      "tema": "Multa coercitiva nas obrigações de fazer (art. 537)",
+      "enunciado": "Em ação de obrigação de fazer, o juiz fixou multa diária para compelir o réu ao cumprimento da decisão. Sobre a multa, conforme o art. 537 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A multa independe de requerimento da parte e poderá ser aplicada na fase de conhecimento, em tutela provisória ou na sentença, ou na fase de execução.",
+        "B": "O valor da multa será revertido ao Estado ou a fundo de reaparelhamento do Poder Judiciário, e não ao exequente.",
+        "C": "O juiz poderá, de ofício ou a requerimento, modificar o valor ou a periodicidade da multa vincenda ou excluí-la, caso verifique que se tornou insuficiente ou excessiva.",
+        "D": "A decisão que fixa a multa é passível de cumprimento provisório, devendo ser depositada em juízo, permitido o levantamento do valor após o trânsito em julgado da sentença favorável à parte.",
+        "E": "A multa será devida desde o dia em que se configurar o descumprimento da decisão e incidirá enquanto não for cumprida a decisão que a tiver cominado."
+      },
+      "correta": "B",
+      "dica": "Pergunte-se a quem a multa coercitiva aproveita no CPC: o § 2º do art. 537 responde em uma frase.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 537, caput. A multa pode ser fixada de ofício e em qualquer fase, desde que compatível com a obrigação.",
+        "B": "Esta é a incorreta. O art. 537, § 2º, é direto: \"O valor da multa será devido ao exequente.\"",
+        "C": "Correta a afirmativa: art. 537, § 1º, I. Note que a modificação alcança a multa vincenda.",
+        "D": "Correta a afirmativa: art. 537, § 3º, na redação da Lei 13.256/2016.",
+        "E": "Correta a afirmativa: art. 537, § 4º. A multa corre do descumprimento até o efetivo cumprimento da decisão."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 537",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0071",
+      "tema": "Títulos executivos extrajudiciais (art. 784)",
+      "enunciado": "Nos termos do art. 784 do Código de Processo Civil, NÃO é título executivo extrajudicial:",
+      "alternativas": {
+        "A": "a certidão de dívida ativa da Fazenda Pública do Município, correspondente aos créditos inscritos na forma da lei.",
+        "B": "o instrumento de transação referendado pela Advocacia Pública.",
+        "C": "o contrato de seguro de vida em caso de morte.",
+        "D": "o documento particular, em papel, assinado apenas pelo devedor, sem a assinatura de testemunhas.",
+        "E": "o crédito, documentalmente comprovado, decorrente de aluguel de imóvel, bem como de encargos acessórios, tais como taxas e despesas de condomínio."
+      },
+      "correta": "D",
+      "dica": "O documento particular só ganha força executiva com um requisito adicional, que a lei dispensa apenas no meio eletrônico.",
+      "explicacao": {
+        "A": "É título executivo extrajudicial: art. 784, IX. É a base da execução fiscal do Município.",
+        "B": "É título executivo extrajudicial: art. 784, IV, que inclui a transação referendada pelo Ministério Público, pela Defensoria Pública, pela Advocacia Pública, pelos advogados dos transatores ou por conciliador ou mediador credenciado por tribunal.",
+        "C": "É título executivo extrajudicial: art. 784, VI. O seguro de vida em caso de morte tem força executiva por previsão expressa.",
+        "D": "Esta é a resposta. O art. 784, III, exige o documento particular assinado pelo devedor \"e por 2 (duas) testemunhas\". A dispensa das testemunhas do § 4º vale só para títulos constituídos ou atestados por meio eletrônico, com integridade conferida por provedor de assinatura.",
+        "E": "É título executivo extrajudicial: art. 784, VIII. O aluguel e seus encargos acessórios, documentalmente comprovados, são executáveis."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 784, III, IV, VI, VIII, IX e § 4º (incluído pela Lei 14.620/2023)",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

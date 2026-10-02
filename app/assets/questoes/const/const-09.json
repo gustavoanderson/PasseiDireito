@@ -125,6 +125,107 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "const-0061",
+      "tema": "Espécies tributárias (arts. 145, 148 e 149 da CF)",
+      "enunciado": "Com base nos arts. 145, 148 e 149 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A União, os Estados, o Distrito Federal e os Municípios poderão instituir impostos, taxas, em razão do exercício do poder de polícia ou pela utilização de serviços públicos específicos e divisíveis, e contribuição de melhoria, decorrente de obras públicas.",
+        "B": "As taxas não poderão ter base de cálculo própria de impostos.",
+        "C": "A União, mediante lei complementar, poderá instituir empréstimos compulsórios para atender a despesas extraordinárias decorrentes de calamidade pública, de guerra externa ou sua iminência, ou no caso de investimento público de caráter urgente e de relevante interesse nacional.",
+        "D": "Compete à União, aos Estados, ao Distrito Federal e aos Municípios, cada um na sua esfera, instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas.",
+        "E": "A aplicação dos recursos provenientes de empréstimo compulsório será vinculada à despesa que fundamentou sua instituição."
+      },
+      "correta": "D",
+      "dica": "Releia o caput do art. 149: ele usa uma palavra que restringe essa competência a um único ente.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 149, caput, da CF atribui essa competência exclusivamente à União, e não aos quatro entes federados; a exceção fica por conta da contribuição previdenciária dos servidores, que cada ente institui para custear o próprio regime de previdência (art. 149, § 1º).",
+        "A": "Correta. É o art. 145, I a III, da CF, que lista as três espécies ali previstas para os quatro entes.",
+        "B": "Correta. É o art. 145, § 2º, da CF, regra que evita a confusão entre taxa e imposto pela base de cálculo.",
+        "C": "Correta. É o art. 148, I e II, da CF, as duas hipóteses em que cabe empréstimo compulsório.",
+        "E": "Correta. É o art. 148, parágrafo único, da CF, que prende o uso do dinheiro à finalidade que o justificou."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 145, 148 e 149", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0062",
+      "tema": "Imunidades tributárias (art. 150, VI, da CF)",
+      "enunciado": "Nos termos do art. 150, VI, da Constituição Federal, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios instituir impostos sobre todos os itens abaixo, EXCETO:",
+      "alternativas": {
+        "A": "Patrimônio, renda ou serviços, uns dos outros.",
+        "B": "Entidades religiosas e templos de qualquer culto, inclusive suas organizações assistenciais e beneficentes.",
+        "C": "Patrimônio, renda ou serviços dos partidos políticos, inclusive suas fundações, das entidades sindicais dos trabalhadores, das instituições de educação e de assistência social, sem fins lucrativos, atendidos os requisitos da lei.",
+        "D": "Livros, jornais, periódicos e o papel destinado a sua impressão.",
+        "E": "Patrimônio, renda ou serviços das entidades sindicais patronais, independentemente de fins lucrativos."
+      },
+      "correta": "E",
+      "dica": "Releia a alínea c: ela fala em entidades sindicais de um lado só da relação de trabalho.",
+      "explicacao": {
+        "E": "É a resposta, pois não está no rol do art. 150, VI. A alínea c imuniza o patrimônio, a renda e os serviços das entidades sindicais dos trabalhadores, e não das entidades sindicais patronais, que não gozam dessa imunidade.",
+        "A": "Correta. É a alínea a do inciso VI: a imunidade recíproca entre os entes federados.",
+        "B": "Correta. É a alínea b, na redação da EC 132/2023, que estendeu a imunidade às organizações assistenciais e beneficentes das entidades religiosas.",
+        "C": "Correta. É a alínea c do inciso VI, desde que atendidos os requisitos de lei para essas entidades sem fins lucrativos.",
+        "D": "Correta. É a alínea d do inciso VI, a imunidade cultural sobre livros, jornais, periódicos e o papel de sua impressão."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 150, VI (alínea b com redação da EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0063",
+      "tema": "Repartição de receitas tributárias com os Municípios (art. 158 da CF)",
+      "enunciado": "Com base no art. 158 da Constituição Federal, na redação dada pela Emenda Constitucional nº 132/2023, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Pertence aos Municípios o produto da arrecadação do imposto da União sobre renda e proventos de qualquer natureza, incidente na fonte, sobre rendimentos pagos, a qualquer título, por eles, suas autarquias e pelas fundações que instituírem e mantiverem.",
+        "B": "Pertencem aos Municípios cem por cento do produto da arrecadação do imposto estadual sobre a propriedade de veículos automotores licenciados em seus territórios.",
+        "C": "Pertencem aos Municípios quinze por cento do produto da arrecadação do imposto estadual sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação.",
+        "D": "A parcela do IPVA pertencente aos Municípios não admite exceção quanto a veículos aquáticos e aéreos, que ficam inteiramente com o Estado.",
+        "E": "O produto da arrecadação do imposto territorial rural (ITR) pertence inteiramente à União, sem repasse aos Municípios onde se situam os imóveis."
+      },
+      "correta": "A",
+      "dica": "O inciso I desse artigo não mudou com a reforma tributária; os que mudaram foram o III e o IV.",
+      "explicacao": {
+        "A": "Correta. É o art. 158, I, da CF, regra que não foi alterada pela EC 132/2023: pertence ao Município o imposto de renda retido na fonte sobre rendimentos pagos por ele, suas autarquias e fundações.",
+        "B": "O art. 158, III, na redação da EC 132/2023, fixa cinquenta por cento do IPVA para o Município, e não cem por cento.",
+        "C": "O art. 158, IV, a, na redação da EC 132/2023, fixa vinte e cinco por cento do ICMS para os Municípios, e não quinze por cento.",
+        "D": "O próprio art. 158, III, da CF ressalva os veículos aquáticos e aéreos, atribuindo ao Município a parcela do IPVA quando o proprietário for domiciliado em seu território.",
+        "E": "O art. 158, II, da CF atribui aos Municípios cinquenta por cento do produto da arrecadação do ITR relativo aos imóveis neles situados, cabendo a totalidade na hipótese em que o próprio Município opte por fiscalizar e cobrar o imposto, nos termos do art. 153, § 4º, III."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 158 (EC 132/2023)", "data": "2023-12-20" },
+        { "tipo": "constituicao", "referencia": "CF, art. 153, § 4º, III", "data": "2003-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0064",
+      "tema": "Limites de despesa com pessoal (art. 169 da CF)",
+      "enunciado": "Sobre os limites de despesa com pessoal da Administração Pública, disciplinados no art. 169 da Constituição Federal, analise as afirmativas a seguir.\n\nI. A despesa com pessoal ativo e inativo e pensionistas da União, dos Estados, do Distrito Federal e dos Municípios não pode exceder os limites estabelecidos em lei complementar.\nII. A concessão de qualquer vantagem ou aumento de remuneração, a criação de cargos, empregos e funções ou alteração de estrutura de carreiras, bem como a admissão ou contratação de pessoal, só poderão ser feitas se houver prévia dotação orçamentária suficiente e autorização específica na lei de diretrizes orçamentárias, ressalvadas as empresas públicas e as sociedades de economia mista.\nIII. Decorrido o prazo fixado na lei complementar para a adaptação aos limites de despesa com pessoal, serão imediatamente suspensos todos os repasses de verbas federais ou estaduais aos entes que não observarem os limites.\nIV. Para o cumprimento dos limites de despesa com pessoal, o servidor estável pode perder o cargo desde que ato normativo motivado de cada um dos Poderes especifique a atividade funcional, o órgão ou a unidade administrativa objeto da redução de pessoal, fazendo o servidor jus a indenização correspondente a dois meses de remuneração por ano de serviço.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Confira com cuidado o número de meses de remuneração por ano de serviço que a Constituição prevê como indenização.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem o caput e os §§ 1º e 2º do art. 169 da CF. A IV é falsa: o § 5º do art. 169 fixa a indenização em um mês de remuneração por ano de serviço, e não em dois meses.",
+        "A": "Deixa de fora a III, que está correta: a suspensão dos repasses de verbas federais ou estaduais, decorrido o prazo de adaptação, é consequência expressa do § 2º do art. 169.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz o caput do art. 169.",
+        "D": "Nem todas estão corretas: a IV dobra o valor da indenização que o § 5º do art. 169 realmente prevê.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a IV, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 169, caput, §§ 1º, 2º e 5º", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -81,6 +81,68 @@
         { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 276 a 283", "data": "2015-03-16" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0048",
+      "tema": "Tutela de urgência e tutela da evidência (arts. 300, 302 e 311)",
+      "enunciado": "Sobre a tutela de urgência e a tutela da evidência, nos termos dos arts. 300, 302 e 311 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A tutela de urgência de natureza antecipada não será concedida quando houver perigo de irreversibilidade dos efeitos da decisão.",
+        "B": "Para a concessão da tutela de urgência, o juiz pode, conforme o caso, exigir caução real ou fidejussória idônea, que pode ser dispensada se a parte economicamente hipossuficiente não puder oferecê-la.",
+        "C": "A tutela da evidência fundada em petição inicial instruída com prova documental suficiente dos fatos constitutivos do direito do autor exige, também, a demonstração de perigo de dano ou de risco ao resultado útil do processo.",
+        "D": "Independentemente da reparação por dano processual, a parte responde pelo prejuízo que a efetivação da tutela de urgência causar à parte adversa se o juiz acolher a alegação de decadência ou prescrição da pretensão do autor.",
+        "E": "A indenização pelo prejuízo causado pela efetivação da tutela de urgência será liquidada nos autos em que a medida tiver sido concedida, sempre que possível."
+      },
+      "correta": "C",
+      "dica": "Lembre-se do que distingue a tutela da evidência da tutela de urgência: um dos requisitos da urgência simplesmente não é exigido na evidência.",
+      "explicacao": {
+        "A": "Correta a afirmativa: é o art. 300, § 3º. A irreversibilidade dos efeitos impede a tutela de urgência de natureza antecipada.",
+        "B": "Correta a afirmativa: art. 300, § 1º. A caução real ou fidejussória é facultativa e pode ser dispensada se a parte economicamente hipossuficiente não puder oferecê-la.",
+        "C": "Esta é a incorreta. O art. 311, caput, diz que a tutela da evidência será concedida \"independentemente da demonstração de perigo de dano ou de risco ao resultado útil do processo\". A hipótese da prova documental suficiente, sem contraprova capaz de gerar dúvida razoável, é o inciso IV.",
+        "D": "Correta a afirmativa: art. 302, IV. A responsabilidade independe da reparação por dano processual, e o acolhimento da decadência ou da prescrição é uma das hipóteses.",
+        "E": "Correta a afirmativa: art. 302, parágrafo único. A liquidação ocorre nos próprios autos em que a medida foi concedida, sempre que possível."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 300, 302 e 311",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0049",
+      "tema": "Tutela cautelar requerida em caráter antecedente (arts. 305 a 310)",
+      "enunciado": "Acerca da tutela cautelar requerida em caráter antecedente, conforme os arts. 305 a 310 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O réu será citado para, no prazo de 15 (quinze) dias, contestar o pedido e indicar as provas que pretende produzir.",
+        "B": "Efetivada a tutela cautelar, o pedido principal deverá ser formulado em 30 (trinta) dias, em autos apartados e mediante o adiantamento de novas custas processuais.",
+        "C": "O indeferimento da tutela cautelar impede a formulação do pedido principal, salvo se a parte apresentar novo fundamento.",
+        "D": "O pedido principal pode ser formulado conjuntamente com o pedido de tutela cautelar, e a causa de pedir poderá ser aditada no momento da formulação do pedido principal.",
+        "E": "Cessada a eficácia da tutela cautelar, é lícito à parte renovar o pedido pelo mesmo fundamento, desde que o faça no prazo de 30 (trinta) dias."
+      },
+      "correta": "D",
+      "dica": "No procedimento cautelar antecedente, o pedido principal segue nos mesmos autos e sem novas custas. Pense no que os §§ 1º e 2º do art. 308 permitem ao autor.",
+      "explicacao": {
+        "A": "O prazo do art. 306 é de 5 (cinco) dias para contestar e indicar provas. Quinze dias é o prazo da contestação no procedimento comum (art. 335).",
+        "B": "O art. 308, caput, manda apresentar o pedido principal nos mesmos autos em que deduzido o pedido cautelar, \"não dependendo do adiantamento de novas custas processuais\". O prazo de 30 dias está certo; o resto, não.",
+        "C": "O art. 310 diz o contrário: o indeferimento da tutela cautelar não obsta a formulação do pedido principal nem influi no seu julgamento, salvo se o motivo for o reconhecimento de decadência ou de prescrição.",
+        "D": "Correta. O art. 308, § 1º, permite formular o pedido principal conjuntamente com o cautelar, e o § 2º autoriza aditar a causa de pedir no momento da formulação do pedido principal.",
+        "E": "O art. 309, parágrafo único, veda a renovação do pedido quando cessar, por qualquer motivo, a eficácia da tutela cautelar, \"salvo sob novo fundamento\". O mesmo fundamento não basta."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 306, 308, 309 e 310",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

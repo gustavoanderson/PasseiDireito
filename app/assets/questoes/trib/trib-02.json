@@ -56,6 +56,135 @@
         { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 113 a 118", "data": "1966-10-25" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0050",
+      "tema": "Conceito de tributo e natureza jurídica específica (CTN, arts. 3º a 5º e 16)",
+      "enunciado": "Com base nos arts. 3º, 4º, 5º e 16 do Código Tributário Nacional, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Tributo é prestação pecuniária compulsória que não constitui sanção de ato ilícito.",
+        "B": "Tributo é instituído em lei e cobrado mediante atividade administrativa plenamente vinculada.",
+        "C": "A natureza jurídica específica do tributo é determinada pela destinação legal do produto da sua arrecadação.",
+        "D": "Para qualificar a natureza jurídica específica do tributo, são irrelevantes a denominação e as demais características formais adotadas pela lei.",
+        "E": "Imposto é o tributo cuja obrigação tem por fato gerador uma situação independente de qualquer atividade estatal específica, relativa ao contribuinte."
+      },
+      "correta": "C",
+      "dica": "O art. 4º do CTN diz o que define a espécie tributária e lista, em dois incisos, o que é irrelevante para isso.",
+      "explicacao": {
+        "A": "Correta. Reproduz parte do art. 3º do CTN: tributo é prestação pecuniária compulsória, em moeda ou cujo valor nela se possa exprimir, que não constitua sanção de ato ilícito. Multa não é tributo.",
+        "B": "Correta. É o final do art. 3º do CTN: o tributo é instituído em lei e cobrado mediante atividade administrativa plenamente vinculada, sem margem de discricionariedade.",
+        "C": "Incorreta, e por isso é a resposta. O art. 4º do CTN determina a natureza jurídica específica do tributo pelo fato gerador da respectiva obrigação; a destinação legal do produto da arrecadação é justamente um dos elementos declarados irrelevantes (inciso II).",
+        "D": "Correta. É o art. 4º, I, do CTN: a denominação e as demais características formais adotadas pela lei são irrelevantes para qualificar a natureza do tributo; o que importa é o fato gerador.",
+        "E": "Correta. É o conceito do art. 16 do CTN: o imposto é tributo não vinculado, cujo fato gerador independe de atividade estatal específica relativa ao contribuinte."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 3º, 4º, 5º e 16",
+          "data": "1966-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0051",
+      "tema": "Contribuições do art. 149 da CF e contribuição previdenciária dos servidores",
+      "enunciado": "Considere as afirmativas abaixo, com base no art. 149 da Constituição Federal.\n\nI. Compete exclusivamente à União instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas.\nII. Os Municípios instituirão, por meio de lei, contribuições para custeio de regime próprio de previdência social, cobradas dos servidores ativos, dos aposentados e dos pensionistas, que poderão ter alíquotas progressivas.\nIII. As contribuições sociais e de intervenção no domínio econômico incidirão sobre as receitas decorrentes de exportação.\nIV. Demonstrada a insuficiência da contribuição ordinária dos aposentados e pensionistas para equacionar o deficit atuarial, é facultada aos Municípios a instituição de contribuição extraordinária de seus servidores ativos, aposentados e pensionistas.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "Leia com atenção o § 1º-B do art. 149: ele diz em que âmbito a contribuição extraordinária pode ser instituída. E o § 2º, I, trata das exportações.",
+      "explicacao": {
+        "A": "Correta. I reproduz o caput do art. 149 e II reproduz o § 1º (EC 103/2019). A III contraria o § 2º, I (as contribuições sociais e de intervenção não incidirão sobre receitas de exportação), e a IV contraria o § 1º-B, que faculta a contribuição extraordinária apenas no âmbito da União.",
+        "B": "Inclui a III, que está errada: o art. 149, § 2º, I, diz que essas contribuições NÃO incidirão sobre as receitas decorrentes de exportação. Elas incidem, sim, sobre a importação (inciso II).",
+        "C": "Exclui a I, que é o caput do art. 149, e inclui a IV, que está errada: pelo § 1º-B, a contribuição extraordinária é facultada no âmbito da União. Aos Municípios, o § 1º-A permite apenas ampliar a base da contribuição ordinária dos aposentados e pensionistas.",
+        "D": "A IV está errada. O § 1º-B do art. 149 (EC 103/2019) restringe a contribuição extraordinária à União. A pegadinha é estender aos Municípios uma regra que o texto limita a um ente.",
+        "E": "A III e a IV estão erradas: as contribuições sociais e de intervenção não incidem sobre receitas de exportação (§ 2º, I), e a contribuição extraordinária é só da União (§ 1º-B)."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 149, caput, §§ 1º, 1º-A, 1º-B e 2º, I (EC 33/2001 e EC 103/2019)",
+          "data": "2019-11-12"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0052",
+      "tema": "Taxas: poder de polícia e serviço específico e divisível (CTN, arts. 77 a 80)",
+      "enunciado": "Sobre as taxas, nos termos dos arts. 77 a 80 do Código Tributário Nacional e do art. 145, § 2º, da Constituição Federal, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente nos limites da lei aplicável, com observância do processo legal e, tratando-se de atividade discricionária, sem abuso ou desvio de poder.",
+        "B": "Os serviços públicos consideram-se utilizados potencialmente pelo contribuinte quando, sendo de utilização compulsória, sejam postos à sua disposição mediante atividade administrativa em efetivo funcionamento.",
+        "C": "As taxas não poderão ter base de cálculo própria de impostos.",
+        "D": "Consideram-se compreendidas no âmbito das atribuições de cada ente, para a instituição de taxas, aquelas que lhe competem segundo a Constituição Federal, as Constituições dos Estados, as Leis Orgânicas do Distrito Federal e dos Municípios e a legislação com elas compatível.",
+        "E": "Os serviços públicos consideram-se específicos quando suscetíveis de utilização, separadamente, por parte de cada um dos seus usuários."
+      },
+      "correta": "E",
+      "dica": "O art. 79 do CTN define três qualidades do serviço público remunerado por taxa. Confira se cada definição está atribuída à qualidade certa.",
+      "explicacao": {
+        "A": "Correta. É o parágrafo único do art. 78 do CTN, que define o exercício regular do poder de polícia, requisito para a cobrança da taxa (art. 77).",
+        "B": "Correta. É o art. 79, I, b, do CTN: a utilização potencial só autoriza a taxa se o serviço for de utilização compulsória e estiver em efetivo funcionamento.",
+        "C": "Correta. É o art. 145, § 2º, da Constituição; o parágrafo único do art. 77 do CTN diz o mesmo e acrescenta que a taxa não pode ser calculada em função do capital das empresas.",
+        "D": "Correta. É o art. 80 do CTN: a competência para instituir taxa segue a competência administrativa do ente para exercer o poder de polícia ou prestar o serviço.",
+        "E": "Incorreta, e por isso é a resposta. Pelo art. 79, III, do CTN, a utilização separada por cada usuário define o serviço DIVISÍVEL. Específico (inciso II) é o serviço que pode ser destacado em unidades autônomas de intervenção, de utilidade ou de necessidade públicas. A alternativa trocou os conceitos."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 77 a 80",
+          "data": "1966-10-25"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 145, II e § 2º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0053",
+      "tema": "Competência residual e impostos extraordinários (CF, arts. 154 e 157, II)",
+      "enunciado": "Com base nos arts. 154 e 157, II, da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A União poderá instituir, mediante lei ordinária, impostos não previstos na Constituição, desde que não-cumulativos.",
+        "B": "A União poderá instituir, mediante lei complementar, impostos não previstos no art. 153, desde que sejam não-cumulativos e não tenham fato gerador ou base de cálculo próprios dos discriminados na Constituição.",
+        "C": "Na iminência ou no caso de guerra externa, a União poderá instituir impostos extraordinários, desde que compreendidos em sua competência tributária.",
+        "D": "Pertencem aos Municípios vinte por cento do produto da arrecadação do imposto que a União instituir no exercício da competência residual.",
+        "E": "Os impostos extraordinários de guerra, uma vez instituídos, integram de forma permanente o sistema tributário e só podem ser extintos por emenda constitucional."
+      },
+      "correta": "B",
+      "dica": "A competência residual tem três exigências: veículo legislativo, técnica de incidência e originalidade do fato gerador e da base de cálculo.",
+      "explicacao": {
+        "A": "O art. 154, I, exige lei complementar, e não lei ordinária, além de vedar fato gerador ou base de cálculo próprios dos impostos já discriminados na Constituição.",
+        "B": "Correta. É o art. 154, I, da Constituição: a competência residual da União exige lei complementar, não-cumulatividade e fato gerador e base de cálculo diversos dos impostos já discriminados.",
+        "C": "O art. 154, II, admite impostos extraordinários compreendidos OU NÃO em sua competência tributária. A União pode, na guerra, tributar até fatos da competência de Estados e Municípios.",
+        "D": "Pelo art. 157, II, os vinte por cento do imposto residual pertencem aos Estados e ao Distrito Federal, e não aos Municípios.",
+        "E": "O art. 154, II, determina que os impostos extraordinários serão suprimidos, gradativamente, cessadas as causas de sua criação. Eles são temporários por natureza."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 154, I e II, e 157, II",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

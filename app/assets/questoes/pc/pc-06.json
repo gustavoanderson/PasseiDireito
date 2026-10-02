@@ -81,6 +81,492 @@
         { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 966, 968, 969 e 975", "data": "2015-03-16" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0050",
+      "tema": "Relevância da questão federal no recurso especial (art. 1.035-A)",
+      "enunciado": "A Lei nº 15.484/2026 incluiu o art. 1.035-A no Código de Processo Civil, que trata da relevância da questão de direito federal infraconstitucional no recurso especial. Sobre esse dispositivo, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "O Superior Tribunal de Justiça, em decisão irrecorrível, não conhecerá do recurso especial quando a questão de direito federal infraconstitucional nele versada não for relevante.",
+        "B": "O recorrente deverá demonstrar a relevância em tópico específico e fundamentado, e, desatendida essa forma, o recurso será inadmitido.",
+        "C": "A deliberação sobre a relevância considerará a existência ou não de questões relevantes do ponto de vista econômico, político, social ou jurídico que ultrapassem os interesses subjetivos do processo.",
+        "D": "O relator poderá admitir, na análise da relevância, a manifestação de terceiros subscrita por procurador habilitado.",
+        "E": "O recurso especial não será conhecido por ausência de relevância mediante manifestação da maioria absoluta dos membros do órgão competente para o julgamento."
+      },
+      "correta": "E",
+      "dica": "A Constituição já fixava, desde a EC 125/2022, um quórum especial para o STJ recusar o recurso especial por falta de relevância. A lei repetiu esse número.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Correta a afirmativa: é o caput do art. 1.035-A, que reproduz para o STJ a lógica da repercussão geral do STF (art. 1.035).",
+        "B": "Correta a afirmativa: art. 1.035-A, §§ 2º e 3º. A demonstração em tópico específico e fundamentado é requisito formal, e o seu desatendimento leva à inadmissão.",
+        "C": "Correta a afirmativa: art. 1.035-A, § 1º. São os mesmos critérios da repercussão geral (art. 1.035, § 1º).",
+        "D": "Correta a afirmativa: art. 1.035-A, § 5º, que admite a manifestação de terceiros na análise da relevância.",
+        "E": "Esta é a incorreta. Pelo art. 1.035-A, § 6º, e pelo art. 105, § 2º, da Constituição (EC 125/2022), somente não se conhece do recurso especial por esse motivo pela manifestação de 2/3 (dois terços) dos membros do órgão competente para o julgamento. Maioria absoluta é a pegadinha."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 1.035-A, incluído pela Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 2º",
+          "data": "2026-08-04"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 105, § 2º (incluído pela EC 125/2022)",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0051",
+      "tema": "Relevância no REsp: presunção, suspensão e direito intertemporal",
+      "enunciado": "Considerando o art. 1.035-A do Código de Processo Civil, incluído pela Lei nº 15.484/2026, a própria Lei nº 15.484/2026 e o art. 105 da Constituição Federal, analise as assertivas abaixo.\nI. Presume-se a relevância da questão de direito federal infraconstitucional nas ações de improbidade administrativa e nas ações cujo valor da causa ultrapasse 500 (quinhentos) salários mínimos.\nII. Reconhecida a relevância, o relator no Superior Tribunal de Justiça determinará, obrigatoriamente, a suspensão de todos os processos pendentes que versem sobre a questão no território nacional, pelo prazo de 1 (um) ano.\nIII. O julgamento de recurso especial sob o regime da relevância será realizado em sessão presencial, salvo se o voto do relator for no sentido de não reconhecer a relevância ou de reafirmar a jurisprudência dominante do Tribunal.\nIV. A indicação, em tópico específico e fundamentado, dos argumentos da relevância será exigida em recursos interpostos contra acórdãos publicados após a data de entrada em vigor da Lei nº 15.484/2026.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, III e IV estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Compare a suspensão de processos no regime da relevância com a da repercussão geral: o verbo e o prazo mudaram.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Errada, porque inclui a assertiva II e deixa de fora III e IV. Pelo art. 1.035-A, § 7º, a suspensão é uma faculdade do relator (\"poderá\"), exige justificativa, pode ser total ou parcial e dura 6 meses, prorrogáveis uma única vez por mais 6.",
+        "B": "Correta. I: o § 4º do art. 1.035-A presume a relevância nas hipóteses do art. 105, § 3º, da Constituição, que incluem as ações de improbidade (inciso II) e as de valor da causa acima de 500 salários mínimos (inciso III). III: é o § 8º. IV: é o art. 4º da Lei 15.484/2026. A II é falsa (§ 7º).",
+        "C": "Errada. A assertiva II é falsa: a suspensão não é obrigatória nem dura 1 ano; o § 7º fala em \"poderá, mediante justificativa\", por 6 meses prorrogáveis uma única vez. E a assertiva I, verdadeira, ficou de fora.",
+        "D": "Errada, porque deixa de fora a assertiva I, que é verdadeira: a relevância é presumida nas hipóteses do art. 105, § 3º, da Constituição (art. 1.035-A, § 4º), entre elas improbidade administrativa e causas acima de 500 salários mínimos.",
+        "E": "Errada, porque a assertiva II é falsa. O prazo de 1 ano lembra o do julgamento da repercussão geral no STF (art. 1.035, § 9º); a suspensão do art. 1.035-A, § 7º, é facultativa e de 6 meses, prorrogáveis por mais 6."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 1.035-A, §§ 4º, 7º e 8º, incluído pela Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 4º",
+          "data": "2026-08-04"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 105, § 3º (incluído pela EC 125/2022)",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0052",
+      "tema": "Negativa de seguimento ao REsp no regime de relevância (arts. 1.030 e 1.042)",
+      "enunciado": "O Município de Curitiba interpôs recurso especial contra acórdão do Tribunal de Justiça do Paraná. A Vice-Presidência do tribunal negou seguimento ao recurso porque o acórdão recorrido está em conformidade com entendimento do Superior Tribunal de Justiça exarado no regime de relevância da questão de direito federal infraconstitucional. Considerando os arts. 1.030 e 1.042 do Código de Processo Civil, com a redação dada pela Lei nº 15.484/2026, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Cabe agravo interno, pois a decisão foi proferida com fundamento no inciso I do art. 1.030, e o agravo em recurso especial não é cabível contra inadmissão fundada na aplicação de entendimento firmado no regime de relevância.",
+        "B": "Cabe agravo em recurso especial, dirigido ao presidente ou ao vice-presidente do tribunal de origem, para que o próprio Superior Tribunal de Justiça reexamine a aplicação do precedente.",
+        "C": "Cabe recurso ordinário ao Superior Tribunal de Justiça, pois a decisão de origem impediu o acesso do ente público à instância especial.",
+        "D": "A decisão é irrecorrível, porque a relevância da questão federal é de apreciação exclusiva do Superior Tribunal de Justiça.",
+        "E": "Cabe agravo de instrumento dirigido diretamente ao Superior Tribunal de Justiça, no prazo de 15 (quinze) dias."
+      },
+      "correta": "A",
+      "dica": "O CPC distingue duas decisões do tribunal de origem: a que aplica precedente qualificado e a que faz o juízo de admissibilidade comum. Cada uma tem seu agravo, e a Lei 15.484/2026 encaixou a relevância nesse sistema.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Correta. A Lei 15.484/2026 incluiu a alínea \"c\" no art. 1.030, I (negativa de seguimento a recurso especial contra acórdão conforme o entendimento do STJ no regime de relevância). Contra decisão fundada no inciso I cabe agravo interno (art. 1.030, § 2º), e o novo caput do art. 1.042 exclui o agravo em recurso especial quando a inadmissão se funda em entendimento firmado nos regimes de repercussão geral, de relevância ou de repetitivos.",
+        "B": "O agravo do art. 1.042 é o recurso contra a inadmissão fundada no juízo de admissibilidade do art. 1.030, V (§ 1º). Pelo caput do art. 1.042, ele não cabe quando a decisão se funda na aplicação de entendimento firmado no regime de relevância.",
+        "C": "O recurso ordinário (art. 1.027) cabe em hipóteses estritas, como o mandado de segurança decidido em única instância pelos tribunais e denegado. Não serve para impugnar decisão de admissibilidade de recurso especial.",
+        "D": "A decisão do presidente ou vice-presidente não é irrecorrível: o art. 1.030, § 2º, prevê agravo interno. Irrecorrível é a decisão do próprio STJ que não conhece do recurso por falta de relevância (art. 1.035-A, caput).",
+        "E": "Não há agravo de instrumento para o STJ nessa hipótese. O agravo de instrumento do art. 1.015 impugna decisões interlocutórias de primeiro grau."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 1.030, I, \"c\", e § 2º, e 1.042, caput, na redação da Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 3º",
+          "data": "2026-08-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0053",
+      "tema": "Reclamação após a Lei 15.484/2026 (art. 988)",
+      "enunciado": "Com base no art. 988 do Código de Processo Civil, com as alterações promovidas pela Lei nº 15.484/2026, a respeito da reclamação, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Caberá reclamação da parte interessada ou do Ministério Público para preservar a competência do tribunal e para garantir a autoridade das suas decisões.",
+        "B": "Caberá reclamação, em casos excepcionais, para garantir a observância de acórdão proferido em julgamento de recurso especial sob o regime de relevância.",
+        "C": "Será liminarmente indeferida a reclamação proposta após o trânsito em julgado da decisão reclamada.",
+        "D": "As hipóteses de reclamação para garantir a observância de precedentes compreendem a aplicação indevida da tese jurídica e a sua não aplicação aos casos que a ela correspondam.",
+        "E": "A reclamação para garantir a observância de acórdão de recurso especial com relevância reconhecida dispensa o esgotamento das instâncias ordinárias, bastando que o ato atacado divirja do precedente."
+      },
+      "correta": "E",
+      "dica": "Para os precedentes dos tribunais superiores formados em recursos (repercussão geral, relevância e repetitivos), a reclamação tem dois filtros de admissibilidade. Releia o § 5º do art. 988.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 988, I e II. São as hipóteses clássicas da reclamação.",
+        "B": "Correta a afirmativa: é o inciso V do art. 988, incluído pela Lei 15.484/2026. Note a expressão \"em casos excepcionais\", que não aparece nos demais incisos.",
+        "C": "Correta a afirmativa: art. 988, § 5º, I. A Lei 15.484/2026 reescreveu o caput do § 5º, que passou a falar em indeferimento liminar.",
+        "D": "Correta a afirmativa: art. 988, § 4º, na redação da Lei 15.484/2026, que passou a abranger os incisos III, IV e V.",
+        "E": "Esta é a incorreta. Pelo art. 988, § 5º, II, será liminarmente indeferida a reclamação para garantir a observância de acórdão de recurso especial com relevância reconhecida (assim como de repercussão geral e de repetitivos) quando não esgotadas as instâncias ordinárias ou quando o ato atacado não se mostrar manifestamente em desacordo com o precedente qualificado. Os dois filtros existem; nenhum é dispensado."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 988, I, II e V, e §§ 4º e 5º, na redação da Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 3º",
+          "data": "2026-08-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0054",
+      "tema": "Precedente do REsp com relevância: arts. 927 e 932",
+      "enunciado": "No Tribunal de Justiça, o relator recebe apelação interposta por um particular contra o Município. As razões recursais sustentam tese contrária a acórdão do Superior Tribunal de Justiça proferido em recurso especial com a relevância da questão de direito federal infraconstitucional reconhecida. À luz dos arts. 927 e 932 do Código de Processo Civil, com a redação dada pela Lei nº 15.484/2026, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O relator deve levar o recurso ao órgão colegiado, porque somente os acórdãos em recursos repetitivos autorizam o julgamento monocrático com base em precedente do Superior Tribunal de Justiça.",
+        "B": "O relator poderá negar provimento ao recurso monocraticamente, mas somente depois de facultada a apresentação de contrarrazões.",
+        "C": "O relator poderá negar provimento ao recurso monocraticamente, e os acórdãos proferidos em julgamento de recurso especial submetido ao regime da relevância estão entre os pronunciamentos que juízes e tribunais observarão.",
+        "D": "O acórdão do Superior Tribunal de Justiça só poderá ser aplicado pelo relator se tiver dado origem a enunciado de súmula, pois o regime de relevância não gera precedente de observância obrigatória.",
+        "E": "O relator deverá suspender a apelação até o trânsito em julgado do acórdão do Superior Tribunal de Justiça, vedado o julgamento monocrático enquanto pender recurso contra ele."
+      },
+      "correta": "C",
+      "dica": "A Lei 15.484/2026 pôs o acórdão em recurso especial com relevância reconhecida ao lado dos repetitivos em mais de um artigo. Veja o que muda para o relator ao negar e ao dar provimento.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Desde a Lei 15.484/2026, o art. 932, IV, \"b\", autoriza o relator a negar provimento a recurso contrário a acórdão do STF ou do STJ em julgamento de recursos repetitivos \"ou de recursos especiais com a relevância da questão de direito federal infraconstitucional reconhecida\".",
+        "B": "A exigência de facultar contrarrazões está no inciso V do art. 932, que trata de DAR provimento ao recurso. Para NEGAR provimento (inciso IV), o CPC não a impõe, porque a decisão favorece o recorrido.",
+        "C": "Correta. A Lei 15.484/2026 incluiu o inciso III-A no art. 927 (acórdãos em recurso especial submetido ao regime da relevância) e alterou a alínea \"b\" dos incisos IV e V do art. 932, permitindo ao relator negar ou dar provimento monocraticamente com base nesses acórdãos.",
+        "D": "O art. 927, III-A, põe esses acórdãos entre os pronunciamentos que juízes e tribunais observarão. Não é preciso súmula.",
+        "E": "Nenhum dispositivo condiciona a aplicação do precedente ao seu trânsito em julgado nem veda a decisão monocrática nesse caso. O art. 932, IV, \"b\", autoriza o julgamento pelo relator."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 927, III-A, e 932, IV e V, na redação da Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 3º",
+          "data": "2026-08-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0055",
+      "tema": "Relevância no REsp: desistência, sobrestados, publicidade e agravo",
+      "enunciado": "A Lei nº 15.484/2026 adaptou diversos dispositivos do Código de Processo Civil ao regime da relevância da questão de direito federal infraconstitucional. Considerando a redação em vigor desses dispositivos, analise as assertivas abaixo.\nI. A desistência do recurso não impede a análise de questão cuja relevância da questão de direito federal infraconstitucional já tenha sido reconhecida.\nII. Negada a existência de relevância da questão de direito federal infraconstitucional no recurso especial afetado, serão considerados automaticamente inadmitidos os recursos especiais cujo processamento tenha sido sobrestado.\nIII. O julgamento de recurso especial com relevância reconhecida não se submete à ampla divulgação e ao registro eletrônico no Conselho Nacional de Justiça exigidos para o incidente de resolução de demandas repetitivas.\nIV. À petição de agravo em recurso especial aplica-se o regime de relevância da questão de direito federal infraconstitucional, inclusive quanto à possibilidade de sobrestamento e do juízo de retratação.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e III estão corretas.",
+        "C": "Somente as assertivas I, II e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "C",
+      "dica": "A Lei 15.484/2026 procurou dar ao recurso especial com relevância o mesmo tratamento já dado ao extraordinário com repercussão geral. Desconfie da assertiva que cria uma exceção.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora a assertiva IV, que é verdadeira: o art. 1.042, § 2º, na redação da Lei 15.484/2026, manda aplicar ao agravo em recurso especial o regime de relevância, inclusive quanto ao sobrestamento e ao juízo de retratação.",
+        "B": "Errada, porque inclui a assertiva III. O art. 979, § 3º, estende a divulgação e o registro eletrônico do IRDR ao julgamento de recurso especial com relevância reconhecida.",
+        "C": "Correta. I: art. 998, parágrafo único. II: art. 1.039, parágrafo único. IV: art. 1.042, § 2º. Todos na redação da Lei 15.484/2026. A assertiva III contraria o art. 979, § 3º.",
+        "D": "Errada. A assertiva III é falsa (art. 979, § 3º), e as assertivas I e II, verdadeiras, ficaram de fora.",
+        "E": "Errada, porque a assertiva III é falsa. O art. 979, § 3º, aplica a mais ampla divulgação e publicidade, com registro no CNJ, também ao recurso especial com relevância reconhecida."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 979, § 3º, 998, parágrafo único, 1.039, parágrafo único, e 1.042, § 2º, na redação da Lei 15.484/2026",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, art. 3º",
+          "data": "2026-08-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0056",
+      "tema": "Lei 15.484/2026: vigência, transição e efeitos sobre processos",
+      "enunciado": "A Lei nº 15.484, de 4 de agosto de 2026, regulamentou o regime de relevância das questões de direito federal infraconstitucional para admissão dos recursos especiais. Sobre as disposições finais dessa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A lei entrou em vigor na data de sua publicação, aplicando-se de imediato a todos os recursos especiais pendentes de admissão.",
+        "B": "Cabe ao Conselho Nacional de Justiça, por resolução, estabelecer as normas necessárias à execução da lei.",
+        "C": "A demonstração da relevância, em tópico específico e fundamentado, é exigida também nos recursos interpostos contra acórdãos publicados antes da entrada em vigor da lei.",
+        "D": "Reconhecida ou recusada, pelo Superior Tribunal de Justiça, a relevância da questão de direito federal infraconstitucional, todos os efeitos processuais e materiais do julgamento deverão incidir em processos em andamento no Superior Tribunal de Justiça e nas instâncias de origem.",
+        "E": "Os recursos especiais interpostos pela Fazenda Pública estão dispensados da demonstração da relevância da questão de direito federal infraconstitucional."
+      },
+      "correta": "D",
+      "dica": "As disposições finais tratam de quatro pontos: a partir de quando a exigência vale, o alcance da decisão do STJ, quem regulamenta e a vigência.",
+      "alerta": "Mudança recente: a Lei 15.484/2026 (publicada em 04/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "O art. 7º da Lei 15.484/2026 fixou vacatio legis: a lei entra em vigor após decorridos 30 (trinta) dias de sua publicação oficial, ocorrida em 4/8/2026.",
+        "B": "O art. 6º atribui ao próprio Superior Tribunal de Justiça, em seu regimento interno, a tarefa de estabelecer as normas necessárias à execução da lei. Não ao CNJ.",
+        "C": "O art. 4º diz o contrário: a indicação, em tópico específico e fundamentado, dos argumentos da relevância será exigida em recursos interpostos contra acórdãos publicados após a data de entrada em vigor da lei.",
+        "D": "Correta. É a literalidade do art. 5º da Lei 15.484/2026. A decisão do STJ sobre a relevância, positiva ou negativa, projeta seus efeitos sobre os processos em andamento no próprio tribunal e nas instâncias de origem.",
+        "E": "A lei não traz dispensa para a Fazenda Pública. A relevância só é presumida nas hipóteses do art. 105, § 3º, da Constituição (art. 1.035-A, § 4º, do CPC), que não se definem pela pessoa do recorrente."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 15.484/2026, arts. 4º a 7º",
+          "data": "2026-08-04"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 1.035-A, § 4º, incluído pela Lei 15.484/2026",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0057",
+      "tema": "Embargos de declaração (arts. 1.022 a 1.026)",
+      "enunciado": "Acerca dos embargos de declaração, conforme os arts. 1.022 a 1.026 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Considera-se omissa a decisão que deixe de se manifestar sobre tese firmada em julgamento de casos repetitivos ou em incidente de assunção de competência aplicável ao caso sob julgamento.",
+        "B": "Quando manifestamente protelatórios os embargos de declaração, o embargante será condenado a pagar ao embargado multa de até dez por cento sobre o valor atualizado da causa, já na primeira oposição.",
+        "C": "Os embargos de declaração não possuem efeito suspensivo e interrompem o prazo para a interposição de recurso.",
+        "D": "Consideram-se incluídos no acórdão os elementos que o embargante suscitou, para fins de pré-questionamento, ainda que os embargos sejam inadmitidos ou rejeitados, caso o tribunal superior considere existentes erro, omissão, contradição ou obscuridade.",
+        "E": "Não serão admitidos novos embargos de declaração se os 2 (dois) anteriores houverem sido considerados protelatórios."
+      },
+      "correta": "B",
+      "dica": "A multa por embargos protelatórios tem dois degraus: um para a primeira vez e outro, bem maior, para a reiteração.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 1.022, parágrafo único, I. Ignorar precedente qualificado aplicável é omissão, sanável por embargos.",
+        "B": "Esta é a incorreta. Na primeira vez, a multa é não excedente a dois por cento sobre o valor atualizado da causa (art. 1.026, § 2º). Os dez por cento são o teto da multa na reiteração de embargos protelatórios (§ 3º).",
+        "C": "Correta a afirmativa: art. 1.026, caput. Note: interrompem, e não apenas suspendem, o prazo dos demais recursos.",
+        "D": "Correta a afirmativa: art. 1.025, que trata do chamado pré-questionamento ficto.",
+        "E": "Correta a afirmativa: art. 1.026, § 4º. Depois de dois embargos considerados protelatórios, novos embargos não são admitidos."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 1.022, 1.025 e 1.026",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0058",
+      "tema": "Agravo de instrumento: rol do art. 1.015",
+      "enunciado": "Nos termos do art. 1.015 do Código de Processo Civil, cabe agravo de instrumento contra as decisões interlocutórias que versarem sobre as matérias abaixo, EXCETO:",
+      "alternativas": {
+        "A": "rejeição da alegação de convenção de arbitragem.",
+        "B": "admissão ou inadmissão de intervenção de terceiros.",
+        "C": "concessão, modificação ou revogação do efeito suspensivo aos embargos à execução.",
+        "D": "exclusão de litisconsorte.",
+        "E": "acolhimento do pedido de gratuidade da justiça."
+      },
+      "correta": "E",
+      "dica": "Em um dos incisos, o legislador escolheu só um dos lados da decisão. Leia com atenção o que é agravável em matéria de gratuidade.",
+      "explicacao": {
+        "A": "Consta do rol: art. 1.015, III. Note que é a rejeição da alegação de arbitragem que se agrava; o acolhimento extingue o processo (art. 485, VII) e desafia apelação.",
+        "B": "Consta do rol: art. 1.015, IX, que abrange tanto a admissão quanto a inadmissão.",
+        "C": "Consta do rol: art. 1.015, X. A decisão sobre efeito suspensivo dos embargos à execução é agravável em qualquer sentido.",
+        "D": "Consta do rol: art. 1.015, VII. A exclusão de litisconsorte é agravável; a rejeição do pedido de limitação do litisconsórcio também (inciso VIII).",
+        "E": "Esta é a exceção. O art. 1.015, V, prevê agravo contra a \"rejeição do pedido de gratuidade da justiça ou acolhimento do pedido de sua revogação\". A concessão do benefício não está no rol: a parte contrária a impugna na contestação, na réplica, nas contrarrazões ou por petição simples (art. 100)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 100 e 1.015",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0059",
+      "tema": "Apelação: efeitos e julgamento pelo tribunal",
+      "enunciado": "Sobre a apelação, conforme os arts. 1.009 a 1.014 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "As questões resolvidas na fase de conhecimento, se a decisão a seu respeito não comportar agravo de instrumento, não são cobertas pela preclusão e devem ser suscitadas em preliminar de apelação ou nas contrarrazões.",
+        "B": "Começa a produzir efeitos imediatamente após a sua publicação a sentença que confirma, concede ou revoga tutela provisória.",
+        "C": "Após as contrarrazões, os autos serão remetidos ao tribunal pelo juiz, independentemente de juízo de admissibilidade.",
+        "D": "Quando reformar sentença que reconheça a prescrição, o tribunal deverá determinar o retorno dos autos ao juízo de primeiro grau, para que este examine as demais questões, sob pena de supressão de instância.",
+        "E": "As questões de fato não propostas no juízo inferior poderão ser suscitadas na apelação, se a parte provar que deixou de fazê-lo por motivo de força maior."
+      },
+      "correta": "D",
+      "dica": "O CPC/2015 ampliou o julgamento imediato do mérito pelo tribunal na apelação. Veja o que o art. 1.013 diz sobre prescrição e decadência.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 1.009, § 1º. As interlocutórias não agraváveis são impugnadas na apelação ou nas contrarrazões.",
+        "B": "Correta a afirmativa: art. 1.012, § 1º, V. É exceção à regra do efeito suspensivo da apelação (caput).",
+        "C": "Correta a afirmativa: art. 1.010, § 3º. No CPC/2015, o juízo de admissibilidade da apelação é feito só no tribunal.",
+        "D": "Esta é a incorreta. O art. 1.013, § 4º, manda o tribunal, se possível, julgar o mérito, examinando as demais questões, \"sem determinar o retorno do processo ao juízo de primeiro grau\".",
+        "E": "Correta a afirmativa: é a literalidade do art. 1.014. Fato novo só entra na apelação se a parte provar força maior."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 1.009 a 1.014",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0060",
+      "tema": "Remessa necessária: hipóteses, dispensas e art. 942",
+      "enunciado": "Considerando os arts. 496 e 942 do Código de Processo Civil, analise as assertivas abaixo sobre a remessa necessária.\nI. Não se aplica a remessa necessária quando a sentença estiver fundada em entendimento coincidente com orientação vinculante firmada no âmbito administrativo do próprio ente público, consolidada em manifestação, parecer ou súmula administrativa.\nII. A técnica de ampliação do colegiado prevista no art. 942 para o julgamento não unânime da apelação aplica-se também ao julgamento não unânime da remessa necessária.\nIII. Está sujeita à remessa necessária a sentença que julgar procedentes, no todo ou em parte, os embargos à execução fiscal.\nIV. A dispensa da remessa necessária pela fundamentação da sentença em súmula exige que se trate de súmula vinculante do Supremo Tribunal Federal.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e III estão corretas.",
+        "B": "Somente as assertivas II e III estão corretas.",
+        "C": "Somente as assertivas I, III e IV estão corretas.",
+        "D": "Somente as assertivas II e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "A",
+      "dica": "A remessa necessária tem regras de dispensa ligadas a precedentes, inclusive administrativos, e fica fora de uma técnica de julgamento pensada para a apelação.",
+      "explicacao": {
+        "A": "Correta. I: art. 496, § 4º, IV. III: art. 496, II. A assertiva II contraria o art. 942, § 4º, II, e a IV contraria o art. 496, § 4º, I, que fala em \"súmula de tribunal superior\".",
+        "B": "Errada, porque inclui a assertiva II. O art. 942, § 4º, II, exclui expressamente a remessa necessária da técnica de ampliação do colegiado.",
+        "C": "Errada, porque inclui a assertiva IV. O art. 496, § 4º, I, dispensa a remessa quando a sentença estiver fundada em \"súmula de tribunal superior\", vinculante ou não.",
+        "D": "Errada. As assertivas II e IV são justamente as falsas (art. 942, § 4º, II, e art. 496, § 4º, I), e as verdadeiras, I e III, ficaram de fora.",
+        "E": "Errada, porque as assertivas II e IV são falsas. A remessa não se submete ao art. 942 (§ 4º, II), e basta súmula de tribunal superior para dispensá-la (art. 496, § 4º, I)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 496, II, e § 4º, e 942, § 4º, II",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0061",
+      "tema": "Incidente de assunção de competência (art. 947)",
+      "enunciado": "Acerca do incidente de assunção de competência, à luz dos arts. 942 e 947 do Código de Processo Civil, analise as assertivas abaixo.\nI. É admissível a assunção de competência quando o julgamento de recurso, de remessa necessária ou de processo de competência originária envolver relevante questão de direito, com grande repercussão social, sem repetição em múltiplos processos.\nII. O relator proporá a assunção de competência de ofício ou a requerimento da parte, do Ministério Público ou da Defensoria Pública.\nIII. O acórdão proferido em assunção de competência vinculará todos os juízes e órgãos fracionários, exceto se houver revisão de tese.\nIV. A técnica de ampliação do colegiado prevista no art. 942 não se aplica ao julgamento do incidente de assunção de competência.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I e III estão corretas.",
+        "C": "Somente as assertivas II, III e IV estão corretas.",
+        "D": "Somente as assertivas I, II e III estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "E",
+      "dica": "Cada assertiva corresponde a um parágrafo do art. 947 ou do art. 942. Confira uma a uma antes de descartar.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora as assertivas III (art. 947, § 3º) e IV (art. 942, § 4º, I), ambas verdadeiras.",
+        "B": "Errada, porque deixa de fora as assertivas II (art. 947, § 1º) e IV (art. 942, § 4º, I), também verdadeiras.",
+        "C": "Errada, porque deixa de fora a assertiva I, que é o caput do art. 947. O traço que separa o IAC do IRDR é exatamente a ausência de repetição em múltiplos processos.",
+        "D": "Errada, porque deixa de fora a assertiva IV. O art. 942, § 4º, I, exclui da técnica de ampliação do colegiado o julgamento do IAC e o do IRDR.",
+        "E": "Correta. I: art. 947, caput. II: art. 947, § 1º. III: art. 947, § 3º. IV: art. 942, § 4º, I. Todas reproduzem a lei."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 942, § 4º, I, e 947",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0062",
+      "tema": "Preparo e deserção (art. 1.007)",
+      "enunciado": "Sobre o preparo dos recursos e a pena de deserção, conforme o art. 1.007 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A insuficiência no valor do preparo implicará deserção se o recorrente, intimado na pessoa de seu advogado, não vier a supri-lo no prazo de 5 (cinco) dias.",
+        "B": "O recorrente que não comprovar, no ato de interposição do recurso, o recolhimento do preparo será intimado, na pessoa de seu advogado, para realizar o recolhimento em dobro, sob pena de deserção.",
+        "C": "Feito o recolhimento em dobro com insuficiência parcial, o recorrente será intimado para complementá-lo no prazo de 5 (cinco) dias, antes de declarada a deserção.",
+        "D": "O equívoco no preenchimento da guia de custas não implicará a aplicação da pena de deserção, cabendo ao relator, na dúvida quanto ao recolhimento, intimar o recorrente para sanar o vício em 5 (cinco) dias.",
+        "E": "Provando o recorrente justo impedimento, o relator relevará a pena de deserção, por decisão irrecorrível, fixando-lhe prazo de 5 (cinco) dias para efetuar o preparo."
+      },
+      "correta": "C",
+      "dica": "O art. 1.007 dá chances sucessivas ao recorrente, mas com limite. Pense no que acontece quando quem já está recolhendo em dobro erra de novo.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 1.007, § 2º. O preparo insuficiente, mas recolhido, admite complementação em 5 dias.",
+        "B": "Correta a afirmativa: art. 1.007, § 4º. Quem não comprova o preparo não é logo declarado deserto: recolhe em dobro.",
+        "C": "Esta é a incorreta. O art. 1.007, § 5º, veda a complementação se houver insuficiência parcial no recolhimento feito em dobro na forma do § 4º. A segunda chance já foi dada; não há terceira.",
+        "D": "Correta a afirmativa: art. 1.007, § 7º. Erro no preenchimento da guia é vício sanável, e não causa de deserção.",
+        "E": "Correta a afirmativa: art. 1.007, § 6º. A decisão que releva a deserção por justo impedimento é irrecorrível."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 1.007, §§ 2º, 4º, 5º, 6º e 7º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0063",
+      "tema": "Agravo interno e agravo de instrumento: processamento",
+      "enunciado": "Acerca do agravo interno e do agravo de instrumento, conforme os arts. 1.017, 1.019 e 1.021 do Código de Processo Civil, analise as assertivas abaixo.\nI. Na petição de agravo interno, o recorrente impugnará especificadamente os fundamentos da decisão agravada.\nII. É lícito ao relator limitar-se à reprodução dos fundamentos da decisão agravada para julgar improcedente o agravo interno, desde que a decisão monocrática esteja suficientemente fundamentada.\nIII. Sendo eletrônicos os autos do processo, dispensam-se as peças obrigatórias que deveriam instruir a petição de agravo de instrumento, facultando-se ao agravante anexar outros documentos que entender úteis.\nIV. Recebido o agravo de instrumento, o relator ordenará a intimação do agravado para que responda no prazo de 5 (cinco) dias.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I, III e IV estão corretas.",
+        "D": "Somente as assertivas I e III estão corretas.",
+        "E": "Somente as assertivas III e IV estão corretas."
+      },
+      "correta": "D",
+      "dica": "Lembre-se da regra geral do art. 1.003, § 5º, sobre o prazo para responder aos recursos, e do dever de fundamentação que o CPC impõe ao julgar o agravo interno.",
+      "explicacao": {
+        "A": "Errada, porque inclui a assertiva II. O art. 1.021, § 3º, veda ao relator limitar-se à reprodução dos fundamentos da decisão agravada para julgar improcedente o agravo interno.",
+        "B": "Errada. As duas assertivas são falsas: a II contraria o art. 1.021, § 3º, e a IV erra o prazo de resposta, que é de 15 (quinze) dias (art. 1.019, II).",
+        "C": "Errada, porque inclui a assertiva IV. O agravado responde ao agravo de instrumento em 15 (quinze) dias (art. 1.019, II); 5 dias é o prazo que o relator tem para tomar as providências do art. 1.019.",
+        "D": "Correta. I: art. 1.021, § 1º. III: art. 1.017, § 5º. A II contraria o art. 1.021, § 3º, e a IV erra o prazo de resposta do agravado, que é de 15 dias (art. 1.019, II).",
+        "E": "Errada, porque inclui a assertiva IV, que traz prazo errado (o correto é 15 dias, art. 1.019, II), e deixa de fora a assertiva I, verdadeira (art. 1.021, § 1º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 1.003, § 5º, 1.017, § 5º, 1.019 e 1.021",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

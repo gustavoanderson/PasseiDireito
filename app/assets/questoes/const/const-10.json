@@ -81,6 +81,58 @@
         { "tipo": "constituicao", "referencia": "CF, arts. 184, 185 e 186", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0065",
+      "tema": "Intervenção do Estado no domínio econômico (arts. 173 e 174 da CF)",
+      "enunciado": "Com base nos arts. 173 e 174 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Ressalvados os casos previstos na Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.",
+        "B": "A lei estabelecerá o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias que explorem atividade econômica, sujeitando-as, entre outros pontos, ao regime próprio das empresas privadas quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários.",
+        "C": "As empresas públicas e as sociedades de economia mista exploradoras de atividade econômica podem gozar de privilégios fiscais não extensivos às do setor privado, em razão de sua natureza estatal.",
+        "D": "Como agente normativo e regulador da atividade econômica, o Estado exercerá, na forma da lei, as funções de fiscalização, incentivo e planejamento, sendo este determinante para o setor público e indicativo para o setor privado.",
+        "E": "A lei apoiará e estimulará o cooperativismo e outras formas de associativismo, e o Estado favorecerá a organização da atividade garimpeira em cooperativas."
+      },
+      "correta": "C",
+      "dica": "Releia o § 2º do art. 173: ele existe justamente para impedir que a estatal compita em vantagem desleal com a empresa privada.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta. O art. 173, § 2º, da CF diz o contrário: as empresas públicas e as sociedades de economia mista não poderão gozar de privilégios fiscais não extensivos às do setor privado, justamente para preservar a livre concorrência.",
+        "A": "Correta. É a literalidade do art. 173, caput, da CF, que trata a exploração direta como exceção.",
+        "B": "Correta. É o art. 173, § 1º, II, da CF (EC 19/1998), que submete a estatal ao regime privado nesses pontos.",
+        "D": "Correta. É a literalidade do art. 174, caput, da CF, sobre fiscalização, incentivo e planejamento.",
+        "E": "Correta. É o art. 174, §§ 2º e 3º, da CF, sobre cooperativismo e cooperativas de garimpeiros."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 173, caput, §§ 1º e 2º (EC 19/1998)", "data": "1998-06-04" },
+        { "tipo": "constituicao", "referencia": "CF, art. 174", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0066",
+      "tema": "Usucapião especial rural e urbana (arts. 183 e 191 da CF)",
+      "enunciado": "Comparando a usucapião especial urbana (art. 183 da CF) com a usucapião especial rural (art. 191 da CF), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Em ambas as modalidades, a área máxima do imóvel é de duzentos e cinquenta metros quadrados.",
+        "B": "A usucapião especial rural exige que aquele que a invoca não seja proprietário de imóvel rural ou urbano, enquanto a usucapião especial urbana exige apenas que não seja proprietário de outro imóvel urbano.",
+        "C": "Em ambas as modalidades, o prazo de posse ininterrupta e sem oposição é de cinco anos, e em nenhuma delas os imóveis públicos podem ser adquiridos por usucapião.",
+        "D": "A usucapião especial urbana pode ser repetida indefinidamente pelo mesmo possuidor, ao contrário da rural, reconhecida uma única vez.",
+        "E": "Somente a usucapião especial urbana exige que o possuidor utilize o imóvel para sua moradia ou de sua família; a rural dispensa esse requisito, bastando tornar a terra produtiva."
+      },
+      "correta": "C",
+      "dica": "Compare os dois artigos frase por frase: a área muda, mas o prazo e a proibição de usucapir bem público se repetem.",
+      "explicacao": {
+        "C": "Correta. É a soma dos arts. 183, caput e § 3º, e 191, caput e parágrafo único, da CF: as duas modalidades exigem cinco anos de posse ininterrupta e sem oposição, e em nenhuma delas os imóveis públicos podem ser adquiridos por usucapião.",
+        "A": "O art. 183 limita a área urbana a duzentos e cinquenta metros quadrados, mas o art. 191 fixa o limite rural em cinquenta hectares, e não em metros quadrados.",
+        "B": "É o inverso: o art. 183 exige que o possuidor não seja proprietário de outro imóvel urbano ou rural, e não apenas urbano; o art. 191 exige, de modo semelhante, que não seja proprietário de imóvel rural ou urbano.",
+        "D": "É o inverso do texto: o art. 183, § 2º, veda expressamente que a usucapião especial urbana seja reconhecida ao mesmo possuidor mais de uma vez; o art. 191 não repete essa vedação expressa para a modalidade rural.",
+        "E": "O art. 191, caput, também exige que o possuidor tenha no imóvel rural a sua moradia, além de torná-lo produtivo pelo seu trabalho ou de sua família; o requisito da moradia não é exclusivo da usucapião urbana."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 183", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 191", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -83,6 +83,68 @@
         { "tipo": "lei", "referencia": "Lei 12.016/2009, art. 15", "data": "2009-08-07" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0077",
+      "tema": "Suspensão de liminar: legitimidade, contraditório e efeito multiplicador",
+      "enunciado": "Sobre a suspensão da execução de liminar nas ações movidas contra o Poder Público, conforme o art. 4º da Lei nº 8.437/1992, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Compete ao presidente do tribunal ao qual couber o conhecimento do respectivo recurso suspender, em despacho fundamentado, a execução da liminar, a requerimento do Ministério Público ou da pessoa jurídica de direito público interessada, em caso de manifesto interesse público ou de flagrante ilegitimidade.",
+        "B": "A suspensão aplica-se também à sentença proferida em processo de ação cautelar inominada, no processo de ação popular e na ação civil pública, enquanto não transitada em julgado.",
+        "C": "O presidente do tribunal poderá ouvir o autor e o Ministério Público, em setenta e duas horas.",
+        "D": "O presidente do tribunal poderá conferir ao pedido efeito suspensivo liminar, se constatar, em juízo prévio, a plausibilidade do direito invocado e a urgência na concessão da medida.",
+        "E": "As liminares cujo objeto seja idêntico devem ser objeto de pedidos de suspensão autônomos, sendo vedado estender os efeitos da suspensão a liminares supervenientes."
+      },
+      "correta": "E",
+      "dica": "A suspensão foi pensada para litígios de massa contra o Poder Público. Pense em como a lei trata dezenas de liminares iguais.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 4º, caput. Os fundamentos são evitar grave lesão à ordem, à saúde, à segurança e à economia públicas.",
+        "B": "Correta a afirmativa: art. 4º, § 1º. A suspensão alcança também sentenças em cautelar inominada, ação popular e ação civil pública, antes do trânsito.",
+        "C": "Correta a afirmativa: art. 4º, § 2º, na redação da MP 2.180-35/2001. É faculdade do presidente (\"poderá\").",
+        "D": "Correta a afirmativa: art. 4º, § 7º. O pedido de suspensão pode receber efeito suspensivo liminar diante de plausibilidade e urgência.",
+        "E": "Esta é a incorreta. O art. 4º, § 8º, permite suspender em uma única decisão as liminares de objeto idêntico, e o presidente pode estender os efeitos da suspensão a liminares supervenientes \"mediante simples aditamento do pedido original\"."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.437/1992, art. 4º, caput e §§ 1º, 2º, 7º e 8º (§§ 2º, 7º e 8º na redação da MP 2.180-35/2001)",
+          "data": "1992-06-30"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0078",
+      "tema": "Novo pedido de suspensão após o agravo de instrumento",
+      "enunciado": "O Município de Curitiba interpôs agravo de instrumento contra liminar concedida contra ele em ação ordinária, e o Tribunal de Justiça do Paraná negou provimento ao recurso. A liminar continua a ameaçar grave lesão à economia pública. À luz do art. 4º da Lei nº 8.437/1992, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Cabe pedido de suspensão ao presidente do tribunal competente para conhecer de eventual recurso especial ou extraordinário.",
+        "B": "Não cabe mais pedido de suspensão, porque a matéria foi apreciada pelo órgão colegiado no julgamento do agravo de instrumento.",
+        "C": "O pedido de suspensão só poderia ter sido formulado antes da interposição do agravo de instrumento, que prejudica o seu julgamento.",
+        "D": "Cabe pedido de suspensão apenas ao relator do agravo de instrumento, que poderá reconsiderar o acórdão.",
+        "E": "A suspensão somente pode ser requerida pelo Ministério Público, uma vez que o Município já exerceu seu direito de recorrer."
+      },
+      "correta": "A",
+      "dica": "Na Lei 8.437/1992, o agravo e o pedido de suspensão correm em trilhos separados, e a derrota no agravo abre a porta de outro tribunal.",
+      "explicacao": {
+        "A": "Correta. O art. 4º, § 5º, admite o pedido de suspensão do § 4º (ao presidente do tribunal competente para conhecer de eventual recurso especial ou extraordinário) quando negado provimento a agravo de instrumento interposto contra a liminar.",
+        "B": "O § 5º do art. 4º prevê exatamente o contrário: negado provimento ao agravo de instrumento, cabe pedido de suspensão ao presidente do tribunal competente para o recurso especial ou extraordinário.",
+        "C": "O art. 4º, § 6º, diz que a interposição do agravo de instrumento contra a liminar não prejudica nem condiciona o julgamento do pedido de suspensão.",
+        "D": "O pedido de suspensão é dirigido a presidente de tribunal (art. 4º, caput e § 4º), e não ao relator. E o relator não pode reconsiderar sozinho o acórdão do colegiado.",
+        "E": "O caput do art. 4º legitima o Ministério Público e a pessoa jurídica de direito público interessada. Ter recorrido não retira essa legitimidade do Município (§ 6º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.437/1992, art. 4º, §§ 4º, 5º e 6º (incluídos pela MP 2.180-35/2001)",
+          "data": "1992-06-30"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

@@ -38,6 +38,207 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "trib-0069",
+      "tema": "Transação em Curitiba: autorização, parcelamento e efeitos (LC Municipal 141/2023)",
+      "enunciado": "Sobre a transação e a autocomposição de conflitos no Município de Curitiba, nos termos da Lei Complementar Municipal nº 141/2023, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O Procurador-Geral do Município poderá autorizar a realização de transações para prevenir ou finalizar litígios judiciais ou extrajudiciais, em juízo de oportunidade e conveniência, por meio de decisão motivada que demonstre o atendimento do interesse público.",
+        "B": "No parcelamento celebrado por transação, o inadimplemento de qualquer parcela, após 30 dias, implicará a revogação do parcelamento, mediante prévia notificação do devedor.",
+        "C": "Os acordos celebrados não importam em novação da dívida.",
+        "D": "A critério da administração e com anuência do credor, poderão ser utilizados precatórios expedidos em desfavor do Município para amortização de dívida tributária ou não tributária parcelada ou inscrita em dívida ativa.",
+        "E": "O pedido de transação será iniciado por requerimento da parte interessada, instruído pelo procurador da causa, e terá seu termo mediante decisão irrecorrível do Procurador-Geral do Município."
+      },
+      "correta": "B",
+      "dica": "O § 3º do art. 7º da LC 141/2023 traz um prazo de atraso e diz se a notificação do devedor é necessária.",
+      "explicacao": {
+        "A": "Correta. É o art. 2º, caput, da LC 141/2023. A atribuição pode ser delegada aos procuradores, conforme critérios do regulamento (§ 2º).",
+        "B": "Incorreta, e por isso é a resposta. Pelo art. 7º, § 3º, da LC 141/2023, o inadimplemento de qualquer parcela, após 60 (sessenta) dias, implica revogação AUTOMÁTICA do parcelamento e exigência do saldo, INDEPENDENTEMENTE de notificação do devedor, restabelecendo-se os acréscimos excluídos.",
+        "C": "Correta. É o art. 8º da LC 141/2023, que afasta a novação do art. 360, I, do Código Civil. O Decreto 2.306/2023 repete a regra para os parcelamentos (art. 25).",
+        "D": "Correta. É o art. 11 da LC 141/2023, que inclui na amortização a correção monetária, a multa e os juros.",
+        "E": "Correta. É o art. 2º, § 1º, da LC 141/2023, que prevê ainda a manifestação do órgão técnico, se for o caso."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 141/2023, arts. 2º, 7º, 8º e 11",
+          "data": "2023-11-14"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0070",
+      "tema": "Transação em Curitiba: Município devedor, desconto especial e responsabilidade dos agentes",
+      "enunciado": "Com base na Lei Complementar Municipal nº 141/2023 (Curitiba), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Para dirimir litígio em que o Município de Curitiba figure como devedor, poderá ser realizado chamamento público para celebração de acordo com deságio máximo de 20% do valor devido ao credor.",
+        "B": "A Procuradoria-Geral do Município poderá conceder desconto especial gradual de até 100% nos juros de mora e na multa moratória para créditos em atraso há mais de 5 anos.",
+        "C": "Os agentes públicos que participarem da composição do conflito poderão ser responsabilizados por infração disciplinar quando agirem com dolo ou culpa grave.",
+        "D": "As disposições da Lei Complementar não se aplicam às sociedades de economia mista e às empresas estatais constituídas no âmbito do Município de Curitiba.",
+        "E": "Para dirimir litígio, judicial ou não, em que o Município de Curitiba figure como devedor, poderá ser realizado chamamento público ou convite para celebração de acordo com deságio mínimo de 20% do valor devido ao credor, e, se o acordo for celebrado em ação judicial, o pagamento será feito por obrigação de pequeno valor ou precatório, conforme o caso."
+      },
+      "correta": "E",
+      "dica": "No acordo em que o Município paga, o percentual do art. 6º é um piso para o desconto que o credor concede.",
+      "explicacao": {
+        "A": "O art. 6º fala em deságio MÍNIMO de 20%, e não máximo. A troca de mínimo por máximo é a pegadinha.",
+        "B": "O art. 9º, I, prevê o desconto especial de até 100% para créditos inscritos ou não em dívida ativa em atraso há mais de 7 (sete) anos, contados da vigência da lei, e não 5. O inciso II o estende aos devedores em recuperação judicial ou falência.",
+        "C": "O art. 16 limita a responsabilização disciplinar aos casos em que o agente agir com dolo ou fraude para obter vantagem indevida para si ou para outrem, apurados em processo com contraditório e ampla defesa. Não há responsabilização por culpa grave.",
+        "D": "O art. 17 manda aplicar a LC 141/2023 às sociedades de economia mista e às empresas estatais municipais, que deverão disciplinar sua aplicação às suas particularidades.",
+        "E": "Correta. É o art. 6º, caput e § 1º, da LC 141/2023. O edital de chamamento estabelece as condições do acordo (§ 2º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 141/2023, arts. 6º, 9º, 16 e 17",
+          "data": "2023-11-14"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0071",
+      "tema": "Transação individual de dívida ativa em Curitiba (Decreto 2.305/2023)",
+      "enunciado": "Considere as afirmativas abaixo, com base no Decreto Municipal nº 2.305/2023, que regulamenta a transação de débitos inscritos em dívida ativa do Município de Curitiba.\n\nI. O pedido de transação individual deverá ser realizado eletronicamente, exclusivamente via Processo Eletrônico de Curitiba (PROCEC).\nII. Cabe ao Procurador-Geral do Município, por meio de decisão fundamentada e irrecorrível, em juízo de conveniência e oportunidade, autorizar ou não a realização da transação.\nIII. Nas propostas de transação de contribuintes em recuperação judicial ou falência, os descontos poderão incidir sobre o montante principal do débito, observada a capacidade de pagamento da massa.\nIV. A extinção do débito dar-se-á com a comprovação do pagamento integral do valor do crédito transacionado, das custas processuais e dos honorários advocatícios.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I, II e IV estão corretas.",
+        "B": "Somente as afirmativas I e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "O art. 6º do Decreto 2.305/2023 manda observar a ordem de prioridade da Lei de Falências e traz uma vedação expressa no inciso III.",
+      "explicacao": {
+        "A": "Correta. I é o art. 4º, II é o art. 8º e IV é o art. 11 do Decreto 2.305/2023. A III contraria o art. 6º, III: os descontos observam a ordem crescente de prioridade do art. 83 da Lei 11.101/2005, VEDADA a concessão de descontos sobre o montante principal do débito.",
+        "B": "A III está errada (art. 6º, III, veda desconto sobre o principal), e a alternativa exclui as afirmativas II (art. 8º) e IV (art. 11), que estão corretas.",
+        "C": "A III está errada, e a alternativa exclui a I, que reproduz o art. 4º do Decreto 2.305/2023 (pedido exclusivamente via PROCEC).",
+        "D": "A III está errada, e a alternativa exclui as afirmativas I e II, que estão corretas.",
+        "E": "A III está errada. Mesmo na falência e na recuperação judicial, o desconto alcança juros e multa (até 100%, art. 6º, II), mas nunca o principal (art. 6º, III)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 2.305/2023, arts. 4º, 6º, 8º e 11",
+          "data": "2023-12-07"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0072",
+      "tema": "Créditos irrecuperáveis e extinção de execuções fiscais em Curitiba (Decreto 2.305/2023)",
+      "enunciado": "Nos termos do art. 16 do Decreto Municipal nº 2.305/2023 (Curitiba), para fins de extinção de débitos inscritos em dívida ativa e da respectiva execução fiscal, poderão ser considerados irrecuperáveis os créditos indicados nas alternativas abaixo, EXCETO:",
+      "alternativas": {
+        "A": "inscritos em dívida ativa há mais de 15 anos.",
+        "B": "de titularidade de devedores pessoa física com indicativo de óbito.",
+        "C": "em processo de execução fiscal arquivado com fundamento no art. 40 da Lei de Execução Fiscal há mais de 1 ano.",
+        "D": "de ISS fixo que, após cinco anos do ajuizamento, ainda não tenha ocorrido a citação do executado.",
+        "E": "nos quais não seja possível identificar o sujeito passivo."
+      },
+      "correta": "C",
+      "dica": "Confira o tempo de arquivamento exigido no inciso V do art. 16. Ele é diferente do prazo de suspensão de um ano previsto no próprio art. 40 da LEF.",
+      "explicacao": {
+        "A": "Consta do art. 16, I, do Decreto 2.305/2023, que usa o tempo de inscrição em dívida ativa como indício de irrecuperabilidade.",
+        "B": "Consta do art. 16, IV. Pelo § 1º, a situação deve constar da base do CPF perante a Receita Federal.",
+        "C": "É a exceção. O art. 16, V, do Decreto 2.305/2023 considera irrecuperáveis os créditos em execuções fiscais arquivadas com fundamento no art. 40 da LEF há mais de 3 (três) anos, e não 1 ano. O número 1 lembra o prazo de suspensão do § 2º do art. 40 da LEF, o que torna a troca uma pegadinha comum.",
+        "D": "Consta do art. 16, VIII, do Decreto 2.305/2023: ISS fixo cuja execução, cinco anos após o ajuizamento, ainda não teve citação.",
+        "E": "Consta do art. 16, VI. O § 2º ainda permite à PGM enquadrar outros créditos como irrecuperáveis, observados os parâmetros do art. 15."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 2.305/2023, arts. 15 e 16",
+          "data": "2023-12-07"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 40",
+          "data": "1980-09-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0073",
+      "tema": "Parcelamento de dívida ativa em Curitiba (Decreto 2.306/2023)",
+      "enunciado": "Sobre o pagamento à vista, o parcelamento e o reparcelamento de débitos inscritos em dívida ativa do Município de Curitiba, regulados pelo Decreto Municipal nº 2.306/2023, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Débitos acima de R$ 400.001,00 podem ser parcelados em até 120 parcelas mensais e sucessivas.",
+        "B": "O valor de cada parcela não poderá ser inferior a R$ 100,00 para débitos de ISS e a R$ 50,00 para os demais débitos.",
+        "C": "A primeira parcela deve ser paga obrigatoriamente na data do parcelamento, e a validade do acordo fica condicionada ao seu pagamento tempestivo.",
+        "D": "O parcelamento será revogado pelo atraso no pagamento das demais parcelas por período superior a 90 dias contados do vencimento, mediante prévia notificação do devedor.",
+        "E": "É permitido o reparcelamento, sob condição do recolhimento, na primeira parcela, de no mínimo 10% do total dos débitos consolidados, no primeiro reparcelamento."
+      },
+      "correta": "D",
+      "dica": "O § 4º do art. 6º do Decreto 2.306/2023 repete o prazo de atraso e a forma de revogação da LC 141/2023.",
+      "explicacao": {
+        "A": "Correta. É o art. 4º, VII, do Decreto 2.306/2023, que escalona o número de parcelas pelo valor do débito (de 12 parcelas, até R$ 600,00, a 120 parcelas).",
+        "B": "Correta. É o art. 4º, § 3º, do Decreto 2.306/2023. O mesmo piso vale para o parcelamento com desconto especial (art. 12, § 4º).",
+        "C": "Correta. É o art. 6º, §§ 1º e 2º, do Decreto 2.306/2023: não se admite o pagamento da primeira parcela após a data do parcelamento.",
+        "D": "Incorreta, e por isso é a resposta. O art. 6º, § 4º, do Decreto 2.306/2023 prevê revogação AUTOMÁTICA, INDEPENDENTE de notificação, pelo atraso superior a 60 (sessenta) dias contados do vencimento, em linha com o art. 7º, § 3º, da LC 141/2023.",
+        "E": "Correta. É o art. 7º, I. No segundo reparcelamento e nos seguintes, a entrada mínima sobe para 20% (inciso II)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 2.306/2023, arts. 4º, 6º e 7º, redação compilada no Legisladoc",
+          "data": "2023-12-07"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 141/2023, art. 7º, § 3º",
+          "data": "2023-11-14"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0074",
+      "tema": "Desconto especial para débitos antigos inscritos em dívida ativa em Curitiba (Decreto 2.306/2023)",
+      "enunciado": "O Decreto Municipal nº 2.306/2023 (Curitiba) prevê pagamento à vista ou parcelamento com desconto especial para débitos inscritos em dívida ativa em atraso há mais de 7 anos. Sobre essa modalidade, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Em parcela única, exclui-se 100% do valor dos juros e 100% do valor da multa moratória.",
+        "B": "Em até 12 parcelas, exclui-se 90% do valor dos juros e 80% do valor da multa moratória.",
+        "C": "Em até 24 parcelas, exclui-se 50% do valor dos juros e 40% do valor da multa moratória.",
+        "D": "Sobre os débitos não tributários haverá somente o desconto em relação aos juros.",
+        "E": "Para débitos em execução fiscal com leilão marcado, os benefícios serão somente para o pagamento à vista em parcela única."
+      },
+      "correta": "B",
+      "dica": "O art. 12 tem quatro faixas: parcela única, até 6, até 12 e até 24 parcelas. Os descontos caem a cada faixa.",
+      "explicacao": {
+        "A": "Correta. É o art. 12, I, do Decreto 2.306/2023: o pagamento em parcela única dá o desconto máximo, de 100% dos juros e da multa moratória.",
+        "B": "Incorreta, e por isso é a resposta. Os descontos de 90% dos juros e 80% da multa valem para o pagamento em até 06 parcelas (art. 12, II). Em até 12 parcelas, o desconto é de 70% dos juros e 60% da multa (art. 12, III).",
+        "C": "Correta. É o art. 12, IV. Quem quiser mais de 24 parcelas pode parcelar pelo art. 4º, mas sem desconto (§ 10).",
+        "D": "Correta. É o art. 12, § 7º, do Decreto 2.306/2023: nos débitos não tributários, a multa não é reduzida, apenas os juros.",
+        "E": "Correta. É o art. 13 do Decreto 2.306/2023, que remete ao pagamento à vista do art. 12, I."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 2.306/2023, arts. 12 e 13, redação compilada no Legisladoc",
+          "data": "2023-12-07"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 141/2023, art. 9º",
+          "data": "2023-11-14"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

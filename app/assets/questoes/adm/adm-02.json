@@ -82,6 +82,56 @@
         { "tipo": "lei", "referencia": "Lei 13.303/2016, arts. 3º, 4º e 5º", "data": "2016-06-30" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0095",
+      "tema": "Chamamento público: dispensa e inexigibilidade (Lei 13.019/2014)",
+      "enunciado": "Sobre a dispensa e a inexigibilidade de chamamento público nas parcerias com organizações da sociedade civil, nos termos dos arts. 29 a 32 da Lei nº 13.019/2014, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É dispensável o chamamento público no caso de urgência decorrente de paralisação ou iminência de paralisação de atividades de relevante interesse público, pelo prazo de até 180 (cento e oitenta) dias.",
+        "B": "Os termos de colaboração ou de fomento que envolvam recursos decorrentes de emendas parlamentares às leis orçamentárias anuais serão celebrados sem chamamento público.",
+        "C": "A dispensa e a inexigibilidade do chamamento público afastam a aplicação dos demais dispositivos da Lei nº 13.019/2014 às parcerias assim formalizadas.",
+        "D": "É inexigível o chamamento público quando a parceria decorrer de transferência para organização da sociedade civil que esteja autorizada em lei na qual seja identificada expressamente a entidade beneficiária.",
+        "E": "A ausência de realização de chamamento público será justificada pelo administrador público, e o extrato da justificativa deverá ser publicado no sítio oficial da administração pública, sob pena de nulidade do ato de formalização da parceria."
+      },
+      "correta": "C",
+      "dica": "A lei trata a dispensa e a inexigibilidade como exceções ao procedimento de seleção, não como portas de saída das demais regras da parceria. Releia o que o art. 32 diz sobre o alcance dessas duas hipóteses.",
+      "explicacao": {
+        "C": "É a resposta, porque está errada. O § 4º do art. 32 da Lei 13.019/2014 diz o contrário: a dispensa e a inexigibilidade de chamamento público, bem como a hipótese do art. 29, não afastam a aplicação dos demais dispositivos da lei às parcerias assim formalizadas.",
+        "A": "Correta. É o art. 30, I, da Lei 13.019/2014: a urgência decorrente de paralisação ou iminência de paralisação de atividade de relevante interesse público autoriza a dispensa do chamamento público pelo prazo de até 180 dias.",
+        "B": "Correta. É a literalidade do art. 29 da Lei 13.019/2014, na redação da Lei 13.204/2015, que livra dessas parcerias o procedimento de seleção, dada a origem vinculada dos recursos.",
+        "D": "Correta. É o art. 31, II, da Lei 13.019/2014: a inexigibilidade decorre da inviabilidade de competição quando a própria lei de origem da transferência já identifica a entidade beneficiária, o que torna inútil qualquer seleção.",
+        "E": "Correta. É a combinação do caput do art. 32 com o seu § 1º: a justificativa do administrador é obrigatória, e a falta de publicação do seu extrato no sítio oficial, na mesma data da formalização, torna nulo o ato da parceria."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.019/2014, arts. 29, 30, I, 31, II, e 32, caput e §§ 1º e 4º (redação da Lei 13.204/2015)", "data": "2015-12-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0096",
+      "tema": "Transparência das estatais (Lei 13.303/2016, art. 8º)",
+      "enunciado": "Considere as afirmativas a seguir, sobre os requisitos de transparência exigidos das empresas públicas e das sociedades de economia mista pela Lei nº 13.303/2016.\n\nI. Deverão elaborar carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos compromissos de consecução de objetivos de políticas públicas, com definição clara dos recursos a serem empregados para esse fim.\nII. Deverão elaborar e divulgar política de transações com partes relacionadas, em conformidade com os requisitos de competitividade, conformidade, transparência, equidade e comutatividade, revista no mínimo anualmente e aprovada pelo Conselho de Administração.\nIII. Quaisquer obrigações e responsabilidades que assumam em condições distintas às de qualquer outra empresa do setor privado em que atuam devem estar claramente definidas em lei ou regulamento, bem como previstas em contrato, convênio ou ajuste celebrado com o ente público competente.\nIV. A sociedade de economia mista com registro na Comissão de Valores Mobiliários fica dispensada do regime informacional estabelecido por essa autarquia, por prevalecer o regime especial da Lei nº 13.303/2016.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I, II e III estão corretas.",
+        "B": "Somente as afirmativas I e II estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "As quatro afirmativas reproduzem incisos e parágrafos do art. 8º. Uma delas inverte a relação entre o regime da Lei 13.303/2016 e o regime informacional da CVM.",
+      "explicacao": {
+        "A": "Correta. I reproduz o inciso I do caput; II, o inciso VII; III, o § 2º, I, do art. 8º. A IV está errada, porque o § 3º soma, não substitui, os regimes: a sociedade de economia mista com registro na CVM sujeita-se também ao regime informacional dessa autarquia.",
+        "B": "Deixa de fora a III, que está correta: o § 2º, I, do art. 8º exige que as obrigações assumidas em condições distintas das do setor privado estejam definidas em lei ou regulamento e previstas em contrato, convênio ou ajuste com o ente público.",
+        "C": "Inclui a IV, que está errada, e deixa de fora a I, que reproduz o inciso I do caput do art. 8º (carta anual subscrita pelo Conselho de Administração).",
+        "D": "Inclui a IV, que contraria o § 3º do art. 8º, e omite a II, que reproduz o inciso VII do mesmo artigo (política de transações com partes relacionadas).",
+        "E": "Nem todas estão corretas. A IV inverte o § 3º do art. 8º: a sociedade de economia mista com registro na CVM não fica dispensada do regime informacional dessa autarquia, mas sujeita-se a ele além das exigências da Lei 13.303/2016."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.303/2016, art. 8º, caput, I e VII, e §§ 2º, I, e 3º", "data": "2016-06-30" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -82,6 +82,31 @@
         { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.763/2026, arts. 2º, 6º, 7º, 13, 16 e 24", "data": "2026-07-03" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0099",
+      "tema": "Extinção da concessão de serviço público (Lei 8.987/1995)",
+      "enunciado": "Sobre a extinção da concessão de serviço público, nos termos da Lei nº 8.987/1995, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A concessão extingue-se, entre outras causas, pelo advento do termo contratual, pela encampação, pela caducidade, pela rescisão, pela anulação e pela falência ou extinção da empresa concessionária.",
+        "B": "Declarada a caducidade, a indenização devida à concessionária será paga previamente à sua declaração, calculada antes da instauração do processo administrativo de inadimplência.",
+        "C": "Considera-se encampação a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização.",
+        "D": "A caducidade da concessão poderá ser declarada pelo poder concedente quando a concessionária descumprir cláusulas contratuais ou disposições legais ou regulamentares concernentes à concessão, entre outras hipóteses.",
+        "E": "Extinta a concessão, retornam ao poder concedente todos os bens reversíveis, direitos e privilégios transferidos ao concessionário conforme previsto no edital e estabelecido no contrato."
+      },
+      "correta": "B",
+      "dica": "A lei exige indenização prévia só para uma das causas de extinção. Para a outra, mais grave, a indenização existe, mas em outro momento.",
+      "explicacao": {
+        "B": "É a resposta, porque está errada. O § 4º do art. 38 diz o oposto: a caducidade é declarada por decreto do poder concedente independentemente de indenização prévia, calculada no decurso do processo administrativo, e descontada do valor das multas e dos danos causados pela concessionária (§ 5º).",
+        "A": "Correta. É o rol do art. 35, incisos I a VI, da Lei 8.987/1995.",
+        "C": "Correta. É a literalidade do art. 37: na encampação, diferentemente da caducidade, a indenização é paga antes da retomada do serviço, e depende de lei autorizativa específica.",
+        "D": "Correta. É uma das hipóteses do art. 38, § 1º, II, que também inclui a prestação inadequada do serviço e a perda das condições técnicas, econômicas ou operacionais da concessionária.",
+        "E": "Correta. É o § 1º do art. 35: a reversão dos bens vinculados ao serviço é consequência automática da extinção da concessão, seja qual for a sua causa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, arts. 35, 37 e 38, §§ 1º, 4º e 5º", "data": "1995-02-13" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

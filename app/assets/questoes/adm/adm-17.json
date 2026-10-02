@@ -82,6 +82,31 @@
         { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, art. 6º", "data": "2024-12-19" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0104",
+      "tema": "Encarregado pelo tratamento de dados pessoais (LGPD, art. 41)",
+      "enunciado": "Sobre o encarregado pelo tratamento de dados pessoais, nos termos do art. 41 da Lei nº 13.709/2018 (LGPD), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O controlador deverá indicar encarregado pelo tratamento de dados pessoais.",
+        "B": "A indicação de encarregado é sempre obrigatória para as pessoas jurídicas de direito público, vedada, em qualquer hipótese, a dispensa dessa exigência.",
+        "C": "Entre as atividades do encarregado estão aceitar reclamações e comunicações dos titulares, prestar esclarecimentos e adotar providências, bem como orientar os funcionários e os contratados da entidade a respeito das práticas de proteção de dados pessoais.",
+        "D": "A autoridade nacional pode estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.",
+        "E": "A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador."
+      },
+      "correta": "B",
+      "dica": "O art. 41 abre uma exceção à regra de indicação obrigatória do encarregado, e a autoridade nacional é quem define essa exceção.",
+      "explicacao": {
+        "B": "É a resposta, porque está errada. O § 3º do art. 41 autoriza a autoridade nacional a estabelecer hipóteses de dispensa da indicação de encarregado, conforme a natureza e o porte da entidade ou o volume de operações de tratamento, inclusive para pessoas jurídicas de direito público.",
+        "A": "Correta. É o caput do art. 41: a indicação do encarregado é, em regra, obrigatória para o controlador, inclusive para as pessoas jurídicas de direito público, nos termos do art. 23, III.",
+        "C": "Correta. São os incisos I e III do § 2º do art. 41 da LGPD, que definem as atividades do encarregado perante os titulares e perante a equipe do controlador.",
+        "D": "Correta. É o § 3º do art. 41, que também é a base legal da exceção descrita na alternativa B.",
+        "E": "Correta. É o § 1º do art. 41, que exige a divulgação pública da identidade e do contato do encarregado, para facilitar o exercício dos direitos dos titulares."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), art. 41, caput e §§ 1º, 2º, I e III, e 3º", "data": "2019-07-08" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

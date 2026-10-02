@@ -86,6 +86,81 @@
         { "tipo": "lei", "referencia": "Lei 8.742/1993, art. 20, caput (Lei 12.435/2011)", "data": "2011-07-06" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0067",
+      "tema": "Saúde – iniciativa privada e vedações (arts. 197 e 199 da CF)",
+      "enunciado": "Com base nos arts. 196, 197 e 199 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação.",
+        "B": "São de relevância pública as ações e serviços de saúde, cabendo ao Poder Público dispor, nos termos da lei, sobre sua regulamentação, fiscalização e controle, devendo sua execução ser feita diretamente ou através de terceiros e, também, por pessoa física ou jurídica de direito privado.",
+        "C": "A assistência à saúde é livre à iniciativa privada, e as instituições privadas poderão participar de forma complementar do sistema único de saúde, tendo preferência as entidades filantrópicas e as sem fins lucrativos.",
+        "D": "É permitida a destinação de recursos públicos para auxílios ou subvenções às instituições privadas de saúde com fins lucrativos, desde que mediante convênio celebrado com o gestor local do SUS.",
+        "E": "É vedada a participação direta ou indireta de empresas ou capitais estrangeiros na assistência à saúde no País, salvo nos casos previstos em lei."
+      },
+      "correta": "D",
+      "dica": "O § 2º do art. 199 não abre nenhuma porta para convênio quando a instituição tem fins lucrativos.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 199, § 2º, da CF veda, sem exceção, a destinação de recursos públicos para auxílios ou subvenções às instituições privadas com fins lucrativos, ainda que mediante convênio com o SUS.",
+        "A": "Correta. É a literalidade do art. 196 da CF, cláusula de abertura do direito à saúde.",
+        "B": "Correta. É a literalidade do art. 197 da CF, sobre a relevância pública das ações de saúde.",
+        "C": "Correta. É o art. 199, caput e § 1º, da CF, sobre a participação complementar da iniciativa privada.",
+        "E": "Correta. É o art. 199, § 3º, da CF, que veda capital estrangeiro na saúde, salvo exceção legal."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 196, 197 e 199", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0068",
+      "tema": "Competências do Sistema Único de Saúde (art. 200 da CF)",
+      "enunciado": "Nos termos do art. 200 da Constituição Federal, compete ao Sistema Único de Saúde, além de outras atribuições, EXCETO:",
+      "alternativas": {
+        "A": "Controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde e participar da produção de medicamentos, equipamentos, imunobiológicos, hemoderivados e outros insumos.",
+        "B": "Executar as ações de vigilância sanitária e epidemiológica, bem como as de saúde do trabalhador.",
+        "C": "Fixar, privativamente, os valores de ressarcimento ao SUS devidos pelas operadoras de planos de saúde, sem possibilidade de revisão judicial.",
+        "D": "Participar da formulação da política e da execução das ações de saneamento básico.",
+        "E": "Fiscalizar e inspecionar alimentos, compreendido o controle de seu teor nutricional, bem como bebidas e águas para consumo humano."
+      },
+      "correta": "C",
+      "dica": "Esse artigo lista atribuições operacionais de saúde pública; procure a alternativa que fala de outro ramo do direito, o dos planos de saúde privados, e que ainda afasta o Judiciário.",
+      "explicacao": {
+        "C": "É a resposta, pois não está no art. 200. O dispositivo não atribui ao SUS a fixação de valores de ressarcimento de planos de saúde nem afasta a revisão judicial; qualquer ato administrativo continua sujeito ao controle do Poder Judiciário.",
+        "A": "Correta. É o art. 200, I, da CF, sobre controle sanitário e produção de insumos de saúde.",
+        "B": "Correta. É o art. 200, II, da CF, sobre vigilância sanitária, epidemiológica e saúde do trabalhador.",
+        "D": "Correta. É o art. 200, IV, da CF, sobre a participação do SUS na política de saneamento básico.",
+        "E": "Correta. É o art. 200, VI, da CF, sobre fiscalização de alimentos, bebidas e água para consumo."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 200, I, II, IV e VI", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0069",
+      "tema": "Regime Geral de Previdência Social (art. 201 da CF)",
+      "enunciado": "Sobre o Regime Geral de Previdência Social (RGPS), disciplinado no art. 201 da Constituição Federal, na redação dada pela Emenda Constitucional nº 103/2019, analise as afirmativas a seguir.\n\nI. A previdência social será organizada sob a forma de regime geral, de caráter contributivo e de filiação obrigatória, observados critérios que preservem o equilíbrio financeiro e atuarial.\nII. É assegurada aposentadoria no regime geral de previdência social aos sessenta e cinco anos de idade, se homem, e aos sessenta e dois anos de idade, se mulher, observado o tempo mínimo de contribuição.\nIII. Nenhum benefício que substitua o salário de contribuição ou o rendimento do trabalho do segurado terá valor mensal inferior ao salário mínimo.\nIV. É vedada a filiação ao regime geral de previdência social, na qualidade de segurado facultativo, de pessoa participante de regime próprio de previdência, ressalva que não se aplica aos servidores públicos aposentados.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "O parágrafo que veda a filiação facultativa não abre nenhuma exceção para quem já é aposentado por regime próprio; releia-o sem adicionar ressalvas.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem o caput, o § 7º, I, e o § 2º do art. 201 da CF, na redação da EC 103/2019. A IV é falsa: o § 5º do art. 201 veda a filiação como segurado facultativo de quem já participa de regime próprio de previdência, sem a ressalva inventada pela alternativa para servidores aposentados.",
+        "A": "Deixa de fora a III, que está correta: a garantia do piso de um salário mínimo para os benefícios substitutivos é expressa no § 2º do art. 201.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz o caput do art. 201.",
+        "D": "Nem todas estão corretas: a IV cria uma exceção que o § 5º do art. 201 não contempla.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a IV, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 201, caput, §§ 2º, 5º e 7º, I (EC 103/2019)", "data": "2019-11-13" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

@@ -83,6 +83,31 @@
         { "tipo": "constituicao", "referencia": "CF, art. 5º, XXIV e XXV", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0101",
+      "tema": "Hipóteses de utilidade pública (Decreto-Lei 3.365/1941, art. 5º)",
+      "enunciado": "Nos termos do art. 5º do Decreto-Lei nº 3.365/1941, consideram-se casos de utilidade pública, EXCETO:",
+      "alternativas": {
+        "A": "A segurança nacional e a defesa do Estado.",
+        "B": "O socorro público em caso de calamidade e a salubridade pública.",
+        "C": "A exploração ou a conservação dos serviços públicos.",
+        "D": "A mera conveniência econômica da Administração Pública, independentemente de finalidade de interesse coletivo.",
+        "E": "O funcionamento dos meios de transporte coletivo."
+      },
+      "correta": "D",
+      "dica": "O art. 5º tem dezesseis alíneas, todas ligadas a um interesse coletivo concreto. Procure a alternativa que fala só em vantagem para o erário, sem nenhuma finalidade pública por trás.",
+      "explicacao": {
+        "D": "É a resposta: a conveniência econômica da Administração, isolada de qualquer finalidade de interesse coletivo, não está entre as alíneas do art. 5º e, sozinha, não justificaria a declaração de utilidade pública, que pressupõe sempre uma finalidade pública concreta.",
+        "A": "Está no rol. São as alíneas 'a' e 'b' do art. 5º do DL 3.365/1941.",
+        "B": "Está no rol. São as alíneas 'c' e 'd' do art. 5º do DL 3.365/1941, voltadas à proteção da vida e da saúde da coletividade.",
+        "C": "Está no rol. É a alínea 'h' do art. 5º, que abrange tanto a exploração quanto a simples conservação do serviço público.",
+        "E": "Está no rol. É a alínea 'j' do art. 5º, ao lado da abertura e do melhoramento de vias e logradouros (alínea 'i')."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, art. 5º, alíneas a, c, d, h e j", "data": "1941-06-21" }
+      ],
+      "origem": { "tipo": "inedita" }
     }
   ]
 }

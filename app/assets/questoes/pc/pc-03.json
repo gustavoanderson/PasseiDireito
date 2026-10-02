@@ -82,6 +82,68 @@
         { "tipo": "lei", "referencia": "Lei 14.341/2022 (nova redação do art. 75, III, e § 5º do CPC)", "data": "2022-05-18" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0046",
+      "tema": "Fazenda Pública: despesas, preparo e multas recursais",
+      "enunciado": "Acerca das despesas processuais, do preparo e das multas processuais quando a Fazenda Pública é parte, conforme o Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Na reiteração de embargos de declaração manifestamente protelatórios, a interposição de qualquer recurso pelo Município fica condicionada ao depósito prévio do valor da multa.",
+        "B": "As despesas dos atos processuais praticados a requerimento da Fazenda Pública serão pagas ao final pelo vencido.",
+        "C": "Condenada ao pagamento da multa por agravo interno declarado manifestamente inadmissível em votação unânime, a Fazenda Pública pode interpor outros recursos sem o depósito prévio do valor da multa, que será pago ao final.",
+        "D": "São dispensados de preparo, inclusive porte de remessa e de retorno, os recursos interpostos pelos Municípios e respectivas autarquias.",
+        "E": "As perícias requeridas pela Fazenda Pública poderão ser realizadas por entidade pública ou, havendo previsão orçamentária, ter os valores adiantados por aquele que requerer a prova."
+      },
+      "correta": "A",
+      "dica": "Nos dois casos de multa recursal com depósito prévio (agravo interno e embargos protelatórios), o CPC trata da mesma forma a Fazenda Pública e o beneficiário da gratuidade.",
+      "explicacao": {
+        "A": "Esta é a afirmativa incorreta. O art. 1.026, § 3º, condiciona a interposição de qualquer recurso ao depósito prévio da multa (elevada a até dez por cento) na reiteração de embargos protelatórios, mas ressalva expressamente a Fazenda Pública e o beneficiário de gratuidade da justiça, que a recolherão ao final.",
+        "B": "Correta a afirmativa. É a literalidade do art. 91, caput: as despesas dos atos praticados a requerimento da Fazenda Pública, do Ministério Público ou da Defensoria Pública serão pagas ao final pelo vencido.",
+        "C": "Correta a afirmativa. O art. 1.021, § 5º, condiciona outros recursos ao depósito prévio da multa do § 4º (de um a cinco por cento do valor atualizado da causa), à exceção da Fazenda Pública e do beneficiário de gratuidade da justiça, que farão o pagamento ao final.",
+        "D": "Correta a afirmativa. O art. 1.007, § 1º, dispensa de preparo, inclusive porte de remessa e de retorno, os recursos do Ministério Público, da União, do Distrito Federal, dos Estados, dos Municípios e respectivas autarquias, e dos que gozam de isenção legal.",
+        "E": "Correta a afirmativa. É o texto do art. 91, § 1º: a perícia pedida pelo ente público pode ser feita por entidade pública ou ter os honorários adiantados por quem a requereu, se houver previsão orçamentária."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 91, 1.007, § 1º, 1.021, §§ 4º e 5º, e 1.026, §§ 2º e 3º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0047",
+      "tema": "Perícia requerida pela Fazenda sem previsão orçamentária (art. 91)",
+      "enunciado": "Em ação proposta contra o Município de Curitiba, a Procuradoria requereu a produção de prova pericial. Não há previsão orçamentária, no exercício financeiro em curso, para o adiantamento dos honorários do perito. Com base no art. 91 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A perícia não poderá ser realizada, pois o adiantamento dos honorários periciais pelo ente público é condição para a produção da prova que ele requereu.",
+        "B": "Os honorários periciais serão pagos no exercício seguinte ou ao final, pelo vencido, caso o processo se encerre antes do adiantamento a ser feito pelo ente público.",
+        "C": "A parte contrária deverá adiantar os honorários periciais, podendo cobrá-los do Município somente se sair vencedora.",
+        "D": "Os honorários periciais serão pagos, em qualquer caso, pelo Município, por meio de precatório, independentemente do resultado da causa.",
+        "E": "A perícia requerida pela Fazenda Pública só pode ser realizada por entidade pública, sendo vedada a nomeação de perito particular."
+      },
+      "correta": "B",
+      "dica": "O § 2º do art. 91 foi escrito exatamente para o problema do orçamento público. A falta de dotação adia o pagamento; não impede a prova.",
+      "explicacao": {
+        "A": "O CPC não condiciona a prova ao adiantamento. O art. 91, § 2º, resolve justamente a falta de previsão orçamentária: os honorários serão pagos no exercício seguinte ou ao final, pelo vencido.",
+        "B": "Correta. É a literalidade do art. 91, § 2º. A falta de orçamento no exercício não impede a perícia: o pagamento fica para o exercício seguinte ou, se o processo terminar antes do adiantamento, para o final, a cargo do vencido.",
+        "C": "O art. 91 não transfere o adiantamento à parte contrária. O caput manda pagar ao final, pelo vencido, as despesas dos atos requeridos pela Fazenda, e o § 2º trata da falta de previsão orçamentária.",
+        "D": "O art. 91, § 2º, atribui o pagamento ao exercício seguinte ou, se o processo se encerrar antes, ao vencido. Não há regra que imponha ao Município o custo em qualquer caso, nem a via do precatório para esse adiantamento.",
+        "E": "O art. 91, § 1º, diz que essas perícias \"poderão\" ser realizadas por entidade pública ou ter os valores adiantados por quem requereu a prova, havendo previsão orçamentária. É faculdade, não exclusividade."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 91, §§ 1º e 2º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }

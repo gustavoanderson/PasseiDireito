@@ -83,6 +83,160 @@
         { "tipo": "lei", "referencia": "CTN, art. 38, §§ 1º a 4º (LC 227/2026)", "data": "2026-01-13" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0086",
+      "tema": "ITBI em Curitiba: incidência e não incidência (LC Municipal 108/2017, arts. 1º a 3º)",
+      "enunciado": "Sobre o Imposto de Transmissão de Bens Imóveis (ITBI) no Município de Curitiba, nos termos dos arts. 1º a 3º da Lei Complementar Municipal nº 108/2017, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O imposto incide sobre a constituição e a resolução da propriedade fiduciária de coisa imóvel prevista na Lei Federal nº 9.514/1997.",
+        "B": "Está compreendida na incidência do imposto a dação em pagamento.",
+        "C": "Está compreendida na incidência do imposto a instituição de usufruto, uso e habitação.",
+        "D": "O imposto não incide sobre a transmissão de bens ou direitos incorporados ao patrimônio de pessoa jurídica em realização de capital, até o limite do valor do capital incorporado, salvo se a atividade preponderante do adquirente for a compra e venda desses bens ou direitos, a locação de bens imóveis ou o arrendamento mercantil.",
+        "E": "O imposto refere-se a atos e contratos relativos a imóveis situados no território do Município de Curitiba."
+      },
+      "correta": "A",
+      "dica": "O art. 3º da LC 108/2017 traz quatro hipóteses de não incidência. Uma delas trata da alienação fiduciária em garantia.",
+      "explicacao": {
+        "A": "Incorreta, e por isso é a resposta. O art. 3º, III, da LC Municipal 108/2017 diz que o imposto NÃO incide sobre a constituição e a resolução da propriedade fiduciária de coisa imóvel da Lei 9.514/1997. É coerente com o art. 156, II, da CF, que exclui os direitos reais de garantia.",
+        "B": "Correta. É o art. 2º, II, da LC Municipal 108/2017: a dação em pagamento transfere onerosamente a propriedade do imóvel.",
+        "C": "Correta. É o art. 2º, IV, da LC Municipal 108/2017, pois usufruto, uso e habitação são direitos reais sobre imóvel que não são de garantia.",
+        "D": "Correta. É o art. 3º, II, da LC Municipal 108/2017, na redação da LC 134/2022, que aplica a imunidade do art. 156, § 2º, I, da Constituição e a limita ao valor do capital incorporado.",
+        "E": "Correta. É o parágrafo único do art. 1º, em linha com o art. 156, § 2º, II, da Constituição: o ITBI compete ao Município da situação do bem."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 108/2017 (ITBI), arts. 1º a 3º",
+          "data": "2017-12-20"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 134/2022 (alterou os arts. 3º, 8º e 12 da LC 108/2017)",
+          "data": "2022-10-24"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, II, e § 2º, I e II",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0087",
+      "tema": "ITBI em Curitiba: atividade preponderante na integralização de capital (LC 108/2017, art. 3º)",
+      "enunciado": "A sociedade Alfa integralizou ao capital da sociedade Beta um imóvel situado em Curitiba. Sobre a apuração da atividade preponderante de Beta, que pode afastar a não incidência do ITBI, assinale a alternativa CORRETA, de acordo com o art. 3º da Lei Complementar Municipal nº 108/2017.",
+      "alternativas": {
+        "A": "Caracteriza-se a atividade preponderante quando mais de 30% da receita operacional do adquirente decorrer de compra e venda ou locação de imóveis ou de arrendamento mercantil.",
+        "B": "Se Beta iniciar suas atividades após a aquisição, a preponderância será apurada com base nos 2 primeiros exercícios seguintes à data da transmissão.",
+        "C": "Se Beta tiver existência por período inferior ao exigido para a apuração, fica prejudicada a análise da preponderância e o imposto não incide.",
+        "D": "Caracteriza-se a atividade preponderante quando mais de 50% da receita operacional do adquirente, nos 2 exercícios anteriores até os 2 exercícios subsequentes ao registro da operação na Junta Comercial, decorrer dessas transações.",
+        "E": "Verificada a preponderância, o imposto torna-se devido sem correção monetária, calculado sobre o valor do imóvel na data da verificação."
+      },
+      "correta": "D",
+      "dica": "A lei municipal segue o percentual do art. 37 do CTN, mas conta o período a partir de um registro específico.",
+      "explicacao": {
+        "A": "O art. 3º, § 1º, exige que MAIS DE 50% da receita operacional decorra dessas transações, e não 30%.",
+        "B": "Pelo art. 3º, § 2º, se o adquirente iniciar as atividades após a aquisição, ou menos de 24 meses antes dela, a preponderância é apurada nos 3 (três) primeiros exercícios seguintes à transmissão, e não nos 2.",
+        "C": "O art. 3º, § 3º, diz o contrário: prejudicada a análise da preponderância pela existência inferior ao período exigido, INCIDE o imposto.",
+        "D": "Correta. É o art. 3º, § 1º, da LC Municipal 108/2017. O percentual de 50% é o mesmo do art. 37, § 1º, do CTN; a lei municipal conta o período a partir do registro da operação na Junta Comercial.",
+        "E": "Pelo art. 3º, § 6º, verificada a preponderância (ou não apresentada a documentação contábil do § 4º), o imposto torna-se devido, monetariamente corrigido desde a data da integralização, fusão ou cisão constante do contrato social registrado na Junta Comercial."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 108/2017 (ITBI), art. 3º, §§ 1º a 6º",
+          "data": "2017-12-20"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), art. 37",
+          "data": "1966-10-25"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, II, e § 2º, I e II",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0088",
+      "tema": "ITBI em Curitiba: contribuintes, responsáveis e restituição (LC 108/2017)",
+      "enunciado": "Considere as afirmativas abaixo, com base na Lei Complementar Municipal nº 108/2017 (ITBI de Curitiba).\n\nI. São contribuintes do imposto os adquirentes dos bens ou direitos transmitidos.\nII. Nas permutas, é contribuinte cada um dos permutantes.\nIII. Respondem solidariamente pelo pagamento do imposto os tabeliães e demais serventuários de ofício, relativamente aos atos por eles ou perante eles praticados em razão do ofício, ou pelas omissões pelas quais sejam responsáveis.\nIV. O direito de pleitear a devolução do imposto pago indevidamente extingue-se no prazo de 2 anos, contados da data do pagamento.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas I e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "O prazo do parágrafo único do art. 15 coincide com o prazo geral de repetição de indébito do CTN.",
+      "explicacao": {
+        "A": "Exclui a III, que reproduz o art. 6º, III: tabeliães e serventuários respondem solidariamente pelos atos praticados por eles ou perante eles em razão do ofício.",
+        "B": "Correta. I é o art. 5º, I; II é o art. 5º, V; III é o art. 6º, III, da LC Municipal 108/2017. A IV está errada: pelo parágrafo único do art. 15, o direito de pleitear a devolução extingue-se em 5 (cinco) anos, contados do pagamento ou do pagamento da última parcela.",
+        "C": "A IV está errada (o prazo do art. 15, parágrafo único, é de 5 anos), e a alternativa exclui a I, que reproduz o art. 5º, I.",
+        "D": "A IV está errada, e a alternativa exclui as afirmativas II (art. 5º, V) e III (art. 6º, III), que estão corretas.",
+        "E": "A IV está errada. O prazo de 5 anos do art. 15, parágrafo único, da LC 108/2017 corre da data do pagamento ou do pagamento da última parcela."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 108/2017 (ITBI), arts. 5º, 6º e 15",
+          "data": "2017-12-20"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0089",
+      "tema": "ITBI em Curitiba: lançamento, base de cálculo, alíquota e multa (LC 108/2017)",
+      "enunciado": "Sobre o ITBI no Município de Curitiba, conforme a Lei Complementar Municipal nº 108/2017, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A alíquota do imposto é de 2,7% para qualquer transmissão, exceto nas hipóteses de isenção e de alíquotas reduzidas previstas na própria lei.",
+        "B": "Não serão deduzidos do valor do bem ou direito transmitido eventuais dívidas que possam onerar o imóvel nem quaisquer custos adicionais à sua regularização.",
+        "C": "No caso de arrematação judicial, o valor venal do bem imóvel ou dos direitos reais será o alcançado na arrematação, atualizado pelo IPCA, ou outro índice aprovado por legislação nacional, desde a data do respectivo leilão.",
+        "D": "Nos procedimentos administrativos em que forem constatadas informações falsas ou inexatas, poderá ser aplicada multa de até 40% do valor atualizado do imposto, conforme regulamentação.",
+        "E": "O imposto será lançado exclusivamente de ofício, vedado o lançamento por declaração do contribuinte."
+      },
+      "correta": "E",
+      "dica": "O art. 4º da LC 108/2017 prevê duas modalidades de lançamento e diz quando cada uma se aplica.",
+      "explicacao": {
+        "A": "Correta. É o art. 9º da LC Municipal 108/2017, que ressalva as hipóteses dos arts. 10 (isenção para programas habitacionais de interesse social da COHAB-CT) e 11 (alíquotas reduzidas para imóveis residenciais financiados), ambos reescritos pela LC 148/2025.",
+        "B": "Correta. É o art. 8º, § 3º, da LC Municipal 108/2017, na redação da LC 134/2022: ônus como hipoteca ou penhora não reduzem a base de cálculo.",
+        "C": "Correta. É o art. 8º, § 2º, da LC Municipal 108/2017, na redação da LC 134/2022. A base geral do caput é o valor de compra e venda à vista em condições normais do mercado imobiliário.",
+        "D": "Correta. É o art. 18 da LC Municipal 108/2017, que alcança também a recusa de apresentação de documentos fiscais comprobatórios.",
+        "E": "Incorreta, e por isso é a resposta. Pelo art. 4º da LC Municipal 108/2017, o imposto é lançado POR DECLARAÇÃO do contribuinte; o lançamento é de ofício nos casos em que o Fisco Municipal constatar a ocorrência do fato gerador."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 108/2017 (ITBI), arts. 4º, 8º, §§ 2º e 3º, 9º e 18",
+          "data": "2017-12-20"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 134/2022 (alterou os arts. 3º, 8º e 12 da LC 108/2017)",
+          "data": "2022-10-24"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 148/2025 (reescreveu os arts. 10 e 11 da LC 108/2017)",
+          "data": "2025-09-10"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
     }
   ]
 }
