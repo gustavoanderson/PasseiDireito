@@ -2,7 +2,7 @@
  "id": "l9433",
  "titulo": "Lei 9.433/1997 (Recursos Hídricos)",
  "url": "https://www.planalto.gov.br/ccivil_03/leis/l9433.htm",
- "baixadoEm": "2026-10-01",
+ "baixadoEm": "2026-10-02",
  "artigos": [
   {
    "id": "1",
@@ -412,18 +412,12 @@
   {
    "id": "36",
    "local": "CAPÍTULO II",
-   "texto": "Art. 36. O Conselho Nacional de Recursos Hídricos será gerido por:\nI - um Presidente, que será o Ministro de Estado do Desenvolvimento Regional; (Redação dada pela Medida Provisória nº 870, de 2019)\nI - 1 (um) Presidente, que será o Ministro de Estado do Desenvolvimento Regional; (Redação dada pela Lei nº 13.844, de 2019)\nI - um Presidente, que será o Ministro de Estado do Meio Ambiente e Mudança do Clima; (Redação dada pela Medida Provisória nº 1.154, de 2023)\nI - 1 (um) Presidente, que será o Ministro de Estado da Integração e do Desenvolvimento Regional; (Redação dada pela Lei nº 14.600, de 2023)\nII - um Secretário-Executivo, que será o titular do órgão integrante da estrutura do Ministério do Desenvolvimento Regional responsável pela gestão dos recursos hídricos. (Redação dada pela Medida Provisória nº 870, de 2019)\nII - 1 (um) Secretário-Executivo, que será o titular do órgão integrante da estrutura do Ministério do Desenvolvimento Regional responsável pela gestão dos recursos hídricos. (Redação dada pela Lei nº 13.844, de 2019)\nII - um Secretário-Executivo, que será o titular do órgão integrante da estrutura do Ministério do Meio Ambiente e Mudança do Clima responsável pela gestão dos recursos hídricos. (Redação dada pela Medida Provisória nº 1.154, de 2023)\nII - 1 (um) Secretário-Executivo, que será o titular do órgão integrante da estrutura do Ministério da Integração e do Desenvolvimento Regional responsável pela gestão dos recursos hídricos. (Redação dada pela Lei nº 14.600, de 2023)\nDOS COMITÊS DE BACIA HIDROGRÁFICA",
+   "texto": "Art. 36. O Conselho Nacional de Recursos Hídricos será gerido por:\nI - 1 (um) Presidente, que será o Ministro de Estado da Integração e do Desenvolvimento Regional; (Redação dada pela Lei nº 14.600, de 2023)\nII - 1 (um) Secretário-Executivo, que será o titular do órgão integrante da estrutura do Ministério da Integração e do Desenvolvimento Regional responsável pela gestão dos recursos hídricos. (Redação dada pela Lei nº 14.600, de 2023)\nDOS COMITÊS DE BACIA HIDROGRÁFICA",
    "versoesDescartadas": 0,
    "conferir": false,
    "duplicado": false,
    "notas": [
-    "Redação dada pela Medida Provisória nº 870, de 2019",
-    "Redação dada pela Lei nº 13.844, de 2019",
-    "Redação dada pela Medida Provisória nº 1.154, de 2023",
     "Redação dada pela Lei nº 14.600, de 2023",
-    "Redação dada pela Medida Provisória nº 870, de 2019",
-    "Redação dada pela Lei nº 13.844, de 2019",
-    "Redação dada pela Medida Provisória nº 1.154, de 2023",
     "Redação dada pela Lei nº 14.600, de 2023"
    ],
    "videStf": [],

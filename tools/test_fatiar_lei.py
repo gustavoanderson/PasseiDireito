@@ -40,6 +40,15 @@ HTML = """
 perante a lei.</p>
 <p><font>Art.
 6º São direitos sociais a educação e a saúde.</font></p>
+<p>Art. 988. Caberá reclamação da parte interessada ou do Ministério Público para:</p>
+<p>I - preservar a competência do tribunal;</p>
+<p>III - garantir a observância de decisão do Supremo Tribunal Federal em controle concentrado de constitucionalidade;</p>
+<p>III – garantir a observância de enunciado de súmula vinculante e de decisão do Supremo Tribunal Federal em controle concentrado de constitucionalidade; (Redação dada pela Lei nº 15.484, de 2026)</p>
+<p>IV - garantir a observância de precedente proferido em julgamento de casos repetitivos ou em incidente de assunção de competência;</p>
+<p>IV – garantir a observância de acórdão proferido em julgamento de recurso especial sob o regime de relevância; (Incluído pela Lei nº 15.484, de 2026)</p>
+<p>§ 5º É inadmissível a reclamação proposta após o trânsito em julgado da decisão.</p>
+<p>§ 5º Será liminarmente indeferida a reclamação: (Redação dada pela Lei nº 15.484, de 2026)</p>
+<p>I – proposta após o trânsito em julgado da decisão reclamada;</p>
 <p>Brasília, 5 de outubro de 1988.</p>
 <p>ATO DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS</p>
 <p>Art. 1º O Presidente da República prestará o compromisso.</p>
@@ -149,6 +158,46 @@ class TestFatiar(unittest.TestCase):
 
     def test_local_guarda_o_capitulo(self):
         self.assertEqual(self.por_id["23"]["local"], "CAPÍTULO VII")
+
+    def test_inciso_repetido_sem_risco_fica_so_a_versao_com_nota(self):
+        # CPC, art. 988, em 01/10/2026: o Planalto não riscou a redação
+        # antiga do III, do IV e do § 5º antes de mostrar a nova (Lei
+        # 15.484/2026). Sem isto, os dois textos entravam como se ambos
+        # valessem, e a IA liA leria regra revogada como vigente.
+        texto = self.por_id["988"]["texto"]
+        self.assertEqual(texto.count("III"), 1)
+        self.assertIn("súmula vinculante", texto)
+        self.assertNotIn("casos repetitivos", texto)  # IV antigo, substituído
+        self.assertIn("regime de relevância", texto)  # IV novo
+        self.assertEqual(texto.count("§ 5º"), 1)
+        self.assertIn("liminarmente indeferida", texto)
+        self.assertFalse(self.por_id["988"]["conferir"])
+
+    def test_inciso_com_letra_colada_nao_se_confunde_com_o_numero_puro(self):
+        # CF, art. 92: "I - o Supremo Tribunal Federal;" e "I-A o Conselho
+        # Nacional de Justiça;" são incisos DIFERENTES, não duas versões do
+        # mesmo "I". Achado reconstruindo o corpus federal em 02/10/2026: o
+        # "I" puro sumiu, fundido com o "I-A" por causa de um retrocesso do
+        # regex do rótulo.
+        html = (
+            "<p>Art. 92. São órgãos do Poder Judiciário:</p>"
+            "<p>I - o Supremo Tribunal Federal;</p>"
+            "<p>I-A o Conselho Nacional de Justiça; (Incluído pela Emenda Constitucional nº 45, de 2004)</p>"
+            "<p>II - o Superior Tribunal de Justiça;</p>"
+        )
+        texto = fatiar(html)[0]["texto"]
+        self.assertIn("I - o Supremo Tribunal Federal;", texto)
+        self.assertIn("I-A o Conselho Nacional de Justiça", texto)
+
+    def test_inciso_repetido_sem_nenhuma_nota_marca_para_conferir(self):
+        html = (
+            "<p>Art. 50. Texto do caput.</p>"
+            "<p>I - versão A do inciso;</p>"
+            "<p>I - versão B do inciso, sem nota nenhuma;</p>"
+        )
+        artigos = fatiar(html)
+        self.assertTrue(artigos[0]["conferir"])
+        self.assertEqual(artigos[0]["texto"].count("I -"), 1)
 
 
 if __name__ == "__main__":

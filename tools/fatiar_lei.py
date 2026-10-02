@@ -57,6 +57,50 @@ def paragrafos(html: str) -> list[str]:
     return [linha for linha in linhas if linha]
 
 
+# Rótulo de dispositivo no início da linha: "§ 5º", "Parágrafo único", "III -", "IV –", "a)".
+# "I-A" (letra colada, sem espaço antes do traço, às vezes sem traço depois:
+# "I-A o Conselho Nacional de Justiça" na CF, art. 92) tem que vir ANTES da
+# forma solta "I -", e numa alternativa própria: com as duas no mesmo grupo
+# opcional, o motor de regex falha em casar o traço final de "I-A" e
+# retrocede, soltando a letra e lendo "I-A ..." como um "I -" comum — e
+# "I - o Supremo Tribunal Federal;" some, fundido com "I-A" (medido em
+# 02/10/2026, reconstruindo o corpus federal).
+_DISPOSITIVO = re.compile(
+    r"^(§\s*\d+\s*(?:º|°|o)?(?:-[A-Z])?"
+    r"|Parágrafo único"
+    r"|[IVXLCDM]+-[A-Z]\s*(?:[-–]\s*)?"
+    r"|[IVXLCDM]+\s*[-–]"
+    r"|[a-z]\))"
+)
+_NOTA_NOVA = re.compile(r"Redação dada|Incluíd|Acrescid")
+
+
+def _sem_dispositivo_repetido(linhas: list[str]) -> tuple[list[str], bool]:
+    """O Planalto às vezes deixa SEM risco a redação antiga de um inciso ou
+    parágrafo, logo antes da nova (CPC, art. 988, em 01/10/2026: dois incisos
+    III, dois IV e dois § 5º). Dois rótulos iguais em SEQUÊNCIA nunca são
+    legítimos: fica a última versão com nota de redação; sem nota em nenhuma,
+    fica a última e o artigo vai para conferência."""
+    rotulo = lambda l: (m := _DISPOSITIVO.match(l)) and re.sub(r"[\s–-]", "", m.group(1))  # noqa: E731
+    saida: list[list[str]] = []
+    ambiguo = False
+    for linha in linhas:
+        r = rotulo(linha)
+        if r and saida and rotulo(saida[-1][-1]) == r:
+            saida[-1].append(linha)
+        else:
+            saida.append([linha])
+    final = []
+    for grupo in saida:
+        if len(grupo) > 1:
+            com_nota = [l for l in grupo if _NOTA_NOVA.search(l)]
+            ambiguo |= not com_nota and len(set(grupo)) > 1
+            final.append((com_nota or grupo)[-1])
+        else:
+            final.append(grupo[0])
+    return final, ambiguo
+
+
 def fatiar(html: str, comecar_em: str | None = None) -> list[dict]:
     """[comecar_em]: regex do parágrafo onde a norma de verdade começa. Existe
     para a CLT, que é um ANEXO depois da assinatura do Decreto-Lei 5.452/1943."""
@@ -96,7 +140,8 @@ def fatiar(html: str, comecar_em: str | None = None) -> list[dict]:
             atual["paragrafos"].append(p)
 
     for a in artigos:
-        a["texto"] = "\n".join(a.pop("paragrafos"))
+        linhas, a["_dispositivoAmbiguo"] = _sem_dispositivo_repetido(a.pop("paragrafos"))
+        a["texto"] = "\n".join(linhas)
 
     # O Planalto deixa SEM risco a redação de Medida Provisória que caducou,
     # marcada "Vigência encerrada". Havendo outra versão do mesmo artigo, a da
@@ -131,7 +176,7 @@ def fatiar(html: str, comecar_em: str | None = None) -> list[dict]:
         a["versoesDescartadas"] = n_versoes - 1
         # Versões de texto idêntico (a página repete o artigo) não geram dúvida.
         textos_distintos = {re.sub(r"\s+", " ", v["texto"]) for v in versoes[a["id"]]}
-        a["conferir"] = len(textos_distintos) > 1 and not tem_nota_nova(a)
+        a["conferir"] = (len(textos_distintos) > 1 and not tem_nota_nova(a)) or a.pop("_dispositivoAmbiguo")
         a["duplicado"] = False
         notas = [n.strip() for n in _NOTA.findall(texto)]
         a["texto"] = texto
