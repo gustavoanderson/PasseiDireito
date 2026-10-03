@@ -145,3 +145,20 @@ python tools/test_montar_corpus.py                      # trava da data de corte
 python tools/test_montar_corpus_curitiba.py              # reconstrução de normas de Curitiba desatualizadas no Legisladoc
 cd app && flutter analyze && flutter test               # app
 ```
+
+## Publicação (repositório público desde 02/10/2026)
+
+https://github.com/gustavoanderson/PasseiDireito — decisão do Gustavo, perguntada explicitamente (código, corpus de leis e as questões com gabarito ficam públicos).
+
+- **Web:** https://gustavoanderson.github.io/PasseiDireito/, pela branch órfã `gh-pages` (só o build, nunca o código-fonte). Para publicar de novo:
+  ```bash
+  cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/
+  # depois, copiar build/web/* para um worktree da branch gh-pages, commitar e git push
+  ```
+  No Git Bash do Windows, `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo (viraria `C:/Program Files/Git/PasseiDireito/`). O GitHub Pages já está habilitado; não precisa reconfigurar.
+- **Android:** Release no GitHub com o `.apk` anexado (link direto, sem precisar de conta):
+  ```bash
+  flutter build apk --release
+  gh release create vX.Y caminho/do.apk --title "PasseiDireito vX.Y" --notes "..."
+  ```
+  Versão atual: v0.3, https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.3/PasseiDireito-v0.3.apk. Atualize este link (e o de cima) a cada release nova, e o `docs/STATUS.md`.

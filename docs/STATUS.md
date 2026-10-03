@@ -1,18 +1,23 @@
 # Status do PasseiDireito
 
-Atualizado em 02/10/2026, à tarde. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 03/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 ## Onde estamos
 
 **Prioridade:** MVP da prova objetiva (13/12/2026). Discursiva com IA e a segunda leitura ficam para depois da prova, por decisão do Gustavo.
 
-**Repositório público desde 02/10/2026:** https://github.com/gustavoanderson/PasseiDireito (decisão do Gustavo — ver pergunta/resposta no chat). APK para download direto, sem conta: https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.2/PasseiDireito-v0.2.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+**Repositório público desde 02/10/2026:** https://github.com/gustavoanderson/PasseiDireito (decisão do Gustavo — ver pergunta/resposta no chat de 02/10).
 
-**O app (v0.2, commitado e buildado em 02/10/2026):**
+**Duas formas de acesso, sempre atualizadas:**
+- **Navegador (web), desde 03/10/2026:** https://gustavoanderson.github.io/PasseiDireito/ — hospedado no GitHub Pages, a partir da branch órfã `gh-pages` (só o `build/web`, não o código-fonte). Pra publicar uma versão nova: `cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/` (no Git Bash do Windows, o `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo), depois copiar `app/build/web/*` pra um worktree da branch `gh-pages` (`git worktree add --detach /tmp/gh-pages-wt` + `git checkout --orphan gh-pages` na primeira vez; nas seguintes, só copiar por cima, commitar e dar `git push`) — o Pages já está habilitado, não precisa reconfigurar.
+- **Android (APK), versão atual v0.3:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.3/PasseiDireito-v0.3.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+
+**O app (v0.3, commitado e buildado em 03/10/2026):**
 - Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
-- APK em `D:\repositorio\PasseiDireito-v0.2.apk` (52 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
-- Suíte inteira verde: validador do banco, 5 suítes de testes Python, `flutter analyze` e `flutter test` (73 testes).
-- 4 commits em 02/10: correção do extrator federal, correção da base de Curitiba, +150 questões, documentação.
+- **Novo em 03/10:** contador regressivo pra prova objetiva na tela inicial ("Faltam N dias... · 13/12/2026"; pedido do Gustavo). `diasAte()` e `TelaInicio.hoje` em `app/lib/tela_inicio.dart`.
+- APK em `D:\repositorio\PasseiDireito-v0.3.apk` (50 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
+- Suíte inteira verde: validador do banco, 5 suítes de testes Python, `flutter analyze` e `flutter test` (78 testes).
+- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo.
 
 | Matéria | Questões | Peso no edital | Questões/peso |
 |---|---|---|---|
