@@ -1,0 +1,129 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-13",
+    "titulo": "Repartição das receitas tributárias",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "trib-0039",
+      "tema": "Receitas tributárias pertencentes aos Municípios",
+      "enunciado": "Com base nos arts. 158 e 159 da Constituição Federal, na redação vigente após a Emenda Constitucional nº 132/2023, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Pertencem aos Municípios 25% do produto da arrecadação do IPVA relativo aos veículos licenciados em seus territórios.",
+        "B": "Pertencem aos Municípios 50% do produto da arrecadação do imposto de renda incidente na fonte sobre rendimentos pagos, a qualquer título, por eles, suas autarquias e fundações.",
+        "C": "Pertencem aos Municípios 50% do produto da arrecadação do ITR relativamente aos imóveis neles situados, cabendo a totalidade na hipótese da opção a que se refere o art. 153, § 4º, III.",
+        "D": "Das parcelas do ICMS pertencentes aos Municípios, no mínimo 50% são creditadas na proporção do valor adicionado nas operações realizadas em seus territórios.",
+        "E": "Do produto da arrecadação do IR, do IPI e do Imposto Seletivo, a União entrega ao Fundo de Participação dos Municípios exclusivamente 22,5%, sem outras parcelas."
+      },
+      "correta": "C",
+      "dica": "Confira os percentuais do art. 158, incisos I a IV, e do § 1º. No art. 159, I, conte todas as alíneas que beneficiam o FPM.",
+      "explicacao": {
+        "C": "Correta. É o art. 158, II, da CF (EC 42/2003): 50% do ITR relativo aos imóveis situados no Município, cabendo a totalidade se o Município optar por fiscalizar e cobrar o imposto (art. 153, § 4º, III).",
+        "A": "O art. 158, III (redação da EC 132/2023), atribui aos Municípios 50% do IPVA dos veículos licenciados em seus territórios e, quanto aos veículos aquáticos e aéreos, dos cujos proprietários sejam neles domiciliados.",
+        "B": "O art. 158, I, atribui aos Municípios o produto integral da arrecadação do IR retido na fonte sobre rendimentos pagos por eles, suas autarquias e fundações. Não há divisão com a União.",
+        "D": "O art. 158, § 1º, I, exige no mínimo 65% na proporção do valor adicionado; até 35% seguem lei estadual, com no mínimo 10 pontos percentuais por indicadores educacionais (inciso II).",
+        "E": "O art. 159, I, prevê para o FPM 22,5% (alínea b) mais 1% entregue em dezembro (alínea d), 1% em julho (alínea e) e 1% em setembro (alínea f). A soma do inciso I chega a 50%."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 158 e 159 (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0075",
+      "tema": "Receitas pertencentes aos Municípios e critérios de crédito do IBS (CF, art. 158)",
+      "enunciado": "Sobre as receitas tributárias pertencentes aos Municípios, nos termos do art. 158 da Constituição Federal, na redação dada pela Emenda Constitucional nº 132/2023, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Pertencem aos Municípios 50% do produto da arrecadação do imposto do Estado sobre a propriedade de veículos automotores licenciados em seus territórios e, quanto a veículos aquáticos e aéreos, cujos proprietários sejam domiciliados em seus territórios.",
+        "B": "Pertencem aos Municípios 25% do produto da arrecadação do ICMS.",
+        "C": "Pertencem aos Municípios 25% do produto da arrecadação do Imposto sobre Bens e Serviços (IBS) distribuída aos Estados.",
+        "D": "Das parcelas do IBS pertencentes aos Municípios, 5% são creditadas em montantes iguais para todos os Municípios do Estado.",
+        "E": "Das parcelas do IBS pertencentes aos Municípios, no mínimo 65% são creditadas na proporção do valor adicionado nas operações realizadas em seus territórios."
+      },
+      "correta": "E",
+      "dica": "O art. 158 tem dois parágrafos de critérios: o § 1º para o ICMS e o § 2º para o IBS. Um usa valor adicionado; o outro, população.",
+      "explicacao": {
+        "A": "Correta. É o art. 158, III, na redação da EC 132/2023, que incluiu os veículos aquáticos e aéreos.",
+        "B": "Correta. É o art. 158, IV, a, da Constituição. Os critérios de crédito dessa cota-parte estão no § 1º do mesmo artigo.",
+        "C": "Correta. É o art. 158, IV, b, incluído pela EC 132/2023, que reproduz para o IBS a lógica da cota-parte do ICMS.",
+        "D": "Correta. É o art. 158, § 2º, IV, incluído pela EC 132/2023: 5% da cota-parte do IBS é dividida em partes iguais.",
+        "E": "Incorreta, e por isso é a resposta. O critério de no mínimo 65% pelo valor adicionado é do ICMS (art. 158, § 1º, I). Para a cota-parte do IBS, o § 2º (EC 132/2023) manda creditar 80% na proporção da população, 10% por indicadores de aprendizagem e equidade, 5% por indicadores ambientais e 5% em montantes iguais."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 158, III, IV e §§ 1º e 2º (EC 108/2020 e EC 132/2023)",
+          "data": "2023-12-20"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0076",
+      "tema": "Transferências da União e dos Estados aos Municípios (CF, arts. 159 e 161)",
+      "enunciado": "Com base nos arts. 159 e 161 da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Do montante da contribuição de intervenção no domínio econômico relativa aos combustíveis que cabe a cada Estado, vinte e cinco por cento serão destinados aos seus Municípios, na forma da lei.",
+        "B": "Além dos 22,5% destinados ao Fundo de Participação dos Municípios, a União entrega a esse Fundo parcelas adicionais de 1% no primeiro decêndio dos meses de março, julho e dezembro.",
+        "C": "O cálculo das quotas referentes aos fundos de participação é efetuado pelo Senado Federal.",
+        "D": "Na base de cálculo da entrega ao Fundo de Participação dos Municípios, inclui-se a parcela do imposto de renda retido na fonte pertencente aos próprios Municípios.",
+        "E": "Os Estados entregarão aos respectivos Municípios 50% dos recursos que receberem da União a título de participação no IPI proporcional às exportações."
+      },
+      "correta": "A",
+      "dica": "No art. 159, o percentual que os Estados repassam aos seus Municípios se repete nos §§ 3º e 4º.",
+      "explicacao": {
+        "A": "Correta. É o art. 159, § 4º (EC 42/2003): dos 29% da CIDE-combustíveis entregues aos Estados (inciso III), um quarto vai aos Municípios.",
+        "B": "As parcelas adicionais de 1% ao FPM são entregues no primeiro decêndio de dezembro (alínea d, EC 55/2007), de julho (alínea e, EC 84/2014) e de setembro (alínea f, EC 112/2021). Não há parcela em março.",
+        "C": "Pelo parágrafo único do art. 161, o cálculo das quotas dos fundos de participação é feito pelo Tribunal de Contas da União.",
+        "D": "O § 1º do art. 159 manda EXCLUIR do cálculo a parcela do imposto de renda pertencente aos Estados, ao DF e aos Municípios nos termos dos arts. 157, I, e 158, I (o IR retido na fonte sobre rendimentos que eles pagam).",
+        "E": "O § 3º do art. 159 (EC 132/2023) fixa o repasse em 25%, e não 50%, dos recursos recebidos pelos Estados com base no inciso II (IPI-exportação e Imposto Seletivo)."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 159, I, §§ 1º, 3º e 4º, e 161, parágrafo único (EC 42/2003, 55/2007, 84/2014, 112/2021 e 132/2023)",
+          "data": "2023-12-20"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0077",
+      "tema": "Vedação de retenção de receitas repartidas e divulgação (CF, arts. 160 e 162)",
+      "enunciado": "Considere as afirmativas abaixo, com base nos arts. 160 e 162 da Constituição Federal.\n\nI. A vedação à retenção ou a qualquer restrição à entrega dos recursos atribuídos aos Municípios não alcança os adicionais e acréscimos relativos a impostos.\nII. A vedação à retenção não impede a União e os Estados de condicionarem a entrega de recursos ao pagamento de seus créditos, inclusive de suas autarquias.\nIII. A vedação à retenção não impede a União e os Estados de condicionarem a entrega de recursos ao cumprimento da aplicação mínima em ações e serviços públicos de saúde prevista no art. 198, § 2º, II e III.\nIV. A União, os Estados, o Distrito Federal e os Municípios divulgarão, até o último dia do mês subsequente ao da arrecadação, os montantes de cada um dos tributos arrecadados, os recursos recebidos, os valores de origem tributária entregues e a entregar e a expressão numérica dos critérios de rateio.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "O caput do art. 160 termina com a expressão 'neles compreendidos'. Veja o que vem depois dela.",
+      "explicacao": {
+        "A": "A I está errada (o art. 160 inclui na vedação os adicionais e acréscimos), e a alternativa exclui as afirmativas III e IV, que estão corretas.",
+        "B": "A I está errada, e a alternativa exclui a IV, que reproduz o art. 162 da Constituição.",
+        "C": "Correta. II e III reproduzem o art. 160, § 1º, I e II (EC 29/2000), e IV reproduz o caput do art. 162. A I contraria o caput do art. 160, que veda a retenção dos recursos, 'neles compreendidos adicionais e acréscimos relativos a impostos'.",
+        "D": "Exclui a II, que reproduz o art. 160, § 1º, I: a entrega pode ser condicionada ao pagamento dos créditos do ente transferidor, inclusive de suas autarquias.",
+        "E": "A I está errada: a vedação do art. 160 alcança expressamente os adicionais e acréscimos relativos a impostos."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 160 (EC 29/2000 e EC 113/2021) e 162",
+          "data": "2021-12-08"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

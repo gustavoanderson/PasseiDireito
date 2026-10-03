@@ -1,0 +1,212 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-14",
+    "titulo": "Responsabilidade civil do Estado",
+    "itemEdital": 14
+  },
+  "questoes": [
+    {
+      "id": "adm-0006",
+      "tema": "Legitimidade passiva do agente público (Tema 940/STF)",
+      "enunciado": "Servidor efetivo do Município de Curitiba, conduzindo veículo oficial em serviço, colide com automóvel particular. O proprietário do automóvel ajuíza ação indenizatória exclusivamente contra o servidor. À luz do art. 37, § 6º, da Constituição Federal e da tese fixada pelo STF no Tema 940 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O servidor é parte ilegítima para figurar no polo passivo; a ação deve ser proposta contra o Município, assegurado o direito de regresso contra o servidor nos casos de dolo ou culpa.",
+        "B": "A vítima pode escolher livremente se demanda o Município, o servidor ou ambos em litisconsórcio passivo.",
+        "C": "O Município responde subjetivamente, cabendo à vítima provar a culpa do servidor para obter a indenização.",
+        "D": "O direito de regresso do Município contra o servidor independe da demonstração de dolo ou culpa.",
+        "E": "O Município só responde se ficar demonstrado que o servidor não tem patrimônio suficiente para indenizar a vítima."
+      },
+      "correta": "A",
+      "dica": "O § 6º do art. 37 dá duas garantias: uma à vítima, contra o Estado, e outra ao servidor, que só responde perante o próprio Estado.",
+      "explicacao": {
+        "A": "Correta. É a tese do Tema 940 (RE 1.027.633, julgado em 14/08/2019): a ação por danos causados por agente público deve ser ajuizada contra o Estado ou a pessoa jurídica de direito privado prestadora de serviço público, sendo parte ilegítima o autor do ato, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+        "B": "Era a posição que admitia a escolha pela vítima, superada pelo Tema 940. O STF adotou a chamada dupla garantia: a vítima tem a garantia de litigar contra o Estado, que responde objetivamente, e o servidor tem a garantia de só responder, em regresso, perante o ente ao qual está vinculado.",
+        "C": "O art. 37, § 6º, consagra a responsabilidade objetiva do Estado por atos comissivos de seus agentes (teoria do risco administrativo): a vítima prova conduta, dano e nexo causal, sem precisar demonstrar culpa.",
+        "D": "O regresso exige dolo ou culpa do agente. É o que diz a parte final do art. 37, § 6º, e o que repete a tese do Tema 940. A responsabilidade do servidor é subjetiva.",
+        "E": "A responsabilidade do Estado é direta e objetiva, não subsidiária. Não depende da situação patrimonial do servidor nem de ter a vítima tentado cobrar dele primeiro."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 940 (RE 1.027.633)", "data": "2019-08-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0048",
+      "tema": "Responsabilidade do contratado e encargos trabalhistas (Lei 14.133/2021)",
+      "enunciado": "O Município de Curitiba contratou empresa para prestar serviços contínuos de limpeza com regime de dedicação exclusiva de mão de obra. Durante a execução, um empregado da contratada causou dano a um munícipe, e a empresa deixou de pagar verbas trabalhistas. À luz dos arts. 120 e 121 da Lei nº 14.133/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A fiscalização exercida pelo Município exclui a responsabilidade da contratada pelos danos causados a terceiros na execução do contrato.",
+        "B": "A inadimplência da contratada quanto aos encargos trabalhistas transfere automaticamente ao Município a responsabilidade pelo seu pagamento, em qualquer contrato administrativo.",
+        "C": "O Município responde solidariamente pelos encargos trabalhistas e subsidiariamente pelos previdenciários, independentemente de falha na fiscalização.",
+        "D": "Os valores depositados em conta vinculada para garantir as obrigações trabalhistas podem ser penhorados para satisfazer credores da contratada.",
+        "E": "Nesse tipo de contratação, o Município responde solidariamente pelos encargos previdenciários e subsidiariamente pelos encargos trabalhistas, se comprovada falha na fiscalização do cumprimento das obrigações do contratado."
+      },
+      "correta": "E",
+      "dica": "A regra geral é que só o contratado responde pelos encargos. A exceção vale para um tipo específico de contrato e depende de um fato a ser comprovado; atenção à ordem entre solidária e subsidiária.",
+      "explicacao": {
+        "E": "Correta. É o § 2º do art. 121 da Lei 14.133/2021: exclusivamente nas contratações de serviços contínuos com dedicação exclusiva de mão de obra, a Administração responde solidariamente pelos encargos previdenciários e subsidiariamente pelos trabalhistas, se comprovada falha na fiscalização.",
+        "A": "O art. 120 diz o contrário: o contratado responde pelos danos causados diretamente à Administração ou a terceiros em razão da execução do contrato, e a fiscalização ou o acompanhamento pelo contratante não exclui nem reduz essa responsabilidade.",
+        "B": "Pelo caput e pelo § 1º do art. 121, somente o contratado responde pelos encargos, e sua inadimplência não transfere à Administração a responsabilidade pelo pagamento, ressalvada apenas a hipótese do § 2º.",
+        "C": "Inverte as responsabilidades e dispensa o requisito legal. Pelo § 2º do art. 121, a responsabilidade é solidária pelos previdenciários e subsidiária pelos trabalhistas, e depende de comprovada falha na fiscalização.",
+        "D": "O § 4º do art. 121 declara absolutamente impenhoráveis os valores depositados na conta vinculada prevista no inciso III do § 3º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 120 e 121", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0049",
+      "tema": "Responsabilidade de pessoas de direito público e de concessionárias",
+      "enunciado": "Sobre a responsabilidade civil das pessoas jurídicas de direito público e das concessionárias de serviço público, considerando a Constituição Federal, o Código Civil e a Lei nº 8.987/1995, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A concessionária responde apenas pelos prejuízos causados aos usuários do serviço, não respondendo pelos danos causados a terceiros não usuários nem ao poder concedente.",
+        "B": "Incumbe à concessionária a execução do serviço concedido, cabendo-lhe responder por todos os prejuízos causados ao poder concedente, aos usuários ou a terceiros, sem que a fiscalização exercida pelo órgão competente exclua ou atenue essa responsabilidade.",
+        "C": "A fiscalização exercida pelo poder concedente atenua a responsabilidade da concessionária na proporção da falha do órgão fiscalizador.",
+        "D": "Pelo Código Civil, as pessoas jurídicas de direito público interno respondem pelos atos de seus agentes que causem danos a terceiros, assegurado o direito regressivo contra o causador do dano independentemente de culpa ou dolo.",
+        "E": "O art. 37, § 6º, da Constituição aplica-se apenas às pessoas jurídicas de direito público, não alcançando as de direito privado prestadoras de serviços públicos."
+      },
+      "correta": "B",
+      "dica": "Repare nos três destinatários protegidos pelo art. 25 da Lei 8.987/1995 e no efeito que a lei atribui à fiscalização. Para o regresso, lembre o elemento subjetivo exigido do agente.",
+      "explicacao": {
+        "B": "Correta. É a literalidade do caput do art. 25 da Lei 8.987/1995. A concessionária responde perante o poder concedente, os usuários e terceiros, e a fiscalização estatal não serve de escudo para ela.",
+        "A": "O caput do art. 25 alcança os prejuízos causados ao poder concedente, aos usuários ou a terceiros. A lei não restringe a responsabilidade aos usuários.",
+        "C": "O art. 25 diz que a fiscalização exercida pelo órgão competente não exclui nem atenua a responsabilidade da concessionária.",
+        "D": "O art. 43 do Código Civil ressalva o direito regressivo contra os causadores do dano \"se houver, por parte destes, culpa ou dolo\". A responsabilidade do agente é subjetiva, como também diz o art. 37, § 6º, da CF.",
+        "E": "O art. 37, § 6º, da CF abrange expressamente as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos, que respondem pelos danos que seus agentes, nessa qualidade, causarem a terceiros."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, art. 25, caput", "data": "1995-02-13" },
+        { "tipo": "lei", "referencia": "Código Civil, art. 43", "data": "2002-01-10" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0087",
+      "tema": "Responsabilidade civil do Estado nas teses do STF",
+      "enunciado": "Considere as afirmativas a seguir, sobre a responsabilidade civil do Estado, à luz do Código Civil e das teses fixadas pelo Supremo Tribunal Federal em repercussão geral.\n\nI. Em caso de inobservância do seu dever específico de proteção previsto no art. 5º, XLIX, da Constituição Federal, o Estado é responsável pela morte de detento.\nII. Caracteriza-se a responsabilidade civil objetiva do Estado por danos decorrentes de crime praticado por pessoa foragida do sistema prisional, ainda que não demonstrado o nexo causal direto entre o momento da fuga e a conduta praticada.\nIII. O Estado responde, objetivamente, pelos atos dos tabeliães e registradores oficiais que, no exercício de suas funções, causem dano a terceiros, assentado o dever de regresso contra o responsável, nos casos de dolo ou culpa, sob pena de improbidade administrativa.\nIV. As pessoas jurídicas de direito público interno são civilmente responsáveis por atos dos seus agentes que nessa qualidade causem danos a terceiros, ressalvado direito regressivo contra os causadores do dano, se houver, por parte destes, culpa ou dolo.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Responsabilidade objetiva dispensa culpa, mas não dispensa nexo causal. Uma das afirmativas esquece isso.",
+      "explicacao": {
+        "C": "Correta. I é a tese do Tema 592 (RE 841.526); III é a tese do Tema 777 (RE 842.846); IV reproduz o art. 43 do Código Civil. A II contraria o Tema 362 (RE 608.880): não se caracteriza a responsabilidade objetiva do Estado por crime de foragido quando não demonstrado o nexo causal direto entre o momento da fuga e a conduta praticada.",
+        "A": "Inclui a II, que está errada pelo Tema 362 do STF (é preciso nexo causal direto entre a fuga e o crime), e omite III e IV.",
+        "B": "A II está errada (Tema 362) e a alternativa omite a I, que é a tese do Tema 592 sobre a morte de detento, e a IV, que é o art. 43 do Código Civil.",
+        "D": "Deixa de fora a I, que está correta: no Tema 592, o STF afirmou a responsabilidade do Estado pela morte de detento quando descumprido o dever específico de proteção do art. 5º, XLIX, da CF.",
+        "E": "Nem todas estão corretas. A II dispensa o nexo causal direto que o STF exigiu no Tema 362 para responsabilizar o Estado por crime praticado por foragido."
+      },
+      "fontes": [
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 592 (RE 841.526)",
+          "data": "2016-03-30"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 362 (RE 608.880)",
+          "data": "2020-09-08"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 777 (RE 842.846)",
+          "data": "2019-02-27"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Código Civil, art. 43",
+          "data": "2002-01-10"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0088",
+      "tema": "Prescrição contra e a favor da Fazenda Pública",
+      "enunciado": "Sobre a prescrição nas relações entre particulares e a Fazenda Pública, considerando o Decreto nº 20.910/1932 e as teses fixadas pelo Supremo Tribunal Federal em repercussão geral, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A prescrição das ações contra a Fazenda Pública pode ser interrompida quantas vezes for necessário e, uma vez interrompida, recomeça a correr pelo prazo integral.",
+        "B": "As dívidas passivas dos Municípios, bem como todo e qualquer direito ou ação contra a Fazenda municipal, seja qual for a sua natureza, prescrevem em 5 (cinco) anos contados da data do ato ou fato do qual se originarem.",
+        "C": "O direito à reclamação administrativa que não tiver prazo fixado em lei para ser formulada prescreve em 1 (um) ano a contar da data do ato ou fato do qual se originar.",
+        "D": "É prescritível a ação de reparação de danos à Fazenda Pública decorrente de ilícito civil.",
+        "E": "São imprescritíveis as ações de ressarcimento ao erário fundadas na prática de ato doloso tipificado na Lei de Improbidade Administrativa."
+      },
+      "correta": "A",
+      "dica": "O Decreto 20.910/1932 é generoso com a Fazenda na interrupção: limita quantas vezes ela ocorre e quanto tempo volta a correr.",
+      "explicacao": {
+        "A": "É a incorreta. Pelo art. 8º do Decreto 20.910/1932, a prescrição somente pode ser interrompida uma vez; e, pelo art. 9º, a prescrição interrompida recomeça a correr pela metade do prazo, da data do ato que a interrompeu ou do último ato ou termo do processo.",
+        "B": "Correta. É o art. 1º do Decreto 20.910/1932: prescrição quinquenal contra a Fazenda federal, estadual ou municipal, qualquer que seja a natureza do direito.",
+        "C": "Correta. É o art. 6º do Decreto 20.910/1932. Durante o estudo, o reconhecimento ou o pagamento da dívida pela repartição, a prescrição não corre (art. 4º).",
+        "D": "Correta. É a tese do Tema 666 do STF (RE 669.069): a reparação de danos à Fazenda decorrente de ilícito civil está sujeita a prescrição.",
+        "E": "Correta. É a tese do Tema 897 do STF (RE 852.475): a imprescritibilidade do art. 37, § 5º, da CF alcança só o ressarcimento fundado em ato doloso de improbidade."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Decreto 20.910/1932, arts. 1º, 4º, 6º, 8º e 9º",
+          "data": "1932-01-06"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 666 (RE 669.069)",
+          "data": "2016-02-03"
+        },
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 897 (RE 852.475)",
+          "data": "2018-08-08"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0089",
+      "tema": "Omissão na fiscalização: fogos de artifício (Tema 366 do STF)",
+      "enunciado": "Uma explosão ocorreu em residência na qual funcionava comércio de fogos de artifício, causando danos aos imóveis vizinhos. Os prejudicados ajuizaram ação indenizatória contra o Município, alegando omissão no dever de fiscalizar. À luz da tese fixada pelo Supremo Tribunal Federal no Tema 366 da repercussão geral, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Município responde objetivamente por qualquer dano decorrente de atividade sujeita ao poder de polícia, bastando a demonstração do dano e de que a atividade não foi fiscalizada.",
+        "B": "O Município nunca responde nesses casos, porque a omissão estatal exclui a responsabilidade civil do Estado.",
+        "C": "A responsabilidade do Município depende da comprovação de dolo do agente encarregado da fiscalização.",
+        "D": "Basta a existência genérica do dever de fiscalizar, previsto em lei municipal, para que fique caracterizada a responsabilidade do Município.",
+        "E": "É necessária a violação de um dever jurídico específico de agir, que ocorrerá quando for concedida a licença para funcionamento sem as cautelas legais ou quando for de conhecimento do poder público eventuais irregularidades praticadas pelo particular."
+      },
+      "correta": "E",
+      "dica": "O STF não transformou o Município em segurador universal nem o isentou: exigiu um dever de agir concreto, e disse quando ele existe.",
+      "explicacao": {
+        "E": "Correta. É a tese do Tema 366 (RE 136.861): para caracterizar a responsabilidade civil do Estado por danos do comércio de fogos de artifício, é preciso violação de um dever jurídico específico de agir, presente quando a licença é concedida sem as cautelas legais ou quando o poder público conhece as irregularidades do particular.",
+        "A": "O STF rejeitou a ideia de que a simples falta de fiscalização gere responsabilidade. Sem violação de dever específico de agir, não há responsabilidade do Município (Tema 366).",
+        "B": "A omissão não exclui a responsabilidade: o próprio Tema 366 indica quando ela existe (licença concedida sem cautelas ou ciência das irregularidades).",
+        "C": "A tese não exige dolo do agente fiscal. O que se exige é a violação de um dever jurídico específico de agir; a culpa ou o dolo do agente importam para o regresso (art. 37, § 6º, da CF).",
+        "D": "É exatamente o que o STF afastou: o dever genérico de fiscalizar não basta; é preciso um dever específico, nas situações descritas na tese do Tema 366."
+      },
+      "fontes": [
+        {
+          "tipo": "repercussao-geral",
+          "referencia": "STF, Tema 366 (RE 136.861)",
+          "data": "2020-03-11"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 37, § 6º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

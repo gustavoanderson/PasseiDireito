@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-09",
+    "titulo": "Fundamentos do Direito Ambiental",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "urb-0023",
+      "tema": "Meio ambiente na Constituição (art. 225)",
+      "enunciado": "De acordo com o art. 225 da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "As condutas e atividades consideradas lesivas ao meio ambiente sujeitarão os infratores, pessoas físicas ou jurídicas, a sanções penais e administrativas, independentemente da obrigação de reparar os danos causados.",
+        "B": "Incumbe ao Poder Público exigir estudo prévio de impacto ambiental para a instalação de qualquer obra ou atividade, independentemente de seu potencial de degradação.",
+        "C": "Os espaços territoriais especialmente protegidos podem ser alterados ou suprimidos por decreto do Chefe do Poder Executivo, desde que motivado.",
+        "D": "A Floresta Amazônica brasileira, a Mata Atlântica, o Cerrado e a Caatinga são patrimônio nacional.",
+        "E": "As usinas que operem com reator nuclear deverão ter sua localização definida em lei estadual, sem o que não poderão ser instaladas."
+      },
+      "correta": "A",
+      "dica": "O § 3º do art. 225 trata da tríplice responsabilidade ambiental: as esferas são independentes entre si.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 225, § 3º, da CF. É a base constitucional da independência das esferas penal, administrativa e civil, e da responsabilidade penal da pessoa jurídica por crime ambiental.",
+        "B": "O art. 225, § 1º, IV, exige o estudo prévio de impacto ambiental, a que se dará publicidade, apenas para obra ou atividade POTENCIALMENTE CAUSADORA DE SIGNIFICATIVA DEGRADAÇÃO do meio ambiente.",
+        "C": "O art. 225, § 1º, III, só permite a alteração e a supressão desses espaços \"através de lei\", vedada qualquer utilização que comprometa a integridade dos atributos que justificam sua proteção. Decreto não basta para alterar ou suprimir esses espaços.",
+        "D": "O art. 225, § 4º, lista como patrimônio nacional a Floresta Amazônica brasileira, a Mata Atlântica, a Serra do Mar, o Pantanal Mato-Grossense e a Zona Costeira. O Cerrado e a Caatinga não estão no rol, e essa troca é pegadinha frequente.",
+        "E": "O art. 225, § 6º, exige LEI FEDERAL para definir a localização das usinas nucleares. A matéria nuclear é de competência da União."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 225, §§ 1º, III e IV, 3º, 4º e 6º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0024",
+      "tema": "Conceito de meio ambiente e princípios (poluidor-pagador, usuário-pagador, prevenção, precaução)",
+      "enunciado": "Considerando a Lei nº 6.938/1981 (Política Nacional do Meio Ambiente) e a Lei nº 12.305/2010 (Política Nacional de Resíduos Sólidos), analise as assertivas abaixo.\nI. Meio ambiente é o conjunto de condições, leis, influências e interações de ordem física, química e biológica, que permite, abriga e rege a vida em todas as suas formas.\nII. Poluidor é apenas a pessoa jurídica de direito privado diretamente responsável por atividade causadora de degradação ambiental.\nIII. A Política Nacional do Meio Ambiente visará à imposição, ao poluidor e ao predador, da obrigação de recuperar e/ou indenizar os danos causados e, ao usuário, da contribuição pela utilização de recursos ambientais com fins econômicos.\nIV. A prevenção e a precaução, bem como o poluidor-pagador e o protetor-recebedor, figuram expressamente entre os princípios da Política Nacional de Resíduos Sólidos.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, III e IV estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Releia o conceito legal de poluidor no art. 3º da Lei 6.938/1981: ele é deliberadamente amplo.",
+      "explicacao": {
+        "B": "Correta. A I é o art. 3º, I, da Lei 6.938/1981; a III é o art. 4º, VII, da mesma lei, fonte legal do poluidor-pagador e do usuário-pagador; a IV é o art. 6º, I e II, da Lei 12.305/2010. A II é falsa: pelo art. 3º, IV, poluidor é a pessoa física ou jurídica, de direito público ou privado, responsável direta ou INDIRETAMENTE pela atividade degradadora.",
+        "A": "Inclui a assertiva II, que é falsa: o conceito legal de poluidor (art. 3º, IV, da Lei 6.938/1981) abrange pessoa física e jurídica, de direito público ou privado, e o responsável indireto. Omite ainda a III e a IV, verdadeiras.",
+        "C": "A assertiva II é falsa, e a alternativa omite a I e a III, que reproduzem os arts. 3º, I, e 4º, VII, da Lei 6.938/1981.",
+        "D": "Omite a assertiva I, que é verdadeira: é o conceito legal de meio ambiente do art. 3º, I, da Lei 6.938/1981.",
+        "E": "Nem todas estão corretas: a assertiva II restringe indevidamente o conceito de poluidor, que inclui pessoa física, pessoa jurídica de direito público e o responsável indireto (art. 3º, IV, da Lei 6.938/1981)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.938/1981, arts. 3º, I e IV, e 4º, VII", "data": "1981-08-31" },
+        { "tipo": "lei", "referencia": "Lei 12.305/2010, art. 6º, I e II", "data": "2010-08-02" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

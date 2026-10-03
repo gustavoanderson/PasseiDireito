@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-11",
+    "titulo": "Poder de polícia e intervenção do Estado",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "adm-0010",
+      "tema": "Delegação do poder de polícia (Tema 532/STF)",
+      "enunciado": "Um Município pretende atribuir a empresa estatal a fiscalização do trânsito, inclusive a aplicação de multas. Conforme a tese fixada pelo Supremo Tribunal Federal no Tema 532 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A delegação pode ser feita por decreto do Chefe do Poder Executivo, dispensada a edição de lei.",
+        "B": "É constitucional a delegação, por meio de lei, a pessoa jurídica de direito privado integrante da Administração indireta, de capital social majoritariamente público, que preste exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+        "C": "A delegação é admitida para sociedade de economia mista que explore atividade econômica em regime de livre concorrência, desde que o Município detenha o controle acionário.",
+        "D": "O poder de polícia pode ser delegado a empresa privada sem vínculo com a Administração, mediante contrato de concessão precedido de licitação.",
+        "E": "O STF vedou qualquer delegação do poder de polícia a pessoa jurídica de direito privado, por ser atividade típica de Estado."
+      },
+      "correta": "B",
+      "dica": "A tese do STF é uma lista de requisitos que precisam estar todos presentes. Confira: o veículo da delegação, quem é o delegatário, a composição do capital e o tipo de atividade.",
+      "explicacao": {
+        "B": "Correta. É a tese do Tema 532 (RE 633.782, caso BHTrans, julgado em 26/10/2020): é constitucional a delegação do poder de polícia, por meio de lei, a pessoas jurídicas de direito privado integrantes da Administração Pública indireta de capital social majoritariamente público que prestem exclusivamente serviço público de atuação própria do Estado e em regime não concorrencial.",
+        "A": "A tese exige que a delegação seja feita por meio de lei. Decreto não basta.",
+        "C": "A tese exige regime não concorrencial e prestação exclusiva de serviço público de atuação própria do Estado. Estatal que explora atividade econômica em concorrência não preenche os requisitos, ainda que o Município detenha o controle.",
+        "D": "O delegatário precisa integrar a Administração indireta e ter capital majoritariamente público. Empresa privada sem vínculo com a Administração, por contrato de concessão, está fora da tese.",
+        "E": "O STF não vedou toda delegação. Ao contrário, admitiu-a, desde que presentes os requisitos da tese. No caso concreto, validou a aplicação de multas de trânsito pela BHTrans, sociedade de economia mista."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 532 (RE 633.782)", "data": "2020-10-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0042",
+      "tema": "Declaração de Direitos de Liberdade Econômica (Lei 13.874/2019)",
+      "enunciado": "Com base na Lei nº 13.874/2019 (Lei da Liberdade Econômica), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É direito de toda pessoa desenvolver atividade econômica de baixo risco, para a qual se valha exclusivamente de propriedade privada própria ou de terceiros consensuais, sem a necessidade de quaisquer atos públicos de liberação da atividade econômica.",
+        "B": "A fiscalização do exercício da atividade de baixo risco dispensada de ato público de liberação será realizada posteriormente, de ofício ou como consequência de denúncia encaminhada à autoridade competente.",
+        "C": "É direito de toda pessoa não ter exigida pela administração pública direta ou indireta certidão sem previsão expressa em lei.",
+        "D": "A aprovação tácita decorrente do silêncio da autoridade, após o prazo fixado para a análise de pedido de ato público de liberação, aplica-se diretamente aos Municípios, independentemente de legislação federal ou de ato próprio do ente.",
+        "E": "São princípios que norteiam a lei, entre outros, a boa-fé do particular perante o poder público e a intervenção subsidiária e excepcional do Estado sobre o exercício de atividades econômicas."
+      },
+      "correta": "D",
+      "dica": "A lei é norma geral para Estados e Municípios, mas abre uma exceção expressa para um dos direitos do art. 3º. Releia os §§ 4º e 5º do art. 1º.",
+      "explicacao": {
+        "D": "É a resposta, porque está errada. Pelo § 5º do art. 1º, o inciso IX do art. 3º (aprovação tácita pelo decurso do prazo) não se aplica aos Estados, ao Distrito Federal e aos Municípios, exceto se o ato de liberação for derivado ou delegado por legislação ordinária federal, ou se o ente decidir vincular-se a ele por instrumento válido e próprio.",
+        "A": "Correta. É o art. 3º, I. Pelo § 1º do mesmo artigo, a classificação das atividades de baixo risco segue a legislação estadual, distrital ou municipal específica e, na falta dela, ato do Poder Executivo federal.",
+        "B": "Correta. É o § 2º do art. 3º: dispensado o ato de liberação, o poder de polícia se exerce na fase de fiscalização, depois de iniciada a atividade.",
+        "C": "Correta. É o art. 3º, XII. O § 11 completa: é ilegal delimitar prazo de validade de certidão emitida sobre fato imutável, inclusive sobre óbito.",
+        "E": "Correta. São os incisos II e III do art. 2º, ao lado da liberdade como garantia no exercício de atividades econômicas e do reconhecimento da vulnerabilidade do particular perante o Estado."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.874/2019, arts. 1º, §§ 4º e 5º, 2º e 3º", "data": "2019-09-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0043",
+      "tema": "Abuso do poder regulatório e dupla visita (Lei 13.874/2019)",
+      "enunciado": "Um Município edita regulamento sobre o funcionamento de feiras de artesanato, e seus fiscais passam a lavrar autos de infração contra os feirantes. À luz dos arts. 4º e 4º-A da Lei nº 13.874/2019, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Configura abuso do poder regulatório, salvo em estrito cumprimento a previsão explícita em lei, exigir especificação técnica que não seja necessária para atingir o fim desejado.",
+        "B": "É permitido ao regulamento criar reserva de mercado em favor dos artesãos já cadastrados, desde que por prazo determinado.",
+        "C": "Na atividade considerada de baixo ou médio risco, a lavratura de auto de infração dispensa o critério de dupla visita quando o fiscal constatar a infração pessoalmente.",
+        "D": "A Administração pode aplicar sanções com base em termos subjetivos ou abstratos, ainda que não regulamentados por critérios claros, objetivos e previsíveis, por força do poder de polícia.",
+        "E": "As vedações ao abuso do poder regulatório aplicam-se apenas à União, não alcançando regulamentos municipais."
+      },
+      "correta": "A",
+      "dica": "O art. 4º traz uma lista de condutas que a Administração deve evitar ao regulamentar; o art. 4º-A trata da forma de fiscalizar e punir.",
+      "explicacao": {
+        "A": "Correta. É o art. 4º, III, da Lei 13.874/2019: é dever da Administração, exceto em estrito cumprimento a previsão explícita em lei, evitar o abuso do poder regulatório de maneira a exigir especificação técnica que não seja necessária para atingir o fim desejado.",
+        "B": "O art. 4º, I, aponta como abuso do poder regulatório criar reserva de mercado ao favorecer, na regulação, grupo econômico ou profissional, em prejuízo dos demais concorrentes. A lei não ressalva prazo determinado.",
+        "C": "O art. 4º-A, III (incluído pela Lei 14.195/2021), impõe observar o critério de dupla visita para lavratura de autos de infração decorrentes de atividade considerada de baixo ou médio risco. A lei não prevê a exceção da constatação pessoal.",
+        "D": "O art. 4º-A, II, só admite autos de infração ou sanções com base em termos subjetivos ou abstratos quando estes forem regulamentados por critérios claros, objetivos e previsíveis.",
+        "E": "O § 4º do art. 1º diz que os arts. 1º a 4º constituem norma geral de direito econômico e serão observados também pelos Estados, pelo Distrito Federal e pelos Municípios nos atos públicos de liberação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.874/2019, arts. 1º, § 4º, 4º e 4º-A (incluído pela Lei 14.195/2021)", "data": "2021-08-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0100",
+      "tema": "Poder de polícia: definição e exercício regular (CTN, art. 78)",
+      "enunciado": "Nos termos do art. 78 do Código Tributário Nacional, que define o poder de polícia, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Considera-se regular o exercício do poder de polícia quando desempenhado pelo órgão competente, dispensada a observância do processo legal nos casos de urgência devidamente justificada.",
+        "B": "O exercício do poder de polícia, por envolver atividade vinculada, nunca comporta discricionariedade por parte da autoridade administrativa.",
+        "C": "Considera-se poder de polícia a atividade da administração pública que, limitando ou disciplinando direito, interesse ou liberdade, regula a prática de ato ou abstenção de fato, em razão de interesse público concernente, entre outros, à segurança, à higiene, à ordem, aos costumes e à disciplina da produção e do mercado.",
+        "D": "O poder de polícia alcança apenas o exercício de atividades econômicas dependentes de concessão ou autorização do Poder Público, não se estendendo à segurança, à higiene ou aos costumes.",
+        "E": "É irregular o exercício do poder de polícia sempre que a autoridade administrativa decida com base em critério discricionário, ainda que dentro dos limites da lei aplicável."
+      },
+      "correta": "C",
+      "dica": "O parágrafo único do art. 78 fixa três condições para o exercício regular do poder de polícia: o órgão, o processo e os limites da discricionariedade.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do caput do art. 78 do CTN, na redação do Ato Complementar 31/1966: a enumeração dos interesses públicos (segurança, higiene, ordem, costumes, disciplina da produção e do mercado, entre outros) é ampla, e não se restringe às atividades econômicas sujeitas a concessão ou autorização.",
+        "A": "O parágrafo único do art. 78 exige, para o exercício regular, a observância do processo legal, sem abrir exceção para casos de urgência.",
+        "B": "O parágrafo único do art. 78 admite expressamente que o poder de polícia seja exercido em atividade que a lei tenha como discricionária, desde que sem abuso ou desvio de poder: discricionariedade não é, por si só, irregularidade.",
+        "D": "O caput do art. 78 enumera, ao lado das atividades econômicas dependentes de concessão ou autorização, outros interesses, como a segurança, a higiene, a ordem e os costumes, que a alternativa indevidamente exclui.",
+        "E": "O parágrafo único do art. 78 só torna irregular o exercício discricionário quando há abuso ou desvio de poder; a mera discricionariedade dentro dos limites legais não compromete a regularidade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), art. 78, caput e parágrafo único (redação do Ato Complementar 31/1966)", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-15",
+    "titulo": "Responsabilidade fiscal (LC 101/2000)",
+    "itemEdital": 15
+  },
+  "questoes": [
+    {
+      "id": "trib-0042",
+      "tema": "Despesa com pessoal – limites e recondução",
+      "enunciado": "Com base nos arts. 19, 20, 22 e 23 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), assinale a alternativa CORRETA quanto aos Municípios.",
+      "alternativas": {
+        "A": "A despesa total com pessoal do Município não pode exceder 50% da receita corrente líquida.",
+        "B": "Na esfera municipal, o limite do Poder Legislativo, incluído o Tribunal de Contas do Município quando houver, é de 3% da receita corrente líquida.",
+        "C": "A verificação do cumprimento dos limites de despesa com pessoal é realizada ao final de cada semestre.",
+        "D": "Ultrapassado o limite, o percentual excedente terá de ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro.",
+        "E": "As vedações do parágrafo único do art. 22, como a criação de cargos, aplicam-se quando a despesa total com pessoal exceder 90% do limite."
+      },
+      "correta": "D",
+      "dica": "Municípios: 60% no total, repartidos em 6% e 54%. O controle é quadrimestral, o alerta prudencial é de 95% e a recondução tem prazo e fração mínima.",
+      "explicacao": {
+        "D": "Correta. É o caput do art. 23 da LRF: o percentual excedente terá de ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro, adotando-se, entre outras, as providências do art. 169, §§ 3º e 4º, da CF.",
+        "A": "O art. 19, III, fixa para os Municípios o limite de 60% da receita corrente líquida. O de 50% é o da União (inciso I).",
+        "B": "O art. 20, III, reparte o limite municipal em 6% para o Legislativo, incluído o Tribunal de Contas do Município quando houver, e 54% para o Executivo. O de 3% é o do Legislativo estadual.",
+        "C": "O art. 22 manda verificar o cumprimento dos limites ao final de cada quadrimestre.",
+        "E": "O parágrafo único do art. 22 aplica as vedações (vantagens, criação de cargo, alteração de carreira, provimento, hora extra) quando a despesa exceder 95% do limite, e não 90%."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 101/2000, arts. 19, 20, 22 e 23", "data": "2000-05-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0043",
+      "tema": "Final de mandato e arrecadação própria",
+      "enunciado": "Com base nos arts. 11, 21 e 42 da Lei Complementar nº 101/2000, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É vedada a realização de transferências voluntárias para o ente que não institua, preveja e arrecade efetivamente as taxas de sua competência.",
+        "B": "É nulo de pleno direito o ato de que resulte aumento da despesa com pessoal nos 90 dias anteriores ao final do mandato do titular de Poder ou órgão.",
+        "C": "Na determinação da disponibilidade de caixa para os fins do art. 42, não são considerados os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "D": "A vedação do art. 42 aplica-se durante todo o último ano do mandato do titular de Poder ou órgão.",
+        "E": "É vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do seu mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem que haja suficiente disponibilidade de caixa para este efeito."
+      },
+      "correta": "E",
+      "dica": "Três prazos parecidos: os últimos dois quadrimestres (art. 42), os 180 dias do art. 21 e nenhum prazo para o dever de arrecadar do art. 11.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 42 da LRF. O parágrafo único completa: na determinação da disponibilidade de caixa, consideram-se os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "A": "O parágrafo único do art. 11 veda as transferências voluntárias para o ente que não observe o caput no que se refere aos impostos, e não às taxas.",
+        "B": "O art. 21, II (redação da LC 173/2020), fulmina de nulidade o ato que aumente a despesa com pessoal nos 180 dias anteriores ao final do mandato, e não 90.",
+        "C": "O parágrafo único do art. 42 diz o contrário: na determinação da disponibilidade de caixa serão considerados os encargos e despesas compromissadas a pagar até o final do exercício.",
+        "D": "O art. 42 fala nos últimos dois quadrimestres do mandato (de maio a dezembro do último ano), e não em todo o último ano."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 101/2000, arts. 11, 21 (LC 173/2020) e 42", "data": "2020-05-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0078",
+      "tema": "Despesa com pessoal na LC Municipal 101/2017 (Curitiba)",
+      "enunciado": "Sobre a despesa com pessoal na Lei Complementar Municipal nº 101/2017, que estabelece normas de finanças públicas no Município de Curitiba, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A despesa total com pessoal, em cada período de apuração, não poderá exceder 60% da receita corrente líquida do Município.",
+        "B": "A repartição do limite global não poderá exceder 6% para o Legislativo e 54% para o Executivo.",
+        "C": "A despesa total com pessoal será apurada somando-se a realizada no mês em referência com as dos onze imediatamente anteriores, adotando-se o regime de competência.",
+        "D": "Se a despesa total com pessoal de cada Poder exceder 95% dos limites, deverão ser reduzidas as despesas com cargos em comissão e funções gratificadas, horas extraordinárias, contratos de Regime Integral de Trabalho e serviços terceirizados.",
+        "E": "A variação nominal da despesa total com pessoal ativo, a cada exercício, não poderá superar 80% da variação nominal da receita corrente líquida apurada no exercício anterior."
+      },
+      "correta": "D",
+      "dica": "A lei municipal criou um gatilho próprio de contenção, com um percentual diferente do limite prudencial de 95% da LRF.",
+      "explicacao": {
+        "A": "Correta. É o art. 14 da LC Municipal 101/2017, que repete o limite do art. 19, III, da LRF para os Municípios.",
+        "B": "Correta. É o art. 15 da LC Municipal 101/2017, em linha com o art. 20, III, da LRF.",
+        "C": "Correta. É o art. 13, § 2º, da LC Municipal 101/2017. O § 1º do mesmo artigo contabiliza a terceirização que substitui servidores como 'Outras Despesas de Pessoal'.",
+        "D": "Incorreta, e por isso é a resposta. O art. 19, § 1º, da LC Municipal 101/2017 aciona a redução dessas despesas quando a despesa com pessoal de cada Poder exceder 92,6% dos limites, sem prejuízo do parágrafo único do art. 22 da LRF (limite prudencial de 95%).",
+        "E": "Correta. É o art. 17 da LC Municipal 101/2017, regra sem equivalente na LRF, que se aplica inclusive à revisão geral anual e às progressões na carreira (§ 3º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 101/2017, arts. 13 a 15, 17 e 19",
+          "data": "2017-08-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0079",
+      "tema": "Incentivos e benefícios fiscais na LC Municipal 101/2017 (Curitiba)",
+      "enunciado": "De acordo com os arts. 23 a 25 da Lei Complementar Municipal nº 101/2017 (Curitiba), assinale a alternativa CORRETA sobre a concessão de incentivos e benefícios fiscais.",
+      "alternativas": {
+        "A": "A proposta técnica de solicitação de benefícios tributários deve ser previamente aprovada pela Câmara Municipal, contendo metas de investimento e obrigações das empresas beneficiadas.",
+        "B": "Os incentivos fiscais só poderão ser concedidos por tempo determinado e mediante regulamentação por decreto do Chefe do Poder Executivo.",
+        "C": "Os incentivos fiscais podem ser concedidos a contribuinte inscrito na Dívida Ativa do Município, desde que o débito esteja garantido.",
+        "D": "O contribuinte que, agindo com dolo ou má-fé, aplicar indevidamente os valores recebidos a título de incentivo deverá devolvê-los com atualização, juros de 1% ao mês e multa de 20%.",
+        "E": "A concessão de benefício de natureza tributária deve vir acompanhada de estimativa do impacto orçamentário-financeiro apenas no exercício em que deva iniciar sua vigência."
+      },
+      "correta": "B",
+      "dica": "O art. 24 atribui a aprovação da proposta técnica a um órgão do Executivo criado pela própria lei.",
+      "explicacao": {
+        "A": "Pelo art. 24, III, a proposta técnica é aprovada pelo Conselho de Gestão e Responsabilidade Fiscal do Município de Curitiba (arts. 31 e seguintes), e não pela Câmara Municipal.",
+        "B": "Correta. É o art. 24, I, da LC Municipal 101/2017: o incentivo tem prazo certo e depende de decreto do Prefeito que o regulamente.",
+        "C": "O art. 24, § 2º, II, veda a concessão de incentivos a contribuinte inscrito na Dívida Ativa do Município. Também é vedada a quem esteja irregular ou inadimplente com parcelamento (inciso IV).",
+        "D": "O art. 25 prevê multa de 40%, e não de 20%, além da atualização monetária e dos juros de 1% ao mês.",
+        "E": "O art. 23 exige a estimativa do impacto no exercício em que deva iniciar a vigência E nos dois seguintes, além da compensação ou da demonstração de que a renúncia foi considerada na estimativa de receita."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 101/2017, arts. 23 a 25",
+          "data": "2017-08-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0080",
+      "tema": "Conselho de Gestão Fiscal, publicidade e Conta Única (LC Municipal 101/2017)",
+      "enunciado": "Considere as afirmativas abaixo, com base na Lei Complementar Municipal nº 101/2017 (Curitiba).\n\nI. O Conselho de Gestão e Responsabilidade Fiscal do Município de Curitiba integra a estrutura do Poder Executivo, vincula-se à Secretaria Municipal de Finanças e é presidido pelo Secretário Municipal de Finanças.\nII. Na elaboração e execução do orçamento, os Poderes deverão observar o limite de 0,6% da receita corrente líquida para aplicação em serviços de publicidade e propaganda.\nIII. A Conta Única do Município de Curitiba deverá acolher todos os recursos de caixa do Município, inclusive os fundos de natureza previdenciária administrados pelo Instituto de Previdência dos Servidores do Município de Curitiba.\nIV. O Conselho de Gestão e Responsabilidade Fiscal reúne-se quinzenalmente e, extraordinariamente, quando convocado pelo Presidente.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "O § 5º do art. 36 lista os recursos excepcionados da Conta Única. Pense em quais recursos têm, por natureza, de ficar segregados.",
+      "explicacao": {
+        "A": "Exclui a IV, que reproduz o art. 33: o Conselho se reúne quinzenalmente e, extraordinariamente, por convocação escrita do Presidente.",
+        "B": "A III está errada (art. 36, § 5º), e a alternativa exclui as afirmativas I e IV, que estão corretas.",
+        "C": "A III está errada: o § 5º do art. 36 exclui da Conta Única os fundos previdenciários do IPMC, os fundos exclusivamente federais, os de vinculações constitucionais, os de verbas alimentares e os recursos de operações de crédito, convênios e contratos que exijam conta específica. E a alternativa exclui a II, que está correta.",
+        "D": "A III está errada, pela exceção expressa do art. 36, § 5º, da LC Municipal 101/2017.",
+        "E": "Correta. I é o art. 32, caput e inciso I; II é o art. 27, caput; IV é o art. 33 da LC Municipal 101/2017. A III contraria o art. 36, § 5º, que excepciona da Conta Única os fundos previdenciários administrados pelo IPMC, entre outros."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 101/2017, arts. 27, 32, 33 e 36",
+          "data": "2017-08-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0081",
+      "tema": "Operação de crédito por antecipação de receita (LRF, art. 38)",
+      "enunciado": "Sobre a operação de crédito por antecipação de receita orçamentária (ARO), nos termos do art. 38 da Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A operação deverá ser liquidada, com juros e outros encargos incidentes, até o dia 31 de dezembro de cada ano.",
+        "B": "A operação realizar-se-á somente a partir do décimo dia do início do exercício.",
+        "C": "A operação estará proibida no último ano de mandato do Prefeito Municipal.",
+        "D": "A operação estará proibida enquanto existir operação anterior da mesma natureza não integralmente resgatada.",
+        "E": "A operação não será autorizada se forem cobrados outros encargos que não a taxa de juros da operação, obrigatoriamente prefixada ou indexada à taxa básica financeira, ou à que vier a esta substituir."
+      },
+      "correta": "A",
+      "dica": "A ARO serve para cobrir insuficiência de caixa durante o exercício, e a LRF fixa um dia de dezembro para a liquidação que não é o último.",
+      "explicacao": {
+        "A": "Incorreta, e por isso é a resposta. O art. 38, II, da LRF manda liquidar a ARO, com juros e encargos, até o dia DEZ de dezembro de cada ano. Liquidada nesse prazo, ela não entra no cômputo da regra de ouro do art. 167, III, da Constituição (§ 1º).",
+        "B": "Correta. É o art. 38, I, da LRF: a ARO só pode ser contratada a partir do décimo dia do início do exercício.",
+        "C": "Correta. É o art. 38, IV, b, da LRF, que alcança o último ano de mandato do Presidente, do Governador ou do Prefeito.",
+        "D": "Correta. É o art. 38, IV, a, da LRF: não se contrata nova ARO enquanto a anterior não estiver integralmente resgatada.",
+        "E": "Correta. É o art. 38, III, da LRF, que admite apenas a taxa de juros, prefixada ou indexada à taxa básica financeira."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC 101/2000 (LRF), art. 38",
+          "data": "2000-05-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0082",
+      "tema": "Transparência, relatórios fiscais e prestação de contas (LRF, arts. 51 a 57 e 63)",
+      "enunciado": "Com base na Lei Complementar nº 101/2000 (Lei de Responsabilidade Fiscal), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Relatório Resumido da Execução Orçamentária será publicado até trinta dias após o encerramento de cada quadrimestre.",
+        "B": "O Relatório de Gestão Fiscal do Poder Executivo é assinado exclusivamente pelo Chefe do Poder Executivo.",
+        "C": "Os Estados e os Municípios encaminharão suas contas ao Poder Executivo da União até 30 de abril, para fins de consolidação nacional.",
+        "D": "É facultado aos Municípios com população inferior a cem mil habitantes optar por divulgar semestralmente o Relatório de Gestão Fiscal.",
+        "E": "No caso de Municípios com menos de duzentos mil habitantes, inclusive capitais, o prazo para o Tribunal de Contas emitir parecer prévio sobre as contas é de cento e oitenta dias."
+      },
+      "correta": "C",
+      "dica": "Lembre-se: RREO é bimestral; RGF é quadrimestral. E a regra dos 180 dias para o parecer prévio exclui um tipo de Município.",
+      "explicacao": {
+        "A": "O art. 52 manda publicar o RREO até trinta dias após o encerramento de cada BIMESTRE. Quadrimestral é o Relatório de Gestão Fiscal (art. 54).",
+        "B": "Pelo art. 54, parágrafo único, o RGF também é assinado pelas autoridades responsáveis pela administração financeira e pelo controle interno, além de outras definidas por ato próprio.",
+        "C": "Correta. É o art. 51, § 1º, da LRF, na redação da LC 178/2021. O descumprimento impede, até a regularização, o recebimento de transferências voluntárias e a contratação de operações de crédito, exceto as destinadas ao pagamento da dívida mobiliária (§ 2º).",
+        "D": "O art. 63 faculta a divulgação semestral aos Municípios com população inferior a CINQUENTA mil habitantes.",
+        "E": "O art. 57, § 1º, fixa o prazo de 180 dias para os Municípios que NÃO sejam capitais e tenham menos de duzentos mil habitantes. Nos demais casos, o prazo é de sessenta dias, se outro não estiver na Constituição Estadual ou na Lei Orgânica (caput)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC 101/2000 (LRF), arts. 51 (LC 178/2021), 52, 54, 57 e 63",
+          "data": "2021-01-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

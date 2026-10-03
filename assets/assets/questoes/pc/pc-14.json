@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-14",
+    "titulo": "Autocomposição na Administração de Curitiba",
+    "itemEdital": 14
+  },
+  "questoes": [
+    {
+      "id": "pc-0040",
+      "tema": "Transação e autocomposição (LC Municipal 141/2023)",
+      "enunciado": "Com base na Lei Complementar nº 141/2023 do Município de Curitiba, que dispõe sobre a solução de controvérsias, a extinção de débitos mediante transação e a autocomposição de conflitos, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Compete ao Prefeito Municipal autorizar a realização de transações para prevenir ou finalizar litígios judiciais ou extrajudiciais, por meio de decisão motivada.",
+        "B": "Para dirimir litígio, judicial ou não, em que o Município de Curitiba figure como devedor, poderá ser realizado chamamento público ou convite para celebração de acordo com deságio mínimo de 20% (vinte por cento) do valor devido ao credor, na forma do regulamento.",
+        "C": "O crédito devido ao Município, inscrito ou não em dívida ativa, poderá ser objeto de transação com parcelamento em até 60 (sessenta) prestações mensais e sucessivas.",
+        "D": "Os acordos celebrados com fundamento na lei importam em novação da dívida.",
+        "E": "Os agentes públicos que participarem do processo de composição do conflito poderão ser responsabilizados por infração disciplinar sempre que agirem com culpa."
+      },
+      "correta": "B",
+      "dica": "Na LC 141/2023, quem autoriza a transação é o chefe da advocacia pública municipal, e a proteção do agente que negocia segue o mesmo padrão da Lei 13.140/2015.",
+      "explicacao": {
+        "A": "Pelo art. 2º, caput, é o Procurador-Geral do Município quem pode autorizar as transações, em juízo de oportunidade e conveniência, por decisão motivada que demonstre o atendimento do interesse público. O § 2º permite delegar a atribuição aos procuradores, conforme regulamento.",
+        "B": "Correta. É a literalidade do art. 6º, caput. Pelo § 1º, se o acordo for celebrado em ação judicial, o pagamento será feito por obrigação de pequeno valor ou precatório, conforme o caso.",
+        "C": "O art. 7º, caput, admite parcelamento em até 120 (cento e vinte) prestações mensais e sucessivas, conforme critério de valores fixado por ato do Procurador-Geral.",
+        "D": "O art. 8º diz o contrário: os acordos não importam em novação da dívida prevista no inciso I do art. 360 do Código Civil.",
+        "E": "O art. 16 restringe a responsabilização disciplinar desses agentes aos casos em que agirem com dolo ou fraude para obter vantagem indevida para si ou para outrem, apurados em processo administrativo com contraditório e ampla defesa. Culpa não basta."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, arts. 2º, 6º, 7º, 8º e 16", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0041",
+      "tema": "Transações judiciais da Procuradoria Judicial (Decreto Municipal 1.106/2024)",
+      "enunciado": "O Decreto nº 1.106/2024, do Município de Curitiba, regulamenta a Lei Complementar Municipal nº 141/2023 quanto à celebração de transações judiciais. Sobre as normas aplicáveis à Procuradoria Judicial, analise as assertivas abaixo.\nI. Nos processos em trâmite na Justiça Comum, os Procuradores do Município, nas demandas individuais em que atuem, poderão firmar transações judiciais, desde que a pretensão econômica não ultrapasse o valor de 60 (sessenta) salários mínimos.\nII. Nos casos em que a pretensão econômica ultrapassar 60 (sessenta) salários mínimos, o acordo dependerá de autorização formal do Procurador-Geral do Município.\nIII. A celebração da transação independe de manifestação prévia da Secretaria Municipal de Planejamento, Finanças e Orçamento, bastando a cota fundamentada do Procurador.\nIV. O Procurador que realizar acordo indevido poderá ser penalizado por mera culpa.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente a assertiva I está correta.",
+        "B": "Somente as assertivas I e III estão corretas.",
+        "C": "Somente as assertivas I e II estão corretas.",
+        "D": "Somente as assertivas II e IV estão corretas.",
+        "E": "Somente as assertivas I, II e III estão corretas."
+      },
+      "correta": "C",
+      "dica": "O decreto estabelece um valor de alçada, uma autorização para o que passar dele, uma consulta obrigatória a outro órgão e um padrão de responsabilidade igual ao da LC 141/2023.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora a assertiva II, que reproduz o art. 13, § 1º, do Decreto 1.106/2024.",
+        "B": "Errada, porque inclui a assertiva III. O art. 14, parágrafo único, exige que a transação só seja realizada após ouvida previamente a SMF sobre a existência de dotação e disponibilidade orçamentária e financeira (no mesmo sentido, o art. 14 da LC 141/2023).",
+        "C": "Correta. A assertiva I reproduz o art. 13, caput, e a II, o art. 13, § 1º, do Decreto 1.106/2024 (a autorização é solicitada pelo Procurador Judicial, com encaminhamento prévio do procurador oficiante). A III contraria o art. 14, parágrafo único, e a IV contraria o art. 13, § 2º.",
+        "D": "Errada, porque inclui a assertiva IV. O art. 13, § 2º, diz que a transação só pode dar ensejo a penalidades em caso de dolo ou fraude do agente que realizar acordo indevido, \"não sendo cabível a sua responsabilização por mera culpa\".",
+        "E": "Errada, porque inclui a assertiva III, que contraria a exigência de oitiva prévia da SMF (art. 14, parágrafo único, do Decreto 1.106/2024)."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 1.106/2024, arts. 13 e 14", "data": "2024-09-27" },
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, art. 14", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0042",
+      "tema": "Dispensas de atuação processual (Decreto Municipal 1.106/2024)",
+      "enunciado": "Acerca das hipóteses em que os Procuradores da Procuradoria Judicial do Município de Curitiba ficam dispensados de atos processuais, nos termos do Decreto nº 1.106/2024, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Ficam dispensados de comparecer às audiências de conciliação designadas nas ações que tramitem nos Juizados Especiais da Fazenda Pública, devendo, em até 5 (cinco) dias do recebimento da citação ou intimação, informar o juízo sobre o não comparecimento, devidamente justificado.",
+        "B": "Ficam dispensados de interpor recursos quando a pretensão deduzida ou a decisão judicial estiver de acordo com enunciado de súmula vinculante.",
+        "C": "Fica dispensada a remessa ao contador para conferência de cálculo nas ações em que as custas processuais ou os honorários sejam inferiores a R$ 1.000,00 (mil reais).",
+        "D": "Nas hipóteses de dispensa, o Procurador deve, dentro do prazo processual, informar ao juízo a não apresentação de defesa ou recurso, com menção ao Decreto.",
+        "E": "Ficam autorizados a não apresentar contestação em ações de medicamentos e tratamentos de saúde cuja prescrição tenha sido feita por médico vinculado ao Município pelo SUS, ainda que a ação contenha pedido cumulativo de indenização."
+      },
+      "correta": "E",
+      "dica": "As autorizações para não contestar têm uma ressalva comum no § 1º do art. 17: há um tipo de pedido que obriga o Procurador a se defender.",
+      "explicacao": {
+        "A": "Afirmativa correta. É a literalidade do art. 21, I, do Decreto 1.106/2024. Nas audiências do art. 334 do CPC, o inciso II manda juntar petição informando o desinteresse, nos termos do § 5º daquele artigo.",
+        "B": "Afirmativa correta. É o art. 18, V, a. O mesmo inciso alcança súmulas do STF e do STJ, decisões em controle concentrado, repercussão geral, repetitivos e teses de IRDR e IAC.",
+        "C": "Afirmativa correta. É a literalidade do art. 20 do Decreto 1.106/2024.",
+        "D": "Afirmativa correta. É o art. 22, § 1º. O caput atribui ao procurador responsável a subsunção do caso à hipótese de dispensa.",
+        "E": "É a resposta, pois a afirmativa é falsa. A autorização existe (art. 17, III, b), mas o § 1º do art. 17 afasta as dispensas dos incisos II, III e IV quando as ações tiverem pedido cumulativo de indenização. Além disso, o § 2º manda contestar se houver incongruência no valor da causa ou na legitimidade passiva do Município."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 1.106/2024, arts. 17, 18, 20, 21 e 22", "data": "2024-09-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

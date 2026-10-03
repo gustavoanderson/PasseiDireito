@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-03",
+    "titulo": "Legislação urbanística de Curitiba",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "urb-0009",
+      "tema": "Plano Diretor de Curitiba: parcelamento, edificação ou utilização compulsórios",
+      "enunciado": "Sobre o parcelamento, a edificação ou a utilização compulsórios e o IPTU progressivo no tempo, conforme a Lei Municipal nº 14.771/2015 (Plano Diretor de Curitiba), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "o Plano Diretor de Curitiba abrange a totalidade do território do Município, considerado completamente urbano.",
+        "B": "os mecanismos aplicam-se a todos os imóveis não edificados, subutilizados ou não utilizados do Município, inclusive aos situados em unidades de conservação.",
+        "C": "o proprietário notificado dispõe de 1 ano a partir da notificação para protocolar o projeto, de 2 anos a partir da emissão do alvará de construção para iniciar as obras e de 5 anos a partir da emissão do alvará para obter a certidão de vistoria de conclusão de obra.",
+        "D": "o valor da alíquota do IPTU progressivo no tempo será o dobro da alíquota do ano anterior, respeitado o máximo de 15%, vedada a concessão de isenções ou de anistia relativas à tributação progressiva.",
+        "E": "considera-se não utilizado o imóvel constituído por uma ou mais unidades autônomas, com área computável superior a 500 m², onde haja desocupação de 75% pelo prazo de 3 anos ininterruptos."
+      },
+      "correta": "B",
+      "dica": "O Plano Diretor de Curitiba delimita onde os mecanismos incidem e, em artigo próprio, lista imóveis em que eles não se aplicam por razões ambientais.",
+      "explicacao": {
+        "B": "É a incorreta, e por isso a resposta. O art. 133 restringe os mecanismos a imóveis situados em certas áreas (macrozonas eixo estruturante, eixo de adensamento, área com predominância residencial de média densidade e área de ocupação mista; SEHIS de Vazios; operação urbana consorciada; redesenvolvimento urbano). E o art. 134 afasta expressamente sua aplicação em unidades de conservação, em imóveis com bosques nativos relevantes (cobertura florestal igual ou superior a 50%) e em imóveis com APP que comprometa 50% ou mais da área.",
+        "A": "Correto. É o art. 3º da Lei 14.771/2015: o Plano Diretor abrange a totalidade do território do Município, completamente urbano. O art. 20 repete que a área urbana é constituída da totalidade do Município.",
+        "C": "Correto. É o art. 138, I a III. Repare que a lei municipal conta o prazo para iniciar as obras da emissão do alvará de construção e acrescenta um terceiro prazo, de 5 anos, para a conclusão, que o Estatuto da Cidade não fixa.",
+        "D": "Correto. É o art. 139, §§ 1º e 3º. O Estatuto da Cidade (art. 7º, § 1º) fala em alíquota que \"não excederá a duas vezes\" a do ano anterior; o Plano Diretor de Curitiba fixou exatamente o dobro, com o mesmo teto de 15%.",
+        "E": "Correto. É a definição do art. 136, III. Não confunda com o imóvel subutilizado do inciso II, c, que exige desocupação de pelo menos 80% das unidades pelo mesmo prazo de 3 anos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 14.771/2015, arts. 3º, 133, 134, 136, 138 e 139", "data": "2015-12-17" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0010",
+      "tema": "Plano Diretor de Curitiba: SEHIS, EIV, outorga onerosa e TDC",
+      "enunciado": "De acordo com a Lei Municipal nº 14.771/2015 (Plano Diretor de Curitiba), analise as assertivas abaixo.\nI. O Setor Especial de Habitação de Interesse Social (SEHIS) classifica-se em SEHIS de Regularização Fundiária, SEHIS de Vazios e SEHIS de Produção.\nII. Será dispensada a apresentação do Estudo de Impacto de Vizinhança (EIV) quando a integralidade do seu conteúdo mínimo estiver contemplada no Estudo Prévio de Impacto Ambiental (EIA).\nIII. A outorga onerosa do direito de construir, também denominada solo criado, é a concessão emitida pelo Município para edificar acima dos índices urbanísticos básicos, mediante contrapartida financeira do setor privado, em áreas dotadas de infraestrutura.\nIV. A transferência do direito de construir só pode ser autorizada ao proprietário de imóvel urbano privado, sendo vedada em relação a imóvel público.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I, II e III estão corretas.",
+        "B": "Somente as assertivas I e IV estão corretas.",
+        "C": "Somente as assertivas II e III estão corretas.",
+        "D": "Somente as assertivas II, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "A",
+      "dica": "Lembre-se de quem pode ser proprietário do imóvel que cede o potencial construtivo: o Estatuto da Cidade, no art. 35, já dava a resposta, e o Plano Diretor a repete.",
+      "explicacao": {
+        "A": "Correta. A I é o art. 82, I a III; a II é o parágrafo único do art. 180 (a regra geral do caput é que o EIV não dispensa o EIA, mas o EIV é dispensado se o EIA já contiver todo o seu conteúdo mínimo); a III é o art. 146. A IV é falsa: o art. 152 fala em proprietário de imóvel urbano \"privado ou público\".",
+        "B": "A assertiva IV é falsa, pois o art. 152 admite a transferência do direito de construir para imóvel urbano privado ou público. E a alternativa omite a II e a III, verdadeiras (arts. 180, parágrafo único, e 146).",
+        "C": "Omite a assertiva I, que é verdadeira: o art. 82 classifica o SEHIS em de Regularização Fundiária, de Vazios e de Produção.",
+        "D": "Inclui a assertiva IV, que é falsa (art. 152: imóvel urbano privado ou público), e omite a I, que é verdadeira (art. 82).",
+        "E": "A assertiva IV é falsa. O art. 152 do Plano Diretor, repetindo o art. 35 do Estatuto da Cidade, autoriza a transferência ao proprietário de imóvel urbano privado ou público."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 14.771/2015, arts. 82, 146, 152 e 180", "data": "2015-12-17" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0011",
+      "tema": "Potencial construtivo adicional (Lei Municipal 16.361/2024)",
+      "enunciado": "Considerando a Lei Municipal nº 16.361/2024, que dispõe sobre a concessão de potencial construtivo adicional em Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os instrumentos de aquisição do potencial construtivo adicional são a outorga onerosa do direito de construir, a transferência do direito de construir e a operação urbana consorciada.",
+        "B": "Nos acréscimos de potencial construtivo adicional para um mesmo empreendimento, em regra, 70% do total desejado será realizado por meio de outorga onerosa e 30% por meio de transferência do direito de construir.",
+        "C": "Os recursos arrecadados com a outorga onerosa destinam-se em 50% a programas de habitação de interesse social e regularização fundiária, vinculados ao Fundo Municipal de Habitação de Interesse Social.",
+        "D": "O prazo de validade da certidão da outorga onerosa e da certidão de Cotas de Potencial Construtivo é de 2 anos, contados da emissão, sem possibilidade de prorrogação.",
+        "E": "Cada Cota de Potencial Construtivo equivale a 1 m² de área construída, e os recursos auferidos com os instrumentos de aquisição de potencial construtivo adicional somente poderão ser utilizados em investimentos e outras despesas de capital."
+      },
+      "correta": "E",
+      "dica": "A lei municipal divide o acréscimo entre dois instrumentos em partes iguais e reserva a maior fatia dos recursos à habitação de interesse social.",
+      "explicacao": {
+        "E": "Correta. O parágrafo único do art. 31 da Lei 16.361/2024 diz que cada Cota de Potencial Construtivo equivale a 1 m² de área construída, e o art. 33 restringe o uso dos recursos dos instrumentos a investimentos e outras despesas de capital.",
+        "A": "O art. 2º lista a Outorga Onerosa do Direito de Construir (OODC), a Transferência do Direito de Construir (TDC) e as COTAS DE POTENCIAL CONSTRUTIVO (CPC). A operação urbana consorciada é outro instrumento do Estatuto da Cidade e não integra esse rol.",
+        "B": "Os arts. 11 e 19 fixam a divisão em 50% por OODC e 50% por TDC. O § 1º do art. 11 traz exceções em que o acréscimo é 100% por OODC (empreendimentos de saúde no SEAHM e equipamentos públicos de caráter social).",
+        "C": "O art. 6º, I, destina 70% dos recursos a programas de habitação de interesse social e regularização fundiária, vinculados ao FMHIS. Os demais percentuais são de 5%, 5%, 10% e até 10%.",
+        "D": "O art. 35 fixa validade de 4 anos, contados da emissão, prorrogável por até 4 anos adicionais, mediante pedido à SMU e pagamento de taxa de 1% do valor pago (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.361/2024, arts. 2º, 6º, 11, 19, 31, 33 e 35", "data": "2024-06-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0012",
+      "tema": "Zoneamento, uso e ocupação do solo (Lei Municipal 15.511/2019)",
+      "enunciado": "Acerca da Lei Municipal nº 15.511/2019, que dispõe sobre o zoneamento, uso e ocupação do solo no Município de Curitiba, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "são usos permitidos as atividades que apresentam compatibilidade com as finalidades urbanísticas do eixo, zona ou setor especial correspondente.",
+        "B": "os usos permissíveis e omissos serão apreciados, em grau de recurso, pela Câmara Municipal de Curitiba, que poderá indicar parâmetros de ocupação menos restritivos do que os estabelecidos na lei.",
+        "C": "o coeficiente de aproveitamento máximo é o coeficiente de aproveitamento básico acrescido do coeficiente decorrente da outorga onerosa ou da transferência do direito de construir permitidos para cada eixo, zona ou setor especial.",
+        "D": "zoneamento é a divisão do território do Município visando a dar a cada região melhor utilização em função do sistema viário, topografia, transporte e infraestrutura existente, por meio da criação de eixos, zonas e setores especiais.",
+        "E": "as disposições da lei deverão ser observadas obrigatoriamente na concessão de alvarás de construção e no parcelamento do solo."
+      },
+      "correta": "B",
+      "dica": "A análise caso a caso dos usos que dependem de exame específico cabe a um órgão técnico colegiado do Executivo, e não ao Legislativo.",
+      "explicacao": {
+        "B": "É a incorreta, e por isso a resposta. Pelo art. 188, § 1º, quem aprecia os usos permissíveis e omissos em grau de recurso é o CONSELHO MUNICIPAL DE URBANISMO (CMU), ouvidos os demais órgãos competentes. A Câmara Municipal não decide casos concretos de uso do solo.",
+        "A": "Correto. É o art. 188, I. A lei classifica os usos em permitidos, permissíveis (dependem de análise específica para cada caso) e omissos (não contemplados explicitamente).",
+        "C": "Correto. É o art. 193. O coeficiente básico (art. 192) multiplicado pela área do lote define a área computável básica; o máximo depende da aquisição de potencial adicional, hoje regulada pela Lei 16.361/2024.",
+        "D": "Correto. É o conceito do art. 6º. O art. 4º acrescenta que, para compartimentar as macrozonas do Plano Diretor, o Município se divide em eixos, zonas e setores especiais.",
+        "E": "Correto. É o art. 5º, I e V, que também inclui os alvarás de localização de usos e atividades, a execução de planos, programas, projetos, obras e serviços e a urbanização de área."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 15.511/2019, arts. 4º, 5º, 6º, 188, 192 e 193", "data": "2019-10-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-11",
+    "titulo": "Processo judicial tributário e execução fiscal",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "trib-0033",
+      "tema": "Execução fiscal – citação e embargos",
+      "enunciado": "Com base nos arts. 8º, 16 e 17 da Lei nº 6.830/1980 (Lei de Execução Fiscal), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O executado será citado para, no prazo de 15 dias, pagar a dívida ou garantir a execução.",
+        "B": "Nos embargos à execução fiscal admitem-se a reconvenção e a compensação, desde que alegadas no prazo dos embargos.",
+        "C": "Recebidos os embargos, a Fazenda será intimada para impugná-los no prazo de 15 dias.",
+        "D": "O executado ausente do País será citado por edital, com prazo de 30 dias.",
+        "E": "O executado oferecerá embargos no prazo de 30 dias, contados do depósito, da juntada da prova da fiança bancária ou do seguro garantia, ou da intimação da penhora, e não são admissíveis embargos antes de garantida a execução."
+      },
+      "correta": "E",
+      "dica": "Na LEF, pagar ou garantir tem prazo curto, e embargar e impugnar têm o mesmo prazo. Lembre também o que o § 3º do art. 16 proíbe.",
+      "explicacao": {
+        "E": "Correta. É o art. 16, I a III, da LEF (inciso II na redação da Lei 13.043/2014), com o § 1º: não são admissíveis embargos do executado antes de garantida a execução.",
+        "A": "O art. 8º da LEF fixa o prazo de 5 dias para o executado pagar a dívida com juros, multa e encargos, ou garantir a execução.",
+        "B": "O § 3º do art. 16 da LEF diz que não será admitida reconvenção, nem compensação, nos embargos.",
+        "C": "O art. 17 da LEF dá à Fazenda 30 dias para impugnar os embargos, o mesmo prazo que o executado tem para opô-los.",
+        "D": "O § 1º do art. 8º prevê citação por edital com prazo de 60 dias para o executado ausente do País. O prazo de 30 dias é o do edital comum (art. 8º, IV)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, arts. 8º, 16 e 17 (Lei 13.043/2014)",
+          "data": "2014-11-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0034",
+      "tema": "Prescrição intercorrente na execução fiscal",
+      "enunciado": "Com base no art. 40 da Lei nº 6.830/1980 e na Súmula 314 do STJ, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Não localizados bens penhoráveis, suspende-se o processo por um ano, findo o qual se inicia o prazo da prescrição quinquenal intercorrente, que pode ser reconhecida de ofício pelo juiz, depois de ouvida a Fazenda Pública.",
+        "B": "Durante a suspensão da execução por não localização do devedor ou de bens penhoráveis, o prazo de prescrição continua correndo normalmente.",
+        "C": "A prescrição intercorrente depende de requerimento do executado, sendo vedado ao juiz reconhecê-la de ofício.",
+        "D": "Arquivados os autos, a execução não poderá ser retomada, ainda que posteriormente encontrados bens penhoráveis.",
+        "E": "A oitiva prévia da Fazenda Pública é indispensável em qualquer caso antes do reconhecimento da prescrição intercorrente, qualquer que seja o valor da cobrança."
+      },
+      "correta": "A",
+      "dica": "Encadeie os parágrafos do art. 40: suspensão, vista à Fazenda, arquivamento após o prazo máximo, desarquivamento e reconhecimento da prescrição.",
+      "explicacao": {
+        "A": "Correta. Combina a Súmula 314 do STJ (suspensão por um ano, findo o qual se inicia o prazo quinquenal) com o § 4º do art. 40 da LEF: decorrido o prazo prescricional, o juiz, depois de ouvida a Fazenda, pode reconhecer de ofício a prescrição intercorrente.",
+        "B": "O caput do art. 40 diz que, nos casos de suspensão por não localização do devedor ou de bens, não correrá o prazo de prescrição. O prazo intercorrente só começa depois do período de suspensão.",
+        "C": "O § 4º do art. 40 (Lei 11.051/2004) autoriza expressamente o juiz a reconhecer de ofício a prescrição intercorrente, depois de ouvida a Fazenda Pública.",
+        "D": "O § 3º do art. 40 diz que, encontrados a qualquer tempo o devedor ou os bens, os autos serão desarquivados para prosseguimento da execução.",
+        "E": "O § 5º do art. 40 (Lei 11.960/2009) dispensa a manifestação prévia da Fazenda nas cobranças judiciais de valor inferior ao mínimo fixado por ato do Ministro da Fazenda."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 40 (Leis 11.051/2004 e 11.960/2009)",
+          "data": "2009-06-29"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 314",
+          "data": "2005-12-12"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0035",
+      "tema": "CDA, substituição e exceção de pré-executividade",
+      "enunciado": "Considere as afirmativas abaixo.\n\nI. A Fazenda Pública pode substituir a certidão de dívida ativa até a prolação da sentença de embargos, quando se tratar de correção de erro material ou formal, vedada a modificação do sujeito passivo da execução.\nII. A exceção de pré-executividade é admissível na execução fiscal relativamente às matérias conhecíveis de ofício que não demandem dilação probatória.\nIII. A petição inicial da execução fiscal deve ser instruída com o demonstrativo de cálculo do débito, sob pena de indeferimento.\nIV. A presunção de certeza e liquidez da dívida ativa regularmente inscrita é absoluta, não podendo ser afastada por prova do executado.\n\nCom base na Lei nº 6.830/1980 e nas Súmulas 392, 393 e 559 do STJ, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I e II estão corretas.",
+        "D": "Somente as afirmativas I, II e III estão corretas.",
+        "E": "Somente as afirmativas II, III e IV estão corretas."
+      },
+      "correta": "C",
+      "dica": "O art. 6º da LEF diz o que a petição inicial indica apenas, e o parágrafo único do art. 3º qualifica a presunção da dívida ativa.",
+      "explicacao": {
+        "C": "Correta. I é a Súmula 392 do STJ (ver também o art. 2º, § 8º, da LEF) e II é a Súmula 393 do STJ. A III contraria a Súmula 559 do STJ e a IV contraria o art. 3º, parágrafo único, da LEF.",
+        "A": "A III está errada: pela Súmula 559 do STJ, é desnecessária a instrução da inicial com o demonstrativo de cálculo, por não ser requisito do art. 6º da LEF, que exige apenas a CDA. E a alternativa exclui a II, que é a Súmula 393.",
+        "B": "A IV está errada: o parágrafo único do art. 3º da LEF (e o art. 204, parágrafo único, do CTN) diz que a presunção é relativa e pode ser ilidida por prova inequívoca, a cargo do executado ou de terceiro. E a alternativa exclui a I.",
+        "D": "Inclui a III, contrária à Súmula 559 do STJ: o demonstrativo de cálculo não é requisito da petição inicial da execução fiscal.",
+        "E": "Inclui a III (contrária à Súmula 559 do STJ) e a IV (contrária ao art. 3º, parágrafo único, da LEF: a presunção é relativa), e exclui a I, que reproduz a Súmula 392."
+      },
+      "fontes": [
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmulas 392 e 393",
+          "data": "2009-09-23"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 559",
+          "data": "2015-12-09"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, arts. 2º, § 8º, 3º e 6º",
+          "data": "1980-09-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0036",
+      "tema": "Medida cautelar fiscal (Lei 8.397/1992)",
+      "enunciado": "Com base na Lei nº 8.397/1992, que institui a medida cautelar fiscal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A medida cautelar fiscal só pode ser requerida antes da constituição do crédito, pois depois dela a Fazenda dispõe da execução fiscal.",
+        "B": "O juiz concederá liminarmente a medida, dispensada a Fazenda de justificação prévia e de caução, e a decretação produz de imediato a indisponibilidade dos bens do requerido, até o limite da satisfação da obrigação; na pessoa jurídica, a indisponibilidade recai somente sobre os bens do ativo permanente, podendo ser estendida a controladores e administradores nas hipóteses legais.",
+        "C": "O requerido será citado para contestar o pedido no prazo de 5 dias.",
+        "D": "A medida cautelar fiscal deve ser requerida ao juízo do domicílio do requerido, ainda que diverso do competente para a execução fiscal.",
+        "E": "Para a concessão da medida basta a prova testemunhal de qualquer das hipóteses do art. 2º, dispensada a prova da constituição do crédito."
+      },
+      "correta": "B",
+      "dica": "Os arts. 3º, 4º, 5º, 7º e 8º tratam, respectivamente, das provas, dos efeitos, da competência, da liminar e do prazo de contestação.",
+      "explicacao": {
+        "B": "Correta. O art. 7º manda conceder liminarmente a medida, dispensada a Fazenda de justificação prévia e de caução; o art. 4º dá o efeito imediato de indisponibilidade até o limite da obrigação; e o § 1º do art. 4º limita a indisponibilidade da pessoa jurídica ao ativo permanente, com extensão possível a controlador e administradores.",
+        "A": "O art. 1º (redação da Lei 9.532/1997) diz que o procedimento pode ser instaurado após a constituição do crédito, inclusive no curso da execução fiscal. Só nas hipóteses do art. 2º, V, b, e VII dispensa-se a prévia constituição (parágrafo único).",
+        "C": "O art. 8º dá ao requerido 15 dias para contestar o pedido, indicando as provas que pretende produzir.",
+        "D": "O art. 5º atribui a competência ao juiz competente para a execução judicial da Dívida Ativa; se a execução estiver no tribunal, ao relator do recurso.",
+        "E": "O art. 3º exige prova literal da constituição do crédito fiscal e prova documental de algum dos casos do art. 2º."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.397/1992, arts. 1º a 8º (Lei 9.532/1997)",
+          "data": "1997-12-10"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0037",
+      "tema": "Ações do contribuinte: anulatória, repetição e mandado de segurança",
+      "enunciado": "Com base nos arts. 168 e 169 do CTN, no art. 38 da Lei nº 6.830/1980 e nas Súmulas 213 e 460 do STJ, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O direito de pleitear a restituição do tributo pago indevidamente extingue-se em dez anos, contados do pagamento.",
+        "B": "O mandado de segurança não é ação adequada para a declaração do direito à compensação tributária.",
+        "C": "É cabível o mandado de segurança para convalidar a compensação tributária já realizada pelo contribuinte.",
+        "D": "A ação anulatória da decisão administrativa que denegar a restituição prescreve em dois anos.",
+        "E": "A propositura de ação anulatória pelo contribuinte não afeta o recurso administrativo pendente, que prossegue normalmente."
+      },
+      "correta": "D",
+      "dica": "Há dois prazos no CTN para quem quer o dinheiro de volta: um para pleitear a restituição e outro, mais curto, para anular a decisão que a negou.",
+      "explicacao": {
+        "D": "Correta. É o art. 169 do CTN: prescreve em dois anos a ação anulatória da decisão administrativa que denegar a restituição. O parágrafo único prevê a interrupção pelo início da ação, com recontagem pela metade.",
+        "A": "O art. 168 do CTN fixa o prazo de 5 anos, contados, nas hipóteses do art. 165, I e II, da extinção do crédito tributário, e, na hipótese do inciso III, da decisão definitiva que reformou, anulou ou rescindiu a condenação.",
+        "B": "A Súmula 213 do STJ diz o contrário: o mandado de segurança constitui ação adequada para a declaração do direito à compensação tributária.",
+        "C": "A Súmula 460 do STJ diz que é incabível o mandado de segurança para convalidar a compensação tributária realizada pelo contribuinte.",
+        "E": "O parágrafo único do art. 38 da LEF diz que a propositura da ação importa renúncia ao poder de recorrer na esfera administrativa e desistência do recurso acaso interposto. A mesma regra está hoje no art. 208-E, parágrafo único, do CTN."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 168 e 169",
+          "data": "1966-10-25"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 38",
+          "data": "1980-09-22"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 213",
+          "data": "1998-09-23"
+        },
+        {
+          "tipo": "sumula",
+          "referencia": "STJ, Súmula 460",
+          "data": "2010-08-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0047",
+      "tema": "Execução fiscal – penhora, garantia e substituição",
+      "enunciado": "Acerca da garantia da execução e da penhora na Lei nº 6.830/1980, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a penhora ou arresto de bens obedecerá a uma ordem legal que se inicia pelo dinheiro.",
+        "B": "excepcionalmente, a penhora poderá recair sobre estabelecimento comercial, industrial ou agrícola, bem como em plantações ou edifícios em construção.",
+        "C": "em qualquer fase do processo, será deferida ao executado a substituição da penhora por depósito em dinheiro, fiança bancária ou seguro garantia.",
+        "D": "somente a penhora de bens, e não o depósito em dinheiro, faz cessar a responsabilidade do executado pela atualização monetária e pelos juros de mora.",
+        "E": "em qualquer fase do processo, será deferida à Fazenda Pública a substituição dos bens penhorados por outros, independentemente da ordem legal, bem como o reforço da penhora insuficiente."
+      },
+      "correta": "D",
+      "dica": "O § 4º do art. 9º da LEF destaca uma única forma de garantia com efeito sobre os encargos da dívida.",
+      "explicacao": {
+        "D": "É a resposta. O § 4º do art. 9º da LEF diz o oposto: somente o depósito em dinheiro, na forma do art. 32, faz cessar a responsabilidade pela atualização monetária e juros de mora.",
+        "A": "Correto. O art. 11 da LEF estabelece a ordem da penhora ou arresto, começando pelo dinheiro (inciso I) e terminando em direitos e ações (inciso VIII).",
+        "B": "Correto. É o § 1º do art. 11 da LEF: a penhora pode recair, excepcionalmente, sobre estabelecimento comercial, industrial ou agrícola, plantações ou edifícios em construção.",
+        "C": "Correto. É o art. 15, I, da LEF, na redação da Lei 13.043/2014, que incluiu o seguro garantia ao lado do depósito e da fiança bancária.",
+        "E": "Correto. É o art. 15, II, da LEF: à Fazenda cabe pedir a substituição dos bens penhorados, independentemente da ordem do art. 11, e o reforço da penhora insuficiente."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, arts. 9º, § 4º, 11 e 15 (Lei 13.043/2014)",
+          "data": "2014-11-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

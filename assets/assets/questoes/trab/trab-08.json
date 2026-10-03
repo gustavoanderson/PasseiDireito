@@ -1,0 +1,63 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-08",
+    "titulo": "Execução trabalhista",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "trab-0015",
+      "tema": "Execução: iniciativa, citação, embargos, protesto e prescrição intercorrente",
+      "enunciado": "Sobre a execução trabalhista, nos termos da Consolidação das Leis do Trabalho, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A execução será promovida pelas partes, permitida a execução de ofício pelo juiz ou pelo Presidente do Tribunal apenas nos casos em que as partes não estiverem representadas por advogado.",
+        "B": "Requerida a execução, o executado será citado para que, tratando-se de pagamento em dinheiro, o faça em 48 horas ou garanta a execução, sob pena de penhora.",
+        "C": "A decisão judicial transitada em julgado poderá ser levada a protesto ou gerar a inscrição do nome do executado no Banco Nacional de Devedores Trabalhistas imediatamente após a citação, ainda que não haja garantia do juízo.",
+        "D": "Garantida a execução ou penhorados os bens, terá o executado 5 dias para apresentar embargos, cabendo igual prazo ao exequente para impugnação.",
+        "E": "Ocorre a prescrição intercorrente no processo do trabalho no prazo de dois anos, e sua declaração pode ser requerida ou declarada de ofício em qualquer grau de jurisdição."
+      },
+      "correta": "C",
+      "dica": "A Reforma Trabalhista criou um prazo de espera antes das medidas de restrição de crédito contra o executado sem garantia do juízo.",
+      "explicacao": {
+        "C": "É a resposta, porque a alternativa está errada. O art. 883-A da CLT só permite o protesto, a inscrição em órgãos de proteção ao crédito ou no BNDT depois de transcorrido o prazo de QUARENTA E CINCO dias a contar da citação do executado, se não houver garantia do juízo.",
+        "A": "Correta. É o art. 878 da CLT, com redação da Lei 13.467/2017. A execução de ofício passou a ser exceção, restrita ao jus postulandi (partes sem advogado).",
+        "B": "Correta. É o art. 880 da CLT: o mandado de citação manda pagar em 48 horas, inclusive as contribuições sociais devidas à União, ou garantir a execução, sob pena de penhora.",
+        "D": "Correta. É o art. 884, caput, da CLT. A matéria dos embargos é restrita ao cumprimento da decisão ou do acordo, à quitação e à prescrição da dívida (§ 1º).",
+        "E": "Correta. É o art. 11-A da CLT. O prazo de dois anos começa quando o exequente deixa de cumprir determinação judicial no curso da execução (§ 1º), e pode ser declarado de ofício (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, arts. 11-A, 878 e 883-A (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, arts. 880 e 884", "data": "1943-05-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0016",
+      "tema": "Títulos executivos, contribuições sociais, embargos e agravo de petição",
+      "enunciado": "Considere as assertivas abaixo, sobre a execução no processo do trabalho, nos termos da Consolidação das Leis do Trabalho.\n\nI. Os termos de ajuste de conduta firmados perante o Ministério Público do Trabalho e os termos de conciliação firmados perante as Comissões de Conciliação Prévia serão executados pela forma estabelecida na CLT.\nII. A Justiça do Trabalho executará, de ofício, as contribuições sociais previstas no art. 195, I, a, e II, da Constituição Federal, e seus acréscimos legais, relativas ao objeto da condenação constante das sentenças que proferir e dos acordos que homologar.\nIII. Nos embargos à execução, a matéria de defesa será restrita às alegações de cumprimento da decisão ou do acordo, quitação ou prescrição da dívida.\nIV. Das decisões do juiz nas execuções cabe agravo de instrumento, no prazo de oito dias.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, II e III estão corretas.",
+        "C": "Somente as assertivas II, III e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "B",
+      "dica": "O art. 897 da CLT prevê dois agravos de 8 dias com nomes diferentes: um para a execução, outro para destrancar recurso.",
+      "explicacao": {
+        "B": "Correta. A assertiva I é o art. 876, caput, da CLT; a II, o parágrafo único do art. 876 (redação da Lei 13.467/2017), que concretiza o art. 114, VIII, da CF; a III, o art. 884, § 1º. A IV está errada.",
+        "A": "Incompleta: a assertiva III também está correta, pois reproduz o art. 884, § 1º, da CLT.",
+        "C": "A assertiva IV está errada: das decisões do juiz nas execuções cabe agravo DE PETIÇÃO (art. 897, a, da CLT). O agravo de instrumento cabe dos despachos que denegarem a interposição de recursos (art. 897, b). E a assertiva I, correta, ficou de fora.",
+        "D": "A assertiva IV está errada (o recurso na execução é o agravo de petição, art. 897, a), e as assertivas I e II, que reproduzem o art. 876 da CLT, estão corretas e foram omitidas.",
+        "E": "A assertiva IV está errada. O prazo de oito dias está certo, mas o recurso cabível contra decisões na execução é o agravo de petição, e não o de instrumento (art. 897, a e b, da CLT)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 876 (Lei 9.958/2000 e Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, arts. 884, § 1º, e 897, a e b (Lei 8.432/1992)", "data": "1992-06-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

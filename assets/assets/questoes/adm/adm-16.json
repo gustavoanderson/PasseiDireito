@@ -1,0 +1,137 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-16",
+    "titulo": "Controle da Administração, LAI e controle interno",
+    "itemEdital": 16
+  },
+  "questoes": [
+    {
+      "id": "adm-0051",
+      "tema": "Pedido de acesso e classificação de informações (Lei 12.527/2011)",
+      "enunciado": "Com base na Lei nº 12.527/2011 (Lei de Acesso à Informação), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informações de interesse público.",
+        "B": "Não sendo possível conceder o acesso imediato, o órgão deverá responder em prazo não superior a 30 (trinta) dias, prorrogável por mais 15 (quinze) dias, mediante justificativa expressa.",
+        "C": "Os prazos máximos de restrição de acesso à informação classificada como ultrassecreta, secreta e reservada são, respectivamente, de 25, 15 e 5 anos, contados da data de sua produção.",
+        "D": "Transcorrido o prazo de classificação ou consumado o evento que defina o seu termo final, a informação tornar-se-á, automaticamente, de acesso público.",
+        "E": "O serviço de busca e de fornecimento de informação é gratuito."
+      },
+      "correta": "B",
+      "dica": "A LAI tem dois pares de números que costumam ser trocados: os prazos de resposta ao pedido e os prazos de sigilo por grau de classificação.",
+      "explicacao": {
+        "B": "É a resposta, porque está errada. Pelo art. 11, § 1º, o prazo é de até 20 (vinte) dias e, pelo § 2º, pode ser prorrogado por mais 10 (dez) dias, mediante justificativa expressa da qual se cientifique o requerente.",
+        "A": "Correta. É o § 3º do art. 10. O cidadão não precisa explicar por que quer a informação de interesse público.",
+        "C": "Correta. É o § 1º do art. 24: ultrassecreta, 25 anos; secreta, 15 anos; reservada, 5 anos, a partir da data de produção da informação.",
+        "D": "Correta. É o § 4º do art. 24. O sigilo é temporário, e a abertura não depende de novo ato da Administração.",
+        "E": "Correta. É o caput do art. 12, na redação dada pela Lei 14.129/2021. O parágrafo único trata apenas do ressarcimento de custos de reprodução, com isenção para quem não puder pagá-los."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.527/2011, arts. 10, 11, 12 e 24 (art. 12 com redação da Lei 14.129/2021)", "data": "2021-03-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0052",
+      "tema": "Controladoria-Geral do Município e linhas de defesa (Lei Municipal 16.268/2023)",
+      "enunciado": "A Lei Municipal nº 16.268/2023 dispõe sobre a Controladoria Geral do Município de Curitiba e sobre a Política Municipal de Governança. Segundo essa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A Controladoria Geral do Município é órgão vinculado à Procuradoria-Geral do Município e exerce a função de corregedoria dentro do Sistema de Controle Interno.",
+        "B": "A primeira linha de defesa é integrada pelo órgão central do Sistema de Controle Interno, responsável pelas atividades da Controladoria.",
+        "C": "O cargo de Controlador Geral do Município deve ser ocupado obrigatoriamente por servidor efetivo com formação em Direito.",
+        "D": "Os servidores da Controladoria respondem por suas opiniões técnicas e recomendações em qualquer hipótese de culpa, ainda que leve.",
+        "E": "A Controladoria Geral do Município é órgão central do Sistema de Controle Interno, vinculado diretamente ao Prefeito, e exercerá suas atribuições preferencialmente de modo preventivo."
+      },
+      "correta": "E",
+      "dica": "A lei separa bem as funções: quem é o órgão central do controle interno, a quem ele se vincula, e quem exerce a corregedoria. Nas linhas de defesa, a numeração vai de quem executa a gestão até o órgão central.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 1º (órgão central do Sistema de Controle Interno, vinculado diretamente ao Prefeito) combinado com o seu § 1º (atuação preferencialmente preventiva, sem elidir os controles próprios de cada sistema nem o controle administrativo inerente a cada dirigente).",
+        "A": "A Controladoria é vinculada diretamente ao Prefeito (art. 1º). A função de corregedoria no Sistema de Controle Interno compete à Procuradoria-Geral do Município (art. 15), que também presta com exclusividade assessoria jurídica à Controladoria (art. 16).",
+        "B": "Pelo art. 3º, § 3º, a primeira linha é integrada pelas autoridades e agentes que gerenciam a execução dos programas; a segunda, pelas assessorias jurídicas, núcleos de controladoria e comitês; a terceira, pelo órgão central do Sistema de Controle Interno.",
+        "C": "O art. 6º diz que o cargo será ocupado \"preferencialmente\" por servidor do Município, com formação superior em áreas relacionadas ao controle, como Direito, Administração, Ciências Contábeis, Economia e Gestão Pública, e mais de 5 anos de experiência na área.",
+        "D": "O § 2º do art. 10 afasta a responsabilização dos servidores da Controladoria por suas opiniões técnicas e recomendações, exceto nas hipóteses de dolo ou culpa grave."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.268/2023, arts. 1º, 3º, 6º, 10, 15 e 16 (DOM nº 230, de 11/12/2023)", "data": "2023-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0053",
+      "tema": "Governança, prerrogativas da CGM e PAR (Lei Municipal 16.268/2023)",
+      "enunciado": "Analise as afirmativas a seguir, relativas à Lei Municipal nº 16.268/2023, de Curitiba.\n\nI. São princípios da governança pública, entre outros, a capacidade de resposta, a integridade, a confiabilidade e a transparência.\nII. São prerrogativas do Controlador Geral e dos servidores no exercício das atribuições da Controladoria o livre ingresso em órgãos e entidades do Poder Executivo Municipal e o acesso irrestrito a todos os documentos e informações necessários ao exercício de suas funções.\nIII. A apuração da responsabilidade administrativa de pessoa jurídica que possa resultar nas sanções do art. 6º da Lei nº 12.846/2013 será feita por meio de Processo Administrativo de Responsabilização (PAR).\nIV. A Controladoria Geral do Município não pode avocar processos de responsabilização já instaurados em outros órgãos, em respeito à competência originária.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, II e III estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Uma das afirmativas nega uma prerrogativa que a lei dá expressamente à Controladoria em situações de omissão ou de repercussão da matéria.",
+      "explicacao": {
+        "C": "Correta. I reproduz o parágrafo único do art. 2º; II, os incisos I e II do art. 10; III, o art. 17. A IV está errada: o art. 18, II, dá à Controladoria a prerrogativa de avocar processos de responsabilização já instaurados, quando houver omissão da autoridade originária, falta de condições objetivas para o processamento ou repercussão e complexidade que atinjam mais de um órgão.",
+        "A": "Deixa de fora a III, que está correta: o art. 17 manda apurar a responsabilidade da pessoa jurídica por meio de Processo Administrativo de Responsabilização (PAR).",
+        "B": "A IV está errada (o art. 18, II, prevê a avocação pela Controladoria), e a alternativa deixa de fora I e III, que reproduzem o parágrafo único do art. 2º e o art. 17.",
+        "D": "Inclui a IV, que contraria o art. 18, II, e deixa de fora a II, que reproduz as prerrogativas de livre ingresso e acesso irrestrito do art. 10, I e II.",
+        "E": "Nem todas estão corretas. A IV contraria o art. 18, II, que autoriza a Controladoria a avocar processos de responsabilização em hipóteses como a omissão da autoridade originariamente competente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.268/2023, arts. 2º, 10, 17 e 18 (DOM nº 230, de 11/12/2023)", "data": "2023-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0102",
+      "tema": "Controle externo do Município (CF, art. 31)",
+      "enunciado": "Sobre a fiscalização do Município, nos termos do art. 31 da Constituição Federal, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É permitida a criação de novos Tribunais, Conselhos ou Órgãos de Contas Municipais, desde que autorizada por lei complementar estadual.",
+        "B": "A fiscalização do Município será exercida pelo Poder Legislativo Municipal, mediante controle externo, e pelos sistemas de controle interno do Poder Executivo Municipal, na forma da lei.",
+        "C": "O controle externo da Câmara Municipal será exercido com o auxílio dos Tribunais de Contas dos Estados ou do Município ou dos Conselhos ou Tribunais de Contas dos Municípios, onde houver, vedada sua extinção, criação ou instalação.",
+        "D": "O parecer prévio, emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar, só deixará de prevalecer por decisão de dois terços dos membros da Câmara Municipal.",
+        "E": "As contas dos Municípios ficarão, durante sessenta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação, o qual poderá questionar-lhes a legitimidade, nos termos da lei."
+      },
+      "correta": "A",
+      "dica": "O § 4º do art. 31 trata da criação de novos órgãos de contas municipais. Compare com o § 1º, que fala da extinção, criação ou instalação dos órgãos já existentes.",
+      "alerta": "Mudança recente: a Emenda Constitucional nº 139/2026 (publicada em 05/05/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "É a resposta, porque está errada. O § 4º do art. 31 é categórico: é vedada a criação de Tribunais, Conselhos ou Órgãos de Contas Municipais, sem exceção por lei complementar estadual.",
+        "B": "Correta. É o caput do art. 31: o controle do Município soma a fiscalização externa, pela Câmara, e o controle interno, pelo próprio Executivo.",
+        "C": "Correta. É o § 1º do art. 31, na redação dada pela Emenda Constitucional 139/2026, que acrescentou a vedação à extinção, criação ou instalação desses órgãos de contas.",
+        "D": "Correta. É o § 2º do art. 31: o quórum de dois terços para afastar o parecer prévio prestigia a avaliação técnica do órgão de contas sobre as contas do Prefeito.",
+        "E": "Correta. É o § 3º do art. 31: o prazo de sessenta dias de exposição das contas é instrumento de participação popular no controle das finanças municipais."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 31, caput e §§ 1º (redação da EC 139/2026), 2º, 3º e 4º", "data": "2026-05-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0103",
+      "tema": "Ação popular (Lei 4.717/1965)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a ação popular regida pela Lei nº 4.717/1965.\n\nI. Qualquer cidadão é parte legítima para pleitear a anulação ou a declaração de nulidade de atos lesivos ao patrimônio de entidades autárquicas e de sociedades de economia mista, entre outras pessoas e entidades.\nII. Na defesa do patrimônio público, caberá a suspensão liminar do ato lesivo impugnado.\nIII. A sentença que julgar procedente a ação popular condenará ao pagamento de perdas e danos os responsáveis pela prática do ato e os beneficiários dele, ressalvada a ação regressiva contra os funcionários causadores do dano, quando incorrerem em culpa.\nIV. A sentença que concluir pela carência ou pela improcedência da ação não está sujeita a reexame, produzindo efeitos imediatamente após a sua prolação.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II, III e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, II e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "A Lei 4.717/1965 submete a sentença desfavorável ao autor popular a um controle que a afirmativa IV nega. Compare com o que acontece quando a ação é julgada procedente.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 1º; II, o art. 5º, § 4º; III, o art. 11. A IV está errada: pelo art. 19, a sentença que concluir pela carência ou pela improcedência está sujeita ao duplo grau de jurisdição, não produzindo efeito senão depois de confirmada pelo tribunal.",
+        "A": "Deixa de fora a III, que está correta: o art. 11 condena ao pagamento de perdas e danos os responsáveis pela prática do ato lesivo e seus beneficiários, ressalvada a ação regressiva contra funcionários que tenham agido com culpa.",
+        "B": "Inclui a IV, que está errada (o art. 19 sujeita a sentença de carência ou improcedência ao duplo grau de jurisdição), e omite a I, que reproduz o art. 1º da Lei 4.717/1965.",
+        "C": "Inclui a IV, que contraria o art. 19, e deixa de fora a II, que reproduz o § 4º do art. 5º (suspensão liminar do ato lesivo).",
+        "D": "Nem todas estão corretas. A IV inverte o art. 19: a sentença de carência ou improcedência não produz efeito antes de confirmada pelo tribunal, justamente para proteger o patrimônio público de uma decisão desfavorável ao autor popular."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 4.717/1965, arts. 1º, 5º, § 4º, 11 e 19", "data": "1965-06-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-05",
+    "titulo": "Negociação coletiva: acordos e convenções",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "trab-0009",
+      "tema": "Convenção e acordo coletivo: conceito, duração e prevalência",
+      "enunciado": "Acerca das convenções e dos acordos coletivos de trabalho, nos termos da Consolidação das Leis do Trabalho, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Convenção coletiva de trabalho é o acordo de caráter normativo pelo qual dois ou mais sindicatos representativos de categorias econômicas e profissionais estipulam condições de trabalho aplicáveis, no âmbito das respectivas representações, às relações individuais de trabalho.",
+        "B": "É facultado aos sindicatos representativos de categorias profissionais celebrar acordos coletivos com uma ou mais empresas da correspondente categoria econômica.",
+        "C": "Não será permitido estipular duração de convenção coletiva ou acordo coletivo de trabalho superior a dois anos, sendo vedada a ultratividade.",
+        "D": "A inexistência de expressa indicação de contrapartidas recíprocas em convenção coletiva ou acordo coletivo de trabalho enseja a nulidade da cláusula, por caracterizar vício do negócio jurídico.",
+        "E": "As condições estabelecidas em acordo coletivo de trabalho sempre prevalecerão sobre as estipuladas em convenção coletiva de trabalho."
+      },
+      "correta": "D",
+      "dica": "Releia o art. 611-A, § 2º: ele trata da falta de contrapartidas expressas e responde se isso invalida a norma coletiva.",
+      "explicacao": {
+        "D": "É a resposta, porque a alternativa está errada. O art. 611-A, § 2º, da CLT (Lei 13.467/2017) diz exatamente o contrário: a inexistência de expressa indicação de contrapartidas recíprocas NÃO ensejará a nulidade, por NÃO caracterizar vício do negócio jurídico.",
+        "A": "Correta. É o caput do art. 611 da CLT. A convenção é firmada entre sindicatos (profissional e econômico) e vale para toda a categoria na base territorial.",
+        "B": "Correta. É o art. 611, § 1º, da CLT. No acordo coletivo, do lado patronal está a própria empresa (ou empresas), e não o sindicato da categoria econômica.",
+        "C": "Correta. É o art. 614, § 3º, da CLT, com redação da Lei 13.467/2017. Vencido o instrumento, suas cláusulas não se incorporam aos contratos nem continuam valendo até nova negociação.",
+        "E": "Correta. É o art. 620 da CLT, com redação da Lei 13.467/2017. Antes, prevalecia a norma mais favorável; hoje, o acordo coletivo, mais específico, prevalece sempre."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 611, caput e § 1º (Decreto-Lei 229/1967)", "data": "1967-02-28" },
+        { "tipo": "lei", "referencia": "CLT, arts. 611-A, § 2º, 614, § 3º, e 620 (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0010",
+      "tema": "Objeto lícito e ilícito da negociação coletiva (arts. 611-A e 611-B da CLT)",
+      "enunciado": "Nos termos do art. 611-B da Consolidação das Leis do Trabalho, constitui objeto ilícito de convenção coletiva ou de acordo coletivo de trabalho a supressão ou a redução de todos os direitos abaixo, EXCETO:",
+      "alternativas": {
+        "A": "número de dias de férias devidas ao empregado.",
+        "B": "valor nominal do décimo terceiro salário.",
+        "C": "intervalo intrajornada, respeitado o limite mínimo de trinta minutos para jornadas superiores a seis horas.",
+        "D": "seguro-desemprego, em caso de desemprego involuntário.",
+        "E": "remuneração do serviço extraordinário superior, no mínimo, em 50% à do normal."
+      },
+      "correta": "C",
+      "dica": "Um dos temas está na lista do que a norma coletiva pode negociar com prevalência sobre a lei, e o parágrafo único do art. 611-B explica por que ele não é norma de saúde e segurança.",
+      "explicacao": {
+        "C": "É a resposta. O intervalo intrajornada, respeitado o mínimo de trinta minutos para jornadas superiores a seis horas, está no art. 611-A, III, da CLT, entre os temas em que a negociação coletiva prevalece sobre a lei. O parágrafo único do art. 611-B reforça que regras sobre duração do trabalho e intervalos não são normas de saúde, higiene e segurança para esse fim.",
+        "A": "É objeto ilícito: o art. 611-B, XI, da CLT veda suprimir ou reduzir o número de dias de férias devidas ao empregado.",
+        "B": "É objeto ilícito: o art. 611-B, V, da CLT protege o valor nominal do décimo terceiro salário.",
+        "D": "É objeto ilícito: o art. 611-B, II, da CLT lista o seguro-desemprego, em caso de desemprego involuntário, que também é direito do art. 7º, II, da CF.",
+        "E": "É objeto ilícito: o art. 611-B, X, da CLT protege o adicional mínimo de 50% das horas extras, garantido também pelo art. 7º, XVI, da CF."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, arts. 611-A, III, e 611-B, II, V, X, XI e parágrafo único (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

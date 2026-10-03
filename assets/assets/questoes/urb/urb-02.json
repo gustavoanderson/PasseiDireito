@@ -1,0 +1,162 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-02",
+    "titulo": "Estatuto da Cidade e Estatuto da Metrópole",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "urb-0003",
+      "tema": "PEUC, IPTU progressivo no tempo e desapropriação-sanção",
+      "enunciado": "Sobre o parcelamento, a edificação ou a utilização compulsórios, o IPTU progressivo no tempo e a desapropriação com pagamento em títulos, previstos nos arts. 5º a 8º da Lei nº 10.257/2001, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "os prazos fixados pela lei municipal específica não poderão ser inferiores a um ano, a partir da notificação, para que seja protocolado o projeto, e a dois anos, a partir da aprovação do projeto, para iniciar as obras.",
+        "B": "o valor da alíquota a ser aplicado a cada ano não excederá a duas vezes o valor referente ao ano anterior, respeitada a alíquota máxima de quinze por cento.",
+        "C": "é admitida a concessão de isenção ou de anistia relativa à tributação progressiva, desde que prevista na lei municipal específica que instituiu a obrigação de parcelar, edificar ou utilizar.",
+        "D": "a transmissão do imóvel, por ato inter vivos ou causa mortis, posterior à data da notificação, transfere as obrigações de parcelamento, edificação ou utilização, sem interrupção de quaisquer prazos.",
+        "E": "decorridos cinco anos de cobrança do IPTU progressivo sem cumprimento da obrigação, o Município poderá desapropriar o imóvel com pagamento em títulos da dívida pública, resgatáveis no prazo de até dez anos."
+      },
+      "correta": "C",
+      "dica": "O art. 7º tem um parágrafo que fecha a porta para qualquer alívio fiscal sobre a progressividade.",
+      "explicacao": {
+        "C": "É a incorreta, e por isso a resposta. O art. 7º, § 3º, do Estatuto da Cidade VEDA a concessão de isenções ou de anistia relativas à tributação progressiva. A vedação é da lei federal e não pode ser afastada pela lei municipal específica.",
+        "A": "Correto. É o art. 5º, § 4º, I e II: um ano a partir da notificação para protocolar o projeto e dois anos a partir da aprovação do projeto para iniciar as obras. São prazos mínimos; a lei municipal pode fixar prazos maiores.",
+        "B": "Correto. É o art. 7º, § 1º: a alíquota de cada ano não excede o dobro da do ano anterior e tem teto de 15%. Se a obrigação não for cumprida em cinco anos, mantém-se a alíquota máxima (§ 2º).",
+        "D": "Correto. É o art. 6º: a obrigação acompanha o imóvel. A venda ou a herança depois da notificação não reinicia nem suspende os prazos.",
+        "E": "Correto. É o art. 8º, caput e § 1º: após cinco anos de IPTU progressivo, cabe desapropriação com títulos aprovados previamente pelo Senado, resgatáveis em até dez anos, em prestações anuais, iguais e sucessivas, com juros legais de seis por cento ao ano."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 5º a 8º", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0004",
+      "tema": "Direito de preempção",
+      "enunciado": "Lei municipal de Curitiba, baseada no plano diretor, delimitou área sujeita ao direito de preempção para a criação de espaços públicos de lazer. Um proprietário de imóvel situado nessa área recebeu proposta de compra de um particular. Com base nos arts. 25 a 27 da Lei nº 10.257/2001, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O prazo de vigência da preempção fixado na lei municipal não pode ser superior a cinco anos, renovável a partir de um ano após o decurso do prazo inicial de vigência.",
+        "B": "Notificado da intenção de alienar, o Município terá o prazo máximo de sessenta dias para manifestar, por escrito, seu interesse em comprar o imóvel.",
+        "C": "Realizada a primeira alienação do imóvel durante a vigência, o direito de preempção se extingue em relação a ele, não alcançando alienações posteriores.",
+        "D": "A alienação processada em condições diversas da proposta apresentada é anulável, podendo o Município adquirir o imóvel pelo valor de mercado apurado em avaliação judicial.",
+        "E": "A lei municipal pode delimitar as áreas sujeitas à preempção sem indicar a finalidade de cada uma, bastando que o Município demonstre o interesse público no momento da aquisição."
+      },
+      "correta": "A",
+      "dica": "Compare os números da questão com os do § 1º do art. 25 e do caput do art. 27, e veja o que o § 2º do art. 25 diz sobre várias vendas do mesmo imóvel.",
+      "explicacao": {
+        "A": "Correta. É o art. 25, § 1º: a lei municipal fixa prazo de vigência não superior a cinco anos, renovável a partir de um ano após o decurso do prazo inicial.",
+        "B": "O prazo do art. 27, caput, é de TRINTA dias. Transcorrido esse prazo sem manifestação, o proprietário fica autorizado a vender a terceiros nas condições da proposta apresentada (§ 3º).",
+        "C": "O art. 25, § 2º, assegura a preempção durante todo o prazo de vigência, \"independentemente do número de alienações referentes ao mesmo imóvel\".",
+        "D": "O art. 27, § 5º, diz que a alienação em condições diversas da proposta é NULA de pleno direito, e o § 6º permite ao Município adquirir o imóvel pelo valor da base de cálculo do IPTU ou pelo valor da proposta, se este for inferior. Não se fala em valor de mercado.",
+        "E": "O parágrafo único do art. 26 obriga a lei municipal a enquadrar cada área em uma ou mais das finalidades do art. 26 (regularização fundiária, habitação de interesse social, áreas verdes etc.). A finalidade é definida na lei, e não no momento da compra."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 25 a 27", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0005",
+      "tema": "Outorga onerosa, operação urbana consorciada e transferência do direito de construir",
+      "enunciado": "De acordo com a Lei nº 10.257/2001 (Estatuto da Cidade), analise as assertivas abaixo.\nI. Coeficiente de aproveitamento é a relação entre a área edificável e a área do terreno.\nII. Os recursos auferidos com a outorga onerosa do direito de construir e de alteração de uso serão aplicados com as finalidades previstas nos incisos I a IX do art. 26 da mesma lei.\nIII. Os certificados de potencial adicional de construção emitidos em operação urbana consorciada são livremente negociados e conversíveis em direito de construir em qualquer área do Município.\nIV. A faculdade de transferir o direito de construir pode ser concedida ao proprietário que doar ao Poder Público seu imóvel, ou parte dele, para a implantação de equipamentos urbanos e comunitários.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas III e IV estão corretas.",
+        "C": "Somente as assertivas II, III e IV estão corretas.",
+        "D": "Todas as assertivas estão corretas.",
+        "E": "Somente as assertivas I, II e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "Um dos instrumentos tem área de uso restrita: o título circula livremente, mas só vira metro quadrado num lugar.",
+      "explicacao": {
+        "E": "Correta. A I é o art. 28, § 1º; a II é o art. 31; a IV é o art. 35, § 1º, que estende a transferência do direito de construir a quem doar o imóvel para os fins dos incisos I a III do caput. A III é falsa: pelo art. 34, § 1º, os certificados são livremente negociados, mas conversíveis em direito de construir UNICAMENTE na área objeto da operação.",
+        "A": "Omite a assertiva IV, que é verdadeira: o art. 35, § 1º, permite conceder a transferência do direito de construir ao proprietário que doar o imóvel ao Poder Público para implantação de equipamentos urbanos e comunitários.",
+        "B": "A assertiva III é falsa (art. 34, § 1º: conversão só na área da operação), e a alternativa omite as assertivas I e II, verdadeiras (arts. 28, § 1º, e 31).",
+        "C": "Inclui a assertiva III, que é falsa: os certificados de potencial adicional de construção só se convertem em direito de construir na área objeto da operação urbana consorciada (art. 34, § 1º). Omite ainda a I, verdadeira.",
+        "D": "A assertiva III é falsa. O certificado é negociável livremente, mas a conversão em direito de construir é restrita à área da operação (art. 34, § 1º), que é justamente onde as obras são custeadas por ele."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 26, 28, 31, 34 e 35", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0006",
+      "tema": "Direito de superfície e estudo de impacto de vizinhança",
+      "enunciado": "Com base nos arts. 21 a 24 e 36 a 38 da Lei nº 10.257/2001, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O direito de superfície só pode ser concedido por tempo determinado, mediante escritura pública registrada no cartório de registro de imóveis.",
+        "B": "Por morte do superficiário, o direito de superfície extingue-se, revertendo o terreno ao proprietário.",
+        "C": "A elaboração do estudo prévio de impacto de vizinhança (EIV) dispensa o estudo prévio de impacto ambiental (EIA) quando o empreendimento estiver situado em área urbana.",
+        "D": "Extinto o direito de superfície, o proprietário recuperará o pleno domínio do terreno, bem como das acessões e benfeitorias introduzidas no imóvel, independentemente de indenização, se as partes não houverem estipulado o contrário no contrato.",
+        "E": "A concessão do direito de superfície é sempre gratuita, sendo nula a cláusula que estabeleça remuneração ao proprietário."
+      },
+      "correta": "D",
+      "dica": "No direito de superfície, a regra da lei sobre o que foi construído vale só se o contrato não dispuser diferente.",
+      "explicacao": {
+        "D": "Correta. É o art. 24, caput, do Estatuto da Cidade: extinto o direito de superfície, o proprietário recupera o pleno domínio do terreno e das acessões e benfeitorias, sem indenização, salvo estipulação contrária no contrato.",
+        "A": "O art. 21, caput, admite a concessão por tempo determinado OU INDETERMINADO. A exigência de escritura pública registrada está correta, mas o \"só por tempo determinado\" torna a alternativa falsa.",
+        "B": "O art. 21, § 5º, diz o contrário: por morte do superficiário, os seus direitos transmitem-se a seus herdeiros. As causas de extinção estão no art. 23 (advento do termo e descumprimento das obrigações) e no art. 24, § 1º (destinação diversa).",
+        "C": "O art. 38 é expresso: a elaboração do EIV NÃO substitui a elaboração e a aprovação do EIA, requeridas nos termos da legislação ambiental. São estudos distintos e cumulativos.",
+        "E": "O art. 21, § 2º, permite que a concessão do direito de superfície seja gratuita OU onerosa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 21, 23, 24 e 38", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0007",
+      "tema": "Plano diretor no Estatuto da Cidade e no Estatuto da Metrópole",
+      "enunciado": "Sobre o plano diretor, à luz da Lei nº 10.257/2001 (Estatuto da Cidade) e da Lei nº 13.089/2015 (Estatuto da Metrópole), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a elaboração do plano de desenvolvimento urbano integrado da região metropolitana exime o Município integrante da formulação do respectivo plano diretor.",
+        "B": "a lei que instituir o plano diretor deverá ser revista, pelo menos, a cada dez anos.",
+        "C": "o plano diretor deverá englobar o território do Município como um todo.",
+        "D": "o plano diretor é obrigatório para cidades integrantes de regiões metropolitanas e aglomerações urbanas.",
+        "E": "no caso de cidades com mais de quinhentos mil habitantes, deverá ser elaborado um plano de transporte urbano integrado, compatível com o plano diretor ou nele inserido."
+      },
+      "correta": "A",
+      "dica": "O Estatuto da Metrópole convive com a autonomia municipal: o plano regional se soma ao municipal, que deve ser compatibilizado com ele.",
+      "explicacao": {
+        "A": "É a incorreta, e por isso a resposta. O art. 10, § 2º, do Estatuto da Metrópole diz que a elaboração do plano de desenvolvimento urbano integrado NÃO exime o Município da formulação do seu plano diretor. O § 3º acrescenta que o Município deve compatibilizar o plano diretor com o plano integrado.",
+        "B": "Correto. É o art. 40, § 3º, do Estatuto da Cidade. Deixar de tomar providências para a revisão decenal é hipótese de improbidade do Prefeito (art. 52, VII).",
+        "C": "Correto. É o art. 40, § 2º, do Estatuto da Cidade: o plano abrange zona urbana e rural, e não apenas a área urbana.",
+        "D": "Correto. É o art. 41, II, do Estatuto da Cidade. A obrigatoriedade não depende só da população: há também os incisos I (mais de 20 mil habitantes), III, IV, V e VI.",
+        "E": "Correto. É o art. 41, § 2º, do Estatuto da Cidade. O número de quinhentos mil habitantes é o do plano de transporte; o de vinte mil é o da obrigatoriedade do plano diretor."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 40 e 41", "data": "2001-07-10" },
+        { "tipo": "lei", "referencia": "Lei 13.089/2015, art. 10, §§ 2º e 3º", "data": "2015-01-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0008",
+      "tema": "Estatuto da Metrópole: instituição e governança interfederativa",
+      "enunciado": "Nos termos da Lei nº 13.089/2015 (Estatuto da Metrópole), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "As regiões metropolitanas são instituídas pela União, mediante lei ordinária, ouvidos os Municípios limítrofes interessados.",
+        "B": "O plano de desenvolvimento urbano integrado da região metropolitana é aprovado por decreto do Governador do Estado, dispensada a deliberação legislativa.",
+        "C": "A governança interfederativa das regiões metropolitanas e das aglomerações urbanas respeitará, entre outros princípios, a prevalência do interesse comum sobre o local.",
+        "D": "A estrutura básica da governança interfederativa compõe-se exclusivamente de instância executiva formada pelos representantes do Poder Executivo dos entes integrantes, vedada a participação da sociedade civil.",
+        "E": "Em respeito à autonomia municipal, o Município integrante de região metropolitana não está obrigado a compatibilizar seu plano diretor com o plano de desenvolvimento urbano integrado."
+      },
+      "correta": "C",
+      "dica": "Pense em qual interesse precisa prevalecer para que funções públicas que extrapolam um Município sejam viáveis.",
+      "explicacao": {
+        "C": "Correta. É o art. 6º, I, do Estatuto da Metrópole. Os demais princípios incluem compartilhamento de responsabilidades e de gestão, autonomia dos entes, observância das peculiaridades regionais e locais, gestão democrática, efetividade no uso dos recursos e desenvolvimento sustentável.",
+        "A": "Pelo art. 3º, caput, quem institui regiões metropolitanas e aglomerações urbanas são os ESTADOS, mediante LEI COMPLEMENTAR. É o que já previa o art. 25, § 3º, da CF.",
+        "B": "O art. 10, caput, exige que o plano de desenvolvimento urbano integrado seja aprovado mediante LEI ESTADUAL, depois de aprovado pela instância colegiada (art. 10, § 4º).",
+        "D": "O art. 8º prevê quatro componentes: instância executiva, instância colegiada deliberativa COM representação da sociedade civil, organização pública com funções técnico-consultivas e sistema integrado de alocação de recursos e de prestação de contas.",
+        "E": "O art. 10, § 3º, determina que o Município DEVERÁ compatibilizar seu plano diretor com o plano de desenvolvimento urbano integrado da unidade territorial urbana."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.089/2015, arts. 3º, 6º, 8º e 10", "data": "2015-01-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

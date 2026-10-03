@@ -1,0 +1,113 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-06",
+    "titulo": "Compromisso, transação e autocomposição em Curitiba",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "adm-0024",
+      "tema": "Transação e autocomposição (LC Municipal 141/2023)",
+      "enunciado": "Com base na Lei Complementar Municipal nº 141/2023, que dispõe sobre a solução de controvérsias, a extinção de débitos mediante transação e a autocomposição de conflitos no Município de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O pedido de transação é iniciado de ofício pelo procurador da causa e termina com decisão do Prefeito, da qual cabe recurso à Câmara Municipal.",
+        "B": "Para dirimir litígio em que o Município figure como devedor, poderá ser realizado chamamento público ou convite para celebração de acordo com deságio mínimo de 20% (vinte por cento) do valor devido ao credor, na forma do regulamento.",
+        "C": "O crédito devido ao Município só pode ser objeto de transação se já estiver inscrito em dívida ativa.",
+        "D": "Os acordos celebrados com base na lei importam novação da dívida.",
+        "E": "A atribuição para celebrar transações é exclusiva do Procurador-Geral do Município, vedada sua delegação."
+      },
+      "correta": "B",
+      "dica": "A lei trata tanto do Município credor quanto do Município devedor. Para o segundo caso, ela fixa um percentual mínimo.",
+      "explicacao": {
+        "B": "Correta. É o caput do art. 6º da LC 141/2023. O deságio é a concessão do credor que torna o acordo vantajoso para o Município; havendo ação judicial, o pagamento se faz por requisição de pequeno valor ou precatório (§ 1º).",
+        "A": "Pelo § 1º do art. 2º, o pedido é iniciado por requerimento da parte interessada, instruído pelo procurador da causa, submetido ao órgão técnico se for o caso, e termina com decisão irrecorrível do Procurador-Geral do Município.",
+        "C": "O art. 7º admite a transação sobre o crédito devido ao Município \"inscrito ou não em dívida ativa\", com parcelamento em até 120 prestações mensais e sucessivas.",
+        "D": "O art. 8º diz expressamente que os acordos não importam em novação da dívida, prevista no inciso I do art. 360 do Código Civil.",
+        "E": "O § 2º do art. 2º permite que a atribuição para a celebração das transações, inclusive em audiência, seja delegada aos procuradores, conforme critérios do regulamento (o que o Decreto 1.106/2024 fez)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, arts. 2º, 6º, 7º e 8º (DOM nº 212, de 14/11/2023)", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0025",
+      "tema": "Câmaras de conciliação, súmulas e proteção do agente (LC 141/2023)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a Lei Complementar Municipal nº 141/2023, de Curitiba.\n\nI. Poderão ser criadas câmaras de prevenção e resolução administrativas de conflitos, permanentes ou provisórias, no âmbito da Procuradoria-Geral do Município.\nII. A Procuradoria-Geral do Município poderá elaborar súmulas administrativas e adotar pareceres referenciais, com caráter vinculante para a administração pública.\nIII. Os agentes públicos que participarem da composição do conflito com o objetivo de celebrar transação somente poderão ser responsabilizados por infração disciplinar quando agirem com dolo ou fraude para obter vantagem indevida para si ou para outrem.\nIV. As disposições da lei complementar não se aplicam às sociedades de economia mista e às empresas estatais municipais.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I e IV estão corretas.",
+        "C": "Somente as afirmativas II e III estão corretas.",
+        "D": "Somente as afirmativas II, III e IV estão corretas.",
+        "E": "Somente as afirmativas I, II e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "Uma das afirmativas exclui as estatais, mas a lei complementar fala delas expressamente no fim do texto.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 3º; II, o art. 4º; III, o art. 16 da LC 141/2023, que ainda exige apuração em processo administrativo com contraditório e ampla defesa. A IV está errada: pelo art. 17, as disposições da lei se aplicam às sociedades de economia mista e às empresas estatais municipais, que devem disciplinar sua aplicação.",
+        "A": "Deixa de fora a III, que está correta: o art. 16 limita a responsabilização disciplinar dos agentes que participam da composição aos casos de dolo ou fraude para obter vantagem indevida. A proteção existe para que o medo de punição não impeça acordos vantajosos.",
+        "B": "A IV está errada. O art. 17 da LC 141/2023 manda aplicar suas disposições às sociedades de economia mista e às empresas estatais constituídas no Município, que deverão adaptá-las às suas particularidades.",
+        "C": "Deixa de fora a I, que reproduz o art. 3º: as câmaras de prevenção e resolução administrativas de conflitos, compostas por Procuradores e servidores com formação específica, podem ser permanentes ou provisórias.",
+        "D": "A IV está errada (o art. 17 estende a lei às estatais municipais) e a alternativa deixa de fora a I, que reproduz o art. 3º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, arts. 3º, 4º, 16 e 17 (DOM nº 212, de 14/11/2023)", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0026",
+      "tema": "Transações judiciais pela PGM (Decreto Municipal 1.106/2024)",
+      "enunciado": "O Decreto Municipal nº 1.106/2024 regulamenta a Lei Complementar nº 141/2023 quanto às transações judiciais e às dispensas de contestação e de recursos no âmbito da Procuradoria-Geral do Município de Curitiba. Segundo esse decreto, nos processos em trâmite na Justiça Comum, é correto afirmar que",
+      "alternativas": {
+        "A": "os Procuradores do Município, nas demandas individuais em que atuem, poderão firmar transações judiciais desde que a pretensão econômica não ultrapasse 60 (sessenta) salários mínimos; acima disso, o acordo depende de autorização formal do Procurador-Geral do Município.",
+        "B": "os Procuradores do Município podem firmar transações judiciais de qualquer valor, dispensada a oitiva da Secretaria Municipal de Planejamento, Finanças e Orçamento.",
+        "C": "o Procurador que realizar acordo indevido responde disciplinarmente por qualquer grau de culpa.",
+        "D": "a transação judicial só pode ser proposta pela parte adversa, vedada a iniciativa do Procurador do Município.",
+        "E": "a transação judicial pode ser celebrada por qualquer servidor lotado na Procuradoria-Geral, ainda que não seja Procurador do Município."
+      },
+      "correta": "A",
+      "dica": "O decreto fixa um teto de valor para a atuação do procurador da causa e diz quem autoriza acima dele. Lembre também do grau de culpa exigido para punir quem transige.",
+      "explicacao": {
+        "A": "Correta. É o art. 13, caput e § 1º, do Decreto 1.106/2024 (Procuradoria Judicial), com regra idêntica no art. 3º para a Procuradoria de Recursos Humanos: até 60 salários mínimos, o Procurador transige; acima disso, depende de autorização formal do Procurador-Geral.",
+        "B": "Há teto de 60 salários mínimos, e o decreto exige a oitiva prévia da Secretaria Municipal de Planejamento, Finanças e Orçamento sobre dotação e disponibilidade orçamentária e financeira (parágrafo único do art. 5º, na mesma linha do art. 14 da LC 141/2023).",
+        "C": "O § 2º do art. 3º só admite penalidade em caso de dolo ou fraude do agente que realizar acordo indevido, \"não sendo cabível a sua responsabilização por mera culpa\".",
+        "D": "O § 4º do art. 3º diz que a transação judicial poderá ser proposta por iniciativa do Procurador do Município.",
+        "E": "O § 2º do art. 3º diz que a realização da transação é atribuição exclusiva de Procurador do Município."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 1.106/2024, arts. 3º, 5º e 13 (DOM nº 133, de 16/07/2024; republicado no DOM nº 186, de 27/09/2024)", "data": "2024-07-16" },
+        { "tipo": "lei", "referencia": "Lei Complementar Municipal de Curitiba 141/2023, art. 14", "data": "2023-11-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0027",
+      "tema": "Compromisso com os interessados (LINDB, art. 26, e Lei 16.466/2024)",
+      "enunciado": "Para eliminar incerteza jurídica na expedição de uma licença, a autoridade municipal pretende celebrar compromisso com o interessado. À luz do art. 26 da LINDB, reproduzido no art. 69 da Lei Municipal nº 16.466/2024, de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O compromisso produz efeitos desde a assinatura, independentemente de publicação oficial.",
+        "B": "A oitiva do órgão jurídico é facultativa, a critério da autoridade administrativa.",
+        "C": "O compromisso pode conferir desoneração permanente de dever reconhecido por orientação geral, desde que haja relevante interesse geral.",
+        "D": "O compromisso deverá prever com clareza as obrigações das partes, o prazo para seu cumprimento e as sanções aplicáveis em caso de descumprimento, e só produzirá efeitos a partir de sua publicação oficial.",
+        "E": "A consulta pública prévia é obrigatória em qualquer hipótese de compromisso."
+      },
+      "correta": "D",
+      "dica": "O dispositivo tem requisitos de procedimento (quem é ouvido antes), de conteúdo (o que o termo precisa conter) e de eficácia (a partir de quando vale).",
+      "explicacao": {
+        "D": "Correta. Combina a parte final do caput do art. 26 da LINDB (efeitos só a partir da publicação oficial) com o inciso IV do seu § 1º. A Lei 16.466/2024 repete o texto no art. 69, caput e parágrafo único, III.",
+        "A": "O caput do art. 26 da LINDB (e do art. 69 da lei municipal) diz que o compromisso só produzirá efeitos a partir de sua publicação oficial.",
+        "B": "A oitiva do órgão jurídico é requisito: o compromisso é celebrado \"após oitiva do órgão jurídico\". Facultativa, e só \"quando for o caso\", é a consulta pública.",
+        "C": "O § 1º, III, do art. 26 da LINDB (inciso II do parágrafo único do art. 69 da lei municipal) proíbe que o compromisso confira desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral.",
+        "E": "A consulta pública ocorre \"quando for o caso\", segundo o caput do art. 26. Obrigatória é a oitiva do órgão jurídico, além da presença de razões de relevante interesse geral."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 26, incluído pela Lei 13.655/2018", "data": "2018-04-25" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 7º, X, e 69 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

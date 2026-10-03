@@ -1,0 +1,63 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-10",
+    "titulo": "Ação rescisória na Justiça do Trabalho",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "trab-0019",
+      "tema": "Ação rescisória trabalhista: depósito prévio, execução e prazo",
+      "enunciado": "Sobre a ação rescisória na Justiça do Trabalho, considerando o art. 836 da CLT e as normas do Código de Processo Civil a ela aplicáveis, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A ação rescisória está sujeita ao depósito prévio de 20% do valor da causa, salvo prova de miserabilidade jurídica do autor.",
+        "B": "A ação rescisória está sujeita ao depósito prévio de 5% do valor da causa, limitado a mil salários mínimos, tal como no processo civil.",
+        "C": "A execução da decisão proferida em ação rescisória far-se-á em autos apartados, perante o tribunal que a julgou.",
+        "D": "O direito à rescisão se extingue em dois anos contados da publicação da decisão rescindenda.",
+        "E": "Fundada a ação em prova nova, o prazo de dois anos conta-se da descoberta da prova, sem qualquer limite temporal máximo."
+      },
+      "correta": "A",
+      "dica": "No processo do trabalho, o percentual do depósito da rescisória está na própria CLT e é maior do que o do CPC.",
+      "explicacao": {
+        "A": "Correta. É o art. 836, caput, da CLT, com redação da Lei 11.495/2007. Por haver regra trabalhista própria, não se aplica o percentual do art. 968, II, do CPC.",
+        "B": "Os 5% (limitados a mil salários mínimos) são do art. 968, II e § 2º, do CPC. No processo do trabalho, o art. 836 da CLT fixa depósito prévio de 20% do valor da causa.",
+        "C": "Pelo parágrafo único do art. 836 da CLT, a execução da decisão proferida em ação rescisória far-se-á NOS PRÓPRIOS AUTOS da ação que lhe deu origem, instruída com o acórdão da rescisória e a certidão de trânsito em julgado.",
+        "D": "Pelo art. 975, caput, do CPC, o prazo de dois anos conta-se do TRÂNSITO EM JULGADO da última decisão proferida no processo, e não da publicação da decisão rescindenda.",
+        "E": "Pelo art. 975, § 2º, do CPC, o termo inicial é a data de descoberta da prova nova, observado o prazo MÁXIMO de cinco anos contado do trânsito em julgado da última decisão proferida no processo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 836 (Lei 11.495/2007)", "data": "2007-06-22" },
+        { "tipo": "lei", "referencia": "CPC (Lei 13.105/2015), arts. 968, II e § 2º, e 975", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0020",
+      "tema": "Hipóteses de rescindibilidade e contagem do prazo (arts. 966 e 975 do CPC)",
+      "enunciado": "Considere as assertivas abaixo, sobre a ação rescisória, à luz do Código de Processo Civil, aplicável ao processo do trabalho por remissão do art. 836 da CLT.\n\nI. A decisão de mérito, transitada em julgado, pode ser rescindida quando violar manifestamente norma jurídica.\nII. A ação rescisória pode ter por objeto apenas um capítulo da decisão.\nIII. Nas hipóteses de simulação ou de colusão das partes, o prazo para o Ministério Público que não interveio no processo conta-se do trânsito em julgado da última decisão, como para as partes.\nIV. Os atos de disposição de direitos praticados pelas partes e homologados pelo juízo estão sujeitos à ação rescisória, e não à ação anulatória.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e III estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I e II estão corretas.",
+        "D": "Somente as assertivas I, II e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Uma das assertivas confunde rescisória com anulação de ato homologado; outra ignora a regra especial de contagem para quem não sabia da fraude.",
+      "explicacao": {
+        "C": "Correta. A assertiva I é o art. 966, V, do CPC, e a II, o art. 966, § 3º. As assertivas III e IV estão erradas.",
+        "A": "A assertiva III está errada: pelo art. 975, § 3º, do CPC, nas hipóteses de simulação ou colusão, o prazo começa a contar, para o terceiro prejudicado e para o Ministério Público que não interveio, a partir do momento em que têm CIÊNCIA da simulação ou da colusão.",
+        "B": "A assertiva IV está errada: pelo art. 966, § 4º, do CPC, os atos de disposição de direitos praticados pelas partes e homologados pelo juízo estão sujeitos à ANULAÇÃO, nos termos da lei, e não à rescisória. E a assertiva I, correta, ficou de fora.",
+        "D": "A assertiva IV está errada: o art. 966, § 4º, do CPC sujeita os atos de disposição homologados à anulação, e não à rescisória.",
+        "E": "As assertivas III e IV estão erradas. A III contraria o art. 975, § 3º (o prazo para o MP que não interveio conta da ciência da colusão), e a IV contraria o art. 966, § 4º (ato homologatório de disposição de direitos se anula, não se rescinde)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CPC (Lei 13.105/2015), arts. 966, V, §§ 3º e 4º, e 975, § 3º", "data": "2015-03-16" },
+        { "tipo": "lei", "referencia": "CLT, art. 836 (Lei 11.495/2007)", "data": "2007-06-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-08",
+    "titulo": "Administração Pública e servidores",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "const-0022",
+      "tema": "Acumulação de cargos (EC 138/2025)",
+      "enunciado": "Considerando o art. 37, XVI e XVII, e o § 10 do art. 37 da Constituição Federal, na redação vigente, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É permitida a acumulação remunerada de um cargo de professor com outro cargo, desde que este seja técnico ou científico e haja compatibilidade de horários.",
+        "B": "Havendo compatibilidade de horários e observado o teto remuneratório, é permitida a acumulação remunerada de um cargo de professor com outro de qualquer natureza.",
+        "C": "A proibição de acumular cargos públicos não alcança os empregos em sociedades de economia mista, que se submetem ao regime de direito privado.",
+        "D": "É permitida a acumulação de dois cargos ou empregos privativos de profissionais de saúde, independentemente de se tratar de profissão regulamentada.",
+        "E": "É vedada, sem exceção, a percepção simultânea de proventos de aposentadoria do regime próprio com a remuneração de cargo em comissão."
+      },
+      "correta": "B",
+      "dica": "Uma emenda de dezembro de 2025 mudou a alínea b do inciso XVI. Desconfie da redação antiga.",
+      "explicacao": {
+        "B": "Correta. É o art. 37, XVI, b, na redação da EC 138, de 19/12/2025: a acumulação de um cargo de professor com outro de qualquer natureza, havendo compatibilidade de horários e observado em qualquer caso o teto do inciso XI.",
+        "A": "Era a redação anterior da alínea b (\"com outro técnico ou científico\"). A EC 138/2025 eliminou essa exigência, e hoje o segundo cargo pode ser de qualquer natureza. Questões de concurso antigas cobram a redação revogada.",
+        "C": "O art. 37, XVII, estende a proibição de acumular a empregos e funções e abrange autarquias, fundações, empresas públicas, sociedades de economia mista, suas subsidiárias e sociedades controladas, direta ou indiretamente, pelo poder público.",
+        "D": "O art. 37, XVI, c (redação da EC 34/2001), exige que os dois cargos ou empregos sejam privativos de profissionais de saúde com profissões regulamentadas.",
+        "E": "O art. 37, § 10, veda a percepção simultânea de proventos com remuneração de cargo, emprego ou função, mas ressalva os cargos acumuláveis na forma da Constituição, os cargos eletivos e os cargos em comissão declarados em lei de livre nomeação e exoneração."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XVI, b (EC 138/2025)", "data": "2025-12-19" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XVI, c, XVII e § 10", "data": "1998-12-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0023",
+      "tema": "Teto remuneratório do Procurador Municipal (Tema 510/STF)",
+      "enunciado": "Discute-se qual é o limite remuneratório aplicável aos Procuradores do Município de Curitiba. À luz do art. 37, XI, §§ 11 e 12, da Constituição Federal e da tese fixada pelo Supremo Tribunal Federal no Tema 510 da repercussão geral, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Aos Procuradores Municipais aplica-se como teto o subsídio do Prefeito, limite que a Constituição impõe a todos os agentes públicos do Município, sem exceção.",
+        "B": "Não se computam no teto as parcelas de caráter indenizatório previstas em lei municipal, desde que aprovada por maioria absoluta da Câmara Municipal.",
+        "C": "As vantagens pessoais não se incluem no cálculo do teto remuneratório, que alcança apenas o vencimento básico.",
+        "D": "A expressão \"Procuradores\", na parte final do inciso XI do art. 37, compreende os Procuradores Municipais, que se submetem ao teto de noventa inteiros e vinte e cinco centésimos por cento do subsídio mensal dos Ministros do Supremo Tribunal Federal.",
+        "E": "O Município pode, mediante emenda à sua Lei Orgânica, fixar como limite único para todos os seus servidores o subsídio mensal dos Desembargadores do Tribunal de Justiça."
+      },
+      "correta": "D",
+      "dica": "O inciso XI termina estendendo o limite do Judiciário estadual a três categorias. O STF decidiu se uma delas inclui a advocacia pública municipal.",
+      "explicacao": {
+        "D": "Correta. É a tese do Tema 510 (RE 663.696, julgado em 28/02/2019): os Procuradores Municipais integram as funções essenciais à Justiça e, por isso, estão incluídos na parte final do inciso XI do art. 37, que estende aos Procuradores o limite de 90,25% do subsídio dos Ministros do STF. A Lei Municipal 16.200/2023 (art. 24, parágrafo único) também remete ao teto do inciso XI imposto aos Procuradores.",
+        "A": "O subsídio do Prefeito é a regra geral de limite nos Municípios (art. 37, XI), mas o STF, no Tema 510, afastou-o para os Procuradores Municipais, aos quais se aplica o limite da parte final do inciso XI.",
+        "B": "O art. 37, § 11 (redação da EC 135/2024), só exclui do teto as parcelas indenizatórias expressamente previstas em lei ordinária aprovada pelo Congresso Nacional, de caráter nacional, aplicada a todos os Poderes e órgãos constitucionalmente autônomos. Lei municipal não basta.",
+        "C": "O art. 37, XI, diz expressamente que o limite alcança a remuneração, os proventos e as pensões, percebidos cumulativamente ou não, incluídas as vantagens pessoais ou de qualquer outra natureza.",
+        "E": "O art. 37, § 12, faculta aos Estados e ao Distrito Federal, mediante emenda às respectivas Constituições e Lei Orgânica (a do DF), fixar como limite único o subsídio dos Desembargadores. A faculdade não foi dada aos Municípios."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 510 (RE 663.696)", "data": "2019-02-28" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XI (EC 41/2003) e § 12 (EC 47/2005)", "data": "2005-07-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 11 (EC 135/2024)", "data": "2024-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0024",
+      "tema": "Concurso público e estabilidade",
+      "enunciado": "Com base nos arts. 37 e 41 da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O prazo de validade do concurso público será de até dois anos, prorrogável uma vez, por igual período.",
+        "B": "São estáveis após dois anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+        "C": "As funções de confiança podem ser exercidas por servidores ocupantes de cargo efetivo ou por pessoas sem vínculo com a Administração, e destinam-se apenas às atribuições de direção, chefia e assessoramento.",
+        "D": "Invalidada por sentença judicial a demissão do servidor estável, será ele reintegrado, e o eventual ocupante da vaga, se estável, será indenizado e exonerado.",
+        "E": "A avaliação especial de desempenho por comissão instituída para essa finalidade é facultativa como condição para a aquisição da estabilidade."
+      },
+      "correta": "A",
+      "dica": "Nas erradas, os números e os advérbios foram trocados: anos de estágio, quem exerce função de confiança, o que acontece com quem ocupava a vaga.",
+      "explicacao": {
+        "A": "Correta. É o art. 37, III, da CF: validade de até dois anos, prorrogável uma vez, por igual período. O edital pode fixar prazo menor, mas a prorrogação, se houver, será pelo mesmo período.",
+        "B": "O art. 41, caput (redação da EC 19/1998), exige três anos de efetivo exercício. Dois anos era a regra anterior à EC 19/1998 e é o prazo de vitaliciedade de juízes e membros do MP (art. 128, § 5º, I, a).",
+        "C": "O art. 37, V, reserva as funções de confiança exclusivamente a servidores ocupantes de cargo efetivo. Quem pode ser preenchido por pessoa sem vínculo é o cargo em comissão, respeitados os percentuais mínimos para servidores de carreira previstos em lei.",
+        "D": "O art. 41, § 2º, determina que o eventual ocupante da vaga, se estável, seja reconduzido ao cargo de origem, sem direito a indenização, aproveitado em outro cargo ou posto em disponibilidade com remuneração proporcional ao tempo de serviço.",
+        "E": "O art. 41, § 4º, diz que a avaliação especial de desempenho é obrigatória como condição para a aquisição da estabilidade."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 37, III e V, e 41 (EC 19/1998)", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0058",
+      "tema": "Responsabilidade civil do Estado (art. 37, § 6º, da CF)",
+      "enunciado": "Com base no art. 37, § 6º, da Constituição Federal, que trata da responsabilidade civil do Estado, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "As pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa.",
+        "B": "A responsabilidade objetiva do Estado alcança, sem distinção, as pessoas jurídicas de direito privado exploradoras de atividade econômica em sentido estrito, ainda que não prestem serviço público.",
+        "C": "O direito de regresso contra o agente público causador do dano é automático, dispensando a apuração de dolo ou culpa em ação própria.",
+        "D": "A responsabilidade do Estado por conduta omissiva segue sempre a mesma teoria objetiva da conduta comissiva, sem exigência de culpa do serviço.",
+        "E": "As empresas públicas e sociedades de economia mista que exploram atividade econômica em sentido estrito respondem objetivamente pelos danos a terceiros por força direta do § 6º do art. 37, sem que a jurisprudência distinga a natureza da atividade explorada."
+      },
+      "correta": "A",
+      "dica": "O dispositivo fala em duas categorias de pessoa jurídica; veja se uma exploradora de atividade econômica sem prestar serviço público se encaixa nelas.",
+      "explicacao": {
+        "A": "Correta. É a literalidade do art. 37, § 6º, da CF: a responsabilidade das pessoas jurídicas de direito público e das prestadoras de serviço público é objetiva quanto ao terceiro lesado, cabendo ação de regresso contra o agente, limitada aos casos de dolo ou culpa deste.",
+        "B": "O § 6º fala em pessoas jurídicas de direito público e em prestadoras de serviços públicos; as pessoas jurídicas de direito privado exploradoras de atividade econômica em sentido estrito, sem prestação de serviço público, em regra seguem o regime comum de responsabilidade civil, e não a objetiva desse dispositivo.",
+        "C": "O direito de regresso depende da apuração de dolo ou culpa do agente em ação própria; não é automático, até porque a responsabilidade do agente perante o Estado, ao contrário da responsabilidade do Estado perante o terceiro, não é objetiva.",
+        "D": "A doutrina majoritária, a partir de Celso Antônio Bandeira de Mello, distingue: na conduta omissiva, a responsabilidade do Estado é, em regra, subjetiva, fundada na culpa anônima do serviço, e não objetiva como na conduta comissiva.",
+        "E": "A jurisprudência distingue a natureza da atividade: as estatais exploradoras de atividade econômica em sentido estrito, que não prestam serviço público, em regra não se submetem ao regime objetivo do § 6º do art. 37."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, § 6º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0059",
+      "tema": "Improbidade administrativa – base constitucional (art. 37, §§ 4º e 5º, da CF)",
+      "enunciado": "Com base no art. 37, §§ 4º e 5º, da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível.",
+        "B": "A gradação das sanções de improbidade, inclusive a definição de quais penalidades se aplicam a cada tipo de ato, é tarefa remetida pela Constituição à lei, e não definida diretamente pelo texto constitucional.",
+        "C": "A suspensão dos direitos políticos por improbidade administrativa é, por si só, autoaplicável, dispensando qualquer lei que regule sua forma e gradação.",
+        "D": "A lei estabelecerá os prazos de prescrição para ilícitos praticados por qualquer agente, servidor ou não, que causem prejuízo ao erário, ressalvadas as respectivas ações de ressarcimento.",
+        "E": "O rol de sanções do § 4º do art. 37 não é exaustivo quanto às consequências do ato de improbidade, já que a própria Constituição ressalva, sem prejuízo, a ação penal cabível."
+      },
+      "correta": "C",
+      "dica": "Releia a parte final do § 4º: ele não aplica as sanções direto, ele manda a lei dizer como e em que medida.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta. O próprio § 4º do art. 37 condiciona a aplicação das sanções de improbidade à forma e à gradação previstas em lei; não é norma autoaplicável nesse ponto, e depende da lei para produzir todos os seus efeitos.",
+        "A": "Correta. É a literalidade do art. 37, § 4º, da CF, que lista as quatro consequências do ato de improbidade.",
+        "B": "Correta. Decorre do próprio texto do § 4º, que remete à lei a forma e a gradação das sanções.",
+        "D": "Correta. É a literalidade do art. 37, § 5º, da CF, que também ressalva as ações de ressarcimento da regra geral de prescrição.",
+        "E": "Correta. É a parte final do art. 37, § 4º, da CF: as sanções de improbidade não excluem a ação penal cabível, o que mostra que as esferas de responsabilização são independentes."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, §§ 4º e 5º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0060",
+      "tema": "Regime próprio de previdência social dos servidores (art. 40 da CF, pós-EC 103/2019)",
+      "enunciado": "Sobre o regime próprio de previdência social (RPPS) dos servidores públicos titulares de cargo efetivo, na redação dada pela Emenda Constitucional nº 103/2019, analise as afirmativas a seguir.\n\nI. O regime próprio de previdência social terá caráter contributivo e solidário, mediante contribuição do respectivo ente federativo, de servidores ativos, de aposentados e de pensionistas, observados critérios que preservem o equilíbrio financeiro e atuarial.\nII. O servidor será aposentado compulsoriamente, com proventos proporcionais ao tempo de contribuição, aos setenta anos de idade, ou aos setenta e cinco anos, na forma de lei complementar.\nIII. É vedada a existência de mais de um regime próprio de previdência social e de mais de um órgão ou entidade gestora desse regime em cada ente federativo, abrangidos todos os Poderes, órgãos e entidades autárquicas e fundacionais.\nIV. É vedada, em qualquer hipótese, a instituição de regime de previdência complementar para servidores públicos ocupantes de cargo efetivo, por violar o caráter solidário do regime próprio.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "O § 14 do art. 40 não proíbe nada: ele manda os entes instituírem algo. Veja o que é.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem, respectivamente, o caput do art. 40, o § 1º, II, e o § 20, todos na redação da EC 103/2019. A IV é falsa: o § 14 do art. 40 determina, e não veda, a instituição de regime de previdência complementar pelos entes federativos, por lei de iniciativa do respectivo Poder Executivo, para os servidores que ingressarem no serviço público depois de sua instituição.",
+        "A": "Deixa de fora a III, que está correta: a vedação a mais de um RPPS e a mais de um órgão gestor por ente é expressa no § 20 do art. 40.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz o caput do art. 40 sobre o caráter contributivo e solidário do RPPS.",
+        "D": "Nem todas estão corretas: a IV inverte o sentido do § 14 do art. 40, que determina a instituição da previdência complementar, e não a veda.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a IV, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 40, caput, § 1º, II, § 14 e § 20 (EC 103/2019)", "data": "2019-11-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-13",
+    "titulo": "Agentes públicos e concurso público",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "adm-0011",
+      "tema": "Concurso público – direito à nomeação e provimento",
+      "enunciado": "Sobre concurso público e provimento de cargos, à luz da Constituição Federal e da jurisprudência do Supremo Tribunal Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O candidato aprovado dentro do número de vagas previsto no edital possui direito subjetivo à nomeação, que deve ocorrer durante o prazo de validade do certame.",
+        "B": "O surgimento de novas vagas durante o prazo de validade do concurso gera, automaticamente, direito à nomeação dos candidatos aprovados fora das vagas previstas no edital.",
+        "C": "É válida lei municipal que permita ao servidor efetivo ingressar, sem novo concurso, em cargo de outra carreira, desde que de mesma escolaridade.",
+        "D": "A exigência de exame psicotécnico para habilitação de candidato a cargo público pode decorrer apenas de previsão no edital.",
+        "E": "O prazo de validade do concurso público é de até quatro anos, prorrogável uma vez por igual período."
+      },
+      "correta": "A",
+      "dica": "O STF diferencia quem foi aprovado dentro das vagas do edital de quem ficou fora delas. Para os demais itens, lembre das súmulas vinculantes sobre provimento e psicotécnico e do art. 37, III, da CF.",
+      "explicacao": {
+        "A": "Correta. É a tese do Tema 161 (RE 598.099, julgado em 10/08/2011): o candidato aprovado dentro do número de vagas previsto no edital tem direito subjetivo à nomeação. A Administração escolhe o momento da nomeação, mas ela deve ocorrer dentro do prazo de validade do concurso.",
+        "B": "Contraria o Tema 784 (RE 837.311): o surgimento de novas vagas, ou a abertura de novo concurso durante a validade do anterior, não gera automaticamente direito à nomeação dos aprovados fora das vagas, salvo preterição arbitrária e imotivada pela Administração.",
+        "C": "Contraria a Súmula Vinculante 43: é inconstitucional toda modalidade de provimento que permita ao servidor investir-se, sem prévia aprovação em concurso destinado ao seu provimento, em cargo que não integra a carreira na qual foi anteriormente investido.",
+        "D": "Contraria a Súmula Vinculante 44: só por lei se pode sujeitar a exame psicotécnico a habilitação de candidato a cargo público. Previsão apenas no edital não basta.",
+        "E": "O art. 37, III, da CF fixa prazo de validade de até dois anos, prorrogável uma vez por igual período. É o que se vê no próprio edital da PGM Curitiba (item 1.3)."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 161 (RE 598.099)", "data": "2011-08-10" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 784 (RE 837.311)", "data": "2015-12-09" },
+        { "tipo": "sumula-vinculante", "referencia": "Súmulas Vinculantes 43 e 44/STF", "data": "2015-04-08" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, III", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0046",
+      "tema": "Concursos públicos em Curitiba – normas gerais (Lei Municipal 16.639/2025)",
+      "enunciado": "A Lei Municipal nº 16.639/2025 dispõe sobre as normas gerais relativas a concursos e processos seletivos públicos na Administração Direta, Autárquica e Fundacional do Município de Curitiba. Segundo essa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Processo seletivo público é o processo de seleção para preenchimento de cargos públicos de provimento efetivo, regidos pelo regime estatutário.",
+        "B": "O edital normativo será publicado no Diário Oficial Eletrônico do Município e em meio eletrônico oficial, com antecedência mínima de 30 (trinta) dias da data de realização da primeira prova.",
+        "C": "A prova de títulos, quando prevista, terá caráter eliminatório e classificatório.",
+        "D": "Será reservado às pessoas com deficiência o percentual mínimo de 5% (cinco por cento) das vagas ofertadas, e, se a aplicação do percentual resultar em número decimal, ele será arredondado para o inteiro imediatamente superior, desde que não ultrapasse 20% (vinte por cento) das vagas.",
+        "E": "O prazo de validade do concurso será de até 2 (dois) anos, contados da publicação do edital de abertura, prorrogável uma única vez por igual período."
+      },
+      "correta": "D",
+      "dica": "A lei tem vários números que a banca pode trocar: antecedência do edital, termo inicial da validade e os percentuais da reserva. Um deles aparece duas vezes na mesma alternativa.",
+      "explicacao": {
+        "D": "Correta. É a combinação dos §§ 1º e 2º do art. 18 da Lei 16.639/2025. Pelo § 3º, o percentual se aplica sobre o total de vagas de cada cargo ou emprego.",
+        "A": "Pelo art. 2º, essa é a definição de concurso público (inciso I). Processo seletivo público (inciso II) é a seleção para empregos públicos regidos pela CLT.",
+        "B": "O art. 11 exige antecedência mínima de 60 (sessenta) dias da data da primeira prova.",
+        "C": "O art. 15 atribui à prova de títulos caráter apenas classificatório, pontuando formação e experiência profissional exigidas para o cargo.",
+        "E": "Pelo § 2º do art. 3º, a validade de até 2 anos, prorrogável uma única vez por igual período, conta-se da publicação da homologação do resultado final, e não do edital de abertura."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.639/2025, arts. 2º, 3º, 11, 15 e 18 (DOM nº 234, de 11/12/2025)", "data": "2025-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0047",
+      "tema": "Comissões, requisitos de ingresso e convocação (Lei Municipal 16.639/2025)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a Lei Municipal nº 16.639/2025, de Curitiba.\n\nI. É vedada a participação nas comissões do concurso de pessoa com vínculo em entidades de preparação para concursos públicos.\nII. A convocação dos candidatos classificados será feita por edital publicado no Diário Oficial Eletrônico do Município, que é o meio oficial e obrigatório de comunicação e marca o início da contagem dos prazos.\nIII. As comunicações complementares por e-mail ou aplicativo de mensagens substituem a publicação oficial quando o candidato tiver anuído expressamente com o seu uso.\nIV. É facultado ao candidato solicitar, uma única vez, deslocamento para o final da lista classificatória, mediante requerimento, dentro do prazo estabelecido.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "A lei distingue a publicação oficial das comunicações feitas por outros meios. Veja qual delas vale para contar prazo.",
+      "explicacao": {
+        "C": "Correta. I reproduz o art. 10, III; II, o art. 25, caput e § 1º; IV, o caput do art. 28. A III está errada: pelo § 3º do art. 25, as comunicações complementares têm caráter facultativo e informativo e não substituem a publicação oficial; a anuência do candidato (§ 4º) só autoriza o uso desses meios.",
+        "A": "A III está errada (as comunicações complementares não substituem a publicação oficial, § 3º do art. 25), e a alternativa deixa de fora II e IV, que reproduzem o art. 25, § 1º, e o art. 28.",
+        "B": "A III está errada, e a alternativa deixa de fora a I, que reproduz o art. 10, III: é vedada nas comissões a participação de pessoa com vínculo em entidades de preparação para concursos.",
+        "D": "A III está errada. O § 3º do art. 25 é expresso: as comunicações complementares não substituem a publicação oficial nem geram obrigações para a Administração em caso de não recebimento.",
+        "E": "Nem todas estão corretas: a III contraria o § 3º do art. 25, pelo qual a publicação no Diário Oficial é condição indispensável para a validade da convocação e as demais comunicações são apenas informativas."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.639/2025, arts. 10, 25 e 28 (DOM nº 234, de 11/12/2025)", "data": "2025-12-11" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0083",
+      "tema": "Estatuto dos Funcionários de Curitiba: provimento, abandono e petição",
+      "enunciado": "De acordo com a Lei Municipal nº 1.656/1958 (Estatuto dos Funcionários Públicos do Município de Curitiba), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Os cargos públicos são providos por nomeação, promoção, transferência, reintegração, reversão, readmissão e aproveitamento.",
+        "B": "Salvo os casos previstos no Estatuto, o funcionário que interromper o exercício por 30 (trinta) dias consecutivos será demitido por abandono do cargo.",
+        "C": "O pedido de reconsideração e o recurso têm efeito suspensivo, e o que for provido produzirá efeitos apenas a partir da data da decisão que o acolher.",
+        "D": "O pedido de reconsideração será dirigido à autoridade que houver expedido o ato ou proferido a primeira decisão, não podendo ser renovado.",
+        "E": "Função gratificada é a instituída em lei para atender encargos de chefia e outros que não justifiquem a criação de cargo, e a designação de funcionário para exercê-la é de livre escolha do Chefe do Executivo, mediante ato expresso."
+      },
+      "correta": "C",
+      "dica": "No capítulo do direito de petição, o Estatuto trata dos efeitos do pedido de reconsideração e do recurso em um único artigo, e o efeito do provimento olha para trás.",
+      "explicacao": {
+        "C": "É a incorreta. Pelo art. 100 do Estatuto, o pedido de reconsideração e o recurso não têm efeito suspensivo, e o que for provido retroagirá nos efeitos à data do ato impugnado. A alternativa troca os dois pontos.",
+        "A": "Correta. É o rol dos sete incisos do art. 10 da Lei 1.656/1958.",
+        "B": "Correta. É o art. 31 do Estatuto: a interrupção do exercício por 30 dias consecutivos, fora das hipóteses legais, leva à demissão por abandono do cargo.",
+        "D": "Correta. É o art. 98, caput. O parágrafo único manda despachar o requerimento e o pedido de reconsideração em 5 dias e decidi-los em 30 dias, improrrogáveis.",
+        "E": "Correta. É o art. 72 e seu parágrafo único. Pelo art. 73, a gratificação é percebida cumulativamente com o vencimento do cargo."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 1.656/1958 (Estatuto dos Funcionários), arts. 10, 31, 72, 73, 98 e 100",
+          "data": "1958-08-21"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0084",
+      "tema": "Estatuto de Curitiba: reintegração, readmissão, reversão e aproveitamento",
+      "enunciado": "Considere as afirmativas a seguir, relativas às formas de provimento disciplinadas na Lei Municipal nº 1.656/1958 (Estatuto dos Funcionários Públicos do Município de Curitiba).\n\nI. A reintegração é o ato pelo qual o funcionário demitido reingressa no serviço público, com o ressarcimento de prejuízos, e decorrerá de sentença judiciária passada em julgado ou de decisão administrativa.\nII. A readmissão é o ato pelo qual o funcionário demitido ou exonerado reingressa no serviço público com direito ao ressarcimento dos prejuízos e à contagem do tempo de serviço anterior para todos os efeitos.\nIII. O aposentado não poderá reverter à atividade se contar mais de 60 (sessenta) anos de idade, e em nenhum caso a reversão se fará sem que, mediante inspeção médica, fique provada a capacidade para o exercício da função.\nIV. Se o aproveitamento se der em cargo de vencimento ou remuneração inferior ao provento da disponibilidade, o funcionário terá direito à diferença.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I e IV estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Compare reintegração e readmissão: as duas trazem de volta o ex-funcionário, mas só uma delas vem acompanhada de ressarcimento.",
+      "explicacao": {
+        "D": "Correta. I reproduz o art. 61; III reproduz o art. 68, §§ 2º e 3º; IV reproduz o art. 71, § 3º. A II está errada: pelo art. 65, a readmissão se dá sem direito a ressarcimento do prejuízo, assegurada apenas a contagem do tempo de serviço em cargos anteriores para efeito de aposentadoria e disponibilidade.",
+        "A": "Inclui a II, que está errada (art. 65: readmissão sem ressarcimento e com contagem de tempo só para aposentadoria e disponibilidade), e omite III e IV, que reproduzem os arts. 68 e 71 do Estatuto.",
+        "B": "A II está errada e a alternativa deixa de fora I e IV. A diferença entre reintegração (com ressarcimento, art. 61) e readmissão (sem ressarcimento, art. 65) é o ponto central da questão.",
+        "C": "Deixa de fora a III, que está correta: o art. 68, § 2º, impede a reversão de quem tem mais de 60 anos, e o § 3º exige inspeção médica que comprove a capacidade.",
+        "E": "Nem todas estão corretas. A II atribui à readmissão os efeitos da reintegração; o art. 65 é expresso em negar o ressarcimento e em limitar a contagem do tempo à aposentadoria e à disponibilidade."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 1.656/1958 (Estatuto dos Funcionários), arts. 61, 65, 68 e 71",
+          "data": "1958-08-21"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0085",
+      "tema": "Estabilidade do servidor público (CF, art. 41)",
+      "enunciado": "Sobre a estabilidade do servidor público, nos termos do art. 41 da Constituição Federal, com a redação dada pela Emenda Constitucional nº 19/1998, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "São estáveis após 2 (dois) anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público.",
+        "B": "O servidor público estável só perderá o cargo em virtude de sentença judicial transitada em julgado.",
+        "C": "Invalidada por sentença judicial a demissão do servidor estável, ele será reintegrado, e o eventual ocupante da vaga, se estável, será exonerado, com direito a indenização.",
+        "D": "Extinto o cargo ou declarada a sua desnecessidade, o servidor estável ficará em disponibilidade, com remuneração integral, até seu adequado aproveitamento em outro cargo.",
+        "E": "Como condição para a aquisição da estabilidade, é obrigatória a avaliação especial de desempenho por comissão instituída para essa finalidade."
+      },
+      "correta": "E",
+      "dica": "A EC 19/1998 aumentou o prazo para a estabilidade, criou novas hipóteses de perda do cargo e acrescentou uma condição para adquiri-la.",
+      "explicacao": {
+        "E": "Correta. É o art. 41, § 4º, da CF, incluído pela EC 19/1998. Não basta o decurso do prazo: a estabilidade depende da aprovação na avaliação especial de desempenho.",
+        "A": "O prazo é de 3 anos de efetivo exercício (art. 41, caput, na redação da EC 19/1998). Os 2 anos eram o prazo da redação original.",
+        "B": "O § 1º do art. 41 prevê três hipóteses: sentença judicial transitada em julgado, processo administrativo com ampla defesa e procedimento de avaliação periódica de desempenho, na forma de lei complementar, assegurada ampla defesa.",
+        "C": "Pelo § 2º do art. 41, o eventual ocupante da vaga, se estável, será reconduzido ao cargo de origem, sem direito a indenização, aproveitado em outro cargo ou posto em disponibilidade com remuneração proporcional ao tempo de serviço.",
+        "D": "Pelo § 3º do art. 41, a disponibilidade é com remuneração proporcional ao tempo de serviço, e não integral."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 41 (redação da EC 19/1998)",
+          "data": "1998-06-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0086",
+      "tema": "Regulamento de concursos e seleções de Curitiba (Decreto 1.292/2026)",
+      "enunciado": "O Decreto Municipal nº 1.292/2026 regulamenta os concursos públicos, os processos seletivos públicos (PSP) e os processos seletivos simplificados (PSS) na Administração Direta, Autárquica e Fundacional do Município de Curitiba. Segundo esse decreto, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O prazo de validade do concurso público e do PSP será de até 2 (dois) anos, contados da publicação da homologação do resultado final, prorrogável uma única vez por igual período.",
+        "B": "O edital normativo do concurso público e do PSP será publicado no Diário Oficial Eletrônico e em meio eletrônico oficial com antecedência mínima de 30 (trinta) dias da data de realização da primeira prova.",
+        "C": "Será reservado às pessoas com deficiência o percentual mínimo de 5% (cinco por cento) das vagas de cada cargo, e o número decimal resultante será arredondado para o inteiro imediatamente superior, desde que não ultrapasse 20% (vinte por cento) das vagas ofertadas.",
+        "D": "O Atestado de Saúde Ocupacional tem validade de 180 (cento e oitenta) dias, e o candidato considerado inapto poderá interpor recurso fundamentado em 2 (dois) dias úteis, contados da data de emissão do atestado.",
+        "E": "Cada edital normativo abrangerá exclusivamente um regime jurídico de vínculo, vedada a reunião de concurso público, PSP e PSS em um mesmo instrumento convocatório."
+      },
+      "correta": "B",
+      "dica": "O decreto quer dar ao candidato tempo de sobra para estudar entre o edital e a primeira prova. Confira o número.",
+      "alerta": "Mudança recente: o Decreto Municipal nº 1.292/2026 (publicado em 14/08/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "B": "É a incorreta. Pelo art. 18 do Decreto 1.292/2026, o edital normativo do concurso público e do PSP deve ser publicado com antecedência mínima de 60 dias da data de realização da primeira prova.",
+        "A": "Correta. É o art. 4º, § 2º, que segue o art. 37, III, da CF. Pelo § 3º, se a homologação for retificada, o prazo continua contado da publicação original.",
+        "C": "Correta. É o art. 23, §§ 1º e 2º, que remete à Lei Municipal 16.639/2025 quanto à reserva para pessoas com deficiência.",
+        "D": "Correta. É o art. 32, §§ 6º e 9º. Se a nomeação não ocorrer dentro da validade do atestado, a Administração custeia a atualização dos exames (§ 7º).",
+        "E": "Correta. É o parágrafo único do art. 19: concurso público, PSP e PSS serão objeto de editais distintos."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 1.292/2026, arts. 4º, 18, 19, 23 e 32",
+          "data": "2026-08-14"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

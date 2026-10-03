@@ -1,0 +1,63 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-11",
+    "titulo": "Tutela coletiva e difusa; acordos",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "trab-0021",
+      "tema": "Homologação de acordo extrajudicial (arts. 855-B a 855-E da CLT)",
+      "enunciado": "Sobre o processo de jurisdição voluntária para homologação de acordo extrajudicial na Justiça do Trabalho, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O processo terá início por petição conjunta, sendo obrigatória a representação das partes por advogado.",
+        "B": "Homologado o acordo extrajudicial, ficam afastados o prazo para pagamento das verbas rescisórias previsto no art. 477, § 6º, da CLT e a multa do § 8º do mesmo artigo.",
+        "C": "As partes não poderão ser representadas por advogado comum, facultando-se ao trabalhador ser assistido pelo advogado do sindicato de sua categoria.",
+        "D": "No prazo de quinze dias a contar da distribuição da petição, o juiz analisará o acordo, designará audiência se entender necessário e proferirá sentença.",
+        "E": "A petição de homologação suspende o prazo prescricional da ação quanto aos direitos nela especificados, e o prazo voltará a fluir no dia útil seguinte ao do trânsito em julgado da decisão que negar a homologação."
+      },
+      "correta": "B",
+      "dica": "O art. 855-C deixa claro que o acordo extrajudicial não serve para escapar de certas obrigações da rescisão.",
+      "explicacao": {
+        "B": "É a resposta, porque a alternativa está errada. O art. 855-C da CLT dispõe que o procedimento NÃO prejudica o prazo do § 6º do art. 477 e NÃO afasta a aplicação da multa do § 8º do art. 477.",
+        "A": "Correta. É o art. 855-B, caput, da CLT. A exigência de advogado afasta o jus postulandi nesse procedimento.",
+        "C": "Correta. É o art. 855-B, §§ 1º e 2º, da CLT. A proibição de advogado comum protege a vontade do trabalhador na transação.",
+        "D": "Correta. É o art. 855-D da CLT. A audiência é facultativa: o juiz a designa se entender necessário.",
+        "E": "Correta. É o art. 855-E, caput e parágrafo único, da CLT. Trata-se de suspensão, e não de interrupção: o prazo volta a correr de onde parou."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, arts. 855-B a 855-E (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0022",
+      "tema": "Ação de cumprimento, ação civil pública, TAC e ação anulatória de cláusula coletiva",
+      "enunciado": "Acerca da tutela coletiva de direitos no âmbito trabalhista, considerando a Consolidação das Leis do Trabalho e a Lei nº 7.347/1985 (Lei da Ação Civil Pública), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os Municípios não têm legitimidade para propor ação civil pública, que é privativa do Ministério Público e da Defensoria Pública.",
+        "B": "A associação somente pode propor ação civil pública se estiver constituída há pelo menos dois anos, requisito que não pode ser dispensado pelo juiz.",
+        "C": "O compromisso de ajustamento de conduta tomado pelos órgãos públicos legitimados terá eficácia de título executivo judicial.",
+        "D": "Quando os empregadores deixarem de pagar salários na conformidade de decisão proferida em dissídio coletivo, poderão os empregados ou seus sindicatos, independentemente de outorga de poderes de seus associados, apresentar reclamação, sendo vedado questionar sobre a matéria de fato e de direito já apreciada na decisão.",
+        "E": "Em ação que tenha por objeto a anulação de cláusula de convenção coletiva, os sindicatos subscritores podem intervir apenas como assistentes, a seu critério."
+      },
+      "correta": "D",
+      "dica": "Uma das alternativas descreve a chamada ação de cumprimento, prevista no capítulo dos dissídios coletivos da CLT.",
+      "explicacao": {
+        "D": "Correta. É o parágrafo único do art. 872 da CLT, que disciplina a ação de cumprimento: o sindicato atua independentemente de outorga de poderes dos associados, e não se rediscute o que já foi decidido no dissídio coletivo.",
+        "A": "O art. 5º, III, da Lei 7.347/1985 inclui a União, os Estados, o Distrito Federal e os Municípios entre os legitimados. A legitimidade é concorrente, e não privativa do MP e da Defensoria (incisos I e II).",
+        "B": "O art. 5º, V, a, da Lei 7.347/1985 exige constituição há pelo menos UM ano, e o § 4º permite ao juiz dispensar a pré-constituição quando houver manifesto interesse social.",
+        "C": "Pelo art. 5º, § 6º, da Lei 7.347/1985, o compromisso de ajustamento de conduta tem eficácia de título executivo EXTRAJUDICIAL. Na seara trabalhista, o art. 876 da CLT inclui o TAC firmado perante o MPT entre os títulos executados na Justiça do Trabalho.",
+        "E": "Pelo art. 611-A, § 5º, da CLT, os sindicatos subscritores deverão participar, como LITISCONSORTES NECESSÁRIOS, em ação individual ou coletiva que tenha como objeto a anulação de cláusulas desses instrumentos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 872, parágrafo único (Lei 2.275/1954)", "data": "1954-07-30" },
+        { "tipo": "lei", "referencia": "Lei 7.347/1985, art. 5º", "data": "1985-07-24" },
+        { "tipo": "lei", "referencia": "CLT, arts. 611-A, § 5º (Lei 13.467/2017), e 876", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

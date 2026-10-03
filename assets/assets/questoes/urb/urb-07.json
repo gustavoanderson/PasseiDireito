@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-07",
+    "titulo": "Patrimônio cultural de Curitiba",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "urb-0021",
+      "tema": "Instrumentos de proteção do patrimônio cultural (Lei Municipal 14.794/2016)",
+      "enunciado": "Acerca da proteção do Patrimônio Cultural do Município de Curitiba, disciplinada pela Lei Municipal nº 14.794/2016, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "são instrumentos plenos de proteção o tombamento e o registro, e instrumentos auxiliares o inventário e a vigilância.",
+        "B": "um bem, para que possa ser tombado, não precisa necessariamente se submeter a prévio procedimento administrativo de inventário.",
+        "C": "os bens tombados podem ser demolidos pelo proprietário, desde que haja prévia comunicação ao Conselho Municipal do Patrimônio Cultural e pagamento da multa correspondente.",
+        "D": "o registro é o ato administrativo que tem por objetivo declarar um bem cultural de natureza imaterial como integrante do patrimônio cultural de Curitiba, podendo ser objeto de registro os saberes, as celebrações, as formas de expressão e os lugares.",
+        "E": "terá o valor da penalidade reduzido em até 90% o proprietário que aprovar plano de trabalho junto à Câmara Técnica competente e executar a restauração do bem protegido dentro do prazo de 24 meses após lavrado o auto de infração."
+      },
+      "correta": "C",
+      "dica": "Desconfie da alternativa que transforma uma proibição absoluta da lei em algo que se resolve com aviso e pagamento.",
+      "explicacao": {
+        "C": "É a incorreta, e por isso a resposta. O art. 9º da Lei 14.794/2016 diz que os bens tombados ou em processo de tombamento \"em nenhuma hipótese poderão ser demolidos, destruídos, mutilados ou movidos\" pelo proprietário ou possuidor, e qualquer intervenção depende de prévia autorização da Administração. Multa não legitima a demolição.",
+        "A": "Correto. É o art. 4º: plenos (tombamento e registro) e auxiliares (inventário e vigilância), sem prejuízo de outras formas de acautelamento.",
+        "B": "Correto. É o art. 8º, § 3º. O Decreto 360/2019 (art. 37) repete: o inventário não é requisito para o tombamento, embora suas informações sejam importantes na instrução.",
+        "D": "Correto. É a combinação dos arts. 15 e 16, I a IV. O tombamento recai sobre bens materiais (móveis ou imóveis); o registro, sobre bens imateriais.",
+        "E": "Correto. É o art. 28, caput. O prazo pode ser prorrogado uma única vez por até 12 meses (§ 2º), e a penalidade é cancelada se o evento decorreu de caso fortuito, força maior ou culpa de terceiros (§ 1º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 14.794/2016, arts. 4º, 8º, 9º, 15, 16 e 28", "data": "2016-03-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0022",
+      "tema": "Procedimentos de inventário, tombamento e registro (Decreto Municipal 360/2019)",
+      "enunciado": "Considerando o Decreto Municipal nº 360/2019, que dispõe sobre os procedimentos administrativos de Inventário, Tombamento e Registro do patrimônio cultural do Município de Curitiba, analise as assertivas abaixo.\nI. Os processos de Tombamento e Registro poderão ser iniciados voluntariamente, a pedido do proprietário do bem; de ofício ou compulsoriamente, por ato da Administração Pública Municipal; ou a requerimento de qualquer interessado.\nII. Da decisão do Conselho Municipal do Patrimônio Cultural (CMPC) cabe recurso, no prazo de até 30 dias corridos, a contar da juntada nos autos da ciência do requerente ou proprietário.\nIII. O Inventário não é requisito para o encaminhamento de bens para Tombamento.\nIV. O Registro será acompanhado e supervisionado pela Câmara Técnica, no que couber, no seu Plano de Salvaguarda, e a cada 10 anos poderá ser reavaliado.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e III estão corretas.",
+        "C": "Somente as assertivas I, II e IV estão corretas.",
+        "D": "Somente as assertivas I, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Uma das assertivas encurta pela metade o prazo recursal previsto no art. 34 do Decreto.",
+      "explicacao": {
+        "D": "Correta. A I é o art. 16, I a III; a III é o art. 37; a IV é o art. 40-A (incluído pelo Decreto 771/2024). A II é falsa: o art. 34 fixa o prazo de recurso contra a decisão do CMPC em até 60 (sessenta) dias corridos.",
+        "A": "Inclui a assertiva II, que é falsa (o prazo é de até 60 dias, art. 34), e omite a III e a IV, verdadeiras (arts. 37 e 40-A).",
+        "B": "Inclui a assertiva II, que é falsa, e omite a I e a IV, ambas verdadeiras (arts. 16 e 40-A do Decreto 360/2019).",
+        "C": "Inclui a assertiva II, que é falsa: o recurso contra a decisão do CMPC pode ser interposto em até 60 dias corridos (art. 34). Omite ainda a III, verdadeira (art. 37).",
+        "E": "Nem todas estão corretas: a assertiva II traz prazo de 30 dias, mas o art. 34 do Decreto 360/2019 fixa até 60 dias corridos."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 360/2019, arts. 16, 34, 37 e 40-A", "data": "2019-03-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

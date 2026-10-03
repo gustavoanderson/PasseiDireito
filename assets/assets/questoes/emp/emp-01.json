@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "emp",
+  "unidade": {
+    "id": "emp-01",
+    "titulo": "Teoria da empresa, estabelecimento, nome empresarial e escrituração",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "emp-0001",
+      "tema": "Empresário: conceito, inscrição e capacidade",
+      "enunciado": "Sobre o empresário, sua caracterização e capacidade, nos termos dos arts. 966 a 980 do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Considera-se empresário quem exerce profissionalmente atividade econômica organizada para a produção ou a circulação de bens ou de serviços.",
+        "B": "Não se considera empresário quem exerce profissão intelectual, de natureza científica, literária ou artística, ainda com o concurso de auxiliares ou colaboradores, salvo se o exercício da profissão constituir elemento de empresa.",
+        "C": "A pessoa legalmente impedida de exercer atividade própria de empresário que, ainda assim, a exerça não responde pelas obrigações contraídas, que são nulas de pleno direito.",
+        "D": "O incapaz poderá, por meio de representante ou devidamente assistido, continuar a empresa antes exercida por ele enquanto capaz, por seus pais ou pelo autor de herança, precedendo autorização judicial.",
+        "E": "O empresário casado pode, sem necessidade de outorga conjugal, qualquer que seja o regime de bens, alienar os imóveis que integrem o patrimônio da empresa ou gravá-los de ônus real."
+      },
+      "correta": "C",
+      "dica": "Pense em quem seria prejudicado se o impedimento pudesse ser usado como escudo pelo próprio impedido.",
+      "explicacao": {
+        "C": "É a resposta. O art. 973 do CC diz o oposto: a pessoa legalmente impedida de exercer atividade própria de empresário, se a exercer, RESPONDERÁ pelas obrigações contraídas. O impedimento protege terceiros; não serve para o impedido fugir de suas dívidas.",
+        "A": "Correta a afirmação. É o caput do art. 966 do CC, que adota a teoria da empresa: profissionalismo, atividade econômica organizada e produção ou circulação de bens ou serviços.",
+        "B": "Correta a afirmação. É o parágrafo único do art. 966 do CC. Médicos, escritores e artistas, em regra, não são empresários, salvo se a profissão se tornar elemento de uma empresa.",
+        "D": "Correta a afirmação. É o art. 974, caput e § 1º, do CC: a continuação depende de autorização judicial, após exame das circunstâncias e dos riscos da empresa, e pode ser revogada pelo juiz.",
+        "E": "Correta a afirmação. É o art. 978 do CC: a dispensa de outorga conjugal vale qualquer que seja o regime de bens, para os imóveis que integrem o patrimônio da empresa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil (Lei 10.406/2002), arts. 966, 973, 974 e 978", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0002",
+      "tema": "Trespasse do estabelecimento (CC, arts. 1.144 a 1.148)",
+      "enunciado": "A sociedade empresária Alfa alienou seu estabelecimento à sociedade empresária Beta. O contrato nada dispõe sobre concorrência nem sobre dívidas, e a Alfa conservou bens suficientes para solver seu passivo. Considerando os arts. 1.142 a 1.149 do Código Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Beta responde pelo pagamento dos débitos anteriores à transferência, desde que regularmente contabilizados, continuando Alfa solidariamente obrigada pelo prazo de um ano, contado, quanto aos créditos vencidos, da publicação.",
+        "B": "Não havendo autorização expressa, Alfa não pode fazer concorrência a Beta nos dois anos subsequentes à transferência.",
+        "C": "O contrato de alienação do estabelecimento produz efeitos quanto a terceiros desde a assinatura, independentemente de averbação no Registro Público de Empresas Mercantis e de publicação na imprensa oficial.",
+        "D": "A transferência não importa a sub-rogação de Beta nos contratos estipulados para exploração do estabelecimento, que se extinguem automaticamente com a alienação.",
+        "E": "Beta responde por todos os débitos anteriores à transferência, contabilizados ou não, ficando Alfa exonerada de qualquer responsabilidade desde a assinatura do contrato."
+      },
+      "correta": "A",
+      "dica": "O Código protege o credor do alienante por um tempo limitado e só quanto às dívidas que o adquirente podia conhecer pela contabilidade.",
+      "explicacao": {
+        "A": "Correta. É o art. 1.146 do CC: o adquirente responde pelos débitos anteriores regularmente contabilizados, e o alienante continua solidariamente obrigado por um ano, contado da publicação quanto aos créditos vencidos e do vencimento quanto aos demais.",
+        "B": "O prazo do art. 1.147 do CC é de CINCO anos subsequentes à transferência. No arrendamento ou usufruto do estabelecimento, a proibição dura o prazo do contrato (parágrafo único).",
+        "C": "Pelo art. 1.144 do CC, o contrato de alienação, usufruto ou arrendamento do estabelecimento só produz efeitos quanto a terceiros depois de averbado à margem da inscrição no Registro Público de Empresas Mercantis e publicado na imprensa oficial.",
+        "D": "O art. 1.148 do CC diz o contrário: salvo disposição em contrário, a transferência importa a sub-rogação do adquirente nos contratos de exploração que não tenham caráter pessoal; os terceiros podem rescindi-los em noventa dias da publicação, se houver justa causa.",
+        "E": "O art. 1.146 do CC limita a responsabilidade do adquirente aos débitos regularmente contabilizados e mantém o alienante solidariamente obrigado por um ano. Não há exoneração imediata do alienante."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 1.144, 1.146, 1.147 e 1.148", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0003",
+      "tema": "Nome empresarial, prepostos e escrituração",
+      "enunciado": "Analise as afirmativas abaixo, com base no Código Civil.\n\nI. Considera-se nome empresarial a firma ou a denominação adotada para o exercício de empresa.\nII. A omissão da palavra \"limitada\" no nome da sociedade limitada determina a responsabilidade solidária e ilimitada dos administradores que assim empregarem a firma ou a denominação da sociedade.\nIII. Os preponentes são responsáveis pelos atos de quaisquer prepostos, praticados nos seus estabelecimentos e relativos à atividade da empresa, ainda que não autorizados por escrito.\nIV. Além dos demais livros exigidos por lei, é indispensável o Diário, que pode ser substituído por fichas no caso de escrituração mecanizada ou eletrônica.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "E",
+      "dica": "Confira cada afirmativa com os arts. 1.155, 1.158, 1.178 e 1.180 do Código Civil; nenhuma delas troca prazo, sujeito ou efeito.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 1.155 do CC; II, o art. 1.158, § 3º; III, o art. 1.178, caput; IV, o art. 1.180, caput. Todas são letra de lei.",
+        "A": "Deixa de fora III e IV, que estão corretas: pelo art. 1.178 do CC, o preponente responde pelos atos dos prepostos praticados no estabelecimento e relativos à empresa, mesmo sem autorização escrita; e pelo art. 1.180 o Diário é indispensável.",
+        "B": "Deixa de fora II e IV, que estão corretas: o art. 1.158, § 3º, do CC pune a omissão da palavra \"limitada\" com a responsabilidade solidária e ilimitada dos administradores, e o art. 1.180 torna indispensável o Diário.",
+        "C": "Deixa de fora I e III, que estão corretas: o art. 1.155 do CC define nome empresarial como firma ou denominação, e o art. 1.178 responsabiliza o preponente pelos atos dos prepostos no estabelecimento, ainda que não autorizados por escrito.",
+        "D": "Deixa de fora a II, que está correta: o art. 1.158, § 3º, do CC atribui responsabilidade solidária e ilimitada aos administradores que empregarem a firma ou denominação sem a palavra \"limitada\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 1.155, 1.158, 1.178 e 1.180", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

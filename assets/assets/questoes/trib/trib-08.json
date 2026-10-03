@@ -1,0 +1,193 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-08",
+    "titulo": "Taxas, contribuição de melhoria e COSIP",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "trib-0025",
+      "tema": "Taxas – súmulas vinculantes e CTN",
+      "enunciado": "À luz das Súmulas Vinculantes 19, 29 e 41 e dos arts. 77 e 79 do Código Tributário Nacional, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O serviço de iluminação pública pode ser remunerado mediante taxa, desde que o valor seja rateado entre os imóveis beneficiados.",
+        "B": "A taxa cobrada exclusivamente em razão dos serviços públicos de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis não viola o art. 145, II, da Constituição.",
+        "C": "É inconstitucional a adoção, no cálculo do valor de taxa, de qualquer elemento da base de cálculo própria de determinado imposto.",
+        "D": "A taxa pode ser calculada em função do capital das empresas, desde que o serviço seja específico e divisível.",
+        "E": "Admite-se a cobrança de taxa pela utilização potencial de serviço público de utilização facultativa, bastando que ele seja posto à disposição do contribuinte."
+      },
+      "correta": "B",
+      "dica": "Três súmulas vinculantes: uma sobre lixo, uma sobre base de cálculo e uma sobre iluminação. Depois, lembre quando o CTN admite a utilização potencial.",
+      "explicacao": {
+        "B": "Correta. É o texto da Súmula Vinculante 19: a taxa cobrada exclusivamente em razão dos serviços de coleta, remoção e tratamento ou destinação de lixo ou resíduos provenientes de imóveis não viola o art. 145, II, da CF.",
+        "A": "A Súmula Vinculante 41 diz que o serviço de iluminação pública não pode ser remunerado mediante taxa. O instrumento constitucional é a contribuição do art. 149-A (COSIP).",
+        "C": "A Súmula Vinculante 29 admite a adoção de um ou mais elementos da base de cálculo própria de imposto no cálculo da taxa, desde que não haja integral identidade entre uma base e outra.",
+        "D": "O parágrafo único do art. 77 do CTN veda que a taxa tenha base de cálculo ou fato gerador idênticos aos de imposto e que seja calculada em função do capital das empresas.",
+        "E": "Pelo art. 79, I, b, do CTN, a utilização potencial só autoriza a taxa quando o serviço for de utilização compulsória e posto à disposição mediante atividade administrativa em efetivo funcionamento."
+      },
+      "fontes": [
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 19", "data": "2009-10-29" },
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 29", "data": "2010-02-03" },
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 41", "data": "2015-03-11" },
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 77 e 79", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0026",
+      "tema": "Contribuição de melhoria – limites e requisitos",
+      "enunciado": "Com base nos arts. 81 e 82 do Código Tributário Nacional, assinale a alternativa CORRETA sobre a contribuição de melhoria.",
+      "alternativas": {
+        "A": "O limite individual da contribuição é a parcela do custo total da obra dividida igualmente entre todos os imóveis da zona beneficiada.",
+        "B": "A lei deve fixar prazo não inferior a 15 dias para a impugnação, pelos interessados, dos elementos publicados.",
+        "C": "A publicação do memorial descritivo e do orçamento da obra pode ser feita após o lançamento, juntamente com a notificação de cada contribuinte.",
+        "D": "A contribuição de melhoria pode ser instituída para custear a prestação de serviço público que valorize os imóveis de determinada região.",
+        "E": "A contribuição tem como limite total a despesa realizada e como limite individual o acréscimo de valor que da obra resultar para cada imóvel beneficiado, e a lei deve fixar prazo não inferior a 30 dias para impugnação dos elementos previamente publicados."
+      },
+      "correta": "E",
+      "dica": "O art. 81 tem dois tetos, um global e outro por imóvel. O art. 82 exige publicação prévia e um prazo mínimo de impugnação.",
+      "explicacao": {
+        "E": "Correta. O art. 81 fixa como limite total a despesa realizada e como limite individual o acréscimo de valor resultante da obra para cada imóvel; o art. 82, II, exige prazo não inferior a 30 dias para impugnação dos elementos do inciso I.",
+        "A": "O limite individual é o acréscimo de valor que da obra resultar para cada imóvel (art. 81). O rateio da parcela do custo é feito em função dos respectivos fatores individuais de valorização (art. 82, § 1º), e não em partes iguais.",
+        "B": "O art. 82, II, fala em prazo não inferior a 30 dias para impugnação, e não 15.",
+        "C": "O art. 82, I, exige publicação prévia do memorial descritivo, do orçamento, da parcela do custo a ser financiada, da delimitação da zona beneficiada e do fator de absorção. A notificação do § 2º ocorre no lançamento, depois disso.",
+        "D": "A contribuição de melhoria decorre de obra pública de que decorra valorização imobiliária (art. 81 do CTN e art. 145, III, da CF). Serviço público é fato gerador de taxa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), arts. 81 e 82", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0027",
+      "tema": "COSIP – iluminação pública e monitoramento de logradouros",
+      "enunciado": "Com base no art. 149-A da Constituição Federal, na redação da Emenda Constitucional nº 132/2023, e no art. 82-A do CTN, incluído pela Lei Complementar nº 227/2026, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os Municípios e o Distrito Federal podem instituir contribuição para o custeio, a expansão e a melhoria do serviço de iluminação pública e de sistemas de monitoramento para segurança e preservação de logradouros públicos, facultada a cobrança na fatura de consumo de energia elétrica.",
+        "B": "A contribuição de iluminação pública é de competência da União, que repassa o produto da arrecadação aos Municípios.",
+        "C": "A contribuição de iluminação pública deve observar a legalidade, mas está dispensada da anterioridade do exercício e da nonagesimal.",
+        "D": "A contribuição pode custear apenas a manutenção do serviço de iluminação pública, sendo vedado o seu uso para a expansão da rede.",
+        "E": "É vedada a cobrança da contribuição na fatura de consumo de energia elétrica, por confundir tarifa e tributo."
+      },
+      "correta": "A",
+      "dica": "A EC 132/2023 ampliou o objeto da contribuição do art. 149-A. Veja também quais incisos do art. 150 ela manda observar.",
+      "explicacao": {
+        "A": "Correta. É o art. 149-A da CF na redação da EC 132/2023, com o seu parágrafo único, reproduzidos no art. 82-A, caput e § 2º, do CTN (LC 227/2026): custeio, expansão e melhoria da iluminação pública e de sistemas de monitoramento de logradouros, com cobrança facultada na fatura de energia.",
+        "B": "A competência é dos Municípios e do Distrito Federal (art. 149-A da CF). Não se trata de tributo federal repartido.",
+        "C": "O art. 149-A manda observar o art. 150, I e III: legalidade e as vedações do inciso III, que incluem irretroatividade, anterioridade do exercício e noventena.",
+        "D": "O art. 149-A e o § 1º, I, do art. 82-A do CTN incluem expressamente a expansão e a melhoria, compreendidas a aquisição, a instalação, a expansão, a manutenção e a operação dos equipamentos e ativos da rede.",
+        "E": "O parágrafo único do art. 149-A da CF e o § 2º do art. 82-A do CTN facultam expressamente a cobrança na fatura de consumo de energia elétrica."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 149-A (EC 132/2023)", "data": "2023-12-20" },
+        { "tipo": "lei", "referencia": "CTN, art. 82-A (LC 227/2026)", "data": "2026-01-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0061",
+      "tema": "Taxas de serviço em Curitiba: expediente e coleta de lixo (LC 40/2001)",
+      "enunciado": "Sobre as taxas de serviços previstas no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São taxas de serviços as de Expediente e de Coleta de Lixo.",
+        "B": "O fato imponível ocorre no dia 1º de janeiro de cada exercício, para a Taxa de Coleta de Lixo, e quando da prestação de cada serviço, para a Taxa de Expediente.",
+        "C": "A fixação da unidade de valor estimado da Taxa de Coleta de Lixo levará em conta, obrigatoriamente, o valor do IPTU lançado para o imóvel.",
+        "D": "O lançamento da Taxa de Coleta de Lixo poderá ser efetuado no mesmo instrumento de lançamento do IPTU.",
+        "E": "É sujeito passivo da Taxa de Coleta de Lixo o proprietário, titular do domínio útil ou possuidor de imóvel alcançado ou beneficiado pelo serviço."
+      },
+      "correta": "C",
+      "dica": "O art. 61 da LC 40/2001 (redação de 2017) usa a palavra 'independente' ao tratar da relação entre a taxa e o IPTU.",
+      "explicacao": {
+        "A": "Correta. É o art. 54 da LC 40/2001. As demais taxas do Código são de polícia (art. 64).",
+        "B": "Correta. É o art. 56, I e II, da LC 40/2001: a Taxa de Coleta de Lixo tem fato imponível anual, e a de Expediente ocorre a cada serviço prestado.",
+        "C": "Incorreta, e por isso é a resposta. O art. 61 da LC 40/2001 (LC 104/2017) manda considerar preços correntes de mercado, as despesas do exercício anterior com cada serviço e outros dados pertinentes, INDEPENDENTE do valor do IPTU. Atrelar a taxa ao imposto aproximaria a base de cálculo dela da de um imposto, o que o art. 145, § 2º, da CF proíbe.",
+        "D": "Correta. É o art. 63 da LC 40/2001. Cobrar no mesmo carnê não muda a natureza da taxa, que remunera serviço específico e divisível.",
+        "E": "Correta. É o art. 57, I, da LC 40/2001. Para a Taxa de Expediente, o sujeito passivo é o interessado na expedição do documento (inciso II)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 54 a 63 (art. 61 na redação da LC 104/2017), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 145, II e § 2º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0062",
+      "tema": "Taxas de polícia em Curitiba: fato imponível, base e isenções (LC 40/2001)",
+      "enunciado": "Com base no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa CORRETA sobre as taxas pelo exercício do poder de polícia.",
+      "alternativas": {
+        "A": "O fato imponível da Taxa de Apreensão e Depósito de Coisas ou Animais ocorre na efetiva apreensão por agente público; o das demais taxas de polícia, na solicitação, pelo contribuinte, da atividade municipal a elas referente.",
+        "B": "A Taxa de Vigilância Sanitária é taxa de serviço, cobrada pela utilização efetiva ou potencial do serviço de fiscalização sanitária.",
+        "C": "A base imponível das taxas de polícia é o valor venal do imóvel em que se localiza o estabelecimento.",
+        "D": "As taxas de polícia são lançadas por homologação, cabendo ao contribuinte apurar e recolher o valor devido.",
+        "E": "As entidades sem fins lucrativos são isentas das taxas de polícia para a obtenção de qualquer alvará de localização e funcionamento, independentemente de declaração de utilidade pública."
+      },
+      "correta": "A",
+      "dica": "O art. 66 da LC 40/2001 separa uma taxa de polícia das demais quanto ao momento do fato imponível.",
+      "explicacao": {
+        "A": "Correta. É o art. 66, I e II, da LC 40/2001. Na apreensão, quem provoca a atividade é o próprio agente público; nas demais taxas de polícia, é o pedido do contribuinte.",
+        "B": "A Taxa de Vigilância Sanitária está no rol das taxas de polícia (art. 64, X), e não das taxas de serviço, que são só as de Expediente e de Coleta de Lixo (art. 54).",
+        "C": "Pelo art. 68, a base imponível das taxas de polícia é o valor estimado das atividades administrativas necessárias à realização do fato imponível, e não o valor venal do imóvel.",
+        "D": "O art. 71 da LC 40/2001 determina que as taxas de polícia serão lançadas de ofício.",
+        "E": "O art. 91-A isenta as entidades sem fins lucrativos das taxas de polícia para o PRIMEIRO alvará de localização e funcionamento. A isenção só se estende à renovação ou a outro alvará se a entidade comprovar a declaração de utilidade pública (parágrafo único)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 54, 64, 66, 68, 71 e 91-A (LC 76/2010), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0063",
+      "tema": "Contribuição de melhoria em Curitiba (LC 40/2001, arts. 72 a 77 e 80, § 6º)",
+      "enunciado": "Considere as afirmativas abaixo sobre a Contribuição de Melhoria no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001).\n\nI. A hipótese de incidência é a realização de obra pública municipal da qual advenha benefício direto ou indireto aos imóveis localizados na zona de influência.\nII. O prazo para impugnação, pelo sujeito passivo, de qualquer dos elementos fixados no edital relativo à obra será de 30 dias, contado da publicação.\nIII. A impugnação terá efeito suspensivo e será apreciada em duas instâncias administrativas.\nIV. O crédito tributário da contribuição de melhoria poderá ser parcelado em até 36 vezes, conforme dispuser o regulamento.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I e II estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "O § 2º do art. 76 diz quem aprecia a impugnação ao edital da obra, em quantas instâncias e com qual efeito.",
+      "explicacao": {
+        "A": "A III está errada (art. 76, § 2º: única instância e sem efeito suspensivo), e a alternativa exclui as afirmativas II e IV, que estão corretas.",
+        "B": "A III está errada, e a alternativa exclui as afirmativas I (art. 72) e IV (art. 80, § 6º).",
+        "C": "Exclui a IV, que reproduz o art. 80, § 6º: parcelamento em até 36 vezes, com desconto de até 20% à vista e de até 10% no parcelamento em até 18 vezes, a juízo da autoridade.",
+        "D": "Correta. I é o art. 72; II é o art. 76, § 1º (compatível com o mínimo de 30 dias do art. 82, II, do CTN); IV é o art. 80, § 6º (LC 58/2005). A III contraria o art. 76, § 2º: a impugnação é apreciada em ÚNICA instância pelo titular do órgão ou entidade responsável pelo orçamento da obra e NÃO tem efeito suspensivo.",
+        "E": "A III está errada. Pelo art. 76, § 2º, da LC 40/2001, a impugnação deve conter comprovação efetiva das alegações, é apreciada em única instância e não tem efeito suspensivo."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 72, 76 e 80, § 6º (LC 58/2005), redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 81 e 82",
+          "data": "1966-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

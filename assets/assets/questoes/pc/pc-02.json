@@ -1,0 +1,87 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-02",
+    "titulo": "Jurisdição, competência e ação",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "pc-0004",
+      "tema": "Incompetência absoluta e relativa (arts. 62 a 65)",
+      "enunciado": "Com base nos arts. 62 a 65 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A incompetência relativa deve ser arguida por exceção, em peça autônoma, no prazo da resposta, sob pena de prorrogação.",
+        "B": "A competência determinada em razão da matéria pode ser modificada pelas partes por meio de cláusula de eleição de foro, desde que constante de instrumento escrito.",
+        "C": "Acolhida a alegação de incompetência, o juiz extinguirá o processo sem resolução do mérito.",
+        "D": "Salvo decisão judicial em sentido contrário, conservar-se-ão os efeitos de decisão proferida pelo juízo incompetente até que outra seja proferida, se for o caso, pelo juízo competente.",
+        "E": "A incompetência relativa só pode ser alegada pelo réu, não sendo dado ao Ministério Público suscitá-la nas causas em que atuar."
+      },
+      "correta": "D",
+      "dica": "O CPC de 2015 simplificou a forma de alegar a incompetência e preocupou-se em aproveitar o que já foi decidido. Lembre-se também de quem mais pode alegar a incompetência relativa.",
+      "explicacao": {
+        "A": "O art. 64, caput, diz que a incompetência, absoluta ou relativa, será alegada como questão preliminar de contestação. A exceção de incompetência em peça autônoma era do CPC/1973. A prorrogação ocorre se o réu não alegar a incompetência relativa em preliminar de contestação (art. 65).",
+        "B": "Pelo art. 62, a competência determinada em razão da matéria, da pessoa ou da função é inderrogável por convenção das partes. A eleição de foro (art. 63) só alcança a competência em razão do valor e do território.",
+        "C": "Pelo art. 64, § 3º, acolhida a alegação de incompetência, os autos serão remetidos ao juízo competente. Não há extinção do processo.",
+        "D": "Correta. É a literalidade do art. 64, § 4º. O dispositivo privilegia o aproveitamento dos atos: a decisão do juízo incompetente, inclusive uma tutela provisória, continua valendo até que o juízo competente se pronuncie.",
+        "E": "O art. 65, parágrafo único, permite que a incompetência relativa seja alegada pelo Ministério Público nas causas em que atuar."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 62 a 65", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0005",
+      "tema": "Modificação da competência: conexão e continência",
+      "enunciado": "A respeito da modificação da competência pela conexão e pela continência, conforme os arts. 54 a 59 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Serão reunidos para julgamento conjunto os processos que possam gerar risco de prolação de decisões conflitantes ou contraditórias caso decididos separadamente, mesmo sem conexão entre eles.",
+        "B": "Os processos de ações conexas serão reunidos para decisão conjunta, ainda que um deles já tenha sido sentenciado.",
+        "C": "A citação válida torna prevento o juízo para o qual as ações conexas serão reunidas.",
+        "D": "Havendo continência e tendo a ação continente sido proposta anteriormente, as ações serão necessariamente reunidas no juízo prevento.",
+        "E": "A competência absoluta, tanto quanto a relativa, pode modificar-se pela conexão ou pela continência."
+      },
+      "correta": "A",
+      "dica": "O § 3º do art. 55 amplia a reunião de processos para além da conexão clássica. Confira também o critério de prevenção do art. 59, que mudou em relação ao CPC/1973.",
+      "explicacao": {
+        "A": "Correta. É o art. 55, § 3º: a reunião se justifica pelo risco de decisões conflitantes ou contraditórias, mesmo que as ações não tenham pedido ou causa de pedir em comum.",
+        "B": "O art. 55, § 1º, ressalva: os processos de ações conexas serão reunidos para decisão conjunta, \"salvo se um deles já houver sido sentenciado\".",
+        "C": "Pelo art. 59, é o registro ou a distribuição da petição inicial que torna prevento o juízo. A citação válida era critério de prevenção no CPC/1973 (art. 219), e é a pegadinha.",
+        "D": "O art. 57 manda, nesse caso, proferir sentença sem resolução de mérito no processo relativo à ação contida. A reunião obrigatória ocorre na situação inversa, quando a ação contida foi proposta antes.",
+        "E": "O art. 54 fala apenas da competência relativa: é ela que pode modificar-se pela conexão ou pela continência. A competência absoluta é inderrogável (art. 62)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 54 a 59 e 62", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0006",
+      "tema": "Intervenção da União em ação contra o Município (art. 45)",
+      "enunciado": "Tramita em Vara da Fazenda Pública da Justiça Estadual ação indenizatória proposta por particular contra o Município de Curitiba. A União requer seu ingresso no feito como terceira interveniente. À luz do art. 45 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O processo prosseguirá na Justiça Estadual, pois a competência da Vara da Fazenda Pública para as causas em que o Município é réu é absoluta e prevalece sobre a presença da União.",
+        "B": "Os autos serão remetidos ao juízo federal competente, e, se a União vier a ser excluída do processo, o juízo federal restituirá os autos ao juízo estadual sem suscitar conflito.",
+        "C": "A remessa ao juízo federal também ocorreria se a ação fosse de acidente de trabalho, pois a intervenção da União sempre desloca a competência.",
+        "D": "Se houver cumulação com pedido de competência do juízo estadual, todos os autos serão remetidos, e o juízo federal julgará também esse pedido, por conexão.",
+        "E": "Excluída a União do processo, o juízo federal deverá suscitar conflito de competência perante o tribunal competente antes de devolver os autos."
+      },
+      "correta": "B",
+      "dica": "O art. 45 manda remeter os autos, tem exceções no caput e trata, nos parágrafos, da cumulação de pedidos e da exclusão posterior do ente federal.",
+      "explicacao": {
+        "A": "A presença da União como parte ou terceira interveniente desloca a causa para o juízo federal (art. 45, caput; CF, art. 109, I). A vara especializada da Fazenda Pública é regra de organização judiciária estadual e não prevalece sobre a competência constitucional da Justiça Federal.",
+        "B": "Correta. O caput do art. 45 manda remeter os autos ao juízo federal competente se nele intervier a União, e o § 3º dispõe que o juízo federal restituirá os autos ao juízo estadual sem suscitar conflito se o ente federal cuja presença ensejou a remessa for excluído do processo.",
+        "C": "O art. 45, I, excetua as ações de recuperação judicial, falência, insolvência civil e acidente de trabalho; o inciso II excetua as sujeitas à justiça eleitoral e à justiça do trabalho. Nesses casos, os autos não são remetidos.",
+        "D": "Pelo § 1º, os autos não serão remetidos se houver pedido cuja apreciação seja de competência do juízo perante o qual foi proposta a ação. E o § 2º diz que o juiz, ao não admitir a cumulação, não examinará o mérito do pedido em que exista interesse da União. Não há julgamento conjunto por conexão.",
+        "E": "O § 3º do art. 45 diz expressamente que a restituição ao juízo estadual se faz sem suscitar conflito."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 45", "data": "2015-03-16" },
+        { "tipo": "constituicao", "referencia": "CF, art. 109, I", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

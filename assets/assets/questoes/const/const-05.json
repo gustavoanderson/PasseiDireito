@@ -1,0 +1,191 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-05",
+    "titulo": "Organização do Estado e Federação",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "const-0013",
+      "tema": "Repartição de competências – concorrente e municipal",
+      "enunciado": "Sobre a repartição de competências na Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "No âmbito da legislação concorrente, a superveniência de lei federal sobre normas gerais revoga a lei estadual no que lhe for contrário.",
+        "B": "O art. 24 da Constituição inclui expressamente os Municípios entre os entes com competência para legislar concorrentemente sobre direito urbanístico e proteção do meio ambiente.",
+        "C": "Compete aos Municípios criar, organizar e suprimir distritos, independentemente da legislação estadual.",
+        "D": "Inexistindo lei federal sobre normas gerais, os Estados exercerão a competência legislativa plena, para atender a suas peculiaridades.",
+        "E": "Compete aos Municípios organizar e prestar os serviços públicos de interesse local, incluído o de transporte coletivo, que a Constituição qualifica como serviço de caráter complementar."
+      },
+      "correta": "D",
+      "dica": "No art. 24, a lei federal posterior não apaga a lei estadual: o verbo usado pelo § 4º é mais brando que revogar.",
+      "explicacao": {
+        "D": "Correta. É o art. 24, § 3º, da CF. Na lacuna da União, o Estado legisla com plenitude; se depois vier a lei federal de normas gerais, ela suspende a eficácia da lei estadual naquilo que lhe for contrário (§ 4º).",
+        "A": "O art. 24, § 4º, diz suspende a eficácia, e não revoga. A diferença importa: se a lei federal deixar de existir, a lei estadual volta a produzir efeitos, pois nunca foi revogada.",
+        "B": "O caput do art. 24 atribui a competência concorrente à União, aos Estados e ao Distrito Federal. Os Municípios não estão no rol; sua atuação legislativa se dá pelo interesse local e pela suplementação da legislação federal e estadual, no que couber (art. 30, I e II).",
+        "C": "O art. 30, IV, condiciona a criação, a organização e a supressão de distritos à observância da legislação estadual. A Constituição do Paraná repete a ressalva no art. 17, IV.",
+        "E": "O art. 30, V, qualifica o transporte coletivo como serviço de caráter essencial, e não complementar."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 24 e 30", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Constituição do Estado do Paraná, art. 17, IV (EC estadual 7/2000)", "data": "2000-04-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0014",
+      "tema": "Intervenção estadual nos Municípios",
+      "enunciado": "Acerca da intervenção do Estado do Paraná em seus Municípios, disciplinada nos arts. 35 e 36 da Constituição Federal e no art. 20 da Constituição do Estado do Paraná, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Quando o Tribunal de Justiça der provimento a representação para prover a execução de lei, de ordem ou de decisão judicial, fica dispensada a apreciação pela Assembleia Legislativa, e o decreto limita-se a suspender a execução do ato impugnado, se essa medida bastar ao restabelecimento da normalidade.",
+        "B": "O Estado poderá intervir no Município quando deixar de ser paga, ainda que por motivo de força maior, por um ano, a dívida fundada.",
+        "C": "O decreto de intervenção estadual será submetido à apreciação da Câmara Municipal do Município afetado, no prazo de vinte e quatro horas.",
+        "D": "A União poderá intervir diretamente em Município situado em Estado-membro para assegurar a observância do princípio da autonomia municipal.",
+        "E": "Cessados os motivos da intervenção, as autoridades afastadas de seus cargos não retornam a eles, cabendo ao interventor concluir o mandato."
+      },
+      "correta": "A",
+      "dica": "Nas hipóteses de representação julgada pelo Tribunal de Justiça, a intervenção pode ser mínima e dispensa o controle político. Confira também quem aprecia o decreto.",
+      "explicacao": {
+        "A": "Correta. É o art. 36, § 3º, da CF, aplicado à hipótese do art. 35, IV, e reproduzido no art. 20, § 5º, da Constituição do Paraná. Quando a intervenção decorre de decisão judicial, o controle político pela Assembleia é dispensado, e o decreto pode se limitar a suspender o ato.",
+        "B": "O art. 35, I, da CF (e o art. 20, I, da Constituição do Paraná) exige que a dívida fundada deixe de ser paga, sem motivo de força maior, por dois anos consecutivos. A alternativa troca o prazo e a ressalva.",
+        "C": "O art. 36, § 1º, da CF submete o decreto à apreciação da Assembleia Legislativa do Estado, no prazo de 24 horas. A Constituição do Paraná (art. 20, § 1º) também exige a prévia apreciação e aprovação da Assembleia. A Câmara Municipal não aprecia o decreto: é perante ela que o interventor assume os encargos (art. 20, § 2º).",
+        "D": "Pelo art. 35 da CF, a União só intervém em Municípios localizados em Território Federal. O Município situado em Estado-membro sofre intervenção apenas do Estado. A autonomia municipal (art. 34, VII, c) é princípio cuja violação autoriza a intervenção da União no Estado, e não no Município.",
+        "E": "O art. 36, § 4º, da CF e o art. 20, § 6º, da Constituição do Paraná dispõem que, cessados os motivos da intervenção, as autoridades afastadas de seus cargos a estes voltarão, salvo impedimento legal."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 34, VII, 35 e 36", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Constituição do Estado do Paraná, art. 20", "data": "1989-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0015",
+      "tema": "Lei Orgânica de Curitiba – emenda",
+      "enunciado": "Um grupo de Vereadores pretende alterar a Lei Orgânica do Município de Curitiba. Com base no art. 29 da Constituição Federal e no art. 51 da Lei Orgânica do Município de Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A proposta de emenda pode ser apresentada por um quinto, no mínimo, dos membros da Câmara Municipal.",
+        "B": "A iniciativa popular de emenda à Lei Orgânica exige proposta subscrita por um por cento do eleitorado do Município.",
+        "C": "A proposta será discutida e votada em dois turnos, com interstício mínimo de dez dias, e considerada aprovada se obtiver dois terços dos votos dos membros da Câmara Municipal, em ambos os turnos.",
+        "D": "Aprovada, a emenda será enviada ao Prefeito para sanção e promulgação, com o respectivo número de ordem.",
+        "E": "A Lei Orgânica pode ser emendada durante intervenção estadual no Município, desde que a proposta seja aprovada por unanimidade."
+      },
+      "correta": "C",
+      "dica": "A Lei Orgânica de Curitiba segue de perto o modelo do art. 29 da Constituição quanto à votação, e o do art. 60 quanto à promulgação e às limitações circunstanciais.",
+      "explicacao": {
+        "C": "Correta. É o art. 51, § 3º, da Lei Orgânica de Curitiba, que repete para a emenda o rito que o art. 29, caput, da CF exige para a própria Lei Orgânica: dois turnos, interstício mínimo de dez dias e dois terços dos membros da Câmara.",
+        "A": "O art. 51, I, da LOM exige proposta de um terço, no mínimo, dos membros da Câmara Municipal. As outras iniciativas são a do Prefeito (II) e a popular (III).",
+        "B": "O art. 51, III, da LOM exige proposta subscrita por cinco por cento do eleitorado do Município. É o mesmo percentual da iniciativa popular de lei no art. 29, XIII, da CF e no art. 55 da LOM.",
+        "D": "O art. 51, § 6º, da LOM atribui a promulgação à Mesa da Câmara Municipal, com o respectivo número de ordem. Não há sanção do Prefeito, assim como não há sanção presidencial na emenda à Constituição (art. 60, § 3º, da CF).",
+        "E": "O art. 51, § 1º, da LOM veda emendas na vigência de estado de sítio ou de estado de defesa, ou no caso de o Município estar sob intervenção estadual. A vedação é absoluta, e nenhum quórum a supera."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 29, caput e XIII", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 51 e 55", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0047",
+      "tema": "Competências dos Municípios (art. 30 da CF)",
+      "enunciado": "Nos termos do art. 30 da Constituição Federal, compete aos Municípios todas as alternativas abaixo, EXCETO:",
+      "alternativas": {
+        "A": "Legislar sobre assuntos de interesse local.",
+        "B": "Instituir e arrecadar os tributos de sua competência, bem como aplicar suas rendas, sem prejuízo da obrigatoriedade de prestar contas e publicar balancetes nos prazos fixados em lei.",
+        "C": "Organizar e prestar, diretamente ou sob regime de concessão ou permissão, os serviços públicos de interesse local, incluído o de transporte coletivo, que tem caráter essencial.",
+        "D": "Promover, no que couber, adequado ordenamento territorial, mediante planejamento e controle do uso, do parcelamento e da ocupação do solo urbano.",
+        "E": "Legislar concorrentemente com a União e os Estados sobre direito tributário, financeiro, penitenciário, econômico e urbanístico."
+      },
+      "correta": "E",
+      "dica": "Compare com o art. 24 da CF: lá estão os entes que legislam concorrentemente. O Município está nesse rol?",
+      "explicacao": {
+        "E": "É a resposta, pois não existe no art. 30. A competência legislativa concorrente sobre direito tributário, financeiro, penitenciário, econômico e urbanístico é do art. 24 da CF, atribuída à União, aos Estados e ao Distrito Federal; o Município fica de fora desse rol, e sua participação se dá pela suplementação da legislação federal e estadual no que couber (art. 30, II).",
+        "A": "Correta. É o art. 30, I, da CF: o núcleo da autonomia legislativa municipal é o interesse local.",
+        "B": "Correta. É o art. 30, III, da CF, que também exige a prestação de contas e a publicação de balancetes.",
+        "C": "Correta. É o art. 30, V, da CF, que também qualifica o transporte coletivo como serviço essencial.",
+        "D": "Correta. É o art. 30, VIII, da CF, base constitucional do plano diretor e do controle urbanístico municipal."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 30, I, II, III, V e VIII", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 24, caput", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0048",
+      "tema": "Competência administrativa comum (art. 23 da CF)",
+      "enunciado": "Sobre a competência comum da União, dos Estados, do Distrito Federal e dos Municípios, prevista no art. 23 da Constituição Federal, analise as afirmativas a seguir.\n\nI. Compete aos quatro entes zelar pela guarda da Constituição, das leis e das instituições democráticas e conservar o patrimônio público.\nII. Compete aos quatro entes proteger o meio ambiente e combater a poluição em qualquer de suas formas, bem como preservar as florestas, a fauna e a flora.\nIII. Compete aos quatro entes promover programas de construção de moradias e a melhoria das condições habitacionais e de saneamento básico.\nIV. Leis complementares fixarão normas para a cooperação entre a União e os Estados, o Distrito Federal e os Municípios, tendo em vista o equilíbrio do desenvolvimento e do bem-estar em âmbito nacional, e essas leis dependem de aprovação em referendo popular para entrar em vigor.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "O parágrafo único do art. 23 fala só em lei complementar; não busque aí nenhuma etapa de consulta popular.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem os incisos I, VI, VII e IX do art. 23 da CF. A IV é falsa: o parágrafo único do art. 23 exige lei complementar para fixar as normas de cooperação entre os entes, mas não condiciona a vigência dessa lei a referendo popular.",
+        "A": "Deixa de fora a III, que está correta: promover moradia e saneamento básico é competência comum dos quatro entes, pelo art. 23, IX, da CF.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz o art. 23, I, da CF.",
+        "D": "Nem todas estão corretas: a IV inventa uma exigência de referendo popular que o parágrafo único do art. 23 não contém.",
+        "E": "Inclui a IV, que é falsa pelo motivo exposto na explicação da alternativa B, e deixa de fora a II, que reproduz os incisos VI e VII do art. 23."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 23, I, VI, VII, IX e parágrafo único", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0049",
+      "tema": "Competências específicas do Município de Curitiba (Lei Orgânica, art. 11)",
+      "enunciado": "Com base no art. 11 da Lei Orgânica do Município de Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Compete ao Município elaborar o Plano Plurianual, as Diretrizes Orçamentárias e o Orçamento Anual, estimando a receita e fixando a despesa.",
+        "B": "A manutenção de programas de educação infantil e de ensino fundamental é encargo exclusivo do Município, sem cooperação técnica e financeira da União e do Estado.",
+        "C": "A gestão integrada dos resíduos sólidos e a limpeza dos logradouros públicos são encargos que a Lei Orgânica remete inteiramente à legislação federal, sem competência normativa municipal.",
+        "D": "A manutenção da guarda municipal é facultada ao Município, independentemente de previsão na Constituição Federal e na legislação pertinente.",
+        "E": "O exercício do poder de polícia municipal está condicionado à edição de lei complementar federal que discipline a matéria em cada Município."
+      },
+      "correta": "A",
+      "dica": "Esse artigo trata das competências do Município \"em especial\"; procure a que cuida das peças do planejamento orçamentário.",
+      "explicacao": {
+        "A": "Correta. É o art. 11, II, da LOM: cabe ao Município elaborar o PPA, a LDO e a LOA, estimando a receita e fixando a despesa, peça central da autonomia financeira municipal.",
+        "B": "O art. 11, IV, da LOM manda manter esses programas com a cooperação técnica e financeira da União e do Estado, e não sozinho.",
+        "C": "O art. 11, VIII, da LOM atribui ao próprio Município prover a limpeza dos logradouros públicos e a gestão integrada dos resíduos sólidos, como competência local, e não como mera execução de norma federal.",
+        "D": "O art. 11, XXIV, da LOM condiciona a manutenção da guarda municipal à conformidade com a Constituição Federal e a legislação pertinente, e não a uma faculdade desvinculada delas.",
+        "E": "O art. 11, XXV, da LOM atribui ao Município o exercício do poder de polícia em tudo o que for de seu peculiar interesse, sem subordinar esse exercício a uma lei complementar federal específica."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 11, II, IV, VIII, XXIV e XXV", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0050",
+      "tema": "Vedações aos entes federados (art. 19 da CF) e ao Município (art. 14 da Lei Orgânica)",
+      "enunciado": "Comparando o art. 19 da Constituição Federal com o art. 14 da Lei Orgânica do Município de Curitiba, que tratam das vedações impostas aos entes federativos, analise as afirmativas a seguir.\n\nI. É vedado ao Município estabelecer cultos religiosos ou igrejas, subvencioná-los, embaraçar-lhes o funcionamento ou manter com eles ou seus representantes relações de dependência ou aliança, ressalvada, na forma da lei, a colaboração de interesse público.\nII. É vedado ao Município recusar fé aos documentos públicos.\nIII. A Lei Orgânica reproduz literalmente a expressão da Constituição Federal nesse ponto, vedando a criação de distinções entre brasileiros ou preferências \"entre si\".\nIV. É vedado ao Município permitir ou fazer uso de estabelecimento gráfico, jornal, estação de rádio, televisão ou outro meio de comunicação de sua propriedade para fins estranhos à administração e ao interesse público, vedação que não tem correspondente expresso no art. 19 da Constituição Federal.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Compare palavra por palavra o inciso III dos dois textos antes de aceitar que são idênticos.",
+      "explicacao": {
+        "B": "Correta. I e II reproduzem fielmente o art. 14, I e II, da LOM (e os correspondentes incisos I e II do art. 19 da CF). A IV está correta: a vedação ao uso de veículo de comunicação de propriedade do Município para fins estranhos à administração (art. 14, IV, da LOM) não tem correspondente expresso no art. 19 da CF, que se limita às três vedações dos incisos I a III. A III é falsa: a Lei Orgânica não reproduz literalmente a expressão constitucional; onde a CF fala em \"preferências entre si\" (art. 19, III), a LOM fala em \"preferências entre pessoas políticas\" (art. 14, III).",
+        "A": "Deixa de fora a IV, que está correta: essa vedação sobre o uso de meios de comunicação é peculiar à Lei Orgânica de Curitiba, sem correspondente expresso no art. 19 da CF.",
+        "C": "Inclui a III, que é falsa pela divergência textual exposta na explicação da alternativa B, e deixa de fora a I, que reproduz o art. 14, I, da LOM.",
+        "D": "Nem todas estão corretas: a III afirma uma identidade literal entre os textos que não existe, como mostra a comparação entre \"entre si\" (CF) e \"entre pessoas políticas\" (LOM).",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a III, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 19", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 14", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

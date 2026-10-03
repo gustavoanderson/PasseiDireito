@@ -1,0 +1,104 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-14",
+    "titulo": "Direito Financeiro e orçamento (Lei 4.320/1964)",
+    "itemEdital": 14
+  },
+  "questoes": [
+    {
+      "id": "trib-0040",
+      "tema": "Créditos adicionais",
+      "enunciado": "Com base nos arts. 40 a 46 da Lei nº 4.320/1964, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os créditos suplementares e especiais são autorizados por lei e abertos por decreto executivo, e os créditos extraordinários são abertos por decreto do Poder Executivo, que deles dará imediato conhecimento ao Poder Legislativo.",
+        "B": "Créditos especiais são os destinados a reforço de dotação orçamentária já existente.",
+        "C": "Entende-se por superávit financeiro a diferença positiva entre a receita arrecadada e a despesa empenhada no exercício anterior.",
+        "D": "Os créditos adicionais têm, em regra, vigência plurianual, podendo ser utilizados em qualquer exercício do plano plurianual.",
+        "E": "A abertura de créditos suplementares independe da existência de recursos disponíveis, bastando a exposição justificativa."
+      },
+      "correta": "A",
+      "dica": "Suplementar reforça, especial cria, extraordinário atende ao imprevisível e urgente. Veja também quem autoriza e quem abre cada um.",
+      "explicacao": {
+        "A": "Correta. O art. 42 diz que os créditos suplementares e especiais são autorizados por lei e abertos por decreto executivo; o art. 44, que os extraordinários são abertos por decreto do Poder Executivo, com imediato conhecimento ao Legislativo.",
+        "B": "Pelo art. 41, I, reforço de dotação é crédito suplementar. Os especiais (inciso II) destinam-se a despesas para as quais não haja dotação orçamentária específica.",
+        "C": "O § 2º do art. 43 define superávit financeiro como a diferença positiva entre o ativo financeiro e o passivo financeiro, conjugando-se os saldos dos créditos adicionais transferidos e as operações de crédito a eles vinculadas, apurada em balanço patrimonial.",
+        "D": "O art. 45 diz que os créditos adicionais terão vigência adstrita ao exercício financeiro em que forem abertos, salvo expressa disposição legal em contrário quanto aos especiais e extraordinários.",
+        "E": "O art. 43 condiciona a abertura dos créditos suplementares e especiais à existência de recursos disponíveis e à exposição justificativa. Os recursos estão no § 1º: superávit financeiro, excesso de arrecadação, anulação de dotações e operações de crédito autorizadas."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 4.320/1964, arts. 40 a 46",
+          "data": "1964-03-17"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0041",
+      "tema": "Execução da despesa, restos a pagar e fundos especiais",
+      "enunciado": "Considere as afirmativas abaixo, com base na Lei nº 4.320/1964.\n\nI. Consideram-se Restos a Pagar as despesas empenhadas mas não pagas até o dia 31 de dezembro, distinguindo-se as processadas das não processadas.\nII. A liquidação da despesa consiste na verificação do direito adquirido pelo credor, tendo por base os títulos e documentos comprobatórios do respectivo crédito.\nIII. Pertencem ao exercício financeiro as receitas nele lançadas e as despesas nele pagas.\nIV. Salvo determinação em contrário da lei que o instituiu, o saldo positivo do fundo especial apurado em balanço será transferido para o exercício seguinte, a crédito do mesmo fundo.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II e III estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "O art. 35 adota um regime para a receita e outro para a despesa. Lembre qual estágio define a despesa do exercício.",
+      "explicacao": {
+        "B": "Correta. I é o art. 36; II, o art. 63; IV, o art. 73 da Lei 4.320/1964. A III está errada: pelo art. 35, pertencem ao exercício as receitas nele arrecadadas e as despesas nele legalmente empenhadas.",
+        "A": "A III está errada (art. 35: receitas arrecadadas e despesas empenhadas, e não receitas lançadas e despesas pagas), e a alternativa exclui a II e a IV, que reproduzem os arts. 63 e 73.",
+        "C": "Inclui a III, contrária ao art. 35, e exclui a I, que é o texto do art. 36 sobre restos a pagar.",
+        "D": "Inclui a III, contrária ao art. 35 da Lei 4.320/1964, e exclui a I e a II, transcrições dos arts. 36 e 63.",
+        "E": "A afirmativa III está errada. O art. 35 adota o regime de caixa para a receita (arrecadada) e o de competência para a despesa (legalmente empenhada). Por isso existem restos a pagar: despesa empenhada e não paga."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 4.320/1964, arts. 35, 36, 63 e 73",
+          "data": "1964-03-17"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0048",
+      "tema": "Classificação da despesa pública (Lei 4.320/1964, art. 12)",
+      "enunciado": "Sobre a classificação da despesa pública por categorias econômicas, prevista no art. 12 da Lei nº 4.320/1964, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "classificam-se como investimentos as dotações para constituição ou aumento do capital de entidades ou empresas que visem a objetivos comerciais ou financeiros, inclusive operações bancárias ou de seguros.",
+        "B": "classificam-se como inversões financeiras as dotações destinadas à aquisição de imóveis ou de bens de capital já em utilização.",
+        "C": "subvenções sociais são as transferências que se destinem a instituições públicas ou privadas de caráter assistencial ou cultural, sem finalidade lucrativa.",
+        "D": "classificam-se como transferências correntes as dotações para despesas às quais não corresponda contraprestação direta em bens ou serviços.",
+        "E": "classificam-se como despesas de custeio as dotações para manutenção de serviços anteriormente criados, inclusive as destinadas a atender a obras de conservação e adaptação de bens imóveis."
+      },
+      "correta": "A",
+      "dica": "Investimento e inversão financeira se distinguem, entre outros pontos, pelo tipo de empresa cujo capital o Poder Público aumenta.",
+      "explicacao": {
+        "A": "É a resposta. Pelo § 5º, III, do art. 12, a constituição ou aumento do capital de empresas com objetivos comerciais ou financeiros é inversão financeira. Investimento (§ 4º) só abrange o aumento do capital de empresas que não sejam de caráter comercial ou financeiro.",
+        "B": "Correto. É o § 5º, I, do art. 12: são inversões financeiras as dotações destinadas à aquisição de imóveis ou de bens de capital já em utilização.",
+        "C": "Correto. É o § 3º, I, do art. 12. As subvenções econômicas (inciso II) destinam-se a empresas públicas ou privadas de caráter industrial, comercial, agrícola ou pastoril.",
+        "D": "Correto. É o § 2º do art. 12, que inclui as contribuições e subvenções destinadas à manutenção de outras entidades de direito público ou privado.",
+        "E": "Correto. É o § 1º do art. 12: despesas de custeio mantêm serviços já criados, inclusive obras de conservação e adaptação de imóveis. O planejamento e a execução de obras são investimentos (§ 4º)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 4.320/1964, art. 12",
+          "data": "1964-03-17"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

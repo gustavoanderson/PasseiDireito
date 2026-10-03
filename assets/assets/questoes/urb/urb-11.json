@@ -1,0 +1,36 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-11",
+    "titulo": "Recursos hídricos e recursos florestais",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "urb-0036",
+      "tema": "Política Nacional de Recursos Hídricos (Lei 9.433/1997)",
+      "enunciado": "Sobre a Política Nacional de Recursos Hídricos, instituída pela Lei nº 9.433/1997, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a água é um bem de domínio público e um recurso natural limitado, dotado de valor econômico.",
+        "B": "em situações de escassez, o uso prioritário dos recursos hídricos é o consumo humano e a dessedentação de animais.",
+        "C": "a bacia hidrográfica é a unidade territorial para implementação da Política Nacional de Recursos Hídricos e atuação do Sistema Nacional de Gerenciamento de Recursos Hídricos.",
+        "D": "independem de outorga pelo Poder Público, conforme definido em regulamento, as derivações, captações e lançamentos considerados insignificantes.",
+        "E": "os valores arrecadados com a cobrança pelo uso de recursos hídricos podem ser aplicados livremente em qualquer região do País, sem limite para o pagamento de despesas de custeio administrativo dos órgãos do sistema."
+      },
+      "correta": "E",
+      "dica": "O art. 22 amarra o dinheiro da cobrança a um território e põe teto percentual no gasto com a máquina administrativa.",
+      "explicacao": {
+        "E": "É a incorreta, e por isso a resposta. O art. 22 manda aplicar os valores PRIORITARIAMENTE NA BACIA HIDROGRÁFICA em que foram gerados, e o § 1º limita a sete e meio por cento do total arrecadado a aplicação em despesas de implantação e custeio administrativo dos órgãos do SINGREH.",
+        "A": "Correto. São os fundamentos dos incisos I e II do art. 1º. O valor econômico da água justifica a cobrança, que visa dar ao usuário uma indicação de seu real valor (art. 19, I).",
+        "B": "Correto. É o art. 1º, III. Fora da escassez, a gestão deve proporcionar o uso múltiplo das águas (inciso IV).",
+        "C": "Correto. É o art. 1º, V. Por isso os Comitês de Bacia Hidrográfica atuam na totalidade de uma bacia, em sub-bacia ou em grupo de bacias contíguas (art. 37).",
+        "D": "Correto. É o art. 12, § 1º, II. Também independem de outorga o uso para necessidades de pequenos núcleos populacionais no meio rural e as acumulações de volumes insignificantes (incisos I e III)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.433/1997, arts. 1º, 12 e 22", "data": "1997-01-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

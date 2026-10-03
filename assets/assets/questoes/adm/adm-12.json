@@ -1,0 +1,113 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-12",
+    "titulo": "Intervenção do Estado na propriedade e desapropriação",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "adm-0008",
+      "tema": "Desapropriação – caducidade da declaração",
+      "enunciado": "Quanto aos prazos de caducidade da declaração expropriatória e aos prazos correlatos previstos no Decreto-Lei nº 3.365/1941 e na Lei nº 4.132/1962, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A declaração de utilidade pública e a declaração de interesse social caducam no mesmo prazo de cinco anos.",
+        "B": "Na desapropriação por interesse social, o expropriante tem cinco anos para efetivá-la, sem qualquer outra exigência.",
+        "C": "Na desapropriação por utilidade pública, o decreto caduca se a desapropriação não se efetivar em cinco anos de sua expedição, e somente decorrido um ano o mesmo bem poderá ser objeto de nova declaração.",
+        "D": "Caducado o decreto de utilidade pública, o mesmo bem pode ser imediatamente objeto de nova declaração.",
+        "E": "Extingue-se em dez anos o direito de propor ação que vise à indenização por restrições decorrentes de atos do Poder Público."
+      },
+      "correta": "C",
+      "dica": "Os dois diplomas usam prazos diferentes, e um deles traz uma espécie de \"quarentena\" antes de uma nova declaração sobre o mesmo bem.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do art. 10 do Decreto-Lei 3.365/1941: a desapropriação deve efetivar-se por acordo ou ser intentada judicialmente em cinco anos da expedição do decreto, findos os quais ele caduca; e, nesse caso, somente decorrido um ano o mesmo bem pode ser objeto de nova declaração.",
+        "A": "Os prazos são diferentes. Utilidade pública: cinco anos (art. 10 do DL 3.365/1941). Interesse social: dois anos (art. 3º da Lei 4.132/1962).",
+        "B": "O art. 3º da Lei 4.132/1962 dá dois anos, contados da decretação, e exige mais do que efetivar a desapropriação: o expropriante deve também iniciar as providências de aproveitamento do bem nesse prazo.",
+        "D": "O art. 10 do DL 3.365/1941 impõe o intervalo de um ano após a caducidade para que o mesmo bem possa ser objeto de nova declaração.",
+        "E": "O prazo é de cinco anos, pelo parágrafo único do art. 10 do DL 3.365/1941 (incluído pela MP 2.183-56/2001)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, art. 10", "data": "1941-06-21" },
+        { "tipo": "lei", "referencia": "Lei 4.132/1962, art. 3º", "data": "1962-09-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0044",
+      "tema": "Desapropriação por utilidade pública – procedimento (DL 3.365/1941)",
+      "enunciado": "Sobre a desapropriação por utilidade pública, nos termos do Decreto-Lei nº 3.365/1941, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A declaração de utilidade pública far-se-á por decreto do Presidente da República, Governador, Interventor ou Prefeito.",
+        "B": "Ao Poder Judiciário é vedado, no processo de desapropriação, decidir se se verificam ou não os casos de utilidade pública.",
+        "C": "Na ação de desapropriação, a contestação pode versar sobre qualquer matéria de defesa, inclusive o desvio de finalidade do decreto expropriatório.",
+        "D": "Os bens expropriados, uma vez incorporados à Fazenda Pública, não podem ser objeto de reivindicação, ainda que fundada em nulidade do processo de desapropriação, e qualquer ação julgada procedente resolver-se-á em perdas e danos.",
+        "E": "O Poder Legislativo poderá tomar a iniciativa da desapropriação, cumprindo, neste caso, ao Executivo praticar os atos necessários à sua efetivação."
+      },
+      "correta": "C",
+      "dica": "A ação de desapropriação tem cognição limitada. Lembre o que o expropriado pode discutir dentro dela e o que fica para ação direta.",
+      "explicacao": {
+        "C": "É a resposta, porque está errada. O art. 20 do DL 3.365/1941 limita a contestação a vício do processo judicial ou impugnação do preço; qualquer outra questão, como o desvio de finalidade, deve ser decidida por ação direta.",
+        "A": "Correta. É o art. 6º do DL 3.365/1941. No Município, a declaração é feita por decreto do Prefeito.",
+        "B": "Correta. É o art. 9º. O juízo de conveniência sobre a utilidade pública é do Poder Público; a legalidade do ato pode ser questionada em ação própria.",
+        "D": "Correta. É o art. 35. É a regra da irreversibilidade: incorporado o bem, o expropriado só obtém perdas e danos, mesmo que prove nulidade do processo.",
+        "E": "Correta. É o art. 8º. O Legislativo pode declarar a utilidade pública, mas os atos de efetivação cabem ao Executivo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, arts. 6º, 8º, 9º, 20 e 35", "data": "1941-06-21" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0045",
+      "tema": "Desapropriação de bens públicos, delegatários e ocupação temporária",
+      "enunciado": "Considerando o Decreto-Lei nº 3.365/1941, com as alterações da Lei nº 14.620/2023, e a Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Município pode desapropriar bens do Estado, desde que haja autorização da Câmara Municipal.",
+        "B": "A autorização legislativa exigida para a desapropriação de bens municipais pelo Estado é dispensada quando a desapropriação for realizada mediante acordo entre os entes federativos, no qual serão fixadas as responsabilidades financeiras quanto ao pagamento das indenizações.",
+        "C": "Concessionários de serviço público não podem promover desapropriação em nenhuma hipótese, por serem pessoas jurídicas de direito privado.",
+        "D": "A ocupação temporária de terrenos vizinhos às obras alcança inclusive terrenos edificados e dispensa qualquer indenização.",
+        "E": "No caso de iminente perigo público, a autoridade competente poderá usar de propriedade particular, mediante prévia indenização em dinheiro."
+      },
+      "correta": "B",
+      "dica": "A desapropriação entre entes segue uma ordem de hierarquia, e a Lei 14.620/2023 criou uma forma de dispensar a autorização legislativa. Para a requisição, lembre em que momento a indenização é paga.",
+      "explicacao": {
+        "B": "Correta. O § 2º do art. 2º exige autorização legislativa para a desapropriação de bens dos Estados, dos Municípios e do DF pela União, e de bens dos Municípios pelos Estados; o § 2º-A, incluído pela Lei 14.620/2023, dispensa essa autorização quando a desapropriação for feita mediante acordo entre os entes, com a fixação das responsabilidades financeiras.",
+        "A": "O § 2º do art. 2º só prevê a desapropriação de bens públicos \"de cima para baixo\": a União desapropria bens de Estados, Municípios e DF, e os Estados desapropriam bens dos Municípios. O Município não desapropria bens do Estado.",
+        "C": "O art. 3º, I (redação da Lei 14.620/2023), permite que concessionários, inclusive os de PPP, permissionários, autorizatários e arrendatários promovam a desapropriação, mediante autorização expressa constante de lei ou contrato. A declaração de utilidade pública continua sendo do Poder Público.",
+        "D": "O art. 36 permite a ocupação temporária apenas de terrenos não edificados, vizinhos às obras e necessários à sua realização, e ela será indenizada, afinal, por ação própria.",
+        "E": "É a requisição administrativa do art. 5º, XXV, da CF, e a indenização é ulterior e só se houver dano. A indenização prévia e em dinheiro é a regra da desapropriação (art. 5º, XXIV)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, arts. 2º, §§ 2º e 2º-A, 3º e 36 (redação da Lei 14.620/2023)", "data": "2023-07-13" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XXIV e XXV", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0101",
+      "tema": "Hipóteses de utilidade pública (Decreto-Lei 3.365/1941, art. 5º)",
+      "enunciado": "Nos termos do art. 5º do Decreto-Lei nº 3.365/1941, consideram-se casos de utilidade pública, EXCETO:",
+      "alternativas": {
+        "A": "A segurança nacional e a defesa do Estado.",
+        "B": "O socorro público em caso de calamidade e a salubridade pública.",
+        "C": "A exploração ou a conservação dos serviços públicos.",
+        "D": "A mera conveniência econômica da Administração Pública, independentemente de finalidade de interesse coletivo.",
+        "E": "O funcionamento dos meios de transporte coletivo."
+      },
+      "correta": "D",
+      "dica": "O art. 5º tem dezesseis alíneas, todas ligadas a um interesse coletivo concreto. Procure a alternativa que fala só em vantagem para o erário, sem nenhuma finalidade pública por trás.",
+      "explicacao": {
+        "D": "É a resposta: a conveniência econômica da Administração, isolada de qualquer finalidade de interesse coletivo, não está entre as alíneas do art. 5º e, sozinha, não justificaria a declaração de utilidade pública, que pressupõe sempre uma finalidade pública concreta.",
+        "A": "Está no rol. São as alíneas 'a' e 'b' do art. 5º do DL 3.365/1941.",
+        "B": "Está no rol. São as alíneas 'c' e 'd' do art. 5º do DL 3.365/1941, voltadas à proteção da vida e da saúde da coletividade.",
+        "C": "Está no rol. É a alínea 'h' do art. 5º, que abrange tanto a exploração quanto a simples conservação do serviço público.",
+        "E": "Está no rol. É a alínea 'j' do art. 5º, ao lado da abertura e do melhoramento de vias e logradouros (alínea 'i')."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Decreto-Lei 3.365/1941, art. 5º, alíneas a, c, d, h e j", "data": "1941-06-21" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

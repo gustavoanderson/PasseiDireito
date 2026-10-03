@@ -1,0 +1,210 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-10",
+    "titulo": "Processo administrativo tributário",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "trib-0031",
+      "tema": "Prazos no processo administrativo fiscal (CTN, art. 208-D)",
+      "enunciado": "A Lei Complementar nº 236/2026 incluiu no Código Tributário Nacional normas gerais sobre o processo administrativo fiscal, aplicáveis à União, aos Estados, ao Distrito Federal e aos Municípios. Nos termos do art. 208-D do CTN, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A impugnação deve ser apresentada em 30 dias contados da ciência da lavratura do auto de infração, e os prazos são contados em dias corridos.",
+        "B": "A impugnação deve ser apresentada em 20 dias contados da ciência da lavratura do auto de infração, os embargos de declaração em 5 dias, e os prazos são contados em dias úteis, excluindo-se o dia do início e incluindo-se o do vencimento.",
+        "C": "O recurso voluntário deve ser interposto em 15 dias contados da ciência da decisão de primeira instância desfavorável.",
+        "D": "O curso do prazo processual suspende-se nos dias compreendidos entre 20 de dezembro e 6 de janeiro, inclusive.",
+        "E": "As pautas de julgamento devem ser divulgadas com antecedência mínima de 5 dias."
+      },
+      "correta": "B",
+      "dica": "O art. 208-D usa um único número para impugnação, recurso voluntário e recurso especial, e outro, menor, para os embargos. Os parágrafos tratam da contagem, do recesso e das pautas.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
+      "explicacao": {
+        "B": "Correta. O art. 208-D, I, fixa 20 dias para a impugnação; o inciso IV, 5 dias para os embargos de declaração; e o § 3º manda contar os prazos em dias úteis, excluindo-se o dia do início e incluindo-se o do vencimento.",
+        "A": "O prazo de impugnação é de 20 dias (art. 208-D, I), e o § 3º determina a contagem em dias úteis.",
+        "C": "O recurso voluntário também tem prazo de 20 dias contados da ciência da decisão de primeira instância desfavorável (art. 208-D, II).",
+        "D": "O § 5º do art. 208-D suspende o curso do prazo processual entre 20 de dezembro e 20 de janeiro, inclusive, e não até 6 de janeiro.",
+        "E": "O § 1º do art. 208-D exige divulgação das pautas de julgamento com antecedência mínima de 10 dias."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 208-D (LC 236/2026)",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0032",
+      "tema": "Processo administrativo fiscal – normas gerais da LC 236/2026",
+      "enunciado": "Sobre as normas gerais de processo administrativo fiscal incluídas no Código Tributário Nacional pela Lei Complementar nº 236/2026 (arts. 208-A a 208-J e 211-B), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O duplo grau de jurisdição no contencioso administrativo fiscal só é obrigatório para os entes federativos com mais de 500.000 habitantes residentes.",
+        "B": "A oposição de embargos de declaração suspende o prazo para a interposição de outros recursos, que volta a correr pelo saldo restante.",
+        "C": "Cabe recurso hierárquico ao Secretário Municipal de Finanças contra decisão definitiva favorável ao sujeito passivo proferida em processo administrativo fiscal.",
+        "D": "A propositura de ação judicial pelo sujeito passivo com o mesmo objeto do processo administrativo fiscal importará renúncia ao poder de recorrer na esfera administrativa e desistência do recurso acaso interposto.",
+        "E": "O ente que não atualizar sua legislação no prazo de dois anos fica dispensado de observar os critérios dos arts. 208-A a 208-J até que edite lei própria."
+      },
+      "correta": "D",
+      "dica": "Uma das alternativas repete, para o processo administrativo, uma regra que a Lei de Execução Fiscal já previa no parágrafo único do art. 38.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
+      "explicacao": {
+        "D": "Correta. É o parágrafo único do art. 208-E do CTN (LC 236/2026), que repete a lógica do art. 38, parágrafo único, da Lei 6.830/1980: a ação judicial com o mesmo objeto importa renúncia ao poder de recorrer na esfera administrativa e desistência do recurso interposto.",
+        "A": "O § 1º do art. 208-A exige o duplo grau de jurisdição dos entes federativos com mais de 100.000 habitantes residentes, apurados pelo último censo do IBGE (§ 2º). Curitiba está nesse grupo.",
+        "B": "O § 1º do art. 208-C diz que os embargos de declaração interrompem o prazo para a interposição de outros recursos, por qualquer das partes. Interrupção devolve o prazo inteiro; não é suspensão.",
+        "C": "O § 2º do art. 208-C veda o recurso hierárquico a Secretário de Estado, a Ministro de Estado ou a qualquer outro integrante do Poder Executivo contra decisão definitiva favorável ao sujeito passivo.",
+        "E": "O parágrafo único do art. 211-B diz o contrário: a não implementação no prazo de dois anos acarreta a aplicação direta dos arts. 208-A a 208-J até que sobrevenha legislação específica."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 208-A, 208-C, 208-E e 211-B (LC 236/2026)",
+          "data": "2026-09-04"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980, art. 38, parágrafo único",
+          "data": "1980-09-22"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0065",
+      "tema": "Processo administrativo tributário em Curitiba: impugnação e primeira instância (LC 40/2001)",
+      "enunciado": "Sobre o processo administrativo tributário do Município de Curitiba, nos termos dos arts. 92 a 100 da Lei Complementar Municipal nº 40/2001, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Cientificado do lançamento, o sujeito passivo disporá do prazo de 30 dias para impugná-lo.",
+        "B": "A autoridade fazendária, atendendo a circunstâncias especiais, poderá, em despacho fundamentado, acrescer de metade o prazo para impugnação.",
+        "C": "Não se instaura o litígio quando o sujeito passivo impugnar valores ou informações anteriormente por ele confessados ou declarados.",
+        "D": "A Junta de Julgamento Tributário será composta por no máximo cinco membros estáveis, integrantes do quadro de Auditores Fiscais de Tributos Municipais, e suas decisões serão tomadas de forma colegiada.",
+        "E": "A decisão que anular, por vício formal, o lançamento será submetida a reexame necessário sempre que exonerar o sujeito passivo de valor superior a R$ 10.000,00."
+      },
+      "correta": "E",
+      "dica": "O art. 99 cria o reexame necessário, e o artigo seguinte abre uma exceção para um tipo específico de decisão.",
+      "explicacao": {
+        "A": "Correta. É o art. 92, caput, da LC 40/2001. A LC 236/2026 fixou no CTN (art. 208-D, I) o prazo de 20 dias úteis, mas deu aos Municípios dois anos para adaptar sua legislação (art. 211-B); a pergunta é sobre a lei municipal.",
+        "B": "Correta. É o parágrafo único do art. 92 da LC 40/2001: o acréscimo de metade depende de circunstâncias especiais e de despacho fundamentado.",
+        "C": "Correta. É o art. 94, IV, da LC 40/2001. Também não se instaura o litígio quanto à matéria não impugnada, à impugnação intempestiva, à apresentada por parte ilegítima e à que versar sobre valores pagos ou parcelados.",
+        "D": "Correta. É o art. 96, §§ 1º e 3º, da LC 40/2001 (LC 107/2017). Os membros são designados pelo Secretário Municipal de Finanças.",
+        "E": "Incorreta, e por isso é a resposta. O art. 100 da LC 40/2001 diz que a decisão que anular o lançamento por vício formal NÃO está sujeita ao reexame necessário. O reexame do art. 99 vale para a decisão que exonera o sujeito passivo de valor atualizado superior a R$ 25.000,00, no ISS, ou a R$ 10.000,00, nos demais tributos e multas."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 92, 94, 96 (LC 107/2017), 99 (LC 107/2017) e 100, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 208-D e 211-B (LC 236/2026)",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0066",
+      "tema": "PAT em Curitiba: Conselho Municipal de Contribuintes e instância especial (LC 40/2001)",
+      "enunciado": "Com base nos arts. 98 a 109 da Lei Complementar Municipal nº 40/2001 (Código Tributário do Município de Curitiba), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Conselho Municipal de Contribuintes é composto exclusivamente por representantes do Município, indicados pelo Procurador-Geral do Município.",
+        "B": "Da decisão de primeira instância cabe recurso voluntário, no prazo de 15 dias, com efeito apenas devolutivo.",
+        "C": "A Presidência do Conselho Municipal de Contribuintes será exercida por Procurador indicado pelo Procurador-Geral do Município.",
+        "D": "O julgamento em instância especial compete à Comissão de Recursos Tributários, integrada pelo Prefeito, pelo Procurador-Geral do Município e pelo Secretário Municipal de Finanças.",
+        "E": "As decisões por equidade podem dispensar, total ou parcialmente, os acréscimos legais, inclusive a atualização monetária."
+      },
+      "correta": "C",
+      "dica": "A LC 119/2020 alterou o art. 101 para tratar da composição paritária do Conselho e de quem o preside.",
+      "explicacao": {
+        "A": "O art. 101, § 1º (LC 119/2020), constitui o Conselho de forma PARITÁRIA, com representantes do Município e de entidades representativas dos contribuintes. Os do Município são indicados, em igual número, pelo Procurador-Geral (entre procuradores) e pelo Secretário de Finanças (entre auditores fiscais), conforme o § 3º.",
+        "B": "O art. 98 prevê recurso voluntário com efeito suspensivo E devolutivo, no prazo de 30 dias da ciência da decisão.",
+        "C": "Correta. É o art. 101, § 5º, da LC 40/2001 (LC 119/2020): o Presidente do Conselho é Procurador indicado pelo Procurador-Geral do Município.",
+        "D": "Pelo art. 107, a Comissão de Recursos Tributários é integrada pelo Procurador-Geral do Município, pelo Secretário Municipal de Finanças e pelo Presidente do Conselho Municipal de Contribuintes. O Prefeito não a integra.",
+        "E": "O art. 109 restringe as decisões por equidade à dispensa, total ou parcial, dos acréscimos legais, EXCLUSIVE a atualização monetária. Elas competem à Comissão de Recursos Tributários, mediante proposta do Conselho."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 98, 101 (LC 119/2020), 107 e 109, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0067",
+      "tema": "Consulta tributária em Curitiba e renúncia à via administrativa (LC 40/2001, arts. 111 a 114)",
+      "enunciado": "Acerca da consulta tributária e da relação entre os processos administrativo e judicial no Código Tributário do Município de Curitiba (Lei Complementar Municipal nº 40/2001), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O direito de consulta é assegurado exclusivamente ao sujeito passivo, vedada a consulta por entidades representativas de categorias econômicas ou profissionais.",
+        "B": "A conclusão a que se chegar na resposta à consulta é vinculante para a Fazenda, em relação ao caso examinado.",
+        "C": "Na pendência da consulta, não se lavrará auto de infração nem se agravará a situação do consulente.",
+        "D": "Não será objeto de apreciação a consulta formulada após o início de procedimento administrativo ou medida de fiscalização relacionados com a matéria consultada.",
+        "E": "A propositura de ação judicial para discussão de matéria tributária importa renúncia ou desistência, conforme o caso, do sujeito passivo à análise administrativa da mesma questão, em qualquer instância."
+      },
+      "correta": "A",
+      "dica": "O art. 112 lista três tipos de legitimados para a consulta.",
+      "explicacao": {
+        "A": "Incorreta, e por isso é a resposta. O art. 112 da LC 40/2001 assegura o direito de consulta ao sujeito passivo, às entidades representativas de categorias econômicas ou profissionais e aos órgãos da Administração Pública, sobre situações concretas e determinadas.",
+        "B": "Correta. É o parágrafo único do art. 112 da LC 40/2001: a resposta vincula a Fazenda quanto ao caso concreto examinado.",
+        "C": "Correta. É o parágrafo único do art. 113. A consulta é apreciada pela Comissão de Consultas Tributárias, composta por membros da PGM e da Secretaria Municipal de Finanças (caput).",
+        "D": "Correta. É o art. 114, II, da LC 40/2001: a consulta não pode ser usada para afastar a fiscalização já iniciada sobre a matéria.",
+        "E": "Correta. É o art. 111 da LC 40/2001. O art. 208-E, parágrafo único, do CTN (LC 236/2026) tem regra semelhante, aplicável a todos os entes."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 40/2001 (Código Tributário Municipal), arts. 111 a 114, redação compilada no Legisladoc",
+          "data": "2001-12-18"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0068",
+      "tema": "Normas gerais de processo administrativo fiscal: auto de infração, vinculação e nulidades (CTN)",
+      "enunciado": "Considere as afirmativas abaixo, com base nos arts. 208-B, 208-G, 208-H e 208-J do Código Tributário Nacional, incluídos pela Lei Complementar nº 236/2026.\n\nI. O auto de infração conterá obrigatoriamente, entre outros elementos, a subsunção dos fatos descritos ao dispositivo legal infringido e a assinatura do autuante, com a indicação de seu cargo ou função e o número de matrícula.\nII. No âmbito do processo administrativo fiscal, têm efeito vinculante as decisões reiteradas e uniformes dos tribunais administrativos no âmbito dos entes federativos, consubstanciadas em súmulas.\nIII. Quando puder decidir o mérito a favor do sujeito passivo a quem aproveitaria a declaração de nulidade, a autoridade julgadora não a pronunciará nem mandará repetir o ato ou suprir-lhe a falta.\nIV. Sobrestado automaticamente o processo administrativo fiscal em razão de suspensão coletiva determinada pelo STF ou pelo STJ, fica vedada a concessão de medida liminar ou de tutela provisória sobre a mesma questão.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e IV estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Todas as afirmativas estão corretas.",
+        "D": "Somente as afirmativas I, II e III estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "D",
+      "dica": "O § 2º do art. 208-J diz o que o sobrestamento NÃO impede.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) alterou este ponto do CTN. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "A IV está errada (art. 208-J, § 2º), e a alternativa exclui as afirmativas II e III, que reproduzem os arts. 208-G, III, e 208-H, § 5º.",
+        "B": "Exclui a I, que reproduz o art. 208-B, IV e VII, do CTN: a subsunção dos fatos à norma e a matrícula do autuante passaram a ser requisitos obrigatórios do auto de infração.",
+        "C": "A IV está errada. O art. 208-J, § 2º, preserva expressamente a possibilidade de liminar ou tutela provisória durante o sobrestamento.",
+        "D": "Correta. I reproduz o art. 208-B, IV e VII; II é o art. 208-G, III; III é o art. 208-H, § 5º. A IV contraria o art. 208-J, § 2º: o sobrestamento não obsta a concessão de medida liminar ou tutela provisória, presentes os requisitos da legislação processual civil.",
+        "E": "A IV está errada (art. 208-J, § 2º), e a alternativa exclui as afirmativas I e II, que estão corretas."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, arts. 208-B, 208-G, 208-H e 208-J (LC 236/2026)",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

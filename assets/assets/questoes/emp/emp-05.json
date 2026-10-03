@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "emp",
+  "unidade": {
+    "id": "emp-05",
+    "titulo": "Propriedade industrial (Lei 9.279/1996)",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "emp-0015",
+      "tema": "Patentes: requisitos, exclusões e prazo",
+      "enunciado": "Sobre as patentes, nos termos da Lei nº 9.279/1996, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Os programas de computador em si e os métodos comerciais são considerados invenção e, atendidos os requisitos legais, são patenteáveis.",
+        "B": "É patenteável a invenção que atenda aos requisitos de novidade, atividade inventiva e aplicação industrial.",
+        "C": "A invenção e o modelo de utilidade são considerados novos quando não compreendidos no estado da técnica.",
+        "D": "A patente de invenção vigorará pelo prazo de 20 anos e a de modelo de utilidade pelo prazo de 15 anos, contados da data de depósito.",
+        "E": "Não são patenteáveis o todo ou parte dos seres vivos, exceto os microrganismos transgênicos que atendam aos requisitos de novidade, atividade inventiva e aplicação industrial e que não sejam mera descoberta."
+      },
+      "correta": "A",
+      "dica": "O art. 10 lista o que a lei nem considera invenção; confira se software e esquemas de negócio estão lá.",
+      "explicacao": {
+        "A": "É a resposta. O art. 10 da Lei 9.279/1996 diz que NÃO se consideram invenção nem modelo de utilidade os esquemas, planos, princípios ou métodos comerciais (inciso III) e os programas de computador em si (inciso V).",
+        "B": "Correta a afirmação. É o art. 8º da Lei 9.279/1996, que fixa os três requisitos de patenteabilidade da invenção.",
+        "C": "Correta a afirmação. É o caput do art. 11 da Lei 9.279/1996. O estado da técnica é tudo o que se tornou acessível ao público antes da data de depósito, no Brasil ou no exterior (§ 1º).",
+        "D": "Correta a afirmação. É o caput do art. 40 da Lei 9.279/1996. O parágrafo único, que garantia prazo mínimo contado da concessão, foi revogado pela Lei 14.195/2021; vale apenas o prazo contado do depósito.",
+        "E": "Correta a afirmação. É o art. 18, III, da Lei 9.279/1996. O parágrafo único define microrganismos transgênicos e exclui do conceito o todo ou parte de plantas ou de animais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.279/1996, arts. 8º, 10, 11, 18 e 40", "data": "1996-05-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0016",
+      "tema": "Marcas: aquisição, proteção especial e vigência",
+      "enunciado": "Com base na Lei nº 9.279/1996, a respeito das marcas, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O registro da marca vigorará pelo prazo de 10 anos, contados da data do depósito, prorrogável uma única vez por igual período.",
+        "B": "A marca notoriamente conhecida em seu ramo de atividade somente goza de proteção especial se estiver previamente depositada ou registrada no Brasil.",
+        "C": "Não é registrável como marca a designação ou sigla de entidade ou órgão público, ainda que o registro seja requerido pela própria entidade ou órgão público.",
+        "D": "A propriedade da marca adquire-se pelo registro validamente expedido, sendo assegurado ao titular seu uso exclusivo em todo o território nacional.",
+        "E": "À marca registrada no Brasil considerada de alto renome será assegurada proteção especial apenas em seu ramo de atividade."
+      },
+      "correta": "D",
+      "dica": "No Brasil vigora o sistema atributivo: o direito sobre a marca nasce de um ato do INPI, e não do simples uso.",
+      "explicacao": {
+        "D": "Correta. É o caput do art. 129 da Lei 9.279/1996 (sistema atributivo). O § 1º ressalva o direito de precedência de quem, de boa-fé, já usava marca idêntica ou semelhante no País há pelo menos 6 meses.",
+        "A": "Pelo art. 133 da Lei 9.279/1996, o prazo de 10 anos conta-se da data da CONCESSÃO do registro, e a prorrogação é possível por períodos iguais e SUCESSIVOS, sem limite de vezes. Não confunda com o desenho industrial, cujo prazo conta do depósito.",
+        "B": "O art. 126 da Lei 9.279/1996 protege a marca notoriamente conhecida em seu ramo de atividade INDEPENDENTEMENTE de estar previamente depositada ou registrada no Brasil, e o INPI pode indeferir de ofício pedido que a reproduza ou imite (§ 2º).",
+        "C": "O art. 124, IV, da Lei 9.279/1996 proíbe o registro da designação ou sigla de entidade ou órgão público QUANDO NÃO REQUERIDO pela própria entidade ou órgão. O próprio Município pode registrar a sua sigla.",
+        "E": "Pelo art. 125 da Lei 9.279/1996, a marca de alto renome tem proteção especial EM TODOS OS RAMOS de atividade. A proteção limitada ao ramo é a da marca notoriamente conhecida (art. 126)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.279/1996, arts. 124, 125, 126, 129 e 133", "data": "1996-05-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0017",
+      "tema": "Desenho industrial e indicações geográficas",
+      "enunciado": "Analise as afirmativas abaixo, com base na Lei nº 9.279/1996.\n\nI. Considera-se desenho industrial a forma plástica ornamental de um objeto ou o conjunto ornamental de linhas e cores que possa ser aplicado a um produto, proporcionando resultado visual novo e original na sua configuração externa e que possa servir de tipo de fabricação industrial.\nII. O registro de desenho industrial vigorará pelo prazo de 10 anos contados da data do depósito, prorrogável por 3 períodos sucessivos de 5 anos cada.\nIII. Constitui indicação geográfica a indicação de procedência ou a denominação de origem.\nIV. Considera-se denominação de origem o nome geográfico de país, cidade, região ou localidade de seu território que se tenha tornado conhecido como centro de extração, produção ou fabricação de determinado produto ou de prestação de determinado serviço.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "As duas espécies de indicação geográfica se distinguem pelo vínculo com o meio: uma exige só a fama do lugar; a outra, que as qualidades do produto se devam ao meio geográfico.",
+      "explicacao": {
+        "B": "Correta. I reproduz o art. 95, II o art. 108 e III o art. 176, todos da Lei 9.279/1996. A IV está errada: ela traz a definição de INDICAÇÃO DE PROCEDÊNCIA (art. 177).",
+        "A": "Deixa de fora a II, que está correta: pelo art. 108 da Lei 9.279/1996, o registro de desenho industrial dura 10 anos do depósito, prorrogável por 3 períodos sucessivos de 5 anos (até 25 anos no total).",
+        "C": "Inclui a IV, que está errada, e deixa de fora I e III, que estão corretas. A denominação de origem (art. 178) designa produto ou serviço cujas qualidades ou características se devam exclusiva ou essencialmente ao meio geográfico, incluídos fatores naturais e humanos.",
+        "D": "Inclui a IV, que está errada (o texto é o do art. 177, indicação de procedência, e não o do art. 178, denominação de origem), e deixa de fora I e II, que estão corretas.",
+        "E": "A IV está errada: descreve a indicação de procedência (art. 177 da Lei 9.279/1996). Na denominação de origem, as qualidades do produto devem decorrer exclusiva ou essencialmente do meio geográfico (art. 178)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.279/1996, arts. 95, 108, 176, 177 e 178", "data": "1996-05-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

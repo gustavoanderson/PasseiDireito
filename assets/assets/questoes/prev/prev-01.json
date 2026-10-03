@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-01",
+    "titulo": "Seguridade Social na Constituição: saúde, assistência e previdência",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "prev-0001",
+      "tema": "Objetivos da seguridade social (art. 194 da CF)",
+      "enunciado": "Nos termos do parágrafo único do art. 194 da Constituição Federal, compete ao Poder Público organizar a seguridade social com base em determinados objetivos. Assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Universalidade da cobertura e do atendimento.",
+        "B": "Seletividade e distributividade na prestação dos benefícios e serviços.",
+        "C": "Caráter democrático e descentralizado da administração, mediante gestão tripartite, com participação dos trabalhadores, dos empregadores e do Governo nos órgãos colegiados.",
+        "D": "Irredutibilidade do valor dos benefícios.",
+        "E": "Equidade na forma de participação no custeio."
+      },
+      "correta": "C",
+      "dica": "Conte quem participa dos órgãos colegiados da seguridade segundo o inciso VII: a EC 20/1998 incluiu mais um grupo.",
+      "explicacao": {
+        "C": "É a resposta, porque a alternativa está errada. O art. 194, parágrafo único, VII, da CF (redação da EC 20/1998) prevê gestão QUADRIPARTITE, com participação dos trabalhadores, dos empregadores, dos APOSENTADOS e do Governo nos órgãos colegiados.",
+        "A": "Correta. É o inciso I do parágrafo único do art. 194: a seguridade deve cobrir todos os riscos sociais (cobertura) e atender a todas as pessoas (atendimento).",
+        "B": "Correta. É o inciso III: o legislador seleciona as contingências a proteger e distribui os benefícios de forma a reduzir desigualdades.",
+        "D": "Correta. É o inciso IV do parágrafo único do art. 194. Para a previdência, o art. 201, § 4º, vai além e assegura o reajuste para preservar o valor real.",
+        "E": "Correta. É o inciso V: quem tem maior capacidade contributiva participa mais do custeio."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 194, parágrafo único (EC 20/1998 e EC 103/2019)", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0002",
+      "tema": "Saúde, assistência social e regra da contrapartida",
+      "enunciado": "Considere as assertivas abaixo, sobre a seguridade social na Constituição Federal.\n\nI. A saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas que visem à redução do risco de doença e de outros agravos e ao acesso universal e igualitário às ações e serviços para sua promoção, proteção e recuperação.\nII. A assistência social será prestada a quem dela necessitar, mediante contribuição à seguridade social.\nIII. A assistência social tem por objetivo, entre outros, a garantia de um salário mínimo de benefício mensal à pessoa com deficiência e ao idoso que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família, conforme dispuser a lei.\nIV. Nenhum benefício ou serviço da seguridade social poderá ser criado, majorado ou estendido sem a correspondente fonte de custeio total.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, III e IV estão corretas.",
+        "C": "Somente as assertivas II e III estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Das três áreas da seguridade, só uma tem caráter contributivo. Qual delas é?",
+      "explicacao": {
+        "B": "Correta. A assertiva I reproduz o art. 196 da CF; a III, o art. 203, V; e a IV, o art. 195, § 5º (regra da contrapartida). A II está errada.",
+        "A": "A assertiva II está errada: pelo art. 203, caput, da CF, a assistência social é prestada a quem dela necessitar, INDEPENDENTEMENTE de contribuição à seguridade social. Só a previdência tem caráter contributivo (art. 201).",
+        "C": "A assertiva II está errada (art. 203: a assistência independe de contribuição), e a alternativa deixa de fora as assertivas I e IV, corretas (arts. 196 e 195, § 5º).",
+        "D": "Incompleta: a assertiva I, que reproduz o art. 196 da CF, também está correta.",
+        "E": "A assertiva II está errada. A assistência social, ao contrário da previdência, é prestada independentemente de contribuição (art. 203, caput, da CF)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 195, § 5º, 196 e 203, caput e V", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

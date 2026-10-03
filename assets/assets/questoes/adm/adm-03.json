@@ -1,0 +1,113 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-03",
+    "titulo": "Advocacia pública e responsabilidade do parecerista",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "adm-0007",
+      "tema": "Parecer jurídico – responsabilidade e defesa do agente",
+      "enunciado": "A respeito da responsabilidade de quem emite opinião técnica e da proteção do agente público que decide conforme orientação jurídica, considerando a LINDB e a Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Pela LINDB, o agente público responde pessoalmente por suas decisões ou opiniões técnicas sempre que agir com culpa, ainda que leve.",
+        "B": "A representação judicial do agente pela advocacia pública, prevista na Lei nº 14.133/2021, é obrigatória e independe da vontade do agente.",
+        "C": "A representação pela advocacia pública é assegurada ao agente mesmo quando constarem dos autos provas da prática de atos ilícitos dolosos.",
+        "D": "O parecerista jurídico nunca pode ser responsabilizado por suas opiniões, em razão da inviolabilidade do advogado no exercício da profissão.",
+        "E": "Se o agente precisar defender-se em razão de ato praticado com estrita observância de parecer jurídico, a advocacia pública promoverá, a critério dele, sua representação, ainda que ele não ocupe mais o cargo em que praticou o ato."
+      },
+      "correta": "E",
+      "dica": "Dois dispositivos se completam aqui: o art. 28 da LINDB fixa o grau de culpa que gera responsabilidade pessoal, e o art. 10 da Lei 14.133 trata de quem seguiu o parecer. Repare em quem decide se haverá a representação.",
+      "explicacao": {
+        "E": "Correta. É a combinação do caput do art. 10 da Lei 14.133/2021 com o seu § 2º: quando o agente precisa se defender por ato praticado com estrita observância de parecer jurídico elaborado na forma do § 1º do art. 53, a advocacia pública promove, a critério do agente, sua representação judicial ou extrajudicial, inclusive se ele já não ocupa o cargo, emprego ou função.",
+        "A": "O art. 28 da LINDB (incluído pela Lei 13.655/2018) exige dolo ou erro grosseiro para a responsabilidade pessoal do agente por suas decisões ou opiniões técnicas. Culpa leve não basta.",
+        "B": "O caput do art. 10 diz que a representação ocorre \"a critério do agente público\". É uma garantia que ele pode aceitar ou recusar, preferindo advogado próprio.",
+        "C": "O § 1º, II, do art. 10 afasta a garantia justamente quando provas da prática de atos ilícitos dolosos constarem dos autos do processo administrativo ou judicial.",
+        "D": "A inviolabilidade do advogado não é absoluta. O art. 28 da LINDB admite a responsabilização pessoal por opiniões técnicas em caso de dolo ou erro grosseiro, e isso alcança o parecerista."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 28, incluído pela Lei 13.655/2018", "data": "2018-04-25" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 10", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0019",
+      "tema": "Erro grosseiro e decisor que adota o parecer (Decreto 9.830/2019)",
+      "enunciado": "O Decreto federal nº 9.830/2019 regulamenta os arts. 20 a 30 da LINDB. Considerando o seu art. 12, que trata da responsabilização do agente público por decisões ou opiniões técnicas, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Considera-se erro grosseiro aquele praticado com culpa, ainda que leve, desde que dele resulte dano ao erário.",
+        "B": "O montante expressivo do dano ao erário é, por si só, elemento suficiente para caracterizar o erro grosseiro.",
+        "C": "A responsabilização pela opinião técnica não se estende de forma automática ao decisor que a adotou como fundamento de decidir, e somente se configurará se houver elementos suficientes para ele aferir o dolo ou o erro grosseiro da opinião técnica, ou se houver conluio entre os agentes.",
+        "D": "O mero nexo de causalidade entre a conduta do agente e o resultado danoso basta para a responsabilização.",
+        "E": "No exercício do poder hierárquico, o superior responde por culpa in vigilando sempre que houver dano causado por subordinado."
+      },
+      "correta": "C",
+      "dica": "O decreto repete várias vezes a mesma ideia: sem dolo ou erro grosseiro comprovado, não há responsabilização. Veja qual afirmação trata da relação entre quem opina e quem decide.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do § 6º do art. 12 do Decreto 9.830/2019. A regra protege o gestor que decide com base em parecer: ele só responde pela opinião técnica viciada se tinha elementos para perceber o dolo ou o erro grosseiro, ou se houve conluio.",
+        "A": "O § 1º do art. 12 define erro grosseiro como o erro manifesto, evidente e inescusável praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia. Culpa leve não basta, em linha com o art. 28 da LINDB.",
+        "B": "O § 5º do art. 12 diz o contrário: o montante do dano ao erário, ainda que expressivo, não poderá, por si só, ser elemento para caracterizar o erro grosseiro ou o dolo.",
+        "D": "O § 3º do art. 12 afasta a responsabilização pelo mero nexo de causalidade entre a conduta e o resultado danoso, exceto se comprovado o dolo ou o erro grosseiro do agente público.",
+        "E": "O § 7º do art. 12 limita a culpa in vigilando: no exercício do poder hierárquico, só responde aquele cuja omissão caracterizar erro grosseiro ou dolo."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto federal 9.830/2019, art. 12", "data": "2019-06-10" },
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 28", "data": "2018-04-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0020",
+      "tema": "Controle prévio de legalidade pela assessoria jurídica (Lei 14.133/2021)",
+      "enunciado": "Acerca da atuação do órgão de assessoramento jurídico da Administração no processo de contratação, nos termos do art. 53 da Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O controle prévio de legalidade restringe-se aos processos licitatórios, não alcançando contratações diretas, convênios e adesões a atas de registro de preços.",
+        "B": "A análise jurídica é sempre obrigatória, não podendo ser dispensada em nenhuma hipótese.",
+        "C": "A dispensa da análise jurídica pode ser decidida caso a caso pela autoridade que conduz a licitação, conforme a urgência da contratação.",
+        "D": "É dispensável a análise jurídica nas hipóteses previamente definidas em ato da autoridade jurídica máxima competente, que deverá considerar o baixo valor, a baixa complexidade da contratação, a entrega imediata do bem ou a utilização de minutas previamente padronizadas pelo órgão de assessoramento jurídico.",
+        "E": "O parecer jurídico deve ser elaborado em linguagem técnica, dispensada a exposição dos pressupostos de fato e de direito considerados na análise."
+      },
+      "correta": "D",
+      "dica": "O art. 53 admite uma exceção à análise jurídica, mas diz quem a define e com base em quais critérios.",
+      "explicacao": {
+        "D": "Correta. É a literalidade do § 5º do art. 53 da Lei 14.133/2021. A dispensa não é casuística: depende de ato prévio da autoridade jurídica máxima competente, baseado nos critérios que a lei enumera.",
+        "A": "O § 4º do art. 53 estende o controle prévio de legalidade às contratações diretas, acordos, termos de cooperação, convênios, ajustes, adesões a atas de registro de preços, outros instrumentos congêneres e seus termos aditivos.",
+        "B": "A análise jurídica é a regra (caput do art. 53), mas o § 5º admite que ela seja dispensável nas hipóteses definidas em ato da autoridade jurídica máxima competente.",
+        "C": "A dispensa não fica a critério da autoridade que conduz a contratação, nem é decidida caso a caso pela urgência. O § 5º exige hipóteses previamente definidas em ato da autoridade jurídica máxima competente.",
+        "E": "O § 1º, II, do art. 53 exige manifestação em linguagem simples e compreensível, de forma clara e objetiva, com apreciação de todos os elementos indispensáveis à contratação e com exposição dos pressupostos de fato e de direito levados em consideração."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 53", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0097",
+      "tema": "Procuradoria-Geral do Município de Curitiba (Lei Orgânica, art. 74)",
+      "enunciado": "Com base no art. 74 da Lei Orgânica do Município de Curitiba, na redação dada pela Emenda à Lei Orgânica nº 24/2024, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O cargo de Procurador-Geral do Município é privativo de integrante da carreira, vedada a nomeação de profissional estranho aos quadros da Procuradoria-Geral.",
+        "B": "Compete à Procuradoria-Geral do Município a cobrança judicial e extrajudicial da dívida ativa do Município, em conjunto e solidariamente com a Secretaria Municipal de Finanças.",
+        "C": "O ingresso na carreira de Procurador do Município depende de concurso público de provas e títulos, realizado pela Procuradoria-Geral do Município, dispensada a participação da Ordem dos Advogados do Brasil em suas fases.",
+        "D": "O exercício das atribuições da Procuradoria-Geral do Município pode ser realizado por terceiros não integrantes da carreira, desde que supervisionados por Procurador do Município.",
+        "E": "A Procuradoria-Geral do Município é órgão central do sistema jurídico municipal, diretamente vinculado ao Prefeito, com funções de supervisionar os serviços jurídicos da administração direta e indireta no âmbito do Poder Executivo."
+      },
+      "correta": "E",
+      "dica": "O art. 74 trata de cinco pontos: a quem a Procuradoria se vincula, como se escolhe o Procurador-Geral, como se ingressa na carreira, quem cobra a dívida ativa e se terceiros podem exercer as atribuições da instituição.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 74 da Lei Orgânica, na redação dada pela Emenda à Lei Orgânica nº 24/2024: a Procuradoria-Geral é instituição essencial à justiça, órgão central do sistema jurídico municipal, vinculada diretamente ao Prefeito, com a função de supervisionar os serviços jurídicos da administração direta e indireta do Executivo.",
+        "A": "O § 1º do art. 74 diz que o cargo de Procurador-Geral é de livre nomeação do Prefeito, preferencialmente dentre os integrantes da carreira, e não privativo dela. Só os demais cargos de direção é que são privativos de Procuradores do Município.",
+        "B": "O § 4º do art. 74 atribui essa cobrança com exclusividade à Procuradoria-Geral do Município, e não em conjunto com a Secretaria de Finanças.",
+        "C": "O § 2º do art. 74 assegura a participação da Ordem dos Advogados do Brasil em todas as fases do concurso de ingresso na carreira, e não a dispensa.",
+        "D": "O § 5º do art. 74 veda a realização das atribuições da Procuradoria-Geral por terceiros, servidores ou não, ainda que sob supervisão de Procurador do Município: o exercício é exclusivo dos integrantes da carreira."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Orgânica do Município de Curitiba, art. 74, caput e §§ 1º, 2º, 4º e 5º (redação dada pela Emenda à Lei Orgânica nº 24/2024, DOM de 27/11/2024)", "data": "2024-11-27" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

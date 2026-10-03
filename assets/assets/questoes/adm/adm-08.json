@@ -1,0 +1,228 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-08",
+    "titulo": "Regulamentação da Lei 14.133/2021 em Curitiba",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "adm-0034",
+      "tema": "Estudo técnico preliminar em Curitiba (Decreto Municipal 383/2023)",
+      "enunciado": "O Decreto Municipal nº 383/2023 regulamenta a elaboração do estudo técnico preliminar (ETP) no âmbito da Administração Direta, Autárquica e Fundacional do Município de Curitiba. Segundo esse decreto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Deve ser observada a segregação de funções, sendo vedada a elaboração do ETP por servidor responsável pela condução do procedimento licitatório.",
+        "B": "O ETP é obrigatório inclusive nas alterações contratuais realizadas por termo aditivo ou apostilamento, como os acréscimos quantitativos e as prorrogações de serviços contínuos.",
+        "C": "Para todas as aquisições e contratações, o ETP deve conter obrigatoriamente todos os quinze elementos listados no decreto, sem possibilidade de justificativa para a ausência de algum deles.",
+        "D": "A elaboração do ETP é vedada nos casos de emergência ou de calamidade pública.",
+        "E": "A aprovação dos estudos técnicos preliminares compete exclusivamente ao Prefeito, vedada a delegação."
+      },
+      "correta": "A",
+      "dica": "O decreto aplica ao ETP uma ideia que a Lei 14.133/2021 trata como princípio: quem planeja não deve ser quem conduz o certame.",
+      "explicacao": {
+        "A": "Correta. É o § 1º do art. 4º do Decreto 383/2023: a designação dos servidores deve separar atribuições e responsabilidades nas diferentes etapas da contratação, sendo vedada a elaboração do ETP por servidor responsável pela condução do procedimento licitatório. É a segregação de funções do art. 5º e do art. 7º, § 1º, da Lei 14.133/2021.",
+        "B": "O art. 12, II, do decreto dispensa o ETP nas alterações contratuais realizadas por termo aditivo ou apostilamento, inclusive acréscimos quantitativos e prorrogações de serviços contínuos.",
+        "C": "O § 1º do art. 6º exige, para todas as contratações, ao menos os elementos dos incisos I, IV, VI, VIII e XIII (necessidade, quantidades, estimativa de valor, parcelamento e posicionamento conclusivo); a falta dos demais deve ser justificada no processo.",
+        "D": "O ETP não é vedado na emergência: o art. 11, IV, apenas faculta sua elaboração, mediante justificativa do órgão promotor, nos casos de emergência ou de calamidade pública.",
+        "E": "Pelo art. 3º, I, a aprovação do ETP cabe à autoridade máxima do órgão ou entidade (definida no Decreto 380/2023 como o Secretário, o Procurador-Geral ou o Presidente da autarquia ou fundação), que pode subdelegá-la, na forma do parágrafo único do art. 3º (redação do Decreto 1.392/2023)."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 383/2023, arts. 3º, 4º, 6º, 11 e 12 (DOM nº 47, de 10/03/2023; art. 3º, parágrafo único, com redação do Decreto 1.392/2023)", "data": "2023-03-10" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 5º e 7º, § 1º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0035",
+      "tema": "Pesquisa de preços em Curitiba (Decreto Municipal 384/2023)",
+      "enunciado": "Sobre a pesquisa de preços e a definição do valor estimado para aquisição de bens e contratação de serviços em geral, nos termos do Decreto Municipal nº 384/2023, de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A pesquisa direta com fornecedores é o parâmetro preferencial e dispensa justificativa, bastando a cotação de dois fornecedores.",
+        "B": "Na pesquisa direta, exige-se no mínimo 3 (três) fornecedores ou prestadores de serviços, mediante solicitação formal de cotação, com justificativa da escolha desses fornecedores e sem orçamentos obtidos com mais de 6 (seis) meses de antecedência da data de divulgação do edital.",
+        "C": "É permitida a obtenção de estimativa de preços em sítios de leilão ou de intermediação de vendas, desde que registrada a data de acesso.",
+        "D": "O orçamento estimado sigiloso não pode ser acessado pelos órgãos de controle interno e externo antes do encerramento da licitação.",
+        "E": "Na licitação com critério de julgamento por maior desconto, o preço estimado ou o máximo aceitável é sempre sigiloso."
+      },
+      "dica": "O decreto repete o art. 23 da Lei 14.133/2021 quanto à pesquisa com fornecedores. Nas demais afirmações, preste atenção às palavras \"permitida\", \"não pode\" e \"sempre\".",
+      "correta": "B",
+      "explicacao": {
+        "B": "Correta. É o art. 6º, § 2º, IV, do Decreto 384/2023, que reproduz o critério do art. 23, § 1º, IV, da Lei 14.133/2021. Pelo § 5º do art. 6º, a pesquisa feita exclusivamente com fornecedores só é admitida com justificativa expressa do afastamento dos outros critérios.",
+        "A": "O § 5º do art. 6º só admite pesquisa exclusivamente com fornecedores mediante justificativa expressa, e o art. 13 a trata como hipótese excepcional. O mínimo é de três fornecedores (art. 6º, § 2º, IV).",
+        "C": "O art. 31 do decreto veda a obtenção de estimativa de preços em sítios de leilão ou de intermediação de vendas.",
+        "D": "O art. 23 admite o orçamento sigiloso, desde que justificado, mas ressalva que o sigilo não prevalece para os órgãos de controle interno e externo. O art. 26 manda disponibilizar a eles, permanentemente, a planilha e as memórias de cálculo.",
+        "E": "O parágrafo único do art. 23 diz o oposto: no critério de maior desconto, o preço estimado ou o máximo aceitável constará do edital, pois o desconto é calculado sobre ele."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 384/2023, arts. 6º, 13, 23, 26 e 31 (DOM nº 47, de 10/03/2023)", "data": "2023-03-10" },
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 23, § 1º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0036",
+      "tema": "Sistematização das normas municipais de licitação (Decreto Municipal 380/2023)",
+      "enunciado": "O Decreto Municipal nº 380/2023 dispõe sobre definições e sistematização das normas municipais que regulamentam a Lei nº 14.133/2021 em Curitiba. De acordo com esse decreto, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Eventuais edições de novos decretos municipais ou alterações nos existentes que regulamentam a Lei nº 14.133/2021 deverão ser previamente submetidas à análise e manifestação expressa da Procuradoria-Geral do Município.",
+        "B": "As normas municipais que regulamentam a Lei nº 14.133/2021 devem ser aplicadas isoladamente, prevalecendo sempre a mais recente sobre as demais.",
+        "C": "Órgão promotor é o órgão ou entidade responsável pela instauração da licitação, mediante a divulgação do edital, e por sua homologação.",
+        "D": "Autoridade máxima é o agente público designado por ato normativo específico, dotado de poder de decisão, em qualquer nível hierárquico.",
+        "E": "Os conceitos do art. 6º da Lei nº 14.133/2021 não se aplicam aos procedimentos municipais, que têm definições próprias e exaustivas."
+      },
+      "correta": "A",
+      "dica": "Lembre qual órgão atua como guardião jurídico da regulamentação municipal de licitações. Nas definições, não confunda quem requisita com quem instaura, nem autoridade competente com autoridade máxima.",
+      "explicacao": {
+        "A": "Correta. É o art. 7º do Decreto 380/2023. O controle jurídico prévio pela PGM garante coerência entre os vários decretos que regulamentam a lei.",
+        "B": "O art. 2º diz que essas normas devem ser aplicadas de modo conjunto, de acordo com o objeto da contratação.",
+        "C": "A definição é de órgão instaurador (art. 3º, VII). Órgão promotor (art. 3º, V) é o que requisita o bem ou a contratação do serviço e é responsável pela assinatura e gestão dos termos decorrentes da licitação ou contratação direta.",
+        "D": "Essa é a definição de autoridade competente (art. 3º, XII). Autoridade máxima (art. 3º, XIII) é o representante oficial do órgão, na figura do Secretário e do Procurador-Geral, ou da entidade autárquica ou fundacional, na figura de seu Presidente.",
+        "E": "O § 1º do art. 3º manda aplicar nos procedimentos municipais os conceitos do art. 6º da Lei 14.133/2021 e das normas municipais regulamentares específicas, no que couber."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto Municipal de Curitiba 380/2023, arts. 2º, 3º e 7º (republicado no DOM nº 48, de 13/03/2023)", "data": "2023-03-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0073",
+      "tema": "Dispensa de licitação em razão do valor em Curitiba (Decreto 460/2023)",
+      "enunciado": "O Decreto Municipal nº 460/2023 regulamenta, no Município de Curitiba, as contratações diretas fundamentadas nos incisos I e II do art. 75 da Lei nº 14.133/2021 (dispensa em razão do valor). Segundo esse decreto, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Para aferir os limites de valor, devem ser observados, de modo cumulativo, o somatório do que for despendido no exercício financeiro pelo órgão promotor e o somatório da despesa realizada com objetos de mesma natureza, assim entendidos os relativos ao mesmo ramo de atividade.",
+        "B": "Na dispensa eletrônica, o aviso de contratação direta deve ficar disponível no Portal de Compras do Município pelo prazo mínimo de 8 (oito) dias úteis para apresentação das propostas.",
+        "C": "Eventual superação dos valores-limite decorrente de procedimento para manutenção do equilíbrio econômico-financeiro não configura ilegalidade, mas é ilegal o acréscimo quantitativo no objeto contratual que importe na superação desses valores.",
+        "D": "Excepcionalmente, a autoridade máxima do órgão promotor pode adotar a dispensa simplificada, mediante justificativa de que a disputa por meio do sistema eletrônico importa em imediato risco de prejuízo ao interesse público.",
+        "E": "Não é obrigatória a manifestação jurídica nesses procedimentos, salvo, entre outras hipóteses, quando houver celebração de contrato administrativo não padronizado pela Procuradoria-Geral do Município ou quando o gestor tiver suscitado dúvida jurídica."
+      },
+      "correta": "B",
+      "dica": "A dispensa eletrônica é um procedimento enxuto: o prazo para propostas adicionais é bem mais curto que os prazos mínimos de uma licitação.",
+      "explicacao": {
+        "B": "É a incorreta. Pelo art. 18, § 1º, do Decreto 460/2023, o aviso de contratação direta fica disponível no Portal de Compras do Município pelo prazo mínimo de 3 dias úteis. Os 8 dias úteis lembram o prazo mínimo de licitação para bens com menor preço (art. 55, I, \"a\", da Lei 14.133/2021), e é aí que está a pegadinha.",
+        "A": "Correta. É o art. 2º, § 1º, I e II. O § 6º define ramo de atividade pela subclasse da CNAE, e o § 2º veda o fracionamento de despesas para fugir da licitação.",
+        "C": "Correta. São os §§ 8º e 9º do art. 2º: o reequilíbrio não desnatura a dispensa, mas o aumento de quantidades acima do limite é ilegal.",
+        "D": "Correta. É o art. 5º, § 3º. A regra é a dispensa eletrônica, processada no e-Compras com aviso público (§ 1º); a simplificada, sem disputa eletrônica (§ 2º), é exceção justificada.",
+        "E": "Correta. É o art. 38, com a redação do Decreto 483/2024. A terceira exceção é o objeto se enquadrar em certos incisos do art. 6º da Lei 14.133/2021 (incisos XVI, XVII, XVIII, XXXIV e LIII: serviços contínuos com dedicação exclusiva de mão de obra, serviços por escopo, serviços técnicos especializados, fornecimento com serviço associado e contrato de eficiência)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 460/2023, arts. 2º, 5º, 18 e 38 (art. 38 com redação do Decreto 483/2024)",
+          "data": "2023-03-23"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, arts. 55 e 75, I e II",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0074",
+      "tema": "Habilitação em aquisições de bens em Curitiba (Decreto 2.067/2025)",
+      "enunciado": "Considere as afirmativas a seguir, sobre a habilitação em aquisições de bens no Município de Curitiba, nos termos do Decreto Municipal nº 2.067/2025.\n\nI. Admite-se, para a situação econômico-financeira, resultado maior ou igual a 1 (um) para os índices de Liquidez Corrente, Liquidez Geral e Solvência Geral, e, havendo divergência entre a informação da empresa e a aferição da Administração, prevalece o cálculo da Administração.\nII. Se os índices forem inferiores a 1 (um), a Administração pode, a critério da autoridade competente, exigir no edital patrimônio líquido positivo mínimo equivalente a até 10% (dez por cento) do valor estimado da contratação.\nIII. O microempreendedor individual (MEI) não tem a obrigatoriedade de produzir e apresentar balanços patrimoniais, e a verificação dos índices não se aplica a ele.\nIV. Na complementação ou atualização de documentos em diligência, o licitante disporá de até três oportunidades para sanar as irregularidades apontadas, devendo cada correção ser apresentada no prazo máximo de 2 (dois) dias úteis, contados da respectiva notificação.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "E",
+      "dica": "Todas as afirmativas trazem números (1, 10%, três oportunidades, 2 dias úteis). Confira cada um nos arts. 6º a 8º e 14 do decreto antes de descartar alguma.",
+      "alerta": "Mudança recente: o Decreto Municipal nº 2.067/2025 (publicado em 25/09/2025) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 7º e seu § 2º; II reproduz o art. 8º, caput (que remete ao § 4º do art. 69 da Lei 14.133/2021); III combina o art. 6º, § 4º, com o art. 8º, § 4º; IV reproduz o art. 14, § 1º. Não atendidas as diligências, o licitante é inabilitado e chama-se o seguinte (§ 2º).",
+        "A": "Deixa de fora III e IV, que também estão corretas: o MEI está dispensado dos balanços e dos índices (arts. 6º, § 4º, e 8º, § 4º), e a diligência admite até três oportunidades de correção, cada uma em até 2 dias úteis (art. 14, § 1º).",
+        "B": "Deixa de fora a IV, que está correta: é o art. 14, § 1º, do Decreto 2.067/2025, que regula a complementação e a atualização de documentos após a entrega da habilitação.",
+        "C": "Deixa de fora I e III. Os índices iguais ou maiores que 1, com prevalência do cálculo da Administração, estão no art. 7º e § 2º; a dispensa do MEI, nos arts. 6º, § 4º, e 8º, § 4º.",
+        "D": "Deixa de fora I e II. O art. 7º fixa os índices mínimos iguais a 1, e o art. 8º permite exigir patrimônio líquido de até 10% do valor estimado quando os índices ficarem abaixo de 1."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 2.067/2025, arts. 6º, 7º, 8º e 14",
+          "data": "2025-09-25"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 69, § 4º",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0075",
+      "tema": "Credenciamento e pré-qualificação em Curitiba (Decreto 701/2023)",
+      "enunciado": "O Decreto Municipal nº 701/2023 regulamenta, em Curitiba, os procedimentos auxiliares das licitações e contratações previstos na Lei nº 14.133/2021. Sobre o credenciamento e a pré-qualificação, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O credenciamento é processo administrativo de chamamento público em que a Administração convoca interessados em prestar serviços ou fornecer bens para que, preenchidos os requisitos, se credenciem para executar o objeto quando convocados, e é conduzido por comissão de contratação.",
+        "B": "O credenciamento não gera a obrigação de contratação pela Administração, garantido o tratamento isonômico aos credenciados, e a sua extinção não gera a rescisão do contrato em vigor.",
+        "C": "Na hipótese de credenciamento para contratação em mercados fluidos, o instrumento convocatório será publicado com antecedência mínima de 8 (oito) dias úteis.",
+        "D": "O cadastro de bens pré-qualificados tem validade de 2 (dois) anos, e a pré-qualificação gera direito à contratação futura do bem pré-qualificado.",
+        "E": "A Administração pode realizar licitação restrita aos pré-qualificados, justificadamente, desde que, entre outros requisitos, a pré-qualificação seja total, contendo todos os requisitos de habilitação técnica necessários à contratação."
+      },
+      "correta": "D",
+      "dica": "Procedimentos auxiliares preparam futuras contratações, mas não as garantem. Confira também o prazo de validade do cadastro de bens.",
+      "explicacao": {
+        "D": "É a incorreta, por dois motivos. Pelo art. 44, parágrafo único, do Decreto 701/2023, a validade do cadastro de bens pré-qualificados é de 1 ano, podendo ser revisto, atualizado ou mantido. E o art. 52 é expresso: a pré-qualificação não gera direito à contratação futura.",
+        "A": "Correta. É o art. 5º e seu parágrafo único. O art. 7º lista as hipóteses: contratação paralela e não excludente, seleção a critério de terceiros e mercados fluidos.",
+        "B": "Correta. São os arts. 17 e 20 do decreto. O credenciado também pode pedir o descredenciamento a qualquer tempo, sem se livrar dos contratos já assumidos (art. 19).",
+        "C": "Correta. É o art. 6º, § 2º. Nos demais casos, o prazo mínimo de publicação não pode ser inferior a 15 dias úteis, e o edital fica permanentemente aberto (§ 1º).",
+        "E": "Correta. É o art. 39, III. Os outros requisitos são a convocação discriminar que as futuras licitações serão restritas e trazer a estimativa de quantitativos mínimos para os próximos 12 meses e os prazos de publicação do edital (incisos I e II)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 701/2023, arts. 5º a 7º, 17, 20, 39, 44 e 52",
+          "data": "2023-05-02"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0076",
+      "tema": "Sistema de registro de preços em Curitiba (Decreto 701/2023)",
+      "enunciado": "Sobre o sistema de registro de preços e a ata de registro de preços (ARP) no Município de Curitiba, nos termos do Decreto Municipal nº 701/2023, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O prazo de vigência da ARP é de 2 (dois) anos, improrrogável.",
+        "B": "As aquisições ou contratações adicionais decorrentes de adesão não poderão exceder, por órgão ou entidade, a 50% (cinquenta por cento) dos quantitativos dos itens registrados na ARP para o órgão gerenciador e os órgãos participantes, e o total das adesões não poderá exceder o dobro do quantitativo de cada item registrado.",
+        "C": "No ato de prorrogação da vigência da ARP, admite-se o acréscimo dos quantitativos acima do quantitativo original, desde que justificado pelo órgão gerenciador.",
+        "D": "O remanejamento de quantidades pode ser feito de órgão não participante para órgão participante, independentemente da anuência do órgão que sofrer a redução.",
+        "E": "No cancelamento do registro do preço por iniciativa da Administração, dispensa-se o contraditório, bastando a comunicação ao fornecedor."
+      },
+      "correta": "B",
+      "dica": "A adesão de quem não participou da licitação (o \"carona\") tem dois limites: um por órgão e outro para o total de adesões.",
+      "explicacao": {
+        "B": "Correta. É o art. 137, §§ 3º e 4º, do Decreto 701/2023, que reproduz os limites do art. 86, §§ 4º e 5º, da Lei 14.133/2021: 50% por órgão aderente e, no total, o dobro do quantitativo de cada item, qualquer que seja o número de aderentes.",
+        "A": "Pelos arts. 104 e 130 do decreto, a vigência da ARP é de 1 ano, prorrogável por igual período, desde que comprovada a vantajosidade e atendidos os requisitos do art. 130 (como a anuência do fornecedor e a existência de quantitativo disponível).",
+        "C": "O art. 131 permite, na prorrogação, renovar os quantitativos até o limite do quantitativo original, vedado qualquer acréscimo.",
+        "D": "O art. 135, § 1º, só admite remanejamento de participante para participante e de participante para não participante; e o § 4º exige a prévia anuência do órgão que vier a sofrer a redução.",
+        "E": "O art. 134 assegura o contraditório e a ampla defesa no cancelamento por iniciativa da Administração, com prazo de 5 dias para a defesa do fornecedor (§ 1º)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 701/2023, arts. 104, 130, 131, 134, 135 e 137",
+          "data": "2023-05-02"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 86, §§ 4º e 5º",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

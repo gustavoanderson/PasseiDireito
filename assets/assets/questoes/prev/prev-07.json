@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-07",
+    "titulo": "Previdência complementar: CF, Lei 12.618/2012 e CuritibaPrev",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "prev-0016",
+      "tema": "Regime de previdência complementar de Curitiba (Lei 15.072/2017)",
+      "enunciado": "Considerando o art. 40, §§ 14 a 16, da Constituição Federal e a Lei Municipal nº 15.072/2017, que instituiu o regime de previdência complementar no Município de Curitiba (CuritibaPrev), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O regime de previdência complementar dos servidores oferecerá plano de benefícios preferencialmente na modalidade benefício definido, admitida a contribuição definida para os servidores que ingressaram antes de sua instituição.",
+        "B": "O limite máximo dos benefícios do RGPS aplica-se automaticamente aos servidores que ingressaram no serviço público antes da instituição do regime complementar, independentemente de opção.",
+        "C": "Nos planos patrocinados pelo Município de Curitiba, a contribuição do patrocinador será igual à do participante e calculada sobre a parcela da remuneração que exceder o limite máximo dos benefícios do RGPS, nos percentuais mínimo de 3,75% e máximo de 7,5%.",
+        "D": "O limite máximo dos benefícios do RGPS aplica-se às aposentadorias e pensões do RPPS municipal apenas para os servidores que aderirem à CuritibaPrev.",
+        "E": "A CuritibaPrev organiza-se como fundação de direito público, e seu pessoal é regido pelo estatuto dos servidores municipais."
+      },
+      "correta": "C",
+      "dica": "Paridade é a palavra-chave da contribuição patronal, e a lei municipal fixa uma faixa de percentuais.",
+      "explicacao": {
+        "C": "Correta. É o art. 29 da Lei 15.072/2017. O art. 21 reforça que a contribuição normal do patrocinador, em hipótese alguma, excederá a contribuição individual do participante.",
+        "A": "Pelo art. 40, § 15, da CF (redação da EC 103/2019), o regime complementar oferecerá plano de benefícios SOMENTE na modalidade contribuição definida. A Lei 15.072/2017 segue a regra no art. 26, § 1º.",
+        "B": "Pelo art. 40, § 16, da CF, o teto só se aplica ao servidor que ingressou até a instituição do regime complementar mediante sua PRÉVIA E EXPRESSA OPÇÃO. Em Curitiba, o art. 3º, II e III, da Lei 15.072/2017 trata dessa adesão voluntária dos servidores antigos.",
+        "D": "O art. 5º da Lei 15.072/2017 diz que o limite do RGPS se aplica aos benefícios do RPPS das pessoas do art. 2º (que ingressaram após a lei) INDEPENDENTEMENTE de adesão ao regime de previdência complementar.",
+        "E": "Pelo art. 8º da Lei 15.072/2017 (redação da Lei 16.001/2022), a CuritibaPrev organiza-se sob a forma de fundação com personalidade jurídica de DIREITO PRIVADO, e o art. 16 submete seu pessoal à CLT."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 40, §§ 14 a 16 (EC 20/1998 e EC 103/2019)", "data": "2019-11-12" },
+        { "tipo": "lei", "referencia": "Lei Municipal 15.072/2017 (Curitiba), arts. 3º, 5º, 8º, 16, 21, 26 e 29", "data": "2017-09-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0017",
+      "tema": "Previdência complementar dos servidores federais (Lei 12.618/2012)",
+      "enunciado": "Sobre o regime de previdência complementar dos servidores públicos federais titulares de cargo efetivo, instituído pela Lei nº 12.618/2012, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Os servidores com remuneração superior ao limite máximo do RGPS que ingressarem no serviço público a partir do início da vigência do regime complementar serão automaticamente inscritos no respectivo plano desde a data de entrada em exercício.",
+        "B": "A opção do servidor que ingressou antes da vigência do regime complementar pela aplicação do limite máximo do RGPS pode ser revogada a qualquer tempo, com direito à devolução, pela União, dos descontos já efetuados sobre a base de contribuição acima desse limite.",
+        "C": "Requerido o cancelamento da inscrição no prazo de até noventa dias da data da inscrição, fica assegurada a restituição integral das contribuições vertidas, corrigidas monetariamente, e o cancelamento não constitui resgate.",
+        "D": "A alíquota da contribuição do patrocinador será igual à do participante e não poderá exceder o percentual de 8,5%.",
+        "E": "As contribuições do patrocinador e do participante incidirão sobre a parcela da base de contribuição que exceder o limite máximo dos benefícios do RGPS."
+      },
+      "correta": "B",
+      "dica": "O § 8º do art. 3º da Lei 12.618/2012 usa duas palavras fortes para descrever a opção de migração.",
+      "explicacao": {
+        "B": "É a resposta, porque a alternativa está errada. Pelo art. 3º, § 8º, da Lei 12.618/2012, o exercício da opção é IRREVOGÁVEL E IRRETRATÁVEL, e não é devida pela União qualquer contrapartida referente aos descontos já efetuados sobre a base de contribuição acima do limite. Em compensação, o § 1º assegura ao optante um benefício especial.",
+        "A": "Correta. É o art. 1º, § 2º, da Lei 12.618/2012, incluído pela Lei 13.183/2015 (inscrição automática). O § 3º assegura o direito de requerer o cancelamento a qualquer tempo.",
+        "C": "Correta. É o art. 1º, §§ 4º e 5º, da Lei 12.618/2012. A restituição deve ser paga em até sessenta dias do pedido.",
+        "D": "Correta. É o art. 16, § 3º, da Lei 12.618/2012. Em Curitiba, a Lei 15.072/2017 fixou faixa própria, de 3,75% a 7,5% (art. 29).",
+        "E": "Correta. É o art. 16, caput, da Lei 12.618/2012: abaixo do teto, o servidor já está coberto pelo regime próprio; o complementar cuida só do que excede."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.618/2012, arts. 1º, 3º e 16", "data": "2012-04-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

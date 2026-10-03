@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-17",
+    "titulo": "Transformação digital, proteção de dados e IA",
+    "itemEdital": 17
+  },
+  "questoes": [
+    {
+      "id": "adm-0054",
+      "tema": "Tratamento de dados pessoais pelo Poder Público (LGPD)",
+      "enunciado": "Sobre o tratamento de dados pessoais pelo Poder Público, nos termos da Lei nº 13.709/2018 (LGPD), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "As empresas públicas e as sociedades de economia mista que atuam em regime de concorrência terão o mesmo tratamento dispensado às pessoas jurídicas de direito privado particulares; quando estiverem operacionalizando políticas públicas, terão o tratamento dispensado aos órgãos e entidades do Poder Público.",
+        "B": "As pessoas jurídicas de direito público estão dispensadas de indicar encarregado pelo tratamento de dados pessoais.",
+        "C": "A LGPD dispensa as pessoas jurídicas de direito público de instituir as autoridades previstas na Lei de Acesso à Informação.",
+        "D": "É vedado ao Poder Público, em qualquer hipótese, transferir a entidades privadas dados pessoais constantes de bases de dados a que tenha acesso.",
+        "E": "Os serviços notariais e de registro exercidos em caráter privado, por delegação, recebem o tratamento das pessoas jurídicas de direito privado particulares."
+      },
+      "correta": "A",
+      "dica": "Para as estatais, a LGPD adota um critério funcional: o que importa é a atividade que a empresa está exercendo no caso.",
+      "explicacao": {
+        "A": "Correta. É o art. 24 da LGPD e seu parágrafo único. A estatal em concorrência segue o regime privado; ao operacionalizar políticas públicas, segue o regime do Poder Público previsto no Capítulo IV.",
+        "B": "O art. 23, III, exige que seja indicado um encarregado quando as pessoas jurídicas de direito público realizarem operações de tratamento de dados pessoais, nos termos do art. 39.",
+        "C": "O § 2º do art. 23 diz o contrário: a LGPD não dispensa essas pessoas jurídicas de instituir as autoridades de que trata a Lei 12.527/2011.",
+        "D": "O § 1º do art. 26 estabelece a vedação, mas prevê exceções, como a execução descentralizada de atividade pública que exija a transferência, exclusivamente para esse fim específico e determinado (inciso I), e os dados acessíveis publicamente.",
+        "E": "O § 4º do art. 23 dá aos serviços notariais e de registro o mesmo tratamento dispensado às pessoas jurídicas de direito público referidas no caput."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), arts. 23, 24 e 26 (redação da Lei 13.853/2019)", "data": "2019-07-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0055",
+      "tema": "Governo Digital – âmbito de aplicação e princípios (Lei 14.129/2021)",
+      "enunciado": "A respeito da Lei nº 14.129/2021 (Lei do Governo Digital), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A lei aplica-se automaticamente às administrações diretas e indiretas dos Municípios, independentemente de qualquer ato normativo local.",
+        "B": "A lei aplica-se a todas as empresas públicas e sociedades de economia mista, inclusive às que não prestam serviço público.",
+        "C": "A lei estabelece como diretriz a extinção gradual do atendimento presencial, substituído integralmente pelos serviços digitais.",
+        "D": "É diretriz da lei a exigência de prova de fato já comprovado, sempre que o serviço for prestado por órgão diverso daquele que recebeu o documento.",
+        "E": "A lei aplica-se às administrações diretas e indiretas dos demais entes federados desde que adotem os seus comandos por meio de atos normativos próprios."
+      },
+      "correta": "E",
+      "dica": "A Lei do Governo Digital é federal, e o art. 2º condiciona sua aplicação aos Estados e Municípios. Nas diretrizes, repare no que a lei diz sobre o atendimento presencial.",
+      "explicacao": {
+        "E": "Correta. É o art. 2º, III, da Lei 14.129/2021. O § 2º do mesmo artigo reforça: as referências da lei a Estados, Municípios e DF só valem se cumprido esse requisito.",
+        "A": "Pelo art. 2º, III, e § 2º, a lei só se aplica aos demais entes federados que adotarem seus comandos por atos normativos próprios. A aplicação não é automática.",
+        "B": "O § 1º do art. 2º exclui expressamente as empresas públicas e sociedades de economia mista, suas subsidiárias e controladas, que não prestem serviço público.",
+        "C": "O art. 3º, XVI, garante a permanência da possibilidade de atendimento presencial, de acordo com as características, a relevância e o público-alvo do serviço; e o inciso II ressalva a prestação presencial quando indispensável.",
+        "D": "O art. 3º, XIII, estabelece a vedação de exigência de prova de fato já comprovado pela apresentação de documento ou de informação válida."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.129/2021, arts. 2º e 3º", "data": "2021-03-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0056",
+      "tema": "Inteligência artificial na Administração de Curitiba (Lei Municipal 16.321/2024)",
+      "enunciado": "A Lei Municipal nº 16.321/2024 estabelece princípios e diretrizes para a implementação e o uso da inteligência artificial na Administração Pública Municipal Direta e Indireta de Curitiba. Segundo essa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Pela diretriz da transparência, decisões e ações tomadas, iniciadas ou fundadas em inteligência artificial devem conter a respectiva motivação e ser compreensíveis aos interessados.",
+        "B": "Os sistemas de inteligência artificial da Administração Municipal estão dispensados de auditoria, para preservar o segredo dos algoritmos.",
+        "C": "A lei aplica-se apenas à Administração Direta, excluídas as entidades da Administração Indireta.",
+        "D": "Os princípios da LGPD não se aplicam ao uso de inteligência artificial pela Administração Municipal, que é regido exclusivamente pela lei municipal.",
+        "E": "A lei entrou em vigor na data de sua publicação."
+      },
+      "correta": "A",
+      "dica": "A lei municipal é curta: são seis artigos. Confira o alcance subjetivo (quais entidades), a relação com a LGPD, a exigência de auditoria e a vigência.",
+      "explicacao": {
+        "A": "Correta. É o art. 3º, I, da Lei 16.321/2024. A regra se conecta com o dever de motivação dos atos administrativos, e o art. 6º da Lei 16.466/2024 manda aplicar a lei de IA aos processos administrativos do Município.",
+        "B": "O art. 4º diz o contrário: os sistemas de inteligência artificial devem ser auditáveis e sujeitos à supervisão idônea.",
+        "C": "O art. 1º abrange expressamente a Administração Pública Municipal Direta e Indireta.",
+        "D": "O parágrafo único do art. 3º determina que os princípios do art. 6º da LGPD orientarão, subsidiariamente, o cumprimento da lei municipal.",
+        "E": "O art. 6º fixou vacatio legis: a lei entra em vigor 90 (noventa) dias após a data de sua publicação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.321/2024, arts. 1º, 3º, 4º e 6º (DOM nº 75, de 22/04/2024)", "data": "2024-04-22" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, art. 6º", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0104",
+      "tema": "Encarregado pelo tratamento de dados pessoais (LGPD, art. 41)",
+      "enunciado": "Sobre o encarregado pelo tratamento de dados pessoais, nos termos do art. 41 da Lei nº 13.709/2018 (LGPD), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O controlador deverá indicar encarregado pelo tratamento de dados pessoais.",
+        "B": "A indicação de encarregado é sempre obrigatória para as pessoas jurídicas de direito público, vedada, em qualquer hipótese, a dispensa dessa exigência.",
+        "C": "Entre as atividades do encarregado estão aceitar reclamações e comunicações dos titulares, prestar esclarecimentos e adotar providências, bem como orientar os funcionários e os contratados da entidade a respeito das práticas de proteção de dados pessoais.",
+        "D": "A autoridade nacional pode estabelecer normas complementares sobre a definição e as atribuições do encarregado, inclusive hipóteses de dispensa da necessidade de sua indicação, conforme a natureza e o porte da entidade ou o volume de operações de tratamento de dados.",
+        "E": "A identidade e as informações de contato do encarregado deverão ser divulgadas publicamente, de forma clara e objetiva, preferencialmente no sítio eletrônico do controlador."
+      },
+      "correta": "B",
+      "dica": "O art. 41 abre uma exceção à regra de indicação obrigatória do encarregado, e a autoridade nacional é quem define essa exceção.",
+      "explicacao": {
+        "B": "É a resposta, porque está errada. O § 3º do art. 41 autoriza a autoridade nacional a estabelecer hipóteses de dispensa da indicação de encarregado, conforme a natureza e o porte da entidade ou o volume de operações de tratamento, inclusive para pessoas jurídicas de direito público.",
+        "A": "Correta. É o caput do art. 41: a indicação do encarregado é, em regra, obrigatória para o controlador, inclusive para as pessoas jurídicas de direito público, nos termos do art. 23, III.",
+        "C": "Correta. São os incisos I e III do § 2º do art. 41 da LGPD, que definem as atividades do encarregado perante os titulares e perante a equipe do controlador.",
+        "D": "Correta. É o § 3º do art. 41, que também é a base legal da exceção descrita na alternativa B.",
+        "E": "Correta. É o § 1º do art. 41, que exige a divulgação pública da identidade e do contato do encarregado, para facilitar o exercício dos direitos dos titulares."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), art. 41, caput e §§ 1º, 2º, I e III, e 3º", "data": "2019-07-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

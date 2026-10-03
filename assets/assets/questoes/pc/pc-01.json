@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-01",
+    "titulo": "Normas fundamentais e aplicação da norma processual",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "pc-0001",
+      "tema": "Contraditório e vedação à decisão surpresa (arts. 9º e 10)",
+      "enunciado": "Com base nos arts. 9º e 10 do Código de Processo Civil (Lei nº 13.105/2015), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O juiz pode decidir com base em fundamento sobre o qual as partes não tiveram oportunidade de se manifestar, desde que se trate de matéria que deva conhecer de ofício.",
+        "B": "A regra de que não se profere decisão contra uma das partes sem que ela seja previamente ouvida não se aplica à tutela provisória de urgência nem à tutela da evidência fundada em tese firmada em julgamento de casos repetitivos ou em súmula vinculante.",
+        "C": "A vedação à decisão surpresa dirige-se ao juízo de primeiro grau, não alcançando os tribunais no julgamento de recursos.",
+        "D": "A tutela da evidência fundada no abuso do direito de defesa ou no manifesto propósito protelatório da parte pode ser concedida liminarmente, antes da oitiva do réu.",
+        "E": "Na ação monitória, a expedição do mandado de pagamento depende da prévia oitiva do réu, em respeito ao contraditório."
+      },
+      "correta": "B",
+      "dica": "O parágrafo único do art. 9º traz três exceções ao contraditório prévio. Confira quais incisos do art. 311 foram incluídos nelas.",
+      "explicacao": {
+        "A": "O art. 10 diz o contrário: o juiz não pode decidir com base em fundamento a respeito do qual não se tenha dado às partes oportunidade de se manifestar, \"ainda que se trate de matéria sobre a qual deva decidir de ofício\". Conhecer de ofício não dispensa ouvir as partes antes.",
+        "B": "Correta. O art. 9º, parágrafo único, afasta a exigência de oitiva prévia (I) na tutela provisória de urgência e (II) nas hipóteses de tutela da evidência do art. 311, incisos II e III; o inciso II do art. 311 é justamente o das alegações comprováveis documentalmente com tese firmada em casos repetitivos ou em súmula vinculante. O contraditório, nesses casos, é diferido, não suprimido.",
+        "C": "O art. 10 veda a decisão surpresa \"em grau algum de jurisdição\". A regra vale para o juiz de primeiro grau e para os tribunais.",
+        "D": "O abuso do direito de defesa é o inciso I do art. 311, que não está entre as exceções do art. 9º, parágrafo único, II, nem entre as hipóteses em que o art. 311, parágrafo único, permite decisão liminar (só os incisos II e III). Faz sentido: só se caracteriza abuso de defesa depois que o réu se defendeu.",
+        "E": "O art. 9º, parágrafo único, III, exclui expressamente da exigência de oitiva prévia a decisão prevista no art. 701, que é a que defere a expedição do mandado de pagamento, de entrega de coisa ou de execução de obrigação de fazer ou de não fazer na ação monitória."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 9º, 10 e 311", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0002",
+      "tema": "Ordem cronológica de julgamento (art. 12)",
+      "enunciado": "Considerando o art. 12 do Código de Processo Civil, com a redação dada pela Lei nº 13.256/2016, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os juízes e os tribunais atenderão, obrigatoriamente, à ordem cronológica de conclusão para proferir sentença ou acórdão, sob pena de nulidade.",
+        "B": "As sentenças homologatórias de acordo submetem-se à ordem cronológica de conclusão, por encerrarem o processo com resolução do mérito.",
+        "C": "Estão excluídos da regra da ordem cronológica o julgamento de embargos de declaração e o julgamento de agravo interno.",
+        "D": "O processo que tiver sua sentença anulada volta ao último lugar da lista de processos aptos a julgamento.",
+        "E": "Após a inclusão do processo na lista, qualquer requerimento formulado pela parte altera a ordem cronológica para a decisão."
+      },
+      "correta": "C",
+      "dica": "Repare na palavra que a Lei 13.256/2016 inseriu no caput e percorra a lista de exclusões do § 2º.",
+      "explicacao": {
+        "A": "Desde a Lei 13.256/2016, o caput do art. 12 diz que juízes e tribunais atenderão \"preferencialmente\" à ordem cronológica de conclusão. A redação original falava em dever, e essa troca é a pegadinha clássica do artigo.",
+        "B": "O art. 12, § 2º, I, exclui da regra as sentenças proferidas em audiência, as homologatórias de acordo e as de improcedência liminar do pedido.",
+        "C": "Correta. O § 2º do art. 12 exclui da ordem cronológica, entre outros, o julgamento de embargos de declaração (inciso V) e o julgamento de agravo interno (inciso VI).",
+        "D": "É o oposto: pelo § 6º, I, ocupa o primeiro lugar da lista o processo que tiver sua sentença ou acórdão anulado, salvo quando houver necessidade de diligência ou de complementação da instrução.",
+        "E": "Pelo § 4º, o requerimento formulado pela parte após a inclusão na lista não altera a ordem cronológica, exceto quando implicar a reabertura da instrução ou a conversão do julgamento em diligência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 12 (redação da Lei 13.256/2016)", "data": "2016-02-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0003",
+      "tema": "Aplicação da norma processual no tempo e no espaço",
+      "enunciado": "Acerca da aplicação da norma processual no tempo e no espaço, à luz dos arts. 13, 14, 1.046, 1.047 e 1.054 do Código de Processo Civil, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A norma processual nova retroage para alcançar os atos processuais praticados sob a vigência da norma revogada, sempre que for mais favorável à parte.",
+        "B": "A extensão da coisa julgada à questão prejudicial decidida expressa e incidentemente (art. 503, § 1º) aplica-se a todos os processos que estavam pendentes quando o Código entrou em vigor.",
+        "C": "A jurisdição civil é regida exclusivamente pelas normas processuais brasileiras, sem ressalva para tratados, convenções ou acordos internacionais.",
+        "D": "Com a entrada em vigor do Código, foram revogadas as disposições especiais dos procedimentos regulados em outras leis, que passaram a seguir o procedimento comum.",
+        "E": "As disposições de direito probatório adotadas pelo Código aplicam-se apenas às provas requeridas ou determinadas de ofício a partir da data de início de sua vigência."
+      },
+      "correta": "E",
+      "dica": "A regra geral é a aplicação imediata com respeito aos atos já praticados; as disposições finais criam regras de transição específicas para provas e para a coisa julgada sobre questão prejudicial.",
+      "explicacao": {
+        "A": "O art. 14 dispõe que a norma processual não retroagirá e será aplicável imediatamente aos processos em curso, respeitados os atos processuais praticados e as situações jurídicas consolidadas sob a vigência da norma revogada. Não há retroação por benefício no processo civil.",
+        "B": "O art. 1.054 limita o art. 503, § 1º, aos processos iniciados após a vigência do Código; aos anteriores aplicam-se os arts. 5º, 325 e 470 do CPC/1973, que exigiam ação declaratória incidental.",
+        "C": "O art. 13 ressalva expressamente as disposições específicas previstas em tratados, convenções ou acordos internacionais de que o Brasil seja parte.",
+        "D": "O art. 1.046, § 2º, diz que permanecem em vigor as disposições especiais dos procedimentos regulados em outras leis, aos quais o Código se aplica supletivamente. É o que mantém, por exemplo, o rito próprio do mandado de segurança.",
+        "E": "Correta. É a literalidade do art. 1.047: as disposições de direito probatório aplicam-se apenas às provas requeridas ou determinadas de ofício a partir da data de início da vigência do Código. É uma regra de transição que protege a prova já requerida sob a lei antiga."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 13, 14, 1.046, 1.047 e 1.054", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

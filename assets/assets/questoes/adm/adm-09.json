@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-09",
+    "titulo": "Parcerias, PPP e delegações em Curitiba",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "adm-0037",
+      "tema": "Parcerias público-privadas (Lei 11.079/2004)",
+      "enunciado": "De acordo com a Lei nº 11.079/2004, que institui normas gerais para licitação e contratação de parceria público-privada, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Concessão administrativa é o contrato de prestação de serviços de que a Administração Pública seja a usuária direta ou indireta, ainda que envolva execução de obra ou fornecimento e instalação de bens.",
+        "B": "É vedada a celebração de contrato de parceria público-privada cujo valor seja inferior a R$ 10.000.000,00 (dez milhões de reais).",
+        "C": "O prazo de vigência do contrato de parceria público-privada deve ser não inferior a 5 (cinco) nem superior a 30 (trinta) anos, excluída eventual prorrogação.",
+        "D": "Antes da celebração do contrato, deverá ser constituída sociedade de propósito específico, incumbida de implantar e gerir o objeto da parceria.",
+        "E": "As concessões patrocinadas em que mais de 70% (setenta por cento) da remuneração do parceiro privado for paga pela Administração Pública dependerão de autorização legislativa específica."
+      },
+      "correta": "C",
+      "dica": "A banca gosta de trocar números nesta lei. Confira o prazo máximo do contrato e se ele inclui ou não a prorrogação.",
+      "explicacao": {
+        "C": "É a resposta, porque está errada. O art. 5º, I, fixa prazo não inferior a 5 nem superior a 35 anos, \"incluindo eventual prorrogação\". A alternativa troca o 35 por 30 e ainda exclui a prorrogação do cômputo.",
+        "A": "Correta. É o § 2º do art. 2º. Na concessão administrativa não há tarifa cobrada do usuário: a Administração é quem paga, por ser a usuária direta ou indireta do serviço.",
+        "B": "Correta. É o art. 2º, § 4º, I, na redação dada pela Lei 13.529/2017, que reduziu o piso de R$ 20 milhões para R$ 10 milhões.",
+        "D": "Correta. É o caput do art. 9º. Pelo § 4º do mesmo artigo, a Administração não pode ser titular da maioria do capital votante da SPE.",
+        "E": "Correta. É o § 3º do art. 10. Quando a maior parte da remuneração vem dos cofres públicos, a lei exige que o Legislativo autorize especificamente a concessão patrocinada."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.079/2004, arts. 2º, 5º, 9º e 10 (art. 2º, § 4º, I, com redação da Lei 13.529/2017)", "data": "2004-12-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0038",
+      "tema": "PARS S.A. (Lei Municipal 16.538/2025)",
+      "enunciado": "A Lei Municipal nº 16.538/2025, de Curitiba, autorizou a criação da empresa estatal PARS S.A. Considerando o texto dessa lei, com as alterações da Lei Municipal nº 16.763/2026, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A PARS S.A. é pessoa jurídica de direito público, vinculada à Procuradoria-Geral do Município.",
+        "B": "O capital social da PARS S.A. é integralmente detido pelo Município, vedada a participação de investidores privados.",
+        "C": "A PARS S.A. sujeita-se ao regime jurídico de direito público quanto às obrigações trabalhistas e tributárias.",
+        "D": "Em qualquer hipótese, o Município deverá manter, no mínimo, a titularidade direta de 50% (cinquenta por cento) mais uma das ações com direito a voto.",
+        "E": "O mandato dos membros do Conselho de Administração e dos Diretores é de 4 (quatro) anos, vedada a recondução."
+      },
+      "correta": "D",
+      "dica": "Pense no tipo de estatal que admite sócios privados, mas mantém o controle público. A lei diz como esse controle é medido.",
+      "explicacao": {
+        "D": "Correta. É o § 2º do art. 3º da Lei 16.538/2025. O § 1º admite no capital a União, o Estado do Paraná, entidades de outros entes e investidores privados, mas o controle votante direto do Município é obrigatório; o § 1º do art. 18 repete a exigência para os aumentos de capital.",
+        "A": "O art. 1º autoriza a criação de pessoa jurídica de direito privado, sob a forma de sociedade por ações, vinculada à Secretaria Municipal de Planejamento, Finanças e Orçamento, e não à PGM.",
+        "B": "O § 1º do art. 3º admite a participação de investidores privados (inciso IV), além da União, do Estado do Paraná e de entidades de outros entes. O que se exige é a maioria das ações com direito a voto em poder do Município.",
+        "C": "O art. 2º sujeita a PARS ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, empresariais, trabalhistas e tributários.",
+        "E": "O art. 9º fixa mandato de 2 (dois) anos, permitida a recondução, tanto para o Conselho de Administração quanto para os Diretores."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.538/2025, arts. 1º, 2º, 3º, 9º e 18 (DOM nº 116, de 25/06/2025; art. 1º com redação da Lei 16.763/2026)", "data": "2025-06-25" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.763/2026, art. 25", "data": "2026-07-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0039",
+      "tema": "Programa Municipal de Parcerias Estratégicas – PMPE (Lei Municipal 16.763/2026)",
+      "enunciado": "Sobre o Programa Municipal de Parcerias Estratégicas (PMPE), instituído pela Lei Municipal nº 16.763/2026, de Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Comitê Gestor de Parcerias Estratégicas (CGPE) é presidido pelo Procurador-Geral do Município.",
+        "B": "Todos os projetos concebidos na Administração Municipal sob a forma de concessão comum ou de parceria público-privada deverão ser submetidos ao CGPE, previamente ao início dos estudos de estruturação, para deliberação acerca da pertinência de sua inclusão no PMPE.",
+        "C": "A qualificação de um projeto no PMPE transfere ao CGPE a competência pela gestão do bem ou do serviço objeto da parceria.",
+        "D": "O decurso do prazo fixado para a análise de licenças necessárias aos projetos do PMPE implica a concessão tácita da licença.",
+        "E": "A estruturação dos projetos qualificados no PMPE é atribuição exclusiva da Secretaria do Governo Municipal, vedada a contratação de estruturadora."
+      },
+      "correta": "B",
+      "dica": "A lei cria um filtro prévio para concessões e PPPs. Nas demais afirmações, confira quem preside o comitê, quem estrutura os projetos e se o silêncio administrativo gera licença.",
+      "explicacao": {
+        "B": "Correta. É o § 2º do art. 6º da Lei 16.763/2026 (projetos das modalidades dos incisos I e II do § 1º: concessões e permissões da Lei 8.987/1995 e concessões patrocinadas ou administrativas da Lei 11.079/2004), combinado com o § 3º, que exige a submissão antes do início dos estudos de estruturação.",
+        "A": "Pelo art. 7º, I, o CGPE é presidido pelo Secretário do Governo Municipal. Integram-no também os Secretários de Finanças e de Administração e Tecnologia da Informação, o Presidente do IPPUC e um membro de livre escolha do Prefeito.",
+        "C": "O art. 13 diz o contrário: a mera qualificação e estruturação de projetos no PMPE não implica, em qualquer hipótese, a transferência da competência pela gestão do bem ou serviço a outros órgãos ou entidades.",
+        "D": "O parágrafo único do art. 24 manda fixar prazo máximo para a resposta, mas \"sem que o decurso do referido prazo implique a concessão de licenças, alvarás ou autorizações tácitas\".",
+        "E": "O art. 16 diz que a estruturação será realizada preferencialmente pela PARS S.A., mediante contrato. O art. 2º, III, define estruturadora como a entidade responsável pela estruturação dos projetos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.763/2026, arts. 2º, 6º, 7º, 13, 16 e 24", "data": "2026-07-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0099",
+      "tema": "Extinção da concessão de serviço público (Lei 8.987/1995)",
+      "enunciado": "Sobre a extinção da concessão de serviço público, nos termos da Lei nº 8.987/1995, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A concessão extingue-se, entre outras causas, pelo advento do termo contratual, pela encampação, pela caducidade, pela rescisão, pela anulação e pela falência ou extinção da empresa concessionária.",
+        "B": "Declarada a caducidade, a indenização devida à concessionária será paga previamente à sua declaração, calculada antes da instauração do processo administrativo de inadimplência.",
+        "C": "Considera-se encampação a retomada do serviço pelo poder concedente durante o prazo da concessão, por motivo de interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização.",
+        "D": "A caducidade da concessão poderá ser declarada pelo poder concedente quando a concessionária descumprir cláusulas contratuais ou disposições legais ou regulamentares concernentes à concessão, entre outras hipóteses.",
+        "E": "Extinta a concessão, retornam ao poder concedente todos os bens reversíveis, direitos e privilégios transferidos ao concessionário conforme previsto no edital e estabelecido no contrato."
+      },
+      "correta": "B",
+      "dica": "A lei exige indenização prévia só para uma das causas de extinção. Para a outra, mais grave, a indenização existe, mas em outro momento.",
+      "explicacao": {
+        "B": "É a resposta, porque está errada. O § 4º do art. 38 diz o oposto: a caducidade é declarada por decreto do poder concedente independentemente de indenização prévia, calculada no decurso do processo administrativo, e descontada do valor das multas e dos danos causados pela concessionária (§ 5º).",
+        "A": "Correta. É o rol do art. 35, incisos I a VI, da Lei 8.987/1995.",
+        "C": "Correta. É a literalidade do art. 37: na encampação, diferentemente da caducidade, a indenização é paga antes da retomada do serviço, e depende de lei autorizativa específica.",
+        "D": "Correta. É uma das hipóteses do art. 38, § 1º, II, que também inclui a prestação inadequada do serviço e a perda das condições técnicas, econômicas ou operacionais da concessionária.",
+        "E": "Correta. É o § 1º do art. 35: a reversão dos bens vinculados ao serviço é consequência automática da extinção da concessão, seja qual for a sua causa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, arts. 35, 37 e 38, §§ 1º, 4º e 5º", "data": "1995-02-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

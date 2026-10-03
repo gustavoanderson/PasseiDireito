@@ -1,0 +1,179 @@
+{
+  "versaoFormato": 1,
+  "materia": "trib",
+  "unidade": {
+    "id": "trib-16",
+    "titulo": "Precatórios e RPV",
+    "itemEdital": 16
+  },
+  "questoes": [
+    {
+      "id": "trib-0044",
+      "tema": "Precatórios – inclusão orçamentária e limite de pagamento (EC 136/2025)",
+      "enunciado": "Com base no art. 100 da Constituição Federal, na redação dada pela Emenda Constitucional nº 136/2025, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 2 de abril, fazendo-se o pagamento até o final do exercício seguinte.",
+        "B": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de julho, fazendo-se o pagamento no mesmo exercício.",
+        "C": "O Município que não possua estoque de precatórios em mora tem os pagamentos de precatórios limitados a 2% da receita corrente líquida apurada no exercício financeiro anterior.",
+        "D": "O limite de pagamento de precatórios dos Municípios impede que o ente pague valores superiores a ele, ainda que haja dotação orçamentária específica.",
+        "E": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de fevereiro, fazendo-se o pagamento até o final do exercício seguinte, quando terão seus valores atualizados monetariamente."
+      },
+      "correta": "E",
+      "dica": "A EC 136/2025 antecipou a data de corte do § 5º e criou, nos §§ 23 a 30, um teto de pagamento para Estados, DF e Municípios, que pode ser superado em certas condições.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
+      "explicacao": {
+        "E": "Correta. É o § 5º do art. 100 na redação da EC 136/2025: a data de apresentação para inclusão obrigatória no orçamento passou a ser 1º de fevereiro, com pagamento até o final do exercício seguinte e atualização monetária.",
+        "A": "Na redação dada pela EC 136/2025, o § 5º do art. 100 fixa como data de apresentação 1º de fevereiro, e não 2 de abril. A emenda antecipou o marco de inclusão orçamentária; decore a data vigente.",
+        "B": "O § 5º fixa 1º de fevereiro como data de apresentação e o final do exercício seguinte, e não o mesmo exercício, como prazo de pagamento dos precatórios incluídos no orçamento.",
+        "C": "O § 23, I, limita os pagamentos a 1% da receita corrente líquida do exercício anterior para os entes sem estoque ou com estoque em mora de até 15% dessa receita. Os percentuais sobem em faixas de 0,5 ponto até 5% (incisos II a IX).",
+        "D": "O § 28 do art. 100 autoriza Estados, DF e Municípios a efetuar pagamentos de precatórios que superem os limites do § 23, mediante dotação orçamentária específica."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 5º, 23 e 28 (EC 136/2025)",
+          "data": "2025-09-09"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0045",
+      "tema": "Obrigações de pequeno valor, preferências e cessão de precatórios",
+      "enunciado": "Com base no art. 100 da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os entes podem fixar, por leis próprias, valores distintos para as obrigações de pequeno valor, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do regime geral de previdência social.",
+        "B": "Admite-se o fracionamento do valor da execução para que parte do crédito seja paga como obrigação de pequeno valor e o restante por precatório.",
+        "C": "A cessão de créditos em precatórios a terceiros depende da concordância do ente devedor.",
+        "D": "A preferência dos débitos alimentícios de titulares com doença grave ou deficiência alcança os titulares com 65 anos de idade ou mais.",
+        "E": "Os débitos de natureza alimentícia comuns são pagos com preferência sobre todos os demais, inclusive sobre os débitos alimentícios de titulares idosos, com doença grave ou com deficiência."
+      },
+      "correta": "A",
+      "dica": "Releia os §§ 2º, 4º, 8º e 13 do art. 100. Um deles fixa um piso para as leis locais de pequeno valor.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
+      "explicacao": {
+        "A": "Correta. É o § 4º do art. 100 (EC 62/2009): para os fins do § 3º, podem ser fixados por leis próprias valores distintos às entidades de direito público, segundo as diferentes capacidades econômicas, sendo o mínimo igual ao valor do maior benefício do RGPS.",
+        "B": "O § 8º do art. 100 veda o fracionamento, repartição ou quebra do valor da execução para fins de enquadramento de parcela do total como obrigação de pequeno valor.",
+        "C": "O § 13 do art. 100 permite ao credor ceder o crédito, total ou parcialmente, independentemente da concordância do devedor. Pelo § 14, a cessão só produz efeitos após comunicação ao tribunal de origem e ao ente devedor.",
+        "D": "O § 2º do art. 100 fala em titulares com 60 anos de idade, portadores de doença grave ou pessoas com deficiência, e não 65.",
+        "E": "O § 1º do art. 100 (redação da EC 136/2025) dá aos débitos alimentícios preferência sobre todos os demais, exceto sobre aqueles referidos no § 2º (idosos, doentes graves e pessoas com deficiência), que têm prioridade ainda maior."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 1º, 2º, 4º, 8º, 13 e 14 (EC 62/2009, EC 94/2016, EC 113/2021 e EC 136/2025)",
+          "data": "2025-09-09"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0083",
+      "tema": "Obrigações de pequeno valor em Curitiba (Lei Municipal 10.235/2001)",
+      "enunciado": "Sobre as obrigações de pequeno valor do Município de Curitiba, reguladas pela Lei Municipal nº 10.235/2001, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É vedado o fracionamento, repartição ou quebra do valor total da obrigação, controversa ou incontroversa, ressalvadas as hipóteses de aplicação do art. 23 da Lei nº 8.906/1994 reconhecidas em juízo.",
+        "B": "É vedada a expedição de precatório suplementar ou complementar do valor pago como obrigação de pequeno valor.",
+        "C": "É facultado à parte exequente renunciar ao crédito no que exceder o valor fixado em lei, para optar pelo pagamento sem precatório.",
+        "D": "O pagamento será efetuado no Juízo da execução, no prazo de 60 dias, contado do trânsito em julgado da sentença.",
+        "E": "O pagamento sem precatório, na forma da lei, implica quitação total do crédito exequendo."
+      },
+      "correta": "D",
+      "dica": "O art. 2º da Lei 10.235/2001 conta o prazo de pagamento a partir de um ato da Procuradoria-Geral do Município.",
+      "explicacao": {
+        "A": "Correta. É o art. 1º, § 2º, da Lei 10.235/2001. A ressalva do art. 23 do Estatuto da OAB permite pagar em separado os honorários do advogado.",
+        "B": "Correta. É o art. 1º, § 3º, da Lei 10.235/2001, em linha com o art. 100, § 8º, da Constituição.",
+        "C": "Correta. É o art. 1º, § 4º. O requerimento deve vir instruído com a renúncia expressa ao excedente (art. 2º, § 2º).",
+        "D": "Incorreta, e por isso é a resposta. Pelo art. 2º da Lei 10.235/2001, o pagamento é feito no Juízo da execução, a requerimento do credor, no prazo de 90 (noventa) dias, contado do RECEBIMENTO DA REQUISIÇÃO pela Procuradoria-Geral do Município, e não de 60 dias do trânsito em julgado.",
+        "E": "Correta. É o art. 1º, § 5º, da Lei 10.235/2001: quem recebe sem precatório dá quitação total do crédito exequendo."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 10.235/2001, arts. 1º e 2º",
+          "data": "2001-09-13"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 3º, 4º e 8º (EC 62/2009)",
+          "data": "2009-12-09"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0084",
+      "tema": "Precatórios de Estados e Municípios: inadimplemento, acordos e estoque (EC 136/2025)",
+      "enunciado": "Com base no art. 100 da Constituição Federal, na redação dada pelas Emendas Constitucionais nº 94/2016 e nº 136/2025, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Havendo precatório com valor superior a 15% do montante dos precatórios apresentados para o exercício, 15% do seu valor serão pagos até o final do exercício seguinte e o restante em parcelas iguais nos dez exercícios subsequentes.",
+        "B": "Se os recursos destinados aos pagamentos de precatórios de um Município não forem tempestivamente liberados, os limites de pagamento previstos no § 23 do art. 100 serão suspensos, o Presidente do Tribunal de Justiça local determinará o sequestro das contas municipais até o limite do valor devido e o Município ficará impedido de receber transferências voluntárias enquanto perdurar a omissão.",
+        "C": "Os acordos diretos perante Juízos Auxiliares de Conciliação de Precatórios, no caso de precatório superior a 15% do montante apresentado, admitem redução máxima de 50% do valor do crédito atualizado.",
+        "D": "Os limites percentuais de pagamento de precatórios dos Estados, do Distrito Federal e dos Municípios serão majorados em 0,5 ponto percentual a partir de 1º de janeiro de 2030, independentemente da existência de estoque em mora.",
+        "E": "Os valores aportados pelos entes nas contas especiais do Poder Judiciário destinadas ao pagamento de precatórios continuam sujeitos a juros e correção monetária até o efetivo pagamento ao credor."
+      },
+      "correta": "B",
+      "dica": "O § 27 do art. 100 enumera, em quatro incisos, as consequências da falta de liberação tempestiva dos recursos.",
+      "alerta": "Mudança recente: a EC 136/2025 (publicada em 10/09/2025) alterou este ponto do art. 100 da CF. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "A": "O § 20 do art. 100 (EC 94/2016) manda pagar o restante em parcelas iguais nos CINCO exercícios subsequentes, acrescidas de juros de mora e correção monetária, e não em dez.",
+        "B": "Correta. É o art. 100, § 27, I, II e IV, incluído pela EC 136/2025. O inciso III acrescenta a responsabilização do Prefeito pela legislação de responsabilidade fiscal e de improbidade administrativa.",
+        "C": "O § 20 do art. 100 limita a redução, nos acordos diretos, a 40% do valor do crédito atualizado, desde que em relação ao crédito não penda recurso ou defesa judicial.",
+        "D": "O § 24 do art. 100 (EC 136/2025) prevê a majoração de 0,5 ponto a partir de 1º de janeiro de 2036, e a cada decênio subsequente, CASO seja verificada a existência de estoque de precatórios em mora.",
+        "E": "O § 30 do art. 100 (EC 136/2025) manda excluir imediatamente do estoque os valores efetivamente aportados nas contas especiais, VEDADA a incidência de juros, correção monetária ou outros acréscimos após a transferência."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 20 (EC 94/2016), 24, 27 e 30 (EC 136/2025)",
+          "data": "2025-09-09"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "trib-0085",
+      "tema": "Precatórios: sequestro, responsabilidade do Presidente do Tribunal, cessão e orçamento municipal",
+      "enunciado": "Considere as afirmativas abaixo, com base no art. 100 da Constituição Federal e na Lei Complementar Municipal nº 101/2017 (Curitiba).\n\nI. As dotações orçamentárias e os créditos abertos para pagamento de precatórios serão consignados diretamente ao Poder Judiciário, cabendo ao Presidente do Tribunal que proferir a decisão exequenda autorizar, a requerimento do credor e exclusivamente nos casos de preterimento do direito de precedência ou de não alocação orçamentária do valor necessário, o sequestro da quantia respectiva.\nII. O Presidente do Tribunal competente que, por ato comissivo ou omissivo, retardar ou tentar frustrar a liquidação regular de precatórios incorrerá em crime de responsabilidade e responderá, também, perante o Tribunal de Contas do Estado.\nIII. É obrigatória a inclusão, no orçamento de cada um dos Poderes do Município de Curitiba, de verba necessária ao pagamento de seus débitos oriundos de sentenças transitadas em julgado, constantes de Requisições de Pequeno Valor ou Precatórios expedidos em processos que tenham por objeto ação ou omissão estatal que lhes tenha sido respectivamente atribuída.\nIV. O credor pode ceder seus créditos em precatórios a terceiros independentemente da concordância do devedor, mas não se aplicam ao cessionário a preferência dos débitos alimentícios de idosos, doentes graves e pessoas com deficiência nem o regime de pequeno valor.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I, II e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, III e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "O § 7º do art. 100 indica perante qual órgão de controle do Judiciário responde o Presidente do Tribunal que frustra o pagamento.",
+      "explicacao": {
+        "A": "A II está errada (§ 7º: responde perante o CNJ), e a alternativa exclui as afirmativas III e IV, que estão corretas.",
+        "B": "A II está errada, e a alternativa exclui a I (art. 100, § 6º) e a IV (art. 100, § 13).",
+        "C": "A II está errada, e a alternativa exclui a III, que reproduz o art. 35 da LC Municipal 101/2017.",
+        "D": "A II está errada. O art. 100, § 7º, prevê crime de responsabilidade e responsabilização perante o Conselho Nacional de Justiça. O Tribunal de Contas não aparece no dispositivo.",
+        "E": "Correta. I é o art. 100, § 6º; III é o art. 35 da LC Municipal 101/2017; IV é o art. 100, § 13, da Constituição. A II está errada: pelo § 7º do art. 100, o Presidente do Tribunal responde, também, perante o Conselho Nacional de Justiça, e não perante o Tribunal de Contas."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 6º, 7º e 13 (EC 62/2009)",
+          "data": "2009-12-09"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "LC Municipal de Curitiba 101/2017, art. 35",
+          "data": "2017-08-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-03",
+    "titulo": "RPPS: disciplina constitucional, reformas e Leis 9.717 e 10.887",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "prev-0005",
+      "tema": "Art. 40 da CF após a EC 103/2019",
+      "enunciado": "Considerando o art. 40 da Constituição Federal, com a redação dada pela Emenda Constitucional nº 103/2019, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "No âmbito dos Municípios, o servidor abrangido por regime próprio será aposentado voluntariamente na idade mínima estabelecida mediante emenda à respectiva Lei Orgânica, observados o tempo de contribuição e os demais requisitos estabelecidos em lei complementar do ente federativo.",
+        "B": "O regime próprio terá caráter contributivo e solidário, mediante contribuição do ente federativo e dos servidores ativos, vedada a contribuição de aposentados e pensionistas.",
+        "C": "É permitida a existência de um regime próprio para cada Poder do mesmo ente federativo, desde que cada um tenha órgão gestor próprio.",
+        "D": "A aposentadoria compulsória ocorre aos 70 anos de idade, ou aos 75 anos na forma de lei complementar, com proventos integrais.",
+        "E": "Aplica-se o regime próprio ao agente público ocupante exclusivamente de cargo em comissão declarado em lei de livre nomeação e exoneração."
+      },
+      "correta": "A",
+      "dica": "Depois da EC 103/2019, a idade mínima do servidor estadual e municipal deixou de estar fixada na própria Constituição Federal.",
+      "explicacao": {
+        "A": "Correta. É o art. 40, § 1º, III, da CF (redação da EC 103/2019): a CF fixa 62 anos (mulher) e 65 (homem) para a União, mas, nos Estados, DF e Municípios, a idade mínima depende de emenda à Constituição estadual ou à Lei Orgânica, e os demais requisitos, de lei complementar do ente.",
+        "B": "O caput do art. 40 prevê contribuição do ente, dos servidores ativos, dos APOSENTADOS e dos PENSIONISTAS, observados critérios que preservem o equilíbrio financeiro e atuarial.",
+        "C": "O art. 40, § 20, veda a existência de mais de um regime próprio e de mais de um órgão ou entidade gestora em cada ente federativo, abrangidos todos os poderes, órgãos e entidades autárquicas e fundacionais.",
+        "D": "Pelo art. 40, § 1º, II, os proventos da aposentadoria compulsória são PROPORCIONAIS ao tempo de contribuição, e não integrais.",
+        "E": "O art. 40, § 13, manda aplicar o Regime GERAL de Previdência Social ao ocupante exclusivamente de cargo em comissão, de outro cargo temporário, inclusive mandato eletivo, ou de emprego público."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 40, caput, § 1º, II e III, §§ 13 e 20 (EC 103/2019)", "data": "2019-11-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0006",
+      "tema": "Lei 9.717/1998 e art. 9º da EC 103/2019: custeio e rol de benefícios",
+      "enunciado": "Considere as assertivas abaixo, sobre os regimes próprios de previdência social, à luz da Lei nº 9.717/1998 e do art. 9º da Emenda Constitucional nº 103/2019.\n\nI. A contribuição do Município, incluídas suas autarquias e fundações, ao regime próprio não poderá ser inferior ao valor da contribuição do servidor ativo, nem superior ao dobro desta contribuição.\nII. O Município é responsável pela cobertura de eventuais insuficiências financeiras do respectivo regime próprio, decorrentes do pagamento de benefícios previdenciários.\nIII. O rol de benefícios dos regimes próprios fica limitado às aposentadorias e à pensão por morte.\nIV. Os afastamentos por incapacidade temporária para o trabalho e o salário-maternidade correm à conta do regime próprio ao qual o servidor se vincula.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas III e IV estão corretas.",
+        "C": "Somente as assertivas I, II e III estão corretas.",
+        "D": "Somente as assertivas I, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Se o rol do regime próprio se limita a aposentadorias e pensão, quem paga os afastamentos temporários?",
+      "explicacao": {
+        "C": "Correta. A assertiva I é o art. 2º, caput, da Lei 9.717/1998; a II, o § 1º do mesmo artigo (ambos com redação da Lei 10.887/2004); a III, o art. 9º, § 2º, da EC 103/2019. A IV está errada.",
+        "A": "Incompleta: a assertiva III também está correta (art. 9º, § 2º, da EC 103/2019).",
+        "B": "A assertiva IV está errada: pelo art. 9º, § 3º, da EC 103/2019, os afastamentos por incapacidade temporária e o salário-maternidade são pagos DIRETAMENTE PELO ENTE FEDERATIVO e não correm à conta do regime próprio. Além disso, faltaram as assertivas I e II.",
+        "D": "A assertiva IV está errada (art. 9º, § 3º, da EC 103/2019: esses afastamentos são pagos pelo ente, fora do RPPS), e a II, correta, ficou de fora.",
+        "E": "A assertiva IV está errada. O art. 9º, § 3º, da EC 103/2019 tira do regime próprio os afastamentos por incapacidade temporária e o salário-maternidade, coerentemente com o § 2º, que limita o rol a aposentadorias e pensão."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.717/1998, art. 2º, caput e § 1º (Lei 10.887/2004)", "data": "2004-06-18" },
+        { "tipo": "constituicao", "referencia": "EC 103/2019, art. 9º, §§ 2º e 3º", "data": "2019-11-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0007",
+      "tema": "Contagem recíproca, tempo fictício e vigência da EC 103/2019 nos Municípios",
+      "enunciado": "Sobre a contagem recíproca de tempo de contribuição e a aplicação da Emenda Constitucional nº 103/2019 aos regimes próprios dos Municípios, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Para fins de aposentadoria, é assegurada a contagem recíproca do tempo de contribuição entre o Regime Geral de Previdência Social e os regimes próprios, e destes entre si, observada a compensação financeira, de acordo com os critérios estabelecidos em lei.",
+        "B": "É vedada a contagem de tempo de contribuição fictício para efeito de concessão dos benefícios previdenciários e de contagem recíproca.",
+        "C": "A aposentadoria concedida com a utilização de tempo de contribuição decorrente de cargo, emprego ou função pública, inclusive do Regime Geral de Previdência Social, acarreta o rompimento do vínculo que gerou o referido tempo de contribuição.",
+        "D": "Para os regimes próprios dos Municípios, a alteração promovida pela EC nº 103/2019 no art. 149 da Constituição e as revogações nela previstas para o § 21 do art. 40 e para dispositivos das ECs nº 41/2003 e 47/2005 entram em vigor na data de publicação de lei de iniciativa privativa do Executivo que as referende integralmente, a qual não produzirá efeitos anteriores à sua publicação.",
+        "E": "As regras de aposentadoria e de transição da EC nº 103/2019 aplicam-se de imediato aos servidores municipais, independentemente de alteração na legislação do respectivo regime próprio."
+      },
+      "correta": "E",
+      "dica": "O art. 20 da EC 103/2019 tem um parágrafo dirigido a Estados, DF e Municípios. Leia-o junto com o art. 36, II.",
+      "explicacao": {
+        "E": "É a resposta, porque a alternativa está errada. As regras de transição dos arts. 4º e 20 da EC 103/2019 foram escritas para o servidor público FEDERAL, e o art. 20, § 4º, determina que às aposentadorias dos servidores dos Estados, do DF e dos Municípios se aplicam as normas anteriores à EC enquanto não promovidas alterações na legislação interna do respectivo regime próprio. Em Curitiba, essa alteração veio com a LC municipal 133/2021, em vigor desde 1º/1/2022.",
+        "A": "Correta. É o art. 201, § 9º, da CF (redação da EC 103/2019). O art. 40, § 9º, aplica a mesma lógica ao tempo federal, estadual, distrital ou municipal.",
+        "B": "Correta. É o art. 201, § 14, da CF, incluído pela EC 103/2019. Para o regime próprio, o art. 40, § 10, já dizia que a lei não pode estabelecer contagem de tempo de contribuição fictício.",
+        "C": "Correta. É o art. 37, § 14, da CF, incluído pela EC 103/2019: quem se aposenta usando o tempo de um vínculo público não pode continuar nele.",
+        "D": "Correta. É o art. 36, II e parágrafo único, da EC 103/2019, combinado com o art. 35, I, a, III e IV. Curitiba fez esse referendo no art. 73, parágrafo único, da LC municipal 133/2021."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 37, § 14, e 201, §§ 9º e 14 (EC 103/2019)", "data": "2019-11-12" },
+        { "tipo": "constituicao", "referencia": "EC 103/2019, arts. 20, § 4º, 35 e 36", "data": "2019-11-12" },
+        { "tipo": "lei", "referencia": "Lei Complementar 133/2021 de Curitiba, art. 73", "data": "2021-12-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

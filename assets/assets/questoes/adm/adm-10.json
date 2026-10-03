@@ -1,0 +1,181 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-10",
+    "titulo": "Bens e serviços públicos",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "adm-0009",
+      "tema": "Bens públicos – classificação e regime jurídico",
+      "enunciado": "Acerca do regime jurídico dos bens públicos no Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Os bens de uso especial podem ser alienados livremente, ainda que continuem afetados ao serviço público.",
+        "B": "Os bens dominicais, por não estarem afetados a uma finalidade pública, podem ser adquiridos por usucapião.",
+        "C": "O uso comum dos bens públicos é sempre gratuito, vedada qualquer retribuição.",
+        "D": "Os bens públicos dominicais podem ser alienados, observadas as exigências da lei.",
+        "E": "Os edifícios destinados a serviço de autarquia municipal classificam-se como bens de uso comum do povo."
+      },
+      "correta": "D",
+      "dica": "A afetação é o que trava a alienação. Pense em qual categoria de bem público não está afetada, e lembre que nenhuma delas pode ser usucapida.",
+      "explicacao": {
+        "D": "Correta. É o art. 101 do Código Civil: os bens públicos dominicais podem ser alienados, observadas as exigências da lei (autorização legislativa, avaliação e licitação, conforme o caso).",
+        "A": "Pelo art. 100 do CC, os bens de uso comum do povo e os de uso especial são inalienáveis enquanto conservarem essa qualificação. Para aliená-los, é preciso antes desafetá-los.",
+        "B": "Nenhum bem público se sujeita a usucapião, inclusive os dominicais. É o art. 102 do CC, em linha com os arts. 183, § 3º, e 191, parágrafo único, da CF e com a Súmula 340 do STF.",
+        "C": "O art. 103 do CC diz que o uso comum dos bens públicos pode ser gratuito ou retribuído, conforme estabelecido legalmente pela entidade a que pertencem. Um exemplo é o estacionamento rotativo pago em via pública.",
+        "E": "Edifícios destinados a serviço ou estabelecimento da Administração, inclusive de suas autarquias, são bens de uso especial (art. 99, II, do CC). Bens de uso comum do povo são, por exemplo, rios, ruas e praças (art. 99, I)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 99 a 103", "data": "2002-01-10" },
+        { "tipo": "constituicao", "referencia": "CF, arts. 183, § 3º, e 191, parágrafo único", "data": "1988-10-05" },
+        { "tipo": "sumula", "referencia": "Súmula 340/STF", "data": "1963-12-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0040",
+      "tema": "Extinção da concessão – encampação e caducidade (Lei 8.987/1995)",
+      "enunciado": "O Município de Curitiba pretende extinguir, antes do termo final, a concessão do serviço de transporte coletivo. No caso I, por razões de interesse público, sem falta da concessionária; no caso II, porque a concessionária presta o serviço de forma inadequada e deficiente. À luz da Lei nº 8.987/1995, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "No caso I, trata-se de caducidade, declarada por decreto, independentemente de indenização prévia.",
+        "B": "No caso II, trata-se de encampação, que depende de lei autorizativa específica.",
+        "C": "No caso I, trata-se de encampação, que depende de lei autorizativa específica e de prévio pagamento da indenização; no caso II, a caducidade será declarada por decreto do poder concedente, após processo administrativo com ampla defesa, independentemente de indenização prévia.",
+        "D": "Em ambos os casos, a extinção depende de ação judicial especialmente intentada para esse fim.",
+        "E": "No caso II, declarada a caducidade, o poder concedente passa a responder pelos encargos e obrigações da concessionária com seus empregados."
+      },
+      "correta": "C",
+      "dica": "Uma das formas de extinção decorre de uma escolha política e a outra, de uma falta da concessionária. Veja qual delas exige lei e indenização antes da retomada.",
+      "explicacao": {
+        "C": "Correta. O caso I é encampação: retomada do serviço durante o prazo da concessão, por interesse público, mediante lei autorizativa específica e após prévio pagamento da indenização (art. 37). O caso II é caducidade (art. 38, § 1º, I), declarada por decreto após processo administrativo com ampla defesa, independentemente de indenização prévia, calculada no curso do processo (art. 38, §§ 2º e 4º).",
+        "A": "Retomada por interesse público, sem falta da concessionária, é encampação (art. 37), e não caducidade. A encampação exige indenização prévia.",
+        "B": "Serviço prestado de forma inadequada ou deficiente é hipótese de caducidade (art. 38, § 1º, I). A lei autorizativa específica é requisito da encampação.",
+        "D": "A ação judicial especialmente intentada é o caminho da concessionária para rescindir o contrato por descumprimento do poder concedente (art. 39). Encampação e caducidade são atos do próprio poder concedente.",
+        "E": "O § 6º do art. 38 diz o contrário: declarada a caducidade, não resultará para o poder concedente qualquer espécie de responsabilidade em relação aos encargos, ônus, obrigações ou compromissos com terceiros ou com empregados da concessionária."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.987/1995, arts. 35, 37, 38 e 39", "data": "1995-02-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0041",
+      "tema": "Direitos do usuário de serviços públicos – manifestações (Lei 13.460/2017)",
+      "enunciado": "Considerando as regras da Lei nº 13.460/2017 sobre as manifestações dos usuários de serviços públicos, analise as afirmativas.\n\nI. A manifestação será dirigida à ouvidoria do órgão ou entidade responsável e conterá a identificação do requerente, sendo vedadas quaisquer exigências relativas aos motivos determinantes de sua apresentação.\nII. A identificação do requerente é informação pessoal protegida com restrição de acesso, nos termos da Lei nº 12.527/2011.\nIII. O recebimento de manifestação poderá ser recusado quando o órgão entender que o pedido é manifestamente improcedente.\nIV. A ouvidoria encaminhará a decisão administrativa final ao usuário no prazo de trinta dias, prorrogável de forma justificada uma única vez, por igual período.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, II e III estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Uma das afirmativas contraria um artigo que começa com \"Em nenhuma hipótese\".",
+      "explicacao": {
+        "D": "Correta. I reproduz o caput e o § 2º do art. 10; II, o § 7º do art. 10; IV, o art. 16. A III está errada: pelo art. 11, em nenhuma hipótese será recusado o recebimento de manifestações formuladas nos termos da lei, sob pena de responsabilidade do agente público.",
+        "A": "A III está errada, porque o art. 11 proíbe a recusa do recebimento de manifestações em qualquer hipótese. Além disso, a alternativa deixa de fora II e IV, que reproduzem o art. 10, § 7º, e o art. 16.",
+        "B": "Deixa de fora a I, que está correta: o caput do art. 10 manda dirigir a manifestação à ouvidoria, com identificação do requerente, e o § 2º veda exigências sobre os motivos determinantes da manifestação.",
+        "C": "Inclui a III, que está errada (art. 11: em nenhuma hipótese será recusado o recebimento), e deixa de fora a IV, que reproduz o prazo de 30 dias, prorrogável uma vez, do art. 16.",
+        "E": "A III está errada. O art. 11 impede a recusa do recebimento de manifestações, sob pena de responsabilidade do agente público; a análise do mérito vem depois, no procedimento dos arts. 12 e seguintes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.460/2017, arts. 10, 11 e 16", "data": "2017-06-26" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0078",
+      "tema": "Serviço adequado e tarifa na Lei 8.987/1995",
+      "enunciado": "Sobre o serviço adequado, os direitos dos usuários e a política tarifária nas concessões e permissões de serviço público, nos termos da Lei nº 8.987/1995, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Serviço adequado é o que satisfaz as condições de regularidade, continuidade, eficiência, segurança, atualidade, generalidade, cortesia na sua prestação e modicidade das tarifas.",
+        "B": "A atualidade compreende a modernidade das técnicas, do equipamento e das instalações e a sua conservação, bem como a melhoria e a expansão do serviço.",
+        "C": "A interrupção do serviço por inadimplemento do usuário, após prévio aviso, pode iniciar-se em qualquer dia da semana, inclusive na sexta-feira, desde que não seja feriado.",
+        "D": "Ressalvados os impostos sobre a renda, a criação, alteração ou extinção de quaisquer tributos ou encargos legais após a apresentação da proposta, quando comprovado seu impacto, implicará a revisão da tarifa, para mais ou para menos, conforme o caso.",
+        "E": "É obrigação dos usuários, entre outras, contribuir para a permanência das boas condições dos bens públicos através dos quais lhes são prestados os serviços."
+      },
+      "correta": "C",
+      "dica": "Uma lei de 2020 protegeu o usuário inadimplente de ficar sem o serviço no fim de semana, quando não consegue resolver a pendência.",
+      "explicacao": {
+        "C": "É a incorreta. Pelo art. 6º, § 4º, da Lei 8.987/1995, incluído pela Lei 14.015/2020, a interrupção por inadimplemento do usuário não poderá iniciar-se na sexta-feira, no sábado ou no domingo, nem em feriado ou no dia anterior a feriado.",
+        "A": "Correta. É o art. 6º, § 1º, que enumera as condições do serviço adequado.",
+        "B": "Correta. É o art. 6º, § 2º. A atualidade não é só ter equipamento novo: inclui conservação, melhoria e expansão do serviço.",
+        "D": "Correta. É o art. 9º, § 3º. O imposto sobre a renda fica de fora porque incide sobre o resultado da concessionária, e não sobre o custo do serviço.",
+        "E": "Correta. É o art. 7º, VI, da Lei 8.987/1995, que lista direitos e obrigações dos usuários, sem prejuízo do Código de Defesa do Consumidor."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.987/1995, arts. 6º, 7º e 9º (art. 6º, § 4º, incluído pela Lei 14.015/2020)",
+          "data": "2020-06-15"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0079",
+      "tema": "Subconcessão, transferência e intervenção na concessão",
+      "enunciado": "Considere as afirmativas a seguir, à luz da Lei nº 8.987/1995.\n\nI. É admitida a subconcessão, nos termos previstos no contrato de concessão, desde que expressamente autorizada pelo poder concedente, e a sua outorga será sempre precedida de concorrência.\nII. A transferência do controle societário da concessionária sem prévia anuência do poder concedente implicará a encampação da concessão.\nIII. A intervenção na concessão far-se-á por decreto do poder concedente, que conterá a designação do interventor, o prazo da intervenção e os objetivos e limites da medida, e, declarada a intervenção, o poder concedente deverá instaurar procedimento administrativo no prazo de 30 (trinta) dias.\nIV. O procedimento administrativo instaurado após a intervenção deverá ser concluído no prazo de até 180 (cento e oitenta) dias, sob pena de considerar-se inválida a intervenção.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I e III estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas I, III e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "Encampação e caducidade extinguem a concessão por motivos diferentes: uma por interesse público, a outra por falta da concessionária.",
+      "explicacao": {
+        "E": "Correta. I reproduz o art. 26 e seu § 1º; III reproduz o art. 32, parágrafo único, e o art. 33, caput; IV reproduz o art. 33, § 2º. A II está errada: pelo art. 27, a transferência da concessão ou do controle societário sem prévia anuência do poder concedente implica a caducidade, e não a encampação.",
+        "A": "Inclui a II, que troca caducidade por encampação. A encampação é a retomada do serviço por interesse público, mediante lei autorizativa e prévia indenização (art. 37); a sanção pela transferência irregular é a caducidade (art. 27).",
+        "B": "A II está errada (art. 27: caducidade) e a alternativa deixa de fora I e III, que reproduzem os arts. 26 e 32 e 33.",
+        "C": "Deixa de fora a IV, que está correta: pelo art. 33, § 2º, o procedimento deve terminar em até 180 dias, sob pena de considerar-se inválida a intervenção.",
+        "D": "Nem todas estão corretas. A II afirma encampação onde o art. 27 da Lei 8.987/1995 prevê caducidade."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.987/1995, arts. 26, 27, 32, 33 e 37",
+          "data": "1995-02-13"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0080",
+      "tema": "Alienação de bens públicos (Lei 14.133/2021, arts. 76 e 77)",
+      "enunciado": "A respeito da alienação de bens da Administração Pública, nos termos dos arts. 76 e 77 da Lei nº 14.133/2021, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A alienação de bens imóveis, inclusive os pertencentes às autarquias e às fundações, subordina-se à existência de interesse público devidamente justificado, será precedida de avaliação, exigirá autorização legislativa e dependerá de licitação na modalidade leilão, ressalvadas as hipóteses de dispensa.",
+        "B": "A alienação de bens imóveis cuja aquisição tenha derivado de procedimentos judiciais ou de dação em pagamento exige autorização legislativa e licitação na modalidade concorrência.",
+        "C": "Os imóveis doados a outro órgão ou entidade da Administração Pública, cessadas as razões que justificaram a doação, serão revertidos ao patrimônio da pessoa jurídica doadora, vedada a sua alienação pelo beneficiário.",
+        "D": "A doação com encargo será licitada, e de seu instrumento constarão, obrigatoriamente, os encargos, o prazo de seu cumprimento e a cláusula de reversão, sob pena de nulidade do ato, dispensada a licitação em caso de interesse público devidamente justificado.",
+        "E": "Na venda de bens imóveis, será concedido direito de preferência ao licitante que, submetendo-se a todas as regras do edital, comprove a ocupação do imóvel objeto da licitação."
+      },
+      "correta": "B",
+      "dica": "A Lei 14.133/2021 simplificou a venda de imóveis que a Administração recebeu sem ter escolhido comprar. Veja o § 1º do art. 76.",
+      "explicacao": {
+        "B": "É a incorreta. Pelo art. 76, § 1º, a alienação de imóveis adquiridos por procedimentos judiciais ou por dação em pagamento dispensa a autorização legislativa e exige apenas avaliação prévia e licitação na modalidade leilão. A concorrência não é a modalidade da alienação de bens na nova lei.",
+        "A": "Correta. É o art. 76, caput e inciso I. Para os bens móveis (inciso II), não se exige autorização legislativa, mas a modalidade também é o leilão.",
+        "C": "Correta. É o art. 76, § 2º, que se refere às doações da alínea \"b\" do inciso I (doação, com licitação dispensada, a outro órgão ou entidade da Administração).",
+        "D": "Correta. É o art. 76, § 6º. Se o donatário precisar dar o imóvel em garantia de financiamento, a reversão fica garantida por hipoteca em segundo grau em favor do doador (§ 7º).",
+        "E": "Correta. É o art. 77, que protege o ocupante que participa da licitação nas mesmas condições dos demais."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, arts. 76 e 77",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

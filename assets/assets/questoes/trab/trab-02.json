@@ -1,0 +1,65 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-02",
+    "titulo": "Regimes funcionais: estatutário, celetista e temporário",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "trab-0003",
+      "tema": "Regime jurídico único e ADI 2.135 (art. 39 da CF)",
+      "enunciado": "Em 6/11/2024, o Supremo Tribunal Federal concluiu o julgamento de mérito da ADI 2.135, que impugnava a nova redação dada ao caput do art. 39 da Constituição Federal pela Emenda Constitucional nº 19/1998, a qual suprimiu a exigência de regime jurídico único. Sobre o tema, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O pedido foi julgado improcedente, com eficácia ex nunc, e o Tribunal esclareceu ser vedada a transmudação de regime dos atuais servidores.",
+        "B": "O pedido foi julgado procedente, restabelecendo-se em definitivo a obrigatoriedade do regime jurídico único para a administração direta, autárquica e fundacional.",
+        "C": "O pedido foi julgado improcedente, com eficácia ex tunc, devendo os servidores estatutários admitidos após a EC nº 19/1998 ser convertidos ao regime celetista.",
+        "D": "Com o julgamento, os preceitos da CLT passaram a aplicar-se automaticamente aos funcionários públicos dos Municípios, em razão do art. 7º da própria Consolidação.",
+        "E": "O art. 39, § 3º, da Constituição estende aos servidores ocupantes de cargo público, entre outros, o direito ao fundo de garantia do tempo de serviço."
+      },
+      "correta": "A",
+      "dica": "O STF manteve a emenda, mas se preocupou com os efeitos no tempo e com quem já era servidor.",
+      "explicacao": {
+        "A": "Correta. Na ADI 2.135, o Plenário (redator para o acórdão o Min. Gilmar Mendes) julgou improcedente o pedido e, pelo largo lapso desde a cautelar de 2007, atribuiu eficácia ex nunc à decisão, esclarecendo ser vedada a transmudação de regime dos atuais servidores, para evitar tumultos administrativos e previdenciários. Os embargos de declaração foram rejeitados, e a decisão transitou em julgado em 27/8/2025.",
+        "B": "O pedido foi julgado IMPROCEDENTE: o STF reconheceu a validade da redação dada pela EC 19/1998 ao caput do art. 39. Quem suspendia essa redação era a medida cautelar concedida em 2/8/2007, agora superada pelo julgamento de mérito.",
+        "C": "A eficácia atribuída foi EX NUNC, e não ex tunc, e o STF vedou expressamente a transmudação de regime dos atuais servidores. Não há conversão dos estatutários em celetistas.",
+        "D": "O art. 7º, c, da CLT diz o contrário: os preceitos da Consolidação, salvo determinação expressa em contrário, não se aplicam aos funcionários públicos da União, dos Estados e dos Municípios. A ADI 2.135 não alterou essa regra; o ente pode adotar o regime celetista por lei para novas admissões.",
+        "E": "O § 3º do art. 39 manda aplicar aos servidores ocupantes de cargo público os incisos IV, VII, VIII, IX, XII, XIII, XV, XVI, XVII, XVIII, XIX, XX, XXII e XXX do art. 7º. O FGTS (art. 7º, III) não está na lista."
+      },
+      "fontes": [
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 2.135, Plenário, julgamento de mérito", "data": "2024-11-06" },
+        { "tipo": "constituicao", "referencia": "CF, art. 39, caput e § 3º (EC 19/1998)", "data": "1998-06-04" },
+        { "tipo": "lei", "referencia": "CLT, art. 7º, c", "data": "1943-05-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0004",
+      "tema": "Contratação temporária no setor público (Temas 612 e 551/STF)",
+      "enunciado": "A respeito da contratação por tempo determinado para atender a necessidade temporária de excepcional interesse público (art. 37, IX, da Constituição Federal), à luz das teses fixadas pelo Supremo Tribunal Federal nos Temas 612 e 551 da repercussão geral, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Para que a contratação temporária seja válida, os casos excepcionais devem estar previstos em lei e o prazo de contratação deve ser predeterminado.",
+        "B": "A validade da contratação temporária exige que a necessidade seja temporária, que o interesse público seja excepcional e que a contratação seja indispensável.",
+        "C": "Havendo lei local autorizadora, a contratação temporária pode ser utilizada para os serviços ordinários permanentes do Estado, ainda que sob o espectro das contingências normais da Administração.",
+        "D": "Servidores temporários não fazem jus a décimo terceiro salário e férias remuneradas acrescidas do terço constitucional, salvo expressa previsão legal e/ou contratual em sentido contrário.",
+        "E": "O servidor temporário terá direito ao décimo terceiro salário e às férias acrescidas do terço constitucional se comprovado o desvirtuamento da contratação pela Administração, em razão de sucessivas e reiteradas renovações ou prorrogações."
+      },
+      "correta": "C",
+      "dica": "O Tema 612 lista cinco requisitos e termina com uma vedação expressa. Procure a alternativa que contorna essa vedação.",
+      "explicacao": {
+        "C": "É a resposta, porque a alternativa está errada. A tese do Tema 612 (RE 658.026, julgado em 9/4/2014) termina dizendo que a contratação temporária é VEDADA para os serviços ordinários permanentes do Estado que estejam sob o espectro das contingências normais da Administração. A previsão em lei local não afasta essa vedação: é exatamente o tipo de lei que o STF considerou inconstitucional.",
+        "A": "Correta. São os requisitos a (casos excepcionais previstos em lei) e b (prazo predeterminado) da tese do Tema 612.",
+        "B": "Correta. São os requisitos c (necessidade temporária), d (interesse público excepcional) e e (contratação indispensável) da tese do Tema 612.",
+        "D": "Correta. É a primeira parte da tese do Tema 551 (julgado em maio de 2020) com a ressalva (I): a lei ou o contrato podem prever esses direitos.",
+        "E": "Correta. É a ressalva (II) da tese do Tema 551: o comprovado desvirtuamento da contratação temporária, por sucessivas e reiteradas renovações e/ou prorrogações, garante o décimo terceiro e as férias com o terço."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, IX", "data": "1988-10-05" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 612 (RE 658.026)", "data": "2014-04-09" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 551", "data": "2020-05-22" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-07",
+    "titulo": "Licitações e contratos administrativos",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "adm-0002",
+      "tema": "Contratação direta – instrução do processo",
+      "enunciado": "Com base no art. 72 da Lei nº 14.133/2021, o processo de contratação direta, que compreende os casos de inexigibilidade e de dispensa de licitação, deverá ser instruído com determinados documentos. Assinale a alternativa que apresenta providência NÃO exigida pelo dispositivo.",
+      "alternativas": {
+        "A": "Parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos.",
+        "B": "Razão da escolha do contratado.",
+        "C": "Demonstração da compatibilidade da previsão de recursos orçamentários com o compromisso a ser assumido.",
+        "D": "Publicação de aviso em jornal de grande circulação, com antecedência mínima de oito dias úteis, para recebimento de propostas de outros interessados.",
+        "E": "Justificativa de preço."
+      },
+      "correta": "D",
+      "dica": "O art. 72 tem oito incisos, todos voltados a documentar a decisão dentro do processo. Procure a alternativa que traz uma exigência de publicidade que o artigo não prevê.",
+      "explicacao": {
+        "A": "Exigido. É o inciso III do art. 72: parecer jurídico e pareceres técnicos, se for o caso, que demonstrem o atendimento dos requisitos exigidos. Atenção: o parecer jurídico não é opcional; o \"se for o caso\" se refere aos pareceres técnicos.",
+        "B": "Exigido. É o inciso VI do art. 72. Como não há disputa entre licitantes, o processo precisa mostrar por que aquele fornecedor, e não outro, foi o escolhido — é o que protege a impessoalidade na contratação direta.",
+        "C": "Exigido. É o inciso IV do art. 72. Sem a demonstração de que há recurso orçamentário compatível, a Administração assumiria um compromisso que talvez não possa pagar.",
+        "D": "É a resposta: o art. 72 não exige aviso em jornal nem prazo para outras propostas. Os documentos exigidos são os dos incisos I a VIII (demanda e estudos, estimativa de despesa, pareceres, compatibilidade orçamentária, habilitação do contratado, razão da escolha, justificativa de preço e autorização da autoridade). A publicidade que o artigo exige está no parágrafo único: o ato que autoriza a contratação direta ou o extrato do contrato deve ser divulgado e mantido à disposição do público em sítio eletrônico oficial.",
+        "E": "Exigido. É o inciso VII do art. 72. Não basta estimar a despesa (inciso II): é preciso justificar por que o preço contratado é adequado."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, art. 72", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0003",
+      "tema": "Modalidades de licitação",
+      "enunciado": "Considerando o disposto no art. 28 da Lei nº 14.133/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "São modalidades de licitação o pregão, a concorrência, o concurso, o leilão e o diálogo competitivo, sendo vedada a criação de outras modalidades ou a combinação daquelas previstas.",
+        "B": "A tomada de preços e o convite foram mantidos pela nova lei para as contratações de menor vulto dos Municípios.",
+        "C": "A Administração pode combinar duas modalidades de licitação quando o objeto for complexo, desde que justifique a escolha no estudo técnico preliminar.",
+        "D": "O credenciamento e o sistema de registro de preços integram o rol de modalidades de licitação do art. 28.",
+        "E": "Estados e Municípios podem criar, por lei própria, modalidades de licitação adicionais para atender às peculiaridades locais."
+      },
+      "correta": "A",
+      "dica": "Conte as modalidades do art. 28 e leia com atenção o § 2º: ele fecha a porta para qualquer novidade.",
+      "explicacao": {
+        "A": "Correta. É a combinação do caput do art. 28 (pregão, concorrência, concurso, leilão e diálogo competitivo) com o seu § 2º, que veda expressamente a criação de outras modalidades e a combinação das existentes. O rol é taxativo.",
+        "B": "A Lei 14.133/2021 não prevê tomada de preços nem convite. Essas modalidades existiam na Lei 8.666/1993 e desapareceram no novo regime: não estão no rol do art. 28, que é taxativo.",
+        "C": "O § 2º do art. 28 veda a combinação das modalidades previstas no caput. Não há justificativa, nem no estudo técnico preliminar, capaz de afastar uma vedação legal expressa.",
+        "D": "Credenciamento e sistema de registro de preços não são modalidades: são procedimentos auxiliares, previstos no art. 78, dos quais a Administração pode se servir, como diz o § 1º do art. 28.",
+        "E": "O § 2º do art. 28 veda a criação de outras modalidades. Além disso, normas gerais de licitação são de competência privativa da União (art. 22, XXVII, da CF): o ente local regulamenta, mas não cria modalidade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 28 e 78", "data": "2021-04-01" },
+        { "tipo": "constituicao", "referencia": "CF, art. 22, XXVII", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0031",
+      "tema": "Alteração unilateral e extinção do contrato a pedido do contratado",
+      "enunciado": "Em contrato de prestação de serviços regido pela Lei nº 14.133/2021, a Administração deixou de pagar as faturas do contratado. Considerando as regras sobre alteração e extinção dos contratos administrativos dessa lei, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O contratado é obrigado a aceitar, nas mesmas condições contratuais, acréscimos ou supressões de até 50% (cinquenta por cento) do valor inicial atualizado de qualquer contrato de serviços.",
+        "B": "O contratado tem direito à extinção do contrato quando houver atraso superior a 1 (um) mês, contado da emissão da nota fiscal, dos pagamentos devidos pela Administração.",
+        "C": "O contratado tem direito à extinção do contrato em caso de atraso superior a 2 (dois) meses, contado da emissão da nota fiscal, dos pagamentos ou de parcelas de pagamentos devidos pela Administração, salvo, entre outras hipóteses, em caso de calamidade pública.",
+        "D": "O direito à extinção por atraso de pagamento subsiste mesmo quando o atraso decorrer de fato para o qual o próprio contratado tenha contribuído.",
+        "E": "Diante do atraso, o contratado só pode pedir a extinção do contrato, não lhe sendo assegurado optar pela suspensão do cumprimento de suas obrigações."
+      },
+      "correta": "C",
+      "dica": "O § 2º do art. 137 traz prazos em meses e em dias úteis; o § 3º traz as exceções e uma alternativa à extinção.",
+      "explicacao": {
+        "C": "Correta. É o art. 137, § 2º, IV, da Lei 14.133/2021, combinado com o § 3º, I, que afasta essa hipótese em caso de calamidade pública, de grave perturbação da ordem interna ou de guerra, ou quando o contratado tiver dado causa ao fato.",
+        "A": "Pelo art. 125, o limite geral para acréscimos ou supressões unilaterais é de 25% do valor inicial atualizado do contrato. Os 50% valem apenas para acréscimos no caso de reforma de edifício ou de equipamento.",
+        "B": "O prazo do art. 137, § 2º, IV, é de atraso superior a 2 (dois) meses, contado da emissão da nota fiscal. Um mês de atraso não gera, por si, direito à extinção.",
+        "D": "O § 3º, I, do art. 137 afasta a extinção quando o fato decorrer de ato ou fato que o contratado tenha praticado, do qual tenha participado ou para o qual tenha contribuído.",
+        "E": "O § 3º, II, do art. 137 assegura ao contratado o direito de optar pela suspensão do cumprimento das obrigações até a normalização da situação, admitido o restabelecimento do equilíbrio econômico-financeiro."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 125 e 137, §§ 2º e 3º", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0032",
+      "tema": "Contrato Público para Solução Inovadora – CPSI (LC 182/2021)",
+      "enunciado": "Com base na Lei Complementar nº 182/2021 (Marco Legal das Startups), que disciplina a licitação e o Contrato Público para Solução Inovadora (CPSI), assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O CPSI tem vigência limitada a 24 (vinte e quatro) meses, prorrogável por igual período.",
+        "B": "O edital deve descrever detalhadamente a solução técnica pretendida, sendo vedado limitar o escopo à indicação do problema a ser resolvido.",
+        "C": "A análise da documentação de habilitação precede a fase de julgamento das propostas e alcança todos os licitantes.",
+        "D": "Encerrado o CPSI, a Administração só poderá contratar o fornecimento da solução resultante mediante nova licitação.",
+        "E": "Encerrado o CPSI, a Administração poderá celebrar com a mesma contratada, sem nova licitação, contrato de fornecimento do produto, processo ou solução resultante, com vigência limitada a 24 (vinte e quatro) meses, prorrogável por mais um período de até 24 (vinte e quatro) meses."
+      },
+      "correta": "E",
+      "dica": "A lei separa dois contratos em sequência: um para testar a solução, outro para fornecê-la. Cada um tem sua própria vigência.",
+      "explicacao": {
+        "E": "Correta. É o caput do art. 15 da LC 182/2021 combinado com o seu § 2º. O contrato de fornecimento dispensa nova licitação porque a seleção já ocorreu na licitação especial que precedeu o CPSI.",
+        "A": "O CPSI tem vigência limitada a 12 (doze) meses, prorrogável por mais um período de até 12 meses (art. 14, caput). Os 24 meses são do contrato de fornecimento posterior (art. 15, § 2º).",
+        "B": "O § 1º do art. 13 permite exatamente o contrário: o escopo pode restringir-se à indicação do problema e dos resultados esperados, dispensada a descrição de solução técnica previamente mapeada, cabendo aos licitantes propor os meios de resolução.",
+        "C": "Pelo § 7º do art. 13, a análise da habilitação é posterior ao julgamento das propostas e contempla somente os proponentes selecionados.",
+        "D": "O art. 15 autoriza a Administração a celebrar o contrato de fornecimento com a mesma contratada \"sem nova licitação\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar 182/2021, arts. 13, 14 e 15", "data": "2021-06-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0033",
+      "tema": "Critérios de julgamento (art. 33 da Lei 14.133/2021)",
+      "enunciado": "Nos termos do art. 33 da Lei nº 14.133/2021, o julgamento das propostas será realizado de acordo com determinados critérios. Assinale a alternativa que NÃO apresenta um critério de julgamento previsto nesse dispositivo.",
+      "alternativas": {
+        "A": "Maior desconto.",
+        "B": "Melhor técnica ou conteúdo artístico.",
+        "C": "Maior retorno econômico.",
+        "D": "Menor preço global com preferência para empresas sediadas no Município licitante.",
+        "E": "Maior lance, no caso de leilão."
+      },
+      "correta": "D",
+      "dica": "O art. 33 tem seis incisos. Um critério que favorece licitante pelo local de sua sede esbarraria na isonomia.",
+      "explicacao": {
+        "D": "É a resposta. O art. 33 prevê menor preço, maior desconto, melhor técnica ou conteúdo artístico, técnica e preço, maior lance (no leilão) e maior retorno econômico. Não há critério que dê preferência a empresas pela sede no Município, o que violaria a igualdade entre licitantes.",
+        "A": "Previsto no inciso II do art. 33. Pelo art. 34, o julgamento por maior desconto, como o por menor preço, considera o menor dispêndio para a Administração, atendidos os parâmetros mínimos de qualidade do edital.",
+        "B": "Previsto no inciso III do art. 33. É o critério típico do concurso, em que se escolhe trabalho técnico, científico ou artístico.",
+        "C": "Previsto no inciso VI do art. 33. É usado nos contratos de eficiência, em que a remuneração do contratado depende da economia gerada para a Administração.",
+        "E": "Previsto no inciso V do art. 33, que o vincula expressamente ao leilão, modalidade usada para alienação de bens."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 14.133/2021, arts. 33 e 34", "data": "2021-04-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0067",
+      "tema": "Prazos mínimos para propostas e lances (Lei 14.133/2021, art. 55)",
+      "enunciado": "Considerando os prazos mínimos para apresentação de propostas e lances, contados a partir da data de divulgação do edital de licitação, previstos no art. 55 da Lei nº 14.133/2021, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Aquisição de bens, com critério de julgamento de menor preço ou de maior desconto: 8 (oito) dias úteis.",
+        "B": "Serviços comuns e obras e serviços comuns de engenharia, com critério de julgamento de menor preço ou de maior desconto: 15 (quinze) dias úteis.",
+        "C": "Obras e serviços, quando o regime de execução for de contratação integrada: 60 (sessenta) dias úteis.",
+        "D": "Licitação em que se adote o critério de julgamento de maior lance: 15 (quinze) dias úteis.",
+        "E": "Licitação em que se adote o critério de técnica e preço ou de melhor técnica ou conteúdo artístico: 35 (trinta e cinco) dias úteis."
+      },
+      "correta": "B",
+      "dica": "O art. 55 cresce conforme a complexidade do objeto: 8, 10, 15, 25, 35 e 60 dias úteis. Um dos números foi trocado de lugar.",
+      "explicacao": {
+        "B": "É a incorreta. Para serviços comuns e obras e serviços comuns de engenharia, com menor preço ou maior desconto, o prazo do art. 55, II, \"a\", é de 10 dias úteis. Os 15 dias úteis valem para bens fora da alínea \"a\" do inciso I e para o maior lance (inciso III).",
+        "A": "Correta. É o art. 55, I, \"a\": 8 dias úteis para aquisição de bens com menor preço ou maior desconto. Se o critério for outro, o prazo sobe para 15 dias úteis (alínea \"b\").",
+        "C": "Correta. É o art. 55, II, \"c\": 60 dias úteis na contratação integrada, o maior prazo da lei, porque o contratado também elabora os projetos básico e executivo.",
+        "D": "Correta. É o art. 55, III: 15 dias úteis no critério de maior lance, típico do leilão.",
+        "E": "Correta. É o art. 55, IV: 35 dias úteis para técnica e preço e para melhor técnica ou conteúdo artístico. Também são 35 dias úteis para a contratação semi-integrada (inciso II, \"d\")."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 55",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0068",
+      "tema": "Inexigibilidade de licitação (Lei 14.133/2021, art. 74)",
+      "enunciado": "O art. 74 da Lei nº 14.133/2021 trata das hipóteses de inexigibilidade de licitação, que ocorre quando inviável a competição. Sobre o tema, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É inexigível a licitação para a contratação de profissional do setor artístico, diretamente ou por meio de empresário exclusivo, desde que consagrado pela crítica especializada ou pela opinião pública.",
+        "B": "Considera-se empresário exclusivo quem possua documento que ateste a exclusividade permanente e contínua de representação do artista, afastada a inexigibilidade por meio de empresário com representação restrita a evento ou local específico.",
+        "C": "Na aquisição ou locação de imóvel cujas características de instalações e de localização tornem necessária a sua escolha, exige-se, entre outros requisitos, a certificação da inexistência de imóveis públicos vagos e disponíveis que atendam ao objeto.",
+        "D": "Nas contratações de serviços técnicos especializados com profissionais ou empresas de notória especialização, é vedada a subcontratação de empresas ou a atuação de profissionais distintos daqueles que tenham justificado a inexigibilidade.",
+        "E": "É inexigível a licitação para a contratação de serviços de publicidade e divulgação prestados por empresa de notória especialização, por se tratar de serviço técnico de natureza predominantemente intelectual."
+      },
+      "correta": "E",
+      "dica": "Releia o inciso III do art. 74 até o fim: depois de admitir os serviços técnicos especializados, ele faz uma ressalva expressa.",
+      "explicacao": {
+        "E": "É a incorreta. O próprio art. 74, III, ao admitir a inexigibilidade para serviços técnicos especializados de natureza predominantemente intelectual, veda expressamente a inexigibilidade para serviços de publicidade e divulgação.",
+        "A": "Correta. É o art. 74, II. A consagração pela crítica especializada ou pela opinião pública é o que torna a competição inviável.",
+        "B": "Correta. É o art. 74, § 2º. A lei afasta o empresário de ocasião, com representação só para aquele evento ou local.",
+        "C": "Correta. É o art. 74, V, combinado com o § 5º, II. O § 5º exige ainda a avaliação prévia do bem e justificativas que demonstrem a singularidade do imóvel e a vantagem para a Administração.",
+        "D": "Correta. É o art. 74, § 4º: se a notória especialização de determinado profissional ou empresa justificou a contratação direta, não faz sentido que outro execute o serviço."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 74",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0069",
+      "tema": "Sanções administrativas na Lei 14.133/2021 (art. 156)",
+      "enunciado": "Considere as afirmativas a seguir, sobre as sanções administrativas previstas no art. 156 da Lei nº 14.133/2021.\n\nI. São sanções aplicáveis ao responsável pelas infrações administrativas a advertência, a multa, o impedimento de licitar e contratar e a declaração de inidoneidade para licitar ou contratar.\nII. A multa, calculada na forma do edital ou do contrato, não poderá ser inferior a 0,5% (cinco décimos por cento) nem superior a 30% (trinta por cento) do valor do contrato licitado ou celebrado com contratação direta.\nIII. O impedimento de licitar e contratar impede o responsável de licitar ou contratar no âmbito da Administração Pública direta e indireta de todos os entes federativos, pelo prazo máximo de 3 (três) anos.\nIV. A declaração de inidoneidade, quando aplicada por órgão do Poder Executivo municipal, é de competência exclusiva do Prefeito e dispensa análise jurídica prévia.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II e IV estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "Compare o alcance territorial das duas sanções mais graves: uma fica restrita ao ente que a aplicou, a outra vale para todos. E veja no § 6º quem aplica a inidoneidade no Município.",
+      "explicacao": {
+        "A": "Correta. I reproduz os incisos do art. 156; II reproduz o § 3º. A III está errada porque, pelo § 4º, o impedimento vale apenas no âmbito da Administração direta e indireta do ente federativo que aplicou a sanção (a abrangência de todos os entes é da inidoneidade, § 5º). A IV está errada porque, pelo § 6º, a inidoneidade é precedida de análise jurídica e, no Poder Executivo, é de competência exclusiva de ministro de Estado, secretário estadual ou secretário municipal.",
+        "B": "Inclui a III, que está errada: o impedimento de licitar e contratar alcança só a Administração do ente federativo que aplicou a sanção, pelo prazo máximo de 3 anos (art. 156, § 4º).",
+        "C": "A IV está errada (art. 156, § 6º: análise jurídica prévia e competência de secretário municipal, não do Prefeito) e a alternativa deixa de fora a I, que reproduz o caput do art. 156.",
+        "D": "Inclui III e IV, ambas erradas, e omite a II. O impedimento é restrito ao ente sancionador (§ 4º); a inidoneidade exige análise jurídica prévia e, no Executivo municipal, é aplicada pelo secretário municipal (§ 6º, I).",
+        "E": "Nem todas estão corretas. A III confunde o alcance do impedimento com o da inidoneidade (§§ 4º e 5º), e a IV contraria o § 6º do art. 156."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 156",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0070",
+      "tema": "Fases do processo licitatório (Lei 14.133/2021, art. 17)",
+      "enunciado": "Sobre as fases do processo de licitação, nos termos do art. 17 da Lei nº 14.133/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A fase de habilitação precede, em regra, as fases de apresentação de propostas e lances e de julgamento.",
+        "B": "A habilitação pode anteceder a apresentação de propostas e o julgamento independentemente de previsão no edital, bastando decisão do agente de contratação.",
+        "C": "As licitações serão realizadas obrigatoriamente sob a forma eletrônica, vedada em qualquer hipótese a forma presencial.",
+        "D": "Desde que previsto no edital, na fase de julgamento o órgão licitante poderá realizar, em relação ao licitante provisoriamente vencedor, análise da conformidade da proposta mediante homologação de amostras, exame de conformidade e prova de conceito, entre outros testes.",
+        "E": "A fase recursal antecede a de julgamento, para que as impugnações sejam decididas antes da abertura das propostas."
+      },
+      "correta": "D",
+      "dica": "Recite as sete fases do art. 17 na ordem. Depois veja o que os §§ 1º, 2º e 3º permitem e sob quais condições.",
+      "explicacao": {
+        "D": "Correta. É o art. 17, § 3º: desde que previsto no edital, na fase de julgamento a Administração pode testar a proposta do provisoriamente vencedor (amostras, exame de conformidade, prova de conceito) para comprovar sua aderência ao termo de referência ou ao projeto básico.",
+        "A": "A ordem do caput do art. 17 é: preparatória, divulgação do edital, apresentação de propostas e lances, julgamento, habilitação, recursal e homologação. Em regra, a habilitação vem depois do julgamento.",
+        "B": "A inversão de fases é possível, mas o § 1º do art. 17 exige ato motivado, com explicitação dos benefícios, e previsão expressa no edital.",
+        "C": "O § 2º do art. 17 diz que as licitações serão realizadas preferencialmente sob a forma eletrônica, admitida a forma presencial desde que motivada, com a sessão pública registrada em ata e gravada em áudio e vídeo.",
+        "E": "A fase recursal é a sexta, depois do julgamento e da habilitação, e é seguida pela homologação (art. 17, VI e VII). Pelo art. 165, § 1º, II, a apreciação dos recursos contra julgamento e habilitação se dá em fase única."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, arts. 17 e 165, § 1º",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0071",
+      "tema": "Prerrogativas da Administração e duração dos contratos (arts. 104 a 107)",
+      "enunciado": "A respeito das prerrogativas da Administração e da duração dos contratos regidos pela Lei nº 14.133/2021, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "As cláusulas econômico-financeiras e monetárias do contrato podem ser alteradas unilateralmente pela Administração, independentemente da concordância do contratado, para melhor adequação às finalidades de interesse público.",
+        "B": "A Administração pode ocupar provisoriamente bens móveis e imóveis e utilizar pessoal e serviços vinculados ao objeto do contrato em caso de risco à prestação de serviços essenciais ou de necessidade de acautelar apuração administrativa de faltas do contratado, inclusive após a extinção do contrato.",
+        "C": "Nas hipóteses de serviços e fornecimentos contínuos, a Administração pode celebrar contratos com prazo de até 5 (cinco) anos, devendo a autoridade competente atestar a maior vantagem econômica vislumbrada em razão da contratação plurianual.",
+        "D": "Os contratos de serviços e fornecimentos contínuos podem ser prorrogados sucessivamente, respeitada a vigência máxima decenal, desde que haja previsão em edital e que a autoridade competente ateste que as condições e os preços permanecem vantajosos.",
+        "E": "A extinção sem ônus do contrato de serviço contínuo, por falta de créditos orçamentários ou por perda de vantagem, ocorrerá apenas na próxima data de aniversário do contrato e não poderá ocorrer em prazo inferior a 2 (dois) meses, contado dessa data."
+      },
+      "correta": "A",
+      "dica": "As prerrogativas do art. 104 têm um limite que protege o contratado: há uma parte do contrato que a Administração não toca sozinha.",
+      "explicacao": {
+        "A": "É a incorreta. O art. 104, § 1º, diz que as cláusulas econômico-financeiras e monetárias não poderão ser alteradas sem prévia concordância do contratado. A Administração pode modificar unilateralmente o contrato (art. 104, I), mas, nesse caso, deve rever as cláusulas econômico-financeiras para manter o equilíbrio contratual (§ 2º).",
+        "B": "Correta. É o art. 104, V, \"a\" e \"b\". A ocupação provisória é uma das prerrogativas (cláusulas exorbitantes) do regime dos contratos administrativos.",
+        "C": "Correta. É o art. 106, caput e inciso I. A Administração deve ainda atestar, no início da contratação e de cada exercício, a existência de créditos orçamentários e a vantagem em sua manutenção (inciso II).",
+        "D": "Correta. É o art. 107: prorrogações sucessivas até 10 anos, com previsão em edital e atestado de vantajosidade, permitida a negociação com o contratado ou a extinção sem ônus para qualquer das partes.",
+        "E": "Correta. É o art. 106, § 1º, que regula a extinção prevista no inciso III do mesmo artigo."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, arts. 104, 106 e 107",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0072",
+      "tema": "Impedimentos para licitar: autor do projeto (art. 14)",
+      "enunciado": "O Município de Curitiba abriu licitação para a execução de uma obra cujo projeto básico foi elaborado pela empresa Alfa Engenharia Ltda. Considerando o art. 14 da Lei nº 14.133/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A Alfa pode disputar a licitação da obra em igualdade de condições com os demais licitantes, pois o impedimento só alcança o autor do projeto executivo.",
+        "B": "A vedação alcança apenas a própria Alfa, e não as empresas integrantes do mesmo grupo econômico.",
+        "C": "A critério da Administração e exclusivamente a seu serviço, a Alfa pode participar no apoio das atividades de planejamento da contratação, de execução da licitação ou de gestão do contrato, desde que sob supervisão exclusiva de agentes públicos do órgão ou entidade.",
+        "D": "Se o regime de execução for o de contratação integrada, é vedado incluir entre os encargos do contratado a elaboração do projeto básico e do projeto executivo.",
+        "E": "Também não pode disputar a licitação a pessoa jurídica condenada judicialmente, com trânsito em julgado, por exploração de trabalho infantil, qualquer que seja a data da condenação."
+      },
+      "correta": "C",
+      "dica": "O autor do projeto não pode ser concorrente, mas a lei aproveita o conhecimento dele de outra forma. Veja os parágrafos do art. 14.",
+      "explicacao": {
+        "C": "Correta. É o art. 14, § 2º: o autor do projeto pode apoiar o planejamento, a licitação ou a gestão do contrato, a critério da Administração e exclusivamente a seu serviço, sob supervisão exclusiva de agentes públicos.",
+        "A": "O art. 14, I e II, impede de disputar a licitação o autor do anteprojeto, do projeto básico ou do projeto executivo, e a empresa responsável pela elaboração do projeto básico ou executivo, quando a licitação versar sobre obra, serviços ou fornecimento a eles relacionados.",
+        "B": "O art. 14, § 3º, equipara aos autores do projeto as empresas integrantes do mesmo grupo econômico.",
+        "D": "É o contrário: o § 4º do art. 14 diz que o artigo não impede a contratação que inclua como encargo do contratado a elaboração do projeto básico e do executivo, nas contratações integradas, e do projeto executivo, nos demais regimes.",
+        "E": "O art. 14, VI, limita o impedimento à condenação ocorrida nos 5 anos anteriores à divulgação do edital, com trânsito em julgado, por exploração de trabalho infantil, por submissão de trabalhadores a condições análogas às de escravo ou por contratação de adolescentes nos casos vedados."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 14",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

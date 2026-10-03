@@ -1,0 +1,88 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-09",
+    "titulo": "Encargos financeiros e prescrição contra a Fazenda Pública",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "pc-0025",
+      "tema": "Prescrição quinquenal (Decreto 20.910/1932)",
+      "enunciado": "Sobre a prescrição das dívidas passivas e das ações contra a Fazenda Pública, nos termos do Decreto nº 20.910/1932, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "As dívidas passivas dos Municípios, bem assim todo e qualquer direito ou ação contra a Fazenda municipal, seja qual for a sua natureza, prescrevem em cinco anos contados da data do ato ou fato do qual se originarem.",
+        "B": "Quando o pagamento se dividir por dias, meses ou anos, a prescrição atingirá progressivamente as prestações à medida que completarem os prazos estabelecidos no decreto.",
+        "C": "A demora do titular do direito em prestar os esclarecimentos que lhe forem reclamados pela Administração suspende a prescrição até que sejam prestados.",
+        "D": "Não corre a prescrição durante a demora que, no estudo, no reconhecimento ou no pagamento da dívida considerada líquida, tiverem as repartições ou funcionários encarregados de estudá-la e apurá-la.",
+        "E": "O direito à reclamação administrativa que não tiver prazo fixado em disposição de lei para ser formulada prescreve em um ano a contar da data do ato ou fato do qual se originar."
+      },
+      "correta": "C",
+      "dica": "O decreto distingue a demora da Administração da demora do próprio credor. Só uma delas protege o credor.",
+      "explicacao": {
+        "A": "Afirmativa correta. É a literalidade do art. 1º do Decreto 20.910/1932, que fixa o prazo quinquenal contado do ato ou fato de origem.",
+        "B": "Afirmativa correta. É o art. 3º: nas prestações periódicas (vencimentos, pensões), prescrevem apenas as parcelas que ultrapassarem o prazo, e não o próprio direito de uma vez.",
+        "C": "É a resposta, pois a afirmativa é falsa. O art. 5º diz o contrário: não tem efeito de suspender a prescrição a demora do titular do direito ou do crédito, ou de seu representante, em prestar os esclarecimentos que lhe forem reclamados. A suspensão protege o credor contra a demora da Administração (art. 4º), não contra a própria inércia.",
+        "D": "Afirmativa correta. É o art. 4º, caput. Pelo parágrafo único, a suspensão se verifica pela entrada do requerimento do titular nos livros ou protocolos das repartições públicas, com designação de dia, mês e ano.",
+        "E": "Afirmativa correta. É a literalidade do art. 6º do Decreto 20.910/1932. Atenção ao número: um ano para a reclamação administrativa sem prazo próprio, e não cinco."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto 20.910/1932, arts. 1º, 3º, 4º, 5º e 6º", "data": "1932-01-06" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0026",
+      "tema": "Interrupção da prescrição contra a Fazenda (Decreto 20.910/1932 e DL 4.597/1942)",
+      "enunciado": "Considerando o Decreto nº 20.910/1932 e o Decreto-Lei nº 4.597/1942, analise as assertivas abaixo.\nI. A prescrição das dívidas, direitos e ações contra a Fazenda Pública somente pode ser interrompida uma vez.\nII. Interrompida a prescrição, o prazo recomeça a correr por inteiro, isto é, por mais cinco anos, a partir do ato que a interrompeu.\nIII. O regime do Decreto nº 20.910/1932 abrange as dívidas passivas das autarquias criadas por lei e mantidas mediante impostos, taxas ou quaisquer contribuições exigidas em virtude de lei, bem como todo e qualquer direito e ação contra elas.\nIV. A citação inicial interrompe a prescrição ainda que, por qualquer motivo, o processo venha a ser anulado.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas III e IV estão corretas.",
+        "D": "Somente as assertivas I, II e III estão corretas.",
+        "E": "Somente as assertivas I e III estão corretas."
+      },
+      "correta": "E",
+      "dica": "A prescrição a favor da Fazenda tem duas regras próprias sobre a interrupção: quantas vezes ela pode ocorrer e por quanto tempo o prazo volta a correr.",
+      "explicacao": {
+        "A": "Errada, porque inclui a assertiva II. Pelo art. 9º do Decreto 20.910/1932 e pelo art. 3º do DL 4.597/1942, a prescrição interrompida recomeça a correr pela metade do prazo (dois anos e meio), e não por inteiro.",
+        "B": "Errada. A assertiva II é falsa (o prazo recomeça pela metade) e a IV também: o art. 7º do Decreto 20.910/1932 diz que a citação inicial não interrompe a prescrição quando, por qualquer motivo, o processo tenha sido anulado.",
+        "C": "Errada, porque inclui a assertiva IV, que contraria o art. 7º do Decreto 20.910/1932, e deixa de fora a assertiva I, que é verdadeira.",
+        "D": "Errada, porque inclui a assertiva II. O recomeço pela metade do prazo é a regra especial da Fazenda (art. 9º do Decreto 20.910/1932 e art. 3º do DL 4.597/1942).",
+        "E": "Correta. A assertiva I reproduz o art. 8º do Decreto 20.910/1932 e o art. 3º do DL 4.597/1942 (interrupção uma única vez). A assertiva III reproduz o art. 2º do DL 4.597/1942, que estendeu o regime às autarquias e entidades paraestatais criadas por lei e mantidas por tributos. II e IV são falsas pelos arts. 9º e 7º do Decreto 20.910/1932."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto 20.910/1932, arts. 7º, 8º e 9º", "data": "1932-01-06" },
+        { "tipo": "lei", "referencia": "Decreto-Lei 4.597/1942, arts. 2º e 3º", "data": "1942-08-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0027",
+      "tema": "Honorários advocatícios nas causas da Fazenda Pública (art. 85)",
+      "enunciado": "Acerca dos honorários advocatícios nas causas em que a Fazenda Pública for parte, conforme o art. 85 do Código de Processo Civil, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Sobre o valor da condenação ou do proveito econômico obtido até 200 (duzentos) salários-mínimos, os honorários serão fixados entre o mínimo de dez e o máximo de vinte por cento.",
+        "B": "Sobre o valor da condenação ou do proveito econômico obtido acima de 200 (duzentos) até 2.000 (dois mil) salários-mínimos, os honorários serão fixados entre o mínimo de oito e o máximo de dez por cento.",
+        "C": "Não serão devidos honorários no cumprimento de sentença contra a Fazenda Pública que enseje expedição de precatório, desde que não tenha sido impugnada.",
+        "D": "Os percentuais escalonados previstos para as causas da Fazenda Pública não se aplicam aos casos de improcedência do pedido ou de sentença sem resolução de mérito, hipóteses em que o juiz fixará os honorários por apreciação equitativa.",
+        "E": "Quando a condenação contra a Fazenda Pública for superior a 200 (duzentos) salários-mínimos, a fixação do percentual deve observar a faixa inicial e, naquilo que a exceder, a faixa subsequente, e assim sucessivamente."
+      },
+      "correta": "D",
+      "dica": "O § 6º do art. 85 diz a que tipos de decisão se aplicam as faixas dos §§ 2º e 3º, e o § 6º-A restringe a apreciação equitativa.",
+      "explicacao": {
+        "A": "Afirmativa correta. É o art. 85, § 3º, I: é a primeira faixa, idêntica aos limites gerais do § 2º (10 a 20%).",
+        "B": "Afirmativa correta. É o art. 85, § 3º, II. As faixas seguintes são de 5 a 8% (até 20.000 salários-mínimos), de 3 a 5% (até 100.000) e de 1 a 3% (acima de 100.000).",
+        "C": "Afirmativa correta. É a literalidade do art. 85, § 7º. Se a Fazenda não impugna, o pagamento por precatório é mera consequência do regime constitucional, e não resistência que justifique honorários.",
+        "D": "É a resposta, pois a afirmativa é falsa. O art. 85, § 6º, manda aplicar os limites e critérios dos §§ 2º e 3º independentemente do conteúdo da decisão, \"inclusive aos casos de improcedência ou de sentença sem resolução de mérito\". E o § 6º-A (Lei 14.365/2022) proíbe a apreciação equitativa quando o valor for líquido ou liquidável, salvo nas hipóteses do § 8º (proveito inestimável ou irrisório, ou valor da causa muito baixo).",
+        "E": "Afirmativa correta. É o art. 85, § 5º: o escalonamento é por faixas sucessivas, como numa tabela progressiva, e não aplicação de uma única faixa ao valor total."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), art. 85, §§ 3º, 5º, 6º, 7º e 8º", "data": "2015-03-16" },
+        { "tipo": "lei", "referencia": "Lei 14.365/2022 (art. 85, § 6º-A, do CPC)", "data": "2022-06-02" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

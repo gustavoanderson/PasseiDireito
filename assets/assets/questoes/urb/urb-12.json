@@ -1,0 +1,114 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-12",
+    "titulo": "Código Florestal, SNUC, saneamento e resíduos sólidos",
+    "itemEdital": 12
+  },
+  "questoes": [
+    {
+      "id": "urb-0028",
+      "tema": "Áreas de Preservação Permanente (Lei 12.651/2012)",
+      "enunciado": "Sobre as Áreas de Preservação Permanente (APP), nos termos dos arts. 4º e 7º da Lei nº 12.651/2012 (Código Florestal), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "as Áreas de Preservação Permanente previstas no art. 4º aplicam-se apenas às zonas rurais, cabendo exclusivamente ao plano diretor disciplinar a proteção das margens de rios em zonas urbanas.",
+        "B": "considera-se APP a faixa marginal de curso d'água natural perene e intermitente, excluídos os efêmeros, em largura mínima de 30 metros, para os cursos d'água de menos de 10 metros de largura.",
+        "C": "considera-se APP a área no entorno de lagos e lagoas naturais, em faixa com largura mínima de 30 metros, em zonas urbanas.",
+        "D": "são APP os manguezais, em toda a sua extensão, e as áreas em altitude superior a 1.800 metros, qualquer que seja a vegetação.",
+        "E": "tendo ocorrido supressão de vegetação em APP, a obrigação de promover a recomposição tem natureza real e é transmitida ao sucessor no caso de transferência de domínio ou posse do imóvel rural."
+      },
+      "correta": "A",
+      "dica": "Leia com atenção o início do caput do art. 4º: ele diz onde as APPs existem.",
+      "explicacao": {
+        "A": "É a incorreta, e por isso a resposta. O caput do art. 4º define as APPs \"em zonas rurais ou urbanas\". O § 10 do art. 4º (Lei 14.285/2021) permite que lei municipal, em áreas urbanas consolidadas e ouvidos os conselhos de meio ambiente, defina faixas marginais distintas, mas isso não afasta a incidência do Código Florestal na cidade.",
+        "B": "Correto. É o art. 4º, I, a. As faixas sobem para 50, 100, 200 e 500 metros conforme a largura do curso d'água (alíneas b a e). O STF, no julgamento conjunto da ADC 42 e das ADIs 4901, 4902, 4903 e 4937, reconheceu a constitucionalidade do art. 3º, XIX, ligado a esse inciso.",
+        "C": "Correto. É o art. 4º, II, b. Em zonas rurais, a faixa é de 100 metros, salvo corpo d'água com até 20 hectares de superfície, em que é de 50 metros (alínea a).",
+        "D": "Correto. São os incisos VII (manguezais em toda a sua extensão) e X (altitude superior a 1.800 metros) do art. 4º.",
+        "E": "Correto. É o art. 7º, §§ 1º e 2º. A obrigação acompanha o imóvel: o adquirente responde pela recomposição ainda que não tenha feito a supressão."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.651/2012, arts. 4º e 7º", "data": "2012-05-25" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADC 42 e ADIs 4901, 4902, 4903 e 4937 (Informativo 892)", "data": "2018-02-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0029",
+      "tema": "Reserva Legal (Lei 12.651/2012)",
+      "enunciado": "Acerca da Reserva Legal, disciplinada pela Lei nº 12.651/2012, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O imóvel rural localizado fora da Amazônia Legal deve manter, a título de Reserva Legal, área com cobertura de vegetação nativa de, no mínimo, 35% da área do imóvel.",
+        "B": "A área de Reserva Legal deverá ser registrada no órgão ambiental competente por meio de inscrição no Cadastro Ambiental Rural (CAR), sendo vedada a alteração de sua destinação nos casos de transmissão, a qualquer título, ou de desmembramento, com as exceções previstas na lei, e o registro no CAR desobriga a averbação no Cartório de Registro de Imóveis.",
+        "C": "A Reserva Legal não admite, em nenhuma hipótese, exploração econômica, ainda que mediante manejo sustentável.",
+        "D": "Em caso de fracionamento do imóvel rural, o percentual de Reserva Legal será calculado sobre a área de cada fração resultante, e não sobre a área do imóvel antes do fracionamento.",
+        "E": "O imóvel situado em área de cerrado na Amazônia Legal deve manter Reserva Legal de, no mínimo, 80% da área do imóvel."
+      },
+      "correta": "B",
+      "dica": "Os percentuais do art. 12 são 80, 35 e 20; associe cada um ao lugar certo. E pense no instrumento que substituiu a averbação em cartório.",
+      "explicacao": {
+        "B": "Correta. É o art. 18, caput e § 4º, da Lei 12.651/2012. Na posse, a Reserva Legal é assegurada por termo de compromisso com força de título executivo extrajudicial (§ 2º).",
+        "A": "Pelo art. 12, II, o imóvel localizado nas demais regiões do País (fora da Amazônia Legal) deve manter Reserva Legal de 20%. O percentual de 35% é o do imóvel situado em área de cerrado na Amazônia Legal (inciso I, b).",
+        "C": "O art. 17, § 1º, admite a exploração econômica da Reserva Legal mediante manejo sustentável, previamente aprovado pelo órgão competente do Sisnama. O que se exige é a conservação da cobertura de vegetação nativa (caput).",
+        "D": "O art. 12, § 1º, determina que, em caso de fracionamento do imóvel rural, a qualquer título, considere-se a área do imóvel ANTES do fracionamento. A regra impede que a divisão do imóvel reduza a Reserva Legal.",
+        "E": "Pelo art. 12, I, b, o imóvel situado em área de cerrado na Amazônia Legal mantém 35%. Os 80% valem para o imóvel situado em área de florestas na Amazônia Legal (alínea a). O STF reconheceu a constitucionalidade dos §§ 4º a 8º do art. 12 no julgamento da ADC 42 e da ADI 4901."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.651/2012, arts. 12, 17 e 18", "data": "2012-05-25" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADC 42 e ADI 4901 (Informativo 892)", "data": "2018-02-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0030",
+      "tema": "Sistema Nacional de Unidades de Conservação (Lei 9.985/2000)",
+      "enunciado": "Considerando a Lei nº 9.985/2000, que institui o Sistema Nacional de Unidades de Conservação da Natureza (SNUC), analise as assertivas abaixo.\nI. As unidades de conservação dividem-se em Unidades de Proteção Integral, cujo objetivo básico é preservar a natureza, admitido apenas o uso indireto dos seus recursos naturais, com as exceções legais, e Unidades de Uso Sustentável.\nII. A Reserva Particular do Patrimônio Natural integra o grupo das Unidades de Proteção Integral.\nIII. A desafetação ou a redução dos limites de uma unidade de conservação só pode ser feita mediante lei específica.\nIV. Na criação de Estação Ecológica ou de Reserva Biológica não é obrigatória a consulta pública.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e III estão corretas.",
+        "C": "Somente as assertivas I, III e IV estão corretas.",
+        "D": "Somente as assertivas II, III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Confira em qual dos dois grupos o art. 14 coloca a reserva particular; e lembre que criar e reduzir uma unidade seguem formas diferentes.",
+      "explicacao": {
+        "C": "Correta. A I é o art. 7º, caput e §§ 1º e 2º; a III é o art. 22, § 7º; a IV é o art. 22, § 4º. A II é falsa: a Reserva Particular do Patrimônio Natural está no rol das Unidades de USO SUSTENTÁVEL (art. 14, VII).",
+        "A": "Inclui a assertiva II, que é falsa (a RPPN é unidade de Uso Sustentável, art. 14, VII), e omite a III e a IV, verdadeiras (art. 22, §§ 7º e 4º).",
+        "B": "Inclui a assertiva II, que é falsa, e omite a I e a IV, verdadeiras (arts. 7º e 22, § 4º).",
+        "D": "Inclui a assertiva II, que é falsa: o grupo de Proteção Integral é formado por Estação Ecológica, Reserva Biológica, Parque Nacional, Monumento Natural e Refúgio de Vida Silvestre (art. 8º). Omite a I, verdadeira.",
+        "E": "Nem todas estão corretas: a assertiva II contraria o art. 14, VII, da Lei 9.985/2000."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.985/2000, arts. 7º, 8º, 14 e 22", "data": "2000-07-18" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0031",
+      "tema": "Resíduos sólidos (Lei 12.305/2010) e titularidade do saneamento (Lei 11.445/2007)",
+      "enunciado": "Sobre a Política Nacional de Resíduos Sólidos (Lei nº 12.305/2010) e a titularidade dos serviços de saneamento básico (Lei nº 11.445/2007, com a redação da Lei nº 14.026/2020), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "na gestão e gerenciamento de resíduos sólidos, deve ser observada a seguinte ordem de prioridade: não geração, redução, reutilização, reciclagem, tratamento dos resíduos sólidos e disposição final ambientalmente adequada dos rejeitos.",
+        "B": "incumbe ao Distrito Federal e aos Municípios a gestão integrada dos resíduos sólidos gerados nos respectivos territórios, sem prejuízo das competências de controle e fiscalização dos órgãos federais e estaduais e da responsabilidade do gerador.",
+        "C": "são obrigados a estruturar e implementar sistemas de logística reversa os fabricantes, importadores, distribuidores e comerciantes de pilhas e baterias, pneus e lâmpadas fluorescentes, entre outros produtos.",
+        "D": "é admitido o lançamento in natura a céu aberto de resíduos sólidos urbanos, desde que em área afastada de corpos hídricos e com autorização do Município.",
+        "E": "exercem a titularidade dos serviços públicos de saneamento básico os Municípios e o Distrito Federal, no caso de interesse local."
+      },
+      "correta": "D",
+      "dica": "O art. 47 da Lei 12.305/2010 traz um rol de formas proibidas de destinação, com uma única exceção setorial no inciso que trata do lançamento a céu aberto.",
+      "explicacao": {
+        "D": "É a incorreta, e por isso a resposta. O art. 47, II, da Lei 12.305/2010 PROÍBE o lançamento in natura a céu aberto de resíduos sólidos ou rejeitos, excetuados apenas os resíduos de mineração. Autorização municipal não afasta a proibição.",
+        "A": "Correto. É o art. 9º, caput. A ordem é obrigatória e coloca a disposição final, que alcança só os rejeitos, como última opção.",
+        "B": "Correto. É o art. 10 da Lei 12.305/2010, que reforça o papel do Município como titular do manejo de resíduos sólidos.",
+        "C": "Correto. É o art. 33, II, III e V. O rol inclui ainda agrotóxicos e suas embalagens, óleos lubrificantes e produtos eletroeletrônicos (incisos I, IV e VI).",
+        "E": "Correto. É o art. 8º, I, da Lei 11.445/2007, na redação da Lei 14.026/2020. No caso de interesse comum, a titularidade é do Estado em conjunto com os Municípios que compartilham instalações em região metropolitana, aglomeração urbana ou microrregião (inciso II)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.305/2010, arts. 9º, 10, 33 e 47", "data": "2010-08-02" },
+        { "tipo": "lei", "referencia": "Lei 11.445/2007, art. 8º (redação da Lei 14.026/2020)", "data": "2020-07-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

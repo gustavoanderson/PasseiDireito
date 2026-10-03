@@ -1,0 +1,138 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-10",
+    "titulo": "Ordem econômica, política urbana e reforma agrária",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "const-0028",
+      "tema": "Princípios da ordem econômica (art. 170)",
+      "enunciado": "A ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social. Nos termos do art. 170 da Constituição Federal, na redação vigente, são princípios da ordem econômica todos os listados abaixo, EXCETO:",
+      "alternativas": {
+        "A": "Soberania nacional.",
+        "B": "Função social da propriedade.",
+        "C": "Busca do pleno emprego.",
+        "D": "Preferência à empresa brasileira de capital nacional na exploração de atividades econômicas.",
+        "E": "Tratamento favorecido para as empresas de pequeno porte constituídas sob as leis brasileiras e que tenham sua sede e administração no País."
+      },
+      "correta": "D",
+      "dica": "Uma emenda de 1995 retirou da Constituição a distinção entre empresa brasileira e empresa brasileira de capital nacional. Procure o item que ficou no passado.",
+      "explicacao": {
+        "D": "É a resposta, pois não é princípio do art. 170. A distinção entre empresa brasileira e empresa brasileira de capital nacional estava no art. 171, revogado pela EC 6/1995. A mesma emenda deu nova redação ao inciso IX do art. 170, que hoje fala em empresas de pequeno porte constituídas sob as leis brasileiras e com sede e administração no País.",
+        "A": "É princípio. Soberania nacional é o inciso I do art. 170. Atenção: a soberania é também fundamento da República (art. 1º, I), e aparece nos dois lugares.",
+        "B": "É princípio. A função social da propriedade é o inciso III do art. 170, ao lado da propriedade privada (inciso II). Os dois convivem: a Constituição garante a propriedade e condiciona o seu exercício.",
+        "C": "É princípio. A busca do pleno emprego é o inciso VIII do art. 170.",
+        "E": "É princípio. É a redação do inciso IX do art. 170, dada pela EC 6/1995."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 170 (inciso IX com redação da EC 6/1995) e art. 171 (revogado pela EC 6/1995)", "data": "1995-08-15" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0029",
+      "tema": "Política urbana (arts. 182 e 183)",
+      "enunciado": "Considerando os arts. 182 e 183 da Constituição Federal, que tratam da política urbana, assinale V (verdadeiro) ou F (falso).\n\n( ) O plano diretor, aprovado pela Câmara Municipal, é obrigatório para cidades com mais de vinte mil habitantes e é o instrumento básico da política de desenvolvimento e de expansão urbana.\n( ) As desapropriações de imóveis urbanos serão feitas com prévia e justa indenização em títulos da dívida pública.\n( ) Mediante lei específica para área incluída no plano diretor, o Município pode exigir do proprietário do solo urbano não edificado, subutilizado ou não utilizado que promova seu adequado aproveitamento, sob pena, sucessivamente, de parcelamento ou edificação compulsórios, IPTU progressivo no tempo e desapropriação com pagamento em títulos da dívida pública com prazo de resgate de até dez anos.\n( ) O direito à usucapião especial urbana de área de até duzentos e cinquenta metros quadrados pode ser reconhecido ao mesmo possuidor mais de uma vez, desde que respeitado o prazo de cinco anos em cada posse.\n\nAssinale a alternativa que apresenta a sequência CORRETA, de cima para baixo.",
+      "alternativas": {
+        "A": "V, F, V, F.",
+        "B": "V, V, V, F.",
+        "C": "F, F, V, V.",
+        "D": "V, F, F, F.",
+        "E": "V, V, F, V."
+      },
+      "correta": "A",
+      "dica": "A regra geral da desapropriação urbana é uma; a desapropriação-sanção do § 4º é outra. E a usucapião especial urbana tem uma cláusula de uso único.",
+      "explicacao": {
+        "A": "Correta. A 1ª é o art. 182, § 1º (V). A 2ª é falsa: pelo art. 182, § 3º, as desapropriações de imóveis urbanos são feitas com prévia e justa indenização em dinheiro; títulos da dívida pública só na desapropriação-sanção do § 4º, III. A 3ª é o art. 182, § 4º, I a III (V). A 4ª é falsa: o art. 183, § 2º, diz que esse direito não será reconhecido ao mesmo possuidor mais de uma vez.",
+        "B": "Marca como verdadeira a 2ª afirmativa, que é falsa. A indenização em títulos da dívida pública, com resgate em até dez anos, é exclusiva da desapropriação-sanção do art. 182, § 4º, III; a regra geral do § 3º é indenização prévia, justa e em dinheiro.",
+        "C": "Marca como falsa a 1ª (que reproduz o art. 182, § 1º) e como verdadeira a 4ª, que contraria o art. 183, § 2º: a usucapião especial urbana não é reconhecida ao mesmo possuidor mais de uma vez.",
+        "D": "Marca como falsa a 3ª, que reproduz fielmente o art. 182, § 4º: a sequência de sanções é parcelamento ou edificação compulsórios, IPTU progressivo no tempo e desapropriação com títulos resgatáveis em até dez anos, em parcelas anuais, iguais e sucessivas.",
+        "E": "Erra três itens: a 2ª é falsa (art. 182, § 3º: indenização em dinheiro), a 3ª é verdadeira (art. 182, § 4º) e a 4ª é falsa (art. 183, § 2º)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 182 e 183", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0030",
+      "tema": "Reforma agrária e função social da propriedade rural",
+      "enunciado": "Sobre a política agrícola e fundiária e a reforma agrária na Constituição Federal (arts. 184 a 186), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "compete à União desapropriar por interesse social, para fins de reforma agrária, o imóvel rural que não esteja cumprindo sua função social, mediante prévia e justa indenização em títulos da dívida agrária, resgatáveis no prazo de até vinte anos, a partir do segundo ano de sua emissão.",
+        "B": "as benfeitorias úteis e necessárias serão indenizadas em dinheiro.",
+        "C": "a pequena e a média propriedade rural, assim definidas em lei, são insuscetíveis de desapropriação para fins de reforma agrária, ainda que o seu proprietário possua outra propriedade rural.",
+        "D": "a função social é cumprida quando a propriedade rural atende, simultaneamente, entre outros requisitos, à observância das disposições que regulam as relações de trabalho.",
+        "E": "são isentas de impostos federais, estaduais e municipais as operações de transferência de imóveis desapropriados para fins de reforma agrária."
+      },
+      "correta": "C",
+      "dica": "A proteção da pequena e média propriedade tem uma condição ligada ao patrimônio do dono. A da propriedade produtiva, não.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta. O art. 185, I, protege a pequena e média propriedade rural desde que seu proprietário não possua outra. Quem tem outra propriedade perde essa proteção. A propriedade produtiva (inciso II) é protegida sem essa condição.",
+        "A": "Correta. É o caput do art. 184: competência da União, imóvel que não cumpre a função social, indenização prévia e justa em títulos da dívida agrária, com cláusula de preservação do valor real, resgatáveis em até vinte anos a partir do segundo ano da emissão.",
+        "B": "Correta. É o art. 184, § 1º. A terra nua é paga em títulos da dívida agrária; as benfeitorias úteis e necessárias, em dinheiro.",
+        "D": "Correta. É o art. 186, III. Os requisitos são simultâneos: aproveitamento racional e adequado; utilização adequada dos recursos naturais e preservação do meio ambiente; observância das disposições que regulam as relações de trabalho; exploração que favoreça o bem-estar dos proprietários e dos trabalhadores.",
+        "E": "Correta. É o art. 184, § 5º. Para um Procurador do Município, significa que não incide ITBI nessas transferências."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 184, 185 e 186", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0065",
+      "tema": "Intervenção do Estado no domínio econômico (arts. 173 e 174 da CF)",
+      "enunciado": "Com base nos arts. 173 e 174 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Ressalvados os casos previstos na Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.",
+        "B": "A lei estabelecerá o estatuto jurídico da empresa pública, da sociedade de economia mista e de suas subsidiárias que explorem atividade econômica, sujeitando-as, entre outros pontos, ao regime próprio das empresas privadas quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários.",
+        "C": "As empresas públicas e as sociedades de economia mista exploradoras de atividade econômica podem gozar de privilégios fiscais não extensivos às do setor privado, em razão de sua natureza estatal.",
+        "D": "Como agente normativo e regulador da atividade econômica, o Estado exercerá, na forma da lei, as funções de fiscalização, incentivo e planejamento, sendo este determinante para o setor público e indicativo para o setor privado.",
+        "E": "A lei apoiará e estimulará o cooperativismo e outras formas de associativismo, e o Estado favorecerá a organização da atividade garimpeira em cooperativas."
+      },
+      "correta": "C",
+      "dica": "Releia o § 2º do art. 173: ele existe justamente para impedir que a estatal compita em vantagem desleal com a empresa privada.",
+      "explicacao": {
+        "C": "É a resposta, pois está incorreta. O art. 173, § 2º, da CF diz o contrário: as empresas públicas e as sociedades de economia mista não poderão gozar de privilégios fiscais não extensivos às do setor privado, justamente para preservar a livre concorrência.",
+        "A": "Correta. É a literalidade do art. 173, caput, da CF, que trata a exploração direta como exceção.",
+        "B": "Correta. É o art. 173, § 1º, II, da CF (EC 19/1998), que submete a estatal ao regime privado nesses pontos.",
+        "D": "Correta. É a literalidade do art. 174, caput, da CF, sobre fiscalização, incentivo e planejamento.",
+        "E": "Correta. É o art. 174, §§ 2º e 3º, da CF, sobre cooperativismo e cooperativas de garimpeiros."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 173, caput, §§ 1º e 2º (EC 19/1998)", "data": "1998-06-04" },
+        { "tipo": "constituicao", "referencia": "CF, art. 174", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0066",
+      "tema": "Usucapião especial rural e urbana (arts. 183 e 191 da CF)",
+      "enunciado": "Comparando a usucapião especial urbana (art. 183 da CF) com a usucapião especial rural (art. 191 da CF), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Em ambas as modalidades, a área máxima do imóvel é de duzentos e cinquenta metros quadrados.",
+        "B": "A usucapião especial rural exige que aquele que a invoca não seja proprietário de imóvel rural ou urbano, enquanto a usucapião especial urbana exige apenas que não seja proprietário de outro imóvel urbano.",
+        "C": "Em ambas as modalidades, o prazo de posse ininterrupta e sem oposição é de cinco anos, e em nenhuma delas os imóveis públicos podem ser adquiridos por usucapião.",
+        "D": "A usucapião especial urbana pode ser repetida indefinidamente pelo mesmo possuidor, ao contrário da rural, reconhecida uma única vez.",
+        "E": "Somente a usucapião especial urbana exige que o possuidor utilize o imóvel para sua moradia ou de sua família; a rural dispensa esse requisito, bastando tornar a terra produtiva."
+      },
+      "correta": "C",
+      "dica": "Compare os dois artigos frase por frase: a área muda, mas o prazo e a proibição de usucapir bem público se repetem.",
+      "explicacao": {
+        "C": "Correta. É a soma dos arts. 183, caput e § 3º, e 191, caput e parágrafo único, da CF: as duas modalidades exigem cinco anos de posse ininterrupta e sem oposição, e em nenhuma delas os imóveis públicos podem ser adquiridos por usucapião.",
+        "A": "O art. 183 limita a área urbana a duzentos e cinquenta metros quadrados, mas o art. 191 fixa o limite rural em cinquenta hectares, e não em metros quadrados.",
+        "B": "É o inverso: o art. 183 exige que o possuidor não seja proprietário de outro imóvel urbano ou rural, e não apenas urbano; o art. 191 exige, de modo semelhante, que não seja proprietário de imóvel rural ou urbano.",
+        "D": "É o inverso do texto: o art. 183, § 2º, veda expressamente que a usucapião especial urbana seja reconhecida ao mesmo possuidor mais de uma vez; o art. 191 não repete essa vedação expressa para a modalidade rural.",
+        "E": "O art. 191, caput, também exige que o possuidor tenha no imóvel rural a sua moradia, além de torná-lo produtivo pelo seu trabalho ou de sua família; o requisito da moradia não é exclusivo da usucapião urbana."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 183", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 191", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

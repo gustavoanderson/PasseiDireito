@@ -1,0 +1,64 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-13",
+    "titulo": "Legislação ambiental de Curitiba",
+    "itemEdital": 13
+  },
+  "questoes": [
+    {
+      "id": "urb-0032",
+      "tema": "Legislação ambiental de Curitiba: vigência, Código Florestal Municipal e SMUC",
+      "enunciado": "Acerca da legislação ambiental do Município de Curitiba, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "a Lei Municipal nº 7.833/1991, que dispunha sobre a política de proteção, conservação e recuperação do meio ambiente, consta como revogada no sistema oficial de legislação do Município.",
+        "B": "pelo Código Florestal Municipal (Lei nº 9.806/2000), seja qual for a justificativa, cada árvore abatida será substituída pelo plantio, no mesmo imóvel, de duas outras, de espécies recomendadas pela Secretaria Municipal do Meio Ambiente.",
+        "C": "pelo Código Florestal Municipal, o corte de árvores de arborização pública é de competência exclusiva da Secretaria Municipal do Meio Ambiente, admitida, em casos excepcionais e comprovada a necessidade pela fiscalização, a autorização para que o solicitante promova o corte.",
+        "D": "no Sistema Municipal de Unidades de Conservação (Lei nº 15.744/2020), a Reserva Particular do Patrimônio Natural Municipal integra o grupo das Unidades de Proteção Integral.",
+        "E": "no Sistema Municipal de Unidades de Conservação, a desafetação ou a redução dos limites de uma Unidade de Conservação pode ser feita por decreto do Prefeito, desde que precedida de estudos técnicos e de consulta pública."
+      },
+      "correta": "E",
+      "dica": "Criar uma unidade de conservação é ato do Executivo; desfazê-la ou encolhê-la exige outro tipo de ato, tanto na lei federal quanto na municipal.",
+      "explicacao": {
+        "E": "É a incorreta, e por isso a resposta. O art. 23 da Lei 15.744/2020 (repetindo o art. 22, § 7º, da Lei 9.985/2000) só admite a desafetação ou a redução dos limites de Unidade de Conservação mediante LEI ESPECÍFICA. Estudos técnicos e consulta pública são exigidos para a CRIAÇÃO por ato do Poder Executivo (art. 19).",
+        "A": "Correto. A Lei 7.833/1991, citada no edital, consta com situação \"Revogado\" no Legisladoc da Prefeitura. Cuidado em prova: seus dispositivos não podem ser tratados como direito vigente.",
+        "B": "Correto. É o art. 19, caput, da Lei 9.806/2000. No abate de araucária (Araucaria angustifolia), a reposição pode ser substituída, a critério da SMMA, pela doação de quatro mudas ao Município (§ 2º).",
+        "C": "Correto. É o art. 22, caput e § 1º, da Lei 9.806/2000. O § 2º permite ao munícipe remover a árvore que cause danos materiais, depois da autorização de corte.",
+        "D": "Correto. É o art. 7º, I, i, e o art. 14-A da Lei 15.744/2020 (redação da Lei 15.977/2022). Atenção à diferença: na Lei federal 9.985/2000, a RPPN integra o grupo de Uso Sustentável (art. 14, VII)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 7.833/1991 (revogada, conforme Legisladoc)", "data": "1991-12-19" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 9.806/2000, arts. 19 e 22", "data": "2000-01-03" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 15.744/2020, arts. 7º, 14-A, 19 e 23", "data": "2020-10-27" },
+        { "tipo": "lei", "referencia": "Lei 9.985/2000, arts. 14 e 22", "data": "2000-07-18" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0033",
+      "tema": "Reserva Particular do Patrimônio Natural Municipal (Lei Municipal 14.587/2015)",
+      "enunciado": "De acordo com a Lei Municipal nº 14.587/2015, que reestrutura o Programa das Reservas Particulares do Patrimônio Natural Municipal (RPPNM) em Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A título de incentivo, o proprietário de área transformada em RPPNM tem o direito de requerer ao Município a transferência do potencial construtivo dessa área para outros imóveis, condicionada à aprovação do Conselho Municipal de Urbanismo, ouvidos o IPPUC e a Secretaria Municipal do Meio Ambiente.",
+        "B": "A RPPNM poderá ser utilizada para qualquer atividade econômica compatível com a conservação, desde que prevista no Plano de Manejo.",
+        "C": "Pode requerer a transformação em RPPNM o proprietário de imóvel atingido por Bosque Nativo Relevante com taxa igual ou superior a 50% de sua área total coberta de vegetação nativa.",
+        "D": "A RPPNM é unidade de conservação de domínio público, gravada com perpetuidade, por intermédio de Termo de Compromisso averbado no Registro de Imóveis.",
+        "E": "Nos imóveis em que já ocorreu a ocupação nos termos da legislação urbanística, é permitida a subdivisão do imóvel com o objetivo de criar uma RPPNM."
+      },
+      "correta": "A",
+      "dica": "A lei compensa o proprietário que abre mão de construir: pense em um instrumento urbanístico que desloca o direito de construir para outro lugar.",
+      "explicacao": {
+        "A": "Correta. É o art. 6º, caput, da Lei 14.587/2015. O parágrafo único permite renovar a concessão do potencial construtivo a cada 15 anos, a critério do CMU, se a SMMA confirmar o estado de proteção e o cumprimento do Plano de Manejo.",
+        "B": "O art. 7º restringe o uso da RPPNM ao desenvolvimento de pesquisas científicas e à visitação com objetivos terapêuticos, turísticos, recreativos e educacionais, previstos no Plano de Manejo.",
+        "C": "O art. 2º, I, exige Bosque Nativo Relevante com taxa igual ou superior a 70% da área total coberta de vegetação nativa, entre outros requisitos. Os 50% são o patamar do Plano Diretor (art. 134, II) para afastar o parcelamento compulsório, e não o desta lei.",
+        "D": "O parágrafo único do art. 1º define a RPPNM como unidade de conservação de DOMÍNIO PRIVADO, gravada com perpetuidade por Termo de Compromisso averbado no Registro de Imóveis.",
+        "E": "O art. 2º, § 3º, VEDA a subdivisão do imóvel com o objetivo de criar RPPNM quando já tiver ocorrido a ocupação nos termos da legislação urbanística."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 14.587/2015, arts. 1º, 2º, 6º e 7º", "data": "2015-01-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

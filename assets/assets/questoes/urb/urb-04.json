@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-04",
+    "titulo": "Parcelamento do solo: loteamento, desmembramento, recuos",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "urb-0013",
+      "tema": "Loteamento, desmembramento e lote (Lei 6.766/1979)",
+      "enunciado": "Com base nos arts. 2º, 3º e 4º da Lei nº 6.766/1979, que dispõe sobre o parcelamento do solo urbano, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Considera-se desmembramento a subdivisão de gleba em lotes destinados a edificação, com abertura de novas vias de circulação e de logradouros públicos.",
+        "B": "Os lotes terão área mínima de 150 m² e frente mínima de 10 metros, sem exceções.",
+        "C": "Considera-se lote o terreno servido de infraestrutura básica cujas dimensões atendam aos índices urbanísticos definidos pelo plano diretor ou lei municipal para a zona em que se situe.",
+        "D": "É vedado, em qualquer hipótese, o parcelamento do solo em terrenos com declividade igual ou superior a 30%.",
+        "E": "No loteamento de acesso controlado, o ato do poder público municipal pode autorizar o impedimento de acesso a pedestres e a condutores de veículos não residentes, ainda que identificados."
+      },
+      "correta": "C",
+      "dica": "A diferença entre as duas modalidades de parcelamento está no sistema viário; e repare nos números e nas ressalvas que a lei faz.",
+      "explicacao": {
+        "C": "Correta. É o art. 2º, § 4º, da Lei 6.766/1979. O § 5º define a infraestrutura básica: escoamento das águas pluviais, iluminação pública, esgotamento sanitário, abastecimento de água potável, energia elétrica pública e domiciliar e vias de circulação.",
+        "A": "Essa é a definição de LOTEAMENTO (art. 2º, § 1º). O desmembramento (§ 2º) aproveita o sistema viário existente e não implica abertura de novas vias e logradouros, nem prolongamento, modificação ou ampliação dos já existentes.",
+        "B": "O art. 4º, II, fixa área mínima de 125 m² e frente mínima de 5 metros, e ressalva o loteamento destinado a urbanização específica ou a conjuntos habitacionais de interesse social previamente aprovados.",
+        "D": "O art. 3º, parágrafo único, III, proíbe o parcelamento em terrenos com declividade igual ou superior a 30%, \"salvo se atendidas exigências específicas das autoridades competentes\". A proibição não é absoluta.",
+        "E": "O art. 2º, § 8º, admite que o controle de acesso seja regulamentado pelo Município, mas VEDA o impedimento de acesso a pedestres ou a condutores de veículos não residentes, devidamente identificados ou cadastrados."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.766/1979, arts. 2º, 3º e 4º", "data": "1979-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0014",
+      "tema": "Registro do loteamento e loteamento irregular (Lei 6.766/1979)",
+      "enunciado": "Sobre o registro do loteamento e as consequências do loteamento irregular, de acordo com a Lei nº 6.766/1979, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "aprovado o projeto de loteamento ou de desmembramento, o loteador deverá submetê-lo ao registro imobiliário dentro de 180 dias, sob pena de caducidade da aprovação.",
+        "B": "desde a data de registro do loteamento, passam a integrar o domínio do Município as vias e praças, os espaços livres e as áreas destinadas a edifícios públicos e outros equipamentos urbanos, constantes do projeto e do memorial descritivo.",
+        "C": "é vedado vender ou prometer vender parcela de loteamento ou desmembramento não registrado.",
+        "D": "verificado que o loteamento não se acha registrado, o adquirente do lote deverá continuar pagando as prestações diretamente ao loteador até a regularização, sendo válida a cláusula de rescisão do contrato por inadimplemento.",
+        "E": "a Prefeitura Municipal, se desatendida pelo loteador a notificação, poderá regularizar loteamento ou desmembramento não autorizado ou executado sem observância das determinações do ato administrativo de licença."
+      },
+      "correta": "D",
+      "dica": "A lei protege o adquirente de lote em loteamento irregular: pense no que ele pode fazer com as prestações e no destino da cláusula de rescisão.",
+      "explicacao": {
+        "D": "É a incorreta, e por isso a resposta. Pelo art. 38, o adquirente deverá SUSPENDER o pagamento das prestações restantes e notificar o loteador para suprir a falta, depositando as prestações no Registro de Imóveis (§ 1º). E o art. 39 declara NULA de pleno direito a cláusula de rescisão por inadimplemento do adquirente quando o loteamento não estiver regularmente inscrito.",
+        "A": "Correto. É o art. 18, caput, da Lei 6.766/1979, que lista os documentos que acompanham o pedido de registro.",
+        "B": "Correto. É o art. 22, caput. A transferência das áreas públicas ao Município decorre do próprio registro, sem necessidade de escritura de doação.",
+        "C": "Correto. É o art. 37. Vender lote de loteamento não registrado também qualifica o crime do art. 50 (parágrafo único, I).",
+        "E": "Correto. É o art. 40, caput. O Município que regulariza pode levantar judicialmente as prestações depositadas, a título de ressarcimento (§ 1º), e cobrar do loteador o que faltar (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.766/1979, arts. 18, 22, 37, 38, 39 e 40", "data": "1979-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0015",
+      "tema": "Alinhamento, recuo frontal e afastamento das divisas (Lei Municipal 15.511/2019)",
+      "enunciado": "Considerando os parâmetros de ocupação previstos na Lei Municipal nº 15.511/2019 (zoneamento, uso e ocupação do solo de Curitiba), analise as assertivas abaixo.\nI. O recuo frontal obrigatório é a faixa não edificável definida como distância mínima perpendicular em relação ao alinhamento predial, existente ou projetado, e a fachada da edificação.\nII. É permitido o balanço sobre o recuo frontal de até 2,50 m, em qualquer caso.\nIII. O afastamento das divisas é a distância mínima perpendicular entre a edificação e as divisas laterais e dos fundos do lote.\nIV. Para novas edificações em lote atingido por projeto viário aprovado que modifique o alinhamento predial, o recuo frontal obrigatório deverá ser contado a partir do novo alinhamento.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e III estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas I, II e III estão corretas.",
+        "D": "Todas as assertivas estão corretas.",
+        "E": "Somente as assertivas I, III e IV estão corretas."
+      },
+      "correta": "E",
+      "dica": "Recuo se mede a partir do alinhamento predial; afastamento, a partir das divisas. Desconfie de \"em qualquer caso\" num número que a lei mesma admite alterar.",
+      "explicacao": {
+        "E": "Correta. A I é o art. 202, caput; a III é o art. 205; a IV é o art. 203, § 3º. A II é falsa: o art. 202, § 2º, permite balanço sobre o recuo frontal de até 1,20 m, exceto quando legislação específica determinar outro valor.",
+        "A": "Omite a assertiva IV, que é verdadeira: pelo art. 203, § 3º, se o lote é atingido por projeto viário aprovado que modifique o alinhamento, o recuo se conta do novo alinhamento ou do limite da diretriz de arruamento.",
+        "B": "A assertiva II é falsa (o balanço é de até 1,20 m, art. 202, § 2º), e a alternativa omite as assertivas I e III, que reproduzem os arts. 202 e 205.",
+        "C": "Inclui a assertiva II, que é falsa: o art. 202, § 2º, fala em 1,20 m, ressalvada legislação específica. O 2,50 m aparece no art. 203, § 1º, como redução máxima do recuo em lote de esquina raso, e é uma pegadinha.",
+        "D": "A assertiva II é falsa: o limite do balanço sobre o recuo frontal é de 1,20 m (art. 202, § 2º), e não de 2,50 m, nem vale \"em qualquer caso\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 15.511/2019, arts. 202, 203 e 205", "data": "2019-10-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

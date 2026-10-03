@@ -1,0 +1,231 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-09",
+    "titulo": "Tributação, finanças e precatórios na Constituição",
+    "itemEdital": 9
+  },
+  "questoes": [
+    {
+      "id": "const-0025",
+      "tema": "Impostos municipais e limitações ao poder de tributar",
+      "enunciado": "Com base nos arts. 150 e 156 da Constituição Federal, assinale a alternativa CORRETA a respeito dos impostos de competência do Município de Curitiba.",
+      "alternativas": {
+        "A": "O IPTU não pode ser progressivo em razão do valor do imóvel, admitindo-se apenas a progressividade no tempo prevista no art. 182, § 4º, II.",
+        "B": "É vedado ao Poder Executivo atualizar a base de cálculo do IPTU, providência que depende sempre de lei municipal específica para cada exercício.",
+        "C": "A vedação de cobrar tributo antes de decorridos noventa dias da publicação da lei que o instituiu ou aumentou não se aplica à fixação da base de cálculo do IPTU.",
+        "D": "O IPTU incide sobre o imóvel em que funciona templo de qualquer culto quando a entidade religiosa é apenas locatária do bem.",
+        "E": "O ITBI compete ao Município do domicílio do adquirente do imóvel."
+      },
+      "correta": "C",
+      "dica": "O § 1º do art. 150 lista exceções às duas anterioridades, e a lista da noventena menciona a base de cálculo de dois impostos sobre propriedade.",
+      "explicacao": {
+        "C": "Correta. O art. 150, § 1º (redação da EC 42/2003), afasta a anterioridade nonagesimal (art. 150, III, c) da fixação da base de cálculo do IPVA (art. 155, III) e do IPTU (art. 156, I). A anterioridade de exercício (III, b) continua valendo para essa fixação.",
+        "A": "O art. 156, § 1º, I (EC 29/2000), autoriza o IPTU progressivo em razão do valor do imóvel, sem prejuízo da progressividade no tempo do art. 182, § 4º, II. O inciso II admite ainda alíquotas diferentes de acordo com a localização e o uso do imóvel.",
+        "B": "O art. 156, § 1º, III, incluído pela EC 132/2023, permite que o IPTU tenha sua base de cálculo atualizada pelo Poder Executivo, conforme critérios estabelecidos em lei municipal.",
+        "D": "O art. 156, § 1º-A (EC 116/2022), diz que o IPTU não incide sobre templos de qualquer culto, ainda que as entidades abrangidas pela imunidade do art. 150, VI, b, sejam apenas locatárias do bem imóvel.",
+        "E": "O art. 156, § 2º, II, atribui o ITBI ao Município da situação do bem, e não ao do domicílio do adquirente."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 150, III, b e c, e § 1º (EC 42/2003)",
+          "data": "2003-12-19"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, §§ 1º, 1º-A (EC 116/2022) e 2º",
+          "data": "2022-02-17"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 156, § 1º, III (EC 132/2023)",
+          "data": "2023-12-20"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "const-0026",
+      "tema": "Reforma Tributária – IBS, Comitê Gestor e transição (EC 132/2023)",
+      "enunciado": "A Emenda Constitucional nº 132/2023 instituiu o Imposto sobre Bens e Serviços (IBS), de competência compartilhada entre Estados, Distrito Federal e Municípios. Com base nos arts. 156-A e 156-B da Constituição Federal e nas regras de transição do ADCT, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O IBS terá legislação própria em cada Município, que definirá livremente as hipóteses de incidência e a alíquota aplicável no seu território.",
+        "B": "O IBS será cobrado pelo somatório das alíquotas do Estado e do Município de origem da operação.",
+        "C": "Na instância máxima de deliberação do Comitê Gestor, os 27 representantes do conjunto dos Municípios e do Distrito Federal são todos eleitos com base nos votos de cada Município ponderados pelas respectivas populações.",
+        "D": "A representação judicial relativa ao IBS será realizada exclusivamente pelo Comitê Gestor, afastada a atuação das procuradorias dos Municípios.",
+        "E": "De 2029 a 2032, as alíquotas do ICMS e do ISS serão fixadas em proporções decrescentes das alíquotas das respectivas legislações (de 9/10 em 2029 a 6/10 em 2032), e esses impostos ficam extintos a partir de 2033."
+      },
+      "correta": "E",
+      "dica": "O ISS não acaba de uma vez: o ADCT prevê uma redução gradual por quatro anos antes da extinção. Nas demais, pense em legislação única, destino e no papel das procuradorias locais.",
+      "explicacao": {
+        "E": "Correta. É o art. 128 do ADCT (9/10 em 2029, 8/10 em 2030, 7/10 em 2031 e 6/10 em 2032) combinado com o art. 129 do ADCT, que extingue a partir de 2033 os impostos dos arts. 155, II (ICMS), e 156, III (ISS).",
+        "A": "O art. 156-A, § 1º, IV, determina que o IBS terá legislação única e uniforme em todo o território nacional. O que cada ente fixa é a sua alíquota própria, por lei específica (inciso V), e a mesma alíquota vale para todas as operações, ressalvadas as hipóteses constitucionais (inciso VI).",
+        "B": "O art. 156-A, § 1º, VII, manda cobrar o IBS pelo somatório das alíquotas do Estado e do Município de destino da operação. A tributação no destino é um dos pilares da reforma.",
+        "C": "O art. 156-B, § 3º, II, divide os 27 representantes municipais: 14 eleitos com base nos votos de cada Município, com valor igual para todos, e 13 com base nos votos ponderados pelas respectivas populações.",
+        "D": "O art. 156-B, § 2º, V, atribui a fiscalização, o lançamento, a cobrança e a representação administrativa e judicial relativas ao IBS às administrações tributárias e procuradorias dos Estados, do DF e dos Municípios, no âmbito de suas competências. Ao Comitê Gestor cabe coordenar essas atividades. É um dispositivo de interesse direto da PGM."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, arts. 156-A, § 1º, e 156-B, §§ 2º e 3º (EC 132/2023)",
+          "data": "2023-12-20"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "ADCT, arts. 128 e 129 (EC 132/2023)",
+          "data": "2023-12-20"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "const-0027",
+      "tema": "Precatórios após as EC 113/2021, 114/2021 e 136/2025",
+      "enunciado": "O Município de Curitiba foi condenado por sentença transitada em julgado ao pagamento de valor que exige a expedição de precatório. Com base no art. 100 da Constituição Federal, na redação vigente, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 2 de abril, fazendo-se o pagamento até o final do exercício seguinte.",
+        "B": "É obrigatória a inclusão no orçamento de verba para o pagamento dos precatórios apresentados até 1º de fevereiro, fazendo-se o pagamento até o final do exercício seguinte, quando terão seus valores atualizados monetariamente.",
+        "C": "Os débitos de natureza alimentícia cujos titulares tenham 60 anos de idade serão pagos com preferência sobre todos os demais, até o valor equivalente ao quíntuplo do fixado em lei para as obrigações de pequeno valor.",
+        "D": "O credor somente poderá ceder seus créditos em precatórios a terceiros com a concordância do ente devedor.",
+        "E": "Se os recursos para pagamento de precatórios do Município não forem tempestivamente liberados, o Presidente do Supremo Tribunal Federal determinará o sequestro das contas municipais."
+      },
+      "correta": "B",
+      "dica": "A data de corte para inclusão no orçamento já mudou três vezes (1º de julho, 2 de abril e a atual). A emenda mais recente sobre precatórios é de 2025.",
+      "alerta": "Mudança recente: a EC 136/2025 alterou o regime de precatórios e RPV. Vale o texto constitucional em vigor em 21/09/2026, data do edital, já com a mudança. Responda por ele.",
+      "explicacao": {
+        "B": "Correta. É o art. 100, § 5º, na redação dada pela EC 136, de 9/9/2025, que antecipou a data para 1º de fevereiro.",
+        "A": "Dois de abril era a data da redação dada pela EC 114/2021, substituída pela EC 136/2025, que fixou 1º de fevereiro. Antes da EC 114/2021, a data era 1º de julho (EC 62/2009). É o tipo de detalhe que a banca cobra em edital que cita as EC 113 e 114.",
+        "C": "O art. 100, § 2º (EC 94/2016), limita a superpreferência dos titulares com 60 anos, portadores de doença grave ou pessoas com deficiência ao triplo do valor fixado em lei para as obrigações de pequeno valor (§ 3º), admitido o fracionamento; o restante segue a ordem cronológica.",
+        "D": "O art. 100, § 13, permite ao credor ceder, total ou parcialmente, seus créditos em precatórios a terceiros, independentemente da concordância do devedor. A cessão só produz efeitos após comunicação, por petição protocolizada, ao Tribunal de origem e ao ente devedor (§ 14, redação da EC 113/2021).",
+        "E": "O art. 100, § 27, II (EC 136/2025), atribui o sequestro ao Presidente do Tribunal de Justiça local, até o limite do valor devido. Além disso, os limites do § 23 ficam suspensos, o Prefeito responde na forma da legislação de responsabilidade fiscal e de improbidade, e o Município fica impedido de receber transferências voluntárias."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 5º e 27 (EC 136/2025)",
+          "data": "2025-09-09"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, § 14 (EC 113/2021)",
+          "data": "2021-12-08"
+        },
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 100, §§ 2º (EC 94/2016) e 13 (EC 62/2009)",
+          "data": "2016-12-15"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "const-0061",
+      "tema": "Espécies tributárias (arts. 145, 148 e 149 da CF)",
+      "enunciado": "Com base nos arts. 145, 148 e 149 da Constituição Federal, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A União, os Estados, o Distrito Federal e os Municípios poderão instituir impostos, taxas, em razão do exercício do poder de polícia ou pela utilização de serviços públicos específicos e divisíveis, e contribuição de melhoria, decorrente de obras públicas.",
+        "B": "As taxas não poderão ter base de cálculo própria de impostos.",
+        "C": "A União, mediante lei complementar, poderá instituir empréstimos compulsórios para atender a despesas extraordinárias decorrentes de calamidade pública, de guerra externa ou sua iminência, ou no caso de investimento público de caráter urgente e de relevante interesse nacional.",
+        "D": "Compete à União, aos Estados, ao Distrito Federal e aos Municípios, cada um na sua esfera, instituir contribuições sociais, de intervenção no domínio econômico e de interesse das categorias profissionais ou econômicas.",
+        "E": "A aplicação dos recursos provenientes de empréstimo compulsório será vinculada à despesa que fundamentou sua instituição."
+      },
+      "correta": "D",
+      "dica": "Releia o caput do art. 149: ele usa uma palavra que restringe essa competência a um único ente.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 149, caput, da CF atribui essa competência exclusivamente à União, e não aos quatro entes federados; a exceção fica por conta da contribuição previdenciária dos servidores, que cada ente institui para custear o próprio regime de previdência (art. 149, § 1º).",
+        "A": "Correta. É o art. 145, I a III, da CF, que lista as três espécies ali previstas para os quatro entes.",
+        "B": "Correta. É o art. 145, § 2º, da CF, regra que evita a confusão entre taxa e imposto pela base de cálculo.",
+        "C": "Correta. É o art. 148, I e II, da CF, as duas hipóteses em que cabe empréstimo compulsório.",
+        "E": "Correta. É o art. 148, parágrafo único, da CF, que prende o uso do dinheiro à finalidade que o justificou."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 145, 148 e 149", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0062",
+      "tema": "Imunidades tributárias (art. 150, VI, da CF)",
+      "enunciado": "Nos termos do art. 150, VI, da Constituição Federal, é vedado à União, aos Estados, ao Distrito Federal e aos Municípios instituir impostos sobre todos os itens abaixo, EXCETO:",
+      "alternativas": {
+        "A": "Patrimônio, renda ou serviços, uns dos outros.",
+        "B": "Entidades religiosas e templos de qualquer culto, inclusive suas organizações assistenciais e beneficentes.",
+        "C": "Patrimônio, renda ou serviços dos partidos políticos, inclusive suas fundações, das entidades sindicais dos trabalhadores, das instituições de educação e de assistência social, sem fins lucrativos, atendidos os requisitos da lei.",
+        "D": "Livros, jornais, periódicos e o papel destinado a sua impressão.",
+        "E": "Patrimônio, renda ou serviços das entidades sindicais patronais, independentemente de fins lucrativos."
+      },
+      "correta": "E",
+      "dica": "Releia a alínea c: ela fala em entidades sindicais de um lado só da relação de trabalho.",
+      "explicacao": {
+        "E": "É a resposta, pois não está no rol do art. 150, VI. A alínea c imuniza o patrimônio, a renda e os serviços das entidades sindicais dos trabalhadores, e não das entidades sindicais patronais, que não gozam dessa imunidade.",
+        "A": "Correta. É a alínea a do inciso VI: a imunidade recíproca entre os entes federados.",
+        "B": "Correta. É a alínea b, na redação da EC 132/2023, que estendeu a imunidade às organizações assistenciais e beneficentes das entidades religiosas.",
+        "C": "Correta. É a alínea c do inciso VI, desde que atendidos os requisitos de lei para essas entidades sem fins lucrativos.",
+        "D": "Correta. É a alínea d do inciso VI, a imunidade cultural sobre livros, jornais, periódicos e o papel de sua impressão."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 150, VI (alínea b com redação da EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0063",
+      "tema": "Repartição de receitas tributárias com os Municípios (art. 158 da CF)",
+      "enunciado": "Com base no art. 158 da Constituição Federal, na redação dada pela Emenda Constitucional nº 132/2023, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Pertence aos Municípios o produto da arrecadação do imposto da União sobre renda e proventos de qualquer natureza, incidente na fonte, sobre rendimentos pagos, a qualquer título, por eles, suas autarquias e pelas fundações que instituírem e mantiverem.",
+        "B": "Pertencem aos Municípios cem por cento do produto da arrecadação do imposto estadual sobre a propriedade de veículos automotores licenciados em seus territórios.",
+        "C": "Pertencem aos Municípios quinze por cento do produto da arrecadação do imposto estadual sobre operações relativas à circulação de mercadorias e sobre prestações de serviços de transporte interestadual e intermunicipal e de comunicação.",
+        "D": "A parcela do IPVA pertencente aos Municípios não admite exceção quanto a veículos aquáticos e aéreos, que ficam inteiramente com o Estado.",
+        "E": "O produto da arrecadação do imposto territorial rural (ITR) pertence inteiramente à União, sem repasse aos Municípios onde se situam os imóveis."
+      },
+      "correta": "A",
+      "dica": "O inciso I desse artigo não mudou com a reforma tributária; os que mudaram foram o III e o IV.",
+      "explicacao": {
+        "A": "Correta. É o art. 158, I, da CF, regra que não foi alterada pela EC 132/2023: pertence ao Município o imposto de renda retido na fonte sobre rendimentos pagos por ele, suas autarquias e fundações.",
+        "B": "O art. 158, III, na redação da EC 132/2023, fixa cinquenta por cento do IPVA para o Município, e não cem por cento.",
+        "C": "O art. 158, IV, a, na redação da EC 132/2023, fixa vinte e cinco por cento do ICMS para os Municípios, e não quinze por cento.",
+        "D": "O próprio art. 158, III, da CF ressalva os veículos aquáticos e aéreos, atribuindo ao Município a parcela do IPVA quando o proprietário for domiciliado em seu território.",
+        "E": "O art. 158, II, da CF atribui aos Municípios cinquenta por cento do produto da arrecadação do ITR relativo aos imóveis neles situados, cabendo a totalidade na hipótese em que o próprio Município opte por fiscalizar e cobrar o imposto, nos termos do art. 153, § 4º, III."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 158 (EC 132/2023)", "data": "2023-12-20" },
+        { "tipo": "constituicao", "referencia": "CF, art. 153, § 4º, III", "data": "2003-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0064",
+      "tema": "Limites de despesa com pessoal (art. 169 da CF)",
+      "enunciado": "Sobre os limites de despesa com pessoal da Administração Pública, disciplinados no art. 169 da Constituição Federal, analise as afirmativas a seguir.\n\nI. A despesa com pessoal ativo e inativo e pensionistas da União, dos Estados, do Distrito Federal e dos Municípios não pode exceder os limites estabelecidos em lei complementar.\nII. A concessão de qualquer vantagem ou aumento de remuneração, a criação de cargos, empregos e funções ou alteração de estrutura de carreiras, bem como a admissão ou contratação de pessoal, só poderão ser feitas se houver prévia dotação orçamentária suficiente e autorização específica na lei de diretrizes orçamentárias, ressalvadas as empresas públicas e as sociedades de economia mista.\nIII. Decorrido o prazo fixado na lei complementar para a adaptação aos limites de despesa com pessoal, serão imediatamente suspensos todos os repasses de verbas federais ou estaduais aos entes que não observarem os limites.\nIV. Para o cumprimento dos limites de despesa com pessoal, o servidor estável pode perder o cargo desde que ato normativo motivado de cada um dos Poderes especifique a atividade funcional, o órgão ou a unidade administrativa objeto da redução de pessoal, fazendo o servidor jus a indenização correspondente a dois meses de remuneração por ano de serviço.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "Confira com cuidado o número de meses de remuneração por ano de serviço que a Constituição prevê como indenização.",
+      "explicacao": {
+        "B": "Correta. I, II e III reproduzem o caput e os §§ 1º e 2º do art. 169 da CF. A IV é falsa: o § 5º do art. 169 fixa a indenização em um mês de remuneração por ano de serviço, e não em dois meses.",
+        "A": "Deixa de fora a III, que está correta: a suspensão dos repasses de verbas federais ou estaduais, decorrido o prazo de adaptação, é consequência expressa do § 2º do art. 169.",
+        "C": "Inclui a IV, que é falsa, e deixa de fora a I, que reproduz o caput do art. 169.",
+        "D": "Nem todas estão corretas: a IV dobra o valor da indenização que o § 5º do art. 169 realmente prevê.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a IV, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 169, caput, §§ 1º, 2º e 5º", "data": "1998-06-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

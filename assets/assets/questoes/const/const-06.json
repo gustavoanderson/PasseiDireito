@@ -1,0 +1,188 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-06",
+    "titulo": "Organização dos Poderes",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "const-0016",
+      "tema": "Processo legislativo municipal – sanção e veto (LOM Curitiba)",
+      "enunciado": "O Prefeito de Curitiba recebeu projeto de lei aprovado pela Câmara Municipal e considera parte dele contrária ao interesse público. Com base no art. 57 da Lei Orgânica do Município de Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Prefeito poderá vetar o projeto no prazo de quinze dias corridos, contados da data do recebimento, comunicando os motivos do veto ao Presidente da Câmara em até cinco dias.",
+        "B": "Decorrido o prazo para sanção ou veto, o silêncio do Prefeito importará veto total do projeto.",
+        "C": "O veto parcial poderá recair sobre palavras ou expressões isoladas de um artigo, desde que não altere o sentido do texto.",
+        "D": "Se a lei não for promulgada pelo Prefeito em quarenta e oito horas, após a rejeição do veto, caberá ao Vice-Prefeito promulgá-la.",
+        "E": "O veto será apreciado em sessão única, dentro de trinta dias a contar do seu recebimento, só podendo ser rejeitado pelo voto da maioria absoluta dos integrantes da Câmara Municipal, em votação pública e aberta."
+      },
+      "correta": "E",
+      "dica": "O rito municipal copia o federal em quase tudo, mas conta o prazo do Prefeito de um jeito específico. E a promulgação subsidiária fica dentro da própria Câmara.",
+      "explicacao": {
+        "E": "Correta. É o art. 57, § 4º, da Lei Orgânica, na redação da Emenda à LOM 16/2013, que tornou a votação do veto pública e aberta. Se o prazo se esgotar sem deliberação, o veto vai à ordem do dia da sessão imediata, sobrestadas as demais proposições (§ 5º).",
+        "A": "O art. 57, § 1º, fixa o prazo de quinze dias úteis, contados do recebimento, e a comunicação dos motivos do veto ao Presidente da Câmara dentro de quarenta e oito horas.",
+        "B": "O art. 57, § 3º, dispõe que, decorrido o prazo de quinze dias úteis, o silêncio do Prefeito implicará sanção (sanção tácita), e não veto.",
+        "C": "O art. 57, § 2º, determina que o veto parcial somente abrangerá texto integral de artigo, parágrafo, inciso ou alínea. É a mesma regra do art. 66, § 2º, da CF: não existe veto de palavras isoladas.",
+        "D": "Pelo art. 57, § 7º, se o Prefeito não promulgar a lei em quarenta e oito horas (sanção tácita ou rejeição do veto), a promulgação cabe ao Presidente da Câmara Municipal e, se este não o fizer em igual prazo, ao Vice-Presidente da Câmara. O Vice-Prefeito não participa."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 57 (§ 4º com redação da Emenda à LOM 16/2013)", "data": "2013-11-04" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0017",
+      "tema": "Fiscalização do Município e Tribunais de Contas (EC 139/2026)",
+      "enunciado": "Com base nos arts. 31 e 75 da Constituição Federal, na redação vigente após a Emenda Constitucional nº 139/2026, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O parecer prévio emitido pelo órgão competente sobre as contas que o Prefeito deve anualmente prestar só deixará de prevalecer por decisão da maioria absoluta dos membros da Câmara Municipal.",
+        "B": "Os Tribunais de Contas são instituições permanentes, essenciais ao exercício do controle externo.",
+        "C": "As contas dos Municípios ficarão, durante trinta dias, anualmente, à disposição de qualquer contribuinte, para exame e apreciação.",
+        "D": "O Município com mais de um milhão de habitantes pode criar, por lei, Tribunal de Contas municipal próprio.",
+        "E": "A fiscalização do Município é exercida pelo Tribunal de Contas do Estado, mediante controle externo, cabendo à Câmara Municipal apenas o controle interno."
+      },
+      "correta": "B",
+      "dica": "A emenda de 2026 acrescentou ao art. 75 uma qualificação dos Tribunais de Contas parecida com a que a Constituição dá ao Ministério Público e à Defensoria. Nas demais, confira quórum, prazo e quem é o titular do controle externo.",
+      "explicacao": {
+        "B": "Correta. É o início do art. 75, caput, na redação dada pela EC 139, de 5/5/2026: os Tribunais de Contas são instituições permanentes, essenciais ao exercício do controle externo. A mesma emenda acrescentou ao art. 31, § 1º, e ao art. 75 a cláusula \"vedada sua extinção, criação ou instalação\".",
+        "A": "O art. 31, § 2º, exige decisão de dois terços dos membros da Câmara Municipal para afastar o parecer prévio. A LOM de Curitiba (art. 60, parágrafo único) e a Constituição do Paraná (art. 18, § 2º) repetem o quórum.",
+        "C": "O art. 31, § 3º, fixa o prazo de sessenta dias, anualmente, durante o qual as contas ficam à disposição de qualquer contribuinte, que poderá questionar-lhes a legitimidade, nos termos da lei.",
+        "D": "O art. 31, § 4º, veda a criação de Tribunais, Conselhos ou órgãos de Contas Municipais, sem exceção pelo porte do Município. Após a EC 139/2026, o § 1º do art. 31 e o art. 75 também passaram a vedar a extinção, a criação ou a instalação desses órgãos.",
+        "E": "O art. 31, caput, atribui a fiscalização do Município ao Poder Legislativo Municipal, mediante controle externo, e aos sistemas de controle interno do Executivo. O Tribunal de Contas auxilia a Câmara no controle externo (§ 1º), mas não é o seu titular."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 31 e 75 (EC 139/2026)", "data": "2026-05-05" },
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 60", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0018",
+      "tema": "Imunidades parlamentares e CPIs",
+      "enunciado": "Sobre o Poder Legislativo na Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os Vereadores são invioláveis por suas opiniões, palavras e votos em todo o território nacional, ainda que fora do exercício do mandato.",
+        "B": "As comissões parlamentares de inquérito são criadas mediante requerimento da maioria absoluta dos membros da Casa, para apuração de fato determinado e por prazo certo.",
+        "C": "As comissões parlamentares de inquérito podem promover diretamente a responsabilidade civil ou criminal dos infratores, dispensada a atuação do Ministério Público.",
+        "D": "Desde a expedição do diploma, os membros do Congresso Nacional não poderão ser presos, salvo em flagrante de crime inafiançável, caso em que os autos serão remetidos dentro de vinte e quatro horas à Casa respectiva, para que, pelo voto da maioria de seus membros, resolva sobre a prisão.",
+        "E": "As imunidades de Deputados e Senadores ficam automaticamente suspensas durante o estado de sítio."
+      },
+      "correta": "D",
+      "dica": "A imunidade do Vereador tem limite territorial e funcional. A dos congressistas tem uma única exceção para a prisão.",
+      "explicacao": {
+        "D": "Correta. É a literalidade do art. 53, § 2º, da CF, na redação da EC 35/2001 (imunidade formal quanto à prisão).",
+        "A": "O art. 29, VIII, da CF garante a inviolabilidade dos Vereadores por suas opiniões, palavras e votos no exercício do mandato e na circunscrição do Município. Há limite territorial e exigência de nexo com o mandato. A Constituição não estende ao Vereador a imunidade formal do art. 53, § 2º, quanto à prisão.",
+        "B": "O art. 58, § 3º, exige requerimento de um terço dos membros da Casa, e não maioria absoluta. É direito da minoria parlamentar: basta o terço, e a maioria não pode barrar a criação.",
+        "C": "O art. 58, § 3º, dá às CPIs poderes de investigação próprios das autoridades judiciais, mas suas conclusões, se for o caso, são encaminhadas ao Ministério Público, para que promova a responsabilidade civil ou criminal dos infratores. CPI investiga; não processa nem pune.",
+        "E": "O art. 53, § 8º, dispõe que as imunidades subsistirão durante o estado de sítio, só podendo ser suspensas mediante o voto de dois terços dos membros da Casa respectiva, nos casos de atos praticados fora do recinto do Congresso que sejam incompatíveis com a execução da medida."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 29, VIII, e 58, § 3º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 53, §§ 2º e 8º (EC 35/2001)", "data": "2001-12-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0051",
+      "tema": "Legislatura e sessões legislativas (Lei Orgânica de Curitiba)",
+      "enunciado": "Com base nos arts. 29 e 30 da Lei Orgânica do Município de Curitiba, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A Legislatura, que terá duração de quatro anos, divide-se em quatro Sessões Legislativas.",
+        "B": "Em cada Sessão Legislativa, a Câmara Municipal reunir-se-á de 1º de fevereiro a 30 de junho e de 1º de agosto a 20 de dezembro.",
+        "C": "A sessão legislativa não será interrompida sem a aprovação do projeto de lei de diretrizes orçamentárias.",
+        "D": "A convocação extraordinária da Câmara Municipal far-se-á exclusivamente pelo Prefeito, não cabendo tal iniciativa ao Presidente da Câmara nem aos próprios Vereadores.",
+        "E": "Na Sessão Legislativa Extraordinária, a Câmara Municipal somente deliberará sobre matéria para a qual foi convocada, vedado o pagamento de parcela indenizatória em razão da convocação."
+      },
+      "correta": "D",
+      "dica": "Confira quem pode dar início ao pedido de convocação extraordinária: a lista é mais longa do que parece.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 30 da LOM legitima a convocação extraordinária pelo Prefeito, pelo Presidente da Câmara por sua própria iniciativa, ou a requerimento da maioria absoluta dos Vereadores, em caso de urgência ou interesse público relevante, sempre com aprovação da maioria absoluta dos membros da Casa.",
+        "A": "Correta. É o art. 29, caput, da LOM: quatro anos de Legislatura, divididos em quatro Sessões Legislativas anuais.",
+        "B": "Correta. É o art. 29, § 1º, da LOM, que fixa os dois períodos de funcionamento ordinário da Câmara a cada ano.",
+        "C": "Correta. É o art. 29, § 4º, da LOM, que impede o recesso sem a LDO aprovada, para garantir o orçamento do ano seguinte.",
+        "E": "Correta. É o art. 30, § 1º, da LOM, que restringe a pauta da extraordinária e veda parcela indenizatória por ela."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 29 e 30", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0052",
+      "tema": "Mesa da Câmara Municipal (Lei Orgânica de Curitiba)",
+      "enunciado": "Sobre a Mesa da Câmara Municipal de Curitiba, disciplinada nos arts. 35 a 40 da Lei Orgânica do Município, analise as afirmativas a seguir.\n\nI. A Mesa é composta de um Presidente, um Vice-Presidente, um 2º Vice-Presidente, um 1º Secretário, um 2º Secretário, um 3º Secretário e um 4º Secretário.\nII. Na composição da Mesa, será assegurada, tanto quanto possível, a representação proporcional dos partidos ou dos blocos parlamentares com assento na Casa.\nIII. Os membros da Mesa, isoladamente ou em conjunto, são passíveis de destituição, desde que exorbitem de suas atribuições ou delas se omitam, mediante resolução aprovada por maioria absoluta dos membros da Câmara, assegurada ampla defesa.\nIV. O mandato da Mesa será de dois anos, permitida uma única reeleição para o mesmo cargo.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e III estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "A",
+      "dica": "Compare o quórum de aprovar uma lei comum com o quórum de tirar alguém da Mesa; e veja se a reeleição é permitida ou vedada.",
+      "explicacao": {
+        "A": "Correta. I e II reproduzem os arts. 36 e 37 da LOM. A III é falsa: o art. 38 exige resolução aprovada por dois terços dos membros da Câmara para destituir integrante da Mesa, e não maioria absoluta. A IV é falsa: o art. 40 veda a reeleição para o mesmo cargo na Mesa, sem permitir sequer uma reeleição.",
+        "B": "Inclui a III, que é falsa: o quórum de destituição previsto no art. 38 da LOM é de dois terços, e não de maioria absoluta.",
+        "C": "Inclui a III e a IV, ambas falsas pelos motivos expostos na explicação da alternativa A, e deixa de fora a I, que reproduz o art. 36 da LOM.",
+        "D": "Nem todas estão corretas: a III erra o quórum de destituição e a IV inventa uma reeleição que o art. 40 da LOM veda expressamente.",
+        "E": "Reúne as duas afirmativas falsas (III e IV) e deixa de fora as duas corretas (I e II)."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 36, 37, 38 e 40", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0053",
+      "tema": "Processo legislativo municipal – iniciativa de leis (Lei Orgânica de Curitiba)",
+      "enunciado": "Com base nos arts. 50, 52 a 56 da Lei Orgânica do Município de Curitiba, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "O processo legislativo compreende a elaboração de emendas à Lei Orgânica, leis complementares, leis ordinárias, decretos legislativos e resoluções.",
+        "B": "A iniciativa de leis complementares e ordinárias cabe a qualquer membro ou comissão da Câmara Municipal, ao Prefeito e aos cidadãos, mediante iniciativa popular.",
+        "C": "São de iniciativa privativa do Executivo, entre outras, as leis que disponham sobre criação de cargos, funções ou empregos públicos na administração direta, autárquica e fundacional do Município, e sobre o Plano Diretor de Curitiba.",
+        "D": "A iniciativa popular de projetos de lei de interesse específico do Município, da cidade ou de bairros pode ser exercida por um por cento, pelo menos, do eleitorado.",
+        "E": "A matéria constante de projeto de lei rejeitado somente pode constituir objeto de novo projeto, na mesma Sessão Legislativa, mediante proposta da maioria absoluta dos membros da Câmara Municipal ou de dez por cento do eleitorado do Município."
+      },
+      "correta": "D",
+      "dica": "O percentual da iniciativa popular municipal é o mesmo que aparece na iniciativa popular de emenda à Lei Orgânica. Não confunda com um por cento.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 55 da LOM exige cinco por cento, pelo menos, do eleitorado, para a iniciativa popular de projeto de lei de interesse específico do Município, da cidade ou de bairros, e não um por cento.",
+        "A": "Correta. É o art. 50 da LOM, que lista as cinco espécies que compõem o processo legislativo municipal.",
+        "B": "Correta. É o art. 52 da LOM, que reparte a iniciativa entre parlamentares, Prefeito e cidadãos.",
+        "C": "Correta. É o art. 53, I e IV, da LOM, que reserva ao Executivo a iniciativa sobre esses temas.",
+        "E": "Correta. É o art. 56 da LOM, que reproduz a mesma lógica do art. 67 da Constituição Federal."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 50, 52, 53, 55 e 56", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0054",
+      "tema": "Fiscalização contábil, financeira e orçamentária (Lei Orgânica de Curitiba)",
+      "enunciado": "Sobre a fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Município de Curitiba, disciplinada nos arts. 59 a 64 da Lei Orgânica, todas as alternativas estão corretas, EXCETO:",
+      "alternativas": {
+        "A": "Essa fiscalização será exercida pela Câmara Municipal, mediante controle externo, e pelo sistema de controle interno de cada Poder.",
+        "B": "O controle externo da Câmara Municipal será exercido com o auxílio do Tribunal de Contas do Estado.",
+        "C": "Qualquer cidadão, partido político, associação ou entidade sindical é parte legítima para, nos termos da lei, denunciar irregularidades ou ilegalidades ao Tribunal de Contas e a outros órgãos competentes.",
+        "D": "Compete privativamente à Comissão Permanente de Economia, Finanças e Fiscalização, e não à Câmara Municipal como um todo, sustar contrato irregular, vedada a atuação do Plenário nessa decisão.",
+        "E": "Os responsáveis pelo controle interno, ao tomarem conhecimento de qualquer irregularidade ou ilegalidade, dela darão ciência ao Tribunal de Contas, sob pena de responsabilidade solidária."
+      },
+      "correta": "D",
+      "dica": "A Comissão Permanente de Economia e Finanças só propõe; quem decide a sustação de contrato é a Casa inteira.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 61, § 3º, da LOM diz o contrário: no caso de contrato, o ato de sustação será adotado diretamente pela Câmara Municipal, que solicitará, de imediato, ao Poder Executivo as medidas cabíveis, e não pela Comissão isoladamente, com exclusão do Plenário.",
+        "A": "Correta. É o art. 59, caput, da LOM, que combina controle externo pela Câmara e controle interno de cada Poder.",
+        "B": "Correta. É o art. 60, caput, da LOM, que dá ao Tribunal de Contas o papel de auxiliar da Câmara Municipal.",
+        "C": "Correta. É o art. 63 da LOM, que amplia a legitimidade para denunciar irregularidades ao Tribunal de Contas.",
+        "E": "Correta. É o art. 62, parágrafo único, da LOM, que impõe a responsabilidade solidária por omissão na comunicação."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 59, 60, 61, 62 e 63", "data": "1990-04-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

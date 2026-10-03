@@ -1,0 +1,248 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-15",
+    "titulo": "Improbidade administrativa e Lei Anticorrupção",
+    "itemEdital": 15
+  },
+  "questoes": [
+    {
+      "id": "adm-0004",
+      "tema": "Lei 14.230/2021 – aplicação no tempo (Tema 1199/STF)",
+      "enunciado": "Acerca da aplicação no tempo das alterações promovidas pela Lei nº 14.230/2021 na Lei de Improbidade Administrativa, conforme a tese fixada pelo Supremo Tribunal Federal no Tema 1199 da repercussão geral, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A revogação da modalidade culposa de improbidade retroage para desconstituir as condenações por ato culposo já transitadas em julgado.",
+        "B": "O novo prazo prescricional de oito anos e as regras de prescrição intercorrente aplicam-se retroativamente a todos os processos em curso.",
+        "C": "Após a Lei nº 14.230/2021, admite-se a configuração do ato de improbidade que causa lesão ao erário (art. 10) por culpa grave.",
+        "D": "O condenado por ato culposo, com trânsito em julgado, pode obter a extinção das penas na fase de execução com fundamento na lei nova.",
+        "E": "A lei nova aplica-se aos atos culposos praticados na vigência do texto anterior e ainda sem condenação transitada em julgado, devendo o juízo analisar eventual dolo do agente."
+      },
+      "correta": "E",
+      "dica": "O STF separou três situações: processo ainda sem trânsito em julgado, condenação já transitada e prazos de prescrição. A lei nova só alcança uma delas.",
+      "explicacao": {
+        "E": "Correta. É o item 3 da tese do Tema 1199 (ARE 843.989, julgado em 18/08/2022): a Lei 14.230/2021 aplica-se aos atos culposos praticados na vigência do texto anterior, porém sem condenação transitada em julgado, em razão da revogação expressa da modalidade culposa, cabendo ao juízo analisar eventual dolo do agente.",
+        "A": "Contraria o item 2 da tese: a norma benéfica que revogou a modalidade culposa é irretroativa por força do art. 5º, XXXVI, da CF e não incide sobre a eficácia da coisa julgada.",
+        "B": "Contraria o item 4 da tese: o novo regime prescricional é irretroativo, e os novos marcos temporais se aplicam a partir da publicação da Lei 14.230/2021 (26/10/2021).",
+        "C": "Contraria o item 1 da tese e o art. 1º, § 1º, da Lei 8.429/1992: só há improbidade com dolo, inclusive no art. 10. O § 2º define o dolo como a vontade livre e consciente de alcançar o resultado ilícito, não bastando a voluntariedade do agente. Culpa, ainda que grave, não basta.",
+        "D": "Contraria o item 2 da tese: a revogação da modalidade culposa não incide sobre a coisa julgada nem durante o processo de execução das penas e seus incidentes."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1199 (ARE 843.989)", "data": "2022-08-18" },
+        { "tipo": "lei", "referencia": "Lei 8.429/1992, art. 1º, §§ 1º e 2º (Lei 14.230/2021)", "data": "2021-10-25" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, XXXVI", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0005",
+      "tema": "Prescrição na ação de improbidade",
+      "enunciado": "Com base no art. 23 da Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ação para aplicação das sanções pode ser proposta até cinco anos após o término do exercício de mandato, de cargo em comissão ou de função de confiança.",
+        "B": "A instauração de inquérito civil interrompe o prazo prescricional, que recomeça a correr por inteiro após a conclusão do inquérito.",
+        "C": "A ação para a aplicação das sanções prescreve em oito anos, contados a partir da ocorrência do fato ou, no caso de infrações permanentes, do dia em que cessou a permanência.",
+        "D": "O inquérito civil para apuração do ato de improbidade deve ser concluído em 180 dias, prazo improrrogável.",
+        "E": "A publicação de sentença de improcedência interrompe o prazo prescricional."
+      },
+      "correta": "C",
+      "dica": "A Lei 14.230/2021 trocou os marcos ligados ao cargo por um prazo único contado do fato. Lembre também a diferença entre suspender e interromper.",
+      "explicacao": {
+        "C": "Correta. É a literalidade do caput do art. 23 na redação da Lei 14.230/2021: prazo único de oito anos, contado da ocorrência do fato ou, nas infrações permanentes, do dia em que cessou a permanência.",
+        "A": "Era a regra do antigo inciso I do art. 23, revogado pela Lei 14.230/2021. O prazo deixou de depender do término do mandato ou do cargo e passou a ser de oito anos contados do fato.",
+        "B": "O § 1º do art. 23 fala em suspensão, não em interrupção: a instauração de inquérito civil ou de processo administrativo suspende o prazo por, no máximo, 180 dias corridos, e ele recomeça a correr após a conclusão ou quando esgotado o prazo de suspensão. Na suspensão o prazo continua de onde parou; não volta ao início.",
+        "D": "Pelo § 2º do art. 23, o inquérito civil deve ser concluído em 365 dias corridos, prorrogável uma única vez por igual período, mediante ato fundamentado. O número 180 aparece no § 1º, como limite da suspensão da prescrição, e é uma pegadinha comum.",
+        "E": "O § 4º, II, do art. 23 fala em publicação de sentença condenatória. Sentença de improcedência não interrompe a prescrição; os incisos III a V tratam de acórdãos que confirmam condenação ou reformam improcedência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.429/1992, art. 23, caput e §§ 1º, 2º e 4º (Lei 14.230/2021)", "data": "2021-10-25" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0050",
+      "tema": "Acordo de leniência (Lei 12.846/2013)",
+      "enunciado": "Sobre o acordo de leniência previsto no art. 16 da Lei nº 12.846/2013 (Lei Anticorrupção), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O acordo de leniência não exime a pessoa jurídica da obrigação de reparar integralmente o dano causado.",
+        "B": "A celebração do acordo isenta a pessoa jurídica de todas as sanções, inclusive da multa, que é integralmente perdoada.",
+        "C": "A proposta de acordo de leniência rejeitada importa reconhecimento da prática do ato ilícito investigado.",
+        "D": "Em caso de descumprimento do acordo, a pessoa jurídica ficará impedida de celebrar novo acordo pelo prazo de 5 (cinco) anos.",
+        "E": "A celebração do acordo de leniência suspende o prazo prescricional dos atos ilícitos previstos na lei."
+      },
+      "correta": "A",
+      "dica": "A leniência premia a colaboração, mas há algo de que a pessoa jurídica nunca se livra. Nas demais, confira o percentual de redução da multa, o prazo de impedimento e o efeito sobre a prescrição.",
+      "explicacao": {
+        "A": "Correta. É o § 3º do art. 16 da Lei 12.846/2013. A leniência reduz sanções, mas o ressarcimento integral do dano ao erário não é negociável.",
+        "B": "Pelo § 2º do art. 16, o acordo isenta a pessoa jurídica das sanções do art. 6º, II (publicação extraordinária da decisão condenatória) e do art. 19, IV (proibição de receber incentivos, subsídios, doações e empréstimos públicos), e reduz em até 2/3 o valor da multa. Não há perdão integral.",
+        "C": "O § 7º do art. 16 diz o oposto: não importará em reconhecimento da prática do ato ilícito investigado a proposta de acordo de leniência rejeitada.",
+        "D": "O § 8º do art. 16 fixa o impedimento em 3 (três) anos, contados do conhecimento pela administração pública do descumprimento.",
+        "E": "O § 9º do art. 16 fala em interrupção, e não em suspensão, do prazo prescricional. Interrompido, o prazo recomeça do início."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.846/2013, art. 16, §§ 2º, 3º, 7º, 8º e 9º", "data": "2013-08-01" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0090",
+      "tema": "Improbidade por violação a princípios (Lei 8.429/1992, art. 11)",
+      "enunciado": "Sobre os atos de improbidade administrativa que atentam contra os princípios da Administração Pública, nos termos do art. 11 da Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Constitui ato de improbidade a ação ou omissão dolosa que viole os deveres de honestidade, de imparcialidade e de legalidade, caracterizada por uma das condutas descritas nos incisos do art. 11.",
+        "B": "Configura ato de improbidade nomear cônjuge, companheiro ou parente até o terceiro grau da autoridade nomeante para cargo em comissão, compreendido o ajuste mediante designações recíprocas.",
+        "C": "Os atos de improbidade do art. 11 exigem lesividade relevante ao bem jurídico tutelado para serem passíveis de sancionamento e independem do reconhecimento de dano ao erário e de enriquecimento ilícito.",
+        "D": "Configura improbidade a mera nomeação ou indicação política por parte dos detentores de mandatos eletivos, dispensada a aferição de dolo com finalidade ilícita.",
+        "E": "Somente haverá improbidade, na aplicação do art. 11, quando for comprovado na conduta funcional do agente público o fim de obter proveito ou benefício indevido para si ou para outra pessoa ou entidade."
+      },
+      "correta": "D",
+      "dica": "Depois da reforma de 2021, a lei repete em vários parágrafos a mesma ideia: sem dolo com finalidade ilícita, não há improbidade. Procure a alternativa que dispensa isso.",
+      "explicacao": {
+        "D": "É a incorreta. O art. 11, § 5º, diz o oposto: não se configurará improbidade a mera nomeação ou indicação política por parte dos detentores de mandatos eletivos, sendo necessária a aferição de dolo com finalidade ilícita por parte do agente.",
+        "A": "Correta. É o caput do art. 11. Com a expressão \"caracterizada por uma das seguintes condutas\", incluída em 2021, a conduta precisa se enquadrar em um dos incisos, e não apenas violar um princípio em abstrato.",
+        "B": "Correta. É o art. 11, XI, incluído pela Lei 14.230/2021, que levou para a lei a vedação ao nepotismo, inclusive o cruzado (designações recíprocas).",
+        "C": "Correta. É o art. 11, § 4º. A violação a princípios não depende de dano nem de enriquecimento, mas precisa ter lesividade relevante.",
+        "E": "Correta. É o art. 11, § 1º, com base na Convenção da ONU contra a Corrupção. O § 2º estende essa exigência a todos os atos de improbidade tipificados na lei e em leis especiais."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.429/1992, art. 11, caput, XI e §§ 1º, 2º, 4º e 5º (redação da Lei 14.230/2021)",
+          "data": "2021-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0091",
+      "tema": "Sanções da Lei de Improbidade (art. 12)",
+      "enunciado": "Considere as afirmativas a seguir, sobre as sanções previstas no art. 12 da Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021.\n\nI. Na hipótese de enriquecimento ilícito (art. 9º), o responsável está sujeito, entre outras sanções, à suspensão dos direitos políticos até 14 (catorze) anos e à proibição de contratar com o poder público pelo prazo não superior a 14 (catorze) anos.\nII. Na hipótese de lesão ao erário (art. 10), o responsável está sujeito, entre outras sanções, ao pagamento de multa civil equivalente ao valor do dano e à suspensão dos direitos políticos até 12 (doze) anos.\nIII. Na hipótese de violação aos princípios da Administração (art. 11), o responsável está sujeito à perda da função pública, à suspensão dos direitos políticos até 4 (quatro) anos e a multa civil de até 100 (cem) vezes o valor da remuneração.\nIV. As sanções previstas no art. 12 somente poderão ser executadas após o trânsito em julgado da sentença condenatória.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II e III estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Depois de 2021, a violação a princípios ficou com as sanções mais brandas da lei: só multa e proibição de contratar. Veja também o § 9º.",
+      "explicacao": {
+        "B": "Correta. I reproduz o art. 12, I; II reproduz o art. 12, II; IV reproduz o art. 12, § 9º. A III está errada: pelo art. 12, III, a violação a princípios sujeita o responsável apenas a multa civil de até 24 vezes a remuneração e à proibição de contratar com o poder público por até 4 anos. Não há perda da função nem suspensão de direitos políticos.",
+        "A": "Deixa de fora a IV, que está correta: o § 9º do art. 12 só permite executar as sanções após o trânsito em julgado da sentença condenatória.",
+        "C": "A III está errada (art. 12, III: multa de até 24 vezes a remuneração e proibição de contratar por até 4 anos, sem perda da função nem suspensão de direitos políticos), e a alternativa deixa de fora I e IV.",
+        "D": "Inclui a III, que está errada, e omite I e II, que reproduzem os incisos I e II do art. 12.",
+        "E": "Nem todas estão corretas. A III atribui à violação a princípios sanções que a Lei 14.230/2021 retirou do art. 12, III, e inventa uma multa de 100 vezes a remuneração; o teto é de 24 vezes."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.429/1992, art. 12, I a III e § 9º (redação da Lei 14.230/2021)",
+          "data": "2021-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0092",
+      "tema": "Dolo e independência de instâncias na Lei de Improbidade",
+      "enunciado": "Com base na Lei nº 8.429/1992, com a redação dada pela Lei nº 14.230/2021, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A ilegalidade sem a presença de dolo que a qualifique não configura ato de improbidade, e não haverá remessa necessária nas sentenças proferidas com base na lei.",
+        "B": "Considera-se dolo a mera voluntariedade do agente, sendo dispensável a vontade livre e consciente de alcançar o resultado ilícito tipificado na lei.",
+        "C": "As sanções da Lei de Improbidade aplicam-se à pessoa jurídica ainda que o mesmo ato seja também sancionado como ato lesivo à Administração Pública pela Lei nº 12.846/2013.",
+        "D": "A aplicação das sanções depende, em todas as hipóteses, da efetiva ocorrência de dano ao patrimônio público.",
+        "E": "A aprovação das contas do agente pelo Tribunal de Contas impede a aplicação das sanções da Lei de Improbidade."
+      },
+      "correta": "A",
+      "dica": "Releia os §§ 1º e 2º do art. 1º e o art. 17-C: a reforma de 2021 tornou o dolo indispensável e mudou o regime da sentença.",
+      "explicacao": {
+        "A": "Correta. É o art. 17-C, § 1º (ilegalidade sem dolo não é improbidade) combinado com o § 3º do mesmo artigo (não há remessa necessária). O art. 17, § 19, IV, também afasta o reexame obrigatório da sentença de improcedência ou de extinção sem mérito.",
+        "B": "O art. 1º, § 2º, define dolo como a vontade livre e consciente de alcançar o resultado ilícito tipificado nos arts. 9º, 10 e 11, não bastando a voluntariedade do agente. A alternativa inverte o texto.",
+        "C": "O art. 3º, § 2º, diz que as sanções da Lei 8.429/1992 não se aplicarão à pessoa jurídica caso o ato seja também sancionado como ato lesivo pela Lei 12.846/2013. É a regra que evita o bis in idem (ver também o art. 12, § 7º).",
+        "D": "Pelo art. 21, I, a aplicação das sanções independe da efetiva ocorrência de dano ao patrimônio público, salvo quanto à pena de ressarcimento e às condutas do art. 10 (lesão ao erário).",
+        "E": "Pelo art. 21, II, a aplicação das sanções independe da aprovação ou rejeição das contas pelo controle interno ou pelo Tribunal de Contas. O § 1º apenas manda o juiz considerar os atos do controle que tenham servido de fundamento à conduta do agente."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.429/1992, arts. 1º, § 2º, 3º, § 2º, 17-C, §§ 1º e 3º, e 21, I e II (redação da Lei 14.230/2021)",
+          "data": "2021-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0093",
+      "tema": "Lei Anticorrupção: responsabilização e sanções",
+      "enunciado": "A respeito da responsabilização de pessoas jurídicas pela prática de atos contra a Administração Pública, nos termos da Lei nº 12.846/2013 (Lei Anticorrupção), assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "As pessoas jurídicas serão responsabilizadas objetivamente, nos âmbitos administrativo e civil, pelos atos lesivos previstos na lei praticados em seu interesse ou benefício, exclusivo ou não.",
+        "B": "Na esfera administrativa, a multa varia de 1% (um por cento) a 30% (trinta por cento) do faturamento bruto do último exercício anterior ao da instauração do processo administrativo, incluídos os tributos.",
+        "C": "A pessoa jurídica será responsabilizada independentemente da responsabilização individual das pessoas naturais, e os seus dirigentes ou administradores somente serão responsabilizados na medida da sua culpabilidade.",
+        "D": "Nas hipóteses de fusão e incorporação, a responsabilidade da sucessora fica restrita à obrigação de pagamento de multa e reparação integral do dano, até o limite do patrimônio transferido, salvo simulação ou evidente intuito de fraude.",
+        "E": "O Município, por meio de sua advocacia pública, e o Ministério Público podem ajuizar ação para aplicar, entre outras sanções, a dissolução compulsória da pessoa jurídica e a proibição de receber incentivos, subsídios, subvenções, doações ou empréstimos de órgãos públicos pelo prazo de 1 (um) a 5 (cinco) anos."
+      },
+      "correta": "B",
+      "dica": "A multa administrativa da Lei Anticorrupção tem piso e teto baixos em percentual, e a base de cálculo deixa os tributos de fora.",
+      "explicacao": {
+        "B": "É a incorreta. Pelo art. 6º, I, a multa vai de 0,1% a 20% do faturamento bruto do último exercício anterior ao da instauração do processo, excluídos os tributos, e nunca será inferior à vantagem auferida, quando for possível estimá-la. Se não for possível usar o faturamento, a multa vai de R$ 6.000,00 a R$ 60.000.000,00 (§ 4º).",
+        "A": "Correta. É o art. 2º. A responsabilidade da pessoa jurídica é objetiva: não se discute culpa da empresa.",
+        "C": "Correta. É o art. 3º, § 1º (responsabilização independente) e § 2º (dirigentes respondem na medida da culpabilidade). A responsabilidade é objetiva para a empresa e subjetiva para as pessoas naturais.",
+        "D": "Correta. É o art. 4º, § 1º. As demais sanções não passam à sucessora por atos anteriores à fusão ou incorporação, salvo simulação ou fraude comprovadas.",
+        "E": "Correta. É o art. 19, caput, III e IV. As sanções judiciais podem ser aplicadas de forma isolada ou cumulativa (§ 3º), e a dissolução compulsória exige as condições do § 1º."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.846/2013, arts. 2º, 3º, 4º, 6º e 19",
+          "data": "2013-08-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0094",
+      "tema": "Processo Administrativo de Responsabilização em Curitiba (Decreto 1.671/2019)",
+      "enunciado": "O Decreto Municipal nº 1.671/2019 regulamenta, no Poder Executivo de Curitiba, a responsabilização administrativa de pessoas jurídicas de que trata a Lei nº 12.846/2013. Considere as afirmativas a seguir.\n\nI. A investigação preliminar é procedimento sigiloso e não punitivo, conduzido por comissão composta por 3 (três) ou mais servidores efetivos, que deve ser concluída em 60 (sessenta) dias, admitidas prorrogações por igual período.\nII. O Processo Administrativo de Responsabilização (PAR) será conduzido por comissão processante composta por 2 (dois) ou mais servidores estáveis, e o prazo para sua conclusão não excederá 180 (cento e oitenta) dias, admitida prorrogação.\nIII. Instaurado o PAR, a pessoa jurídica será intimada para, no prazo de 15 (quinze) dias, apresentar defesa escrita e especificar as provas que pretende produzir.\nIV. Da decisão do PAR cabe pedido de reconsideração à autoridade julgadora, sem efeito suspensivo, no prazo de 30 (trinta) dias.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente a afirmativa I está correta.",
+        "B": "Somente as afirmativas II e III estão corretas.",
+        "C": "Somente as afirmativas I e II estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "O decreto municipal dá à pessoa jurídica um prazo de defesa maior que o da Lei 14.133/2021, e o pedido de reconsideração tem prazo curto e efeito que favorece a empresa.",
+      "explicacao": {
+        "C": "Correta. I reproduz o art. 5º, caput e § 1º; II reproduz os arts. 10 e 11. A III está errada porque o prazo de defesa é de 30 dias, contados do recebimento da intimação (art. 12). A IV está errada porque o pedido de reconsideração tem efeito suspensivo e deve ser apresentado em 10 dias da publicação da decisão; os 30 dias são o prazo para julgá-lo (art. 21 e § 1º).",
+        "A": "Deixa de fora a II, que está correta: os arts. 10 e 11 do decreto exigem comissão de 2 ou mais servidores estáveis e limitam o PAR a 180 dias, prorrogáveis, como o art. 10 da Lei 12.846/2013.",
+        "B": "A III está errada (a defesa é em 30 dias, art. 12) e a alternativa omite a I, que reproduz o art. 5º do decreto.",
+        "D": "A IV está errada: pelo art. 21 do decreto, a reconsideração tem efeito suspensivo, prazo de 10 dias para ser apresentada e 30 dias para ser julgada.",
+        "E": "Nem todas estão corretas. A III reduz o prazo de defesa, que é de 30 dias (art. 12), e a IV troca o efeito e o prazo da reconsideração (art. 21: efeito suspensivo, 10 dias)."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 1.671/2019, arts. 5º, 10, 11, 12 e 21",
+          "data": "2019-12-12"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.846/2013, art. 10",
+          "data": "2013-08-01"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

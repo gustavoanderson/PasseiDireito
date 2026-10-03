@@ -1,0 +1,86 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-10",
+    "titulo": "PNMA, SISNAMA, licenciamento e LC 140/2011",
+    "itemEdital": 10
+  },
+  "questoes": [
+    {
+      "id": "urb-0025",
+      "tema": "SISNAMA, normas supletivas e licenciamento ambiental (Lei 6.938/1981)",
+      "enunciado": "Nos termos da Lei nº 6.938/1981, que dispõe sobre a Política Nacional do Meio Ambiente, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Conselho Nacional do Meio Ambiente (CONAMA) é o órgão executor do SISNAMA, ao lado do IBAMA, com a finalidade de executar e fazer executar a política ambiental.",
+        "B": "Os órgãos seccionais do SISNAMA são os órgãos ou entidades municipais responsáveis pelo controle e fiscalização das atividades degradadoras em suas jurisdições.",
+        "C": "Somente a União e os Estados podem elaborar normas e padrões relacionados com o meio ambiente, cabendo aos Municípios apenas fiscalizar o seu cumprimento.",
+        "D": "O prazo mínimo da servidão ambiental temporária é de 5 anos.",
+        "E": "A construção, instalação, ampliação e funcionamento de estabelecimentos e atividades utilizadores de recursos ambientais, efetiva ou potencialmente poluidores ou capazes, sob qualquer forma, de causar degradação ambiental dependerão de prévio licenciamento ambiental."
+      },
+      "correta": "E",
+      "dica": "No SISNAMA, cada esfera tem nome próprio: o estadual e o municipal não se confundem. O licenciamento é a regra para toda atividade potencialmente poluidora.",
+      "explicacao": {
+        "E": "Correta. É o art. 10, caput, da Lei 6.938/1981, na redação da LC 140/2011. O § 1º exige a publicação dos pedidos de licenciamento, de sua renovação e da concessão no jornal oficial e em periódico de grande circulação ou em meio eletrônico do órgão ambiental.",
+        "A": "Pelo art. 6º, II, o CONAMA é o órgão CONSULTIVO E DELIBERATIVO do SISNAMA. Os órgãos executores são o IBAMA e o Instituto Chico Mendes (art. 6º, IV).",
+        "B": "Os órgãos SECCIONAIS são os estaduais (art. 6º, V). Os municipais são os órgãos LOCAIS (art. 6º, VI).",
+        "C": "O art. 6º, § 2º, permite que os Municípios, observadas as normas e os padrões federais e estaduais, também elaborem normas supletivas e complementares e padrões relacionados com o meio ambiente.",
+        "D": "O art. 9º-B, § 1º, fixa o prazo mínimo da servidão ambiental temporária em 15 (quinze) anos. A servidão perpétua equivale, para fins creditícios, tributários e de acesso a fundos públicos, à RPPN (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.938/1981, arts. 6º, 9º-B e 10", "data": "1981-08-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0026",
+      "tema": "Competência municipal e licenciamento por um único ente (LC 140/2011)",
+      "enunciado": "Sobre as ações administrativas dos Municípios e o licenciamento ambiental, à luz da Lei Complementar nº 140/2011, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "cabe ao Município promover o licenciamento ambiental das atividades ou empreendimentos que causem ou possam causar impacto ambiental de âmbito local, conforme tipologia definida pelos respectivos Conselhos Estaduais de Meio Ambiente, considerados os critérios de porte, potencial poluidor e natureza da atividade.",
+        "B": "cabe ao Município promover o licenciamento ambiental das atividades ou empreendimentos localizados em unidades de conservação por ele instituídas, exceto em Áreas de Proteção Ambiental (APAs).",
+        "C": "os empreendimentos e atividades são licenciados, em regra, por dois entes federativos de forma conjunta, e a manifestação dos demais entes interessados vincula o órgão licenciador.",
+        "D": "a supressão de vegetação decorrente de licenciamentos ambientais é autorizada pelo ente federativo licenciador.",
+        "E": "os valores alusivos às taxas de licenciamento ambiental devem guardar relação de proporcionalidade com o custo e a complexidade do serviço prestado pelo ente federativo."
+      },
+      "correta": "C",
+      "dica": "A LC 140/2011 quis acabar com o licenciamento em duplicidade: pense em quantos entes licenciam e no peso da opinião dos outros.",
+      "explicacao": {
+        "C": "É a incorreta, e por isso a resposta. O art. 13, caput, da LC 140/2011 estabelece que os empreendimentos e atividades são licenciados ou autorizados por UM ÚNICO ente federativo. Os demais entes interessados podem manifestar-se de maneira NÃO VINCULANTE (§ 1º).",
+        "A": "Correto. É o art. 9º, XIV, a. Quem define a tipologia do impacto local é o Conselho Estadual de Meio Ambiente, e não o próprio Município.",
+        "B": "Correto. É o art. 9º, XIV, b. A exceção das APAs está explicada no art. 12: nelas não se aplica o critério do ente instituidor da unidade, e o licenciador é definido pelos critérios gerais dos arts. 7º, 8º e 9º.",
+        "D": "Correto. É o art. 13, § 2º: quem licencia o empreendimento autoriza a supressão de vegetação dele decorrente, o que evita duas autorizações para o mesmo projeto.",
+        "E": "Correto. É o art. 13, § 3º. A taxa remunera o exercício do poder de polícia e deve ser proporcional ao custo e à complexidade do serviço."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 140/2011, arts. 9º, XIV, e 13", "data": "2011-12-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0027",
+      "tema": "Atuação supletiva e subsidiária (LC 140/2011)",
+      "enunciado": "Determinado Município não possui órgão ambiental capacitado nem conselho de meio ambiente. Considerando as regras de atuação supletiva e subsidiária da Lei Complementar nº 140/2011, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Atuação supletiva é a ação do ente da Federação que visa a auxiliar no desempenho das atribuições decorrentes das competências comuns, quando solicitado pelo ente originariamente detentor das atribuições.",
+        "B": "Inexistindo órgão ambiental capacitado ou conselho de meio ambiente no Município, a União deve desempenhar as ações administrativas municipais até a sua criação.",
+        "C": "A ação administrativa subsidiária pode ser exercida por iniciativa própria do ente que deseja auxiliar, independentemente de solicitação do ente originariamente detentor da atribuição.",
+        "D": "Inexistindo órgão ambiental capacitado ou conselho de meio ambiente no Estado e no Município, a União deve desempenhar as ações administrativas até a sua criação em um daqueles entes federativos.",
+        "E": "Por ser ação administrativa do Município, a elaboração do Plano Diretor dispensa a observância dos zoneamentos ambientais."
+      },
+      "correta": "D",
+      "dica": "Supletiva substitui; subsidiária auxilia a pedido. Na substituição, o ente que assume é o imediatamente superior ao que falta.",
+      "explicacao": {
+        "D": "Correta. É o art. 15, III, da LC 140/2011. A atuação supletiva segue uma escada: falta o Município, assume o Estado (inciso II); falta o Estado, assume a União (inciso I); faltam os dois, assume a União (inciso III).",
+        "A": "Essa é a definição de atuação SUBSIDIÁRIA (art. 2º, III). A atuação SUPLETIVA é a ação do ente que SE SUBSTITUI ao ente originariamente detentor das atribuições, nas hipóteses da lei (art. 2º, II).",
+        "B": "Pelo art. 15, II, quem assume as ações administrativas municipais, na falta de órgão capacitado ou conselho no Município, é o ESTADO, e não a União.",
+        "C": "O parágrafo único do art. 16 diz que a ação subsidiária deve ser SOLICITADA pelo ente originariamente detentor da atribuição. Ela se dá por apoio técnico, científico, administrativo ou financeiro (caput).",
+        "E": "O art. 9º, IX, atribui ao Município elaborar o Plano Diretor \"observando os zoneamentos ambientais\"."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 140/2011, arts. 2º, 9º, IX, 15 e 16", "data": "2011-12-08" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

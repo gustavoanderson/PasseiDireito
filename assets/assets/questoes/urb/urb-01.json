@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-01",
+    "titulo": "Teoria geral: função social da cidade e da propriedade urbana",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "urb-0001",
+      "tema": "Política urbana na Constituição (arts. 182 e 183)",
+      "enunciado": "De acordo com os arts. 182 e 183 da Constituição Federal, que tratam da política urbana, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O plano diretor, aprovado pela Câmara Municipal, é obrigatório para cidades com mais de cinquenta mil habitantes.",
+        "B": "A propriedade urbana cumpre sua função social quando atende às exigências fundamentais de ordenação da cidade expressas no plano diretor.",
+        "C": "As desapropriações de imóveis urbanos serão feitas com prévia e justa indenização em títulos da dívida pública.",
+        "D": "Aquele que possuir como sua área urbana de até quinhentos metros quadrados, por cinco anos, ininterruptamente e sem oposição, utilizando-a para sua moradia ou de sua família, adquirir-lhe-á o domínio.",
+        "E": "O Município pode, por decreto do Prefeito, exigir do proprietário do solo urbano não edificado que promova seu adequado aproveitamento, sob pena de parcelamento ou edificação compulsórios."
+      },
+      "correta": "B",
+      "dica": "A Constituição amarra a função social da propriedade urbana a um instrumento específico da política urbana municipal.",
+      "explicacao": {
+        "B": "Correta. É a literalidade do art. 182, § 2º, da CF: a propriedade urbana cumpre sua função social quando atende às exigências fundamentais de ordenação da cidade expressas no plano diretor. O Estatuto da Cidade repete a regra no art. 39.",
+        "A": "O art. 182, § 1º, da CF torna o plano diretor obrigatório para cidades com mais de VINTE mil habitantes, e não cinquenta mil. O número 20 mil é o mesmo repetido no art. 41, I, do Estatuto da Cidade.",
+        "C": "O art. 182, § 3º, da CF determina indenização prévia e justa EM DINHEIRO. O pagamento em títulos da dívida pública só existe na desapropriação-sanção do § 4º, III, para o imóvel que descumpriu a função social.",
+        "D": "O limite da usucapião especial urbana do art. 183 da CF é de DUZENTOS E CINQUENTA metros quadrados. Os demais requisitos (cinco anos, posse ininterrupta e sem oposição, moradia, não ser proprietário de outro imóvel) estão corretos.",
+        "E": "O art. 182, § 4º, da CF exige LEI ESPECÍFICA para área incluída no plano diretor, nos termos da lei federal. Decreto do Prefeito não basta para impor o parcelamento ou a edificação compulsórios."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 182 e 183", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0002",
+      "tema": "Diretrizes gerais da política urbana (Estatuto da Cidade, art. 2º)",
+      "enunciado": "Considerando os arts. 2º e 39 da Lei nº 10.257/2001 (Estatuto da Cidade), analise as assertivas abaixo.\nI. A política urbana tem por objetivo ordenar o pleno desenvolvimento das funções sociais da cidade e da propriedade urbana.\nII. A garantia do direito a cidades sustentáveis é entendida como o direito à terra urbana, à moradia, ao saneamento ambiental, à infraestrutura urbana, ao transporte e aos serviços públicos, ao trabalho e ao lazer, para as presentes e futuras gerações.\nIII. Constitui diretriz geral da política urbana a recuperação dos investimentos do Poder Público de que tenha resultado a valorização de imóveis urbanos.\nIV. A propriedade urbana cumpre sua função social quando atende às exigências do plano diretor, dispensada, para esse fim, a observância das diretrizes gerais do art. 2º.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas II e IV estão corretas.",
+        "C": "Somente as assertivas III e IV estão corretas.",
+        "D": "Somente as assertivas I, II e III estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Releia o final do art. 39: ele faz uma ressalva que liga a função social às diretrizes gerais da lei.",
+      "explicacao": {
+        "D": "Correta. A I reproduz o caput do art. 2º; a II, o inciso I do art. 2º (direito a cidades sustentáveis); a III, o inciso XI do art. 2º. A IV é falsa, porque o art. 39 diz que a função social é cumprida com o atendimento do plano diretor, \"respeitadas as diretrizes previstas no art. 2º desta Lei\".",
+        "A": "Deixa de fora a assertiva III, que também é verdadeira: a recuperação dos investimentos públicos que valorizaram imóveis urbanos é diretriz expressa do art. 2º, XI, do Estatuto da Cidade.",
+        "B": "A assertiva IV é falsa: o art. 39 exige que sejam respeitadas as diretrizes do art. 2º. Além disso, a alternativa omite as assertivas I e III, que são verdadeiras (art. 2º, caput e inciso XI).",
+        "C": "A assertiva IV é falsa, pois o art. 39 não dispensa as diretrizes do art. 2º; ao contrário, determina que sejam respeitadas. Também ficaram de fora as assertivas I e II, ambas verdadeiras.",
+        "E": "Nem todas estão corretas: a assertiva IV contraria a parte final do art. 39 do Estatuto da Cidade, que condiciona a função social da propriedade urbana ao respeito às diretrizes do art. 2º."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.257/2001, arts. 2º, caput, I e XI, e 39", "data": "2001-07-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

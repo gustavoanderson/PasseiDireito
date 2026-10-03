@@ -1,0 +1,64 @@
+{
+  "versaoFormato": 1,
+  "materia": "trab",
+  "unidade": {
+    "id": "trab-04",
+    "titulo": "Jornada, férias, salário, adicionais, extinção e estabilidade",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "trab-0007",
+      "tema": "Horas extras, intervalo intrajornada, banco de horas e férias",
+      "enunciado": "De acordo com a Consolidação das Leis do Trabalho, com as alterações da Lei nº 13.467/2017, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A duração diária do trabalho poderá ser acrescida de horas extras, em número não excedente de duas, por acordo individual, convenção coletiva ou acordo coletivo de trabalho.",
+        "B": "A não concessão ou a concessão parcial do intervalo intrajornada mínimo implica o pagamento, de natureza indenizatória, apenas do período suprimido, com acréscimo de 50% sobre o valor da remuneração da hora normal.",
+        "C": "Desde que haja concordância do empregado, as férias poderão ser usufruídas em até três períodos, sendo que um deles não poderá ser inferior a quatorze dias corridos e os demais não poderão ser inferiores a cinco dias corridos, cada um.",
+        "D": "O banco de horas poderá ser pactuado por acordo individual escrito, desde que a compensação ocorra no período máximo de seis meses.",
+        "E": "É facultado ao empregado converter metade do período de férias a que tiver direito em abono pecuniário, desde que o requeira até trinta dias antes do término do período aquisitivo."
+      },
+      "correta": "E",
+      "dica": "O abono de férias tem uma fração e um prazo de requerimento próprios no art. 143. Confira os dois números.",
+      "explicacao": {
+        "E": "É a resposta, porque a alternativa está errada nos dois números. Pelo art. 143 da CLT, o empregado pode converter 1/3 (um terço) do período de férias em abono pecuniário, e o § 1º exige que o abono seja requerido até 15 (quinze) dias antes do término do período aquisitivo.",
+        "A": "Correta. É o caput do art. 59 da CLT, com redação da Lei 13.467/2017: até duas horas extras por dia, ajustadas por acordo individual, convenção ou acordo coletivo.",
+        "B": "Correta. É o art. 71, § 4º, da CLT, com redação da Lei 13.467/2017. Antes da reforma, a jurisprudência mandava pagar a hora inteira com natureza salarial; hoje paga-se só o tempo suprimido, com natureza indenizatória.",
+        "C": "Correta. É o art. 134, § 1º, da CLT, com redação da Lei 13.467/2017. O § 3º ainda veda o início das férias no período de dois dias que antecede feriado ou dia de repouso semanal remunerado.",
+        "D": "Correta. É o art. 59, § 5º, da CLT. O banco de horas anual (compensação em até um ano, § 2º) depende de acordo ou convenção coletiva; o semestral pode ser ajustado por acordo individual escrito."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, arts. 59, caput e § 5º, 71, § 4º, e 134, § 1º (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, art. 143 (Decreto-Lei 1.535/1977)", "data": "1977-04-13" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0008",
+      "tema": "Equiparação salarial, periculosidade, extinção por acordo e estabilidade sindical",
+      "enunciado": "Com base na Consolidação das Leis do Trabalho e na Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O trabalho em condições de periculosidade assegura ao empregado adicional de 30% sobre o salário acrescido das gratificações, prêmios e participações nos lucros da empresa.",
+        "B": "Para fins de equiparação salarial, trabalho de igual valor é o feito com igual produtividade e mesma perfeição técnica, entre pessoas cuja diferença de tempo de serviço para o mesmo empregador não seja superior a quatro anos e a diferença de tempo na função não seja superior a dois anos.",
+        "C": "Na extinção do contrato por acordo entre empregado e empregador, são devidos integralmente o aviso prévio indenizado e a indenização sobre o saldo do FGTS, e o trabalhador pode ingressar no Programa de Seguro-Desemprego.",
+        "D": "O pagamento das verbas rescisórias deve ser efetuado até trinta dias contados a partir do término do contrato.",
+        "E": "É vedada a dispensa do empregado sindicalizado a partir da posse no cargo de direção sindical e, se eleito, ainda que suplente, até seis meses após o final do mandato, salvo falta grave."
+      },
+      "correta": "B",
+      "dica": "Lembre-se de que a Reforma Trabalhista criou um limite de tempo de serviço no próprio empregador, além do limite de tempo na função.",
+      "explicacao": {
+        "B": "Correta. É o art. 461, § 1º, da CLT, com redação da Lei 13.467/2017. O § 5º acrescenta que a equiparação só é possível entre empregados contemporâneos no cargo ou na função, vedada a indicação de paradigmas remotos.",
+        "A": "Pelo art. 193, § 1º, da CLT, o adicional de periculosidade é de 30% sobre o salário SEM os acréscimos resultantes de gratificações, prêmios ou participações nos lucros da empresa.",
+        "C": "Pelo art. 484-A da CLT, na extinção por acordo o aviso prévio indenizado e a indenização sobre o saldo do FGTS são devidos POR METADE (inciso I), a movimentação do FGTS é limitada a 80% dos depósitos (§ 1º) e o acordo NÃO autoriza o ingresso no Programa de Seguro-Desemprego (§ 2º).",
+        "D": "Pelo art. 477, § 6º, da CLT (Lei 13.467/2017), a entrega dos documentos e o pagamento das verbas rescisórias devem ocorrer até DEZ dias contados do término do contrato, sob pena das multas do § 8º.",
+        "E": "O art. 8º, VIII, da CF (e o art. 543, § 3º, da CLT) protege o empregado a partir do REGISTRO DA CANDIDATURA, e não da posse, até UM ANO após o final do mandato, e não seis meses."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, arts. 461, § 1º, 477, § 6º, e 484-A (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, art. 193, § 1º (Lei 6.514/1977)", "data": "1977-12-22" },
+        { "tipo": "constituicao", "referencia": "CF, art. 8º, VIII", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

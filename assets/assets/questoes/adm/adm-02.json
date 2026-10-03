@@ -1,0 +1,137 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-02",
+    "titulo": "Organização administrativa e Terceiro Setor",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "adm-0016",
+      "tema": "Consórcios públicos (Lei 11.107/2005)",
+      "enunciado": "Com base na Lei nº 11.107/2005, que dispõe sobre normas gerais de contratação de consórcios públicos, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O consórcio público será constituído por convênio, dispensada a subscrição prévia de protocolo de intenções.",
+        "B": "O consórcio público com personalidade jurídica de direito privado não se sujeita às normas de direito público sobre licitação, contratos, prestação de contas e admissão de pessoal.",
+        "C": "A União pode participar de consórcio público formado apenas por Municípios, independentemente da participação dos Estados em que eles se situam.",
+        "D": "O representante legal do consórcio público pode ser qualquer cidadão eleito pela assembleia geral, ainda que não ocupe cargo em ente consorciado.",
+        "E": "O consórcio público com personalidade jurídica de direito público, constituído como associação pública, integra a administração indireta de todos os entes da Federação consorciados."
+      },
+      "correta": "E",
+      "dica": "Pense na natureza jurídica: o consórcio pode ser associação pública ou pessoa de direito privado, e a lei diz onde a associação pública se encaixa na estrutura de cada ente.",
+      "explicacao": {
+        "E": "Correta. É o § 1º do art. 6º da Lei 11.107/2005: o consórcio público com personalidade jurídica de direito público integra a administração indireta de todos os entes da Federação consorciados. Pelo inciso I do mesmo artigo, ele adquire essa personalidade, como associação pública, com a vigência das leis de ratificação do protocolo de intenções.",
+        "A": "O art. 3º diz que o consórcio público é constituído por contrato, cuja celebração depende da prévia subscrição de protocolo de intenções. E o art. 5º exige a ratificação desse protocolo por lei.",
+        "B": "O § 2º do art. 6º determina que o consórcio, com personalidade de direito público ou privado, observará as normas de direito público quanto a licitação, celebração de contratos, prestação de contas e admissão de pessoal (regido pela CLT).",
+        "C": "O § 2º do art. 1º só admite a participação da União em consórcios de que também façam parte todos os Estados em cujos territórios estejam situados os Municípios consorciados.",
+        "D": "O art. 4º, VIII, exige que o representante legal do consórcio seja, obrigatoriamente, Chefe do Poder Executivo de ente da Federação consorciado."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.107/2005, arts. 1º, § 2º, 3º, 4º, VIII, 5º e 6º", "data": "2005-04-06" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0017",
+      "tema": "Parcerias com OSC – instrumentos (Lei 13.019/2014)",
+      "enunciado": "Uma organização da sociedade civil apresenta ao Município plano de trabalho, por ela elaborado, para oficinas de capacitação profissional de jovens, e o Município pretende apoiar o projeto com repasse de recursos financeiros. Segundo a Lei nº 13.019/2014, o instrumento adequado para formalizar essa parceria é o",
+      "alternativas": {
+        "A": "termo de fomento.",
+        "B": "termo de colaboração.",
+        "C": "acordo de cooperação.",
+        "D": "contrato de gestão.",
+        "E": "termo de parceria."
+      },
+      "correta": "A",
+      "dica": "Dois fatores decidem o instrumento no MROSC: de quem partiu a proposta do plano de trabalho e se há transferência de recursos financeiros.",
+      "explicacao": {
+        "A": "Correta. Pelo art. 2º, VIII, e pelo art. 17 da Lei 13.019/2014, o termo de fomento é o instrumento para parcerias cujo plano de trabalho é proposto pela organização da sociedade civil e que envolvem transferência de recursos financeiros.",
+        "B": "O termo de colaboração (arts. 2º, VII, e 16) serve para planos de trabalho de iniciativa da própria Administração, com transferência de recursos. No caso, a proposta partiu da OSC.",
+        "C": "O acordo de cooperação (art. 2º, VIII-A) formaliza parcerias que não envolvem transferência de recursos financeiros. No caso, há repasse.",
+        "D": "O contrato de gestão é o vínculo com entidade qualificada como organização social, previsto na Lei 9.637/1998, não um instrumento do regime da Lei 13.019/2014 para OSC em geral.",
+        "E": "O termo de parceria é o instrumento firmado com entidades qualificadas como OSCIP, previsto na Lei 9.790/1999, e não o instrumento que a Lei 13.019/2014 prevê para a hipótese."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.019/2014, arts. 2º, VII, VIII e VIII-A, 16 e 17 (redação da Lei 13.204/2015)", "data": "2015-12-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0018",
+      "tema": "Administração indireta – criação e estatais (CF e Lei 13.303/2016)",
+      "enunciado": "Sobre as entidades da Administração Pública indireta, à luz do art. 37, XIX e XX, da Constituição Federal e dos arts. 3º e 4º da Lei nº 13.303/2016, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A autarquia tem sua criação autorizada por lei, adquirindo personalidade jurídica com o registro de seus atos constitutivos.",
+        "B": "Sociedade de economia mista é entidade de direito privado, com criação autorizada por lei, sob a forma de sociedade anônima, cujas ações com direito a voto pertençam em sua maioria ao ente federado ou a entidade da administração indireta.",
+        "C": "A empresa pública pode ter capital parcialmente detido por particulares, desde que a maioria do capital votante permaneça com o ente federado.",
+        "D": "A criação de subsidiária de empresa pública dispensa autorização legislativa, por se tratar de ato de gestão empresarial.",
+        "E": "A empresa pública deve adotar obrigatoriamente a forma de sociedade anônima."
+      },
+      "correta": "B",
+      "dica": "Compare três coisas: o verbo da Constituição (criar ou autorizar), quem pode ser sócio de cada estatal e a forma societária exigida.",
+      "explicacao": {
+        "B": "Correta. É a literalidade do caput do art. 4º da Lei 13.303/2016. O controle se mede pelas ações com direito a voto, e a forma de sociedade anônima é obrigatória para a sociedade de economia mista (art. 5º).",
+        "A": "Pelo art. 37, XIX, da CF, a autarquia é criada diretamente por lei específica; o que a lei apenas autoriza é a instituição de empresa pública, sociedade de economia mista e fundação. Por ser pessoa de direito público, a autarquia não depende de registro para existir.",
+        "C": "Pelo art. 3º da Lei 13.303/2016, o capital da empresa pública é integralmente detido pelo ente federado. O parágrafo único só admite, mantida a maioria do capital votante com o ente, a participação de outras pessoas jurídicas de direito público interno ou de entidades da administração indireta, nunca de particulares.",
+        "D": "O art. 37, XX, da CF exige autorização legislativa, em cada caso, para a criação de subsidiárias das entidades da administração indireta, bem como para a participação de qualquer delas em empresa privada.",
+        "E": "A Lei 13.303/2016 exige a forma de sociedade anônima para a sociedade de economia mista (arts. 4º e 5º). Para a empresa pública, o art. 3º não impõe essa forma: ela pode adotar outra forma societária admitida em direito."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XIX e XX", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 13.303/2016, arts. 3º, 4º e 5º", "data": "2016-06-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0095",
+      "tema": "Chamamento público: dispensa e inexigibilidade (Lei 13.019/2014)",
+      "enunciado": "Sobre a dispensa e a inexigibilidade de chamamento público nas parcerias com organizações da sociedade civil, nos termos dos arts. 29 a 32 da Lei nº 13.019/2014, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É dispensável o chamamento público no caso de urgência decorrente de paralisação ou iminência de paralisação de atividades de relevante interesse público, pelo prazo de até 180 (cento e oitenta) dias.",
+        "B": "Os termos de colaboração ou de fomento que envolvam recursos decorrentes de emendas parlamentares às leis orçamentárias anuais serão celebrados sem chamamento público.",
+        "C": "A dispensa e a inexigibilidade do chamamento público afastam a aplicação dos demais dispositivos da Lei nº 13.019/2014 às parcerias assim formalizadas.",
+        "D": "É inexigível o chamamento público quando a parceria decorrer de transferência para organização da sociedade civil que esteja autorizada em lei na qual seja identificada expressamente a entidade beneficiária.",
+        "E": "A ausência de realização de chamamento público será justificada pelo administrador público, e o extrato da justificativa deverá ser publicado no sítio oficial da administração pública, sob pena de nulidade do ato de formalização da parceria."
+      },
+      "correta": "C",
+      "dica": "A lei trata a dispensa e a inexigibilidade como exceções ao procedimento de seleção, não como portas de saída das demais regras da parceria. Releia o que o art. 32 diz sobre o alcance dessas duas hipóteses.",
+      "explicacao": {
+        "C": "É a resposta, porque está errada. O § 4º do art. 32 da Lei 13.019/2014 diz o contrário: a dispensa e a inexigibilidade de chamamento público, bem como a hipótese do art. 29, não afastam a aplicação dos demais dispositivos da lei às parcerias assim formalizadas.",
+        "A": "Correta. É o art. 30, I, da Lei 13.019/2014: a urgência decorrente de paralisação ou iminência de paralisação de atividade de relevante interesse público autoriza a dispensa do chamamento público pelo prazo de até 180 dias.",
+        "B": "Correta. É a literalidade do art. 29 da Lei 13.019/2014, na redação da Lei 13.204/2015, que livra dessas parcerias o procedimento de seleção, dada a origem vinculada dos recursos.",
+        "D": "Correta. É o art. 31, II, da Lei 13.019/2014: a inexigibilidade decorre da inviabilidade de competição quando a própria lei de origem da transferência já identifica a entidade beneficiária, o que torna inútil qualquer seleção.",
+        "E": "Correta. É a combinação do caput do art. 32 com o seu § 1º: a justificativa do administrador é obrigatória, e a falta de publicação do seu extrato no sítio oficial, na mesma data da formalização, torna nulo o ato da parceria."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.019/2014, arts. 29, 30, I, 31, II, e 32, caput e §§ 1º e 4º (redação da Lei 13.204/2015)", "data": "2015-12-14" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0096",
+      "tema": "Transparência das estatais (Lei 13.303/2016, art. 8º)",
+      "enunciado": "Considere as afirmativas a seguir, sobre os requisitos de transparência exigidos das empresas públicas e das sociedades de economia mista pela Lei nº 13.303/2016.\n\nI. Deverão elaborar carta anual, subscrita pelos membros do Conselho de Administração, com a explicitação dos compromissos de consecução de objetivos de políticas públicas, com definição clara dos recursos a serem empregados para esse fim.\nII. Deverão elaborar e divulgar política de transações com partes relacionadas, em conformidade com os requisitos de competitividade, conformidade, transparência, equidade e comutatividade, revista no mínimo anualmente e aprovada pelo Conselho de Administração.\nIII. Quaisquer obrigações e responsabilidades que assumam em condições distintas às de qualquer outra empresa do setor privado em que atuam devem estar claramente definidas em lei ou regulamento, bem como previstas em contrato, convênio ou ajuste celebrado com o ente público competente.\nIV. A sociedade de economia mista com registro na Comissão de Valores Mobiliários fica dispensada do regime informacional estabelecido por essa autarquia, por prevalecer o regime especial da Lei nº 13.303/2016.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I, II e III estão corretas.",
+        "B": "Somente as afirmativas I e II estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Somente as afirmativas I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "A",
+      "dica": "As quatro afirmativas reproduzem incisos e parágrafos do art. 8º. Uma delas inverte a relação entre o regime da Lei 13.303/2016 e o regime informacional da CVM.",
+      "explicacao": {
+        "A": "Correta. I reproduz o inciso I do caput; II, o inciso VII; III, o § 2º, I, do art. 8º. A IV está errada, porque o § 3º soma, não substitui, os regimes: a sociedade de economia mista com registro na CVM sujeita-se também ao regime informacional dessa autarquia.",
+        "B": "Deixa de fora a III, que está correta: o § 2º, I, do art. 8º exige que as obrigações assumidas em condições distintas das do setor privado estejam definidas em lei ou regulamento e previstas em contrato, convênio ou ajuste com o ente público.",
+        "C": "Inclui a IV, que está errada, e deixa de fora a I, que reproduz o inciso I do caput do art. 8º (carta anual subscrita pelo Conselho de Administração).",
+        "D": "Inclui a IV, que contraria o § 3º do art. 8º, e omite a II, que reproduz o inciso VII do mesmo artigo (política de transações com partes relacionadas).",
+        "E": "Nem todas estão corretas. A IV inverte o § 3º do art. 8º: a sociedade de economia mista com registro na CVM não fica dispensada do regime informacional dessa autarquia, mas sujeita-se a ele além das exigências da Lei 13.303/2016."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.303/2016, art. 8º, caput, I e VII, e §§ 2º, I, e 3º", "data": "2016-06-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

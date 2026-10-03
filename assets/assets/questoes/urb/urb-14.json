@@ -1,0 +1,62 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-14",
+    "titulo": "Responsabilidade e tutela ambiental",
+    "itemEdital": 14
+  },
+  "questoes": [
+    {
+      "id": "urb-0034",
+      "tema": "Responsabilidade penal da pessoa jurídica (Lei 9.605/1998)",
+      "enunciado": "Sobre a responsabilidade da pessoa jurídica na Lei nº 9.605/1998 (Lei de Crimes Ambientais), é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "as pessoas jurídicas serão responsabilizadas administrativa, civil e penalmente nos casos em que a infração seja cometida por decisão de seu representante legal ou contratual, ou de seu órgão colegiado, no interesse ou benefício da sua entidade.",
+        "B": "a responsabilidade penal da pessoa jurídica exclui a das pessoas físicas autoras, coautoras ou partícipes do mesmo fato.",
+        "C": "poderá ser desconsiderada a pessoa jurídica sempre que sua personalidade for obstáculo ao ressarcimento de prejuízos causados à qualidade do meio ambiente.",
+        "D": "as penas aplicáveis às pessoas jurídicas, isolada, cumulativa ou alternativamente, são a multa, as restritivas de direitos e a prestação de serviços à comunidade.",
+        "E": "a pena de proibição de contratar com o Poder Público, bem como dele obter subsídios, subvenções ou doações, não poderá exceder o prazo de dez anos."
+      },
+      "correta": "B",
+      "dica": "A lei adota o sistema da dupla imputação possível: punir a empresa não livra quem decidiu.",
+      "explicacao": {
+        "B": "É a incorreta, e por isso a resposta. O parágrafo único do art. 3º diz que a responsabilidade das pessoas jurídicas NÃO EXCLUI a das pessoas físicas autoras, coautoras ou partícipes do mesmo fato.",
+        "A": "Correto. É o art. 3º, caput, que concretiza o art. 225, § 3º, da CF.",
+        "C": "Correto. É o art. 4º: para afastar a pessoa jurídica, a lei exige apenas que sua personalidade seja obstáculo ao ressarcimento dos prejuízos ambientais.",
+        "D": "Correto. É o art. 21, I a III. As restritivas de direitos da pessoa jurídica estão no art. 22 (suspensão de atividades, interdição temporária e proibição de contratar com o Poder Público).",
+        "E": "Correto. É o art. 22, § 3º. Não confunda com a sanção ADMINISTRATIVA restritiva de direitos de proibição de contratar com a Administração Pública, limitada a até três anos (art. 72, § 8º, V)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.605/1998, arts. 3º, 4º, 21 e 22", "data": "1998-02-12" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0035",
+      "tema": "Responsabilidade administrativa e civil por dano ambiental",
+      "enunciado": "Fiscal da Secretaria Municipal do Meio Ambiente de Curitiba constatou que uma empresa vinha lançando efluentes sem tratamento em um rio, de forma continuada. Considerando a Lei nº 9.605/1998 e a Lei nº 6.938/1981, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O pagamento de multa imposta pelo Município não substitui a multa federal na mesma hipótese de incidência, devendo o infrator pagar ambas.",
+        "B": "A multa diária somente é aplicável quando a infração for praticada uma única vez, devendo a infração continuada ser punida com advertência.",
+        "C": "A obrigação de reparar os danos causados ao meio ambiente e a terceiros depende da comprovação de culpa da empresa poluidora.",
+        "D": "A autoridade ambiental que tiver conhecimento de infração ambiental é obrigada a promover a sua apuração imediata, mediante processo administrativo próprio, sob pena de corresponsabilidade.",
+        "E": "Entre as sanções administrativas restritivas de direito está a proibição de contratar com a Administração Pública pelo período de até dez anos."
+      },
+      "correta": "D",
+      "dica": "A fiscalização ambiental é dever, não faculdade. Atenção também aos números: há um prazo na esfera penal e outro, menor, na administrativa.",
+      "explicacao": {
+        "D": "Correta. É o art. 70, § 3º, da Lei 9.605/1998. O § 4º acrescenta que as infrações são apuradas em processo administrativo próprio, assegurados a ampla defesa e o contraditório.",
+        "A": "O art. 76 da Lei 9.605/1998 diz o contrário: o pagamento de multa imposta pelos Estados, Municípios, Distrito Federal ou Territórios SUBSTITUI a multa federal na mesma hipótese de incidência.",
+        "B": "Pelo art. 72, § 5º, a multa diária é aplicada justamente quando o cometimento da infração se prolonga no tempo, como no lançamento continuado de efluentes.",
+        "C": "O art. 14, § 1º, da Lei 6.938/1981 obriga o poluidor a indenizar ou reparar os danos causados ao meio ambiente e a terceiros \"independentemente da existência de culpa\": a responsabilidade civil ambiental é objetiva.",
+        "E": "Na esfera administrativa, a proibição de contratar com a Administração Pública vai até TRÊS anos (art. 72, § 8º, V). O prazo de até dez anos é o da pena criminal aplicável à pessoa jurídica (art. 22, § 3º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.605/1998, arts. 22, 70, 72 e 76", "data": "1998-02-12" },
+        { "tipo": "lei", "referencia": "Lei 6.938/1981, art. 14, § 1º", "data": "1981-08-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

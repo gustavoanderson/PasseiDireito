@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-05",
+    "titulo": "Direito administrativo sancionador",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "adm-0028",
+      "tema": "Prescrição da ação punitiva no poder de polícia (Lei 9.873/1999)",
+      "enunciado": "A Lei nº 9.873/1999 estabelece prazos de prescrição para o exercício da ação punitiva pela Administração Pública Federal, direta e indireta, no exercício do poder de polícia. Sobre ela, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A ação punitiva prescreve em três anos, contados da data em que a Administração tomou conhecimento da infração.",
+        "B": "Incide a prescrição no procedimento administrativo paralisado por mais de três anos, pendente de julgamento ou despacho, cujos autos serão arquivados de ofício ou mediante requerimento da parte interessada.",
+        "C": "Quando o fato objeto da ação punitiva também constituir crime, a prescrição continua regida pelo prazo de cinco anos da lei, e não pelo da lei penal.",
+        "D": "A decisão condenatória recorrível suspende o prazo prescricional, que volta a correr de onde parou após o julgamento do recurso.",
+        "E": "A lei aplica-se às infrações de natureza funcional e aos processos de natureza tributária."
+      },
+      "correta": "B",
+      "dica": "Além do prazo geral, a lei tem uma regra para o processo que fica parado na mesa da Administração. Confira também o termo inicial do prazo geral.",
+      "explicacao": {
+        "B": "Correta. É o § 1º do art. 1º da Lei 9.873/1999: é a chamada prescrição intercorrente, que pune a inércia da Administração no curso do processo, sem prejuízo da apuração da responsabilidade funcional pela paralisação.",
+        "A": "O caput do art. 1º fixa cinco anos, contados da data da prática do ato ou, na infração permanente ou continuada, do dia em que tiver cessado. O prazo de três anos é o da prescrição intercorrente (§ 1º).",
+        "C": "O § 2º do art. 1º diz o contrário: quando o fato também constituir crime, a prescrição reger-se-á pelo prazo previsto na lei penal.",
+        "D": "O art. 2º, III, trata a decisão condenatória recorrível como causa de interrupção, e não de suspensão, da prescrição da ação punitiva. Na interrupção, o prazo recomeça do início.",
+        "E": "O art. 5º exclui expressamente da lei as infrações de natureza funcional e os processos e procedimentos de natureza tributária, que têm regras próprias."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.873/1999, arts. 1º, 2º e 5º", "data": "1999-11-23" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0029",
+      "tema": "Legalidade, dosimetria e cumulação de sanções",
+      "enunciado": "Sobre a aplicação de sanções administrativas, considerando a LINDB (Decreto-Lei nº 4.657/1942) e a Lei Municipal nº 16.466/2024, de Curitiba, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Na aplicação de sanções, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a administração pública, as circunstâncias agravantes ou atenuantes e os antecedentes do agente.",
+        "B": "As sanções aplicadas ao agente serão levadas em conta na dosimetria das demais sanções de mesma natureza e relativas ao mesmo fato.",
+        "C": "Pela lei municipal, somente a lei poderá prever infrações ou prescrever sanções.",
+        "D": "Pela lei municipal, no procedimento sancionatório, salvo legislação específica, o infrator será intimado para, em 10 (dez) dias úteis, oferecer sua defesa e apresentar as provas que julgar pertinentes.",
+        "E": "Pela lei municipal, o decreto do Prefeito pode tipificar infrações administrativas não previstas em lei, desde que assegure o contraditório no processo sancionador."
+      },
+      "correta": "E",
+      "dica": "Procure a alternativa que contraria o princípio da legalidade no direito sancionador, tal como a lei municipal o escreveu.",
+      "explicacao": {
+        "E": "É a resposta, porque está errada. O art. 13 da Lei 16.466/2024 é categórico: somente a lei poderá prever infrações ou prescrever sanções. Decreto pode detalhar a aplicação, mas não criar infração; o contraditório não supre a falta de lei.",
+        "A": "Correta. É o § 2º do art. 22 da LINDB, repetido no § 1º do art. 64 da Lei 16.466/2024. São os critérios de dosimetria que tornam a sanção proporcional.",
+        "B": "Correta. É o § 3º do art. 22 da LINDB, repetido no § 2º do art. 64 da lei municipal. A regra atenua o bis in idem entre esferas: quem já foi punido por um fato tem essa punição considerada nas demais de mesma natureza.",
+        "C": "Correta. É a literalidade do art. 13 da Lei 16.466/2024, expressão dos princípios da legalidade e da tipicidade no direito sancionador.",
+        "D": "Correta. É o art. 64, II, da Lei 16.466/2024. Pelo inciso IV, o infrator ainda terá 5 dias úteis para se manifestar sobre novos documentos juntados."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), art. 22, §§ 2º e 3º, incluídos pela Lei 13.655/2018", "data": "2018-04-25" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 13 e 64 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0030",
+      "tema": "Reformatio in pejus – recurso e revisão (Lei 9.784/1999)",
+      "enunciado": "Empresa multada por órgão federal, em processo administrativo regido pela Lei nº 9.784/1999, interpõe recurso administrativo. Anos depois de encerrado o processo, surgem fatos novos que, segundo ela, demonstram a inadequação da sanção. À luz dessa lei, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "No julgamento do recurso, é vedado ao órgão competente agravar a situação do recorrente em qualquer hipótese.",
+        "B": "A revisão do processo só pode ser requerida no prazo de cinco anos contados da aplicação da sanção.",
+        "C": "Da revisão do processo poderá resultar o agravamento da sanção, se os fatos novos revelarem maior gravidade da infração.",
+        "D": "A revisão depende sempre de pedido do interessado, não podendo ser instaurada de ofício.",
+        "E": "No julgamento do recurso, a decisão pode ser modificada em prejuízo do recorrente, desde que ele seja cientificado para formular alegações antes da decisão; já da revisão não pode resultar agravamento da sanção."
+      },
+      "correta": "E",
+      "dica": "A Lei 9.784/1999 trata de forma diferente o recurso e a revisão quanto à possibilidade de piorar a situação do punido.",
+      "explicacao": {
+        "E": "Correta. No recurso, o art. 64 permite confirmar, modificar, anular ou revogar a decisão, e o parágrafo único admite gravame ao recorrente, desde que ele seja cientificado antes para formular alegações. Na revisão, o parágrafo único do art. 65 veda o agravamento da sanção.",
+        "A": "O parágrafo único do art. 64 admite que da decisão do recurso decorra gravame à situação do recorrente, exigindo apenas sua prévia cientificação para formular alegações.",
+        "B": "O art. 65 permite a revisão \"a qualquer tempo\", quando surgirem fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada.",
+        "C": "O parágrafo único do art. 65 diz que da revisão do processo não poderá resultar agravamento da sanção. A revisão existe para beneficiar o punido.",
+        "D": "O art. 65 admite a revisão \"a pedido ou de ofício\". A Administração pode, por iniciativa própria, rever a sanção diante de fatos novos."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 64 e 65", "data": "1999-01-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0098",
+      "tema": "Procedimento sancionatório em Curitiba (Lei 16.466/2024, arts. 63-64)",
+      "enunciado": "Considere as afirmativas a seguir, sobre o procedimento sancionatório regido pela Lei Municipal nº 16.466/2024, de Curitiba.\n\nI. Nos processos que possam resultar na aplicação de sanções serão assegurados o contraditório e a ampla defesa.\nII. Havendo requerimento para a produção de provas, a autoridade apreciará a sua pertinência em despacho motivado, podendo indeferi-la quando o acervo documental acostado aos autos possuir força probante suficiente para a adequada instrução do processo.\nIII. A decisão, devidamente motivada, será proferida no prazo máximo de 15 (quinze) dias úteis após o término da instrução.\nIV. Se o infrator cometer simultaneamente duas ou mais infrações, ser-lhe-ão aplicadas, cumulativamente, as sanções a elas cominadas.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas II, III e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Somente as afirmativas I, II e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "D",
+      "dica": "Três incisos do art. 64 tratam de prova, prazo de decisão e concurso de infrações. Um deles troca o número de dias do prazo para decidir.",
+      "explicacao": {
+        "D": "Correta. I reproduz o art. 63; II, o art. 64, III; IV, o art. 64, VI. A III está errada: pelo art. 64, V, o prazo para a decisão, após o término da instrução, é de 30 (trinta) dias úteis, e não 15.",
+        "A": "Deixa de fora a IV, que está correta: pelo art. 64, VI, da Lei 16.466/2024, o concurso de infrações gera aplicação cumulativa das sanções correspondentes.",
+        "B": "Inclui a III, que está errada (o prazo de decisão do art. 64, V, é de 30 dias úteis, não 15), e deixa de fora a I, que reproduz o art. 63 (contraditório e ampla defesa nos processos sancionatórios).",
+        "C": "Inclui a III, que contraria o art. 64, V, e omite a II, que reproduz o art. 64, III, sobre a apreciação motivada do pedido de produção de provas.",
+        "E": "Nem todas estão corretas. A III inverte o prazo do art. 64, V, da Lei 16.466/2024: são 30 dias úteis após o término da instrução, e não 15."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 63 e 64, III, V e VI (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

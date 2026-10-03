@@ -1,0 +1,155 @@
+{
+  "versaoFormato": 1,
+  "materia": "pc",
+  "unidade": {
+    "id": "pc-11",
+    "titulo": "Ações constitucionais: MS, ação popular, habeas data e injunção",
+    "itemEdital": 11
+  },
+  "questoes": [
+    {
+      "id": "pc-0031",
+      "tema": "Mandado de segurança (Lei 12.016/2009)",
+      "enunciado": "Sobre o mandado de segurança, nos termos da Lei nº 12.016/2009, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "O direito de requerer mandado de segurança extinguir-se-á decorridos 120 (cento e vinte) dias, contados da ciência, pelo interessado, do ato impugnado.",
+        "B": "Concedida a segurança, a sentença estará sujeita obrigatoriamente ao duplo grau de jurisdição.",
+        "C": "Não cabem, no processo de mandado de segurança, a interposição de embargos infringentes e a condenação ao pagamento dos honorários advocatícios, sem prejuízo da aplicação de sanções no caso de litigância de má-fé.",
+        "D": "O pagamento de vencimentos e vantagens pecuniárias assegurados em sentença concessiva de mandado de segurança a servidor público municipal abrangerá as prestações vencidas nos cinco anos anteriores ao ajuizamento da inicial.",
+        "E": "Estende-se à autoridade coatora o direito de recorrer da sentença."
+      },
+      "correta": "D",
+      "dica": "O mandado de segurança não é substitutivo de ação de cobrança. Veja, no art. 14, a partir de quando as prestações pecuniárias são pagas na própria via mandamental.",
+      "explicacao": {
+        "A": "Afirmativa correta. É a literalidade do art. 23 da Lei 12.016/2009. O dispositivo foi questionado na ADI 4296, mas o STF declarou inconstitucionais apenas o art. 7º, § 2º, e o art. 22, § 2º (julgamento em 09/06/2021).",
+        "B": "Afirmativa correta. É o art. 14, § 1º: a sentença concessiva está sujeita obrigatoriamente ao duplo grau de jurisdição, ainda que não haja recurso.",
+        "C": "Afirmativa correta. É a literalidade do art. 25, também mantido pelo STF no julgamento da ADI 4296.",
+        "D": "É a resposta, pois a afirmativa é falsa. Pelo art. 14, § 4º, o pagamento de vencimentos e vantagens assegurados em sentença concessiva a servidor da administração direta ou autárquica federal, estadual e municipal somente será efetuado relativamente às prestações que se vencerem a contar da data do ajuizamento da inicial. As parcelas anteriores devem ser buscadas por ação própria.",
+        "E": "Afirmativa correta. É o art. 14, § 2º. A autoridade coatora pode recorrer em nome próprio, além da pessoa jurídica a que está vinculada."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.016/2009, arts. 14, 23 e 25", "data": "2009-08-07" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 4296 (inconstitucionalidade apenas dos arts. 7º, § 2º, e 22, § 2º, da Lei 12.016/2009)", "data": "2021-06-09" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0032",
+      "tema": "Ação popular (Lei 4.717/1965)",
+      "enunciado": "Com base na Lei nº 4.717/1965, que regula a ação popular, analise as assertivas abaixo.\nI. A pessoa jurídica de direito público cujo ato seja objeto de impugnação poderá abster-se de contestar o pedido, ou poderá atuar ao lado do autor, desde que isso se afigure útil ao interesse público, a juízo do respectivo representante legal ou dirigente.\nII. A sentença que concluir pela carência ou pela improcedência da ação está sujeita ao duplo grau de jurisdição, não produzindo efeito senão depois de confirmada pelo tribunal.\nIII. A ação popular prescreve em 10 (dez) anos.\nIV. O Ministério Público acompanhará a ação, podendo assumir a defesa do ato impugnado quando se convencer de sua legalidade.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e II estão corretas.",
+        "B": "Somente as assertivas I, II e IV estão corretas.",
+        "C": "Somente as assertivas II e III estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "A",
+      "dica": "Na ação popular, a remessa necessária protege o autor, e não o réu; e o Ministério Público tem uma vedação expressa no art. 6º, § 4º.",
+      "explicacao": {
+        "A": "Correta. A assertiva I reproduz o art. 6º, § 3º (a chamada intervenção móvel do ente público), e a II reproduz o art. 19, caput: na ação popular, o reexame necessário recai sobre a sentença de carência ou de improcedência, isto é, a desfavorável ao autor popular.",
+        "B": "Errada, porque inclui a assertiva IV. O art. 6º, § 4º, veda ao Ministério Público, \"em qualquer hipótese\", assumir a defesa do ato impugnado ou dos seus autores. Cabe-lhe apressar a prova e promover a responsabilidade dos que incidirem na lesão.",
+        "C": "Errada, porque inclui a assertiva III. O art. 21 fixa o prazo de 5 (cinco) anos para a ação popular.",
+        "D": "Errada. As assertivas III (o prazo é de 5 anos, art. 21) e IV (o MP não pode defender o ato, art. 6º, § 4º) são falsas, e as verdadeiras (I e II) ficaram de fora.",
+        "E": "Errada. As assertivas III e IV contrariam, respectivamente, o art. 21 e o art. 6º, § 4º, da Lei 4.717/1965."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 4.717/1965, arts. 6º, §§ 3º e 4º, 19 e 21", "data": "1965-06-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0033",
+      "tema": "Habeas data (Lei 9.507/1997) e mandado de injunção (Lei 13.300/2016)",
+      "enunciado": "Acerca do habeas data e do mandado de injunção, conforme as Leis nº 9.507/1997 e nº 13.300/2016, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "A petição inicial do habeas data para acesso a informações deve ser instruída com prova da recusa ao acesso ou do decurso de mais de dez dias sem decisão.",
+        "B": "São gratuitos o procedimento administrativo para acesso a informações e retificação de dados e para anotação de justificação, bem como a ação de habeas data.",
+        "C": "A decisão do mandado de injunção terá eficácia subjetiva limitada às partes, mas poderá ser conferida eficácia ultra partes ou erga omnes quando isso for inerente ou indispensável ao exercício do direito objeto da impetração.",
+        "D": "No mandado de injunção, estará prejudicada a impetração se a norma regulamentadora for editada antes da decisão, caso em que o processo será extinto sem resolução de mérito.",
+        "E": "A norma regulamentadora superveniente produzirá efeitos ex tunc em relação aos beneficiados por decisão transitada em julgado, ainda que lhes seja menos favorável."
+      },
+      "correta": "E",
+      "dica": "Pense no que acontece com quem já tem decisão favorável transitada em julgado quando, depois, a norma finalmente é editada.",
+      "explicacao": {
+        "A": "Afirmativa correta. É o art. 8º, parágrafo único, I, da Lei 9.507/1997. Para retificação ou anotação, o prazo que caracteriza a omissão é de mais de quinze dias (incisos II e III).",
+        "B": "Afirmativa correta. É a literalidade do art. 21 da Lei 9.507/1997.",
+        "C": "Afirmativa correta. É a combinação do caput do art. 9º com o seu § 1º, da Lei 13.300/2016. O § 2º ainda permite estender os efeitos a casos análogos, por decisão monocrática do relator, após o trânsito em julgado.",
+        "D": "Afirmativa correta. É o art. 11, parágrafo único, da Lei 13.300/2016: se a omissão acaba antes da decisão, desaparece o objeto da injunção.",
+        "E": "É a resposta, pois a afirmativa é falsa. Pelo art. 11, caput, da Lei 13.300/2016, a norma regulamentadora superveniente produz efeitos ex nunc em relação aos beneficiados por decisão transitada em julgado, salvo se a aplicação da norma editada lhes for mais favorável. A troca de ex nunc por ex tunc é a pegadinha."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.507/1997, arts. 8º e 21", "data": "1997-11-12" },
+        { "tipo": "lei", "referencia": "Lei 13.300/2016, arts. 9º e 11", "data": "2016-06-23" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0079",
+      "tema": "Mandado de segurança: cabimento, coator e litisconsórcio",
+      "enunciado": "Sobre o mandado de segurança, nos termos da Lei nº 12.016/2009, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "Não se concederá mandado de segurança quando se tratar de ato do qual caiba recurso administrativo com efeito suspensivo, independentemente de caução.",
+        "B": "Considera-se autoridade coatora aquela que tenha praticado o ato impugnado ou da qual emane a ordem para a sua prática.",
+        "C": "O ingresso de litisconsorte ativo será admitido até a prolação da sentença, desde que o novo impetrante esteja na mesma situação jurídica dos demais.",
+        "D": "O pedido de mandado de segurança poderá ser renovado dentro do prazo decadencial, se a decisão denegatória não lhe houver apreciado o mérito.",
+        "E": "As autoridades administrativas, no prazo de 48 (quarenta e oito) horas da notificação da medida liminar, remeterão a quem tiver a representação judicial do Município cópia autenticada do mandado notificatório e os elementos necessários à eventual suspensão da medida e à defesa do ato."
+      },
+      "correta": "C",
+      "dica": "A lei do mandado de segurança fixa um marco processual a partir do qual o polo ativo fica fechado. Não é a sentença.",
+      "explicacao": {
+        "A": "Correta a afirmativa: art. 5º, I. Se há recurso administrativo com efeito suspensivo sem exigência de caução, não cabe o mandado de segurança.",
+        "B": "Correta a afirmativa: art. 6º, § 3º. Coator é quem pratica o ato ou quem dá a ordem para a sua prática, e não o mero executor.",
+        "C": "Esta é a incorreta. O art. 10, § 2º, diz que o ingresso de litisconsorte ativo não será admitido após o despacho da petição inicial.",
+        "D": "Correta a afirmativa: art. 6º, § 6º. Sem exame de mérito, o pedido pode ser renovado enquanto não decorrido o prazo decadencial.",
+        "E": "Correta a afirmativa: art. 9º. O prazo de 48 horas serve para que a representação judicial do ente possa pedir a suspensão da medida e defender o ato."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.016/2009, arts. 5º, 6º, 9º e 10",
+          "data": "2009-08-07"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "pc-0080",
+      "tema": "Mandado de segurança: recursos, execução provisória e prioridade",
+      "enunciado": "Acerca dos recursos e da execução no mandado de segurança, conforme a Lei nº 12.016/2009, analise as assertivas abaixo.\nI. Do indeferimento da petição inicial pelo juiz de primeiro grau caberá apelação.\nII. Das decisões em mandado de segurança proferidas em única instância pelos tribunais cabe recurso especial e extraordinário, nos casos legalmente previstos, e recurso ordinário, quando a ordem for denegada.\nIII. A sentença que conceder o mandado de segurança pode ser executada provisoriamente, salvo nos casos em que for vedada a concessão da medida liminar.\nIV. Os processos de mandado de segurança e os respectivos recursos terão prioridade sobre todos os atos judiciais, inclusive sobre o habeas corpus.\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as assertivas I e III estão corretas.",
+        "B": "Somente as assertivas I, II e III estão corretas.",
+        "C": "Somente as assertivas II e IV estão corretas.",
+        "D": "Somente as assertivas III e IV estão corretas.",
+        "E": "Todas as assertivas estão corretas."
+      },
+      "correta": "B",
+      "dica": "O recurso ordinário existe para favorecer o impetrante derrotado. E a prioridade do mandado de segurança tem uma única ressalva.",
+      "explicacao": {
+        "A": "Errada, porque deixa de fora a assertiva II, que reproduz o art. 18 da Lei 12.016/2009 (e coincide com o art. 1.027, II, \"a\", do CPC).",
+        "B": "Correta. I: art. 10, § 1º. II: art. 18. III: art. 14, § 3º. A IV contraria o art. 20, que ressalva o habeas corpus.",
+        "C": "Errada, porque inclui a assertiva IV. O art. 20 dá prioridade ao mandado de segurança sobre todos os atos judiciais, \"salvo habeas corpus\".",
+        "D": "Errada, porque inclui a assertiva IV (contrária ao art. 20) e deixa de fora as assertivas I e II, verdadeiras.",
+        "E": "Errada, porque a assertiva IV é falsa: o habeas corpus tem precedência sobre o mandado de segurança (art. 20)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.016/2009, arts. 10, § 1º, 14, § 3º, 18 e 20",
+          "data": "2009-08-07"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 1.027, II, \"a\"",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

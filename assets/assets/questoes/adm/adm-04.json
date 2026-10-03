@@ -1,0 +1,281 @@
+{
+  "versaoFormato": 1,
+  "materia": "adm",
+  "unidade": {
+    "id": "adm-04",
+    "titulo": "Atos e processo administrativo",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "adm-0001",
+      "tema": "Atos administrativos – invalidação",
+      "enunciado": "Sobre a invalidação dos atos administrativos, à luz da Lei nº 9.784/1999 e da jurisprudência do Supremo Tribunal Federal, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A Administração Pública só pode anular os próprios atos ilegais mediante prévia autorização judicial.",
+        "B": "O direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé.",
+        "C": "O ato administrativo ilegal deve ser revogado, com efeitos ex nunc, preservando-se os direitos adquiridos.",
+        "D": "Os atos que apresentarem defeitos sanáveis devem ser obrigatoriamente anulados, ainda que não haja lesão ao interesse público nem prejuízo a terceiros.",
+        "E": "O prazo decadencial para anulação de atos favoráveis aplica-se inclusive quando comprovada a má-fé do beneficiário."
+      },
+      "correta": "B",
+      "dica": "Anular e revogar não são sinônimos. Pense em qual das duas atinge o ato ilegal e se existe um prazo para a Administração fazer isso.",
+      "explicacao": {
+        "A": "Pelo princípio da autotutela, a Administração anula os próprios atos ilegais sem depender do Judiciário (Súmula 473/STF e art. 53 da Lei 9.784/1999). O interessado pode ir ao Judiciário, mas isso não é condição para a anulação.",
+        "B": "É a literalidade do art. 54 da Lei 9.784/1999: o direito da Administração de anular atos de que decorram efeitos favoráveis aos destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé. O prazo protege a segurança jurídica e a confiança de quem se beneficiou do ato.",
+        "C": "Ato ilegal não se revoga, se anula. A revogação alcança ato válido, por conveniência e oportunidade, com efeitos ex nunc; a anulação alcança ato ilegal e, em regra, retroage (ex tunc).",
+        "D": "O art. 55 da Lei 9.784/1999 permite convalidar atos com defeitos sanáveis quando não houver lesão ao interesse público nem prejuízo a terceiros. A anulação não é obrigatória nesse caso.",
+        "E": "O próprio art. 54 da Lei 9.784/1999 ressalva a comprovada má-fé: quando ela existe, o prazo decadencial de cinco anos não se aplica."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 53, 54 e 55", "data": "1999-01-29" },
+        { "tipo": "sumula", "referencia": "Súmula 473/STF", "data": "1969-12-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0021",
+      "tema": "Processo administrativo em Curitiba – recurso e reconsideração (Lei 16.466/2024)",
+      "enunciado": "Com base na Lei Municipal nº 16.466/2024, que dispõe sobre o processo administrativo no âmbito da Administração Pública Direta, Autárquica e Fundacional do Município de Curitiba, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Da publicação da decisão caberá, no prazo de 15 (quinze) dias úteis, um único recurso à autoridade imediatamente superior, que, salvo disposição legal em contrário, não tem efeito suspensivo.",
+        "B": "O recurso administrativo tramitará por até três instâncias administrativas, no prazo de 10 (dez) dias contados da ciência da decisão.",
+        "C": "O recurso tem sempre efeito suspensivo, por força do contraditório e da ampla defesa.",
+        "D": "O pedido de reconsideração é cabível contra qualquer decisão, pode ser renovado e deve ser dirigido à autoridade imediatamente superior àquela que decidiu.",
+        "E": "O pedido de reconsideração pode resultar em agravamento da pena, se a autoridade verificar que a sanção aplicada foi insuficiente."
+      },
+      "correta": "A",
+      "dica": "A lei municipal não copiou a Lei 9.784/1999 nesse ponto: compare o número de recursos, o prazo e a forma de contagem.",
+      "explicacao": {
+        "A": "Correta. É a combinação do caput do art. 46 da Lei 16.466/2024 (prazo de 15 dias úteis, um único recurso à autoridade imediatamente superior) com o seu § 1º: salvo disposição legal em contrário, o recurso não tem efeito suspensivo, que pode ser dado, de ofício ou a pedido, havendo justo receio de prejuízo de difícil ou incerta reparação.",
+        "B": "Mistura a lei federal com a municipal. A tramitação por até três instâncias e o prazo de dez dias são regras da Lei 9.784/1999 (arts. 57 e 59). Em Curitiba, o art. 46 da Lei 16.466/2024 prevê um único recurso, em 15 dias úteis.",
+        "C": "O § 1º do art. 46 diz o oposto: salvo disposição legal em contrário, o recurso não tem efeito suspensivo. O efeito suspensivo é excepcional e depende de justo receio de prejuízo de difícil ou incerta reparação.",
+        "D": "Pelo art. 50, a reconsideração só cabe contra decisão originariamente tomada pela autoridade máxima do órgão ou entidade, contra a qual não caiba recurso hierárquico, e é vedada sua renovação. Pelo § 1º, ela é dirigida obrigatoriamente à própria autoridade que proferiu a decisão.",
+        "E": "O § 2º do art. 50 veda expressamente que o pedido de reconsideração resulte em agravamento de pena."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 46 e 50 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" },
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 57 e 59", "data": "1999-01-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0022",
+      "tema": "Anulação, decadência e convalidação na lei municipal (Lei 16.466/2024)",
+      "enunciado": "Sobre a anulação e a convalidação dos atos administrativos no Município de Curitiba, nos termos da Lei Municipal nº 16.466/2024, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O direito da Administração de anular os atos de que decorram efeitos favoráveis para os destinatários decai em 10 (dez) anos, contados da data em que foram praticados.",
+        "B": "O prazo decadencial para anular atos favoráveis aplica-se inclusive ao ato com ofensa direta à Constituição Federal.",
+        "C": "Os atos que apresentarem defeitos sanáveis podem ser convalidados, a critério da autoridade, ainda que a convalidação acarrete prejuízo a terceiros.",
+        "D": "Em caso de invalidação, os valores de natureza alimentar recebidos de boa-fé pelo administrado, em decorrência de errônea interpretação da lei pela Administração, devem ser integralmente restituídos.",
+        "E": "No caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento."
+      },
+      "correta": "E",
+      "dica": "O art. 53 da lei municipal tem uma ressalva a mais que o art. 54 da Lei 9.784/1999. Leia também os artigos seguintes, sobre convalidação e verbas alimentares.",
+      "explicacao": {
+        "E": "Correta. É o § 1º do art. 53 da Lei 16.466/2024, na mesma linha do § 1º do art. 54 da Lei 9.784/1999: nos efeitos patrimoniais contínuos, a decadência corre a partir do primeiro pagamento.",
+        "A": "O prazo é de 5 (cinco) anos, contados da data em que os atos foram praticados, pelo caput do art. 53 da Lei 16.466/2024.",
+        "B": "O caput do art. 53 ressalva duas situações do prazo decadencial: a comprovada má-fé e o ato com ofensa direta à Constituição Federal. A segunda ressalva não está no art. 54 da Lei 9.784/1999, e é uma diferença que a banca pode explorar.",
+        "C": "O art. 54 da lei municipal diz que os atos com defeitos sanáveis \"devem ser convalidados\", mas só em decisão na qual se evidencie não acarretar lesão ao interesse público nem prejuízo a terceiros.",
+        "D": "O art. 55 diz o contrário: em caso de invalidação, não estão sujeitos à repetição os valores de natureza alimentar recebidos de boa-fé pelo administrado, em decorrência de errônea ou inadequada interpretação da lei por parte da Administração."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 53 a 55 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" },
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, art. 54", "data": "1999-01-29" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0023",
+      "tema": "Delegação e avocação de competência (Lei 9.784/1999)",
+      "enunciado": "Considerando as regras de delegação e avocação de competência previstas na Lei nº 9.784/1999, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A delegação só pode ser feita a órgão ou titular hierarquicamente subordinado ao delegante.",
+        "B": "A decisão de recursos administrativos pode ser delegada, desde que o ato de delegação seja publicado no meio oficial.",
+        "C": "As decisões adotadas por delegação devem mencionar explicitamente essa qualidade e considerar-se-ão editadas pelo delegado.",
+        "D": "O ato de delegação é irrevogável durante o prazo nele fixado, em respeito à segurança jurídica.",
+        "E": "A avocação temporária de competência atribuída a órgão hierarquicamente inferior é livre, dispensando justificativa."
+      },
+      "correta": "C",
+      "dica": "Lembre quem responde pelo ato praticado por delegação, e quais matérias a lei tira do alcance da delegação.",
+      "explicacao": {
+        "C": "Correta. É o § 3º do art. 14 da Lei 9.784/1999. Como o ato se considera editado pelo delegado, é contra ele que se volta, por exemplo, o mandado de segurança.",
+        "A": "O art. 12 admite a delegação a outros órgãos ou titulares \"ainda que estes não lhe sejam hierarquicamente subordinados\", quando for conveniente em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.",
+        "B": "O art. 13 veda a delegação de três matérias: edição de atos de caráter normativo, decisão de recursos administrativos e matérias de competência exclusiva do órgão ou autoridade. A publicação não supera essa vedação.",
+        "D": "O § 2º do art. 14 diz que o ato de delegação é revogável a qualquer tempo pela autoridade delegante. A Lei 16.466/2024, de Curitiba, repete a regra no parágrafo único do art. 25.",
+        "E": "O art. 15 só permite a avocação temporária em caráter excepcional e por motivos relevantes devidamente justificados."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.784/1999, arts. 12 a 15", "data": "1999-01-29" },
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 16.466/2024, art. 25 (DOM nº 242, de 19/12/2024)", "data": "2024-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0060",
+      "tema": "Processo administrativo eletrônico em Curitiba (Decreto 435/2026)",
+      "enunciado": "O Decreto Municipal nº 435/2026 regulamenta o processo administrativo eletrônico no âmbito da Administração Direta, Autárquica e Fundacional do Município de Curitiba, nos termos da Lei Municipal nº 16.466/2024. Segundo esse decreto, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Não podem ser objeto de delegação a edição de atos de caráter normativo, a decisão de recursos administrativos e as matérias de competência exclusiva do órgão ou autoridade.",
+        "B": "É impedido de atuar no processo administrativo eletrônico o agente público que tenha funcionado como representante legal, preposto ou mandatário do interessado.",
+        "C": "Inexistindo confirmação de leitura da intimação eletrônica em até 10 (dez) dias contínuos contados da data do envio, considera-se automaticamente realizado o ato na data do término desse prazo.",
+        "D": "Os estagiários podem praticar quaisquer atos no processo, inclusive ratificar informações e anular documentos, dispensada a assinatura do supervisor do estágio quando usarem assinatura eletrônica simples.",
+        "E": "Excepcionalmente, admite-se a formação física do processo em caso de indisponibilidade do meio eletrônico cujo prolongamento cause danos relevantes à celeridade, devendo os documentos ser depois digitalizados e juntados aos autos eletrônicos."
+      },
+      "correta": "D",
+      "dica": "O decreto confia aos estagiários só uma parte do trabalho e sempre com alguém responsável ao lado. Procure a alternativa que amplia essa atuação.",
+      "alerta": "Mudança recente: o Decreto Municipal nº 435/2026 (publicado em 01/04/2026) alterou este ponto. Como é anterior à publicação do edital, vale a redação em vigor em 21/09/2026. Responda por ela.",
+      "explicacao": {
+        "D": "É a incorreta. Pelo art. 17 do Decreto 435/2026, os atos praticados por estagiários limitam-se à anexação de arquivos e a trâmites que produzam informações simples, com assinatura eletrônica simples e, abaixo dela, a assinatura do supervisor do estágio, que é o responsável solidário pelo ato. O § 3º ainda proíbe aos estagiários de ensino médio ratificar informações, anular e ocultar documentos.",
+        "A": "Correta. É o art. 20, § 3º, do Decreto 435/2026: não podem ser delegados a edição de atos normativos, a decisão de recursos administrativos e as matérias de competência exclusiva. É o mesmo rol do art. 13 da Lei 9.784/1999.",
+        "B": "Correta. O art. 23, III, do decreto acrescenta essa causa de impedimento às dos incisos I e II (interesse direto ou indireto na matéria e litígio com o interessado ou seus parentes até o terceiro grau), que reproduzem o art. 27 da Lei 16.466/2024.",
+        "C": "Correta. É o art. 15 do decreto, que repete o art. 35, § 6º, da Lei 16.466/2024. Atenção ao detalhe: são 10 dias contínuos, e não úteis.",
+        "E": "Correta. O art. 50 do decreto admite, como exceção, a formação física do processo quando o meio eletrônico estiver indisponível e a demora prejudicar a celeridade; o parágrafo único exige a digitalização e a juntada posterior dos documentos aos autos eletrônicos."
+      },
+      "fontes": [
+        {
+          "tipo": "decreto",
+          "referencia": "Decreto Municipal de Curitiba 435/2026, arts. 15, 17, 20, 23 e 50",
+          "data": "2026-04-01"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 27 e 35, § 6º (DOM nº 242, de 19/12/2024)",
+          "data": "2024-12-19"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0061",
+      "tema": "Prazos e intimações na Lei 16.466/2024 de Curitiba",
+      "enunciado": "Considere as afirmativas a seguir, sobre prazos e intimações no processo administrativo do Município de Curitiba, nos termos da Lei Municipal nº 16.466/2024.\n\nI. Inexistindo disposição específica, os atos do processo devem ser praticados no prazo de 5 (cinco) dias úteis, que pode ser prorrogado por igual período, a critério da autoridade competente, mediante justificativa.\nII. A convocação do interessado para complementar documentação, corrigir dados ou comparecer será feita por intimação, observada a antecedência mínima de 3 (três) dias úteis.\nIII. A intimação será feita, preferencialmente, por publicação no Diário Oficial, e o correio eletrônico só será utilizado quando o interessado o requerer expressamente.\nIV. A intimação por edital considera-se efetivada 3 (três) dias úteis após a sua publicação, e a intimação feita sem observância das prescrições legais é nula, mas o comparecimento do interessado supre a sua falta ou irregularidade.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II e III estão corretas.",
+        "D": "Somente as afirmativas III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "A lei municipal estabelece uma ordem sucessiva de meios de intimação, pensada para o processo eletrônico. O Diário Oficial fica para um caso específico.",
+      "explicacao": {
+        "B": "Correta. I reproduz o art. 32; II reproduz o art. 33; IV combina o art. 35, § 3º, III (edital efetivado 3 dias úteis após a publicação), com o § 8º (nulidade suprida pelo comparecimento). Só a III está errada: pelo art. 35, a intimação se faz sucessivamente por correio eletrônico com confirmação de leitura, por via postal simples e, apenas para interessados indeterminados, desconhecidos ou com domicílio indefinido, por publicação no Diário Oficial.",
+        "A": "Deixa de fora a IV, que está correta: o art. 35, § 3º, III, considera efetivada a intimação por edital 3 dias úteis após a publicação, e o § 8º declara nula a intimação irregular, suprida pelo comparecimento do interessado.",
+        "C": "A III está errada e a alternativa omite I e IV. O meio preferencial é o eletrônico (art. 35, I), e o Diário Oficial é reservado aos interessados indeterminados, desconhecidos ou com domicílio indefinido (art. 35, III).",
+        "D": "A III inverte a ordem do art. 35, que começa pelo correio eletrônico com confirmação de leitura; além disso, a alternativa deixa de fora I (art. 32) e II (art. 33), que estão corretas.",
+        "E": "Nem todas estão corretas. A III contraria o art. 35 da Lei 16.466/2024: o Diário Oficial não é o meio preferencial, e o correio eletrônico não depende de requerimento do interessado. O § 1º chega a obrigar empresas e agentes públicos a manter cadastro no sistema eletrônico."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 32, 33 e 35 (DOM nº 242, de 19/12/2024)",
+          "data": "2024-12-19"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0062",
+      "tema": "Motivação obrigatória dos atos administrativos (Lei 9.784/1999, art. 50)",
+      "enunciado": "Nos termos do art. 50 da Lei nº 9.784/1999, os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, em determinadas hipóteses. Assinale a alternativa que NÃO corresponde a uma dessas hipóteses.",
+      "alternativas": {
+        "A": "Atos que neguem, limitem ou afetem direitos ou interesses.",
+        "B": "Atos que dispensem ou declarem a inexigibilidade de processo licitatório.",
+        "C": "Atos que deixem de aplicar jurisprudência firmada sobre a questão ou discrepem de pareceres, laudos, propostas e relatórios oficiais.",
+        "D": "Atos que importem anulação, revogação, suspensão ou convalidação de ato administrativo.",
+        "E": "Atos que deleguem competência a órgão hierarquicamente subordinado por razões de índole técnica ou territorial."
+      },
+      "correta": "E",
+      "dica": "O art. 50 tem oito incisos, todos ligados a decisões que afetam o administrado ou se afastam do esperado. A delegação é tratada em outro capítulo da lei.",
+      "explicacao": {
+        "E": "É a resposta. A delegação de competência não está no rol do art. 50: é disciplinada nos arts. 12 a 14 da Lei 9.784/1999, que exigem a publicação do ato de delegação e a especificação das matérias, dos poderes, dos limites e da duração, mas não a incluem entre os atos de motivação obrigatória do art. 50.",
+        "A": "Está no rol. É o inciso I do art. 50: atos que neguem, limitem ou afetem direitos ou interesses precisam indicar os fatos e os fundamentos jurídicos.",
+        "B": "Está no rol. É o inciso IV do art. 50. Por isso a contratação direta sempre exige justificativa expressa da dispensa ou da inexigibilidade.",
+        "C": "Está no rol. É o inciso VII do art. 50: quem se afasta da jurisprudência firmada ou de pareceres, laudos e relatórios oficiais precisa dizer por quê.",
+        "D": "Está no rol. É o inciso VIII do art. 50. O § 1º permite que a motivação consista em declaração de concordância com pareceres anteriores, que passam a integrar o ato (motivação aliunde)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 9.784/1999, arts. 12 a 14 e 50",
+          "data": "1999-01-29"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0063",
+      "tema": "Impedimento e suspeição: Lei 9.784/1999 e Lei 16.466/2024",
+      "enunciado": "Sobre impedimento e suspeição no processo administrativo, considerando a Lei nº 9.784/1999 e a Lei Municipal nº 16.466/2024, de Curitiba, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Na Lei nº 9.784/1999, a omissão do dever de comunicar o impedimento constitui falta grave, para efeitos disciplinares.",
+        "B": "Em ambas as leis, a amizade íntima ou a inimizade notória com algum dos interessados é causa de impedimento, que o servidor deve declarar de ofício.",
+        "C": "Na Lei Municipal nº 16.466/2024, o indeferimento da alegação de suspeição pode ser objeto de recurso, que tem efeito suspensivo automático.",
+        "D": "Na Lei nº 9.784/1999, é impedido o servidor que esteja litigando judicial ou administrativamente com o interessado ou com os parentes e afins deste até o terceiro grau.",
+        "E": "Na Lei Municipal nº 16.466/2024, o servidor com interesse indireto na matéria pode atuar no processo, desde que declare esse interesse nos autos."
+      },
+      "correta": "A",
+      "dica": "Separe as causas objetivas (impedimento) das subjetivas (suspeição) e compare o alcance do litígio nas duas leis: a municipal foi mais longe que a federal.",
+      "explicacao": {
+        "A": "Correta. É o parágrafo único do art. 19 da Lei 9.784/1999: a autoridade ou servidor impedido deve comunicar o fato à autoridade competente e abster-se de atuar, e a omissão desse dever constitui falta grave para efeitos disciplinares.",
+        "B": "Amizade íntima e inimizade notória são causas de suspeição, não de impedimento: art. 20 da Lei 9.784/1999 e art. 29 da Lei 16.466/2024. A suspeição pode ser arguida pelo interessado; o impedimento é que impõe ao próprio servidor o dever de se abster.",
+        "C": "O parágrafo único do art. 29 da Lei 16.466/2024 admite um único recurso contra o indeferimento da suspeição, sem efeito suspensivo. A Lei 9.784/1999 também nega efeito suspensivo a esse recurso (art. 21).",
+        "D": "Na Lei 9.784/1999 (art. 18, III), o litígio que gera impedimento é com o interessado ou com o respectivo cônjuge ou companheiro. A extensão a parentes e afins até o terceiro grau aparece na lei de Curitiba (art. 27, II, da Lei 16.466/2024). Essa diferença entre as duas leis é a pegadinha.",
+        "E": "O art. 27, I, da Lei 16.466/2024 declara impedido quem tenha interesse direto ou indireto na matéria. O impedido deve comunicar o fato e abster-se de atuar (art. 28); declarar o interesse nos autos não o autoriza a continuar."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 9.784/1999, arts. 18 a 21",
+          "data": "1999-01-29"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 27 a 29 (DOM nº 242, de 19/12/2024)",
+          "data": "2024-12-19"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    },
+    {
+      "id": "adm-0064",
+      "tema": "Decisão, desistência e suspensão de prazos na Lei 16.466/2024",
+      "enunciado": "Com base na Lei Municipal nº 16.466/2024, que dispõe sobre o processo administrativo no Município de Curitiba, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Concluída a instrução, a autoridade competente deve decidir no prazo de 30 (trinta) dias úteis, permitida a prorrogação devidamente motivada, sem que a decisão ultrapasse o prazo total de 6 (seis) meses.",
+        "B": "A desistência do requerente, manifestada por escrito, não impede a continuidade do processo se o interesse público assim o exigir, e, havendo pluralidade de requerentes, a desistência de um não prejudica os demais.",
+        "C": "Os prazos processuais correm normalmente no período de 20 de dezembro a 20 de janeiro, salvo se a autoridade, a pedido do interessado, determinar a sua suspensão.",
+        "D": "O recurso não será conhecido quando interposto fora do prazo, por quem não seja legitimado ou após o encerramento da instância administrativa.",
+        "E": "Em caso de risco iminente que evidencie a probabilidade do direito e perigo de dano, a Administração pode, motivadamente, adotar providências acauteladoras sem prévia manifestação do interessado, que será intimado depois para, querendo, manifestar-se."
+      },
+      "correta": "C",
+      "dica": "A lei de Curitiba tem um recesso para os prazos, parecido com o do processo judicial. Lembre-se das disposições finais.",
+      "explicacao": {
+        "C": "É a incorreta. Pelo art. 75 da Lei 16.466/2024, ficam suspensos os prazos processuais no período de 20 de dezembro a 20 de janeiro e nos períodos definidos em decreto como recessos, feriados e pontos facultativos. A suspensão decorre da própria lei, sem depender de pedido; os atos urgentes são atendidos em regime de plantão (parágrafo único).",
+        "A": "Correta. É o art. 43, caput: 30 dias úteis para decidir após a instrução, prorrogáveis com motivação, com teto de 6 meses. O § 2º lista hipóteses de suspensão desse prazo, como a dependência de documento a ser fornecido pelo interessado.",
+        "B": "Correta. É o art. 44 e seu parágrafo único. O interesse público pode justificar a continuidade do processo mesmo com a desistência do requerente.",
+        "D": "Correta. São os três incisos do art. 49. O parágrafo único ainda considera abusivo, e não conhece, recurso que vise alterar a verdade dos fatos ou que seja manifestamente protelatório ou repetitivo.",
+        "E": "Correta. É o art. 42 e seu parágrafo único: a cautelar administrativa pode ser adotada antes de ouvir o interessado, que é intimado em seguida para se manifestar (contraditório diferido)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei Municipal de Curitiba 16.466/2024, arts. 42, 43, 44, 49 e 75 (DOM nº 242, de 19/12/2024)",
+          "data": "2024-12-19"
+        }
+      ],
+      "origem": {
+        "tipo": "inedita"
+      }
+    }
+  ]
+}

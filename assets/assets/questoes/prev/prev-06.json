@@ -1,0 +1,66 @@
+{
+  "versaoFormato": 1,
+  "materia": "prev",
+  "unidade": {
+    "id": "prev-06",
+    "titulo": "Contribuições ao RPPS: ativos, inativos, pensionistas e Município",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "prev-0014",
+      "tema": "Alíquotas de contribuição do RPPS de Curitiba",
+      "enunciado": "Com base na Lei Complementar Municipal nº 133/2021, de Curitiba, na redação dada pela Lei Complementar nº 147/2025, e na Lei Municipal nº 15.042/2017, assinale a alternativa CORRETA sobre o custeio do RPPS municipal.",
+      "alternativas": {
+        "A": "A contribuição dos servidores ativos é progressiva, de 11% a 14%, com aumento de meio ponto percentual por ano, na forma da Lei nº 15.042/2017.",
+        "B": "A contribuição patronal do Município incide também sobre os proventos dos aposentados e as pensões pagas pelo IPMC.",
+        "C": "No caso de acumulação de cargos, as contribuições incidem sobre a soma das remunerações, tratadas como um único vínculo.",
+        "D": "O Município, por sua administração direta, autárquica e fundacional, e a Câmara Municipal contribuem para o RPPS com o percentual de 28%, a título de contribuição ordinária, incidente sobre o valor bruto da remuneração e da gratificação natalina dos servidores ativos sobre as quais incide contribuição previdenciária.",
+        "E": "A taxa de administração destinada ao custeio do IPMC é de 2,4% sobre o somatório da remuneração de contribuição dos servidores ativos do exercício anterior."
+      },
+      "correta": "D",
+      "dica": "A contribuição patronal é o dobro da do servidor, e só se calcula sobre a folha de quem está em atividade.",
+      "explicacao": {
+        "D": "Correta. É o art. 35 da LC 133/2021, na redação da LC 147/2025, que fixou 28% de forma permanente, respeitadas as massas do FP-CURITIBA e do FF-CURITIBA. O percentual é o dobro dos 14% dos servidores (art. 36) e, portanto, está dentro do teto do art. 2º da Lei federal 9.717/1998 (nem inferior à contribuição do servidor, nem superior ao dobro).",
+        "A": "A escala progressiva da Lei 15.042/2017 (11% em 2017 até 14% em 2023) foi dada ao art. 14, II, da Lei 9.626/1999, dispositivo revogado pelo art. 74, III, e, da LC 133/2021. Hoje, o art. 36 da LC 133/2021 fixa 14% para servidores ativos, aposentados e pensionistas.",
+        "B": "O art. 2º da Lei 15.042/2017 estabelece que a contribuição patronal relativa à previdência se restringe aos servidores ativos, sendo defeso o seu custeio relativamente a inativos e pensionistas. O parágrafo único do art. 35 da LC 133/2021 também manda calcular os 28% sobre a remuneração dos ativos.",
+        "C": "O art. 36, § 5º, da LC 133/2021, incluído pela LC 147/2025, determina que, na acumulação de cargos, as contribuições incidam sobre a remuneração de cada um dos vínculos, de maneira separada.",
+        "E": "Pelo art. 41 da LC 133/2021, a taxa de administração é de 1% sobre o somatório da remuneração de contribuição dos servidores ativos do exercício anterior. Os 2,4% são o teto dos repasses complementares do Município se a taxa não bastar (§ 2º)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Complementar 147/2025 de Curitiba (arts. 35 e 36 da LC 133/2021)", "data": "2025-06-24" },
+        { "tipo": "lei", "referencia": "Lei Complementar 133/2021 de Curitiba, arts. 41 e 74", "data": "2021-12-15" },
+        { "tipo": "lei", "referencia": "Lei Municipal 15.042/2017 (Curitiba), arts. 1º e 2º", "data": "2017-06-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "prev-0015",
+      "tema": "Contribuições para o RPPS na CF, na Lei 9.717/1998 e na EC 103/2019",
+      "enunciado": "Acerca das contribuições para o custeio dos regimes próprios de previdência social dos Municípios, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Para fins de afastar a exigência de alíquota não inferior à dos servidores da União, considera-se ausência de deficit atuarial a implementação de segregação da massa de segurados ou a previsão em lei de plano de equacionamento de deficit.",
+        "B": "Os Municípios instituirão, por meio de lei, contribuições para custeio de regime próprio, cobradas dos servidores ativos, dos aposentados e dos pensionistas, que poderão ter alíquotas progressivas de acordo com o valor da base de contribuição ou dos proventos de aposentadoria e de pensões.",
+        "C": "As contribuições e os recursos vinculados ao fundo previdenciário do Município e as contribuições dos servidores ativos, inativos e pensionistas somente poderão ser utilizados para pagamento de benefícios previdenciários do respectivo regime, ressalvadas as despesas administrativas, observados os limites de gastos estabelecidos em parâmetros gerais.",
+        "D": "Os Municípios não poderão estabelecer alíquota inferior à da contribuição dos servidores da União, exceto se demonstrado que o respectivo regime próprio não possui deficit atuarial a ser equacionado, hipótese em que a alíquota não poderá ser inferior às aplicáveis ao Regime Geral de Previdência Social.",
+        "E": "Para requerer qualquer benefício ao IPMC, o servidor municipal de Curitiba deverá comprovar a regularidade das contribuições previdenciárias."
+      },
+      "correta": "A",
+      "dica": "O § 5º do art. 9º da EC 103/2019 impede que duas medidas de gestão do deficit sejam usadas como prova de que ele não existe.",
+      "explicacao": {
+        "A": "É a resposta, porque a alternativa está errada. O art. 9º, § 5º, da EC 103/2019 diz o contrário: para fins do § 4º, NÃO será considerada como ausência de deficit a implementação de segregação da massa de segurados ou a previsão em lei de plano de equacionamento. A LC 133/2021 de Curitiba repete a regra no art. 37, § 1º.",
+        "B": "Correta. É o art. 149, § 1º, da CF, com redação da EC 103/2019. Em Curitiba, a lei referendou essa alteração no art. 73, parágrafo único, I, da LC 133/2021, como exige o art. 36, II, da EC 103/2019.",
+        "C": "Correta. É o art. 1º, III, da Lei 9.717/1998, com redação da MP 2.187-13/2001: os recursos previdenciários têm destinação vinculada.",
+        "D": "Correta. É o art. 9º, § 4º, da EC 103/2019. A regra impede que o ente com deficit atuarial cobre de seus servidores menos do que a União cobra dos dela; sem deficit, o piso passa a ser a alíquota do RGPS.",
+        "E": "Correta. É o art. 18 da Lei Municipal 12.072/2006, que trata da contribuição do servidor à disposição ou licenciado."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "EC 103/2019, art. 9º, §§ 4º e 5º", "data": "2019-11-12" },
+        { "tipo": "constituicao", "referencia": "CF, art. 149, § 1º (EC 103/2019)", "data": "2019-11-12" },
+        { "tipo": "lei", "referencia": "Lei 9.717/1998, art. 1º, III", "data": "1998-11-27" },
+        { "tipo": "lei", "referencia": "Lei Municipal 12.072/2006 (Curitiba), art. 18", "data": "2006-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "versaoFormato": 1,
+  "materia": "const",
+  "unidade": {
+    "id": "const-03",
+    "titulo": "Controle de constitucionalidade",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "const-0007",
+      "tema": "ADI – medida cautelar e regras do processo (Lei 9.868/1999)",
+      "enunciado": "Com base na Lei nº 9.868/1999, que disciplina o processo e o julgamento da ação direta de inconstitucionalidade (ADI) perante o Supremo Tribunal Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A medida cautelar, dotada de eficácia contra todos, será concedida com efeito ex nunc, salvo se o Tribunal entender que deva conceder-lhe eficácia retroativa, e torna aplicável a legislação anterior acaso existente, salvo expressa manifestação em sentido contrário.",
+        "B": "Proposta a ação direta, admite-se a desistência, desde que requerida antes de prestadas as informações pelos órgãos dos quais emanou a lei impugnada.",
+        "C": "Admite-se a intervenção de terceiros no processo da ação direta, mediante assistência, desde que demonstrado interesse jurídico na causa.",
+        "D": "Ao declarar a inconstitucionalidade, o Supremo Tribunal Federal poderá restringir os efeitos da declaração, por razões de segurança jurídica ou de excepcional interesse social, pelo voto da maioria absoluta de seus membros.",
+        "E": "A decisão que declara a inconstitucionalidade da lei em ação direta é irrecorrível, ressalvados os embargos declaratórios, mas pode ser objeto de ação rescisória no prazo de dois anos."
+      },
+      "correta": "A",
+      "dica": "Pense no que acontece com a lei revogada pela lei suspensa, e em que momento a suspensão começa a produzir efeitos. Nas erradas, confira quórum, desistência e rescisória.",
+      "explicacao": {
+        "A": "Correta. É a soma dos §§ 1º e 2º do art. 11 da Lei 9.868/1999: a cautelar tem eficácia contra todos e efeito ex nunc, salvo se o Tribunal lhe der eficácia retroativa (§ 1º), e torna aplicável a legislação anterior acaso existente, salvo manifestação expressa em sentido contrário (§ 2º). Esse § 2º é o chamado efeito repristinatório da cautelar.",
+        "B": "O art. 5º da Lei 9.868/1999 é categórico: proposta a ação direta, não se admitirá desistência. O processo objetivo não tutela interesse do autor, e sim a ordem constitucional; por isso não há momento em que a desistência seja possível.",
+        "C": "O art. 7º, caput, veda a intervenção de terceiros na ADI. O que a lei admite, no § 2º, é a manifestação de outros órgãos ou entidades (o amicus curiae), por despacho irrecorrível do relator, considerando a relevância da matéria e a representatividade dos postulantes. Não é assistência.",
+        "D": "A modulação de efeitos do art. 27 exige maioria de dois terços dos membros do STF, e não maioria absoluta. A maioria absoluta (seis ministros, art. 23) é o quórum para proclamar a própria inconstitucionalidade. Trocar um quórum pelo outro é a pegadinha clássica.",
+        "E": "O art. 26 torna a decisão irrecorrível, ressalvados os embargos declaratórios, e acrescenta que ela não pode ser objeto de ação rescisória. Não há prazo de dois anos: a rescisória é simplesmente incabível."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, arts. 5º, 7º, 11, 23, 26 e 27", "data": "1999-11-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0008",
+      "tema": "Súmula vinculante – legitimidade do Município (Lei 11.417/2006)",
+      "enunciado": "O Município de Curitiba é réu em ação na qual se discute questão constitucional repetida em milhares de processos, com decisões divergentes entre os tribunais. A Procuradoria-Geral do Município estuda provocar o Supremo Tribunal Federal. À luz do art. 103-A da Constituição Federal e da Lei nº 11.417/2006, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O Prefeito de Curitiba pode ajuizar ação direta de inconstitucionalidade perante o Supremo Tribunal Federal contra a lei federal que originou a controvérsia, pois o art. 103 da Constituição legitima os Chefes do Poder Executivo de todos os entes.",
+        "B": "A súmula vinculante pode ser aprovada pelo voto da maioria absoluta dos membros do Supremo Tribunal Federal, em sessão plenária.",
+        "C": "Contra ato administrativo que contrarie súmula vinculante cabe reclamação ao Supremo Tribunal Federal, independentemente do esgotamento das vias administrativas.",
+        "D": "O Município pode propor, incidentalmente ao curso de processo em que seja parte, a edição, a revisão ou o cancelamento de enunciado de súmula vinculante, o que não autoriza a suspensão do processo.",
+        "E": "A proposta de edição de súmula vinculante suspende automaticamente os processos em que se discuta a mesma questão, até a deliberação do Supremo Tribunal Federal."
+      },
+      "correta": "D",
+      "dica": "O Município não está no rol do art. 103 da Constituição, mas a Lei 11.417/2006 abriu uma porta específica para ele. Repare nas condições dessa porta.",
+      "explicacao": {
+        "D": "Correta. É o art. 3º, § 1º, da Lei 11.417/2006: o Município pode propor, incidentalmente ao curso de processo em que seja parte, a edição, a revisão ou o cancelamento de enunciado de súmula vinculante, o que não autoriza a suspensão do processo. É a única via de acesso direto do Município ao STF no tema.",
+        "A": "O art. 103 da CF não legitima Prefeito nem Município para a ADI. Entre os Chefes do Executivo, só o Presidente da República (inciso I) e o Governador de Estado ou do DF (inciso V). O rol é o mesmo reproduzido no art. 2º da Lei 9.868/1999.",
+        "B": "O art. 103-A da CF e o art. 2º, § 3º, da Lei 11.417/2006 exigem decisão de dois terços dos membros do STF, em sessão plenária, para editar, rever ou cancelar súmula vinculante. Maioria absoluta não basta.",
+        "C": "O art. 7º, § 1º, da Lei 11.417/2006 condiciona a reclamação contra omissão ou ato da administração pública ao esgotamento das vias administrativas. Contra decisão judicial, esse requisito não existe; contra ato administrativo, existe.",
+        "E": "O art. 6º da Lei 11.417/2006 diz o contrário: a proposta de edição, revisão ou cancelamento de súmula vinculante não autoriza a suspensão dos processos em que se discuta a mesma questão."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 103 e 103-A (EC 45/2004)", "data": "2004-12-30" },
+        { "tipo": "lei", "referencia": "Lei 11.417/2006, arts. 2º, § 3º, 3º, § 1º, 6º e 7º, § 1º", "data": "2006-12-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0009",
+      "tema": "Controle estadual – ADI na Constituição do Paraná",
+      "enunciado": "Uma lei do Município de Curitiba é impugnada por ação direta de inconstitucionalidade perante o Tribunal de Justiça do Paraná, por contrariedade à Constituição Estadual. Considerando o art. 125, § 2º, da Constituição Federal e os arts. 111 a 113 da Constituição do Estado do Paraná, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A Constituição Estadual poderia atribuir a legitimidade para essa ação exclusivamente ao Procurador-Geral de Justiça, já que a Constituição Federal deixa aos Estados a instituição da representação de inconstitucionalidade.",
+        "B": "O Prefeito e a Mesa da Câmara de qualquer Município paranaense são partes legítimas para impugnar a lei de Curitiba, pois a Constituição Estadual não restringe sua legitimidade ao ato normativo local.",
+        "C": "Na ação, o Tribunal de Justiça citará previamente o Procurador-Geral do Estado e o Procurador-Geral da Assembleia Legislativa para defender a lei municipal impugnada.",
+        "D": "O Tribunal de Justiça pode declarar a inconstitucionalidade da lei municipal pelo voto da maioria dos desembargadores presentes à sessão do órgão especial.",
+        "E": "São partes legítimas para propor a ação, entre outros, o Conselho Seccional da Ordem dos Advogados do Brasil e o Deputado Estadual."
+      },
+      "correta": "E",
+      "dica": "Leia o rol do art. 111 da Constituição do Paraná: ele tem legitimados que não aparecem no art. 103 da Constituição Federal, e um deles é individual.",
+      "explicacao": {
+        "E": "Correta. O art. 111 da Constituição do Paraná legitima, entre outros, o Conselho Seccional da OAB (inciso IV) e o Deputado Estadual (inciso VII). O rol completo: Governador e Mesa da Assembleia (I); Procurador-Geral de Justiça e Procurador-Geral do Estado (II); Prefeito e Mesa da Câmara, quanto à lei local (III); OAB seccional (IV); partidos com representação na Assembleia (V); federações sindicais e entidades de classe de âmbito estadual (VI); Deputado Estadual (VII).",
+        "A": "O art. 125, § 2º, da CF autoriza os Estados a instituir a representação de inconstitucionalidade de leis estaduais ou municipais em face da Constituição Estadual, mas veda expressamente a atribuição da legitimação para agir a um único órgão.",
+        "B": "O art. 111, III, da Constituição do Paraná legitima o Prefeito e a Mesa da Câmara do respectivo Município, quando se tratar de lei ou ato normativo local. O Prefeito de outro Município não pode impugnar a lei de Curitiba.",
+        "C": "O art. 111-A da Constituição do Paraná (EC estadual 44/2019) divide a defesa: para norma estadual, são citados o Procurador-Geral do Estado e o Procurador-Geral da Assembleia; para norma municipal, o Prefeito e o Presidente da Câmara.",
+        "D": "O art. 112 da Constituição do Paraná, em simetria com a cláusula de reserva de plenário do art. 97 da CF, exige o voto da maioria absoluta dos membros do Tribunal ou do órgão especial. Maioria dos presentes não basta."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, arts. 97 e 125, § 2º", "data": "1988-10-05" },
+        { "tipo": "outro", "referencia": "Constituição do Estado do Paraná, arts. 111, 111-A (EC estadual 44/2019) e 112", "data": "2019-10-28" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0039",
+      "tema": "Ação declaratória de constitucionalidade (Lei 9.868/1999)",
+      "enunciado": "Com base na Lei nº 9.868/1999, no que se refere à ação declaratória de constitucionalidade (ADC) de lei ou ato normativo federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Podem propor a ação declaratória de constitucionalidade apenas o Presidente da República, a Mesa da Câmara dos Deputados, a Mesa do Senado Federal e o Procurador-Geral da República, rol que não foi ampliado pela Constituição.",
+        "B": "A petição inicial deve demonstrar a existência de controvérsia judicial relevante sobre a aplicação da disposição objeto da ação, requisito próprio dessa ação.",
+        "C": "Proposta a ação declaratória, admite-se a desistência até a prestação de informações pelo órgão do qual emanou a norma.",
+        "D": "Admite-se a intervenção de terceiros no processo da ação declaratória de constitucionalidade, nos mesmos termos da ação direta de inconstitucionalidade.",
+        "E": "A petição inicial inepta será indeferida liminarmente pelo relator, decisão da qual não cabe recurso algum."
+      },
+      "correta": "B",
+      "dica": "A controvérsia judicial relevante é o traço que diferencia a petição inicial da ADC; e preste atenção à data da emenda que mexeu no rol de legitimados.",
+      "explicacao": {
+        "B": "Correta. É o art. 14, III, da Lei 9.868/1999: a petição inicial da ação declaratória de constitucionalidade deve demonstrar a existência de controvérsia judicial relevante sobre a aplicação da norma impugnada, requisito próprio dessa ação, que pressupõe dúvida instalada no Judiciário sobre a validade da lei.",
+        "A": "O rol original do art. 13 da Lei 9.868/1999 (Presidente da República, Mesas da Câmara e do Senado e Procurador-Geral da República) foi superado pela Emenda Constitucional 45/2004, que deu nova redação ao art. 103 da CF e unificou, em nove incisos, os legitimados tanto para a ação direta de inconstitucionalidade quanto para a ação declaratória de constitucionalidade.",
+        "C": "O art. 16 da Lei 9.868/1999 é categórico: proposta a ação declaratória, não se admitirá desistência, sem exceção ligada ao estágio processual.",
+        "D": "O art. 18 da Lei 9.868/1999 veda a intervenção de terceiros no processo da ação declaratória de constitucionalidade, assim como ocorre na ação direta (art. 7º).",
+        "E": "O art. 15, parágrafo único, da Lei 9.868/1999 admite agravo da decisão que indeferir liminarmente a petição inicial."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, arts. 13, 14, 15, 16 e 18", "data": "1999-11-10" },
+        { "tipo": "constituicao", "referencia": "CF, art. 103 (EC 45/2004)", "data": "2004-12-30" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0040",
+      "tema": "Arguição de descumprimento de preceito fundamental (Lei 9.882/1999)",
+      "enunciado": "Sobre a arguição de descumprimento de preceito fundamental (ADPF), disciplinada pela Lei nº 9.882/1999, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "A ADPF tem por objeto evitar ou reparar lesão a preceito fundamental, resultante de ato do Poder Público, e pode ser proposta em face de lei ou ato normativo municipal.",
+        "B": "Não será admitida arguição de descumprimento de preceito fundamental quando houver qualquer outro meio eficaz de sanar a lesividade, o que confere à ADPF caráter subsidiário.",
+        "C": "A petição inicial inepta, ou que não observe os requisitos da lei, será indeferida liminarmente pelo relator, cabendo agravo no prazo de cinco dias.",
+        "D": "A medida liminar na ADPF depende sempre de decisão do Plenário do Supremo Tribunal Federal, sendo vedado ao relator concedê-la monocraticamente, mesmo em caso de urgência.",
+        "E": "São legitimados para propor a ADPF os mesmos legitimados para a ação direta de inconstitucionalidade."
+      },
+      "correta": "D",
+      "dica": "O quórum do Plenário é a regra para a liminar, mas toda regra de quórum do STF costuma conviver com uma válvula de urgência. Procure essa válvula no mesmo artigo.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 5º, caput, exige, em regra, decisão da maioria absoluta do Plenário para a liminar, mas o § 1º permite ao relator concedê-la monocraticamente, ad referendum do Tribunal Pleno, em caso de extrema urgência, perigo de lesão grave ou período de recesso.",
+        "A": "Correta. É o art. 1º, caput, e parágrafo único, I, da Lei 9.882/1999: a ADPF cabe contra ato do Poder Público, inclusive lei ou ato normativo municipal, quando for relevante o fundamento da controvérsia constitucional.",
+        "B": "Correta. É o art. 4º, § 1º, da Lei 9.882/1999, que consagra o princípio da subsidiariedade: só cabe ADPF quando não houver outro meio processual igualmente eficaz para sanar a lesividade.",
+        "C": "Correta. É o art. 4º, caput, e § 2º, da Lei 9.882/1999: da decisão de indeferimento da petição inicial cabe agravo, no prazo de cinco dias.",
+        "E": "Correta. É o art. 2º, I, da Lei 9.882/1999, que remete aos legitimados da ação direta de inconstitucionalidade, listados no art. 103 da CF."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.882/1999, arts. 1º, 2º, 4º e 5º", "data": "1999-12-03" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0041",
+      "tema": "Controle difuso de constitucionalidade e cláusula de reserva de plenário",
+      "enunciado": "Sobre o controle difuso (incidental) de constitucionalidade no direito brasileiro, analise as afirmativas a seguir.\n\nI. Somente pelo voto da maioria absoluta de seus membros, ou dos membros do respectivo órgão especial, podem os tribunais declarar a inconstitucionalidade de lei ou ato normativo do Poder Público.\nII. Compete privativamente ao Senado Federal suspender a execução, no todo ou em parte, de lei declarada inconstitucional por decisão definitiva do Supremo Tribunal Federal.\nIII. A suspensão da execução da lei pelo Senado Federal, no controle difuso, depende de prévia aprovação pela Câmara dos Deputados, em votação de dois turnos.\nIV. A cláusula de reserva de plenário aplica-se tanto ao controle concentrado quanto ao controle difuso exercido pelos tribunais, e tem por objetivo reservar ao órgão colegiado máximo do tribunal a decisão sobre a invalidade de norma.\n\nAssinale a alternativa correta.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e II estão corretas.",
+        "B": "Somente as afirmativas I, II e IV estão corretas.",
+        "C": "Somente as afirmativas II, III e IV estão corretas.",
+        "D": "Todas as afirmativas estão corretas.",
+        "E": "Somente as afirmativas III e IV estão corretas."
+      },
+      "correta": "B",
+      "dica": "O art. 52 fala em competência privativa do Senado; isso já descarta qualquer etapa extra em outra Casa do Congresso.",
+      "explicacao": {
+        "B": "Correta. I e II reproduzem, respectivamente, o art. 97 (cláusula de reserva de plenário) e o art. 52, X, da CF (suspensão da execução da lei pelo Senado). A IV descreve corretamente o alcance da cláusula de reserva de plenário, que vale tanto para a declaração em controle concentrado quanto em controle difuso. A III é falsa: a competência do Senado do art. 52, X, é privativa e não depende de aprovação da Câmara dos Deputados.",
+        "A": "Deixa de fora a afirmativa IV, que está correta: a cláusula de reserva de plenário do art. 97 incide sobre qualquer declaração de inconstitucionalidade por tribunal, seja em controle concentrado, seja em controle difuso.",
+        "C": "Inclui a afirmativa III, que é falsa, e deixa de fora a I, que reproduz fielmente o art. 97 da CF.",
+        "D": "Nem todas estão corretas: a III inventa um requisito (aprovação pela Câmara dos Deputados) que não existe no art. 52, X, da CF, de competência privativa do Senado Federal.",
+        "E": "Deixa de fora as afirmativas I e II, que estão corretas, e inclui a III, que é falsa."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 97", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 52, X", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0042",
+      "tema": "Ação direta de inconstitucionalidade por omissão (Lei 9.868/1999, arts. 12-A a 12-H)",
+      "enunciado": "Com base nos arts. 12-A a 12-H da Lei nº 9.868/1999 e no art. 103, § 2º, da Constituição Federal, que tratam da ação direta de inconstitucionalidade por omissão, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Podem propor a ação direta de inconstitucionalidade por omissão os mesmos legitimados à propositura da ação direta de inconstitucionalidade e da ação declaratória de constitucionalidade.",
+        "B": "Declarada a inconstitucionalidade por omissão de medida para tornar efetiva norma constitucional, será dada ciência ao Poder competente para a adoção das providências necessárias e, tratando-se de órgão administrativo, para fazê-lo em trinta dias.",
+        "C": "O Supremo Tribunal Federal, por decisão da maioria absoluta de seus membros, pode conceder medida cautelar na ação direta de inconstitucionalidade por omissão, após a audiência dos órgãos ou autoridades responsáveis pela omissão.",
+        "D": "A medida cautelar em ação direta de inconstitucionalidade por omissão nunca pode consistir na suspensão de processos judiciais ou de procedimentos administrativos, por não se tratar de suspensão de lei ou ato normativo.",
+        "E": "Reconhecida a omissão em relação a órgão administrativo, o prazo de trinta dias fixado pela lei pode ser excepcionalmente ampliado pelo Tribunal, tendo em vista as circunstâncias do caso e o interesse público envolvido."
+      },
+      "correta": "D",
+      "dica": "A suspensão de processos não é exclusividade da cautelar em ADI comum; veja o que a lei prevê também para a omissão parcial.",
+      "explicacao": {
+        "D": "É a resposta, pois está incorreta. O art. 12-F, § 1º, da Lei 9.868/1999 admite expressamente que a medida cautelar consista na suspensão da aplicação da lei ou do ato normativo questionado, no caso de omissão parcial, bem como na suspensão de processos judiciais ou de procedimentos administrativos, ou ainda em outra providência fixada pelo Tribunal.",
+        "A": "Correta. É o art. 12-A da Lei 9.868/1999: a legitimidade para a ADO é a mesma da ADI e da ADC, listada no art. 103 da CF.",
+        "B": "Correta. É o art. 103, § 2º, da CF, repetido pelo art. 12-H, § 1º, da Lei 9.868/1999.",
+        "C": "Correta. É o art. 12-F, caput, da Lei 9.868/1999: a cautelar exige maioria absoluta do Tribunal e audiência prévia dos responsáveis.",
+        "E": "Correta. É o art. 12-H, § 1º, da Lei 9.868/1999, que permite ao Tribunal, excepcionalmente, fixar prazo razoável diferente dos trinta dias, conforme as circunstâncias do caso e o interesse público."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, arts. 12-A, 12-F e 12-H (incluídos pela Lei 12.063/2009)", "data": "2009-10-27" },
+        { "tipo": "constituicao", "referencia": "CF, art. 103, § 2º", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

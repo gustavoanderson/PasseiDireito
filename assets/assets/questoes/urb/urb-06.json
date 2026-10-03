@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "materia": "urb",
+  "unidade": {
+    "id": "urb-06",
+    "titulo": "Proteção da ordem urbanística: polícia, sanções e tutela coletiva",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "urb-0019",
+      "tema": "Penalidades do Código de Posturas de Curitiba (Lei 11.095/2004)",
+      "enunciado": "Sobre as infrações e penalidades previstas na Lei Municipal nº 11.095/2004, que regula a aprovação de projetos, o licenciamento de obras e atividades e a execução de obras no Município de Curitiba, é INCORRETO afirmar que:",
+      "alternativas": {
+        "A": "as penalidades de cassação, interdição, embargo, demolição, suspensão, apreensão e multa não obedecem a uma hierarquia e poderão ser aplicadas concomitantemente.",
+        "B": "nos casos em que a infração oferecer risco à incolumidade ou à segurança pública, ou em razão de sua gravidade, poderão ser aplicadas, após vistoria administrativa, as penalidades de interdição, embargo, demolição e apreensão, independentemente de prévia notificação.",
+        "C": "constatada a persistência ou a reincidência da infração, as multas serão aplicadas em dobro, considerando-se para a reincidência o período de 24 meses imediatamente anteriores à data da aplicação da penalidade.",
+        "D": "a regularização da infração pelo seu saneamento ou pelo pagamento das licenças ou dos emolumentos em débito anula o auto de infração, ainda que regularmente lavrado.",
+        "E": "das penalidades aplicadas cabe defesa prévia, dirigida ao Diretor do órgão competente, no prazo de 10 dias a contar da ciência da penalidade, sem efeito suspensivo na ação fiscal."
+      },
+      "correta": "D",
+      "dica": "Corrigir a irregularidade depois de autuado resolve o problema da obra, mas não apaga o que o fiscal já constatou.",
+      "explicacao": {
+        "D": "É a incorreta, e por isso a resposta. O art. 210, § 6º, diz que a regularização da infração pelo saneamento ou pelo pagamento das licenças ou emolumentos em débito NÃO anula o auto de infração, que não poderá ser cancelado ou anulado quando tiver sido regularmente lavrado.",
+        "A": "Correto. É o art. 193, caput e parágrafo único: a ordem das penalidades não constitui hierarquia, e elas podem ser cumuladas.",
+        "B": "Correto. É o parágrafo único do art. 195. A regra geral (caput) é a notificação prévia para sanar a irregularidade no prazo fixado, assegurado o devido processo legal; o risco e a gravidade autorizam a atuação imediata, típica do poder de polícia.",
+        "C": "Correto. É o art. 345 e seu parágrafo único: persistência ou reincidência dobram a multa, e a reincidência considera os 24 meses anteriores.",
+        "E": "Correto. É o art. 347, I. Indeferida a defesa prévia, cabe recurso hierárquico ao Secretário Municipal, em 10 dias, também sem efeito suspensivo (inciso II)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei Municipal de Curitiba 11.095/2004, arts. 193, 195, 210, 345 e 347", "data": "2004-07-21" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0020",
+      "tema": "Ação civil pública e compromisso de ajustamento de conduta na ordem urbanística",
+      "enunciado": "Loteador iniciou parcelamento irregular em área de Curitiba, com prejuízo à ordem urbanística. Considerando a Lei nº 7.347/1985 (Lei da Ação Civil Pública), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A ação civil pública não se presta à tutela da ordem urbanística, que somente pode ser defendida em juízo por meio de ação popular.",
+        "B": "Uma associação de moradores só poderá propor a ação se estiver constituída há pelo menos dois anos, requisito que não pode ser dispensado pelo juiz.",
+        "C": "O Município, por ser o ente responsável pela política urbana, é o único legitimado a propor a ação civil pública em defesa da ordem urbanística.",
+        "D": "O compromisso de ajustamento de conduta tomado do loteador pelo órgão público legitimado terá eficácia de título executivo judicial.",
+        "E": "O Ministério Público, se não intervier no processo como parte, atuará obrigatoriamente como fiscal da lei."
+      },
+      "correta": "E",
+      "dica": "Releia o art. 5º da Lei 7.347/1985: o rol de legitimados é amplo, e um deles tem presença garantida no processo, seja como autor, seja de outro modo.",
+      "explicacao": {
+        "E": "Correta. É o art. 5º, § 1º, da Lei 7.347/1985: o Ministério Público, se não for parte, atua obrigatoriamente como fiscal da lei (fiscal da ordem jurídica, na linguagem do CPC).",
+        "A": "O art. 1º, VI, da Lei 7.347/1985 inclui expressamente a ordem urbanística entre os bens tutelados pela ação civil pública, \"sem prejuízo da ação popular\". Os dois instrumentos convivem.",
+        "B": "O art. 5º, V, a, exige que a associação esteja constituída há pelo menos UM ano, e o § 4º permite ao juiz dispensar a pré-constituição quando houver manifesto interesse social, evidenciado pela dimensão ou característica do dano ou pela relevância do bem jurídico.",
+        "C": "A legitimação é concorrente e disjuntiva: o art. 5º legitima o Ministério Público, a Defensoria Pública, a União, os Estados, o Distrito Federal, os Municípios, entidades da administração indireta e associações.",
+        "D": "O art. 5º, § 6º, atribui ao compromisso de ajustamento de conduta eficácia de título executivo EXTRAJUDICIAL. Isso permite executá-lo diretamente, sem prévia ação de conhecimento."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 7.347/1985, arts. 1º, VI, e 5º", "data": "1985-07-24" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
