@@ -9,6 +9,18 @@ import 'tela_simulado.dart';
 import 'tema.dart';
 import 'trilha.dart';
 
+/// Data da prova objetiva (Edital 6/2026, Anexo III). Muda, se o edital mudar.
+final dataDaProvaObjetiva = DateTime(2026, 12, 13);
+
+/// Dias entre [hoje] e [data], arredondado pela diferença de calendário (não
+/// de 24h): consultada às 23h do dia anterior, ainda mostra "falta 1 dia", e
+/// não "0" por uma questão de horas.
+int diasAte(DateTime data, DateTime hoje) {
+  final soData = DateTime(data.year, data.month, data.day);
+  final soHoje = DateTime(hoje.year, hoje.month, hoje.day);
+  return soData.difference(soHoje).inDays;
+}
+
 /// A tela de entrada: uma linha por matéria. Tocou, começa a trilha.
 class TelaInicio extends StatefulWidget {
   const TelaInicio({
@@ -16,6 +28,7 @@ class TelaInicio extends StatefulWidget {
     required this.registro,
     this.carregar = carregarUnidades,
     this.progressoSalvo = true,
+    this.hoje = DateTime.now,
   });
 
   final RegistroDeProgresso registro;
@@ -25,6 +38,9 @@ class TelaInicio extends StatefulWidget {
 
   /// Falso quando o Firebase não está configurado: a tela avisa que nada será guardado.
   final bool progressoSalvo;
+
+  /// Trocável nos testes, para a contagem para a prova não depender do relógio real.
+  final DateTime Function() hoje;
 
   @override
   State<TelaInicio> createState() => _TelaInicioState();
@@ -118,6 +134,8 @@ class _TelaInicioState extends State<TelaInicio> {
                   'Procurador do Município de Curitiba · Edital 6/2026',
                   style: TextStyle(fontSize: 14, color: esquema.onSurfaceVariant),
                 ),
+                const SizedBox(height: 14),
+                _ContagemParaAProva(dias: diasAte(dataDaProvaObjetiva, widget.hoje())),
                 if (!widget.progressoSalvo) ...[
                   const SizedBox(height: 16),
                   const _AvisoSemSalvar(),
@@ -147,6 +165,53 @@ class _TelaInicioState extends State<TelaInicio> {
             );
           },
         ),
+      ),
+    );
+  }
+}
+
+/// Contador regressivo até a prova objetiva. Some depois da data (o foco
+/// vira a discursiva, que este contador não é sobre), e muda de texto no
+/// próprio dia — "faltam 0 dias" leria estranho.
+class _ContagemParaAProva extends StatelessWidget {
+  const _ContagemParaAProva({required this.dias});
+
+  final int dias;
+
+  @override
+  Widget build(BuildContext context) {
+    if (dias < 0) return const SizedBox.shrink();
+    final esquema = Theme.of(context).colorScheme;
+    final dataLegivel =
+        '${dataDaProvaObjetiva.day.toString().padLeft(2, '0')}/${dataDaProvaObjetiva.month.toString().padLeft(2, '0')}/${dataDaProvaObjetiva.year}';
+    return Container(
+      key: const Key('contagem-para-a-prova'),
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+      decoration: BoxDecoration(
+        color: esquema.primaryContainer,
+        borderRadius: BorderRadius.circular(12),
+      ),
+      child: Row(
+        children: [
+          Icon(Icons.event_outlined, size: 20, color: esquema.onPrimaryContainer),
+          const SizedBox(width: 10),
+          Expanded(
+            child: RichText(
+              text: TextSpan(
+                style: TextStyle(fontSize: 14, color: esquema.onPrimaryContainer),
+                children: [
+                  TextSpan(text: dias == 0 ? 'É hoje: ' : 'Faltam '),
+                  if (dias > 0)
+                    TextSpan(
+                      text: dias == 1 ? '1 dia ' : '$dias dias ',
+                      style: const TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                  TextSpan(text: 'para a prova objetiva · $dataLegivel'),
+                ],
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

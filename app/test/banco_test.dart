@@ -32,7 +32,12 @@ final _banco = [
   _u('const-01', 'Teoria da Constituição', ['const-0001']),
 ];
 
-Future<void> _abrirInicio(WidgetTester tester, RegistroDeProgresso registro, {bool salvo = true}) async {
+Future<void> _abrirInicio(
+  WidgetTester tester,
+  RegistroDeProgresso registro, {
+  bool salvo = true,
+  DateTime Function() hoje = DateTime.now,
+}) async {
   tester.view.physicalSize = const Size(1080, 4000);
   tester.view.devicePixelRatio = 2.0;
   addTearDown(tester.view.reset);
@@ -40,7 +45,7 @@ Future<void> _abrirInicio(WidgetTester tester, RegistroDeProgresso registro, {bo
     alternar: (_) {},
     child: MaterialApp(
       theme: temaClaro(),
-      home: TelaInicio(registro: registro, carregar: () async => _banco, progressoSalvo: salvo),
+      home: TelaInicio(registro: registro, carregar: () async => _banco, progressoSalvo: salvo, hoje: hoje),
     ),
   ));
   await tester.pumpAndSettle();
@@ -137,5 +142,39 @@ void main() {
   testWidgets('sem Firebase, a tela avisa que o progresso não está sendo salvo', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria(), salvo: false);
     expect(find.byKey(const Key('aviso-sem-salvar')), findsOneWidget);
+  });
+
+  group('contagem regressiva para a prova objetiva (13/12/2026)', () {
+    test('diasAte conta por calendário, não por 24 horas', () {
+      expect(diasAte(DateTime(2026, 12, 13), DateTime(2026, 12, 1)), 12);
+      // Falta 1 dia de calendário mesmo faltando poucas horas de relógio.
+      expect(diasAte(DateTime(2026, 12, 13), DateTime(2026, 12, 12, 23, 30)), 1);
+      expect(diasAte(DateTime(2026, 12, 13), DateTime(2026, 12, 13, 8)), 0);
+      expect(diasAte(DateTime(2026, 12, 13), DateTime(2026, 12, 14)), -1);
+    });
+
+    testWidgets('faltando mais de um dia, mostra a contagem no plural', (tester) async {
+      await _abrirInicio(tester, ProgressoEmMemoria(), hoje: () => DateTime(2026, 12, 1));
+      expect(find.byKey(const Key('contagem-para-a-prova')), findsOneWidget);
+      expect(find.textContaining('Faltam', findRichText: true), findsOneWidget);
+      expect(find.textContaining('12 dias', findRichText: true), findsOneWidget);
+      expect(find.textContaining('13/12/2026', findRichText: true), findsOneWidget);
+    });
+
+    testWidgets('faltando exatamente um dia, não fala "1 dias"', (tester) async {
+      await _abrirInicio(tester, ProgressoEmMemoria(), hoje: () => DateTime(2026, 12, 12));
+      expect(find.textContaining('1 dia ', findRichText: true), findsOneWidget);
+      expect(find.textContaining('1 dias', findRichText: true), findsNothing);
+    });
+
+    testWidgets('no dia da prova, o texto muda para "é hoje"', (tester) async {
+      await _abrirInicio(tester, ProgressoEmMemoria(), hoje: () => DateTime(2026, 12, 13));
+      expect(find.textContaining('É hoje', findRichText: true), findsOneWidget);
+    });
+
+    testWidgets('depois da prova, a contagem some', (tester) async {
+      await _abrirInicio(tester, ProgressoEmMemoria(), hoje: () => DateTime(2026, 12, 14));
+      expect(find.byKey(const Key('contagem-para-a-prova')), findsNothing);
+    });
   });
 }
