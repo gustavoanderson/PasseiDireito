@@ -9,15 +9,16 @@ Atualizado em 03/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 **Repositório público desde 02/10/2026:** https://github.com/gustavoanderson/PasseiDireito (decisão do Gustavo — ver pergunta/resposta no chat de 02/10).
 
 **Duas formas de acesso, sempre atualizadas:**
-- **Navegador (web), desde 03/10/2026:** https://gustavoanderson.github.io/PasseiDireito/ — hospedado no GitHub Pages, a partir da branch órfã `gh-pages` (só o `build/web`, não o código-fonte). Pra publicar uma versão nova: `cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/` (no Git Bash do Windows, o `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo), depois copiar `app/build/web/*` pra um worktree da branch `gh-pages` (`git worktree add --detach /tmp/gh-pages-wt` + `git checkout --orphan gh-pages` na primeira vez; nas seguintes, só copiar por cima, commitar e dar `git push`) — o Pages já está habilitado, não precisa reconfigurar.
-- **Android (APK), versão atual v0.3:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.3/PasseiDireito-v0.3.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+- **Navegador (web):** https://gustavoanderson.github.io/PasseiDireito/ — hospedado no GitHub Pages, a partir da branch órfã `gh-pages` (só o `build/web`, não o código-fonte). Pra publicar uma versão nova: `cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/` (no Git Bash do Windows, o `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo), depois copiar `app/build/web/*` pra um worktree da branch `gh-pages` (primeira vez: `git worktree add --detach /tmp/gh-pages-wt` + `git checkout --orphan gh-pages`; nas seguintes: `git worktree add --detach /tmp/gh-pages-wt gh-pages`, apagar o conteúdo antigo, copiar por cima, commitar). **Pegadinha:** o worktree fica em HEAD destacado, então `git push` sozinho não sabe pra onde mandar — use `git push origin HEAD:gh-pages`. O Pages já está habilitado, não precisa reconfigurar.
+- **Android (APK), versão atual v0.4:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.4/PasseiDireito-v0.4.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
 
-**O app (v0.3, commitado e buildado em 03/10/2026):**
+**O app (v0.4, commitado e buildado em 03/10/2026):**
 - Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
 - **Novo em 03/10:** contador regressivo pra prova objetiva na tela inicial ("Faltam N dias... · 13/12/2026"; pedido do Gustavo). `diasAte()` e `TelaInicio.hoje` em `app/lib/tela_inicio.dart`.
-- APK em `D:\repositorio\PasseiDireito-v0.3.apk` (50 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
+- **Logo corrigida em 03/10** (pedido do Gustavo): a fagulha da pancada tinha uma camada vermelho-terracota (lia como "explosão"); trocada por âmbar/âmbar-claro/branco, mesma forma serrilhada. O martelo batia com o meio da cabeça, não com a ponta; recalculado o giro (`app/lib/logo.dart`) pra a face direita (a ponta) cair no centro da fagulha. Ícones do Android e da web regerados (`flutter test tool/gerar_icones_test.dart --update-goldens`).
+- APK em `D:\repositorio\PasseiDireito-v0.4.apk` (50 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
 - Suíte inteira verde: validador do banco, 5 suítes de testes Python, `flutter analyze` e `flutter test` (78 testes).
-- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo.
+- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo, logo corrigida (v0.2 → v0.4).
 
 | Matéria | Questões | Peso no edital | Questões/peso |
 |---|---|---|---|
