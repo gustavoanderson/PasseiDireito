@@ -39,8 +39,6 @@ class PintorDoLogo extends CustomPainter {
 
   static const _marinho = Color(0xFF1F3A5F);
   static const _marinhoClaro = Color(0xFF3E6391);
-  static const _ambar = Color(0xFFE2AA4A);
-  static const _ambarClaro = Color(0xFFF6E2B3);
   static const _madeira = Color(0xFF9A6A2F);
 
   @override
@@ -62,24 +60,24 @@ class PintorDoLogo extends CustomPainter {
     const impacto = Offset(0.42, 0.63);
     final contorno = comFundo ? const Color(0xFF0E1B2C) : (escuro ? const Color(0xFF8DB1DE) : _marinho);
 
-    // 1. A fagulha da pancada: estrela serrilhada em três camadas, em tons de
-    // âmbar até o branco no centro — um lampejo, não uma explosão de fogo
-    // (o Gustavo pediu para tirar o vermelho-terracota que tinha antes).
-    canvas.drawPath(_estrela(impacto, 0.27, 0.17, 12, 0.08), Paint()..color = _ambar);
-    canvas.drawPath(
-      _estrela(impacto, 0.27, 0.17, 12, 0.08),
-      Paint()
-        ..color = contorno
-        ..style = PaintingStyle.stroke
-        ..strokeWidth = 0.022
-        ..strokeJoin = StrokeJoin.round,
-    );
-    canvas.drawPath(_estrela(impacto, 0.185, 0.105, 10, 0.3), Paint()..color = _ambarClaro);
-    canvas.drawPath(_estrela(impacto, 0.1, 0.055, 8, 0.1), Paint()..color = Colors.white);
+    // 1. A fagulha da pancada: estrela serrilhada em três camadas, todas
+    // brancas, só diferenciadas pelo contorno — um lampejo em linha, sem
+    // cor de fogo (o Gustavo pediu duas vezes para tirar o laranja/vermelho:
+    // primeiro o terracota, depois o âmbar que ficou no lugar dele).
+    final contornoFino = Paint()
+      ..color = contorno
+      ..style = PaintingStyle.stroke
+      ..strokeWidth = 0.016
+      ..strokeJoin = StrokeJoin.round;
+    for (final raios in [(0.27, 0.17, 12, 0.08), (0.185, 0.105, 10, 0.3), (0.1, 0.055, 8, 0.1)]) {
+      final caminho = _estrela(impacto, raios.$1, raios.$2, raios.$3, raios.$4);
+      canvas.drawPath(caminho, Paint()..color = Colors.white);
+      canvas.drawPath(caminho, contornoFino);
+    }
 
     // 2. As fagulhas: riscos que saem do impacto, para longe do martelo.
     final fagulha = Paint()
-      ..color = comFundo || escuro ? _ambar : _marinho
+      ..color = contorno
       ..strokeWidth = 0.028
       ..strokeCap = StrokeCap.round;
     for (final (angulo, de, ate) in [(150.0, 0.31, 0.39), (185.0, 0.32, 0.4), (220.0, 0.31, 0.38), (255.0, 0.31, 0.36)]) {
@@ -88,17 +86,31 @@ class PintorDoLogo extends CustomPainter {
       canvas.drawLine(impacto + dir * de, impacto + dir * ate, fagulha);
     }
 
+    // 2.5. Linhas de movimento: três riscos curtos acima da cabeça, na
+    // direção de onde o martelo veio, para a pancada ler como golpe e não
+    // como objeto só encostado (pedido do Gustavo, 03/10/2026). Em espaço
+    // global, não no eixo local do martelo: a direção da pancada é sempre
+    // "de cima para baixo" na tela, goste lá da rotação que o cabo tiver.
+    final movimento = Paint()
+      ..color = contorno.withValues(alpha: 0.75)
+      ..strokeWidth = 0.018
+      ..strokeCap = StrokeCap.round;
+    for (final (dx, y0, y1) in [(-0.09, 0.06, 0.17), (0.0, 0.02, 0.15), (0.09, 0.07, 0.16)]) {
+      canvas.drawLine(Offset(impacto.dx + dx, y0), Offset(impacto.dx + dx, y1), movimento);
+    }
+
     // 3. O martelo: cabeça e cabo desenhados num eixo local (o cabo sai do
     // meio da cabeça; a cabeça é um cilindro deitado, com uma face em cada
-    // ponta, em x = ±0.21). Giramos 38° e escalamos por 0.9 em torno de um
+    // ponta, em x = ±0.21). Giramos 90° e escalamos por 0.9 em torno de um
     // ponto escolhido para que a face DIREITA (x = 0.21, a ponta que bate)
-    // caia exatamente no centro da fagulha — e não o meio da cabeça, como
-    // estava antes (o Gustavo notou: "o impacto tem que sair da ponta que
-    // bate, não de cima"). As constantes abaixo são impacto - 0.9 · R(38°) ·
-    // (0.21, 0); mexer no ângulo ou na escala exige recalcular as duas.
+    // caia exatamente no centro da fagulha, batendo de cima para baixo
+    // numa superfície horizontal — a pancada tava saindo na diagonal, o
+    // Gustavo pediu reto (03/10/2026). As constantes abaixo são
+    // impacto - 0.9 · R(90°) · (0.21, 0); mexer no ângulo ou na escala
+    // exige recalcular as duas.
     canvas.save();
-    canvas.translate(0.2711, 0.5136);
-    canvas.rotate(38 * pi / 180);
+    canvas.translate(0.42, 0.441);
+    canvas.rotate(90 * pi / 180);
     canvas.scale(0.9);
 
     final tracado = Paint()
