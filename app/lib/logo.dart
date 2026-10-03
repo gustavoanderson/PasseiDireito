@@ -42,7 +42,6 @@ class PintorDoLogo extends CustomPainter {
   static const _ambar = Color(0xFFE2AA4A);
   static const _ambarClaro = Color(0xFFF6E2B3);
   static const _madeira = Color(0xFF9A6A2F);
-  static const _terracota = Color(0xFFC0533A);
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -63,8 +62,10 @@ class PintorDoLogo extends CustomPainter {
     const impacto = Offset(0.42, 0.63);
     final contorno = comFundo ? const Color(0xFF0E1B2C) : (escuro ? const Color(0xFF8DB1DE) : _marinho);
 
-    // 1. A explosão da pancada: estrela serrilhada em duas camadas.
-    canvas.drawPath(_estrela(impacto, 0.27, 0.17, 12, 0.08), Paint()..color = _terracota);
+    // 1. A fagulha da pancada: estrela serrilhada em três camadas, em tons de
+    // âmbar até o branco no centro — um lampejo, não uma explosão de fogo
+    // (o Gustavo pediu para tirar o vermelho-terracota que tinha antes).
+    canvas.drawPath(_estrela(impacto, 0.27, 0.17, 12, 0.08), Paint()..color = _ambar);
     canvas.drawPath(
       _estrela(impacto, 0.27, 0.17, 12, 0.08),
       Paint()
@@ -73,8 +74,8 @@ class PintorDoLogo extends CustomPainter {
         ..strokeWidth = 0.022
         ..strokeJoin = StrokeJoin.round,
     );
-    canvas.drawPath(_estrela(impacto, 0.185, 0.105, 10, 0.3), Paint()..color = _ambar);
-    canvas.drawPath(_estrela(impacto, 0.1, 0.055, 8, 0.1), Paint()..color = _ambarClaro);
+    canvas.drawPath(_estrela(impacto, 0.185, 0.105, 10, 0.3), Paint()..color = _ambarClaro);
+    canvas.drawPath(_estrela(impacto, 0.1, 0.055, 8, 0.1), Paint()..color = Colors.white);
 
     // 2. As fagulhas: riscos que saem do impacto, para longe do martelo.
     final fagulha = Paint()
@@ -87,11 +88,18 @@ class PintorDoLogo extends CustomPainter {
       canvas.drawLine(impacto + dir * de, impacto + dir * ate, fagulha);
     }
 
-    // 3. O martelo: cabeça e cabo desenhados em pé e girados, com a face de
-    // baixo da cabeça batendo no centro da explosão.
+    // 3. O martelo: cabeça e cabo desenhados num eixo local (o cabo sai do
+    // meio da cabeça; a cabeça é um cilindro deitado, com uma face em cada
+    // ponta, em x = ±0.21). Giramos 38° e escalamos por 0.9 em torno de um
+    // ponto escolhido para que a face DIREITA (x = 0.21, a ponta que bate)
+    // caia exatamente no centro da fagulha — e não o meio da cabeça, como
+    // estava antes (o Gustavo notou: "o impacto tem que sair da ponta que
+    // bate, não de cima"). As constantes abaixo são impacto - 0.9 · R(38°) ·
+    // (0.21, 0); mexer no ângulo ou na escala exige recalcular as duas.
     canvas.save();
-    canvas.translate(0.56, 0.45);
+    canvas.translate(0.2711, 0.5136);
     canvas.rotate(38 * pi / 180);
+    canvas.scale(0.9);
 
     final tracado = Paint()
       ..color = contorno
