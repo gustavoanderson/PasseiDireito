@@ -6,6 +6,8 @@ Atualizado em 02/10/2026, à tarde. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 **Prioridade:** MVP da prova objetiva (13/12/2026). Discursiva com IA e a segunda leitura ficam para depois da prova, por decisão do Gustavo.
 
+**Repositório público desde 02/10/2026:** https://github.com/gustavoanderson/PasseiDireito (decisão do Gustavo — ver pergunta/resposta no chat). APK para download direto, sem conta: https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.2/PasseiDireito-v0.2.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+
 **O app (v0.2, commitado e buildado em 02/10/2026):**
 - Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
 - APK em `D:\repositorio\PasseiDireito-v0.2.apk` (52 MB), com **445 questões**. Ainda não foi testado em celular de verdade.
