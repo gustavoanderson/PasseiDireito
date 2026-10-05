@@ -46,11 +46,13 @@ Atualizado em 05/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 Proporção equilibrada entre matérias (3,7 a 5,7 questões por ponto de peso). Decisão de 02/10: parar de expandir volume por ora (já passou de 300, a meta original) — próxima vez, Constitucional e Processo Civil são as que têm menor razão questões/peso.
 
 **Pendências abertas, para a próxima sessão:**
-- **Matinhos:** checar fundacaofafipa.org.br/informacoes/4197 (prazo 07/10/2026 às 23h59 para o caderno).
+- ~~Matinhos.~~ **Feito em 05/10** (ver acima): +53 questões, banco em 498.
+- **Matinhos, resultado definitivo em 27/10/2026:** reavaliar a questão de Improbidade deixada de fora (gabarito preliminar parecia errado) e, se sobrar tempo, conferir se alguma das 53 adaptadas teve a resposta alterada no recurso.
 - Duas lacunas de ferramenta na base de Curitiba (Lei 1.656/1958 arts. 102-269; Decreto 868/2024 Anexo) — sem questão exposta hoje, mas não escrever questão nova nesses trechos.
 - Duas pendências jurídicas sem fonte firme (lei-15042-2017 art. 5º; lei-7671-1991 art. 2º "f").
 - Artigos federais "conferir" (sem nota de redação em nenhuma versão): l14133 arts. 37 e 54; l13709 art. 62; l8213 art. 60; l13869 arts. 3, 9, 13, 15, 16, 20, 30, 32, 38, 43; l13465 art. 16.
 - APK nunca testado num celular real.
+- Mais volume: Constitucional (razão 4,4) e Processo Civil (4,8) são as matérias com menor proporção questões/peso hoje (tabela abaixo está desatualizada — ver contagem de 05/10 na mensagem do chat).
 
 ## O que aconteceu em 01/10/2026
 
