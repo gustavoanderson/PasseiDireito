@@ -1,8 +1,14 @@
 # Status do PasseiDireito
 
-Atualizado em 03/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 05/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 ## Onde estamos
+
+**Matinhos — o Gustavo conseguiu o caderno em 05/10/2026.** O caderno oficial (prova + gabarito preliminar) estava numa cópia salva da área do candidato (ProSeleta/FAFIPA), confirmada como autêntica pelos metadados do PDF e pelo link da própria página do candidato embutido no rodapé. **É só o gabarito PRELIMINAR** (divulgado 28/09/2026); o recurso já fechou (30/09), mas o resultado definitivo só sai em **27/10/2026** — uma ou outra resposta pode mudar até lá.
+- Escrevi um parser (`matinhos_questoes.json`, no scratchpad da sessão, não commitado) que extraiu as 100 questões estruturadas (seção, enunciado, 5 alternativas, letra correta), conferido sem nenhum erro: 100/100, sem duplicata, sem alternativa faltando.
+- Classifiquei as 100 por matéria do nosso edital. Exclusões: Legislação Municipal (5, é de Matinhos), a maior parte de "Civil e Empresarial" (6 de 10, é Direito Civil puro — não está entre as 9 matérias objetivas de Curitiba), ECA e Estatuto do Idoso (3, sem item correspondente no edital de Curitiba), e **mais 8 questões espalhadas pelas seções "gerais" que citavam lei municipal ESPECÍFICA de Matinhos** (achado importante: nem toda questão de uma seção "Administrativo" ou "Constitucional" é livre de lei municipal de outro ente — achei 8 assim e tirei da lista).
+- **Rodada 1 (3 agentes) lançada:** Constitucional (+14), Administrativo (+11 a 13), Tributário (+15). Cada um reescreve a questão com outras palavras (não copia a prova), confere a resposta contra a lei vigente em 21/09/2026, e escreve a explicação do zero — a fonte não tem nenhuma explicação, só pergunta e gabarito.
+- **Rodada 2 (depois da 1ª terminar):** Processual Civil (+15), Urbanístico/Ambiental (+8), Trabalho (+10). Empresarial (+2) fica pra eu mesmo escrever, por ser pouca coisa.
 
 **Prioridade:** MVP da prova objetiva (13/12/2026). Discursiva com IA e a segunda leitura ficam para depois da prova, por decisão do Gustavo.
 
