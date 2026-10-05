@@ -184,6 +184,64 @@
         { "tipo": "constituicao", "referencia": "CF, art. 5º, LXVIII, LXIX, LXXI, LXXII e LXXVII", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0077",
+      "tema": "Jurisprudência do STF e direitos da comunidade LGBTQIA+",
+      "enunciado": "Uma servidora pública municipal, em união estável homoafetiva, teve o nascimento de um filho gerado por meio de inseminação artificial, no qual o óvulo fecundado pertencia à sua companheira (a mãe gestante). Após o parto, a servidora requereu à Administração o gozo de licença-maternidade, pedido inicialmente negado por ausência de previsão legal expressa para a mãe não gestante. Considerando a jurisprudência do Supremo Tribunal Federal sobre o reconhecimento de direitos à comunidade LGBTQIA+, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A prática de atos de homofobia e de transfobia, por mais graves que sejam, somente pode configurar, no ordenamento penal brasileiro, os crimes de injúria ou de difamação contra a honra, previstos no Código Penal.",
+        "B": "O Supremo Tribunal Federal já reconheceu a validade do casamento poliafetivo, por entender que a liberdade de constituir família não se limita a arranjos entre duas pessoas.",
+        "C": "Para que uma pessoa transexual obtenha a retificação do prenome e do gênero em seu registro civil, a Constituição exige a prévia realização de cirurgia de redesignação sexual, por se tratar de direito fundado no critério biológico.",
+        "D": "É constitucional a portaria que veda a doação de sangue por homens que mantiveram relações sexuais com outros homens nos doze meses anteriores, por se tratar de critério legítimo de proteção sanitária.",
+        "E": "A mãe servidora pública que não gestou o filho, mas integra união homoafetiva com a mãe gestante, tem direito à licença-maternidade; se a companheira já tiver utilizado o benefício em sua integralidade, a mãe não gestante fará jus a um período equivalente ao da licença-paternidade."
+      },
+      "correta": "E",
+      "dica": "O ponto de partida é a pluralidade de arranjos familiares reconhecida pelo STF: pense em qual delas o Tribunal já decidiu, e qual ainda não decidiu, entre casamento, doação de sangue, retificação de registro e parentalidade.",
+      "explicacao": {
+        "E": "Correta. É a tese fixada pelo STF no Tema 1.072 da repercussão geral (RE 1.211.446, Rel. Min. Luiz Fux, julgado em 13/3/2024): a mãe não gestante, em união homoafetiva, tem direito à licença-maternidade; se a companheira já gozou integralmente o benefício, a não gestante tem direito a um período equivalente ao da licença-paternidade, em reconhecimento à pluralidade de arranjos familiares e à isonomia.",
+        "A": "O STF (ADO 26 e MI 4.733, Rel. Min. Celso de Mello, julgados em 13/6/2019) enquadrou a homofobia e a transfobia como modalidades do crime de racismo, da Lei 7.716/1989, e não apenas como crimes contra a honra do Código Penal, dada a omissão legislativa específica até então existente.",
+        "B": "O STF reconheceu a constitucionalidade do casamento e da união estável entre pessoas do mesmo sexo (ADI 4.277 e ADPF 132, julgadas em 5/5/2011), mas não decidiu sobre o casamento poliafetivo, instituto que não tem o mesmo tratamento jurisprudencial.",
+        "C": "O STF (RE 670.422, com repercussão geral, julgado em 15/8/2018, aplicando o entendimento da ADI 4.275) dispensou a exigência de cirurgia de redesignação sexual para a retificação do prenome e do gênero no registro civil, bastando a autodeclaração da identidade de gênero da pessoa transexual.",
+        "D": "O STF (ADI 5.543, julgada em 8/5/2020) declarou inconstitucional a vedação à doação de sangue por homens que mantiveram relações sexuais com outros homens, por considerá-la discriminatória e desprovida de base científica atual."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.072 (RE 1.211.446)", "data": "2024-03-13" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADO 26 e MI 4.733", "data": "2019-06-13" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 4.277 e ADPF 132", "data": "2011-05-05" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 5.543", "data": "2020-05-08" },
+        { "tipo": "repercussao-geral", "referencia": "STF, RE 670.422", "data": "2018-08-15" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0078",
+      "tema": "Jurisprudência do STF sobre direitos fundamentais e remédios constitucionais",
+      "enunciado": "Sobre entendimentos do Supremo Tribunal Federal a respeito de direitos e garantias fundamentais, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "É constitucional lei estadual que, para resguardar a liberdade religiosa, permite o sacrifício ritual de animais em cultos de religiões de matriz africana.",
+        "B": "A injúria racial, por força de alteração legislativa posterior à Constituição, passou a ser tratada como modalidade do crime de racismo, sendo, portanto, inafiançável e imprescritível.",
+        "C": "É constitucional o ensino religioso nas escolas públicas de horário normal, admitida inclusive a sua oferta em caráter confessional.",
+        "D": "A Administração Pública pode anular seus próprios atos quando eivados de vícios que os tornem ilegais, por deles não se originarem direitos, assim como pode revogá-los por conveniência ou oportunidade, respeitados os direitos adquiridos e ressalvada, em qualquer caso, a apreciação judicial.",
+        "E": "O habeas data somente é cabível contra registros ou bancos de dados mantidos por agentes, órgãos ou entidades da Administração Pública, não alcançando entidades privadas de qualquer natureza."
+      },
+      "correta": "E",
+      "dica": "Repare no que a lei que regulamenta o habeas data chama de caráter público de um banco de dados: ela não fala só em órgão estatal.",
+      "explicacao": {
+        "E": "É a resposta, pois está incorreta. O art. 5º, LXXII, a, da CF e o art. 1º, parágrafo único, da Lei 9.507/1997 cabem também contra entidades privadas de caráter público, assim entendido todo registro ou banco de dados com informações que sejam ou possam ser transmitidas a terceiros, ou que não sejam de uso privativo do órgão ou entidade que as produziu ou armazenou — é o caso, por exemplo, de cadastros de proteção ao crédito como SPC e Serasa.",
+        "A": "Correta. É a tese do Tema 1.145 da repercussão geral (RE 494.601, julgado em 28/3/2019): o STF considerou constitucional lei do Rio Grande do Sul que excepcionou o sacrifício ritual de animais em cultos de matriz africana da proibição geral de maus-tratos, em nome da liberdade religiosa.",
+        "B": "Correta. A Lei 14.532/2023 incluiu o art. 2º-A na Lei 7.716/1989, tipificando a injúria racial como modalidade de racismo, com as mesmas consequências de imprescritibilidade e inafiançabilidade do art. 5º, XLII, da CF.",
+        "C": "Correta. É a tese fixada pelo STF na ADI 4.439 (julgada em 27/9/2017): o ensino religioso em escolas públicas pode ter natureza confessional, atendendo à opção religiosa do aluno ou de seus responsáveis, sem violar a laicidade do Estado.",
+        "D": "Correta. É a literalidade da Súmula 473 do STF, que resume o poder de autotutela da Administração sobre seus próprios atos, sempre sujeito, em qualquer hipótese, a posterior controle pelo Poder Judiciário."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.145 (RE 494.601)", "data": "2019-03-28" },
+        { "tipo": "lei", "referencia": "Lei 7.716/1989, art. 2º-A (incluído pela Lei 14.532/2023)", "data": "2023-01-11" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADI 4.439", "data": "2017-09-27" },
+        { "tipo": "sumula", "referencia": "STF, Súmula 473", "data": "1969-12-03" },
+        { "tipo": "lei", "referencia": "Lei 9.507/1997, art. 1º, parágrafo único", "data": "1997-11-12" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

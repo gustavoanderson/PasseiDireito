@@ -82,6 +82,31 @@
         { "tipo": "constituicao", "referencia": "CF, art. 109, I", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0081",
+      "tema": "Competência na ação de reparação de dano por acidente de veículo (arts. 51 a 53)",
+      "enunciado": "Joana, domiciliada em Natal/RN, sofreu acidente de trânsito em Matinhos/PR, provocado por caminhão da frota do Município de Matinhos, conduzido por um servidor municipal em serviço. Pretendendo ajuizar ação de reparação de danos contra o Município, surgiu dúvida sobre o foro competente. Considerando exclusivamente os arts. 51 a 53 do Código de Processo Civil, analise as afirmativas a seguir.\nI. Pelo art. 53, V, do CPC, por se tratar de ação de reparação de dano decorrente de acidente de veículo, Joana pode escolher entre o foro de seu domicílio (Natal/RN) e o do local do fato (Matinhos/PR).\nII. Como a ré é pessoa jurídica de direito público municipal, aplica-se o art. 52 do CPC, que fixa o foro de domicílio do autor, do local do fato ou da sede do ente, à escolha do autor, tal como ocorre quando o réu é Estado ou Distrito Federal.\nIII. A regra geral de competência do foro da sede da pessoa jurídica ré (art. 53, III, \"a\") cede, no caso, à regra especial do inciso V do mesmo artigo, que trata especificamente da reparação de dano por acidente de veículo.\nIV. Por se tratar de competência absoluta em razão da matéria, o foro do art. 53, V, não admite escolha de Joana, sendo obrigatório o ajuizamento no local do fato.\nEstá CORRETO o que se afirma em:",
+      "alternativas": {
+        "A": "I e III, apenas.",
+        "B": "II e IV, apenas.",
+        "C": "I, II e III, apenas.",
+        "D": "I, II, III e IV.",
+        "E": "I, III e IV, apenas."
+      },
+      "correta": "A",
+      "dica": "Veja a quais entes o art. 52 se aplica e qual regra do art. 53 é especial em relação à do inciso III, \"a\".",
+      "explicacao": {
+        "A": "Correta. I: o art. 53, V, do CPC comete ao domicílio do autor ou ao local do fato a ação de reparação de dano por acidente de veículo, à escolha de quem propõe a demanda. III: essa regra especial afasta, no caso concreto, a regra geral do art. 53, III, \"a\" (foro da sede da pessoa jurídica ré).",
+        "B": "Errada: reúne as duas afirmativas falsas (II e IV) e deixa de fora as duas verdadeiras (I e III).",
+        "C": "Errada: inclui a afirmativa II, falsa — o art. 52 do CPC reserva o foro de domicílio do autor, do local do fato ou da sede do ente apenas para as causas em que for parte o Estado ou o Distrito Federal, não o Município.",
+        "D": "Errada: ao incluir todas as afirmativas, abrange também II e IV, falsas pelos motivos já expostos nas demais alternativas.",
+        "E": "Errada: inclui a afirmativa IV, falsa — o art. 53, V, estabelece foro concorrente (domicílio do autor OU local do fato), à escolha de quem propõe a ação, e não competência absoluta vinculada ao local do fato."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 51, 52 e 53", "data": "2015-03-16" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

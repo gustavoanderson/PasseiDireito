@@ -82,6 +82,81 @@
         { "tipo": "constituicao", "referencia": "CF, art. 150, VI, §§ 2º a 4º (EC 132/2023), e art. 156, § 1º-A (EC 116/2022)", "data": "2023-12-20" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trib-0090",
+      "tema": "Limitações constitucionais ao poder de tributar: anterioridade, confisco e uniformidade geográfica",
+      "enunciado": "A Procuradoria de um Município foi consultada sobre um pacote de medidas tributárias em estudo para o próximo exercício financeiro: a majoração da alíquota do ISS, a cobrança de multa tributária em patamar que, no caso concreto, supera o próprio valor do tributo devido, e uma dúvida sobre se a União poderia, ao cobrar o Imposto de Renda, tratar de modo diferente contribuintes de Estados distintos, fora dos casos de incentivo regional. Considerando as limitações constitucionais ao poder de tributar (CF, arts. 150 e 151), julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA, de cima para baixo.\n\n(__) A anterioridade do exercício financeiro, como regra geral, impede a cobrança do tributo majorado no mesmo exercício em que publicada a lei que o aumentou.\n(__) A anterioridade nonagesimal, ao contrário da anterioridade do exercício, não comporta nenhuma exceção prevista na própria Constituição.\n(__) É vedado a todos os entes federativos utilizar tributo com efeito de confisco.\n(__) A União deve tributar de modo uniforme em todo o território nacional, admitida a concessão de incentivos fiscais destinados a promover o equilíbrio do desenvolvimento socioeconômico entre as regiões do país.",
+      "alternativas": {
+        "A": "V, V, F, V.",
+        "B": "F, V, V, F.",
+        "C": "V, F, V, V.",
+        "D": "F, F, V, F.",
+        "E": "V, F, F, V."
+      },
+      "correta": "C",
+      "dica": "Compare a lista de exceções do § 1º do art. 150 para a alínea b e para a alínea c: elas não são idênticas. Veja também o que o art. 151, I, admite como exceção à uniformidade.",
+      "explicacao": {
+        "C": "Correta. A 1ª é o art. 150, III, b (regra geral da anterioridade do exercício). A 2ª é falsa: o § 1º do art. 150 também excepciona a noventena quanto ao imposto de importação, de exportação, ao IOF, ao imposto extraordinário de guerra e ao empréstimo compulsório do art. 148, I, entre outros casos, embora a lista não coincida com a da anterioridade anual. A 3ª é o art. 150, IV (vedação ao confisco). A 4ª é o art. 151, I: a União deve tributar uniformemente, ressalvada a concessão de incentivos fiscais regionais.",
+        "A": "Marca como falsa a 1ª afirmativa, que é verdadeira: pelo art. 150, III, b, da CF, a regra geral veda cobrar o tributo majorado no mesmo exercício da lei que o aumentou. E marca como verdadeira a 2ª, que é falsa, pois a noventena também tem exceções constitucionais.",
+        "B": "Marca como falsa a 1ª, que reproduz a regra geral do art. 150, III, b, e deveria ser verdadeira, e como verdadeira a 2ª, que contraria o § 1º do art. 150: a vedação da noventena tem exceções expressas, ainda que distintas das da anterioridade anual.",
+        "D": "Erra a 1ª (que é verdadeira, art. 150, III, b) e a 4ª (que também é verdadeira, art. 151, I, ressalva dos incentivos fiscais regionais), além de manter a 2ª como verdadeira quando ela é falsa.",
+        "E": "Marca como falsa a 3ª, que reproduz o art. 150, IV: a vedação ao efeito de confisco vale para todos os entes tributantes, e não apenas para um deles."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 150, III, b e c, IV, e § 1º (EC 42/2003); art. 151, I", "data": "2003-12-19" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trib-0092",
+      "tema": "Competência tributária indelegável e delegação da capacidade tributária ativa (CTN, art. 7º)",
+      "enunciado": "O Município X, após instituir determinado tributo de sua competência, firmou convênio com um consórcio público municipal (pessoa jurídica de direito público) para que este exerça as funções de fiscalizar e cobrar o tributo em seu lugar. Paralelamente, contratou uma instituição financeira privada apenas para receber os pagamentos dos contribuintes, sem qualquer poder de fiscalização. Considerando o art. 7º do Código Tributário Nacional, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA, de cima para baixo.\n\n(__) A competência tributária, uma vez atribuída pela Constituição, é indelegável.\n(__) As funções de arrecadar e fiscalizar o tributo podem ser atribuídas a outra pessoa jurídica de direito público, sem que isso represente delegação da competência tributária.\n(__) O cometimento, a pessoa jurídica de direito privado, do encargo de arrecadar o tributo constitui, por si só, delegação da competência tributária.\n(__) A atribuição das funções de arrecadar ou fiscalizar pode ser revogada a qualquer tempo, por ato unilateral de quem a conferiu.",
+      "alternativas": {
+        "A": "V, F, F, V.",
+        "B": "V, V, F, V.",
+        "C": "F, V, V, F.",
+        "D": "V, V, V, F.",
+        "E": "F, F, V, V."
+      },
+      "correta": "B",
+      "dica": "O art. 7º separa o que é competência (indelegável) do que são funções de arrecadar, fiscalizar ou executar atos tributários. O § 3º trata de um cometimento que, por si só, não é delegação.",
+      "explicacao": {
+        "B": "Correta. A 1ª é o caput do art. 7º do CTN: a competência tributária é indelegável. A 2ª é a ressalva do próprio caput: as funções de arrecadar e fiscalizar podem ser atribuídas a outra pessoa jurídica de direito público. A 3ª é falsa: o § 3º do art. 7º diz que o simples cometimento, a pessoas de direito privado, do encargo de arrecadar tributos NÃO constitui delegação de competência. A 4ª é o § 2º do art. 7º: a atribuição pode ser revogada a qualquer tempo, por ato unilateral de quem a conferiu.",
+        "A": "Marca como falsa a 2ª, que é a própria ressalva do caput do art. 7º: a atribuição das funções de arrecadar e fiscalizar a outra pessoa jurídica de direito público não é delegação de competência.",
+        "C": "Inverte a 1ª, que é verdadeira (a competência tributária é indelegável, art. 7º, caput), e mantém a 3ª como verdadeira, quando o § 3º do art. 7º diz exatamente o contrário: cometer a pessoa de direito privado o encargo de arrecadar não é delegação.",
+        "D": "Mantém a 3ª como verdadeira. O § 3º do art. 7º é expresso: não constitui delegação de competência o cometimento, a pessoas de direito privado, do encargo de arrecadar tributos.",
+        "E": "Erra a 1ª, que é verdadeira (art. 7º, caput: a competência tributária é indelegável), e mantém a 3ª como verdadeira, quando o § 3º do art. 7º a contraria."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CTN (Lei 5.172/1966), art. 7º", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trib-0093",
+      "tema": "Imunidades do art. 150, VI, da CF: alcance restrito a impostos",
+      "enunciado": "Determinada entidade sindical de trabalhadores, sem fins lucrativos, é proprietária do imóvel onde funciona sua sede, usado em suas finalidades essenciais. O Município pretende cobrar dela, além do IPTU sobre o imóvel, uma taxa de fiscalização de funcionamento, cobrada de todos os estabelecimentos em razão do exercício do poder de polícia. A entidade alega que a imunidade tributária a dispensa de ambos os tributos. Considerando o art. 150, VI, c, e §§ 2º a 4º, e o art. 151, I, da Constituição Federal, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA, de cima para baixo.\n\n(__) É vedado ao Município instituir imposto sobre o patrimônio da entidade sindical de trabalhadores, relacionado às suas finalidades essenciais.\n(__) A imunidade do art. 150, VI, é uma garantia restrita aos impostos, não alcançando, por si só, as taxas cobradas pelo exercício do poder de polícia.\n(__) A imunidade recíproca entre os entes federativos (art. 150, VI, a) estende-se automaticamente às taxas e às contribuições de melhoria por eles instituídas.\n(__) A vedação à instituição de impostos sobre patrimônio, renda e serviços uns dos outros é extensiva às autarquias e às fundações públicas, quanto ao patrimônio, à renda e aos serviços vinculados às suas finalidades essenciais.",
+      "alternativas": {
+        "A": "V, V, F, V.",
+        "B": "V, F, F, V.",
+        "C": "F, V, V, F.",
+        "D": "V, V, V, F.",
+        "E": "F, F, V, V."
+      },
+      "correta": "A",
+      "dica": "O caput do art. 150, VI, fala só em 'impostos'. Isso já responde duas das afirmativas. Veja também o § 2º, que estende a imunidade recíproca a certas pessoas jurídicas de direito público.",
+      "explicacao": {
+        "A": "Correta. A 1ª é o art. 150, VI, c (templos, entidades sindicais de trabalhadores etc.). A 2ª decorre do próprio caput do inciso VI, que veda a instituição de 'impostos' sobre as hipóteses que lista: a imunidade, por si só, não alcança taxas nem contribuições de melhoria. A 3ª é falsa pelo mesmo motivo: a imunidade recíproca do art. 150, VI, a, também se limita a impostos. A 4ª é o § 2º do art. 150: a vedação da alínea a estende-se às autarquias e fundações públicas, quanto ao patrimônio, à renda e aos serviços ligados às finalidades essenciais.",
+        "B": "Marca como falsa a 2ª, que decorre do próprio texto do art. 150, VI: a vedação ali prevista alcança apenas impostos, e não taxas ou contribuições de melhoria.",
+        "C": "Inverte a 1ª, que é verdadeira (art. 150, VI, c, alcança as entidades sindicais de trabalhadores), e marca como verdadeira a 3ª, que é falsa: a imunidade recíproca também está restrita a impostos.",
+        "D": "Mantém a 3ª como verdadeira. Nenhuma imunidade do art. 150, VI, dispensa o pagamento de taxas ou de contribuição de melhoria; elas só afastam a instituição de impostos.",
+        "E": "Erra a 1ª, que é verdadeira (art. 150, VI, c), e mantém a 3ª como verdadeira, quando ela contraria o alcance do art. 150, VI, a, restrito a impostos."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 150, VI, c, §§ 2º e 4º (EC 132/2023)", "data": "2023-12-20" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

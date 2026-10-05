@@ -318,6 +318,38 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "adm-0107",
+      "tema": "Diálogo competitivo (Lei 14.133/2021, arts. 28, V, e 32)",
+      "enunciado": "O Município pretende implantar sistema de monitoramento em tempo real da qualidade da água distribuída à população, com sensores conectados e processamento automatizado de dados. A Secretaria de Meio Ambiente constatou não ter condições técnicas de definir, isoladamente, as especificações da solução mais adequada disponível no mercado. Consultada sobre a viabilidade de utilizar a modalidade diálogo competitivo, nos termos dos arts. 28, V, e 32 da Lei nº 14.133/2021, a Procuradoria do Município deve orientar que assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A condução da fase de diálogos pode ser feita por um único agente de contratação, isoladamente, a critério do Secretário responsável, dispensada a formação de comissão.",
+        "B": "Encerrada a fase de diálogos sem que se identifique solução apta a atender às necessidades da Administração, esta é obrigada a contratar a proposta inicial de menor valor apresentada por qualquer dos licitantes pré-selecionados.",
+        "C": "Concluídos os diálogos, a Administração deve abrir a fase competitiva concedendo às empresas pré-selecionadas prazo mínimo de 15 (quinze) dias úteis para apresentar propostas finais, vedada qualquer especificação adicional da solução escolhida no edital dessa fase.",
+        "D": "Durante a fase de diálogos, a Administração pode divulgar aos demais licitantes as soluções técnicas ou as informações sigilosas apresentadas por um concorrente, sem necessidade de sua anuência, em nome da isonomia entre os participantes.",
+        "E": "O diálogo competitivo é cabível quando o objeto pretendido envolve inovação tecnológica ou técnica, ou quando a Administração não é capaz de ter sua necessidade satisfeita sem a adaptação de soluções disponíveis no mercado, hipóteses em que o edital fixará prazo mínimo de 25 (vinte e cinco) dias úteis para manifestação de interesse na participação da licitação."
+      },
+      "correta": "E",
+      "dica": "O art. 32 condiciona o cabimento do diálogo competitivo a requisitos do próprio objeto, e o § 1º fixa prazos e vedações próprios dessa modalidade: quem conduz a fase de diálogos, o que não se pode revelar e quanto tempo dura cada etapa.",
+      "explicacao": {
+        "E": "Correta. É a combinação do art. 32, I, \"a\" e \"b\" (inovação tecnológica ou técnica, ou impossibilidade de satisfazer a necessidade sem adaptar soluções do mercado) com o § 1º, I, do mesmo artigo, que fixa em 25 dias úteis o prazo mínimo para manifestação de interesse na participação.",
+        "A": "O art. 32, § 1º, XI, exige que o diálogo competitivo seja conduzido por comissão de contratação composta de pelo menos 3 (três) servidores efetivos ou empregados públicos dos quadros permanentes da Administração, e não por um único agente.",
+        "B": "O art. 32, § 1º, V, permite que a fase de diálogos seja mantida até que a Administração, em decisão fundamentada, identifique a solução. Se nenhuma solução adequada for identificada, não há previsão legal que obrigue a contratação da proposta inicial de menor valor.",
+        "C": "O art. 32, § 1º, VIII, fixa em 60 (sessenta) dias úteis, e não 15, o prazo mínimo da fase competitiva, e exige que o edital dessa fase contenha a especificação da solução que atenda às necessidades da Administração, identificada ao final dos diálogos.",
+        "D": "O art. 32, § 1º, IV, veda expressamente que a Administração revele a outros licitantes as soluções propostas ou as informações sigilosas comunicadas por um licitante sem o consentimento deste."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 14.133/2021, art. 32, caput, I, e § 1º, IV, V, VIII e XI",
+          "data": "2021-04-01"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

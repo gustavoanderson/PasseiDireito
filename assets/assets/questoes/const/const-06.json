@@ -183,6 +183,58 @@
         { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, arts. 59, 60, 61, 62 e 63", "data": "1990-04-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0081",
+      "tema": "Imunidades parlamentares – início, alcance e irrenunciabilidade",
+      "enunciado": "Sobre as imunidades parlamentares no direito constitucional brasileiro, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "As imunidades parlamentares, tanto a material quanto a formal, somente passam a proteger o parlamentar a partir da posse no exercício do mandato, e não da diplomação.",
+        "B": "Os suplentes de Deputados e Senadores já gozam da imunidade parlamentar desde a diplomação pela Justiça Eleitoral, independentemente de estarem no exercício do mandato.",
+        "C": "A imunidade material é cláusula de abrangência ampla, que protege qualquer manifestação do parlamentar, guarde ela, ou não, pertinência com o desempenho da função legislativa.",
+        "D": "As imunidades parlamentares têm natureza subjetiva, inerente à pessoa do parlamentar, e por isso admitem renúncia por ato de vontade do próprio detentor do mandato.",
+        "E": "Não viola as garantias do juiz natural, da ampla defesa e do devido processo legal a atração, por continência ou conexão, do processo de corréu sem foro por prerrogativa de função ao foro por prerrogativa de função de outro denunciado."
+      },
+      "correta": "E",
+      "dica": "Lembre que a imunidade protege a função, não a pessoa; e veja a partir de que marco formal, no processo eleitoral, ela passa a proteger quem foi eleito.",
+      "explicacao": {
+        "E": "Correta. É entendimento consolidado do STF: a atração do processo de corréu sem foro por prerrogativa de função ao foro do corréu que o possui, por continência ou conexão, não ofende o juiz natural, a ampla defesa ou o devido processo legal, desde que a competência por prerrogativa de função decorra de regra constitucional objetiva, válida para todos os acusados do mesmo feito.",
+        "A": "A imunidade material e a formal (quanto à prisão, por exemplo) protegem o parlamentar desde a expedição do diploma pela Justiça Eleitoral (art. 53, §§ 1º e 2º, da CF), e não apenas a partir da posse no mandato.",
+        "B": "O suplente não goza de imunidade parlamentar pela simples diplomação: a prerrogativa está ligada ao exercício do mandato, e o suplente só passa a gozar dela quando efetivamente assume a vaga e entra em exercício.",
+        "C": "A imunidade material, segundo a jurisprudência do STF, exige pertinência (nexo funcional) entre a manifestação do parlamentar e o exercício do mandato; manifestações sem qualquer conexão com a atividade legislativa não são cobertas pela imunidade.",
+        "D": "A imunidade parlamentar é prerrogativa de natureza objetiva e funcional, vinculada ao cargo e não à pessoa que o ocupa; por isso, é irrenunciável: o parlamentar não pode, por vontade própria, abrir mão dela."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 53, §§ 1º e 2º (EC 35/2001)", "data": "2001-12-20" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0082",
+      "tema": "Processo legislativo federal – sanção, veto e medida provisória",
+      "enunciado": "Sobre o processo legislativo disciplinado pela Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Todo tratado internacional ratificado pelo Brasil é incorporado ao ordenamento com status de emenda constitucional, podendo ser invocado como parâmetro de controle de constitucionalidade.",
+        "B": "Não se admite novo veto a projeto de lei já sancionado e publicado: a aposição da sanção pelo Chefe do Poder Executivo evidencia a preclusão da fase de veto dentro do processo legislativo.",
+        "C": "A Constituição Estadual pode exigir lei complementar para disciplinar matéria que a Constituição Federal remete à lei ordinária, sem que isso configure qualquer ofensa ao princípio da simetria.",
+        "D": "Lei ordinária e lei complementar mantêm, entre si, relação de hierarquia, estando a primeira subordinada à segunda, conforme disposto no Ato das Disposições Constitucionais Transitórias.",
+        "E": "Em razão de sua força de lei, a medida provisória, uma vez editada com relevância e urgência, revoga definitivamente a lei ordinária anterior com ela incompatível."
+      },
+      "correta": "B",
+      "dica": "Pense no efeito da sanção sobre as etapas do processo legislativo que ainda faltavam: ela fecha alguma porta que, antes, ainda estava aberta?",
+      "explicacao": {
+        "B": "Correta. Uma vez sancionado o projeto de lei (art. 66, caput, da CF), não há mais espaço para veto: a sanção é ato que manifesta a concordância do Poder Executivo com o texto aprovado pelo Congresso Nacional, e opera a preclusão daquela fase do processo legislativo. Veto e sanção são mutuamente excludentes, e a lei já promulgada e publicada não comporta veto superveniente.",
+        "A": "Somente os tratados e convenções internacionais sobre direitos humanos aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, equivalem a emendas constitucionais (art. 5º, § 3º, da CF) e podem servir de parâmetro de controle de constitucionalidade; os demais tratados ingressam no ordenamento com força de lei ordinária, ou, no caso dos de direitos humanos aprovados sem esse rito qualificado, como norma supralegal, segundo o STF.",
+        "C": "O STF entende que viola o princípio da simetria a Constituição Estadual que exige lei complementar para matéria que a Constituição Federal, ao tratar do modelo a ser seguido pelos Estados, disciplina por meio de lei ordinária: o Estado não pode agravar o processo legislativo além do padrão federal nesses casos.",
+        "D": "Não há relação de hierarquia entre lei ordinária e lei complementar, segundo a jurisprudência consolidada do STF: a diferença entre as duas espécies está no quórum de aprovação (art. 69 da CF) e na reserva de matéria, e não em uma relação de subordinação; o ADCT não disciplina essa relação.",
+        "E": "A medida provisória não revoga definitivamente a lei anterior incompatível: por sua natureza precária, apenas suspende a eficácia dessa lei enquanto a medida provisória estiver vigente; perdendo eficácia por decurso de prazo sem conversão (art. 62, § 3º, da CF), cabe ao Congresso Nacional disciplinar, por decreto legislativo, as relações jurídicas dela decorrentes, e, na omissão, elas continuam regidas pela própria medida provisória (art. 62, § 11)."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 66, caput e §§ 1º e 3º", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, § 3º (EC 45/2004)", "data": "2004-12-30" },
+        { "tipo": "constituicao", "referencia": "CF, art. 62, §§ 3º e 11, e art. 69", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

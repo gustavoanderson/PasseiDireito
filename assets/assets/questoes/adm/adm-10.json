@@ -176,6 +176,33 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "adm-0109",
+      "tema": "Ocupação de bem público dominical: detenção, posse e usucapião",
+      "enunciado": "Determinada família ocupa, há mais de 20 (vinte) anos, terreno de propriedade do Município, hoje sem destinação específica (bem dominical), e ajuíza ação de usucapião extraordinária, alegando posse mansa e pacífica e a função social da moradia, cumulando pedido subsidiário de indenização por benfeitorias e direito de retenção do imóvel até o pagamento. Sobre o regime jurídico dos bens públicos e da proteção possessória, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os bens públicos dominicais, por integrarem o patrimônio disponível da Administração e estarem desafetados de finalidade pública, admitem usucapião extraordinária quando comprovada a função social da moradia.",
+        "B": "A ocupação de bem público dominical por particular qualifica-se como mera detenção perante o Poder Público, o que afasta o reconhecimento de posse ad usucapionem, a usucapião do imóvel e, em regra, o direito à indenização por benfeitorias ou à sua retenção.",
+        "C": "Ainda que inadmitida a usucapião, a ocupação prolongada do bem dominical gera, por equidade, direito à sua aquisição onerosa compulsória pelo ocupante, mediante pagamento do valor de mercado ao Município.",
+        "D": "A natureza de bem público dominical e desafetado equivale, para fins possessórios, à de bem particular, de modo que o ocupante exerce posse plena, oponível a terceiros e ao próprio Município, inclusive por meio de interditos possessórios.",
+        "E": "A instituição de bem de família voluntário sobre o imóvel, uma vez registrado, impede a penhora por débitos de IPTU e de taxas municipais incidentes sobre o próprio bem."
+      },
+      "correta": "B",
+      "dica": "Pense em dois planos separados: o bem continua sendo público, qualquer que seja sua categoria, e o que o ocupante exerce sobre ele nunca chega a ser posse no sentido jurídico pleno.",
+      "explicacao": {
+        "B": "Correta. A ocupação de bem público é tratada como mera detenção, de natureza precária, ainda que prolongada: não gera posse ad usucapionem, vedada pelo art. 102 do Código Civil, pelos arts. 183, § 3º, e 191, parágrafo único, da CF, e pela Súmula 340 do STF, nem, como regra, direito à indenização por benfeitorias ou à sua retenção em face do Poder Público.",
+        "A": "Nenhuma categoria de bem público, nem mesmo o dominical, se sujeita a usucapião. A desafetação retira a inalienabilidade do bem, permitindo sua venda pelos meios legais, mas não equivale à perda da natureza pública enquanto ele permanecer no patrimônio do ente.",
+        "C": "Não há, no ordenamento, direito à aquisição compulsória onerosa do bem público pelo simples decurso do tempo de ocupação. A alienação de bem dominical depende de autorização legislativa, avaliação prévia e licitação, nos termos da lei.",
+        "D": "O bem permanece público até sua regular desafetação e alienação; antes disso, a ocupação por particular não gera posse oponível ao Município, e a jurisprudência nega a tutela possessória ao ocupante contra o ente público.",
+        "E": "O bem de família protege o imóvel contra a execução por dívidas em geral, mas não contra a cobrança de impostos, taxas e contribuições de melhoria que incidam sobre o próprio imóvel, como o IPTU."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, art. 102", "data": "2002-01-10" },
+        { "tipo": "constituicao", "referencia": "CF, arts. 183, § 3º, e 191, parágrafo único", "data": "1988-10-05" },
+        { "tipo": "sumula", "referencia": "Súmula 340/STF", "data": "1963-12-13" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

@@ -243,6 +243,38 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "adm-0113",
+      "tema": "Legitimidade, procedimento e dolo após a Lei 14.230/2021 (LIA, arts. 1º e 17)",
+      "enunciado": "Um parecer técnico apontou sobrepreço numa contratação do Município, e o gestor responsável autorizou o pagamento sem justificar a divergência apontada, causando dano comprovado ao erário. Sobre a ação de improbidade administrativa cabível, à luz da Lei nº 8.429/1992 na redação da Lei nº 14.230/2021, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA.\n\n(__) O Município, por ser o ente lesado, tem legitimidade concorrente com o Ministério Público para propor a ação.\n(__) A ação segue o procedimento comum do CPC, salvo disposição em contrário da própria Lei de Improbidade.\n(__) A configuração do ato de improbidade exige a comprovação de dolo, não bastando a mera voluntariedade da conduta do agente.\n(__) O mero exercício da função pública, sem comprovação de ato doloso com fim ilícito, afasta a responsabilização por improbidade.",
+      "alternativas": {
+        "A": "V, V, F, F.",
+        "B": "F, V, V, V.",
+        "C": "V, F, V, V.",
+        "D": "F, F, V, F.",
+        "E": "V, V, V, F."
+      },
+      "correta": "B",
+      "dica": "Depois da reforma de 2021, uma única pessoa jurídica de direito público tem legitimidade para propor a ação de improbidade — e não é o ente lesado.",
+      "explicacao": {
+        "B": "Correta. O art. 17, caput, da LIA (redação da Lei 14.230/2021) atribui a propositura da ação EXCLUSIVAMENTE ao Ministério Público, que segue o procedimento comum do CPC, salvo disposição em contrário da própria lei — por isso a primeira afirmativa é falsa e a segunda, verdadeira. O art. 1º, § 2º, exige dolo (vontade livre e consciente de alcançar o resultado ilícito), não bastando a mera voluntariedade — terceira afirmativa verdadeira. E o art. 1º, § 3º, afasta a responsabilidade pelo mero exercício da função, sem ato doloso com fim ilícito — quarta afirmativa verdadeira.",
+        "A": "A primeira afirmativa é falsa (legitimidade é exclusiva do Ministério Público, não concorrente com o ente lesado, art. 17, caput) e a quarta é verdadeira, não falsa (art. 1º, § 3º).",
+        "C": "A primeira afirmativa é falsa, não verdadeira: antes da Lei 14.230/2021 o Município lesado também podia propor a ação; depois da reforma, a legitimidade passou a ser exclusiva do Ministério Público (art. 17, caput).",
+        "D": "A segunda afirmativa é verdadeira, não falsa: o art. 17, caput, manda seguir o procedimento comum do CPC, salvo disposição em contrário da LIA. E a quarta também é verdadeira (art. 1º, § 3º), não falsa.",
+        "E": "A quarta afirmativa é verdadeira, não falsa: o art. 1º, § 3º, afasta expressamente a responsabilidade pelo mero exercício da função pública, sem ato doloso com fim ilícito."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 8.429/1992, arts. 1º, §§ 2º e 3º, e 17, caput (redação da Lei 14.230/2021)",
+          "data": "2021-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

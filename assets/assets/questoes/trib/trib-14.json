@@ -99,6 +99,38 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "trib-0096",
+      "tema": "Princípio da exclusividade orçamentária e suas ressalvas (CF, art. 165, § 8º)",
+      "enunciado": "No projeto de Lei Orçamentária Anual de determinado Município, o Poder Executivo incluiu a previsão de receitas e a fixação das despesas do exercício, além de dispositivos autorizando a abertura de créditos suplementares e a contratação de operações de crédito por antecipação de receita. O projeto também trouxe um artigo criando uma nova fundação pública municipal e disciplinando sua estrutura. Considerando o princípio da exclusividade orçamentária (CF, art. 165, § 8º), assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A contratação de operações de crédito por antecipação de receita jamais pode ser autorizada na Lei Orçamentária Anual, ainda que por meio de lei específica.",
+        "B": "A vedação à inclusão de matéria estranha na LOA afasta até mesmo a autorização para abertura de créditos suplementares, que deve constar de lei específica.",
+        "C": "A criação de fundação pública é compatível com o conteúdo da LOA, pois qualquer matéria de interesse administrativo pode nela figurar.",
+        "D": "A Lei Orçamentária Anual não pode conter dispositivo estranho à previsão da receita e à fixação da despesa, ressalvadas a autorização para abertura de créditos suplementares e para contratação de operações de crédito, ainda que por antecipação de receita; a criação da fundação pública é matéria estranha a esse conteúdo.",
+        "E": "O princípio da exclusividade impede que a LOA preveja a abertura de créditos suplementares, ainda que exista autorização legislativa específica para tanto."
+      },
+      "correta": "D",
+      "dica": "O § 8º do art. 165 da CF tem uma regra geral e duas ressalvas expressas. Veja se a criação de uma fundação se encaixa em alguma delas.",
+      "explicacao": {
+        "D": "Correta. É o art. 165, § 8º, da CF: a LOA não contém dispositivo estranho à previsão da receita e à fixação da despesa, ressalvadas apenas a autorização para créditos suplementares e para operações de crédito, inclusive por antecipação de receita. Criar e estruturar uma fundação pública é matéria estranha a esse conteúdo, própria de lei específica.",
+        "A": "A operação de crédito por antecipação de receita (ARO) está entre as ressalvas do § 8º do art. 165 da CF; pode, sim, ser autorizada na própria LOA, observados os limites da Lei de Responsabilidade Fiscal.",
+        "B": "O próprio § 8º do art. 165 da CF inclui a autorização para créditos suplementares entre as ressalvas expressas à vedação de matéria estranha; ela pode constar da própria LOA.",
+        "C": "O princípio da exclusividade existe para impedir exatamente isso: que qualquer matéria estranha ao orçamento seja incluída na LOA a carona de sua rápida tramitação. A criação de fundação pública depende de lei específica.",
+        "E": "O § 8º do art. 165 da CF ressalva expressamente a autorização para créditos suplementares, que pode constar da LOA sem violar a exclusividade."
+      },
+      "fontes": [
+        {
+          "tipo": "constituicao",
+          "referencia": "CF, art. 165, § 8º",
+          "data": "1988-10-05"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

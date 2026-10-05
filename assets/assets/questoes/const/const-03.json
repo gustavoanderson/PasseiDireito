@@ -186,6 +186,111 @@
         { "tipo": "constituicao", "referencia": "CF, art. 103, § 2º", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0073",
+      "tema": "Controle de constitucionalidade de leis municipais perante a Constituição Federal",
+      "enunciado": "Um Município edita lei que, segundo alegação de parte interessada, contraria diretamente a Constituição Federal. Diversos legitimados cogitam as vias de impugnação cabíveis. Sobre o controle de constitucionalidade de leis municipais em face da Constituição Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O sistema constitucional brasileiro não admite o controle concentrado de lei ou ato normativo municipal perante o Supremo Tribunal Federal por meio de ação direta de inconstitucionalidade; a fiscalização da lei municipal em face da Constituição Federal se faz, em regra, pela via do controle difuso (incidental), ressalvado o cabimento de arguição de descumprimento de preceito fundamental.",
+        "B": "O Tribunal de Justiça pode exercer controle concentrado de lei municipal tomando como parâmetro diretamente a Constituição Federal, ainda que a norma constitucional invocada não tenha sido reproduzida, por transposição ou remissão, na Constituição Estadual.",
+        "C": "Por se tratar de controle concentrado, a declaração de inconstitucionalidade de lei municipal pelo Tribunal de Justiça, com fundamento em norma de reprodução obrigatória da Constituição Federal, não comporta qualquer recurso ao Supremo Tribunal Federal.",
+        "D": "A legitimidade para propor arguição de descumprimento de preceito fundamental contra lei municipal é ampla, estendendo-se a qualquer cidadão prejudicado pela norma impugnada.",
+        "E": "A simultaneidade de controle de constitucionalidade de uma mesma lei municipal pelo Tribunal de Justiça, tomando a Constituição Estadual como parâmetro, e pelo Supremo Tribunal Federal, em arguição de descumprimento de preceito fundamental, é vedada pelo ordenamento, que impõe a prevalência do processo mais antigo."
+      },
+      "correta": "A",
+      "dica": "Pense em qual é a única ação de controle concentrado perante o Supremo Tribunal Federal que admite lei municipal como objeto, e o que resta, fora dela, para impugnar essa lei em face da Constituição Federal.",
+      "explicacao": {
+        "A": "Correta. O rol do art. 102, I, a, da CF só admite ação direta de inconstitucionalidade contra lei ou ato normativo federal ou estadual; lei municipal não é objeto de ADI perante o STF. A fiscalização da lei municipal em face da Constituição Federal se faz, como regra, pela via difusa (incidental, em qualquer processo), e, excepcionalmente, pela arguição de descumprimento de preceito fundamental (Lei 9.882/1999), que não exige que o parâmetro seja apenas a Constituição Estadual.",
+        "B": "O Tribunal de Justiça só pode usar a Constituição Federal como parâmetro de controle concentrado de lei municipal quando a norma federal invocada for de reprodução obrigatória pelos Estados, incorporada à Constituição Estadual por transposição ou remissão (Tema 484 da repercussão geral); não há controle abstrato direto da lei municipal em face da própria Constituição Federal.",
+        "C": "Cabe recurso extraordinário ao Supremo Tribunal Federal contra o acórdão do Tribunal de Justiça que declarar, em controle concentrado estadual, a inconstitucionalidade de lei municipal com fundamento em norma de reprodução obrigatória da Constituição Federal, justamente porque o parâmetro de fundo acaba sendo a própria Carta da República.",
+        "D": "Os legitimados para a arguição de descumprimento de preceito fundamental são os mesmos legitimados para a ação direta de inconstitucionalidade, listados no art. 103 da CF; não há legitimidade ampla e irrestrita de qualquer cidadão para propor ADPF.",
+        "E": "O ordenamento não veda a simultaneidade entre o controle de constitucionalidade de uma lei municipal pelo Tribunal de Justiça, em face da Constituição Estadual, e pelo Supremo Tribunal Federal, em arguição de descumprimento de preceito fundamental; cabe ao STF, se entender necessário, sobrestar o processo estadual, e não o contrário."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 102, I, a, e art. 103", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 9.882/1999, arts. 1º e 2º", "data": "1999-12-03" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0074",
+      "tema": "Parâmetros do controle de constitucionalidade – bloco de constitucionalidade e ADCT",
+      "enunciado": "Sobre a teoria do controle de constitucionalidade, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "O preâmbulo da Constituição não vincula como parâmetro de controle de constitucionalidade, por não ostentar natureza normativa, servindo apenas como vetor de interpretação do restante do texto.",
+        "B": "O bloco de constitucionalidade compreende o conjunto de normas, princípios e valores materialmente constitucionais que, embora situados fora do texto formal da Constituição, servem de parâmetro ao controle de constitucionalidade.",
+        "C": "O estado de coisas inconstitucional caracteriza-se pela violação massiva e persistente de direitos fundamentais, somada à inércia ou à falha estrutural dos poderes públicos em corrigi-la, o que justifica a determinação judicial de medidas estruturais e a atuação coordenada de diferentes órgãos.",
+        "D": "Os tratados e convenções internacionais sobre direitos humanos aprovados por três quintos dos votos, em cada Casa do Congresso Nacional, em dois turnos, equivalem às emendas constitucionais e podem servir de parâmetro de controle de constitucionalidade.",
+        "E": "As normas do Ato das Disposições Constitucionais Transitórias cuja eficácia já se exauriu, por terem esgotado integralmente os efeitos a que se destinavam, continuam servindo de parâmetro válido para o controle de constitucionalidade de leis e atos normativos supervenientes."
+      },
+      "correta": "E",
+      "dica": "Pense no que resta de uma norma depois que ela já produziu, por completo, o único efeito a que se destinava.",
+      "explicacao": {
+        "E": "É a resposta, pois está incorreta. Normas do ADCT de eficácia exaurida ou exaurível, que já esgotaram os efeitos para os quais foram editadas (como a fixação de um prazo ou de um procedimento de transição já cumprido), perdem utilidade como parâmetro de controle de constitucionalidade: não há mais, nelas, um comando vigente e aplicável contra o qual aferir a validade de norma superveniente.",
+        "A": "Correta. O preâmbulo não tem força normativa autônoma: a jurisprudência do STF (ADI 2.076, julgada em 15/8/2002) o trata como simples diretriz política e interpretativa, sem servir de parâmetro de controle de constitucionalidade.",
+        "B": "Correta. É a noção de bloco de constitucionalidade: parâmetros materialmente constitucionais situados fora do texto formal, como os tratados de direitos humanos internalizados com equivalência de emenda, que ampliam o universo de normas aptas a servir de parâmetro de controle.",
+        "C": "Correta. É a formulação consagrada pelo STF a partir da medida cautelar na ADPF 347 (julgada em 9/9/2015), sobre o sistema penitenciário brasileiro: a violação sistêmica de direitos fundamentais, somada à inércia estrutural dos poderes públicos, caracteriza o estado de coisas inconstitucional e autoriza decisões estruturais e dialógicas.",
+        "D": "Correta. É o art. 5º, § 3º, da CF, incluído pela EC 45/2004: o tratado de direitos humanos aprovado nesse rito qualificado passa a integrar o bloco de constitucionalidade, com hierarquia de emenda."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 5º, § 3º (EC 45/2004)", "data": "2004-12-30" },
+        { "tipo": "controle-concentrado", "referencia": "STF, MC-ADPF 347 – estado de coisas inconstitucional (sistema penitenciário)", "data": "2015-09-09" },
+        { "tipo": "outro", "referencia": "STF, ADI 2.076 – ausência de força normativa do preâmbulo", "data": "2002-08-15" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0075",
+      "tema": "Controle preventivo de constitucionalidade e legitimidade parlamentar",
+      "enunciado": "Durante a tramitação de uma proposta de emenda à Constituição que, segundo apontam alguns parlamentares, viola um dos limites materiais do art. 60, § 4º, da CF, um Deputado Federal pretende impedir judicialmente o prosseguimento da votação. Sobre o controle preventivo de constitucionalidade no direito brasileiro, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É cabível o controle preventivo abstrato de constitucionalidade, por meio de ação direta de inconstitucionalidade ajuizada por qualquer dos legitimados do art. 103 da CF contra a proposta ainda em tramitação.",
+        "B": "O controle de constitucionalidade exercido pelo Poder Judiciário é sempre repressivo, de modo que nenhuma ação pode ser proposta contra proposição legislativa ainda em tramitação no Congresso Nacional.",
+        "C": "O Supremo Tribunal Federal reconhece a legitimidade do próprio parlamentar — e somente dele — para impetrar mandado de segurança com o objetivo de coibir a deliberação de proposta de emenda manifestamente tendente a abolir cláusula pétrea, com fundamento no devido processo legislativo.",
+        "D": "Enquanto não convertida em emenda, a proposta que viole cláusula pétrea escapa a qualquer controle jurisdicional, por força do princípio da separação dos Poderes, só podendo sua inconstitucionalidade ser arguida depois da promulgação.",
+        "E": "O sistema brasileiro não admite qualquer controle jurisdicional preventivo de constitucionalidade, nem mesmo diante de ofensa às normas constitucionais do próprio processo legislativo."
+      },
+      "correta": "C",
+      "dica": "Pense em quem, sozinho, tem legitimidade para se socorrer do Judiciário contra um vício no próprio processo de votação de uma proposta ainda em tramitação.",
+      "explicacao": {
+        "C": "Correta. O STF reconhece, desde a década de 1980, a legitimidade exclusiva do parlamentar para impetrar mandado de segurança visando sustar a deliberação de proposta de emenda manifestamente tendente a abolir cláusula pétrea, ou de projeto cuja tramitação viole regra constitucional do processo legislativo. O fundamento é o direito público subjetivo do parlamentar a um processo legislativo hígido, e não a defesa de interesse da coletividade.",
+        "A": "O controle concentrado abstrato pressupõe lei ou ato normativo já promulgado; a ação direta de inconstitucionalidade não é instrumento para impugnar proposição ainda em tramitação no Congresso Nacional, mesmo que haja legitimados do art. 103 da CF dispostos a propô-la desde logo.",
+        "B": "O controle preventivo, embora excepcional, existe no sistema brasileiro: é exatamente a hipótese do mandado de segurança impetrado por parlamentar contra deliberação que viole cláusula pétrea ou regra do processo legislativo, hipótese que a alternativa C descreve corretamente.",
+        "D": "O STF admite, ao contrário do que diz esta alternativa, controle jurisdicional antes mesmo da promulgação, justamente para impedir que uma emenda tendente a abolir cláusula pétrea complete seu trâmite; esperar a promulgação esvaziaria a proteção da cláusula pétrea.",
+        "E": "Há, sim, controle jurisdicional preventivo no sistema brasileiro, ainda que restrito a duas hipóteses excepcionais: a PEC manifestamente ofensiva a cláusula pétrea e o projeto cuja tramitação desrespeite regra constitucional do processo legislativo, ambas sujeitas a mandado de segurança impetrado por parlamentar."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 60, § 4º, e art. 102, I", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0076",
+      "tema": "Recursos no controle de constitucionalidade – repercussão geral e amicus curiae",
+      "enunciado": "Sobre aspectos recursais ligados ao controle de constitucionalidade e aos recursos extraordinários, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A Fazenda Pública está dispensada de demonstrar a repercussão geral no recurso extraordinário em que figurar como parte, por força do interesse público que permeia a causa.",
+        "B": "A arguição de descumprimento de preceito fundamental é o instrumento processual adequado para a revisão ou o cancelamento de enunciado de súmula vinculante, em alternativa ao procedimento da Lei nº 11.417/2006.",
+        "C": "A procuradoria do Estado ou do Município tem legitimidade para interpor recurso extraordinário contra o acórdão do Tribunal de Justiça que, em representação de inconstitucionalidade, declarar a invalidade de lei estadual ou municipal que a procuradoria defendeu no processo.",
+        "D": "A decisão que inadmitir a participação de amicus curiae no processo de controle concentrado de inconstitucionalidade comporta agravo de instrumento ao órgão colegiado, por se tratar de decisão que compromete o contraditório de terceiro interessado.",
+        "E": "Não há repercussão geral quando o recurso extraordinário impugnar acórdão que contrarie súmula ou jurisprudência dominante do Supremo Tribunal Federal, por se tratar de controvérsia já pacificada."
+      },
+      "correta": "C",
+      "dica": "Pense em quem, de fato, foi intimado para defender a lei impugnada perante o Tribunal de Justiça: é essa parte que tem interesse em seguir recorrendo contra a decisão que lhe foi desfavorável.",
+      "explicacao": {
+        "C": "Correta. Quando o Prefeito ou o Presidente da Câmara — representados pela respectiva procuradoria — são chamados a defender a lei municipal impugnada em representação de inconstitucionalidade perante o Tribunal de Justiça, tornam-se parte no processo e, por isso, têm legitimidade para interpor recurso extraordinário contra o acórdão que lhes for desfavorável, com base no princípio da simetria com o processo da ação direta de inconstitucionalidade perante o STF.",
+        "A": "A exigência de demonstração da repercussão geral, prevista no art. 1.035 do CPC, aplica-se também aos recursos extraordinários em que a Fazenda Pública seja parte; não há dispensa desse requisito em razão da natureza pública do litigante.",
+        "B": "A via própria para a revisão ou o cancelamento de súmula vinculante é o procedimento incidental da Lei 11.417/2006 (art. 3º), provocável por quem tem legitimidade para a ação direta de inconstitucionalidade; a ADPF, por ser subsidiária, não é o instrumento adequado quando existe essa via específica e igualmente eficaz.",
+        "D": "Por força do art. 7º, § 2º, da Lei 9.868/1999 e do art. 138, caput, do CPC, a decisão do relator sobre a admissão ou a inadmissão de amicus curiae é irrecorrível; não comporta agravo de instrumento nem qualquer outro recurso, ressalvada a hipótese de embargos de declaração.",
+        "E": "O art. 1.035, § 3º, I, do CPC, ainda em vigor, dispõe exatamente o contrário: haverá repercussão geral sempre que o recurso impugnar acórdão que contrarie súmula ou jurisprudência dominante do Supremo Tribunal Federal. Apenas o inciso II desse parágrafo foi revogado pela Lei 13.256/2016; os incisos I e III permanecem vigentes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CPC (Lei 13.105/2015), art. 1.035, § 3º, I, e art. 138 (inciso II do § 3º do art. 1.035 revogado pela Lei 13.256/2016)", "data": "2016-02-04" },
+        { "tipo": "lei", "referencia": "Lei 9.868/1999, art. 7º, § 2º", "data": "1999-11-10" },
+        { "tipo": "lei", "referencia": "Lei 11.417/2006, art. 3º", "data": "2006-12-19" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

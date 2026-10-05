@@ -132,6 +132,31 @@
         { "tipo": "lei", "referencia": "Lei 4.717/1965, arts. 1º, 5º, § 4º, 11 e 19", "data": "1965-06-29" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0110",
+      "tema": "Pedido de acesso: dados funcionais de servidores e informação classificada (Lei 12.527/2011)",
+      "enunciado": "Um munícipe solicitou, por meio da Lei de Acesso à Informação, cópia das folhas de frequência dos últimos dois anos de todos os servidores lotados na Secretaria Municipal de Cultura, com CPF e endereço residencial de cada um, além do inteiro teor de um relatório de correição, já concluído, sobre indícios de fraude na organização de um evento público. O Secretário negou integralmente o pedido, sob dois fundamentos: (1) os dados de frequência envolveriam a intimidade dos servidores; e (2) o relatório de correição teria sido classificado como sigiloso, por tempo indeterminado, pela própria autoridade, para não prejudicar a apuração. Instada a orientar a decisão do recurso administrativo dirigido ao Prefeito, a Procuradoria-Geral do Município deve concluir que, à luz da Lei nº 12.527/2011, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O indeferimento é definitivo: contra decisão de agente público municipal em matéria de acesso à informação cabe apenas mandado de segurança, sendo nulo qualquer recurso administrativo dirigido ao Prefeito.",
+        "B": "A classificação de sigilo por prazo indeterminado é válida sempre que a própria autoridade declarar que a divulgação pode prejudicar apuração em andamento, independentemente de a informação se enquadrar nas hipóteses legais de risco à segurança da sociedade ou do Estado.",
+        "C": "O pedido deve ser parcialmente deferido quanto à frequência dos servidores, dado de interesse funcional e de controle social, vedada a divulgação de CPF e endereço residencial, informações pessoais protegidas pela Lei; e o relatório de correição não pode ser negado com base apenas na alegação de sigilo, pois a classificação exige enquadramento nas hipóteses legais de risco à segurança da sociedade ou do Estado, não podendo a restrição de acesso ser invocada para embaraçar apuração de irregularidades.",
+        "D": "Qualquer documento relativo à atuação funcional de servidor público, inclusive dados de frequência, correição e punição disciplinar, deve ser fornecido na íntegra, sem qualquer redação de dados, por prevalecer de forma absoluta o princípio da publicidade sobre a proteção da intimidade.",
+        "E": "Qualquer informação constante do registro funcional do servidor, inclusive a sua simples lotação e o cargo que ocupa, depende de prévia autorização individual do servidor para ser divulgada, por se tratar, em qualquer hipótese, de informação pessoal protegida pela Lei nº 12.527/2011."
+      },
+      "correta": "C",
+      "dica": "Separe os dois pedidos: um envolve dado funcional comum, o outro um documento classificado. A lei trata esses casos de forma diferente, e nenhuma classificação de sigilo pode durar por prazo indeterminado nem servir para travar apuração de irregularidade.",
+      "explicacao": {
+        "C": "Correta. A frequência e o cumprimento de jornada são dados de interesse funcional e de transparência (art. 6º, I), mas o CPF e o endereço residencial dizem respeito à vida privada do servidor e têm acesso restrito (art. 31, caput e § 1º), devendo ser ocultados antes da liberação. Quanto ao relatório, a classificação de sigilo exige que a informação seja imprescindível à segurança da sociedade ou do Estado (art. 24, caput), com prazo máximo definido em lei, e o art. 31, § 4º, veda invocar restrição de acesso para embaraçar apuração de irregularidades.",
+        "A": "A Lei de Acesso à Informação não exclui a via do recurso administrativo: o próprio art. 11, § 4º, assegura ao requerente ser informado sobre a possibilidade de recurso, prazos e condições, e o direito de petição (CF, art. 5º, XXXIV) não se confunde com a via judicial do mandado de segurança, que pode ser usada depois, mas não exclui o recurso ao superior hierárquico.",
+        "B": "O art. 24 condiciona a classificação de sigilo à imprescindibilidade da informação à segurança da sociedade ou do Estado, com prazos máximos de 25, 15 ou 5 anos conforme o grau (ultrassecreta, secreta ou reservada), e não a prazo indeterminado nem à simples alegação de que a divulgação atrapalharia uma apuração.",
+        "D": "O art. 31, caput, exige que o tratamento de informação pessoal respeite a intimidade, a vida privada, a honra e a imagem das pessoas: a publicidade não é absoluta, e dados como CPF e endereço residencial devem ser protegidos mesmo em registros funcionais.",
+        "E": "O art. 31 protege informações relativas à intimidade, à vida privada, à honra e à imagem da pessoa, como CPF, endereço e dados de saúde, mas não a simples identificação funcional do servidor (nome, cargo e lotação), que é informação de interesse coletivo e de transparência, dispensando consentimento individual."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 12.527/2011, arts. 6º, I, 11, § 4º, 24, caput e § 1º, e 31, caput e §§ 1º e 4º", "data": "2011-11-18" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

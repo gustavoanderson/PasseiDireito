@@ -107,6 +107,58 @@
         { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), art. 41, caput e §§ 1º, 2º, I e III, e 3º", "data": "2019-07-08" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0111",
+      "tema": "Conceitos da LGPD (art. 5º)",
+      "enunciado": "A Controladoria-Geral do Município está elaborando material de capacitação sobre a LGPD para os servidores que atuarão como pontos focais de proteção de dados em cada Secretaria. Considerando as definições do art. 5º da Lei nº 13.709/2018, assinale a alternativa que apresenta definição INCORRETA.",
+      "alternativas": {
+        "A": "Operador é a pessoa, natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador.",
+        "B": "Consentimento é a manifestação livre, informada e inequívoca pela qual o titular concorda com o tratamento de seus dados pessoais para finalidade determinada.",
+        "C": "Encarregado é a pessoa indicada pelo controlador e pelo operador para atuar como canal de comunicação entre o controlador, os titulares dos dados e a Agência Nacional de Proteção de Dados.",
+        "D": "Anonimização é a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo.",
+        "E": "Titular é toda pessoa, natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais."
+      },
+      "correta": "E",
+      "dica": "Uma das definições troca o papel de quem decide sobre o tratamento pelo papel de quem é o dono do dado — e ainda erra quanto a quem pode ocupar cada uma dessas posições.",
+      "explicacao": {
+        "E": "É a definição errada, porque inverte dois conceitos do art. 5º: quem decide sobre o tratamento dos dados, podendo ser pessoa natural ou jurídica, de direito público ou privado, é o controlador (inciso VI). Titular (inciso V) é apenas a pessoa natural a quem os dados se referem; a lei não estende essa posição a pessoas jurídicas.",
+        "A": "Correta. É a literalidade do art. 5º, VII. O operador trata dados por conta e em nome do controlador, que é quem decide sobre a finalidade do tratamento.",
+        "B": "Correta. É a literalidade do art. 5º, XII. O consentimento é uma das hipóteses que autorizam o tratamento de dados pessoais, nos termos do art. 7º, I.",
+        "C": "Correta. É a literalidade do art. 5º, VIII, na redação dada pela Lei nº 15.352/2026, que renomeou a autoridade nacional para Agência Nacional de Proteção de Dados.",
+        "D": "Correta. É a literalidade do art. 5º, XI. A anonimização é o que afasta o dado do conceito de dado pessoal, para os fins da lei."
+      },
+      "alerta": "A Lei nº 15.352/2026 (25/02/2026), anterior à data de corte, renomeou a autoridade nacional de proteção de dados, antes chamada de Autoridade Nacional, para Agência Nacional de Proteção de Dados (ANPD). Vale a redação em vigor em 21/09/2026.",
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), art. 5º, V a VIII, XI e XII (inciso VIII com redação da Lei 15.352/2026)", "data": "2018-08-14" },
+        { "tipo": "lei", "referencia": "Lei 15.352/2026", "data": "2026-02-25" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "adm-0112",
+      "tema": "Requisitos do tratamento e regime do consentimento (LGPD, arts. 7º a 10)",
+      "enunciado": "Durante capacitação interna sobre a LGPD promovida pela Procuradoria para servidores da área de recursos humanos, um participante questiona em que medida a dispensa do consentimento, nas hipóteses do art. 7º da Lei nº 13.709/2018, afeta as demais obrigações da lei, e também sobre o regime do próprio consentimento. Considere as afirmativas a seguir.\n\nI. O tratamento de dado pessoal cujo acesso já é público deve observar a finalidade, a boa-fé e o interesse público que motivaram sua disponibilização.\nII. Quando dispensado o consentimento para o tratamento, os agentes ficam dispensados das demais obrigações da lei, inclusive da observância dos princípios gerais e da garantia dos direitos do titular.\nIII. É vedado o tratamento de dados pessoais fundado em consentimento viciado.\nIV. O consentimento deve ser vinculado a finalidades determinadas, sendo nulas as autorizações genéricas para o tratamento de dados pessoais.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente as afirmativas I e III estão corretas.",
+        "B": "Somente as afirmativas II e IV estão corretas.",
+        "C": "Somente as afirmativas I, III e IV estão corretas.",
+        "D": "Somente as afirmativas II, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Três das quatro afirmações seguem de perto o texto da lei; uma delas inverte a palavra que faz toda a diferença entre dispensar o consentimento e continuar obrigado às demais regras.",
+      "explicacao": {
+        "C": "Correta. I reproduz o art. 7º, § 3º; III, o art. 8º, § 3º; IV, o art. 8º, § 4º. A II está errada: o art. 7º, § 6º, diz o oposto — a eventual dispensa da exigência do consentimento não desobriga os agentes de tratamento das demais obrigações previstas na lei, especialmente da observância dos princípios gerais e da garantia dos direitos do titular.",
+        "A": "Deixa de fora a IV, que está correta: o art. 8º, § 4º, veda expressamente as autorizações genéricas para o tratamento de dados pessoais.",
+        "B": "Inclui a II, que inverte o sentido do art. 7º, § 6º, e deixa de fora a I e a III, que reproduzem os arts. 7º, § 3º, e 8º, § 3º.",
+        "D": "Inclui a II, que contraria o art. 7º, § 6º, e deixa de fora a I, que reproduz o art. 7º, § 3º, sobre o tratamento de dado de acesso público.",
+        "E": "Nem todas estão corretas: a II inverte o sentido do art. 7º, § 6º, que mantém os agentes de tratamento obrigados aos princípios gerais e à garantia dos direitos do titular mesmo quando dispensado o consentimento."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 13.709/2018 (LGPD), arts. 7º, §§ 3º e 6º, e 8º, §§ 3º e 4º", "data": "2018-08-14" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

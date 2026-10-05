@@ -132,6 +132,31 @@
         { "tipo": "lei", "referencia": "Lei 13.303/2016, art. 8º, caput, I e VII, e §§ 2º, I, e 3º", "data": "2016-06-30" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0105",
+      "tema": "Autarquia municipal: tutela administrativa e poder hierárquico",
+      "enunciado": "O Diretor-Presidente de uma autarquia municipal de trânsito, no exercício de competência que a lei de criação da entidade lhe atribui, anulou auto de infração aplicado a uma concessionária de transporte, por reconhecer vício no procedimento fiscalizatório. Inconformado, o Secretário Municipal a que a autarquia está vinculada editou portaria avocando o processo e restabelecendo a penalidade, sob o argumento de que o poder hierárquico da Administração Direta alcança, de forma irrestrita, todos os entes da Administração Indireta a ela vinculados. Sobre a validade dessa portaria, à luz da teoria da organização administrativa, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A portaria é válida, porque o poder regulamentar autoriza o Secretário a editar atos individuais e concretos para avocar, sempre que houver relevante interesse público, as competências decisórias de dirigentes de autarquias vinculadas à sua pasta.",
+        "B": "A portaria é válida, porque a autarquia é mero centro de competências despersonalizado, fruto da desconcentração administrativa, e seus dirigentes permanecem hierarquicamente subordinados ao Secretário a que a entidade está vinculada.",
+        "C": "A portaria é válida, porque o princípio da legalidade autoriza os órgãos da Administração Direta a rever, alterar ou avocar, independentemente de previsão na lei instituidora, qualquer ato praticado pelas entidades da Administração Indireta, com base no poder disciplinar e na autotutela.",
+        "D": "A portaria é inválida, porque, uma vez criada, a autarquia passa a gozar de independência absoluta frente ao Poder Executivo Municipal, não se sujeitando a qualquer mecanismo de controle, fiscalização ou vinculação por parte da Administração Direta.",
+        "E": "A portaria é inválida: a autarquia nasce da descentralização administrativa, dispõe de personalidade jurídica própria e não se submete a hierarquia frente à Administração Direta; o vínculo existente é de tutela administrativa (supervisão ou controle finalístico), nos limites fixados na lei instituidora, não comportando a anulação direta do ato nem a avocação do processo pelo Secretário."
+      },
+      "correta": "E",
+      "dica": "Duas formas de redistribuir competência geram vínculos diferentes com a Administração Direta: uma mantém a hierarquia, a outra dá origem a uma pessoa jurídica nova. Veja qual delas está por trás da autarquia.",
+      "explicacao": {
+        "E": "Correta. A autarquia resulta da descentralização administrativa (CF, art. 37, XIX): é pessoa jurídica de direito público distinta do ente que a criou, e por isso não há hierarquia entre ela e a Administração Direta. O controle cabível é a tutela administrativa (ou controle finalístico, também chamado de supervisão), exercido nos limites e pela forma que a lei instituidora estabelecer, sem que o Secretário possa anular diretamente o ato ou avocar o processo decisório da entidade.",
+        "A": "A portaria extrapola o poder regulamentar, que serve para editar normas gerais e abstratas de execução da lei (CF, art. 84, IV), e não para avocar, por ato individual e concreto, competência decisória atribuída por lei a dirigente de pessoa jurídica diversa da que editou a portaria.",
+        "B": "Inverte os institutos: na desconcentração, a competência é redistribuída dentro da mesma pessoa jurídica, preservando a hierarquia (como entre uma secretaria e seus departamentos internos); a autarquia, ao contrário, nasce da descentralização, com personalidade jurídica própria, e por isso não há hierarquia entre ela e a Administração Direta.",
+        "C": "A autotutela permite à Administração rever os próprios atos (Súmulas 346 e 473 do STF), mas não autoriza, por si só, que um órgão da Administração Direta avoque ou anule ato de uma autarquia, pessoa jurídica distinta, salvo se a lei instituidora expressamente conferir esse poder.",
+        "D": "A autarquia não goza de independência absoluta: sujeita-se à tutela administrativa (ou controle finalístico), que inclui a fiscalização do cumprimento de suas finalidades institucionais e a prestação de contas; o que lhe falta é apenas a subordinação hierárquica, não qualquer forma de controle pela Administração Direta."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XIX, e art. 84, IV", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

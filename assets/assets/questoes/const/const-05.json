@@ -186,6 +186,59 @@
         { "tipo": "outro", "referencia": "Lei Orgânica do Município de Curitiba, art. 14", "data": "1990-04-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0079",
+      "tema": "Competência privativa da União em matéria educacional e autonomia municipal",
+      "enunciado": "A Câmara Municipal do Município Beta aprovou lei proibindo o uso da chamada \"linguagem neutra\" no material didático e nas atividades pedagógicas das escolas públicas e privadas situadas no Município, a pretexto de regular assunto de interesse local. Posteriormente, a Secretaria Municipal de Educação baixou instrução normativa detalhando a aplicação da lei às unidades escolares. Diante desse cenário, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A lei é inconstitucional, por usurpar competência legislativa privativa do Estado-membro.",
+        "B": "A lei é constitucional, por regular interesse estritamente local do Município.",
+        "C": "A lei é inconstitucional, por invadir a competência privativa da União para legislar sobre diretrizes e bases da educação nacional, interferindo no currículo pedagógico das escolas vinculadas ao sistema nacional de ensino.",
+        "D": "A lei é constitucional, porque a matéria envolve competência legislativa comum, exercida de modo cooperativo por todos os entes federativos, com base no federalismo cooperativo.",
+        "E": "A lei é inconstitucional apenas na parte aplicável às escolas privadas, já que as escolas públicas estão fora do alcance da livre iniciativa e podem ser livremente reguladas pelo Município."
+      },
+      "correta": "C",
+      "dica": "Pergunte-se a quem a Constituição atribui, com exclusividade, a competência para fixar as diretrizes e as bases da educação nacional.",
+      "explicacao": {
+        "C": "Correta. O art. 22, XXIV, da CF atribui à União a competência privativa para legislar sobre diretrizes e bases da educação nacional. O STF já invalidou leis municipais desse tipo (ADPF 1.165, Rel. Min. Cármen Lúcia, julgada em 3/2/2025, sobre lei do Município de Uberlândia/MG), por entender que interferem indevidamente no currículo pedagógico das instituições vinculadas ao sistema nacional de ensino e violam a liberdade de ensinar do art. 206, II e III, da CF, alcançando tanto escolas públicas quanto privadas.",
+        "A": "A competência usurpada não é do Estado-membro, mas da União: o art. 22, XXIV, da CF reserva à União, e não aos Estados, a competência para fixar diretrizes e bases da educação nacional.",
+        "B": "O tema extrapola o interesse local do art. 30, I, da CF: currículo escolar e diretrizes pedagógicas são objeto de competência privativa da União, por exigirem uniformidade nacional no sistema de ensino.",
+        "D": "A matéria não está no rol de competência comum do art. 23 da CF, tampouco no de competência concorrente do art. 24, que nem sequer inclui os Municípios; trata-se de competência privativa da União (art. 22, XXIV), e não de exercício cooperativo entre entes.",
+        "E": "A invalidade não se limita às escolas privadas: o art. 206, II e III, da CF assegura a liberdade de ensinar e o pluralismo de ideias tanto nas instituições públicas quanto nas privadas de ensino, e a usurpação de competência legislativa pela União atinge a lei municipal como um todo, não apenas a parcela aplicável à rede privada."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 22, XXIV, e art. 206, II e III", "data": "1988-10-05" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADPF 1.165", "data": "2025-02-03" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "const-0080",
+      "tema": "Guardas municipais e segurança pública (art. 144, § 8º, da CF)",
+      "enunciado": "O Prefeito do Município Delta pretende enviar à Câmara Municipal projeto de lei para criar e estruturar a Guarda Municipal, prevendo-lhe atribuições de patrulhamento ostensivo nos bairros, atuação comunitária em parceria com a população e também a realização de inquéritos para apurar infrações penais ocorridas durante as rondas. Consultada sobre a viabilidade jurídica do projeto, a Procuradoria do Município deve se orientar, à luz do art. 144 da Constituição Federal e da jurisprudência do Supremo Tribunal Federal, pela alternativa CORRETA, que é:",
+      "alternativas": {
+        "A": "É constitucional o exercício de ações de segurança urbana pela Guarda Municipal, inclusive policiamento ostensivo e comunitário, respeitadas as atribuições dos demais órgãos de segurança pública previstos no art. 144 da Constituição Federal, mas é vedada a atribuição de funções de polícia judiciária, privativas de outros órgãos.",
+        "B": "A Guarda Municipal deve ser estruturada em subordinação hierárquica à Polícia Militar do Estado, já que a segurança pública é, nos termos do art. 144 da CF, matéria de competência exclusivamente estadual.",
+        "C": "O reconhecimento, pelo STF, da relevância constitucional das Guardas Municipais para a segurança pública autoriza o Município a renomeá-las livremente como \"Polícia Municipal\", inclusive para fins de prerrogativas processuais.",
+        "D": "É constitucional atribuir à Guarda Municipal qualquer atividade de polícia judiciária, além do policiamento ostensivo e comunitário, respeitadas as atribuições dos demais órgãos de segurança pública.",
+        "E": "Por não integrarem o rol do art. 144 da Constituição Federal, as Guardas Municipais não se submetem ao controle externo da atividade policial exercido pelo Ministério Público."
+      },
+      "correta": "A",
+      "dica": "Leia com atenção o que a tese do STF inclui no policiamento da Guarda Municipal, e o que ela expressamente exclui dele.",
+      "explicacao": {
+        "A": "Correta. É a tese fixada pelo STF na ADPF 995 (Rel. Min. Alexandre de Moraes, julgada em 28/8/2023): é constitucional o exercício de ações de segurança urbana pelas guardas municipais, inclusive por meio de policiamento ostensivo e comunitário, respeitadas as atribuições dos demais órgãos de segurança pública do art. 144 da CF e excluída qualquer atividade de polícia judiciária, sujeitando-se ao controle externo da atividade policial pelo Ministério Público (art. 129, VII, da CF). A Guarda Municipal tem base no art. 144, § 8º, da CF e na Lei 13.022/2014 (Estatuto Geral das Guardas Municipais).",
+        "B": "O art. 144, § 8º, da CF faculta ao próprio Município constituir sua Guarda Municipal, sem subordiná-la à Polícia Militar estadual; a segurança pública é dever do Estado em sentido amplo e responsabilidade de todos, exercida por diferentes órgãos, sem relação de subordinação hierárquica entre eles.",
+        "C": "O art. 144 da CF chama a instituição de \"guardas municipais\" (§ 8º), denominação que não pode ser substituída por \"polícia municipal\" por ato do próprio Município, sob pena de invadir as competências e as garantias atribuídas aos órgãos policiais do caput do artigo, que a Constituição define de forma taxativa.",
+        "D": "A tese da ADPF 995 exclui expressamente qualquer atividade de polícia judiciária das atribuições da Guarda Municipal, reservada às polícias civis e à polícia federal; atribuí-la à Guarda Municipal contraria a própria decisão do STF.",
+        "E": "A tese da ADPF 995 submete expressamente a Guarda Municipal ao controle externo da atividade policial exercido pelo Ministério Público, nos termos do art. 129, VII, da CF, por reconhecer sua integração ao sistema de segurança pública."
+      },
+      "fontes": [
+        { "tipo": "constituicao", "referencia": "CF, art. 144, § 8º, e art. 129, VII", "data": "1988-10-05" },
+        { "tipo": "controle-concentrado", "referencia": "STF, ADPF 995", "data": "2023-08-28" },
+        { "tipo": "lei", "referencia": "Lei 13.022/2014 (Estatuto Geral das Guardas Municipais)", "data": "2014-08-08" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

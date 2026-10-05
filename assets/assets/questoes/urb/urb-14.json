@@ -57,6 +57,81 @@
         { "tipo": "lei", "referencia": "Lei 6.938/1981, art. 14, § 1º", "data": "1981-08-31" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0039",
+      "tema": "Responsabilidade solidária de execução subsidiária do Poder Público (Súmula 652/STJ)",
+      "enunciado": "Em ação civil pública, uma indústria e o Município de Curitiba foram condenados, em sentença transitada em julgado, à reparação solidária de dano ambiental decorrente de efluentes lançados irregularmente em curso d'água, reconhecida a responsabilidade municipal por omissão no dever de fiscalização. Iniciada a fase de cumprimento de sentença, o exequente pretende cobrar a obrigação diretamente do Município, sem antes buscar o cumprimento pela indústria responsável direta pelo dano. Considerando a jurisprudência do Superior Tribunal de Justiça sobre o tema, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A responsabilidade do Município é solidária também na fase de execução, podendo o exequente escolher livremente contra qual dos condenados promover o cumprimento da sentença.",
+        "B": "A responsabilidade do Município, nesses casos, é sempre subsidiária desde a fase de conhecimento, de modo que a condenação solidária contra o ente público é nula.",
+        "C": "A responsabilidade civil da Administração Pública por dano ambiental decorrente de omissão no dever de fiscalização é solidária, mas de execução subsidiária, de modo que o cumprimento deve ser buscado primeiro contra o causador direto do dano.",
+        "D": "A execução contra o Município somente é cabível se comprovado dolo específico do agente público responsável pela fiscalização.",
+        "E": "Reconhecida a omissão fiscalizatória, o Município responde apenas pelos danos futuros, não podendo ser executado por danos já consumados antes da fiscalização deficiente."
+      },
+      "correta": "C",
+      "dica": "Pense na diferença entre o que vale na condenação e o que vale na hora de cobrar: a palavra que qualifica a execução é diferente da que qualifica a responsabilidade.",
+      "explicacao": {
+        "C": "Correta. É a Súmula 652 do STJ: a responsabilidade civil da Administração Pública por danos ao meio ambiente decorrente de sua omissão no dever de fiscalização é de caráter solidário, mas de execução subsidiária, cabível apenas se o degradador direto não cumprir a obrigação, por exaurimento patrimonial, insolvência ou impossibilidade de cumprimento.",
+        "A": "A Súmula 652 do STJ qualifica a responsabilidade do Poder Público como solidária, mas de EXECUÇÃO SUBSIDIÁRIA: o exequente não pode escolher livremente contra quem executar, devendo buscar primeiro o causador direto do dano.",
+        "B": "A condenação solidária do Município na fase de conhecimento é válida; o que a Súmula 652 qualifica como subsidiário é apenas o momento da EXECUÇÃO, e não a responsabilidade reconhecida na sentença.",
+        "D": "A responsabilidade do Estado por omissão no dever de fiscalização ambiental é objetiva, dispensando a prova de dolo ou culpa do agente público; o que se exige, na execução, é a tentativa prévia contra o causador direto.",
+        "E": "A Súmula 652 não distingue danos passados e futuros: a subsidiariedade diz respeito à ORDEM da execução entre os corresponsáveis, e não a uma limitação temporal da responsabilidade municipal."
+      },
+      "fontes": [
+        { "tipo": "sumula", "referencia": "STJ, Súmula 652", "data": "2021-12-06" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "urb-0040",
+      "tema": "Gradação das sanções administrativas ambientais (Tema 1.159/STJ)",
+      "enunciado": "Fiscalização de órgão ambiental constatou que uma empresa realizou supressão de vegetação nativa sem a autorização exigida. Após regular processo administrativo, com contraditório e ampla defesa, a autoridade competente aplicou diretamente a penalidade de multa simples, sem a prévia imposição de advertência, considerando a gravidade da conduta e os antecedentes da empresa. Em defesa administrativa, a autuada alega que a Lei nº 9.605/1998 impõe uma ordem obrigatória de gradação das sanções, de modo que a advertência deveria necessariamente anteceder a multa. À luz da jurisprudência do Superior Tribunal de Justiça, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A multa é nula, pois a advertência é penalidade de aplicação necessariamente prévia a qualquer sanção pecuniária ambiental.",
+        "B": "A multa somente seria válida se comprovada a reincidência específica da empresa autuada em infração idêntica.",
+        "C": "A multa é nula quando aplicada como primeira sanção ao infrator, ressalvada a hipótese de flagrante prejuízo irreversível ao meio ambiente.",
+        "D": "A multa é válida, pois a Lei nº 9.605/1998 não estabelece hierarquia obrigatória entre as penalidades administrativas ambientais, cabendo à autoridade competente aplicar diretamente a sanção adequada à gravidade do fato.",
+        "E": "A validade da multa depende de prévia advertência seguida do descumprimento do prazo assinalado para a regularização."
+      },
+      "correta": "D",
+      "dica": "A banca costuma cobrar se existe uma ordem fixa entre as penalidades do art. 72 da Lei 9.605/1998: veja o que pesa na escolha da autoridade.",
+      "explicacao": {
+        "D": "Correta. No Tema Repetitivo 1.159, a Primeira Seção do STJ fixou que a validade das multas administrativas por infração ambiental, previstas na Lei nº 9.605/1998, independe da prévia aplicação da penalidade de advertência, pois a lei não estabelece ordem hierárquica entre as sanções, cabendo à autoridade competente escolhê-las a partir da gravidade do fato, dos antecedentes do infrator e de sua situação econômica (art. 6º da Lei 9.605/1998).",
+        "A": "O Tema 1.159 do STJ afasta exatamente essa tese: não há, na Lei 9.605/1998, hierarquia que obrigue a advertência preceder a multa.",
+        "B": "A tese do STJ não condiciona a validade da multa à reincidência; a autoridade pode aplicar a multa já na primeira infração, considerada a gravidade do fato.",
+        "C": "Não há, na jurisprudência do STJ, essa ressalva: a multa pode ser a primeira sanção aplicada independentemente de prejuízo irreversível, bastando a gravidade do fato aferida pela autoridade.",
+        "E": "Essa sequência (advertência e, depois, multa em caso de descumprimento do prazo) não é exigida pela Lei 9.605/1998 como condição de validade da multa; o STJ afastou a existência de ordem hierárquica obrigatória."
+      },
+      "fontes": [
+        { "tipo": "repetitivo", "referencia": "STJ, Tema Repetitivo 1.159", "data": "2023-09-13" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "urb-0041",
+      "tema": "Imprescritibilidade da pretensão executória ambiental (Tema 1.194/STF)",
+      "enunciado": "Em ação civil pública por dano ambiental decorrente de mineração irregular, empresa mineradora foi condenada, em sentença transitada em julgado, a recuperar a área degradada. Diante da impossibilidade técnica de cumprimento direto da obrigação de fazer, o juízo converteu-a em indenização pecuniária. Anos mais tarde, iniciada a execução da indenização, a empresa executada suscitou a prescrição da pretensão executória, sob o argumento de que a conversão em quantia certa sujeitaria o crédito aos prazos prescricionais comuns. Considerando a jurisprudência do Supremo Tribunal Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A pretensão executória está prescrita, pois a conversão da obrigação de reparação ambiental em indenização pecuniária sujeita o crédito aos prazos de prescrição das obrigações patrimoniais comuns.",
+        "B": "A imprescritibilidade protege apenas a pretensão de conhecimento, não alcançando a fase de cumprimento de sentença depois de convertida a obrigação em quantia certa.",
+        "C": "O afastamento da prescrição depende de prova de causa legal de suspensão ou interrupção do prazo durante o período de inércia do credor.",
+        "D": "A imprescritibilidade cessa no momento da conversão da obrigação de fazer em indenização, retomando-se a contagem do prazo prescricional a partir dessa decisão.",
+        "E": "A pretensão executória permanece imprescritível, pois a conversão da obrigação de reparar o dano ambiental em indenização por perdas e danos não afasta a natureza fundamental do direito tutelado."
+      },
+      "correta": "E",
+      "dica": "O STF tratou a natureza do bem jurídico ambiental como o que afasta a prescrição em todas as fases, inclusive depois de qualquer conversão da obrigação.",
+      "explicacao": {
+        "E": "Correta. No Tema 1.194 da repercussão geral (ARE 1.352.872/SC, julgamento concluído em 28/03/2025), o STF fixou que é imprescritível a pretensão executória, sendo inaplicável inclusive a prescrição intercorrente, na execução de reparação de dano ambiental, ainda que a obrigação tenha sido posteriormente convertida em indenização por perdas e danos, dada a natureza transindividual, transgeracional e indisponível do bem jurídico tutelado.",
+        "A": "O STF decidiu o oposto: a conversão em indenização pecuniária não sujeita o crédito aos prazos prescricionais comuns, justamente por preservar a natureza do direito fundamental ambiental tutelado.",
+        "B": "A tese do Tema 1.194 trata exatamente da fase executória (cumprimento de sentença), e não apenas da pretensão de conhecimento: a imprescritibilidade alcança as duas fases.",
+        "C": "A tese do STF não condiciona o afastamento da prescrição à prova de causa suspensiva ou interruptiva: a pretensão executória é, em si, imprescritível, tornando irrelevante o tempo de inércia do credor.",
+        "D": "Não há, na tese fixada, esse marco de retomada da contagem prescricional após a conversão; a imprescritibilidade persiste também depois de convertida a obrigação em indenização."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.194 (ARE 1.352.872/SC)", "data": "2025-03-28" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

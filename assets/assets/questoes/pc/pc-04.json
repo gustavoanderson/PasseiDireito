@@ -143,6 +143,43 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "pc-0084",
+      "tema": "Requisitos cumulativos da tutela de urgência (art. 300, caput)",
+      "enunciado": "A Procuradoria do Município de Matinhos identificou a necessidade de requerer, em caráter de urgência, a paralisação imediata de obra particular que ameaça a estrutura de uma ponte de uso público. Nos termos do Código de Processo Civil, para a concessão da tutela de urgência, a Procuradoria deverá demonstrar, cumulativamente:",
+      "alternativas": {
+        "A": "o direito líquido e certo e a urgência da pretensão.",
+        "B": "a caução idônea e a reversibilidade da medida, dispensada a probabilidade do direito.",
+        "C": "o dano irreparável já consumado e a plausibilidade jurídica do pedido.",
+        "D": "a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo.",
+        "E": "a probabilidade do direito e a evidência inequívoca das alegações, dispensado o perigo de dano."
+      },
+      "correta": "D",
+      "dica": "O CPC usa dois substantivos específicos para os dois requisitos cumulativos da tutela de urgência; nenhum deles é \"direito líquido e certo\", que pertence a outro instituto.",
+      "explicacao": {
+        "A": "Errada. \"Direito líquido e certo\" é requisito do mandado de segurança (Lei 12.016/2009, art. 1º), não da tutela de urgência do CPC, cujo requisito é a probabilidade do direito, de menor intensidade cognitiva.",
+        "B": "Errada. A caução é uma garantia que o juiz pode exigir do requerente (art. 300, § 1º), e não requisito de concessão; a probabilidade do direito não pode ser dispensada.",
+        "C": "Errada. O CPC exige perigo de dano ou risco ao resultado útil do processo, que são prospectivos; dano já consumado não se enquadra em tutela de urgência, pois não há mais o que prevenir.",
+        "D": "Correta. É a literalidade do art. 300, caput: a tutela de urgência será concedida quando houver elementos que evidenciem a probabilidade do direito e o perigo de dano ou o risco ao resultado útil do processo — os dois requisitos cumulativos.",
+        "E": "Errada. \"Evidência inequívoca das alegações, dispensado o perigo de dano\" descreve a tutela da evidência (art. 311), não a de urgência, que exige justamente a demonstração do perigo de dano."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 300, caput e § 1º, e art. 311",
+          "data": "2015-03-16"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.016/2009, art. 1º",
+          "data": "2009-08-07"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

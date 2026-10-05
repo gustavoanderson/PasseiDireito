@@ -247,6 +247,48 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "pc-0091",
+      "tema": "Município como parte nos Juizados Especiais: JEC comum x JEF (Leis 9.099/95 e 10.259/01)",
+      "enunciado": "Durante reunião da Procuradoria-Geral do Município de Matinhos, um munícipe manifestou interesse em ajuizar ação de indenização por danos morais contra o Município, estimando o valor da causa em 25 salários mínimos, e perguntou se a demanda poderia tramitar no Juizado Especial Cível comum. A Procuradoria foi consultada sobre a viabilidade da medida e sobre o funcionamento geral dos Juizados Especiais. Considerando exclusivamente o disposto nas Leis nº 9.099/95 e nº 10.259/01, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e, então, assinale a alternativa com a sequência CORRETA.\n(__) O Município não pode figurar como parte no processo regido pela Lei nº 9.099/95 (Juizado Especial Cível comum).\n(__) A competência do Juizado Especial Cível abrange, entre outras hipóteses, as causas cujo valor não ultrapasse 40 (quarenta) salários mínimos.\n(__) No Juizado Especial Federal, a União, as autarquias, as fundações e as empresas públicas federais podem figurar como rés, estando a competência limitada a causas de até 60 (sessenta) salários mínimos.\n(__) O Município de Matinhos pode ser demandado no Juizado Especial Federal, criado pela Lei nº 10.259/01, por integrar a Administração Pública.\n(__) Da sentença proferida no Juizado Especial Cível cabe recurso, no prazo de 10 (dez) dias, para a Turma Recursal.",
+      "alternativas": {
+        "A": "V, V, V, F, V.",
+        "B": "F, V, V, F, V.",
+        "C": "V, F, V, V, F.",
+        "D": "V, V, F, F, V.",
+        "E": "F, V, F, V, V."
+      },
+      "correta": "A",
+      "dica": "Separe o Juizado Especial Cível comum, que exclui a Fazenda Pública, do Juizado Especial Federal, que só admite entes federais; o Município não se encaixa em nenhum dos dois.",
+      "explicacao": {
+        "A": "Correta. (1) V — art. 8º da Lei 9.099/95: pessoas jurídicas de direito público não podem ser parte no Juizado Especial Cível comum. (2) V — art. 3º, I, da Lei 9.099/95: alçada de 40 salários mínimos. (3) V — arts. 3º e 6º da Lei 10.259/01: União, autarquias, fundações e empresas públicas federais como rés, com alçada de 60 salários mínimos. (4) F — o Juizado Especial Federal só alcança entes federais; o Município, ente municipal, não se submete a ele, ainda que integre a Administração Pública em sentido amplo — para causas de pequeno valor contra a Fazenda municipal existe lei própria, a Lei 12.153/2009. (5) V — art. 42 da Lei 9.099/95: recurso em 10 dias para a Turma Recursal.",
+        "B": "Errada. Erra na primeira posição: o art. 8º da Lei 9.099/95 veda que pessoas jurídicas de direito público, entre elas o Município, figurem como parte no Juizado Especial Cível comum, de modo que essa afirmativa é verdadeira, não falsa.",
+        "C": "Errada. Erra na segunda posição, que deveria ser V (alçada de 40 salários mínimos no Juizado Especial Cível comum, art. 3º, I, da Lei 9.099/95), e na quarta, que deveria ser F, pois o Município não se submete ao Juizado Especial Federal.",
+        "D": "Errada. Erra na terceira posição: a Lei 10.259/01 efetivamente admite União, autarquias, fundações e empresas públicas federais como rés no Juizado Especial Federal, com alçada de 60 salários mínimos, tornando essa afirmativa verdadeira, não falsa.",
+        "E": "Errada. Erra na primeira posição (deveria ser V, pela vedação do art. 8º da Lei 9.099/95) e na quarta (deveria ser F, pois o Município não se submete ao Juizado Especial Federal, criado para entes federais)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 9.099/1995, arts. 3º, I, 8º e 42",
+          "data": "1995-09-26"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 10.259/2001, arts. 3º e 6º",
+          "data": "2001-07-12"
+        },
+        {
+          "tipo": "lei",
+          "referencia": "Lei 12.153/2009, art. 2º",
+          "data": "2009-12-22"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

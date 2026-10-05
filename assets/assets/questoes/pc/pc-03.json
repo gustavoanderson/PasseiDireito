@@ -144,6 +144,70 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "pc-0082",
+      "tema": "Impedimento do juiz por participação societária e seus efeitos (arts. 144, 146 e 966, II)",
+      "enunciado": "Em execução de título extrajudicial que a Construtora Horizonte Ltda. ajuizou contra o Município de Matinhos perante a Vara da Fazenda Pública local, verificou-se que o juiz titular integra o quadro societário da própria Construtora Horizonte, com cotas detidas desde a fundação da empresa, sem qualquer afastamento anterior à condução do feito. Diante disso, surgiram dúvidas sobre as hipóteses de impedimento e de suspeição do magistrado. Considerando exclusivamente o Código de Processo Civil, analise as afirmativas a seguir.\nI. É causa de impedimento, e não de suspeição, o fato de o juiz ser sócio de pessoa jurídica que figure como parte no processo, hipótese que se amolda ao caso.\nII. A participação societária do magistrado configura suspeição, sujeita ao prazo de 15 dias para ser arguida, sob pena de preclusão.\nIII. Por se tratar de hipótese de impedimento, o vício não se sujeita à preclusão no processo em que ocorreu e autoriza ação rescisória contra a decisão de mérito transitada em julgado.\nIV. O impedimento por participação societária do juiz somente se configura quando a cota ultrapassar 10% do capital social da pessoa jurídica parte.\nEstá CORRETO o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "I e III, apenas.",
+        "C": "I, II e III, apenas.",
+        "D": "II e IV, apenas.",
+        "E": "I, II, III e IV."
+      },
+      "correta": "B",
+      "dica": "Veja em qual dispositivo o CPC encaixa o juiz-sócio: entre as suspeições do art. 145 ou entre os impedimentos do art. 144. Depois, confira se a lei impõe algum percentual mínimo de participação.",
+      "explicacao": {
+        "A": "Errada: deixa de fora a afirmativa I, verdadeira, e inclui a IV, falsa — o art. 144, V, não fixa nenhum percentual mínimo de participação societária para caracterizar o impedimento.",
+        "B": "Correta. I: o art. 144, V, do CPC classifica como impedimento — não suspeição — o juiz que for sócio de pessoa jurídica parte no processo, sem exigir percentual mínimo de participação. III: por ser impedimento, o vício fundamenta ação rescisória contra a decisão de mérito transitada em julgado, nos termos do art. 966, II.",
+        "C": "Errada: inclui a afirmativa II, que erra a natureza do vício. Ser sócio da parte é impedimento (art. 144, V), não suspeição (art. 145); o rol de suspeição trata de amizade íntima, inimizade, interesse indireto e situações análogas, não de sociedade.",
+        "D": "Errada: as duas afirmativas que reúne (II e IV) são falsas, e as duas verdadeiras (I e III) ficam de fora.",
+        "E": "Errada: reúne II e IV, ambas falsas, junto das verdadeiras I e III."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 144, V, 145, 146 e 966, II",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "pc-0083",
+      "tema": "Assistência: conceito e legitimidade do terceiro juridicamente interessado (art. 119)",
+      "enunciado": "O Município de Matinhos ajuizou ação reivindicatória em face da empresa Delta Comércio Ltda., postulando a retomada de imóvel público ocupado irregularmente. Ricardo, terceiro que mantém contrato de sublocação com a empresa Delta e cujo direito depende diretamente do resultado do processo, pretende ingressar no feito para auxiliar a parte demandada. Considerando o disposto no Código de Processo Civil sobre a assistência, preencha as lacunas do trecho a seguir e assinale a alternativa com a sequência CORRETA.\n\"Pendendo causa entre duas ou mais pessoas, o terceiro juridicamente ___________ em que a sentença seja favorável a uma delas poderá intervir no processo para ___________.\"",
+      "alternativas": {
+        "A": "prejudicado, representá-la.",
+        "B": "desinteressado, assisti-la.",
+        "C": "interessado, assisti-la.",
+        "D": "prejudicado, assisti-la.",
+        "E": "interessado, substituí-la."
+      },
+      "correta": "C",
+      "dica": "O CPC reserva um adjetivo específico para o terceiro que pode assistir e um verbo específico para o que ele faz no processo; nenhum dos dois é sinônimo de parte ou de substituto processual.",
+      "explicacao": {
+        "A": "Errada. \"Representar\" é atuar em nome de outrem por disposição legal ou negocial (tutor, curador, mandatário); o assistente atua em nome próprio para ajudar a parte, e não a representa.",
+        "B": "Errada. O CPC exige interesse jurídico do terceiro, e não ausência de interesse; quem não tem nenhum interesse jurídico no desfecho da causa não tem legitimidade para assistir.",
+        "C": "Correta. É a literalidade do art. 119, caput, do CPC: o terceiro juridicamente interessado em que a sentença seja favorável a uma das partes pode intervir no processo para assisti-la.",
+        "D": "Errada. O CPC qualifica o terceiro como \"interessado\", e não como \"prejudicado\"; o interesse que autoriza a assistência é jurídico e pode ser simples ou litisconsorcial, conforme os arts. 121 a 124.",
+        "E": "Errada. \"Substituir\" remete à substituição processual, em que alguém defende em nome próprio direito alheio por autorização legal (art. 18); o assistente não substitui a parte, apenas a auxilia, coexistindo com ela nos autos."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 119",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }
