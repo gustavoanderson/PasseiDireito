@@ -108,6 +108,56 @@
         { "tipo": "lei", "referencia": "Lei 11.101/2005, art. 2º, I", "data": "2005-02-09" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "emp-0018",
+      "tema": "Confusão patrimonial como fundamento da desconsideração (CC, art. 50, § 2º)",
+      "enunciado": "Em execução movida pelo Município contra uma sociedade empresária, o oficial de justiça constatou que o imóvel e as aplicações financeiras da devedora tinham sido passados, sem qualquer pagamento em troca, para outra empresa dos mesmos sócios, e que a devedora original estava insolvente e sem atividade. O Procurador requereu a desconsideração da personalidade jurídica, com fundamento no art. 50 do Código Civil, para atingir o patrimônio dos sócios e da empresa que recebeu os bens. Sobre a disciplina da desconsideração após a Lei nº 13.874/2019, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O encerramento irregular das atividades da sociedade, por si só, já é suficiente para a desconsideração da personalidade jurídica nas relações cíveis regidas pelo Código Civil.",
+        "B": "A transferência de ativos sem contraprestação efetiva para outra pessoa jurídica dos mesmos sócios, salvo quando de valor proporcionalmente insignificante, caracteriza confusão patrimonial para fins do art. 50 do Código Civil.",
+        "C": "A mera existência de grupo econômico entre a devedora e a empresa que recebeu os bens já autoriza a extensão das obrigações de uma à outra, independentemente de desvio de finalidade ou confusão patrimonial.",
+        "D": "Reconhecida a desconsideração, as alienações feitas pelos sócios antes da instauração do incidente continuam eficazes perante os credores da sociedade.",
+        "E": "A desconsideração inversa da personalidade jurídica, em que o patrimônio da sociedade responde por dívida do sócio, não é admitida pelo direito brasileiro."
+      },
+      "correta": "B",
+      "dica": "O art. 50, § 2º, do CC lista, em incisos, o que caracteriza a confusão patrimonial — um deles fala exatamente de transferência de bens sem contrapartida.",
+      "explicacao": {
+        "B": "Correta. É o art. 50, § 2º, II, do CC (incluído pela Lei 13.874/2019): caracteriza confusão patrimonial a transferência de ativos ou de passivos sem efetivas contraprestações, exceto os de valor proporcionalmente insignificante — exatamente o caso do imóvel e das aplicações financeiras passados sem pagamento para a empresa coligada.",
+        "A": "O caput do art. 50 exige abuso da personalidade — desvio de finalidade ou confusão patrimonial —, apurado pelo juiz a requerimento da parte ou do Ministério Público. O mero encerramento irregular das atividades, isoladamente, não é uma das hipóteses do art. 50; a jurisprudência trata esse caso por outras vias (como a presunção de dissolução irregular para fins de redirecionamento de execução fiscal), não pela desconsideração civil do art. 50.",
+        "C": "O art. 50, § 4º, do CC diz expressamente que a mera existência de grupo econômico, sem os requisitos do caput (desvio de finalidade ou confusão patrimonial), NÃO autoriza a desconsideração.",
+        "D": "O reconhecimento da fraude na alienação de bens, no âmbito da desconsideração, é tratado pela ineficácia dos atos perante o credor, não pela manutenção de sua eficácia; a lógica do instituto é justamente alcançar o patrimônio desviado.",
+        "E": "O art. 50, § 3º, do CC (incluído pela Lei 13.874/2019) prevê expressamente que o mesmo regime se aplica à extensão das obrigações de sócios ou de administradores à pessoa jurídica — é a desconsideração inversa, admitida desde 2019."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, art. 50, §§ 2º, II, 3º e 4º (incluídos pela Lei 13.874/2019)", "data": "2019-09-20" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "emp-0019",
+      "tema": "Conceito de empresário, profissão intelectual e extinção da EIRELI (CC, arts. 966 e 1.052)",
+      "enunciado": "Em processo de credenciamento de fornecedores da Secretaria de Saúde, a Procuradoria analisou proposta de uma sociedade limitada com um único sócio, médico, constituída como Sociedade Limitada Unipessoal (SLU), que presta serviços de análises laboratoriais com maquinário próprio e equipe de auxiliares contratados. Sobre o conceito de empresário e a sociedade limitada unipessoal no direito brasileiro, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O exercício de profissão intelectual de natureza científica jamais pode ser qualificado como atividade empresária, ainda que organizado como elemento de empresa.",
+        "B": "A sociedade simples se distingue da sociedade empresária pela ausência de finalidade lucrativa, já que só a sociedade empresária pode distribuir lucros aos sócios.",
+        "C": "A Empresa Individual de Responsabilidade Limitada (EIRELI) foi extinta pelo ordenamento jurídico, e a legislação passou a admitir expressamente a sociedade limitada constituída por uma só pessoa, aplicando-se ao seu ato de constituição, no que couber, as regras do contrato social.",
+        "D": "Na sociedade limitada unipessoal, o sócio único responde de forma ilimitada pelas obrigações sociais desde a celebração do ato constitutivo.",
+        "E": "A morte do sócio único de uma sociedade limitada unipessoal acarreta, em qualquer hipótese, a dissolução automática e imediata da sociedade."
+      },
+      "correta": "C",
+      "dica": "O art. 980-A do Código Civil, que definia a EIRELI, está revogado — veja o que tomou o lugar dessa figura.",
+      "explicacao": {
+        "C": "Correta. O art. 980-A do CC, que disciplinava a EIRELI, foi revogado pela Lei 14.382/2022, que extinguiu a figura; o art. 1.052, §§ 1º e 2º, do CC (incluídos antes pela Lei 13.874/2019) já previa a sociedade limitada unipessoal, aplicando ao documento de constituição do sócio único, no que couber, as disposições sobre o contrato social.",
+        "A": "O art. 966, parágrafo único, do CC ressalva que quem exerce profissão intelectual, de natureza científica, literária ou artística NÃO é considerado empresário, SALVO se o exercício da profissão constituir elemento de empresa — como no caso de um médico que organiza laboratório com maquinário e equipe, estruturando uma atividade econômica organizada.",
+        "B": "O traço que distingue sociedade simples de sociedade empresária é o MODO DE EXERCÍCIO da atividade (com ou sem organização dos fatores de produção, nos termos do art. 966), e não a existência de fins lucrativos: ambas podem visar lucro e distribuí-lo aos sócios.",
+        "D": "O art. 1.052, caput, do CC limita a responsabilidade de cada sócio ao valor de suas quotas; a regra vale também para a sociedade unipessoal, cujo capital, uma vez integralizado, isola o patrimônio pessoal do sócio.",
+        "E": "O Código Civil não prevê dissolução automática pela morte do sócio único; a sucessão das quotas segue as regras sucessórias e societárias aplicáveis, podendo a sociedade continuar com o herdeiro ou ser liquidada conforme o caso, sem automatismo."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Código Civil, arts. 966, parágrafo único, 980-A (revogado) e 1.052, §§ 1º e 2º", "data": "2022-06-28" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }
