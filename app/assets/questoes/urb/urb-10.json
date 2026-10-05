@@ -81,6 +81,57 @@
         { "tipo": "lei", "referencia": "LC 140/2011, arts. 2º, 9º, IX, 15 e 16", "data": "2011-12-08" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "urb-0037",
+      "tema": "Prazo dos instrumentos de cooperação institucional (LC 140/2011)",
+      "enunciado": "O Estado do Paraná e um Município paranaense firmaram instrumento de cooperação técnica, nos moldes do art. 4º, II, da Lei Complementar nº 140/2011, para a execução conjunta de ações de fiscalização ambiental, respeitado o art. 241 da Constituição Federal. A respeito do prazo desse instrumento, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O instrumento pode ser firmado por prazo indeterminado, não havendo na lei limite máximo de vigência para essa modalidade de cooperação.",
+        "B": "O convênio somente pode ser firmado por prazo certo, de até cinco anos, prorrogável uma única vez por igual período.",
+        "C": "A lei veda a fixação de prazo indeterminado, exigindo renovação a cada dois anos sob pena de extinção automática do ajuste.",
+        "D": "O prazo máximo é de dez anos, conforme o regime geral dos consórcios públicos, aplicável por analogia aos convênios ambientais.",
+        "E": "A validade do convênio fica condicionada à aprovação prévia do CONAMA, que fixará o prazo de vigência em cada caso concreto."
+      },
+      "correta": "A",
+      "dica": "Esse instrumento está no inciso II do art. 4º da LC 140/2011; veja o que diz o parágrafo imediatamente seguinte sobre o tempo de vigência.",
+      "explicacao": {
+        "A": "Correta. O art. 4º, § 1º, da LC 140/2011 autoriza que os convênios, acordos de cooperação técnica e instrumentos similares do inciso II do caput sejam firmados com prazo indeterminado, sem fixar limite máximo de vigência para essa modalidade.",
+        "B": "O art. 4º, § 1º, não impõe prazo certo nem limite de cinco anos: a lei expressamente permite o prazo indeterminado para esses instrumentos de cooperação.",
+        "C": "É o inverso da regra: o § 1º do art. 4º autoriza, e não veda, o prazo indeterminado, e a lei não exige renovação bienal sob pena de extinção.",
+        "D": "Os consórcios públicos (inciso I do mesmo art. 4º) seguem regime próprio, da Lei 11.107/2005, distinto do dos convênios e acordos de cooperação técnica do inciso II; a lei não estende aos últimos o prazo dos consórcios.",
+        "E": "A LC 140/2011 não condiciona a validade desses instrumentos de cooperação à aprovação do CONAMA; a decisão de celebrá-los é dos próprios entes convenentes."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LC 140/2011, art. 4º, II e § 1º", "data": "2011-12-08" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "urb-0038",
+      "tema": "Modalidades de licenciamento ambiental (Lei 15.190/2025)",
+      "enunciado": "A Lei nº 15.190/2025, denominada Lei Geral do Licenciamento Ambiental, disciplina os procedimentos de licenciamento ambiental no território nacional. Sobre os procedimentos e as modalidades de licenciamento previstos nessa lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "No procedimento simplificado na modalidade bifásica, a aglutinação da Licença Prévia com a Licença de Instalação dispensa a apresentação do EIA, mesmo quando a atividade for potencialmente causadora de significativa degradação do meio ambiente.",
+        "B": "O procedimento simplificado na modalidade de fase única reúne, numa só etapa, a avaliação da viabilidade ambiental e a autorização de instalação e de operação da atividade ou do empreendimento, com a expedição da Licença Ambiental Única.",
+        "C": "O procedimento simplificado por adesão e compromisso pode ser adotado sempre que o empreendimento for de pequeno porte, independentemente do seu potencial poluidor.",
+        "D": "No procedimento por adesão e compromisso, a autoridade licenciadora deve analisar de modo integral e individualizado todas as informações do Relatório de Caracterização do Empreendimento antes de emitir a licença.",
+        "E": "No procedimento ordinário trifásico, a exigência de EIA para empreendimento potencialmente causador de significativa degradação recai sobre a fase da Licença de Instalação, e não sobre a fase da Licença Prévia."
+      },
+      "correta": "B",
+      "dica": "Repare em qual licença dá nome a cada modalidade simplificada, e em qual fase do procedimento a lei exige o estudo mais robusto.",
+      "explicacao": {
+        "B": "Correta. É o art. 21, caput, da Lei 15.190/2025: a modalidade em fase única consiste na avaliação da viabilidade ambiental e na autorização da instalação e da operação em uma única etapa, com a emissão da Licença Ambiental Única (LAU).",
+        "A": "O art. 20, § 3º, exige a apresentação de EIA para a emissão da LP ou da LP/LI exatamente quando a atividade for potencialmente causadora de significativa degradação do meio ambiente; a aglutinação de licenças não dispensa esse estudo nesses casos.",
+        "C": "O art. 22, I, exige que a atividade seja, simultaneamente, de pequeno ou médio porte E de baixo ou médio potencial poluidor; um empreendimento de pequeno porte mas de alto potencial poluidor não se enquadra na adesão e compromisso.",
+        "D": "O art. 22, § 3º, permite que as informações do RCE sejam analisadas pela autoridade licenciadora por amostragem, e não de modo integral e individualizado.",
+        "E": "O art. 19, § 2º, exige a apresentação de EIA na fase da Licença Prévia (LP), e não na fase da Licença de Instalação, quando a atividade for potencialmente causadora de significativa degradação do meio ambiente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 15.190/2025, arts. 19 a 22", "data": "2025-08-08" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" },
+      "alerta": "MUDANÇA NA LEI: a Lei 15.190/2025 (Lei Geral do Licenciamento Ambiental), publicada em 08/08/2025, reorganizou todo o procedimento de licenciamento ambiental federal, antes disciplinado por resoluções do CONAMA. Vale a redação vigente em 21/09/2026, data de publicação do edital."
     }
   ]
 }

@@ -111,6 +111,33 @@
         { "tipo": "constituicao", "referencia": "CF, art. 37, VII (EC 19/1998)", "data": "1998-06-04" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0072",
+      "tema": "Direito constitucional intertemporal – recepção, desconstitucionalização e mutação",
+      "enunciado": "Sobre os fenômenos que regem a passagem de uma ordem constitucional para outra e a evolução do sentido das normas constitucionais, é INCORRETA a alternativa:",
+      "alternativas": {
+        "A": "Na desconstitucionalização, a Constituição revogada não desaparece por completo: ela perde a hierarquia de norma constitucional, mas subsiste como legislação infraconstitucional comum, no que for materialmente compatível com a nova ordem.",
+        "B": "O Supremo Tribunal Federal admite a teoria da constitucionalidade superveniente: uma lei editada em contrariedade com a Constituição vigente à época pode, ainda assim, tornar-se válida se uma Constituição ou emenda posterior eliminar a incompatibilidade que a viciava desde a origem.",
+        "C": "O Código Tributário Nacional, embora editado como lei ordinária em 1966, é recepcionado pela ordem constitucional vigente com força de lei complementar, por disciplinar matéria que a Constituição de 1988 reserva a essa espécie normativa.",
+        "D": "A simples superveniência de uma nova Constituição não recepciona, por si só, toda a legislação infraconstitucional anterior: só é recepcionada a legislação materialmente compatível com o novo texto.",
+        "E": "A mutação constitucional consiste na alteração do sentido ou do alcance atribuído a uma norma constitucional sem qualquer modificação do seu texto, geralmente por via de interpretação judicial."
+      },
+      "correta": "B",
+      "dica": "Pergunte-se em que momento se afere, de uma vez por todas, se uma norma nasceu compatível com a ordem constitucional então vigente.",
+      "explicacao": {
+        "B": "É a resposta, pois está incorreta. O Supremo Tribunal Federal rejeita a teoria da constitucionalidade superveniente: a inconstitucionalidade é vício de origem, apurado no momento em que a norma foi editada, e uma Constituição ou emenda posterior não tem o condão de sanar esse vício. Se o legislador quiser manter a regra, precisa reeditá-la sob a nova ordem constitucional.",
+        "A": "Correta. É o conceito doutrinário de desconstitucionalização: a antiga Constituição deixa de ter hierarquia constitucional, mas, no que for compatível com a nova ordem, continua a viger como lei ordinária comum. A Constituição de 1988 não adotou esse fenômeno em relação à Carta anterior, que foi simplesmente revogada por inteiro.",
+        "C": "Correta. O Código Tributário Nacional (Lei 5.172/1966) nasceu como lei ordinária, mas trata de normas gerais de direito tributário, matéria reservada à lei complementar pela Constituição de 1988 (art. 146, III). Por isso, só pode ser alterado, nesses pontos, por outra lei complementar.",
+        "D": "Correta. A recepção não é automática: só a legislação anterior materialmente compatível com a nova Constituição é recepcionada; a incompatível é tida por não recepcionada, o que opera como uma forma de revogação pela nova ordem, independentemente de declaração formal de inconstitucionalidade.",
+        "E": "Correta. Na mutação constitucional, o texto da norma permanece o mesmo, mas o sentido que lhe é atribuído se modifica com o tempo, ao contrário da reforma constitucional (emenda), que altera as próprias palavras do texto."
+      },
+      "fontes": [
+        { "tipo": "outro", "referencia": "STF, ADI 2, Rel. Min. Paulo Brossard – rejeição da teoria da constitucionalidade superveniente", "data": "1997-11-21" },
+        { "tipo": "constituicao", "referencia": "CF, art. 146, III", "data": "1988-10-05" },
+        { "tipo": "lei", "referencia": "Lei 5.172/1966 (CTN), recepcionado com status de lei complementar", "data": "1966-10-25" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

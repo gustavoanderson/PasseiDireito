@@ -107,6 +107,31 @@
         { "tipo": "lei", "referencia": "Lei 8.987/1995, arts. 35, 37 e 38, §§ 1º, 4º e 5º", "data": "1995-02-13" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0108",
+      "tema": "Concessão administrativa: contraprestação e disponibilização do serviço (Lei 11.079/2004)",
+      "enunciado": "O Município Beta estrutura parceria público-privada para a modernização e a operação de um complexo esportivo municipal, com valor estimado de R$ 18.000.000,00 (dezoito milhões de reais) e prazo de vigência de 12 (doze) anos. O edital prevê que o parceiro privado será remunerado exclusivamente por contraprestação pecuniária mensal do Município, vinculada ao cumprimento de metas de desempenho e à disponibilidade das instalações, sem cobrança de tarifa dos usuários do complexo. Consultada sobre a modelagem contratual à luz da Lei nº 11.079/2004, a Procuradoria-Geral do Município deve concluir que assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Trata-se de concessão patrocinada, e a cobrança de tarifa dos usuários é elemento indispensável para a configuração de qualquer parceria público-privada; a ausência de tarifação, no caso, invalida o projeto por vício de objeto.",
+        "B": "Por o valor do contrato superar R$ 10.000.000,00 e o prazo ser superior a 5 (cinco) anos, a Administração fica dispensada de constituir sociedade de propósito específico e de observar as exigências orçamentárias próprias da parceria.",
+        "C": "Por se tratar de concessão administrativa em que o Município é usuário indireto do serviço, a contraprestação pública pode ser paga integralmente desde a assinatura do contrato, independentemente da disponibilização efetiva do serviço.",
+        "D": "A repartição objetiva de riscos no contrato de parceria público-privada impede que o parceiro privado assuma qualquer risco de álea econômica extraordinária, caso fortuito ou força maior, que deverão recair, em qualquer hipótese, sobre a Administração Pública.",
+        "E": "A modelagem configura concessão administrativa, compatível com os limites legais de valor e prazo da Lei nº 11.079/2004; a contraprestação pública, no entanto, deve ser necessariamente precedida da efetiva disponibilização do serviço, sendo admitido o pagamento proporcional por parcela fruível do objeto contratado."
+      },
+      "correta": "E",
+      "dica": "A Lei 11.079/2004 separa dois momentos: o que caracteriza a modelagem escolhida, e quando a Administração pode pagar por ela — o serviço, ou a mera disponibilidade dele, vem sempre antes do pagamento.",
+      "explicacao": {
+        "E": "Correta. É concessão administrativa (art. 2º, § 2º): o Município é usuário direto ou indireto do serviço, sem tarifa cobrada de terceiros. Os limites de valor (acima de R$ 10.000.000,00, art. 2º, § 4º, I) e de prazo (entre 5 e 35 anos, art. 5º, I) são respeitados. A contraprestação pública deve ser obrigatoriamente precedida da disponibilização do serviço (art. 7º, caput), admitido o pagamento por parcela fruível (art. 7º, § 1º).",
+        "A": "A cobrança de tarifa dos usuários é elemento da concessão patrocinada (art. 2º, § 1º), e não de toda parceria público-privada. A concessão administrativa (art. 2º, § 2º), como a do caso, dispensa tarifa: a própria Administração é a usuária do serviço.",
+        "B": "O valor e o prazo mínimos (art. 2º, § 4º) são requisitos de admissibilidade da parceria público-privada, e não causas de dispensa da sociedade de propósito específico, que o art. 9º exige sempre antes da celebração do contrato, nem das exigências orçamentárias da Lei de Responsabilidade Fiscal.",
+        "C": "O art. 7º, caput, exige o contrário: a contraprestação da Administração Pública será obrigatoriamente precedida da disponibilização do serviço objeto do contrato de parceria público-privada.",
+        "D": "O art. 5º, III, exige a repartição de riscos entre as partes, inclusive os referentes a caso fortuito, força maior e álea econômica extraordinária; é o próprio contrato que define a quem cabe cada risco, não havendo atribuição automática e exclusiva desses riscos à Administração Pública."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 11.079/2004, arts. 2º, §§ 1º, 2º e 4º, I, 5º, I e III, e 7º, caput e § 1º (art. 2º, § 4º, I, com redação da Lei 13.529/2017; art. 7º, § 1º, incluído pela Lei 12.766/2012)", "data": "2004-12-30" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

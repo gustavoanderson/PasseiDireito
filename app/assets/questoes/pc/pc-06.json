@@ -567,6 +567,70 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "pc-0087",
+      "tema": "IRDR: pressupostos cumulativos, desistência e atuação do Ministério Público (arts. 976 e 980)",
+      "enunciado": "Durante encontro de estudos da Procuradoria-Geral do Município de Matinhos sobre mecanismos de uniformização de jurisprudência em litígios de massa contra a Fazenda Pública, analisou-se o incidente de resolução de demandas repetitivas. Considerando exclusivamente o Código de Processo Civil sobre o IRDR, analise as assertivas a seguir.\nI. O incidente é cabível quando houver, simultaneamente, efetiva repetição de processos sobre a mesma questão unicamente de direito e risco de ofensa à isonomia e à segurança jurídica.\nII. A desistência ou o abandono do processo que originou o incidente impede o exame de seu mérito, que deve ser extinto sem resolução.\nIII. Quando não for o requerente, o Ministério Público atua no incidente como fiscal da lei facultativo, podendo deixar de intervir.\nIV. O incidente deve ser julgado no prazo de 1 (um) ano, com preferência sobre os demais feitos, ressalvados os que envolvam réu preso e os pedidos de habeas corpus.\nEstá CORRETO o que se afirma em:",
+      "alternativas": {
+        "A": "II e III, apenas.",
+        "B": "I e IV, apenas.",
+        "C": "I, II, III e IV.",
+        "D": "II, III e IV, apenas.",
+        "E": "III e IV, apenas."
+      },
+      "correta": "B",
+      "dica": "Dois pressupostos cumulativos abrem o incidente; a desistência de quem o provocou não o fecha; e o Ministério Público, quando não é o autor do pedido, tem um papel que a lei qualifica de obrigatório.",
+      "explicacao": {
+        "A": "Errada. Reúne as duas afirmativas falsas (II e III) e deixa de fora as duas verdadeiras (I e IV).",
+        "B": "Correta. I: art. 976, caput, I e II — cabimento exige, ao mesmo tempo, repetição de processos sobre questão unicamente de direito e risco à isonomia e à segurança jurídica. IV: art. 980, caput — prazo de 1 ano, com preferência, ressalvados réu preso e habeas corpus. A II contraria o art. 976, § 1º (a desistência não impede o exame de mérito), e a III contraria o § 2º (o Ministério Público intervém obrigatoriamente, não facultativamente).",
+        "C": "Errada. Inclui II e III, ambas falsas, ao lado das verdadeiras I e IV.",
+        "D": "Errada. Mantém II e III, falsas, e deixa de fora a I, verdadeira.",
+        "E": "Errada. Mantém III, falsa, e deixa de fora as afirmativas I e IV, ambas verdadeiras."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 976, caput, §§ 1º e 2º, e 980",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "pc-0088",
+      "tema": "Ação rescisória: cabimento por juiz impedido ou incompetente (art. 966, II)",
+      "enunciado": "O Procurador do Município de Matinhos precisa identificar, entre as situações a seguir, qual delas efetivamente autoriza a propositura de ação rescisória, nos termos do Código de Processo Civil. Assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Quando a parte pretender apenas o reexame das provas já valoradas na decisão rescindenda.",
+        "B": "Quando o prazo para a interposição de apelação tiver transcorrido in albis, sem qualquer vício na decisão.",
+        "C": "Quando a decisão de mérito, transitada em julgado, tiver sido proferida por juiz impedido ou absolutamente incompetente.",
+        "D": "Quando a parte pretender apenas a reforma de decisão interlocutória não agravável.",
+        "E": "Quando a decisão de mérito for meramente reformável por recurso ainda pendente de julgamento."
+      },
+      "correta": "C",
+      "dica": "A rescisória não é via de reexame de prova nem substitui o recurso cabível; ela ataca vícios graves da própria decisão transitada em julgado, taxativamente listados pelo CPC.",
+      "explicacao": {
+        "A": "Errada. O mero reexame de provas já valoradas é vedado em ação rescisória, que não é sucedâneo recursal; a rescisória exige um dos vícios taxativos do art. 966, como prova nova (inciso VII) ou erro de fato (inciso VIII), não a simples rediscussão da prova.",
+        "B": "Errada. O mero decurso do prazo recursal sem vício na decisão não gera cabimento de rescisória; ao contrário, o trânsito em julgado regular é pressuposto da rescisória, e não causa dela.",
+        "C": "Correta. É a literalidade do art. 966, II: cabe ação rescisória quando a decisão de mérito, transitada em julgado, for proferida por juiz impedido ou por juízo absolutamente incompetente.",
+        "D": "Errada. Decisão interlocutória não agravável se impugna em preliminar de apelação ou nas contrarrazões (art. 1.009, § 1º), e não por ação rescisória, que ataca decisão de mérito transitada em julgado.",
+        "E": "Errada. Enquanto pender recurso, a decisão não transitou em julgado, e a ação rescisória pressupõe justamente o trânsito em julgado da decisão rescindenda (art. 966, caput)."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), art. 966, caput, II, VII e VIII, e art. 1.009, § 1º",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

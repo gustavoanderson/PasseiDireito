@@ -337,6 +337,70 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "pc-0089",
+      "tema": "Execução fiscal (Lei 6.830/80): petição inicial, citação e limites dos embargos",
+      "enunciado": "Em treinamento promovido pela Procuradoria-Geral do Município de Matinhos sobre a cobrança judicial da dívida ativa municipal, discutiu-se o rito da execução fiscal. Considerando exclusivamente a Lei nº 6.830/80, analise as assertivas a seguir.\nI. A petição inicial da execução fiscal indicará apenas o juiz a quem é dirigida, o pedido e o requerimento de citação, sendo instruída com a Certidão de Dívida Ativa, que dela fará parte integrante.\nII. O executado será citado para, no prazo de 5 (cinco) dias, pagar a dívida com os juros e a multa de mora e os encargos indicados na Certidão de Dívida Ativa, ou garantir a execução.\nIII. Os embargos à execução fiscal podem ser opostos desde a citação, independentemente de prévia garantia do juízo por penhora, depósito ou fiança.\nIV. No prazo dos embargos à execução fiscal, são admissíveis a reconvenção e a compensação, na forma do Código de Processo Civil.\nEstá CORRETO o que se afirma em:",
+      "alternativas": {
+        "A": "III e IV, apenas.",
+        "B": "I, II, III e IV.",
+        "C": "I, II e III, apenas.",
+        "D": "I e II, apenas.",
+        "E": "I e III, apenas."
+      },
+      "correta": "D",
+      "dica": "A LEF simplifica a petição inicial e abrevia o prazo de citação, mas condiciona os embargos a uma garantia prévia e veda duas defesas comuns no processo civil.",
+      "explicacao": {
+        "A": "Errada. As duas afirmativas que reúne (III e IV) são falsas: os embargos exigem garantia prévia do juízo (art. 16, caput e incisos), e o § 3º do mesmo artigo veda reconvenção e compensação.",
+        "B": "Errada. Inclui III e IV, falsas pelos motivos já expostos, ao lado de I e II, verdadeiras.",
+        "C": "Errada. Inclui a afirmativa III, falsa: pelo art. 16, os embargos só podem ser opostos depois de garantida a execução (depósito, juntada da prova de fiança ou seguro-garantia, ou intimação da penhora), e não desde a simples citação.",
+        "D": "Correta. I: art. 6º, caput e § 1º, da Lei 6.830/80 — petição inicial simplificada, instruída com a CDA, que dela faz parte integrante. II: art. 8º, caput — citação para pagar em 5 dias ou garantir a execução.",
+        "E": "Errada. Mantém a afirmativa III, falsa pela razão já exposta, e deixa de fora a II, verdadeira, sobre o prazo de citação na execução fiscal."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 6.830/1980 (LEF), arts. 6º, 8º e 16",
+          "data": "1980-09-22"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "pc-0090",
+      "tema": "Embargos de terceiro: legitimidade, prazo, efeitos e prova da posse (arts. 674 a 677)",
+      "enunciado": "Em execução fiscal promovida pelo Município de Matinhos contra a sociedade empresária Nortec Materiais de Construção Ltda., a penhora recaiu sobre uma motocicleta que pertence, na verdade, a Sandra, pessoa estranha à relação processual, que comprova documentalmente a posse e a propriedade do bem. Sandra procura a Procuradoria para saber como reverter a constrição indevida. Considerando exclusivamente o disposto no Código de Processo Civil sobre embargos de terceiro, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e, então, assinale a alternativa com a sequência CORRETA.\n(__) Por não ser parte no processo, Sandra pode requerer o desfazimento da constrição por meio de embargos de terceiro.\n(__) Os embargos de terceiro só podem ser opostos até o momento em que se realiza a penhora, não sendo cabíveis depois desse ato.\n(__) Caso a penhora recaia sobre a totalidade dos bens constritos, o simples oferecimento dos embargos já suspende, de pleno direito, o processo principal quanto a esses bens.\n(__) O cônjuge que defende sua meação sobre o bem indevidamente constrito também é considerado terceiro legitimado a opor embargos.\n(__) A petição inicial dos embargos de terceiro exige prova plena, e não meramente sumária, da posse ou do domínio do embargante.",
+      "alternativas": {
+        "A": "V, V, F, F, V.",
+        "B": "F, V, V, F, F.",
+        "C": "V, F, V, V, F.",
+        "D": "F, F, V, V, V.",
+        "E": "V, F, F, V, F."
+      },
+      "correta": "E",
+      "dica": "Compare o momento-limite para opor os embargos com o momento da penhora, e veja o que a lei exige provar na petição inicial: não é a mesma prova de uma ação possessória comum.",
+      "explicacao": {
+        "A": "Errada. Diverge em três posições da sequência correta: a segunda deveria ser F — os embargos não se limitam ao momento da penhora, podendo ser opostos depois dela (art. 675); a quarta deveria ser V — o cônjuge que defende a meação é legitimado a embargar (art. 674, § 2º, I); e a quinta deveria ser F — a petição inicial exige prova sumária, não plena (art. 677).",
+        "B": "Errada. Diverge em quatro posições: a primeira deveria ser V — quem não é parte e sofre constrição sobre bem próprio pode embargar (art. 674, caput); a segunda deveria ser F (art. 675); a terceira deveria ser F — a suspensão da constrição não é automática (art. 678); e a quarta deveria ser V (art. 674, § 2º, I).",
+        "C": "Errada. Diverge só na terceira posição: a suspensão das medidas constritivas depende de decisão que reconheça suficientemente provados o domínio ou a posse, e não do mero oferecimento dos embargos (art. 678), de modo que essa afirmativa é falsa, não verdadeira.",
+        "D": "Errada. Diverge em três posições: a primeira deveria ser V — há legitimidade para embargar mesmo sem ser parte (art. 674, caput); a terceira deveria ser F — a suspensão não é automática (art. 678); e a quinta deveria ser F — a prova exigida é sumária, não plena (art. 677).",
+        "E": "Correta. (1) V — art. 674, caput: quem não é parte e sofre constrição sobre bem que possui pode requerer o desfazimento por embargos de terceiro. (2) F — art. 675: os embargos podem ser opostos a qualquer tempo no processo de conhecimento enquanto não transitada em julgado a sentença e, na execução, até 5 dias após a adjudicação, a alienação ou a arrematação; não se limitam ao momento da penhora. (3) F — art. 678: a suspensão das medidas constritivas depende de decisão que reconheça suficientemente provados o domínio ou a posse, e não do mero oferecimento dos embargos. (4) V — art. 674, § 2º, I: o cônjuge ou companheiro que defende sua meação é considerado terceiro para fins de embargos. (5) F — art. 677, caput: a petição inicial exige prova sumária da posse ou do domínio, e não prova plena."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 674, 675, 677 e 678",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

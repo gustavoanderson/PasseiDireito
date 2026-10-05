@@ -60,6 +60,34 @@
         { "tipo": "lei", "referencia": "CLT, art. 895, I (Lei 11.925/2009)", "data": "2009-04-17" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0024",
+      "tema": "Representação processual do procurador municipal e jus postulandi (Súmulas 436 e 425 do TST)",
+      "enunciado": "Em reclamação trabalhista movida por ex-empregado celetista em face do Município de Gama, a petição inicial foi subscrita diretamente pelo reclamante, sem assistência de advogado. Na audiência, compareceu o Procurador Municipal, que apresentou contestação sem juntar instrumento de procuração nem o ato de sua nomeação, limitando-se a declarar, na própria peça, o exercício do cargo de Procurador do Município. Em sede de preliminar, o Procurador também sustentou que, acaso fosse impetrado mandado de segurança contra decisão interlocutória proferida no feito, a parte reclamante não poderia fazê-lo sem constituir advogado. Considerando a jurisprudência sumulada do Tribunal Superior do Trabalho sobre a representação processual dos entes públicos e sobre os limites do jus postulandi, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "É imprescindível a juntada de procuração e do ato de nomeação do Procurador Municipal para a validade da representação processual do Município, não bastando a simples declaração, nas peças processuais, do exercício do cargo.",
+        "B": "O jus postulandi previsto no art. 791 da CLT alcança todas as instâncias e ações da Justiça do Trabalho, inclusive o mandado de segurança e a ação rescisória, dispensando a parte de constituir advogado em qualquer hipótese.",
+        "C": "O Procurador Municipal, ao representar o Município em juízo, ativa ou passivamente, está dispensado da juntada de instrumento de mandato e de comprovação do ato de nomeação, bastando que se declare, nas peças processuais, exercente do cargo de procurador; além disso, o Município, como ente de direito público, tem prazo em dobro para recorrer.",
+        "D": "Por força do princípio da paridade de armas entre as partes, o Município não goza de prazo diferenciado para recorrer das decisões proferidas em seu desfavor na Justiça do Trabalho.",
+        "E": "O jus postulandi não é admitido no processo do trabalho brasileiro, sendo obrigatória a presença de advogado constituído em toda reclamação trabalhista, mesmo perante as Varas do Trabalho."
+      },
+      "correta": "C",
+      "dica": "Há uma súmula do TST só sobre a dispensa de documentos para o procurador público, e outra, diferente, sobre até onde vai o jus postulandi das partes.",
+      "explicacao": {
+        "C": "Correta. É a Súmula 436, I e II, do TST: os procuradores da União, Estados, Municípios e Distrito Federal, suas autarquias e fundações, quando representam o ente em juízo, estão dispensados da juntada de instrumento de mandato e da comprovação do ato de nomeação, sendo essencial apenas que o signatário se declare exercente do cargo de procurador. O prazo em dobro para recurso é prerrogativa do art. 1º, III, do Decreto-Lei 779/1969.",
+        "A": "Incorreta. A Súmula 436, I, do TST dispensa expressamente a juntada de instrumento de mandato e a comprovação do ato de nomeação; o item II exige apenas que o procurador se declare exercente do cargo nas peças processuais, não bastando, porém, a mera indicação do número de inscrição na OAB.",
+        "B": "Incorreta. Pela Súmula 425 do TST, o jus postulandi do art. 791 da CLT limita-se às Varas do Trabalho e aos Tribunais Regionais do Trabalho, não alcançando a ação rescisória, a ação cautelar, o mandado de segurança nem os recursos de competência do Tribunal Superior do Trabalho, que exigem advogado.",
+        "D": "Incorreta. O art. 1º, III, do Decreto-Lei 779/1969 assegura à União, aos Estados, ao Distrito Federal, aos Municípios e às suas autarquias e fundações de direito público o prazo em dobro para recurso nos processos perante a Justiça do Trabalho, prerrogativa distinta da paridade de armas entre as partes.",
+        "E": "Incorreta. O art. 791 da CLT admite expressamente o jus postulandi das partes perante as Varas do Trabalho e os Tribunais Regionais do Trabalho, dispensando advogado nessas instâncias, ainda que a Súmula 425 do TST restrinja esse alcance em outras ações e recursos."
+      },
+      "fontes": [
+        { "tipo": "sumula", "referencia": "TST, Súmula 436, I e II", "data": "2012-09-25" },
+        { "tipo": "sumula", "referencia": "TST, Súmula 425", "data": "2010-04-30" },
+        { "tipo": "lei", "referencia": "Decreto-Lei 779/1969, art. 1º, III", "data": "1969-08-21" },
+        { "tipo": "lei", "referencia": "CLT, art. 791", "data": "1943-05-01" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

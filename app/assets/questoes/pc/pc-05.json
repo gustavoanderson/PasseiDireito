@@ -81,6 +81,70 @@
         { "tipo": "lei", "referencia": "Lei 13.105/2015 (CPC), arts. 489, 503, 504 e 506", "data": "2015-03-16" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "pc-0085",
+      "tema": "Correção do vício antes da extinção do processo sem resolução de mérito (art. 317)",
+      "enunciado": "Em ação movida por um fornecedor contra o Município de Matinhos, o juiz verificou irregularidade sanável na procuração juntada pelo autor e, antes de qualquer decisão terminativa, determinou sua intimação para regularizar a representação processual. Assinale a alternativa CORRETA acerca da extinção do processo, nos termos do Código de Processo Civil.",
+      "alternativas": {
+        "A": "O processo somente se extingue pela prolação de sentença que resolve o mérito da causa.",
+        "B": "A oportunidade de correção do vício prevista no CPC aplica-se exclusivamente às demandas em que a Fazenda Pública for autora.",
+        "C": "A extinção do processo, uma vez decretada, impede em qualquer hipótese a repropositura da demanda.",
+        "D": "A extinção do processo sem resolução de mérito dispensa qualquer intimação prévia da parte, mesmo quando o vício for sanável.",
+        "E": "Antes de proferir decisão sem resolução de mérito, o juiz deverá conceder à parte oportunidade para, se possível, corrigir o vício."
+      },
+      "correta": "E",
+      "dica": "O CPC trata separadamente a extinção com e sem resolução de mérito; apenas uma delas exige, antes da decisão, uma chance de reparo.",
+      "explicacao": {
+        "A": "Errada. O art. 316 diz que a extinção do processo se dá por sentença, mas essa sentença pode resolver o mérito (art. 487) ou não (art. 485); não há exclusividade da resolução de mérito.",
+        "B": "Errada. O art. 317 não distingue quem é autor; a oportunidade de correção vale para qualquer parte, inclusive quando a Fazenda Pública for ré ou terceira.",
+        "C": "Errada. A extinção sem resolução de mérito, em regra, não impede a repropositura da ação, observadas as condições que a parte precisa preencher (art. 486, caput e § 1º).",
+        "D": "Errada. É o oposto do que dispõe o art. 317: a intimação prévia para sanar o vício sanável é condição para a validade da decisão terminativa.",
+        "E": "Correta. É a literalidade do art. 317: antes de proferir decisão sem resolução de mérito, o juiz deve conceder à parte oportunidade para, se possível, corrigir o vício — foi o que ocorreu com a irregularidade na procuração."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 316, 317, 485, 486 e 487",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "pc-0086",
+      "tema": "Formação, suspensão e extinção do processo: regras gerais (arts. 312 a 317)",
+      "enunciado": "Considerando exclusivamente o Código de Processo Civil sobre a formação, a suspensão e a extinção do processo, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA.\n(__) A ação considera-se proposta no momento em que a petição inicial é protocolada, ainda que os efeitos quanto ao réu dependam de citação válida.\n(__) A convenção das partes pode suspender o processo por prazo superior a 6 (seis) meses.\n(__) Durante a suspensão, é vedada a prática de qualquer ato processual, ressalvada a possibilidade de o juiz determinar atos urgentes para evitar dano irreparável.\n(__) Ainda que o vício seja sanável, o juiz pode proferir decisão sem resolução de mérito sem antes conceder à parte qualquer oportunidade de saná-lo.",
+      "alternativas": {
+        "A": "V, F, V, F.",
+        "B": "V, V, F, F.",
+        "C": "F, F, V, V.",
+        "D": "F, V, F, V.",
+        "E": "V, F, F, F."
+      },
+      "correta": "A",
+      "dica": "Confira o prazo máximo da suspensão convencional e lembre que a vedação de atos durante a suspensão tem uma válvula de escape para urgências.",
+      "explicacao": {
+        "A": "Correta. (1) V — art. 312: a ação considera-se proposta com o protocolo da inicial, ainda que os efeitos quanto ao réu dependam da citação válida (art. 240). (2) F — art. 313, § 4º: a suspensão por convenção das partes está limitada a 6 meses. (3) V — art. 314: durante a suspensão, nenhum ato processual pode ser praticado, salvo os urgentes, para evitar dano irreparável. (4) F — art. 317: o juiz deve, antes da decisão sem mérito, dar à parte a chance de corrigir o vício sanável.",
+        "B": "Errada. A segunda posição deveria ser F: pelo art. 313, § 4º, o prazo de suspensão por convenção das partes nunca pode exceder 6 (seis) meses. E a terceira deveria ser V: o art. 314 veda atos durante a suspensão, ressalvados os urgentes.",
+        "C": "Errada. A primeira posição deveria ser V: o art. 312 considera proposta a ação já com o protocolo da inicial. E a quarta deveria ser F: o art. 317 exige a oportunidade de correção do vício sanável antes da decisão sem mérito.",
+        "D": "Errada. Inverte exatamente as quatro posições corretas: a primeira é V (art. 312), a segunda é F (art. 313, § 4º), a terceira é V (art. 314) e a quarta é F (art. 317).",
+        "E": "Errada. A terceira posição deveria ser V: o art. 314 só veda a prática de atos durante a suspensão ressalvando os urgentes para evitar dano irreparável, regra que a afirmativa reproduz corretamente."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "Lei 13.105/2015 (CPC), arts. 312, 313, § 4º, 314 e 317",
+          "data": "2015-03-16"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

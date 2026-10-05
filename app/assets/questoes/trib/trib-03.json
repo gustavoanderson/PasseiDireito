@@ -288,6 +288,103 @@
       "origem": {
         "tipo": "inedita"
       }
+    },
+    {
+      "id": "trib-0091",
+      "tema": "Suspensão da exigibilidade do crédito tributário (CTN, art. 151, LC 236/2026)",
+      "enunciado": "Um contribuinte, antes de garantir o juízo, decidiu depositar judicialmente o montante integral do tributo que entendia indevido. Paralelamente, apresentou impugnação administrativa contra outro lançamento e, quanto a um terceiro débito já definitivamente constituído, obteve parcelamento regularmente deferido pela Fazenda. Considerando o art. 151 do Código Tributário Nacional, na redação dada pela Lei Complementar nº 236/2026, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA, de cima para baixo.\n\n(__) O depósito do montante integral do crédito tributário suspende a sua exigibilidade.\n(__) As impugnações, os recursos e a manifestação de inconformidade, nos termos das leis reguladoras do processo tributário administrativo, suspendem a exigibilidade do crédito.\n(__) O parcelamento extingue definitivamente o crédito tributário desde o momento em que é concedido.\n(__) A suspensão da exigibilidade do crédito tributário dispensa o cumprimento das obrigações acessórias a ele relacionadas.",
+      "alternativas": {
+        "A": "V, F, V, F.",
+        "B": "F, V, F, V.",
+        "C": "V, V, V, F.",
+        "D": "F, F, V, V.",
+        "E": "V, V, F, F."
+      },
+      "correta": "E",
+      "dica": "O art. 151 lista nove hipóteses de suspensão. Veja se cada evento do enunciado está nessa lista e confira também o que diz o § 1º sobre as obrigações acessórias.",
+      "alerta": "Mudança recente: a LC 236/2026 (publicada em 04/09/2026) deu nova redação ao inciso III do art. 151 do CTN. Como ela é anterior à publicação do edital, vale a redação em vigor em 21/09/2026, já com a mudança. Responda por ela.",
+      "explicacao": {
+        "E": "Correta. A 1ª é o art. 151, II (depósito do montante integral). A 2ª é o art. 151, III, na redação da LC 236/2026 (impugnações, recursos e manifestação de inconformidade, nos termos das leis reguladoras do processo tributário administrativo). A 3ª é falsa: o parcelamento é hipótese de suspensão (art. 151, VI), e não de extinção, do crédito tributário. A 4ª é falsa: o § 1º do art. 151 diz que a suspensão não dispensa o cumprimento das obrigações acessórias dependentes da obrigação principal ou dela consequentes.",
+        "A": "Marca como falsa a 2ª, que é verdadeira (art. 151, III, do CTN, na redação da LC 236/2026), e como verdadeira a 3ª, que é falsa: o parcelamento suspende, não extingue, o crédito.",
+        "B": "Erra as quatro: a 1ª é verdadeira (art. 151, II), a 2ª também (art. 151, III), a 3ª é falsa (o parcelamento suspende) e a 4ª também é falsa (o § 1º do art. 151 não dispensa as obrigações acessórias).",
+        "C": "Mantém a 3ª como verdadeira, quando o parcelamento apenas suspende a exigibilidade (art. 151, VI); o crédito só se extingue com o pagamento integral das parcelas.",
+        "D": "Marca como falsa a 1ª, que reproduz o art. 151, II, do CTN, e mantém a 3ª como verdadeira, quando o parcelamento é causa de suspensão, prevista no inciso VI do mesmo artigo, e não de extinção."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN, art. 151, II, III e VI, e § 1º (LC 236/2026)",
+          "data": "2026-09-04"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "trib-0094",
+      "tema": "Domicílio tributário: eleição e recusa pela autoridade administrativa (CTN, art. 127)",
+      "enunciado": "Um profissional liberal, inscrito como contribuinte em determinado Município, elegeu como domicílio tributário um endereço em que não exerce nenhuma atividade, distante de seu local de trabalho. A autoridade fazendária constatou que essa escolha dificulta a fiscalização de suas atividades e pretende desconsiderá-la. Considerando o art. 127 do Código Tributário Nacional, julgue verdadeiro (V) ou falso (F) o que se afirma a seguir e assinale a alternativa com a sequência CORRETA, de cima para baixo.\n\n(__) Na falta de eleição de domicílio tributário, considera-se como tal, para a pessoa natural, a sua residência habitual ou, sendo esta incerta, o centro habitual de sua atividade.\n(__) O contribuinte pode, em regra, eleger livremente seu domicílio tributário perante o Fisco.\n(__) A autoridade administrativa pode recusar o domicílio eleito quando ele impossibilite ou dificulte a arrecadação ou a fiscalização do tributo.\n(__) A recusa do domicílio eleito pela autoridade administrativa depende de prévia autorização judicial.",
+      "alternativas": {
+        "A": "F, V, V, F.",
+        "B": "V, F, V, F.",
+        "C": "V, V, V, F.",
+        "D": "F, F, V, V.",
+        "E": "V, V, F, F."
+      },
+      "correta": "C",
+      "dica": "O § 2º do art. 127 diz quem pode recusar o domicílio eleito e em que condições, sem exigir ato de outro Poder.",
+      "explicacao": {
+        "C": "Correta. A 1ª é o art. 127, I. A 2ª decorre do caput do art. 127, que só fixa regras supletivas 'na falta de eleição' — logo, a eleição é a regra. A 3ª é o § 2º do art. 127. A 4ª é falsa: o § 2º não exige autorização judicial para a recusa; a própria autoridade administrativa a recusa e aplica a regra supletiva do § 1º.",
+        "A": "Inverte a 1ª, que é verdadeira: na falta de eleição, o art. 127, I, do CTN considera domicílio tributário da pessoa natural a sua residência habitual ou, sendo incerta, o centro habitual de sua atividade.",
+        "B": "Marca como falsa a 2ª, quando o próprio caput do art. 127 pressupõe a eleição como regra, suprida apenas 'na falta' dela pelas regras dos incisos.",
+        "D": "Erra a 1ª e a 2ª, que são corretas, e mantém a 4ª como verdadeira, quando o § 2º do art. 127 não exige nenhuma autorização judicial para a recusa do domicílio eleito.",
+        "E": "Marca como falsa a 3ª, que é o § 2º do art. 127: a autoridade administrativa pode recusar o domicílio eleito quando ele dificultar a arrecadação ou a fiscalização."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), art. 127",
+          "data": "1966-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
+    },
+    {
+      "id": "trib-0095",
+      "tema": "Restituição de tributo pago indevidamente ou a maior (CTN, art. 165)",
+      "enunciado": "Um contribuinte constatou, meses depois de pago o IPTU do exercício, que a alíquota aplicada pelo próprio sistema municipal de lançamento estava incorreta, resultando em recolhimento superior ao efetivamente devido. Ele pretende obter administrativamente a devolução da diferença paga a maior. Considerando o art. 165 do Código Tributário Nacional, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A restituição depende de prévio protesto do contribuinte no momento do pagamento, sob pena de preclusão do direito.",
+        "B": "O sujeito passivo tem direito, independentemente de prévio protesto, à restituição total ou parcial do tributo pago em valor maior que o devido, inclusive quando o erro decorrer da aplicação de alíquota incorreta no cálculo do montante do débito.",
+        "C": "A restituição só é cabível quando o erro no cálculo tiver sido cometido exclusivamente pelo próprio contribuinte, e não pela Administração.",
+        "D": "A restituição pressupõe a prévia anulação judicial do lançamento que originou o pagamento a maior.",
+        "E": "O direito à restituição, nessa hipótese, não está sujeito a qualquer prazo extintivo."
+      },
+      "correta": "B",
+      "dica": "O art. 165 lista três hipóteses de restituição e dispensa, logo no caput, uma formalidade que a prática antiga exigia.",
+      "explicacao": {
+        "B": "Correta. É o art. 165, caput, e inciso II, do CTN: o sujeito passivo tem direito, independentemente de prévio protesto, à restituição total ou parcial do tributo pago a maior, inclusive quando o erro estiver na determinação da alíquota aplicável ou no cálculo do montante do débito.",
+        "A": "O próprio caput do art. 165 dispensa expressamente o prévio protesto: o direito à restituição independe dessa formalidade.",
+        "C": "O art. 165, II, não distingue a origem do erro. A restituição cabe ainda que o erro na alíquota ou no cálculo tenha sido cometido pela própria Administração, como no caso do sistema de lançamento municipal.",
+        "D": "A restituição do art. 165 é via própria, autônoma do processo de anulação judicial do lançamento; o inciso III trata de hipótese distinta, de reforma de decisão condenatória, e não é requisito geral para as demais.",
+        "E": "O direito de pleitear a restituição está sujeito ao prazo de cinco anos do art. 168 do CTN, contado, nesta hipótese, da data da extinção do crédito tributário pelo pagamento."
+      },
+      "fontes": [
+        {
+          "tipo": "lei",
+          "referencia": "CTN (Lei 5.172/1966), arts. 165 e 168",
+          "data": "1966-10-25"
+        }
+      ],
+      "origem": {
+        "tipo": "adaptada",
+        "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)"
+      }
     }
   ]
 }

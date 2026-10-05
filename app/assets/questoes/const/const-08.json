@@ -159,6 +159,34 @@
         { "tipo": "constituicao", "referencia": "CF, art. 40, caput, § 1º, II, § 14 e § 20 (EC 103/2019)", "data": "2019-11-13" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "const-0083",
+      "tema": "Parentalidade e deficiência no serviço público – jurisprudência do STF",
+      "enunciado": "Em uma mesma Prefeitura, três servidoras buscam orientação da Procuradoria sobre direitos ligados à parentalidade: a primeira obteve guarda para fins de adoção de uma criança com mais de um ano de idade e requer licença-adotante; a segunda, grávida, ocupa cargo em comissão de livre nomeação e exoneração e teme ser exonerada antes do parto; a terceira tem um filho com deficiência e deseja reduzir sua jornada de trabalho sem redução de vencimentos. À luz da jurisprudência do Supremo Tribunal Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Os prazos da licença-adotante podem ser livremente reduzidos pela Administração Pública em razão da idade da criança adotada, sem qualquer parâmetro constitucional a observar.",
+        "B": "A licença-paternidade de servidor que seja pai solo, biológico ou adotivo, equivale, em qualquer regime jurídico, a um terço do prazo da licença-maternidade, independentemente de lei do ente federativo que fixe prazo diverso.",
+        "C": "A mãe servidora pública gestante, mesmo ocupante de cargo em comissão de livre nomeação e exoneração, não tem direito a estabilidade provisória nem a licença-maternidade, por ser esse cargo de natureza precária.",
+        "D": "É assegurado ao servidor público, estadual ou municipal, independentemente de lei específica do respectivo ente, o direito à redução de 30% a 50% da jornada de trabalho, sem redução de vencimentos, quando tiver filho ou dependente com deficiência, por aplicação analógica do regime do servidor público federal.",
+        "E": "A gestante que ocupa cargo em comissão pode ser livremente exonerada a qualquer tempo, sem direito a estabilidade provisória ou a indenização, por inexistir, nesse caso, vínculo efetivo com a Administração Pública."
+      },
+      "correta": "D",
+      "dica": "Veja qual das três situações já tem, no regime federal do servidor público, um percentual expresso de redução, e que o STF estendeu a quem a lei do ente não previa nada.",
+      "explicacao": {
+        "D": "Correta. É a tese do Tema 1.097 da repercussão geral (RE 1.237.867, Rel. Min. Ricardo Lewandowski, julgado em 17/12/2022): o servidor público, de qualquer ente federativo, tem direito à redução de 30% a 50% da jornada de trabalho, sem redução de vencimentos e sem exigência de compensação de horário, quando tiver filho ou dependente com deficiência, por aplicação analógica do art. 98, §§ 2º e 3º, da Lei 8.112/1990 e em nome da isonomia substancial.",
+        "A": "O Tema 782 da repercussão geral (RE 778.889, Rel. Min. Luís Roberto Barroso, julgado em 10/3/2016) fixou exatamente o contrário: os prazos da licença-adotante não podem ser inferiores aos da licença-gestante, nem podem variar em razão da idade da criança adotada, sob pena de violar a isonomia entre filiação biológica e adotiva.",
+        "B": "Não há, na Constituição ou na jurisprudência do STF, um percentual fixo e automático de um terço aplicável a todo e qualquer regime jurídico de licença-paternidade; a disciplina depende de lei de cada ente federativo, respeitado o patamar mínimo do art. 7º, XIX, da CF e da legislação federal que o regulamentar.",
+        "C": "O Tema 542 da repercussão geral (RE 842.844, tese aprovada em 5/10/2023) assegura exatamente o oposto: a trabalhadora gestante tem direito à licença-maternidade e à estabilidade provisória independentemente do regime jurídico aplicável, inclusive quando ocupante de cargo em comissão ou contratada por tempo determinado.",
+        "E": "Pelo mesmo Tema 542 da repercussão geral, a estabilidade provisória da gestante não depende de vínculo efetivo com a Administração, alcançando também o cargo em comissão; a exoneração nesse período, portanto, não é livre."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.097 (RE 1.237.867)", "data": "2022-12-17" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 782 (RE 778.889)", "data": "2016-03-10" },
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 542 (RE 842.844)", "data": "2023-10-05" },
+        { "tipo": "lei", "referencia": "Lei 8.112/1990, art. 98, §§ 2º e 3º", "data": "1990-12-11" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

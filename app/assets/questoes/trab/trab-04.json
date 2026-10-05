@@ -59,6 +59,163 @@
         { "tipo": "constituicao", "referencia": "CF, art. 8º, VIII", "data": "1988-10-05" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "trab-0023",
+      "tema": "Equiparação salarial em empresa pública e vedação da equiparação no serviço público direto",
+      "enunciado": "A Companhia Municipal de Saneamento de Beta, empresa pública municipal, admitiu Joana e Marcos mediante concurso público para o mesmo cargo técnico, no mesmo setor, com idêntica produtividade e perfeição técnica. Joana exerce a função há 1 (um) ano e 6 (seis) meses a mais que Marcos e está há 3 (três) anos a mais na empresa, por isso recebendo remuneração superior. Marcos ajuizou reclamação trabalhista pedindo equiparação salarial com Joana. Paralelamente, Rogério, servidor celetista lotado na Secretaria Municipal de Administração (órgão da Administração Direta), ajuizou ação pleiteando equiparação salarial com colega que exerce idênticas atribuições administrativas, sob o argumento de que o princípio da isonomia impõe o mesmo tratamento remuneratório a quem desempenha a mesma função. Considerando a Consolidação das Leis do Trabalho, a Constituição Federal e a jurisprudência sumulada do Tribunal Superior do Trabalho e do Supremo Tribunal Federal, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Nenhuma das duas pretensões pode ser acolhida, porque o art. 37, XIII, da Constituição Federal veda a equiparação salarial em qualquer entidade da Administração Pública, inclusive nas empresas públicas e sociedades de economia mista regidas pela CLT.",
+        "B": "Ambas as pretensões devem ser acolhidas, porque o princípio constitucional da isonomia prevalece sobre a natureza do empregador e do vínculo, impondo tratamento remuneratório idêntico a quem exerce a mesma função.",
+        "C": "A pretensão de Marcos deve ser rejeitada, porque a diferença de tempo de serviço na empresa, de 3 anos, já ultrapassa o limite de 2 anos fixado pelo art. 461, § 1º, da CLT; a pretensão de Rogério, por sua vez, deve ser acolhida, por força do princípio da isonomia remuneratória entre servidores públicos.",
+        "D": "A pretensão de Marcos deve ser acolhida, porque atendidos os limites de diferença de tempo na função e de tempo de serviço do art. 461, § 1º, da CLT, já que a empresa pública, ao contratar sob o regime celetista, equipara-se ao empregador privado; a pretensão de Rogério deve ser rejeitada, porque o art. 37, XIII, da CF veda a equiparação remuneratória do pessoal do serviço público, não cabendo ao Poder Judiciário aumentar vencimentos de servidores sob o fundamento de isonomia.",
+        "E": "Ambas as pretensões devem ser rejeitadas, porque a equiparação salarial prevista no art. 461 da CLT é instituto exclusivo da iniciativa privada, inaplicável a qualquer modalidade de vínculo mantido com entes da Administração Pública, direta ou indireta."
+      },
+      "correta": "D",
+      "dica": "Trate separadamente os dois empregadores: um se submete à CLT como qualquer empresa privada; o outro integra a Administração Direta, sujeita a uma vedação constitucional específica sobre remuneração.",
+      "explicacao": {
+        "D": "Correta. Pelo art. 461, § 1º, da CLT, a equiparação exige mesma função, mesma produtividade e perfeição técnica, diferença de tempo na função não superior a 2 anos e diferença de tempo de serviço no empregador não superior a 4 anos — limites respeitados por Marcos (1 ano e 6 meses e 3 anos). A Súmula 455 do TST afasta a vedação do art. 37, XIII, da CF em relação às empresas públicas e sociedades de economia mista, porque, ao admitir empregados pela CLT, equiparam-se ao empregador privado (art. 173, § 1º, II, CF). Já na Administração Direta, a equiparação de servidores é juridicamente impossível, e a Súmula Vinculante 37 do STF veda ao Judiciário aumentar vencimentos sob o fundamento de isonomia.",
+        "A": "Incorreta. A vedação do art. 37, XIII, da CF não alcança as empresas públicas e as sociedades de economia mista: pela Súmula 455 do TST, elas se equiparam ao empregador privado quando contratam pela CLT (art. 173, § 1º, II, CF), de modo que a equiparação de Marcos, atendidos os requisitos do art. 461 da CLT, é plenamente possível.",
+        "B": "Incorreta. A isonomia não é um cheque em branco: na Administração Direta, a vedação do art. 37, XIII, da CF e a Súmula Vinculante 37 do STF impedem a equiparação ou o aumento remuneratório de servidores por essa via, ainda que celetistas, para preservar a exigência de lei específica do art. 37, X, da CF.",
+        "C": "Incorreta. O limite de 2 anos do art. 461, § 1º, da CLT é o de diferença de tempo NA FUNÇÃO, e não de tempo de serviço no empregador (cujo limite é de 4 anos); a diferença de 3 anos de Marcos está dentro desse limite. E a pretensão de Rogério não pode ser acolhida, pela vedação do art. 37, XIII, da CF.",
+        "E": "Incorreta. A equiparação salarial do art. 461 da CLT aplica-se normalmente aos empregados públicos de empresas públicas e sociedades de economia mista, que se submetem ao regime celetista como qualquer empregador privado (art. 173, § 1º, II, CF, e Súmula 455 do TST); a vedação constitucional atinge apenas o pessoal da Administração Direta, autárquica e fundacional."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 461, § 1º (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "constituicao", "referencia": "CF, art. 37, XIII", "data": "1988-10-05" },
+        { "tipo": "constituicao", "referencia": "CF, art. 173, § 1º, II (EC 19/1998)", "data": "1998-06-04" },
+        { "tipo": "sumula", "referencia": "TST, Súmula 455", "data": "2014-05-21" },
+        { "tipo": "sumula-vinculante", "referencia": "STF, Súmula Vinculante 37", "data": "2014-10-24" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trab-0025",
+      "tema": "Reversão ao cargo efetivo e supressão da gratificação de função (art. 468, CLT)",
+      "enunciado": "Vítor, empregado público celetista, ocupa cargo efetivo de auxiliar administrativo na Prefeitura do Município de Delta e exerceu, ininterruptamente, por 11 (onze) anos, a função de chefia do almoxarifado central, recebendo a respectiva gratificação de função. Em razão de reestruturação administrativa do órgão, determinada pelo Secretário Municipal competente, Vítor foi revertido ao seu cargo efetivo, com a imediata supressão do pagamento da gratificação. Inconformado, alega que o longo tempo de exercício da função gerou direito adquirido à incorporação definitiva da verba ao seu patrimônio jurídico. A respeito da reversão ao cargo efetivo e da gratificação de função na sistemática posterior à Lei nº 13.467/2017, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O exercício de função de confiança por mais de dez anos confere estabilidade absoluta na chefia, sendo nula qualquer reversão ao cargo efetivo sem a prévia instauração de processo administrativo disciplinar.",
+        "B": "A supressão da gratificação de função somente seria lícita se houvesse prévia autorização em acordo ou convenção coletiva de trabalho, exigindo-se ainda a demonstração de falta grave cometida pelo empregado.",
+        "C": "A reversão ao cargo efetivo acarreta a rescisão indireta automática do contrato de trabalho, assegurando ao empregado o levantamento dos depósitos do FGTS acrescido da multa de 40%.",
+        "D": "Pelo princípio da estabilidade financeira, consolidado na Súmula 372 do TST, a gratificação paga por mais de dez anos é sempre incorporada ao salário, ainda que a reversão decorra de reestruturação administrativa legítima e sem qualquer intuito de prejudicar o empregado.",
+        "E": "A determinação do empregador para que o empregado reverta ao cargo efetivo, deixando a função de confiança, não é considerada alteração unilateral ilícita, e a supressão da gratificação correspondente — com ou sem justo motivo — não assegura ao empregado o direito à sua manutenção, não sendo ela incorporada, independentemente do tempo de exercício da função."
+      },
+      "correta": "E",
+      "dica": "A Reforma Trabalhista de 2017 acrescentou ao art. 468 da CLT dois parágrafos que tratam exatamente da reversão da função de confiança e dos efeitos sobre a gratificação.",
+      "explicacao": {
+        "E": "Correta. É o art. 468, §§ 1º e 2º, da CLT, incluídos pela Lei 13.467/2017: a reversão ao cargo efetivo, com cessação do exercício da função de confiança, não é alteração unilateral ilícita, e a supressão da gratificação, com ou sem justo motivo, não assegura o direito à sua manutenção, não sendo ela incorporada, independentemente do tempo de exercício.",
+        "A": "Incorreta. Não há previsão legal de estabilidade absoluta para quem exerce função de confiança, e a reversão ao cargo efetivo, por si só, não exige processo administrativo disciplinar: o art. 468, § 1º, da CLT trata-a como alteração lícita, decorrente do próprio caráter precário da função.",
+        "B": "Incorreta. O art. 468, § 2º, da CLT não condiciona a supressão da gratificação a autorização coletiva nem a falta grave do empregado: a lei dispensa expressamente qualquer justo motivo para que a supressão seja válida.",
+        "C": "Incorreta. A reversão lícita ao cargo efetivo, por expressa previsão do art. 468, § 1º, da CLT, não configura alteração contratual ilícita e, portanto, não dá causa à rescisão indireta nem aos efeitos de uma dispensa sem justa causa, como a multa de 40% do FGTS.",
+        "D": "Incorreta. A Súmula 372, I, do TST, anterior à Reforma Trabalhista, condicionava a incorporação à ausência de justo motivo na reversão; o art. 468, § 2º, da CLT, incluído pela Lei 13.467/2017, superou esse entendimento para os contratos a ele submetidos, afastando a incorporação independentemente do motivo e do tempo de exercício."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 468, §§ 1º e 2º (Lei 13.467/2017)", "data": "2017-07-13" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trab-0026",
+      "tema": "Intervalo intrajornada suprimido e vedação à cumulação de adicionais de risco",
+      "enunciado": "Ewerton, mecânico de uma garagem de transporte coletivo municipal, teve seu contrato de trabalho celebrado e integralmente executado sob a vigência da Lei nº 13.467/2017. Em reclamação trabalhista, formulou dois pedidos: (I) pagamento da integralidade de 1 (uma) hora de intervalo intrajornada, alegando que usufruía apenas de 20 (vinte) minutos diários para descanso e alimentação; e (II) pagamento cumulativo do adicional de insalubridade em grau máximo com o adicional de periculosidade de 30%, amparado em laudo pericial que atestou simultaneamente a exposição a agentes insalubres e o contato habitual com inflamáveis. Considerando as normas celetistas em vigor, assinale a alternativa CORRETA quanto ao julgamento das pretensões.",
+      "alternativas": {
+        "A": "É devida a integralidade da hora de intervalo, com natureza salarial e reflexos em férias, décimo terceiro salário e FGTS, além da cumulação irrestrita dos adicionais de insalubridade e periculosidade, por decorrerem de fatos geradores distintos.",
+        "B": "É devido o pagamento apenas do período suprimido do intervalo intrajornada (40 minutos), com natureza indenizatória e acréscimo de 50% sobre o valor da hora normal, sem reflexos em outras parcelas; quanto aos adicionais, não é possível a cumulação de insalubridade e periculosidade, cabendo ao empregado optar pelo que lhe for mais benéfico.",
+        "C": "A supressão parcial do intervalo intrajornada não gera direito a qualquer indenização, por se tratar de mera irregularidade sujeita à fiscalização do trabalho, sendo lícita a cumulação livre dos adicionais de insalubridade e periculosidade.",
+        "D": "O período suprimido do intervalo deve ser indenizado em dobro, com natureza salarial, sendo vedada qualquer cumulação dos adicionais de insalubridade e periculosidade, ainda que mediante opção do empregado.",
+        "E": "O pagamento do intervalo suprimido tem natureza salarial, irradiando reflexos sobre as demais parcelas contratuais, sendo correta a vedação à cumulação dos adicionais de insalubridade e periculosidade."
+      },
+      "correta": "B",
+      "dica": "Depois da Reforma Trabalhista, o intervalo suprimido mudou de natureza jurídica, e a CLT dá ao empregado uma escolha quanto aos adicionais de risco.",
+      "explicacao": {
+        "B": "Correta. É o art. 71, § 4º, da CLT, com redação da Lei 13.467/2017: paga-se apenas o tempo suprimido (os 40 minutos que faltaram para completar a 1 hora mínima), com natureza indenizatória e acréscimo de 50%, sem reflexos. E é o art. 193, § 2º, da CLT: o empregado só pode optar por um dos dois adicionais, o que lhe for mais vantajoso, sendo vedada a cumulação.",
+        "A": "Incorreta em tudo: desde a Lei 13.467/2017, paga-se só o período suprimido (e não a hora inteira), com natureza indenizatória (e não salarial, logo sem reflexos); e o art. 193, § 2º, da CLT veda a cumulação dos adicionais, cabendo opção pelo mais benéfico.",
+        "C": "Incorreta. O art. 71, § 4º, da CLT garante o pagamento do período suprimido do intervalo, ainda que com natureza indenizatória; não se trata de mera irregularidade sem consequência pecuniária. E a cumulação dos adicionais de insalubridade e periculosidade é vedada pelo art. 193, § 2º, da CLT.",
+        "D": "Incorreta. Não há previsão de pagamento em dobro nem de natureza salarial para o intervalo suprimido: o art. 71, § 4º, da CLT fixa o acréscimo de 50% sobre a hora normal, com natureza indenizatória, pelo período efetivamente suprimido.",
+        "E": "Incorreta quanto à natureza do intervalo: o art. 71, § 4º, da CLT, após a Lei 13.467/2017, atribuiu natureza indenizatória ao pagamento do período suprimido, sem reflexos em outras parcelas contratuais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 71, § 4º (Lei 13.467/2017)", "data": "2017-07-13" },
+        { "tipo": "lei", "referencia": "CLT, art. 193, §§ 1º e 2º (Lei 6.514/1977)", "data": "1977-12-22" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trab-0027",
+      "tema": "Motivação da dispensa de empregado concursado de empresa pública (Tema 1.022/STF)",
+      "enunciado": "Felipe, empregado concursado da Companhia de Transporte Coletivo do Município de Épsilon, sociedade de economia mista municipal que presta serviço público em regime de concorrência com empresas privadas, foi notificado de sua dispensa imotivada. No ato rescisório, a diretoria da empresa não apresentou qualquer justificativa técnica, econômica ou disciplinar, amparando-se na tese do direito potestativo do empregador privado. Felipe ajuizou ação trabalhista requerendo a nulidade da dispensa e sua reintegração. À luz da tese fixada pelo Supremo Tribunal Federal no Tema 1.022 da repercussão geral, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "O dever de motivação restringe-se às empresas públicas e sociedades de economia mista que explorem monopólio estatal, não alcançando as que, como a companhia de Épsilon, atuem em regime de livre concorrência com a iniciativa privada.",
+        "B": "A dispensa de empregado concursado de sociedade de economia mista exige a prévia instauração de processo administrativo disciplinar, com garantia de contraditório e ampla defesa equivalente à do regime estatutário.",
+        "C": "A motivação da dispensa deve necessariamente corresponder a uma das condutas tipificadas no rol de justa causa do art. 482 da CLT, sob pena de nulidade do ato e reintegração automática do empregado.",
+        "D": "As empresas públicas e as sociedades de economia mista, prestadoras de serviço público ou exploradoras de atividade econômica, ainda que em regime concorrencial, têm o dever jurídico de motivar, em ato formal, a dispensa de seus empregados concursados, bastando fundamento razoável, não se exigindo processo administrativo nem o enquadramento em hipótese de justa causa da legislação trabalhista.",
+        "E": "A sociedade de economia mista submete-se integralmente ao regime jurídico das empresas privadas, sendo a dispensa imotivada de seus empregados direito potestativo do empregador, sem necessidade de qualquer fundamentação formal."
+      },
+      "correta": "D",
+      "dica": "O Supremo Tribunal Federal, em 2024, estendeu a exigência de motivação para além do antigo precedente sobre os Correios, mas também limitou o alcance dessa exigência.",
+      "explicacao": {
+        "D": "Correta. É a tese do Tema 1.022 da repercussão geral (RE 688.267, julgado em 28/2/2024): empresas públicas e sociedades de economia mista, prestadoras de serviço público ou exploradoras de atividade econômica, mesmo em regime concorrencial, devem motivar formalmente a dispensa de empregados concursados, com fundamento razoável, sem exigência de processo administrativo nem de enquadramento nas hipóteses de justa causa da CLT.",
+        "A": "Incorreta. A tese do Tema 1.022 não distingue entre empresas que exploram monopólio estatal e as demais: alcança toda empresa pública e sociedade de economia mista, inclusive as que atuam em regime de livre concorrência, como a companhia de transporte do caso.",
+        "B": "Incorreta. A tese do Tema 1.022 dispensa expressamente a instauração de processo administrativo disciplinar: basta um ato formal com fundamento razoável, sem o rito nem as formalidades do regime estatutário.",
+        "C": "Incorreta. O Tema 1.022 não exige que a motivação se enquadre nas hipóteses de justa causa do art. 482 da CLT: basta fundamento razoável, ainda que de natureza técnica, econômica ou organizacional, distinto das faltas disciplinares do empregado.",
+        "E": "Incorreta. Esse entendimento prevalecia antes do julgamento do Tema 1.022 pelo STF, que superou a tese do direito potestativo irrestrito e passou a exigir motivação formal para a dispensa de empregados concursados de empresas públicas e sociedades de economia mista."
+      },
+      "fontes": [
+        { "tipo": "repercussao-geral", "referencia": "STF, Tema 1.022 (RE 688.267)", "data": "2024-02-28" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trab-0028",
+      "tema": "Pedido de demissão da empregada gestante e assistência sindical obrigatória (art. 500, CLT)",
+      "enunciado": "Camila, empregada gestante contratada sob regime celetista por empresa concessionária de serviço de água do Município de Zeta, apresentou pedido formal de demissão por escrito ao departamento de recursos humanos da empresa. O pedido foi homologado diretamente pelo empregador, sem a assistência do sindicato da categoria profissional e sem a intervenção de autoridade do Ministério do Trabalho ou da Justiça do Trabalho. Meses depois, Camila ajuizou reclamação trabalhista pugnando pela anulação da demissão e pelo pagamento da indenização substitutiva da estabilidade provisória da gestante. Considerando as disposições da Consolidação das Leis do Trabalho e a garantia de emprego da gestante prevista no Ato das Disposições Constitucionais Transitórias, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A validade do pedido de demissão independe de qualquer assistência sindical ou de autoridade competente, bastando a declaração expressa da gestante quanto ao conhecimento do seu próprio estado gravídico.",
+        "B": "A ausência de assistência sindical no pedido de demissão da gestante configura mera irregularidade administrativa, que não invalida a rescisão contratual nem restabelece direitos estabilitários.",
+        "C": "O pedido de demissão formulado por empregada gestante detentora da garantia provisória de emprego do art. 10, II, \"b\", do ADCT só é válido quando feito com a assistência do sindicato da categoria ou, não o havendo, perante autoridade local competente do Ministério do Trabalho ou da Justiça do Trabalho, nos termos do art. 500 da CLT, sendo nulo o pedido que prescinda dessa assistência, com direito à indenização correspondente ao período de estabilidade.",
+        "D": "Na sistemática posterior à Reforma Trabalhista de 2017, a validade do pedido de demissão da gestante prescinde de qualquer formalidade adicional, bastando a manifestação de vontade escrita da empregada.",
+        "E": "A assistência sindical só é exigível quando o empregador tiver ciência prévia e inequívoca do estado gravídico da empregada no momento da homologação do pedido de demissão."
+      },
+      "correta": "C",
+      "dica": "O art. 500 da CLT, pensado para o empregado estável em geral, também protege quem goza da garantia provisória de emprego da gestante prevista no ADCT.",
+      "explicacao": {
+        "C": "Correta. O art. 500 da CLT exige, para a validade do pedido de demissão do empregado estável, a assistência do respectivo sindicato ou, na sua falta, de autoridade local do Ministério do Trabalho ou da Justiça do Trabalho. A gestante é detentora da garantia provisória de emprego do art. 10, II, \"b\", do ADCT, desde a confirmação da gravidez até cinco meses após o parto, e a ausência dessa assistência torna nulo o pedido de demissão, com direito à indenização do período de estabilidade.",
+        "A": "Incorreta. O art. 500 da CLT não se contenta com a ciência da gestante sobre seu próprio estado: exige formalidade externa de assistência sindical ou de autoridade competente, justamente para garantir que a renúncia à estabilidade seja livre de pressão.",
+        "B": "Incorreta. A ausência de assistência sindical não é mera irregularidade: pelo art. 500 da CLT, é requisito de validade do próprio ato, cuja falta acarreta a nulidade do pedido de demissão e o restabelecimento do direito à estabilidade.",
+        "D": "Incorreta. A Lei 13.467/2017 não alterou o art. 500 da CLT nem dispensou a assistência sindical no pedido de demissão de empregado estável; a exigência permanece vigente para a gestante, dada a natureza especialmente protetiva dessa garantia.",
+        "E": "Incorreta. A exigência de assistência sindical do art. 500 da CLT não se condiciona ao conhecimento prévio da gravidez pelo empregador: a garantia da gestante independe desse conhecimento, e a formalidade protege a validade da manifestação de vontade em si."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "CLT, art. 500", "data": "1970-06-26" },
+        { "tipo": "constituicao", "referencia": "ADCT, art. 10, II, \"b\"", "data": "1988-10-05" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
+    },
+    {
+      "id": "trab-0029",
+      "tema": "Rescisão indireta por atraso salarial e FGTS: dispensa da imediatidade (Tema 70/TST)",
+      "enunciado": "Danilo, motorista de empresa de transporte coletivo do Município de Theta, sofreu atrasos reiterados no pagamento de salários e ausência de recolhimento dos depósitos do FGTS por mais de doze meses. Com receio de perder o emprego e por depender financeiramente dele, só ajuizou reclamação trabalhista tempos depois, postulando a rescisão indireta do contrato com base no art. 483, \"d\", da CLT, além das verbas rescisórias correspondentes. Em contestação, a empresa alegou a ocorrência de perdão tácito, por ausência de reação imediata do empregado ao primeiro inadimplemento. Sobre a rescisão indireta e a exigência de imediatidade na jurisprudência do Tribunal Superior do Trabalho, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A ausência de reação imediata do empregado após o primeiro atraso salarial configura inexoravelmente perdão tácito, incompatível com o posterior reconhecimento da rescisão indireta.",
+        "B": "A ausência ou irregularidade reiterada nos depósitos do FGTS, somada ao atraso de salários, configura descumprimento contratual contínuo suficiente para a rescisão indireta, sendo dispensada a exigência de imediatidade na reação do empregado.",
+        "C": "O atraso de salários e a irregularidade nos depósitos do FGTS são meras infrações administrativas sujeitas à fiscalização do trabalho, insuficientes, por si só, para caracterizar falta grave do empregador apta a ensejar a rescisão indireta.",
+        "D": "A rescisão indireta pressupõe o afastamento imediato do empregado da prestação de serviços, sendo vedada sua permanência no trabalho até a decisão final do processo.",
+        "E": "A rescisão indireta somente pode ser reconhecida se o empregado comprovar a prévia notificação extrajudicial do empregador, concedendo prazo de 48 horas para a regularização dos depósitos, sob pena de preclusão do direito."
+      },
+      "correta": "B",
+      "dica": "O TST fixou uma tese vinculante recente justamente sobre a natureza continuada do descumprimento do FGTS e sua relação com a exigência clássica de reação imediata do empregado.",
+      "explicacao": {
+        "B": "Correta. É a tese do Tema 70 dos recursos repetitivos do TST: a ausência ou irregularidade no depósito do FGTS caracteriza descumprimento contratual, nos termos do art. 483, \"d\", da CLT, suficiente para configurar a rescisão indireta, sendo dispensada a exigência de imediatidade, por se tratar de violação de trato sucessivo que se renova a cada mês de inadimplemento, situação agravada, no caso, pelo concomitante atraso salarial.",
+        "A": "Incorreta. A tese do Tema 70 do TST afasta a exigência de imediatidade justamente nos casos de descumprimento continuado, como o atraso salarial e a irregularidade do FGTS, por reconhecer a hipossuficiência do empregado e a natureza de trato sucessivo da falta.",
+        "C": "Incorreta. O art. 483, \"d\", da CLT trata o descumprimento das obrigações contratuais, inclusive o atraso salarial e a falta de recolhimento do FGTS, como falta grave do empregador apta a ensejar a rescisão indireta, e não mera irregularidade administrativa sem efeito trabalhista.",
+        "D": "Incorreta. O art. 483, § 3º, da CLT permite expressamente que o empregado, nas hipóteses das alíneas \"d\" e \"g\", permaneça ou não no serviço até a decisão final do processo, sem que isso prejudique o pedido de rescisão indireta.",
+        "E": "Incorreta. Nem a CLT nem a jurisprudência do TST condicionam a rescisão indireta por atraso salarial ou irregularidade do FGTS à prévia notificação extrajudicial com prazo determinado: a falta grave do empregador, uma vez caracterizada, autoriza diretamente o pedido em juízo."
+      },
+      "fontes": [
+        { "tipo": "repetitivo", "referencia": "TST, Tema 70 (RRAg-1000063-90.2024.5.02.0032)", "data": "2025-02-24" },
+        { "tipo": "lei", "referencia": "CLT, art. 483, \"d\" e § 3º", "data": "1943-05-01" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }

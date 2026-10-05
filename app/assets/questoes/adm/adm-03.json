@@ -108,6 +108,31 @@
         { "tipo": "lei", "referencia": "Lei Orgânica do Município de Curitiba, art. 74, caput e §§ 1º, 2º, 4º e 5º (redação dada pela Emenda à Lei Orgânica nº 24/2024, DOM de 27/11/2024)", "data": "2024-11-27" }
       ],
       "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "adm-0106",
+      "tema": "Motivação das decisões administrativas e de controle (LINDB, art. 20)",
+      "enunciado": "Em processo de revisão de preços de contrato administrativo de limpeza urbana, o Procurador do Município, ao emitir parecer favorável à repactuação pleiteada pela contratada, registrou expressamente os impactos orçamentários da medida, as alternativas cogitadas (rescisão amigável, nova licitação e repactuação parcial) e os motivos pelos quais a repactuação se mostrava a providência mais adequada ao interesse público. Considerando o art. 20 da LINDB, incluído pela Lei nº 13.655/2018, e o regime de responsabilidade do parecerista estabelecido pela mesma lei, assinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "A motivação do parecer, ao demonstrar a necessidade e a adequação da medida e ao considerar as alternativas disponíveis, atende à exigência do art. 20 da LINDB, que veda a decisão baseada em valores jurídicos abstratos sem exame das consequências práticas.",
+        "B": "O parecer era desnecessário no caso, porque o art. 20 da LINDB se aplica apenas às decisões judiciais que invalidam atos administrativos, e não à atividade consultiva da própria Administração.",
+        "C": "O Procurador responderá pessoal e objetivamente pelas consequências da repactuação, ainda que tenha agido sem dolo ou erro grosseiro, por força do princípio da eficiência.",
+        "D": "A consideração das alternativas jurídicas disponíveis é facultativa na motivação da decisão administrativa, bastando a indicação genérica do interesse público envolvido.",
+        "E": "A exigência de considerar as consequências práticas da decisão, prevista no art. 20 da LINDB, somente se aplica às decisões que invalidam atos, contratos ou normas administrativas, não alcançando decisões que aprovam ou mantêm medidas, como a repactuação de preços."
+      },
+      "correta": "A",
+      "dica": "O art. 20 tem duas exigências cumulativas: nunca decidir com base em valor jurídico abstrato sem olhar as consequências práticas, e, na motivação, demonstrar necessidade, adequação e as alternativas existentes. Veja se alguma alternativa tenta encolher esse alcance ou trocar os requisitos de responsabilização do agente.",
+      "explicacao": {
+        "A": "Correta. É a combinação do caput do art. 20 da LINDB (vedação à decisão baseada em valores jurídicos abstratos sem considerar as consequências práticas) com o seu parágrafo único (a motivação deve demonstrar a necessidade e a adequação da medida, inclusive em face das alternativas possíveis). O parecer, ao fazer esse exame, cumpre a exigência legal.",
+        "B": "O caput do art. 20 abrange expressamente as esferas administrativa, controladora e judicial: alcança também a função consultiva da Administração, e não só as decisões judiciais que invalidam atos.",
+        "C": "O art. 28 da LINDB exige dolo ou erro grosseiro para a responsabilização pessoal do agente público por suas decisões ou opiniões técnicas. Culpa leve, e muito menos a ausência de qualquer culpa, não basta.",
+        "D": "O parágrafo único do art. 20 torna obrigatória a consideração das alternativas possíveis na motivação, e não facultativa: a demonstração da necessidade e da adequação da medida deve ser feita \"inclusive em face das possíveis alternativas\".",
+        "E": "O art. 20 tem alcance geral: aplica-se a toda decisão, nas esferas administrativa, controladora ou judicial, que se baseie em valores jurídicos abstratos. A exigência de indicar as consequências jurídicas e administrativas da invalidação do ato é regra específica do art. 21 da LINDB, que não substitui nem restringe o alcance do art. 20."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "LINDB (Decreto-Lei 4.657/1942), arts. 20, 21 e 28, incluídos pela Lei 13.655/2018", "data": "2018-04-25" }
+      ],
+      "origem": { "tipo": "adaptada", "prova": "FAFIPA 2026, PGM Matinhos/PR (gabarito preliminar, divulgado 28/09/2026)" }
     }
   ]
 }
