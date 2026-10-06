@@ -40,6 +40,7 @@ class PintorDoLogo extends CustomPainter {
   static const _marinho = Color(0xFF1F3A5F);
   static const _marinhoClaro = Color(0xFF3E6391);
   static const _madeira = Color(0xFF9A6A2F);
+  static const _amarelo = Color(0xFFFFC72C);
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -61,13 +62,14 @@ class PintorDoLogo extends CustomPainter {
     final contorno = comFundo ? const Color(0xFF0E1B2C) : (escuro ? const Color(0xFF8DB1DE) : _marinho);
 
     // 1. A fagulha da pancada: estrela serrilhada em três camadas, todas
-    // brancas, só diferenciadas pelo contorno — um lampejo em linha, sem
-    // cor de fogo (o Gustavo pediu duas vezes para tirar o laranja/vermelho:
-    // primeiro o terracota, depois o âmbar que ficou no lugar dele).
+    // brancas, com contorno AMARELO — um lampejo em linha, sem cor de fogo
+    // (o Gustavo pediu duas vezes para tirar o laranja/vermelho do
+    // preenchimento: primeiro o terracota, depois o âmbar; o contorno virou
+    // amarelo a seu pedido em 05/10/2026).
     final contornoFino = Paint()
-      ..color = contorno
+      ..color = _amarelo
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 0.016
+      ..strokeWidth = 0.02
       ..strokeJoin = StrokeJoin.round;
     for (final raios in [(0.27, 0.17, 12, 0.08), (0.185, 0.105, 10, 0.3), (0.1, 0.055, 8, 0.1)]) {
       final caminho = _estrela(impacto, raios.$1, raios.$2, raios.$3, raios.$4);
@@ -103,13 +105,15 @@ class PintorDoLogo extends CustomPainter {
     // meio da cabeça; a cabeça é um cilindro deitado, com uma face em cada
     // ponta, em x = ±0.21). Giramos 90° e escalamos por 0.9 em torno de um
     // ponto escolhido para que a face DIREITA (x = 0.21, a ponta que bate)
-    // caia exatamente no centro da fagulha, batendo de cima para baixo
-    // numa superfície horizontal — a pancada tava saindo na diagonal, o
-    // Gustavo pediu reto (03/10/2026). As constantes abaixo são
-    // impacto - 0.9 · R(90°) · (0.21, 0); mexer no ângulo ou na escala
-    // exige recalcular as duas.
+    // ficasse no centro da fagulha, batendo de cima para baixo numa
+    // superfície horizontal — a pancada tava saindo na diagonal, o Gustavo
+    // pediu reto (03/10/2026). As constantes de base são impacto -
+    // 0.9 · R(90°) · (0.21, 0); mexer no ângulo ou na escala exige
+    // recalcular as duas. _afastamento puxa o martelo pra trás nesse mesmo
+    // eixo, pra ele não encostar na fagulha (pedido do Gustavo, 05/10/2026).
+    const afastamento = 0.1;
     canvas.save();
-    canvas.translate(0.42, 0.441);
+    canvas.translate(0.42, 0.441 - afastamento);
     canvas.rotate(90 * pi / 180);
     canvas.scale(0.9);
 
