@@ -21,15 +21,15 @@ Atualizado em 05/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 **Duas formas de acesso, sempre atualizadas:**
 - **Navegador (web):** https://gustavoanderson.github.io/PasseiDireito/ — hospedado no GitHub Pages, a partir da branch órfã `gh-pages` (só o `build/web`, não o código-fonte). Pra publicar uma versão nova: `cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/` (no Git Bash do Windows, o `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo), depois copiar `app/build/web/*` pra um worktree da branch `gh-pages` (primeira vez: `git worktree add --detach /tmp/gh-pages-wt` + `git checkout --orphan gh-pages`; nas seguintes: `git worktree add --detach /tmp/gh-pages-wt gh-pages`, apagar o conteúdo antigo, copiar por cima, commitar). **Pegadinha:** o worktree fica em HEAD destacado, então `git push` sozinho não sabe pra onde mandar — use `git push origin HEAD:gh-pages`. O Pages já está habilitado, não precisa reconfigurar.
-- **Android (APK), versão atual v0.6:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.6/PasseiDireito-v0.6.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+- **Android (APK), versão atual v0.7:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.7/PasseiDireito-v0.7.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
 
-**O app (v0.6, commitado e buildado em 05/10/2026):**
+**O app (v0.7, commitado e buildado em 05/10/2026):**
 - Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
 - **Novo em 03/10:** contador regressivo pra prova objetiva na tela inicial ("Faltam N dias... · 13/12/2026"; pedido do Gustavo). `diasAte()` e `TelaInicio.hoje` em `app/lib/tela_inicio.dart`.
 - **Logo corrigida em 03/10, em duas rodadas** (pedidos do Gustavo), em `app/lib/logo.dart`: (1) o martelo batia com o meio da cabeça, não com a ponta — recalculado o giro pra a face direita (a ponta) cair no centro da fagulha; a fagulha tinha uma camada vermelho-terracota — trocada por âmbar. (2) o martelo ainda batia na diagonal (38°) — agora gira 90°, batendo reto numa superfície horizontal; acrescentadas três linhas de movimento acima da cabeça; e a fagulha perdeu de vez a cor — as três camadas da estrela ficaram brancas, só com contorno. Ícones do Android e da web regerados a cada rodada (`flutter test tool/gerar_icones_test.dart --update-goldens`).
-- APK em `D:\repositorio\PasseiDireito-v0.6.apk` (50 MB), com **498 questões** (+53 de Matinhos em 05/10). Ainda não foi testado em celular de verdade.
+- APK em `D:\repositorio\PasseiDireito-v0.7.apk` (50 MB), com **498 questões** (+53 de Matinhos em 05/10). Ainda não foi testado em celular de verdade.
 - Suíte inteira verde: validador do banco, 5 suítes de testes Python, `flutter analyze` e `flutter test` (78 testes).
-- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo, logo corrigida. Em 05/10: +53 questões de Matinhos, v0.2 → v0.6.
+- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo, logo corrigida. Em 05/10: +53 questões de Matinhos, v0.2 → v0.7.
 
 | Matéria | Questões | Peso no edital | Questões/peso |
 |---|---|---|---|
