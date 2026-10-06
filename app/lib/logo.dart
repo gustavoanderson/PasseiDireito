@@ -38,8 +38,8 @@ class PintorDoLogo extends CustomPainter {
   final bool escuro;
 
   static const _marinho = Color(0xFF1F3A5F);
-  static const _marinhoClaro = Color(0xFF3E6391);
   static const _madeira = Color(0xFF9A6A2F);
+  static const _madeiraClara = Color(0xFFC08E4F);
   static const _amarelo = Color(0xFFFFC72C);
 
   @override
@@ -128,13 +128,17 @@ class PintorDoLogo extends CustomPainter {
     canvas.drawRRect(cabo, Paint()..color = _madeira);
     canvas.drawRRect(cabo, tracado);
 
-    // Cabeça: corpo com as duas faces mais largas nas pontas.
+    // Cabeça de madeira (igual ao cabo — martelo de juiz de verdade é todo
+    // de madeira, só o cabo não bastava, pedido do Gustavo em 05/10/2026):
+    // corpo num tom mais claro, com as duas faces mais largas e mais
+    // escuras nas pontas, pra manter a mesma profundidade que o desenho já
+    // tinha quando a cabeça era azul.
     final corpo = RRect.fromRectAndRadius(const Rect.fromLTWH(-0.2, -0.085, 0.4, 0.17), const Radius.circular(0.03));
-    canvas.drawRRect(corpo, Paint()..color = _marinhoClaro);
+    canvas.drawRRect(corpo, Paint()..color = _madeiraClara);
     canvas.drawRRect(corpo, tracado);
     for (final x in [-0.26, 0.16]) {
       final face = RRect.fromRectAndRadius(Rect.fromLTWH(x, -0.12, 0.1, 0.24), const Radius.circular(0.035));
-      canvas.drawRRect(face, Paint()..color = _marinho);
+      canvas.drawRRect(face, Paint()..color = _madeira);
       canvas.drawRRect(face, tracado);
     }
     // Brilho discreto no corpo.
