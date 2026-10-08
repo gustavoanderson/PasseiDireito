@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'banco.dart';
 import 'logo.dart';
 import 'progresso.dart';
+import 'tela_banca.dart';
 import 'tela_desempenho.dart';
 import 'tela_questao.dart';
 import 'tela_simulado.dart';
@@ -83,6 +84,10 @@ class _TelaInicioState extends State<TelaInicio> {
     _recarregar();
   }
 
+  Future<void> _abrirBanca() async {
+    await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const TelaBanca()));
+  }
+
   Future<void> _abrirDesempenho() async {
     final (unidades, resumos, simulados) =
         await (_unidades, widget.registro.resumos(), widget.registro.simulados()).wait;
@@ -160,6 +165,14 @@ class _TelaInicioState extends State<TelaInicio> {
                   titulo: 'Seu desempenho',
                   subtitulo: 'Acertos, onde reforçar e caderno de erros',
                   aoTocar: _abrirDesempenho,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-banca',
+                  icone: Icons.priority_high,
+                  titulo: 'Raio-X da banca',
+                  subtitulo: 'O que a FAFIPA mais cobra, e onde ela já errou o gabarito',
+                  aoTocar: _abrirBanca,
                 ),
               ],
             );

@@ -1,0 +1,123 @@
+{
+  "versaoFormato": 1,
+  "atualizadoEm": "2026-10-08",
+  "metodologia": "O que a FAFIPA mais cobra vem do estudo de 9 cadernos reais (326 questões jurídicas, 2016-2021), detalhado em docs/estilo-fafipa.md. É uma amostra pequena e datada: a banca não disponibiliza cadernos de 2022 em diante na área pública, só gabaritos. Por isso, um item do nosso edital 'sem registro' não quer dizer que a FAFIPA nunca cobra esse assunto — quer dizer que não apareceu nesta amostra, e que não temos prova disso. Itens de legislação municipal de Curitiba ficam de fora da comparação: cada município tem a sua lei, então o que a FAFIPA perguntou sobre o Código Tributário de Foz do Iguaçu não prediz o que vai perguntar sobre o de Curitiba — só o PADRÃO de que ela gosta de cobrar a legislação local continua valendo.",
+  "padroesGerais": [
+    "Letra de lei domina: 70-80% das questões se resolvem por letra de lei ou da Constituição, muitas vezes exigindo literalidade ('considerando a literalidade da lei').",
+    "Jurisprudência aparece em cerca de 10-18% das questões (mais em provas de procurador), sempre consolidada e sumulada — nunca precedente recente ou controverso.",
+    "Legislação municipal pesa muito: em Foz 2019 (a prova mais parecida com a de Curitiba), 19% das questões eram só de Lei Orgânica, Código Tributário Municipal e Estatuto dos Servidores locais.",
+    "Pegadinha mais comum: alternativas com 'sempre', 'nunca', 'somente' ou 'em qualquer hipótese' — cerca de 40% das questões têm uma alternativa assim, normalmente a errada.",
+    "Outras pegadinhas frequentes: trocar um número (prazo, quórum, percentual) mantendo o resto do texto igual; trocar o órgão competente (Câmara por Senado, por exemplo); inserir um elemento estranho num rol legal; confundir conceitos vizinhos (anular x revogar, dispensa x inexigibilidade, eficácia plena x contida x limitada).",
+    "Formato: 86% é alternativa única (CORRETA ou INCORRETA); 25% na prova de procurador usa afirmativas I-IV com combinações; poucas vezes aparece V/F com sequência ou correlação."
+  ],
+  "comoABancaErra": {
+    "fonte": "docs/estilo-fafipa.md, seção 7, a partir de pareceres oficiais de recursos de 2024-2026",
+    "motivoMaisComum": "Deixar a questão sem nenhuma alternativa correta (10 das 18 anulações encontradas) — normalmente porque a lei mudou e a banca usou uma redação desatualizada, ou porque um detalhe da alternativa 'correta' também está errado.",
+    "licaoParaEstudar": "Quando uma questão tratar de lei recentemente alterada (14.133/2021, 14.230/2021, reforma tributária, etc.), vale desconfiar com mais cuidado: é justamente onde a banca mais tropeça."
+  },
+  "materias": {
+    "adm": {
+      "temasFrequentes": [
+        "Princípios do art. 37 (LIMPE), inclusive a troca de um princípio por outro",
+        "PPP (Lei 11.079/2004): valor mínimo, prazo de 5 a 35 anos e garantias",
+        "Licitações: modalidades, prazos, dispensa x inexigibilidade",
+        "Atos administrativos: anulação, revogação, convalidação, motivos determinantes",
+        "Responsabilidade civil do Estado (art. 37, §6º; teorias do risco)",
+        "Improbidade administrativa: tipos e prescrição",
+        "Administração indireta (autarquias, agências reguladoras)",
+        "Concessões: encampação, caducidade, intervenção",
+        "Servidores: estabilidade, acumulação, teto do art. 37, PAD e sindicância",
+        "Processo administrativo (Lei 9.784/99), poder de polícia, bens públicos"
+      ],
+      "itensComRegistro": [1, 2, 4, 7, 9, 10, 11, 13, 14, 15],
+      "itensSemRegistroNaAmostra": [3, 5, 12, 16, 17],
+      "itensMunicipaisExcluidos": [6, 8]
+    },
+    "const": {
+      "temasFrequentes": [
+        "Controle de constitucionalidade: ADI, legitimados, cautelar, modulação, reserva de plenário",
+        "Remédios constitucionais: MS (Lei 12.016), habeas data, habeas corpus, mandado de injunção",
+        "Poder constituinte e reforma: quórum de 3/5, dois turnos, cláusulas pétreas",
+        "Eficácia das normas (José Afonso da Silva) e classificação das Constituições",
+        "Organização dos Poderes: competências de Câmara, Senado e Congresso, medida provisória",
+        "O Município na CF: Lei Orgânica (dois turnos, 2/3), número de vereadores, intervenção",
+        "Hermenêutica constitucional (métodos)"
+      ],
+      "itensComRegistro": [1, 2, 3, 4, 5, 6, 8],
+      "itensSemRegistroNaAmostra": [7, 9, 10, 11, 12],
+      "itensMunicipaisExcluidos": []
+    },
+    "trib": {
+      "temasFrequentes": [
+        "Conceito e espécies de tributo (art. 3º do CTN) e competência tributária",
+        "Crédito tributário: extinção x exclusão x suspensão",
+        "Responsabilidade tributária, denúncia espontânea, imunidades",
+        "Execução fiscal (LEF), processo administrativo fiscal",
+        "Princípios orçamentários: exclusividade, anualidade, universalidade",
+        "PPA, LDO e LOA: iniciativa, vigência e conteúdo",
+        "LRF: limite de despesa com pessoal do Município (60%), operações de crédito"
+      ],
+      "itensComRegistro": [1, 2, 3, 9, 10, 11, 14, 15],
+      "itensSemRegistroNaAmostra": [4, 8, 12, 13, 16],
+      "itensMunicipaisExcluidos": [5, 6, 7],
+      "notaEspecial": "IPTU, ISS e ITBI (itens 5, 6 e 7) não entram na comparação direta: a banca sempre cobra os impostos municipais pelo Código Tributário de cada cidade, mas o conteúdo concreto muda. O padrão em si — espere questões específicas sobre o Código Tributário de Curitiba — vale manter. O item 4 (Reforma Tributária do consumo: IBS, CBS e transição) merece atenção redobrada: é mudança legislativa recente (EC 132/2023 em diante), não aparece em nenhuma prova da amostra, e é exatamente o tipo de tema onde a banca mais erra o gabarito."
+    },
+    "pc": {
+      "temasFrequentes": [
+        "Tutelas provisórias: requisitos, caução, estabilização, prazos de aditamento, tutela de evidência",
+        "Competência: absoluta x relativa, foros especiais, conexão e continência",
+        "Fazenda Pública em juízo: prazo em dobro, honorários, embargos em 30 dias, remessa necessária",
+        "Recursos: cabimento de agravo x apelação, efeito suspensivo, preparo da Fazenda",
+        "Reconvenção, audiência de conciliação, saneamento, provas, petição inicial",
+        "Mandado de segurança (Lei 12.016)"
+      ],
+      "itensComRegistro": [2, 3, 4, 5, 6, 7, 9, 11],
+      "itensSemRegistroNaAmostra": [1, 8, 10, 12, 13, 15],
+      "itensMunicipaisExcluidos": [14]
+    },
+    "urb": {
+      "temasFrequentes": [
+        "Estatuto da Cidade (plano diretor)",
+        "Política Nacional de Resíduos Sólidos (PNRS)",
+        "Lei 6.938/1981 (Política Nacional do Meio Ambiente)",
+        "Lei de Crimes Ambientais",
+        "Competência municipal ambiental"
+      ],
+      "itensComRegistro": [2, 10, 12, 14],
+      "itensSemRegistroNaAmostra": [1, 4, 5, 6, 9, 11],
+      "itensMunicipaisExcluidos": [3, 7, 13]
+    },
+    "trab": {
+      "temasFrequentes": [
+        "Vínculo de emprego em caso concreto",
+        "Justa causa e rescisão indireta",
+        "Competência da Justiça do Trabalho",
+        "Ente público, terceirização e contratação nula"
+      ],
+      "itensComRegistro": [3, 4, 7],
+      "itensSemRegistroNaAmostra": [1, 2, 5, 6, 8, 9, 10, 11],
+      "itensMunicipaisExcluidos": []
+    },
+    "prev": {
+      "temasFrequentes": [],
+      "itensComRegistro": [],
+      "itensSemRegistroNaAmostra": [1, 2, 3, 7],
+      "itensMunicipaisExcluidos": [4, 5, 6],
+      "notaEspecial": "Direito Previdenciário não aparece como categoria própria em nenhuma das 9 provas analisadas — achado digno de nota, e não necessariamente bom sinal: pode ser que a amostra seja pequena demais para capturar essa matéria (o peso dela no edital de Curitiba também é baixo, 3 de 100), ou que a banca realmente a cobre pouco nas provas de procurador generalistas. Sem dado para apostar num sentido ou noutro."
+    },
+    "pen": {
+      "temasFrequentes": [],
+      "itensComRegistro": [],
+      "itensSemRegistroNaAmostra": [1, 2],
+      "itensMunicipaisExcluidos": [],
+      "notaEspecial": "Mesma observação do Previdenciário: Direito Penal não aparece como categoria própria na amostra analisada."
+    },
+    "emp": {
+      "temasFrequentes": [],
+      "itensComRegistro": [],
+      "itensSemRegistroNaAmostra": [1, 2, 3, 4, 5],
+      "itensMunicipaisExcluidos": [],
+      "notaEspecial": "A amostra menciona 'Empresarial' só de passagem, sem tema específico identificável — provavelmente porque, nas provas pequenas analisadas, Empresarial ficou dentro do bloco de Civil e não foi destacado."
+    }
+  }
+}

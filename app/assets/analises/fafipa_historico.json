@@ -1,0 +1,359 @@
+{
+  "versaoFormato": 1,
+  "atualizadoEm": "2026-10-08",
+  "metodologia": "Levantamento feito em 28/09/2026 a partir de documentos oficiais da FAFIPA (gabaritos definitivos e pareceres de recursos). Cobre 15 concursos para cargos jurídicos (procurador e advogado), a maioria no Paraná, de 2024 a 2026 — mais dois cadernos antigos (2018 e 2019) com o motivo da anulação. Detalhe completo em docs/estilo-fafipa.md, seções 1.2 e 7.",
+  "resumo": {
+    "provasComGabaritoDefinitivo": 15,
+    "questoesNessasProvas": 730,
+    "anuladas": 22,
+    "taxaDeAnulacao": 0.0301,
+    "gabaritosAlterados": 3,
+    "observacao": "Nas provas grandes de procurador a taxa de anulação é maior que a média: Araucária 2025 teve 5/80 (6,3%) e São João PREV 2025 teve 3/40 (7,5%)."
+  },
+  "motivos": [
+    {
+      "codigo": "sem-correta",
+      "descricao": "Erro de formulação: a questão não apresenta alternativa correta",
+      "ocorrencias": 10
+    },
+    {
+      "codigo": "dupla-correta",
+      "descricao": "Erro de formulação: a questão apresenta mais de uma alternativa correta",
+      "ocorrencias": 5
+    },
+    {
+      "codigo": "enunciado-confuso",
+      "descricao": "Inconsistências ou falta de clareza no enunciado",
+      "ocorrencias": 2
+    },
+    {
+      "codigo": "fatos-divergentes",
+      "descricao": "Divergência histórica dos fatos, gerando dupla interpretação",
+      "ocorrencias": 1
+    },
+    {
+      "codigo": "fora-do-edital",
+      "descricao": "Conteúdo fora do programa do edital",
+      "ocorrencias": 1
+    },
+    {
+      "codigo": "gabarito-digitado-errado",
+      "descricao": "Erro de digitação do gabarito (corrigido sem anular a questão)",
+      "ocorrencias": 3
+    }
+  ],
+  "provas": [
+    {
+      "concurso": "Prefeitura de Araucária-PR",
+      "edital": "Edital 300/2024",
+      "ano": 2025,
+      "cargo": "Procurador do Município",
+      "questoes": 80,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 5,
+          "motivo": "dupla-correta"
+        },
+        {
+          "numero": 6,
+          "motivo": "sem-correta"
+        },
+        {
+          "numero": 11,
+          "motivo": "sem-correta"
+        },
+        {
+          "numero": 12,
+          "motivo": "sem-correta"
+        },
+        {
+          "numero": 65,
+          "motivo": "dupla-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4027/anexos/0850bc7e-238a-48a2-8850-330be6fcc73f.pdf"
+    },
+    {
+      "concurso": "FOZPREV (Foz do Iguaçu-PR)",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Procurador Jurídico",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 28,
+          "motivo": "dupla-correta"
+        },
+        {
+          "numero": 31,
+          "motivo": "enunciado-confuso"
+        }
+      ],
+      "gabaritoAlterado": [
+        {
+          "numero": 24,
+          "paraLetra": "C",
+          "motivo": "gabarito-digitado-errado"
+        }
+      ],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4026/anexos/3fe9033e-60d6-440a-a11c-017ce8a454e5.pdf"
+    },
+    {
+      "concurso": "Câmara de Guarapuava-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Advogado",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 32,
+          "motivo": "dupla-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4038/anexos/d1e00324-5801-4762-984c-ca66a8be8ee5.pdf"
+    },
+    {
+      "concurso": "Prefeitura de São Mateus do Sul-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Advogado",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 17,
+          "motivo": "fatos-divergentes",
+          "observacao": "conhecimentos comuns, não jurídica"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4042/anexos/7660752a-dc77-4fb6-899c-c042a3ecb212.pdf"
+    },
+    {
+      "concurso": "São João PREV (IPSJBV-SP)",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Procurador",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 3,
+          "motivo": "sem-correta"
+        },
+        {
+          "numero": 8,
+          "motivo": "sem-correta"
+        },
+        {
+          "numero": 10,
+          "motivo": "sem-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4060/anexos/b19b6534-e6c6-4600-aafe-9bc0b6df665e.pdf"
+    },
+    {
+      "concurso": "Câmara de Candói-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Advogado",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 36,
+          "motivo": "enunciado-confuso"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4062/anexos/7cc8251e-1d15-4774-bfdb-26c3c64302a7.pdf"
+    },
+    {
+      "concurso": "Fundação Araucária-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Procurador",
+      "questoes": 50,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 49,
+          "motivo": "sem-correta"
+        }
+      ],
+      "gabaritoAlterado": [
+        {
+          "numero": 12,
+          "paraLetra": "C",
+          "motivo": "gabarito-digitado-errado"
+        }
+      ],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4067/anexos/c09aa19f-f201-4b9c-8e1b-f6fc4e850b3f.pdf"
+    },
+    {
+      "concurso": "Câmara de Pinhais-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Advogado",
+      "questoes": 50,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 44,
+          "motivo": "sem-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4082/anexos/5abe95d2-b1a6-48c2-8869-d530d3e219b4.pdf"
+    },
+    {
+      "concurso": "Câmara de Campo Mourão-PR",
+      "edital": null,
+      "ano": 2025,
+      "cargo": "Procurador Jurídico",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4092/anexos/99457b88-0192-4991-81c0-d042ef7c6f45.pdf"
+    },
+    {
+      "concurso": "Câmara de Paiçandu-PR",
+      "edital": null,
+      "ano": 2024,
+      "cargo": "Advogado",
+      "questoes": 30,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4010/anexos/76bd2e56-28fa-47b2-9bf8-e36444823095.pdf"
+    },
+    {
+      "concurso": "Prefeitura de Rio Branco do Sul-PR",
+      "edital": null,
+      "ano": 2026,
+      "cargo": "Procurador",
+      "questoes": 50,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 37,
+          "motivo": "sem-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos.cdn.selecao.net.br/uploads/281/concursos/4142/anexos/68d65349-5145-4715-a854-e4d11902d6b3.pdf"
+    },
+    {
+      "concurso": "Prefeitura de Foz do Iguaçu-PR",
+      "edital": null,
+      "ano": 2026,
+      "cargo": "Procurador do Município Júnior",
+      "questoes": 80,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 28,
+          "motivo": "dupla-correta"
+        },
+        {
+          "numero": 34,
+          "motivo": "sem-correta"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://anexos-r2.selecao.net.br/uploads/281/concursos/4170/anexos/3c2d26a6-1170-4f3b-a28d-e128a327dbf7.pdf"
+    },
+    {
+      "concurso": "Câmara de Cianorte-PR",
+      "edital": null,
+      "ano": 2026,
+      "cargo": "Advogado",
+      "questoes": 40,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [],
+      "gabaritoAlterado": [
+        {
+          "numero": 9,
+          "paraLetra": "A",
+          "motivo": "gabarito-digitado-errado"
+        }
+      ],
+      "fonte": "https://anexos-r2.selecao.net.br/uploads/281/concursos/4172/anexos/bbaf4ed3-59b9-47cc-bbe3-8133de9335b7.pdf"
+    },
+    {
+      "concurso": "Câmara de Jaguariaíva-PR",
+      "edital": null,
+      "ano": 2026,
+      "cargo": "Advogado",
+      "questoes": 50,
+      "gabaritoDefinitivoPublicado": false,
+      "anuladas": [],
+      "gabaritoAlterado": [],
+      "observacao": "Só o gabarito preliminar foi publicado até a data do levantamento.",
+      "fonte": "https://anexos-r2.selecao.net.br/uploads/281/concursos/4192/anexos/cb5af062-03aa-4c71-9e66-f91cdfe6fa63.pdf"
+    },
+    {
+      "concurso": "Prefeitura de Matinhos-PR (PGM)",
+      "edital": "Concurso 108/2026",
+      "ano": 2026,
+      "cargo": "Procurador Municipal",
+      "questoes": 100,
+      "gabaritoDefinitivoPublicado": false,
+      "anuladas": [],
+      "gabaritoAlterado": [],
+      "observacao": "Aplicada em 27/09/2026. Só o gabarito PRELIMINAR saiu até 08/10/2026 (divulgado 28/09/2026); o resultado definitivo é esperado para 27/10/2026. O PasseiDireito adaptou 53 questões desta prova com base no gabarito preliminar — ver docs/STATUS.md. Atualizar esta entrada quando sair o definitivo.",
+      "fonte": "https://anexos-r2.selecao.net.br/uploads/281/concursos/4197/anexos/e7fe936b-a20d-43f8-ae61-117fef6e0a47.pdf"
+    },
+    {
+      "concurso": "Câmara de Campina Grande do Sul-PR",
+      "edital": null,
+      "ano": 2018,
+      "cargo": "Advogado",
+      "questoes": 30,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 14,
+          "motivo": "fora-do-edital",
+          "observacao": "questão de informática (Windows 10)"
+        },
+        {
+          "numero": 30,
+          "motivo": null,
+          "observacao": "omissão em relação ao princípio da publicidade"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://eticaconcursos.com.br/provas/fafipa-2018-camara-de-campina-grande-do-sul-pr-advogado"
+    },
+    {
+      "concurso": "Prefeitura de Foz do Iguaçu-PR",
+      "edital": "Edital 002/08/18/2019",
+      "ano": 2019,
+      "cargo": "Procurador do Município Júnior",
+      "questoes": 80,
+      "gabaritoDefinitivoPublicado": true,
+      "anuladas": [
+        {
+          "numero": 42,
+          "motivo": null,
+          "observacao": "inferência: as alternativas tratam 'parcelamento' como forma de extinção do crédito tributário, quando é suspensão — não confirmado pelo parecer"
+        },
+        {
+          "numero": 76,
+          "motivo": null,
+          "observacao": "Lei 12.305/2010; motivo não identificável no texto extraído"
+        }
+      ],
+      "gabaritoAlterado": [],
+      "fonte": "https://eticaconcursos.com.br/provas/fafipa-2019-prefeitura-de-foz-do-iguacu-pr-procurador-do-municipio-junior"
+    }
+  ]
+}

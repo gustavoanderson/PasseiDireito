@@ -1,8 +1,15 @@
 # Status do PasseiDireito
 
-Atualizado em 05/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 08/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 ## Onde estamos
+
+**"Raio-X da banca" — novo em 08/10/2026, a pedido da Flávia (por meio do Gustavo).** Dois pontos: (1) sinalizar, fora das trilhas, as questões reais da FAFIPA que ela já anulou ou corrigiu o gabarito; (2) um diagnóstico de quais temas a banca mais cobra por matéria, e quais itens do nosso edital ainda não têm registro nas provas analisadas — excluindo legislação municipal, que não se compara entre cidades.
+- Os dados vêm do levantamento já feito em `docs/estilo-fafipa.md` (15 provas recentes 2024-2026 + 2 cadernos antigos, 17 no total): `app/assets/analises/fafipa_historico.json` (anulações, gabaritos alterados, motivo oficial de cada uma) e `app/assets/analises/fafipa_temas.json` (temas mais cobrados por matéria, cruzados com os 103 itens do nosso edital — todo item cai em exatamente uma de três listas: com registro, sem registro na amostra, ou município excluído).
+- **Achado que vale destacar:** Direito Previdenciário e Direito Penal não aparecem como categoria própria em nenhuma das 9 provas completas analisadas — não dá para saber se é porque a amostra é pequena ou porque a banca realmente cobra pouco essas matérias em provas de procurador generalista.
+- **Outro achado:** o item "Reforma Tributária do consumo (IBS, CBS e transição)" não tem nenhum registro histórico — é mudança legislativa recente, e é exatamente o tipo de tema onde a banca mais erra o próprio gabarito (motivo mais comum de anulação: "questão não apresenta alternativa correta").
+- Tela nova: `app/lib/tela_banca.dart` (dados em `app/lib/banca.dart`), acessível por um atalho na tela inicial ("Raio-X da banca"). Teste de completude: `tools/test_analises_fafipa.py` garante que todo item do edital aparece em exatamente uma das três listas — sem buraco, sem duplicata.
+- Banco de questões não mudou (498); 6 testes novos da tela (`app/test/banca_test.dart`), suíte inteira verde (84 testes no app).
 
 **Matinhos — o Gustavo conseguiu o caderno em 05/10/2026.** O caderno oficial (prova + gabarito preliminar) estava numa cópia salva da área do candidato (ProSeleta/FAFIPA), confirmada como autêntica pelos metadados do PDF e pelo link da própria página do candidato embutido no rodapé. **É só o gabarito PRELIMINAR** (divulgado 28/09/2026); o recurso já fechou (30/09), mas o resultado definitivo só sai em **27/10/2026** — uma ou outra resposta pode mudar até lá.
 - Escrevi um parser (`matinhos_questoes.json`, no scratchpad da sessão, não commitado) que extraiu as 100 questões estruturadas (seção, enunciado, 5 alternativas, letra correta), conferido sem nenhum erro: 100/100, sem duplicata, sem alternativa faltando.
