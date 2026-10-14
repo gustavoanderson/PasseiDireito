@@ -4,6 +4,17 @@ Contexto do PasseiDireito. Leia antes de qualquer tarefa neste repositório.
 
 ---
 
+## ⚠️ Pendência prioritária — confira em toda sessão nova
+
+**Lei 9.610/1998 (direitos autorais) não está formalizada no corpus.** A questão `civ-0032` (app/assets/questoes/civ/civ-08.json) cita essa lei — lida e conferida direto do Planalto em 13-14/10/2026, mas o Planalto ficou inacessível antes de dar tempo de rodar o pipeline oficial. Falta:
+1. Checar se https://www.planalto.gov.br/ccivil_03/leis/l9610.htm já responde (`curl -sIL` ou `-o /dev/null -w '%{http_code}'`).
+2. Se responder: adicionar `l9610` a `corpus/normas.json` e rodar `python tools/montar_corpus.py l9610`.
+3. Quando isso estiver feito, apagar esta seção, a pendência equivalente em `docs/STATUS.md` ("Pendências abertas") e a nota correspondente na ai-memory do projeto.
+
+Pedido do Gustavo em 14/10/2026: tratar como prioridade, perguntar sobre isso sempre que ele retomar o trabalho aqui, até resolver.
+
+---
+
 ## O que é
 
 App de estudo gamificado, no formato do Duolingo, para **uma única aluna**: a **Flávia**, noiva do Gustavo, que vai prestar o concurso de **Procurador do Município de Curitiba** (Edital Normativo nº 6/2026, banca FAFIPA, publicado em 21/09/2026).

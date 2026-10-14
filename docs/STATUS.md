@@ -74,7 +74,7 @@ Atualizado em 14/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 Proporção equilibrada entre matérias (3,7 a 5,7 questões por ponto de peso). Decisão de 02/10: parar de expandir volume por ora (já passou de 300, a meta original) — próxima vez, Constitucional e Processo Civil são as que têm menor razão questões/peso.
 
 **Pendências abertas, para a próxima sessão:**
-- **Formalizar a Lei 9.610/1998 (`l9610`) em `corpus/normas.json`** e rodar `montar_corpus.py l9610` — Planalto estava inacessível no fim da sessão de 13-14/10.
+- **⚠️ PRIORITÁRIA (pedido do Gustavo em 14/10: confira em toda sessão nova, até resolver).** Formalizar a Lei 9.610/1998 (`l9610`) em `corpus/normas.json` e rodar `montar_corpus.py l9610` — Planalto estava inacessível no fim da sessão de 13-14/10. Ver a seção equivalente no topo do CLAUDE.md.
 - **Achado da auditoria de pc/trab:** conferir se `trib/` já cobre execução fiscal (Lei 6.830/80) — tema que foi retirado de Processo Civil por não ser o item 7 de Curitiba.
 - ~~Matinhos.~~ **Feito em 05/10** (ver acima): +53 questões, banco em 498.
 - **Matinhos, resultado definitivo em 27/10/2026:** reavaliar a questão de Improbidade deixada de fora (gabarito preliminar parecia errado) e, se sobrar tempo, conferir se alguma das 53 adaptadas teve a resposta alterada no recurso.
