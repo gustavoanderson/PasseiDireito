@@ -13,6 +13,16 @@ Atualizado em 14/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 5. **Indicação da prova de origem no cabeçalho da questão — pedido da Flávia ("é obrigatório... saber de qual edital saiu").** O campo `origem` (tipo `inedita`/`adaptada` + `prova`) já existia no formato das questões, mas não era lido nem mostrado em lugar nenhum do app. Agora aparece logo abaixo do tema, em `app/lib/tela_questao.dart` (classe `_Origem`), tanto na trilha quanto na revisão. `banco.dart` ganhou a classe `Origem` e o campo em `Questao`.
 - Banco: 498 (em 08/10) → 487 (retirada das 11 de Penal) → 485 (retirada das 2 de pc) → **517** (soma das 32 de Civil).
 
+**Favoritar questões — novo em 14/10/2026, pedido da Flávia.** Estrela sempre visível no cabeçalho da questão (trilha e revisão), errando ou acertando, pra marcar e reler a explicação depois. Nova tela "Questões favoritas" na tela inicial, lista as marcadas da mais recente pra mais antiga.
+- `RegistroDeProgresso.favoritar()/favoritas()` (`app/lib/progresso.dart`), persistido em `usuarios/{uid}/favoritos/{questaoId}` no Firestore.
+- `app/lib/tela_favoritas.dart` (tela nova) + `app/lib/favoritos.dart` (helper). `TelaRevisaoQuestao` virou StatefulWidget pra ter o mesmo botão na revisão (caderno de erros, simulado, favoritas).
+- 18 testes novos (`progresso_test.dart`, `tela_questao_test.dart`, `tela_favoritas_test.dart`, `banco_test.dart`).
+
+**Log de alterações — novo em 14/10/2026, pedido do Gustavo.** Cronologia, dentro do app, do que saiu ou entrou no banco por causa da retificação do edital — inclusive quando o edital original e a retificação foram publicados (21/09 e 06/10/2026).
+- `app/assets/analises/log_alteracoes.json`: 6 eventos datados, cada remoção/criação com a lista de ids afetados e o hash do commit.
+- `tools/test_log_alteracoes.py` faz o BATIMENTO: toda questão citada como removida não pode mais existir no banco, toda citada como criada tem que existir. As 13 remoções (11 de Penal + 2 de Processo Civil) e as 32 criações (Civil) conferem.
+- `app/lib/log.dart` + `app/lib/tela_log.dart` (tela nova), acessível pela tela inicial.
+
 **"Raio-X da banca" — novo em 08/10/2026, a pedido da Flávia (por meio do Gustavo).** Dois pontos: (1) sinalizar, fora das trilhas, as questões reais da FAFIPA que ela já anulou ou corrigiu o gabarito; (2) um diagnóstico de quais temas a banca mais cobra por matéria, e quais itens do nosso edital ainda não têm registro nas provas analisadas — excluindo legislação municipal, que não se compara entre cidades.
 - Os dados vêm do levantamento já feito em `docs/estilo-fafipa.md` (15 provas recentes 2024-2026 + 2 cadernos antigos, 17 no total): `app/assets/analises/fafipa_historico.json` (anulações, gabaritos alterados, motivo oficial de cada uma) e `app/assets/analises/fafipa_temas.json` (temas mais cobrados por matéria, cruzados com os 103 itens do nosso edital — todo item cai em exatamente uma de três listas: com registro, sem registro na amostra, ou município excluído).
 - **Achado que vale destacar:** Direito Previdenciário e Direito Penal não aparecem como categoria própria em nenhuma das 9 provas completas analisadas — não dá para saber se é porque a amostra é pequena ou porque a banca realmente cobra pouco essas matérias em provas de procurador generalista.
