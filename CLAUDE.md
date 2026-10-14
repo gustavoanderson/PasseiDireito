@@ -159,6 +159,7 @@ python tools/test_fatiar_lei.py                         # extrator da base de le
 python tools/test_montar_corpus.py                      # trava da data de corte (normas federais)
 python tools/test_montar_corpus_curitiba.py              # reconstrução de normas de Curitiba desatualizadas no Legisladoc
 python tools/test_analises_fafipa.py                      # dados do "Raio-X da banca" (anulações e cobertura por tema)
+python tools/test_log_alteracoes.py                      # log de alterações do banco (batimento: removida não existe mais, criada existe)
 cd app && flutter analyze && flutter test               # app
 ```
 

@@ -151,6 +151,14 @@ void main() {
     expect(find.text('Enunciado da adm-0007.'), findsOneWidget);
   });
 
+  testWidgets('o atalho de log abre a cronologia de alterações do banco', (tester) async {
+    await _abrirInicio(tester, ProgressoEmMemoria());
+    await tester.tap(find.byKey(const Key('abrir-log')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Log de alterações'), findsOneWidget);
+  });
+
   testWidgets('sem Firebase, a tela avisa que o progresso não está sendo salvo', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria(), salvo: false);
     expect(find.byKey(const Key('aviso-sem-salvar')), findsOneWidget);

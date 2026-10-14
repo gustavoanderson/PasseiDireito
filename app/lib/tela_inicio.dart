@@ -6,6 +6,7 @@ import 'progresso.dart';
 import 'tela_banca.dart';
 import 'tela_desempenho.dart';
 import 'tela_favoritas.dart';
+import 'tela_log.dart';
 import 'tela_questao.dart';
 import 'tela_simulado.dart';
 import 'tema.dart';
@@ -116,6 +117,10 @@ class _TelaInicioState extends State<TelaInicio> {
     ));
   }
 
+  Future<void> _abrirLog() async {
+    await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const TelaLog()));
+  }
+
   @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
@@ -194,6 +199,14 @@ class _TelaInicioState extends State<TelaInicio> {
                   titulo: 'Raio-X da banca',
                   subtitulo: 'O que a FAFIPA mais cobra, e onde ela já errou o gabarito',
                   aoTocar: _abrirBanca,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-log',
+                  icone: Icons.history,
+                  titulo: 'Log de alterações',
+                  subtitulo: 'O que saiu ou entrou no banco por causa do edital, e quando',
+                  aoTocar: _abrirLog,
                 ),
               ],
             );
