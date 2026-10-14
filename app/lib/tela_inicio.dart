@@ -5,6 +5,7 @@ import 'logo.dart';
 import 'progresso.dart';
 import 'tela_banca.dart';
 import 'tela_desempenho.dart';
+import 'tela_favoritas.dart';
 import 'tela_questao.dart';
 import 'tela_simulado.dart';
 import 'tema.dart';
@@ -53,11 +54,14 @@ class _TelaInicioState extends State<TelaInicio> {
   late Future<Map<String, ResumoUnidade>> _resumos = widget.registro.resumos();
 
   Future<void> _abrir(Materia materia, Map<String, bool> ultimas) async {
+    final favoritas = await widget.registro.favoritas();
+    if (!mounted) return;
     await Navigator.of(context).push(MaterialPageRoute(
       builder: (_) => TelaQuestao(
         nomeDaMateria: materia.nome,
         questoes: montarSessao(materia.questoes, ultimas),
         registro: widget.registro,
+        favoritasIniciais: favoritas.toSet(),
       ),
     ));
     _recarregar();
@@ -89,8 +93,8 @@ class _TelaInicioState extends State<TelaInicio> {
   }
 
   Future<void> _abrirDesempenho() async {
-    final (unidades, resumos, simulados) =
-        await (_unidades, widget.registro.resumos(), widget.registro.simulados()).wait;
+    final (unidades, resumos, simulados, favoritas) =
+        await (_unidades, widget.registro.resumos(), widget.registro.simulados(), widget.registro.favoritas()).wait;
     if (!mounted) return;
     await Navigator.of(context).push(MaterialPageRoute(
       builder: (_) => TelaDesempenho(
@@ -98,9 +102,18 @@ class _TelaInicioState extends State<TelaInicio> {
         ultimas: ultimasRespostas(resumos),
         simulados: simulados,
         registro: widget.registro,
+        favoritas: favoritas.toSet(),
       ),
     ));
     _recarregar();
+  }
+
+  Future<void> _abrirFavoritas() async {
+    final unidades = await _unidades;
+    if (!mounted) return;
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaFavoritas(unidades: unidades, registro: widget.registro),
+    ));
   }
 
   @override
@@ -165,6 +178,14 @@ class _TelaInicioState extends State<TelaInicio> {
                   titulo: 'Seu desempenho',
                   subtitulo: 'Acertos, onde reforçar e caderno de erros',
                   aoTocar: _abrirDesempenho,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-favoritas',
+                  icone: Icons.star_outline,
+                  titulo: 'Questões favoritas',
+                  subtitulo: 'Releia a explicação das questões que você marcou',
+                  aoTocar: _abrirFavoritas,
                 ),
                 const SizedBox(height: 10),
                 _Atalho(

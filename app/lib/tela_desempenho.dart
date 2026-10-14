@@ -20,12 +20,16 @@ class TelaDesempenho extends StatelessWidget {
     required this.ultimas,
     required this.simulados,
     required this.registro,
+    this.favoritas = const {},
   });
 
   final List<Unidade> unidades;
   final Map<String, bool> ultimas;
   final List<ResultadoSimulado> simulados;
   final RegistroDeProgresso registro;
+
+  /// Ids das questões favoritas, pro selo do caderno de erros abrir certo.
+  final Set<String> favoritas;
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +79,7 @@ class TelaDesempenho extends StatelessWidget {
                   ],
                   if (comErros.isNotEmpty) ...[
                     const _Secao('Caderno de erros'),
-                    for (final m in comErros) _CadernoDaMateria(materia: m, registro: registro),
+                    for (final m in comErros) _CadernoDaMateria(materia: m, registro: registro, favoritas: favoritas),
                   ],
                 ],
               ),
@@ -262,10 +266,11 @@ class _BlocoMateria extends StatelessWidget {
 }
 
 class _CadernoDaMateria extends StatelessWidget {
-  const _CadernoDaMateria({required this.materia, required this.registro});
+  const _CadernoDaMateria({required this.materia, required this.registro, this.favoritas = const {}});
 
   final DesempenhoMateria materia;
   final RegistroDeProgresso registro;
+  final Set<String> favoritas;
 
   @override
   Widget build(BuildContext context) {
@@ -311,7 +316,12 @@ class _CadernoDaMateria extends StatelessWidget {
               ),
               trailing: Icon(Icons.chevron_right, color: esquema.onSurfaceVariant),
               onTap: () => Navigator.of(context).push(MaterialPageRoute(
-                builder: (_) => TelaRevisaoQuestao(questao: q, nomeDaMateria: materia.nome),
+                builder: (_) => TelaRevisaoQuestao(
+                  questao: q,
+                  nomeDaMateria: materia.nome,
+                  registro: registro,
+                  favoritaInicial: favoritas.contains(q.id),
+                ),
               )),
             ),
         ],

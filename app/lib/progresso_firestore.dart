@@ -13,6 +13,8 @@ import 'progresso.dart';
 ///   É o que as telas leem: um documento por unidade, e não um por resposta,
 ///   para não passar da cota gratuita de leituras.
 /// - `simulados/{auto}`: cada simulado entregue, com todas as respostas.
+/// - `favoritos/{questaoId}`: uma questão marcada pra reler, com a data da
+///   marcação (pra ordenar da mais recente pra mais antiga).
 class ProgressoFirestore implements RegistroDeProgresso {
   ProgressoFirestore(this._db, this._uid);
 
@@ -90,6 +92,24 @@ class ProgressoFirestore implements RegistroDeProgresso {
           respostas: [for (final r in d.data()['respostas'] as List) _mapaParaResposta(r as Map<String, dynamic>)],
         ),
     ];
+  }
+
+  @override
+  Future<void> favoritar(String questaoId, bool favorita) async {
+    final doc = _usuaria.collection('favoritos').doc(questaoId);
+    final lote = _db.batch();
+    if (favorita) {
+      lote.set(doc, {'em': Timestamp.now()});
+    } else {
+      lote.delete(doc);
+    }
+    _enviarSemEsperar(lote);
+  }
+
+  @override
+  Future<List<String>> favoritas() async {
+    final docs = await _usuaria.collection('favoritos').orderBy('em', descending: true).get();
+    return [for (final d in docs.docs) d.id];
   }
 
   static Map<String, dynamic> _respostaParaMapa(Resposta r) => {

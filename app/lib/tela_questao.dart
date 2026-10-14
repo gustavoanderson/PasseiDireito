@@ -10,11 +10,21 @@ import 'tema.dart';
 /// imediata com a explicação de todas as alternativas, dica disponível antes
 /// de confirmar, e a aluna segue na trilha mesmo errando.
 class TelaQuestao extends StatefulWidget {
-  const TelaQuestao({super.key, required this.nomeDaMateria, required this.questoes, required this.registro});
+  const TelaQuestao({
+    super.key,
+    required this.nomeDaMateria,
+    required this.questoes,
+    required this.registro,
+    this.favoritasIniciais = const {},
+  });
 
   final String nomeDaMateria;
   final List<Questao> questoes;
   final RegistroDeProgresso registro;
+
+  /// Ids já favoritados antes de abrir esta sessão, pra o selo aparecer
+  /// certo desde a primeira questão.
+  final Set<String> favoritasIniciais;
 
   @override
   State<TelaQuestao> createState() => _TelaQuestaoState();
@@ -30,9 +40,22 @@ class _TelaQuestaoState extends State<TelaQuestao> {
   int _acertos = 0;
   bool _terminou = false;
   final _rolagem = ScrollController();
+  late final _favoritas = {...widget.favoritasIniciais};
 
   Questao get _questao => widget.questoes[_indice];
   bool get _acertou => _confirmada && _escolhida == _questao.correta;
+
+  void _alternarFavorita() {
+    final favorita = !_favoritas.contains(_questao.id);
+    setState(() {
+      if (favorita) {
+        _favoritas.add(_questao.id);
+      } else {
+        _favoritas.remove(_questao.id);
+      }
+    });
+    widget.registro.favoritar(_questao.id, favorita);
+  }
 
   @override
   void dispose() {
@@ -121,6 +144,7 @@ class _TelaQuestaoState extends State<TelaQuestao> {
                       ),
                     ),
                   ),
+                  _BotaoFavoritar(favorita: _favoritas.contains(q.id), aoTocar: _alternarFavorita),
                   const BotaoTema(),
                 ],
               ),
@@ -221,6 +245,28 @@ class _Etiqueta extends StatelessWidget {
           color: esquema.primary,
         ),
       ),
+    );
+  }
+}
+
+/// Marca ou desmarca a questão atual como favorita, pra reler a explicação
+/// depois — visível o tempo todo, antes e depois de confirmar a resposta,
+/// porque a Flávia pode querer favoritar errando ou acertando.
+class _BotaoFavoritar extends StatelessWidget {
+  const _BotaoFavoritar({required this.favorita, required this.aoTocar});
+
+  final bool favorita;
+  final VoidCallback aoTocar;
+
+  @override
+  Widget build(BuildContext context) {
+    final esquema = Theme.of(context).colorScheme;
+    return IconButton(
+      key: const Key('botao-favoritar'),
+      tooltip: favorita ? 'Remover dos favoritos' : 'Favoritar',
+      icon: Icon(favorita ? Icons.star : Icons.star_border),
+      color: favorita ? Colors.amber.shade700 : esquema.onSurfaceVariant,
+      onPressed: aoTocar,
     );
   }
 }
@@ -649,10 +695,17 @@ class TelaFimSessao extends StatelessWidget {
 }
 
 /// Uma questão já respondida, só para ler: a escolha dela, a correta e a
-/// explicação de todas as alternativas. Usada no caderno de erros e na
-/// revisão do simulado.
-class TelaRevisaoQuestao extends StatelessWidget {
-  const TelaRevisaoQuestao({super.key, required this.questao, required this.nomeDaMateria, this.escolhida});
+/// explicação de todas as alternativas. Usada no caderno de erros, na
+/// revisão do simulado e na lista de favoritas.
+class TelaRevisaoQuestao extends StatefulWidget {
+  const TelaRevisaoQuestao({
+    super.key,
+    required this.questao,
+    required this.nomeDaMateria,
+    this.escolhida,
+    this.registro,
+    this.favoritaInicial = false,
+  });
 
   final Questao questao;
   final String nomeDaMateria;
@@ -660,8 +713,27 @@ class TelaRevisaoQuestao extends StatelessWidget {
   /// A letra que ela marcou; null quando não se sabe (caderno de erros) ou em branco.
   final String? escolhida;
 
+  /// Null só nos lugares que ainda não repassam o registro de progresso; aí
+  /// o selo de favoritar some, em vez de quebrar a tela.
+  final RegistroDeProgresso? registro;
+  final bool favoritaInicial;
+
+  @override
+  State<TelaRevisaoQuestao> createState() => _TelaRevisaoQuestaoState();
+}
+
+class _TelaRevisaoQuestaoState extends State<TelaRevisaoQuestao> {
+  late var _favorita = widget.favoritaInicial;
+
+  void _alternarFavorita() {
+    setState(() => _favorita = !_favorita);
+    widget.registro!.favoritar(widget.questao.id, _favorita);
+  }
+
   @override
   Widget build(BuildContext context) {
+    final questao = widget.questao;
+    final escolhida = widget.escolhida;
     final esquema = Theme.of(context).colorScheme;
     _EstadoAlternativa estado(String letra) {
       if (letra == questao.correta) {
@@ -674,7 +746,10 @@ class TelaRevisaoQuestao extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         title: const Text('Revisão da questão'),
-        actions: const [BotaoTema()],
+        actions: [
+          if (widget.registro != null) _BotaoFavoritar(favorita: _favorita, aoTocar: _alternarFavorita),
+          const BotaoTema(),
+        ],
       ),
       body: SafeArea(
         child: ListView(
@@ -685,7 +760,7 @@ class TelaRevisaoQuestao extends StatelessWidget {
               runSpacing: 6,
               crossAxisAlignment: WrapCrossAlignment.center,
               children: [
-                _Etiqueta(nomeDaMateria),
+                _Etiqueta(widget.nomeDaMateria),
                 Text(questao.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
               ],
             ),

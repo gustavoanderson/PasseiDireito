@@ -247,6 +247,94 @@ void main() {
     });
   });
 
+  group('favoritar questão', () {
+    IconButton botao(WidgetTester tester) => tester.widget(find.byKey(const Key('botao-favoritar')));
+    IconData icone(WidgetTester tester) => (botao(tester).icon as Icon).icon!;
+
+    testWidgets('começa sem marcar, e marca ao tocar, mesmo antes de confirmar', (tester) async {
+      final registro = await _abrir(tester);
+      expect(icone(tester), Icons.star_border);
+
+      await _tocar(tester, 'botao-favoritar');
+      expect(icone(tester), Icons.star);
+      expect(await registro.favoritas(), ['adm-0001']);
+    });
+
+    testWidgets('tocar de novo desmarca', (tester) async {
+      final registro = await _abrir(tester);
+      await _tocar(tester, 'botao-favoritar');
+      await _tocar(tester, 'botao-favoritar');
+
+      expect(icone(tester), Icons.star_border);
+      expect(await registro.favoritas(), isEmpty);
+    });
+
+    testWidgets('dá pra favoritar depois de confirmar a resposta, errando ou acertando', (tester) async {
+      final registro = await _abrir(tester);
+      await _tocar(tester, 'alternativa-A'); // erra
+      await _tocar(tester, 'botao-confirmar');
+      await _tocar(tester, 'botao-favoritar');
+
+      expect(icone(tester), Icons.star);
+      expect(await registro.favoritas(), ['adm-0001']);
+    });
+
+    testWidgets('questão já favoritada antes de abrir a sessão aparece marcada', (tester) async {
+      final registro = ProgressoEmMemoria();
+      await registro.favoritar('adm-0001', true);
+      tester.view.physicalSize = const Size(1080, 4000);
+      tester.view.devicePixelRatio = 2.0;
+      addTearDown(tester.view.reset);
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaQuestao(
+            nomeDaMateria: 'Direito Administrativo',
+            questoes: _sessao,
+            registro: registro,
+            favoritasIniciais: const {'adm-0001'},
+          ),
+        ),
+      ));
+
+      expect(icone(tester), Icons.star);
+    });
+
+    testWidgets('continua disponível e com o estado certo na revisão da questão', (tester) async {
+      final registro = ProgressoEmMemoria();
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaRevisaoQuestao(
+            questao: questaoDeTeste('trib-0010'),
+            nomeDaMateria: 'Direito Tributário',
+            registro: registro,
+            favoritaInicial: true,
+          ),
+        ),
+      ));
+
+      expect(icone(tester), Icons.star);
+      await _tocar(tester, 'botao-favoritar');
+      expect(icone(tester), Icons.star_border);
+      expect(await registro.favoritas(), isEmpty);
+    });
+
+    testWidgets('sem registro, a revisão não mostra o botão de favoritar', (tester) async {
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaRevisaoQuestao(questao: questaoDeTeste('trib-0010'), nomeDaMateria: 'Direito Tributário'),
+        ),
+      ));
+
+      expect(find.byKey(const Key('botao-favoritar')), findsNothing);
+    });
+  });
+
   group('progresso', () {
     testWidgets('cada questão confirmada é gravada na hora, com a escolha e o resultado', (tester) async {
       final registro = await _abrir(tester);

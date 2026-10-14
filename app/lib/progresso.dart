@@ -86,6 +86,14 @@ abstract interface class RegistroDeProgresso {
 
   /// Simulados já feitos, do mais recente para o mais antigo.
   Future<List<ResultadoSimulado>> simulados();
+
+  /// Marca ou desmarca uma questão como favorita, pra reler a explicação
+  /// depois — errando ou acertando. Deve voltar rápido mesmo sem internet,
+  /// pela mesma razão de [registrar].
+  Future<void> favoritar(String questaoId, bool favorita);
+
+  /// Ids das questões favoritas, da mais recente marcada para a mais antiga.
+  Future<List<String>> favoritas();
 }
 
 /// Versão sem persistência: usada nos testes e quando o Firebase não está
@@ -93,6 +101,8 @@ abstract interface class RegistroDeProgresso {
 class ProgressoEmMemoria implements RegistroDeProgresso {
   final respostas = <Resposta>[];
   final _simulados = <ResultadoSimulado>[];
+  // Ordem de marcação: a mais recente por último, favoritas() inverte.
+  final _favoritos = <String>[];
 
   @override
   Future<void> registrar(Resposta resposta) async => respostas.add(resposta);
@@ -115,4 +125,13 @@ class ProgressoEmMemoria implements RegistroDeProgresso {
   @override
   Future<List<ResultadoSimulado>> simulados() async =>
       [..._simulados]..sort((a, b) => b.inicio.compareTo(a.inicio));
+
+  @override
+  Future<void> favoritar(String questaoId, bool favorita) async {
+    _favoritos.remove(questaoId);
+    if (favorita) _favoritos.add(questaoId);
+  }
+
+  @override
+  Future<List<String>> favoritas() async => _favoritos.reversed.toList();
 }

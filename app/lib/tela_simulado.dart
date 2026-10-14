@@ -64,6 +64,7 @@ class _TelaSimuladoState extends State<TelaSimulado> {
   Timer? _tique;
   ResultadoSimulado? _resultado;
   bool _abandonou = false;
+  Set<String> _favoritas = {};
 
   Duration get _restante => _inicio!.add(_tempo).difference(widget.relogio());
 
@@ -89,7 +90,7 @@ class _TelaSimuladoState extends State<TelaSimulado> {
     });
   }
 
-  void _entregar() {
+  Future<void> _entregar() async {
     if (_etapa != _Etapa.prova) return;
     _tique?.cancel();
     final resultado = corrigirSimulado(
@@ -100,8 +101,11 @@ class _TelaSimuladoState extends State<TelaSimulado> {
       tempoPrevisto: _tempo,
     );
     widget.registro.registrarSimulado(resultado);
+    final favoritas = await widget.registro.favoritas();
+    if (!mounted) return;
     setState(() {
       _resultado = resultado;
+      _favoritas = favoritas.toSet();
       _etapa = _Etapa.resultado;
     });
   }
@@ -158,7 +162,13 @@ class _TelaSimuladoState extends State<TelaSimulado> {
       child: switch (_etapa) {
         _Etapa.preparacao => _Preparacao(questoes: _questoes.length, tempo: _tempo, aoComecar: _comecar),
         _Etapa.prova => _prova(context),
-        _Etapa.resultado => _ResultadoSimulado(resultado: _resultado!, questoes: _questoes, unidades: widget.unidades),
+        _Etapa.resultado => _ResultadoSimulado(
+            resultado: _resultado!,
+            questoes: _questoes,
+            unidades: widget.unidades,
+            registro: widget.registro,
+            favoritas: _favoritas,
+          ),
       },
     );
   }
@@ -473,11 +483,19 @@ class _AlternativaSimulado extends StatelessWidget {
 }
 
 class _ResultadoSimulado extends StatelessWidget {
-  const _ResultadoSimulado({required this.resultado, required this.questoes, required this.unidades});
+  const _ResultadoSimulado({
+    required this.resultado,
+    required this.questoes,
+    required this.unidades,
+    required this.registro,
+    required this.favoritas,
+  });
 
   final ResultadoSimulado resultado;
   final List<Questao> questoes;
   final List<Unidade> unidades;
+  final RegistroDeProgresso registro;
+  final Set<String> favoritas;
 
   @override
   Widget build(BuildContext context) {
@@ -579,7 +597,14 @@ class _ResultadoSimulado extends StatelessWidget {
             const SizedBox(height: 24),
             Text('Revisão das questões', style: titulo),
             const SizedBox(height: 4),
-            for (var i = 0; i < questoes.length; i++) _LinhaRevisao(numero: i + 1, questao: questoes[i], resposta: resultado.respostas[i]),
+            for (var i = 0; i < questoes.length; i++)
+              _LinhaRevisao(
+                numero: i + 1,
+                questao: questoes[i],
+                resposta: resultado.respostas[i],
+                registro: registro,
+                favorita: favoritas.contains(questoes[i].id),
+              ),
             const SizedBox(height: 20),
             FilledButton(
               key: const Key('voltar-inicio'),
@@ -598,11 +623,19 @@ class _ResultadoSimulado extends StatelessWidget {
 }
 
 class _LinhaRevisao extends StatelessWidget {
-  const _LinhaRevisao({required this.numero, required this.questao, required this.resposta});
+  const _LinhaRevisao({
+    required this.numero,
+    required this.questao,
+    required this.resposta,
+    required this.registro,
+    required this.favorita,
+  });
 
   final int numero;
   final Questao questao;
   final Resposta resposta;
+  final RegistroDeProgresso registro;
+  final bool favorita;
 
   @override
   Widget build(BuildContext context) {
@@ -628,6 +661,8 @@ class _LinhaRevisao extends StatelessWidget {
           questao: questao,
           nomeDaMateria: nomesDasMaterias[questao.materia] ?? questao.materia,
           escolhida: branco ? null : resposta.escolhida,
+          registro: registro,
+          favoritaInicial: favorita,
         ),
       )),
     );

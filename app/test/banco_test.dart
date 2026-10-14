@@ -140,6 +140,17 @@ void main() {
     expect(find.text('1 de 1 feitas · 1 acertos'), findsOneWidget);
   });
 
+  testWidgets('o atalho de favoritas abre a lista de questões marcadas', (tester) async {
+    final registro = ProgressoEmMemoria();
+    await registro.favoritar('adm-0007', true);
+    await _abrirInicio(tester, registro);
+    await tester.tap(find.byKey(const Key('abrir-favoritas')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Questões favoritas'), findsOneWidget);
+    expect(find.text('Enunciado da adm-0007.'), findsOneWidget);
+  });
+
   testWidgets('sem Firebase, a tela avisa que o progresso não está sendo salvo', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria(), salvo: false);
     expect(find.byKey(const Key('aviso-sem-salvar')), findsOneWidget);

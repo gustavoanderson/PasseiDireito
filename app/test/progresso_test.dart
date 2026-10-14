@@ -109,6 +109,30 @@ void _contrato(String nome, RegistroDeProgresso Function() criar) {
         'adm-0003': false,
       });
     });
+
+    test('sem favoritar nada, a lista vem vazia', () async {
+      expect(await criar().favoritas(), isEmpty);
+    });
+
+    test('favoritar marca; desmarcar some da lista', () async {
+      final p = criar();
+      await p.favoritar('adm-0001', true);
+      await pumpEventQueue();
+      expect(await p.favoritas(), ['adm-0001']);
+
+      await p.favoritar('adm-0001', false);
+      await pumpEventQueue();
+      expect(await p.favoritas(), isEmpty);
+    });
+
+    test('favoritas vem da mais recente marcada para a mais antiga', () async {
+      final p = criar();
+      for (final id in ['adm-0001', 'adm-0002', 'adm-0003']) {
+        await p.favoritar(id, true);
+        await pumpEventQueue();
+      }
+      expect(await p.favoritas(), ['adm-0003', 'adm-0002', 'adm-0001']);
+    });
   });
 }
 
