@@ -23,14 +23,21 @@ As regras do [CLAUDE.md do DevLingo](../DevLingo/CLAUDE.md) valem aqui também. 
 
 ## Datas do edital (Anexo III; a banca pode alterar)
 
+Valores da **Retificação do Edital Normativo nº 1/2026** (06-07/10/2026), lida direto do PDF oficial em 13/10/2026 — é a versão de referência; o que não está marcado "alterado" na retificação continua como na publicação de 21/09/2026.
+
 | Evento | Data |
 |---|---|
-| Prova objetiva | 13/12/2026 |
-| Prova discursiva | 24/02/2027 |
+| Período de inscrição | 07/10 a 05/11/2026 |
+| Período para isenção da taxa | 07/10 a **13/10/2026** |
+| **Prova objetiva** | 13/12/2026 (não mudou) |
+| **Prova discursiva** | **31/01/2027** (era 24/02/2027) |
+| Resultado final e classificação | 14/04/2027 |
 
 ## Prioridade atual (decisão do Gustavo, 01/10/2026)
 
 **MVP da prova objetiva o quanto antes:** trilhas de todas as matérias da objetiva, no celular da Flávia. Ela estuda **só a objetiva** até 13/12/2026; a **discursiva com IA fica para depois da prova**. Base de lei, corretor e Gemini continuam no repositório, sem prioridade agora.
+
+**Desde a Retificação do Edital Normativo nº 1/2026 (06/10/2026), Direito Civil também cai na objetiva** (8 de 100 questões) — deixou de ser só matéria de discursiva. Ver "Achados sobre o edital" para o resto do que mudou.
 
 ## Decisões tomadas, e por quem
 
@@ -48,18 +55,20 @@ As regras do [CLAUDE.md do DevLingo](../DevLingo/CLAUDE.md) valem aqui também. 
 
 ## Distribuição da prova objetiva (tabela 10.1.1)
 
+Valores da Retificação nº 1/2026 (06/10/2026). A versão de 21/09/2026 não tinha Civil na objetiva e dava mais peso a Administrativo, Constitucional, Tributário e Processual Civil — ver histórico no `docs/STATUS.md` de 13/10/2026 se precisar comparar.
+
 | Código | Matéria | Questões |
 |---|---|---|
-| `adm` | Direito Administrativo | 22 |
-| `const` | Direito Constitucional | 19 |
-| `trib` | Tributário, Processo Tributário e Financeiro | 19 |
-| `pc` | Processual Civil | 19 |
-| `urb` | Urbanístico e Ambiental | 7 |
-| `trab` | Trabalho e Processual do Trabalho | 5 |
+| `adm` | Direito Administrativo | 19 |
+| `const` | Direito Constitucional | 17 |
+| `trib` | Tributário, Processo Tributário e Financeiro | 17 |
+| `pc` | Processual Civil | 17 |
+| `urb` | Urbanístico e Ambiental | 8 |
+| `civ` | Direito Civil | 8 |
+| `trab` | Trabalho e Processual do Trabalho | 6 |
 | `prev` | Previdenciário | 3 |
-| `pen` | Penal e Processual Penal | 3 |
 | `emp` | Empresarial | 3 |
-| `civ` | Direito Civil | só na discursiva |
+| `pen` | Penal e Processual Penal | 2 |
 
 Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2) / 10.
 
@@ -88,7 +97,13 @@ Corte: 60 pontos. Nota final = (Objetiva × 3 + Discursiva × 5 + Títulos × 2)
 - **Decreto 610/2019**, citado no edital em PPP, está **revogado** e sua ementa é de **contratos e convênios**, não de PPP.
 - **Lei 7.833/1991** (política municipal de meio ambiente), citada no edital, está **revogada** no Legisladoc.
 - **Decretos 469/2023, 723/2023 e 388/2025**, citados no edital como regulamentos da Lei 14.133, **não conferem**: no Legisladoc esses números são atos de pessoal (nomeação, exoneração). Ficaram fora da base.
-- **Previdência de Curitiba:** a **LC 133/2021** (reforma previdenciária municipal), que **não está no edital**, revogou os capítulos de benefícios e alíquotas da Lei 9.626/1999 e é quem rege o RPPS hoje. A **Lei 16.768/2026** diz na ementa que altera a Lei 10.817/2003, mas nenhum artigo dela faz isso.
+- **Previdência de Curitiba:** a **LC 133/2021** (reforma previdenciária municipal) revogou os capítulos de benefícios e alíquotas da Lei 9.626/1999 e é quem rege o RPPS hoje. **Desde a Retificação nº 1/2026, ela está expressamente no Anexo II** (item 4 de Previdenciário) — antes, por erro do edital original, não estava, mas já era a lei usada no banco (prev-0009 a 0014). A **Lei 16.768/2026** diz na ementa que altera a Lei 10.817/2003, mas nenhum artigo dela faz isso, e a retificação a **tirou** do Anexo II — nenhuma questão do banco a cita, então nada a corrigir.
+- **Retificação do Edital Normativo nº 1/2026 (06/10/2026) — mudanças que afetam o banco**, lida no PDF oficial retificado em 13/10/2026:
+  - **Tabela 10.1.1 mudou inteira** (ver seção acima): Administrativo, Constitucional, Tributário e Processual Civil perderam peso; Urbanístico, Trabalho e **Direito Civil (novo na objetiva, 8 questões)** ganharam; Penal caiu de 3 para 2.
+  - **Direito Penal perdeu o item 1 do Anexo II** (parte geral do Código Penal e do CPP). Só restou o que era o item 2 ("Persecução penal e a atuação da Administração Pública e da Advocacia Pública", com a Lei 13.869/2019 de abuso de autoridade citada expressamente). As 11 questões do antigo item 1 (`pen-01.json`) foram **removidas do banco** em 13/10/2026 — não cabem mais no edital. A unidade sobrevivente manteve o id `pen-02` (nunca se renumera um id), só o `itemEdital` virou 1.
+  - **As Anexo II de Administrativo, Constitucional, Tributário, Processual Civil, Urbanístico/Ambiental, Trabalho e Empresarial foram conferidas item a item contra o PDF oficial em 13/10/2026 e NÃO mudaram de conteúdo** — só a tabela de pesos mudou. Então as questões existentes nessas matérias continuam válidas; não precisou revisar o conteúdo delas por causa da retificação (mas vale conferir, à parte, se algum tema foi puxado de prova de outro edital sem bater com o nosso Anexo II — ver pendência no `docs/STATUS.md`).
+  - **Direito Civil entrou na objetiva com 8 itens** (LINDB/pessoa natural e jurídica/bens/negócio jurídico; obrigações e contratos; responsabilidade civil; direitos reais; família; sucessões; registros públicos — Lei 6.015/1973; locações — Lei 8.245/1991). O banco **não tinha nenhuma questão de Civil** (a pasta `app/assets/questoes/civ/` não existia) porque, até a retificação, Civil só caía na discursiva, que está fora da prioridade atual. Agora precisa de conteúdo.
+  - **Prova discursiva adiada para 31/01/2027** (era 24/02/2027), com 8h em dois turnos de 4h (antes, a estrutura era diferente). Resultado final do concurso: 14/04/2027. Sem impacto imediato no app, porque a discursiva está fora de prioridade.
 - **O texto "Alterado" (compilado) do Legisladoc pode estar desatualizado — achado em 01-02/10/2026.** Conferido em 14 normas de Curitiba (lc-108-2017, lc-40-2001 — o IPTU inteiro, arts. 35-43, reescrito duas vezes e o compilado trazia 2001/2014 —, lom — 11 artigos, as ELO 24/2024 e 25/2025 —, lc-133-2021 — faltava a segregação de massa da LC 147/2025 — e mais 10). **Antes de citar artigo de norma "Alterado" no Legisladoc como gabarito, confira `corpus/correcoes_curitiba.json`**; se a norma ainda não foi auditada, prefira dispositivo estável ou confira a seção "Vínculos" da página do ato. Duas lacunas de ferramenta (não de dado) ficaram pendentes: Lei 1.656/1958 (só vai até o art. 101) e Decreto 868/2024 (Anexo/Regimento Interno não capturado). Detalhe de cada norma: `docs/STATUS.md`.
 - **Pendente no extrator:** na Lei 8.212/1991 (`corpus/federal/l8212.json`), o art. 22 saiu cortado e o art. 21 com redações duplicadas. Nenhuma questão usa esses artigos.
 - **Lei 2.942/1966** (parcelamento do solo) só existe escaneada, sem texto: fora da base até ser digitada.

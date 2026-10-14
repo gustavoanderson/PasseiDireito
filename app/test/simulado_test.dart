@@ -16,7 +16,7 @@ List<Materia> _banco(Map<String, int> porMateria) => [
 void main() {
   test('a distribuição é a da tabela 10.1.1 do edital: 100 questões', () {
     expect(distribuicaoDaProva.values.fold(0, (s, n) => s + n), 100);
-    expect(distribuicaoDaProva['adm'], 22);
+    expect(distribuicaoDaProva['adm'], 19);
   });
 
   test('com banco completo, sorteia exatamente a quantidade do edital de cada matéria', () {
@@ -30,7 +30,7 @@ void main() {
 
   test('com banco menor, usa todas as disponíveis, em blocos na ordem da prova', () {
     final simulado = sortearSimulado(_banco({'pc': 5, 'adm': 30, 'const': 2}), Random(1));
-    expect(simulado.where((q) => q.materia == 'adm'), hasLength(22));
+    expect(simulado.where((q) => q.materia == 'adm'), hasLength(19));
     expect(simulado.where((q) => q.materia == 'const'), hasLength(2));
     expect(simulado.where((q) => q.materia == 'pc'), hasLength(5));
     expect(simulado.map((q) => q.materia).toSet().toList(), ['adm', 'const', 'pc']);

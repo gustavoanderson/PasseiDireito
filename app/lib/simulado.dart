@@ -4,19 +4,23 @@ import 'banco.dart';
 import 'progresso.dart';
 import 'trilha.dart';
 
-/// Quantas questões de cada matéria a prova objetiva tem (edital, tabela 10.1.1).
-/// A ordem é a da tabela; o simulado apresenta as questões nesta ordem de
-/// blocos, como o caderno real, mas sem nomear a matéria na tela.
+/// Quantas questões de cada matéria a prova objetiva tem (edital, tabela
+/// 10.1.1, na redação da Retificação do Edital Normativo nº 1/2026, de
+/// 06/10/2026 — Direito Civil entrou na objetiva com 8 questões, e os pesos
+/// das demais matérias mudaram). A ordem é a da tabela; o simulado apresenta
+/// as questões nesta ordem de blocos, como o caderno real, mas sem nomear a
+/// matéria na tela.
 const distribuicaoDaProva = {
-  'adm': 22,
-  'const': 19,
-  'trib': 19,
-  'pc': 19,
-  'urb': 7,
-  'trab': 5,
+  'adm': 19,
+  'const': 17,
+  'trib': 17,
+  'pc': 17,
+  'urb': 8,
+  'civ': 8,
+  'trab': 6,
   'prev': 3,
-  'pen': 3,
   'emp': 3,
+  'pen': 2,
 };
 
 /// 5 horas para 100 questões (edital, item 11.23): 3 minutos por questão.

@@ -31,9 +31,15 @@ DATA_DE_CORTE = "2026-09-21"
 
 # Quantos itens cada materia tem no Anexo II do Edital 6/2026. Em Urbanistico
 # e Ambiental o edital pula do item 7 para o 9; o 14 continua sendo o ultimo.
+#
+# "pen" caiu de 2 para 1 com a Retificacao do Edital Normativo no 1/2026
+# (06/10/2026): o item 1 (parte geral do Codigo Penal e do CPP) saiu do
+# programa. So ficou o que era o item 2 (persecucao penal, Administracao e
+# Advocacia Publica), que manteve o id de arquivo "pen-02" — nunca se
+# renumera o id de uma unidade — mas passou a valer como itemEdital 1.
 ITENS_DO_EDITAL = {
     "adm": 17, "const": 12, "trib": 16, "pc": 15, "civ": 8,
-    "urb": 14, "trab": 11, "prev": 7, "pen": 2, "emp": 5,
+    "urb": 14, "trab": 11, "prev": 7, "pen": 1, "emp": 5,
 }
 
 # Explicacao curta demais nao ensina nada. "Errada." nao e explicacao.

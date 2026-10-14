@@ -18,7 +18,7 @@
       "const": 1
     },
     "materia": {
-      "description": "Codigo da materia. Civil so cai na discursiva, mas tem trilha propria.",
+      "description": "Codigo da materia. Desde a Retificacao do Edital Normativo no 1/2026 (06/10/2026), Civil tambem cai na prova objetiva (8 questoes), alem da discursiva.",
       "type": "string",
       "enum": [
         "adm",
