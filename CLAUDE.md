@@ -183,4 +183,4 @@ https://github.com/gustavoanderson/PasseiDireito — decisão do Gustavo, pergun
   flutter build apk --release
   gh release create vX.Y caminho/do.apk --title "PasseiDireito vX.Y" --notes "..."
   ```
-  Versão atual: v0.9, https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.9/PasseiDireito-v0.9.apk. Atualize este link (e o de cima) a cada release nova, e o `docs/STATUS.md`.
+  Versão atual: v1.0, https://github.com/gustavoanderson/PasseiDireito/releases/download/v1.0/PasseiDireito-v1.0.apk. Atualize este link (e o de cima) a cada release nova, e o `docs/STATUS.md`.

@@ -47,16 +47,17 @@ Atualizado em 14/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 **Duas formas de acesso, sempre atualizadas:**
 - **Navegador (web):** https://gustavoanderson.github.io/PasseiDireito/ — hospedado no GitHub Pages, a partir da branch órfã `gh-pages` (só o `build/web`, não o código-fonte). Pra publicar uma versão nova: `cd app && MSYS_NO_PATHCONV=1 flutter build web --release --base-href /PasseiDireito/` (no Git Bash do Windows, o `MSYS_NO_PATHCONV=1` evita que `/PasseiDireito/` seja lido como caminho de arquivo), depois copiar `app/build/web/*` pra um worktree da branch `gh-pages` (primeira vez: `git worktree add --detach /tmp/gh-pages-wt` + `git checkout --orphan gh-pages`; nas seguintes: `git worktree add --detach /tmp/gh-pages-wt gh-pages`, apagar o conteúdo antigo, copiar por cima, commitar). **Pegadinha:** o worktree fica em HEAD destacado, então `git push` sozinho não sabe pra onde mandar — use `git push origin HEAD:gh-pages`. O Pages já está habilitado, não precisa reconfigurar.
-- **Android (APK), versão atual v0.9:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v0.9/PasseiDireito-v0.9.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
+- **Android (APK), versão atual v1.0:** https://github.com/gustavoanderson/PasseiDireito/releases/download/v1.0/PasseiDireito-v1.0.apk. A cada nova versão, criar uma Release nova (`gh release create vX.Y caminho/do.apk --title ... --notes ...`) e atualizar este link aqui e no CLAUDE.md.
 
-**O app (v0.9, commitado e buildado em 08/10/2026):**
-- Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, Raio-X da banca, flag "MUDANÇA NA LEI", login Firebase, modo claro/escuro.
-- **Novo em 08/10:** Raio-X da banca (ver acima).
+**O app (v1.0, commitado e buildado em 14/10/2026):**
+- Trilhas por matéria, simulado cronometrado, caderno de erros, desempenho, Raio-X da banca, favoritar questões, log de alterações, flag "MUDANÇA NA LEI", prova de origem no cabeçalho, login Firebase, modo claro/escuro.
+- **Novo em 14/10:** Retificação nº 1/2026 do edital integrada (pesos da prova, Penal reduzido, banco de Direito Civil criado do zero — ver seção própria acima), prova de origem no cabeçalho, favoritar questões, log de alterações (ver seções acima).
+- **Novo em 08/10:** Raio-X da banca.
 - **Novo em 03/10:** contador regressivo pra prova objetiva na tela inicial ("Faltam N dias... · 13/12/2026"; pedido do Gustavo). `diasAte()` e `TelaInicio.hoje` em `app/lib/tela_inicio.dart`.
 - **Logo corrigida em 03/10, em duas rodadas** (pedidos do Gustavo), em `app/lib/logo.dart`: (1) o martelo batia com o meio da cabeça, não com a ponta — recalculado o giro pra a face direita (a ponta) cair no centro da fagulha; a fagulha tinha uma camada vermelho-terracota — trocada por âmbar. (2) o martelo ainda batia na diagonal (38°) — agora gira 90°, batendo reto numa superfície horizontal; acrescentadas três linhas de movimento acima da cabeça; e a fagulha perdeu de vez a cor — as três camadas da estrela ficaram brancas, só com contorno. Ícones do Android e da web regerados a cada rodada (`flutter test tool/gerar_icones_test.dart --update-goldens`).
-- APK em `D:\repositorio\PasseiDireito-v0.9.apk` (50 MB), com **498 questões**. Ainda não foi testado em celular de verdade.
-- Suíte inteira verde: validador do banco, 6 suítes de testes Python, `flutter analyze` e `flutter test` (84 testes).
-- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo, logo corrigida. Em 05/10: +53 questões de Matinhos. Em 08/10: Raio-X da banca. v0.2 → v0.9.
+- APK em `D:\repositorio\PasseiDireito-v1.0.apk` (50 MB), com **517 questões**. Ainda não foi testado em celular de verdade.
+- Suíte inteira verde: validador do banco (517 questões), 7 suítes de testes Python, `flutter analyze` e `flutter test` (112 testes).
+- Em 02/10: 4 commits (correção do extrator federal, correção da base de Curitiba, +150 questões, documentação). Em 03/10: repositório publicado, versão web publicada, contador regressivo, logo corrigida. Em 05/10: +53 questões de Matinhos. Em 08/10: Raio-X da banca. Em 13-14/10: Retificação nº 1/2026, banco de Civil, auditoria pc/trab, origem no cabeçalho, favoritos, log de alterações. v0.2 → v1.0. **Versão web republicada em 14/10** (estava parada desde 05/10, sem o Raio-X da banca nem nada depois).
 
 | Matéria | Questões | Peso no edital | Questões/peso |
 |---|---|---|---|
