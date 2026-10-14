@@ -1,0 +1,61 @@
+{
+  "versaoFormato": 1,
+  "atualizadoEm": "2026-10-14",
+  "introducao": "Quando o edital muda, uma questão do banco pode deixar de valer — ou faltar uma nova. Este log mostra o que mudou no banco por causa do edital, quando, e por quê, pra você conferir por conta própria. Não lista ajustes de texto ou de aparência do aplicativo, só o que afeta o que você estuda.",
+  "eventos": [
+    {
+      "data": "2026-09-21",
+      "tipo": "edital",
+      "titulo": "Edital Normativo nº 6/2026 publicado",
+      "descricao": "Data de corte do conteúdo do banco: as questões valem a norma em vigor até aqui, exceto quando sinalizado como mudança recente (flag \"MUDANÇA NA LEI\" na trilha)."
+    },
+    {
+      "data": "2026-10-06",
+      "tipo": "edital",
+      "titulo": "Retificação do Edital Normativo nº 1/2026",
+      "descricao": "O edital foi republicado com mudanças no cronograma (prova discursiva antecipada para 31/01/2027), na tabela de pesos da prova objetiva e no conteúdo de Direito Penal e Previdenciário. Repassada pela Flávia em 13/10/2026, conferida direto no PDF oficial da retificação nesta mesma data."
+    },
+    {
+      "data": "2026-10-13",
+      "tipo": "remocao",
+      "titulo": "11 questões de Direito Penal saíram do banco",
+      "descricao": "O item 1 do Anexo II de Penal (parte geral do Código Penal e do Código de Processo Penal) saiu do programa na retificação. As 11 questões da unidade pen-01 não cabem mais no edital e foram apagadas. A unidade que sobrou (persecução penal e atuação da Administração/Advocacia Pública) manteve o nome de arquivo pen-02 — o id de uma unidade nunca se renumera — mas passou a valer como item 1 do Anexo II.",
+      "questoesRemovidas": [
+        "pen-0001", "pen-0002", "pen-0003", "pen-0004", "pen-0005",
+        "pen-0006", "pen-0007", "pen-0008", "pen-0009", "pen-0010", "pen-0011"
+      ],
+      "commit": "0e429ea"
+    },
+    {
+      "data": "2026-10-13",
+      "tipo": "ajuste",
+      "titulo": "Peso das matérias na prova objetiva mudou",
+      "descricao": "Tabela 10.1.1 do edital, nova redação: Administrativo caiu de 22 para 19 questões, Constitucional de 19 para 17, Tributário de 19 para 17, Processo Civil de 19 para 17, Urbanístico/Ambiental subiu de 7 para 8, Trabalho de 5 para 6, Penal caiu de 3 para 2. Nenhuma questão foi alterada por causa disso — só muda quantas de cada matéria caem sorteadas no simulado."
+    },
+    {
+      "data": "2026-10-13",
+      "tipo": "remocao",
+      "titulo": "2 questões de Processo Civil saíram do banco",
+      "descricao": "Auditoria pedida pela Flávia, pra tirar do banco conteúdo que não bate com o Anexo II específico de Curitiba. pc-0089 testava só a Lei 6.830/80 (execução fiscal), que não está no item 7 de Curitiba — esse item só cobre execução pelo regime do CPC. pc-0091 testava regras do Juizado Especial Federal (Lei 10.259/2001), que não se aplica a um Município e não consta do item 8 de Curitiba. Nenhuma questão de Direito do Trabalho precisou sair: as 29 revisadas batem com o Anexo II.",
+      "questoesRemovidas": ["pc-0089", "pc-0091"],
+      "commit": "f4e67ce"
+    },
+    {
+      "data": "2026-10-14",
+      "tipo": "criacao",
+      "titulo": "32 questões novas de Direito Civil",
+      "descricao": "Com a retificação, Direito Civil passou a cair na prova objetiva (8 de 100 questões) — antes só caía na discursiva, e o banco não tinha nenhuma questão dessa matéria pra objetiva. Criadas 32 questões novas, uma unidade por item do Anexo II: parte geral/LINDB, obrigações e contratos, responsabilidade civil, direitos reais, família, sucessões, registros públicos (Lei 6.015/1973) e locações (Lei 8.245/1991).",
+      "questoesCriadas": [
+        "civ-0001", "civ-0002", "civ-0003", "civ-0004",
+        "civ-0005", "civ-0006", "civ-0007", "civ-0008",
+        "civ-0009", "civ-0010", "civ-0011", "civ-0012",
+        "civ-0013", "civ-0014", "civ-0015", "civ-0016",
+        "civ-0017", "civ-0018", "civ-0019", "civ-0020",
+        "civ-0021", "civ-0022", "civ-0023", "civ-0024",
+        "civ-0025", "civ-0026", "civ-0027", "civ-0028",
+        "civ-0029", "civ-0030", "civ-0031", "civ-0032"
+      ],
+      "commit": "9a7b178"
+    }
+  ]
+}

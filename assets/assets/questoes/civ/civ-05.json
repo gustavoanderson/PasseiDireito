@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-05",
+    "titulo": "Direito de Família",
+    "itemEdital": 5
+  },
+  "questoes": [
+    {
+      "id": "civ-0017",
+      "tema": "Impedimentos matrimoniais e causas suspensivas",
+      "enunciado": "Sobre os impedimentos para o casamento e as causas suspensivas, nos termos dos arts. 1.521 e 1.523 do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Não podem casar os ascendentes com os descendentes, seja o parentesco natural ou civil, nem os irmãos, unilaterais ou bilaterais, e demais colaterais, até o terceiro grau inclusive.",
+        "B": "Não pode casar o cônjuge sobrevivente com o condenado por homicídio ou tentativa de homicídio contra o seu consorte.",
+        "C": "Não deve casar o viúvo ou a viúva que tiver filho do cônjuge falecido, enquanto não fizer inventário dos bens do casal e der partilha aos herdeiros; trata-se de impedimento absoluto, que o juiz jamais pode afastar, ainda que comprovada a inexistência de prejuízo ao herdeiro.",
+        "D": "Não devem casar o tutor ou o curador e os seus descendentes, ascendentes, irmãos, cunhados ou sobrinhos, com a pessoa tutelada ou curatelada, enquanto não cessar a tutela ou curatela e não estiverem saldadas as respectivas contas.",
+        "E": "As causas suspensivas, ao contrário dos impedimentos do art. 1.521, não impedem a celebração do casamento, mas acarretam a obrigatoriedade do regime de separação de bens, caso os nubentes não obtenham a dispensa judicial."
+      },
+      "correta": "C",
+      "dica": "Veja se o juiz pode afastar a causa suspensiva do viúvo que não fez inventário, provando-se a ausência de prejuízo para o herdeiro.",
+      "explicacao": {
+        "A": "Correta. Reproduz os incisos I e IV do art. 1.521 do Código Civil, que listam os impedimentos absolutos para o casamento, insuscetíveis de dispensa judicial.",
+        "B": "Correta. É o inciso VII do art. 1.521 do Código Civil, impedimento que evita que o autor ou partícipe de crime contra a vida do cônjuge se beneficie, casando-se com o sobrevivente.",
+        "C": "É a incorreta, e por isso é a resposta. O parágrafo único do art. 1.523 do Código Civil permite exatamente o que a alternativa nega: os nubentes podem pedir ao juiz que afaste essa causa suspensiva, provando a inexistência de prejuízo para o herdeiro.",
+        "D": "Correta. É o inciso IV do art. 1.523 do Código Civil, causa suspensiva que protege o patrimônio do tutelado ou curatelado de eventual casamento do próprio tutor ou curador, ou de parente próximo dele, antes de prestadas as contas.",
+        "E": "Correta. As causas suspensivas do art. 1.523 não impedem o casamento, diferente dos impedimentos do art. 1.521, mas, não havendo dispensa judicial, impõem o regime obrigatório de separação de bens, nos termos do art. 1.641, I, do Código Civil."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.521, 1.523 e 1.641", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0018",
+      "tema": "Regime da comunhão parcial de bens",
+      "enunciado": "Sobre o regime da comunhão parcial de bens, disciplinado pelos arts. 1.658 a 1.666 do Código Civil, analise as afirmativas a seguir.\n\nI. Comunicam-se os bens que sobrevierem ao casal, na constância do casamento, ressalvadas as exceções legais.\nII. Excluem-se da comunhão os bens que cada cônjuge possuir ao casar, e os que lhe sobrevierem, na constância do casamento, por doação ou sucessão, bem como os sub-rogados em seu lugar.\nIII. Entram na comunhão os bens adquiridos na constância do casamento por título oneroso, ainda que só em nome de um dos cônjuges, bem como os bens de uso pessoal e os instrumentos de profissão de cada cônjuge.\nIV. São incomunicáveis os bens cuja aquisição tiver por título uma causa anterior ao casamento.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e IV estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Separe, na afirmativa III, o que realmente entra na comunhão do que a lei exclui dela.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a IV, que também está certa: pelo art. 1.661 do Código Civil, são incomunicáveis os bens cuja aquisição tiver por título uma causa anterior ao casamento.",
+        "B": "Correta. I reproduz o art. 1.658; II reproduz o art. 1.659, I; IV reproduz o art. 1.661, todos do Código Civil. A III está errada porque, embora os bens adquiridos onerosamente na constância do casamento realmente entrem na comunhão (art. 1.660, I), os bens de uso pessoal e os instrumentos de profissão são expressamente excluídos da comunhão pelo art. 1.659, V, e não incluídos nela.",
+        "C": "Inclui a III, que mistura uma regra certa (bens onerosos entram na comunhão) com uma errada (bens de uso pessoal e instrumentos de profissão são excluídos, não incluídos, pelo art. 1.659, V), e deixa de fora a I, que reproduz corretamente a regra geral do art. 1.658.",
+        "D": "Inclui a III, que está errada pelo motivo exposto acima, e deixa de fora a II, que reproduz corretamente as exclusões do art. 1.659, I, do Código Civil.",
+        "E": "Não estão todas corretas: a III erra ao incluir na comunhão os bens de uso pessoal e os instrumentos de profissão, que o art. 1.659, V, do Código Civil exclui expressamente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.658, 1.659, 1.660 e 1.661", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0019",
+      "tema": "União estável: requisitos e regime patrimonial",
+      "enunciado": "Sobre a união estável, disciplinada pelos arts. 1.723 a 1.727 do Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "É reconhecida como entidade familiar a união estável entre o homem e a mulher, configurada na convivência pública, contínua e duradoura e estabelecida com o objetivo de constituição de família, não se constituindo se ocorrerem os impedimentos do art. 1.521, ressalvado o caso de a pessoa casada se achar separada de fato ou judicialmente, hipótese em que o impedimento de pessoa casada não obsta a união estável.",
+        "B": "As causas suspensivas do art. 1.523 do Código Civil, por protegerem interesses patrimoniais de terceiros, impedem igualmente a caracterização da união estável.",
+        "C": "Na união estável, ainda que haja contrato escrito entre os companheiros dispondo de modo diverso, aplica-se sempre, de forma cogente, o regime da comunhão parcial de bens às relações patrimoniais.",
+        "D": "A união estável, uma vez caracterizada, converte-se automaticamente em casamento após dois anos de convivência, independentemente de qualquer manifestação de vontade dos companheiros.",
+        "E": "As relações pessoais entre os companheiros obedecem apenas ao dever de assistência mútua, não se estendendo a eles os deveres de lealdade, respeito ou de guarda, sustento e educação dos filhos, que seriam exclusivos do casamento."
+      },
+      "correta": "A",
+      "dica": "Veja o que acontece com o impedimento de pessoa casada quando ela já está separada de fato ou judicialmente.",
+      "explicacao": {
+        "A": "Correta. Reproduz o caput e o § 1º do art. 1.723 do Código Civil: a união estável não se constitui havendo os impedimentos do art. 1.521, mas o impedimento de pessoa casada (inciso VI) não se aplica a quem está separado de fato ou judicialmente.",
+        "B": "O § 2º do art. 1.723 do Código Civil diz o contrário: as causas suspensivas do art. 1.523 não impedem a caracterização da união estável, ao contrário dos impedimentos do art. 1.521.",
+        "C": "O art. 1.725 do Código Civil começa justamente com a ressalva 'salvo contrato escrito entre os companheiros': o regime da comunhão parcial é supletivo, aplicável apenas na ausência de contrato que disponha de outro modo.",
+        "D": "O art. 1.726 do Código Civil exige pedido dos companheiros ao juiz e assento no Registro Civil para a conversão da união estável em casamento; não há conversão automática pelo simples decurso de tempo.",
+        "E": "O art. 1.724 do Código Civil estende aos companheiros os deveres de lealdade, respeito e assistência, além de guarda, sustento e educação dos filhos — os mesmos tipos de deveres que, com outra redação, o art. 1.566 impõe aos cônjuges no casamento."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.723, 1.724, 1.725 e 1.726", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0020",
+      "tema": "Obrigação alimentar e bem de família",
+      "enunciado": "Sobre a obrigação de prestar alimentos e o bem de família voluntário, nos termos do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O direito à prestação de alimentos é recíproco entre pais e filhos, e extensivo a todos os ascendentes, recaindo a obrigação nos mais próximos em grau, uns em falta de outros; na falta dos ascendentes, cabe a obrigação aos descendentes, e, faltando estes, aos irmãos, germanos ou unilaterais.",
+        "B": "Se, fixados os alimentos, sobrevier mudança na situação financeira de quem os supre ou de quem os recebe, poderá o interessado reclamar ao juiz, conforme as circunstâncias, exoneração, redução ou majoração do encargo.",
+        "C": "Com o casamento, a união estável ou o concubinato do credor, cessa o dever de prestar alimentos; cessa também o direito a alimentos se o credor tiver procedimento indigno em relação ao devedor.",
+        "D": "Podem os cônjuges, ou a entidade familiar, mediante escritura pública ou testamento, destinar à instituição de bem de família a totalidade de seu patrimônio, ainda que isso comprometa a subsistência de outros bens do casal, desde que haja consentimento de todos os herdeiros necessários.",
+        "E": "O bem de família é isento de execução por dívidas posteriores à sua instituição, salvo as que provierem de tributos relativos ao prédio, ou de despesas de condomínio."
+      },
+      "correta": "D",
+      "dica": "Veja qual é a fração máxima do patrimônio que pode ser destinada ao bem de família voluntário.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 1.696 e 1.697 do Código Civil, sobre a reciprocidade e a ordem de chamamento da obrigação alimentar entre parentes.",
+        "B": "Correta. É o art. 1.699 do Código Civil, que permite a revisão do valor dos alimentos diante de mudança na situação financeira de quem os deve ou de quem os recebe.",
+        "C": "Correta. É o art. 1.708, caput e parágrafo único, do Código Civil, sobre as causas de cessação do dever e do direito a alimentos.",
+        "D": "É a incorreta, e por isso é a resposta. O art. 1.711 do Código Civil limita a instituição do bem de família a, no máximo, um terço do patrimônio líquido existente ao tempo da instituição, e não permite a destinação da totalidade dos bens; a lei também não condiciona o ato ao consentimento de herdeiros necessários.",
+        "E": "Correta. É o art. 1.715 do Código Civil, que isenta o bem de família de execução por dívidas posteriores à instituição, ressalvados os tributos do próprio imóvel e as despesas condominiais."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.696, 1.697, 1.699, 1.708, 1.711 e 1.715", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

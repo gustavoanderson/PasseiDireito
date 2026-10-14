@@ -108,9 +108,9 @@
     "pen": {
       "temasFrequentes": [],
       "itensComRegistro": [],
-      "itensSemRegistroNaAmostra": [1, 2],
+      "itensSemRegistroNaAmostra": [1],
       "itensMunicipaisExcluidos": [],
-      "notaEspecial": "Mesma observação do Previdenciário: Direito Penal não aparece como categoria própria na amostra analisada."
+      "notaEspecial": "Mesma observação do Previdenciário: Direito Penal não aparece como categoria própria na amostra analisada. Desde a Retificação nº 1/2026 (06/10/2026), o Anexo II de Penal tem só este item (persecução penal e atuação da Administração e da Advocacia Pública, com a Lei 13.869/2019 de abuso de autoridade); o item de parte geral do Código Penal e do CPP saiu do programa."
     },
     "emp": {
       "temasFrequentes": [],
@@ -118,6 +118,13 @@
       "itensSemRegistroNaAmostra": [1, 2, 3, 4, 5],
       "itensMunicipaisExcluidos": [],
       "notaEspecial": "A amostra menciona 'Empresarial' só de passagem, sem tema específico identificável — provavelmente porque, nas provas pequenas analisadas, Empresarial ficou dentro do bloco de Civil e não foi destacado."
+    },
+    "civ": {
+      "temasFrequentes": [],
+      "itensComRegistro": [],
+      "itensSemRegistroNaAmostra": [1, 2, 3, 4, 5, 6, 7, 8],
+      "itensMunicipaisExcluidos": [],
+      "notaEspecial": "Direito Civil só entrou na prova objetiva de Curitiba com a Retificação nº 1/2026 (06/10/2026); nenhuma das 9 provas da amostra tem Civil destacado como matéria própria, o que não é sinal de baixa incidência — é só a amostra não ter capturado esse recorte, inclusive porque nas provas analisadas Civil não era cobrado na objetiva daqueles editais."
     }
   }
 }

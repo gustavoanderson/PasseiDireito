@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-04",
+    "titulo": "Direitos Reais: posse, propriedade e coisa alheia",
+    "itemEdital": 4
+  },
+  "questoes": [
+    {
+      "id": "civ-0013",
+      "tema": "Classificação da posse e seus efeitos",
+      "enunciado": "Sobre a posse e seus efeitos, nos termos dos arts. 1.196 a 1.224 do Código Civil, analise as afirmativas a seguir.\n\nI. Considera-se possuidor todo aquele que tem de fato o exercício, pleno ou não, de algum dos poderes inerentes à propriedade, distinguindo-se do detentor, que conserva a posse em nome de outrem e em cumprimento de suas ordens.\nII. É justa a posse que não for violenta, clandestina ou precária, e é de boa-fé aquela em que o possuidor ignora o vício ou o obstáculo que impede a aquisição da coisa.\nIII. O possuidor de boa-fé responde pela perda ou deterioração da coisa ainda que não tenha dado causa a ela, por ser sempre objetiva a responsabilidade do possuidor pela integridade do bem.\nIV. O possuidor de boa-fé tem direito à indenização das benfeitorias necessárias e úteis, podendo exercer o direito de retenção pelo valor dessas benfeitorias até que seja indenizado.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e IV estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Veja se o possuidor de boa-fé responde pela perda da coisa mesmo sem ter dado causa a ela.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a IV, que também está certa: pelo art. 1.219 do Código Civil, o possuidor de boa-fé tem direito à indenização das benfeitorias necessárias e úteis e pode reter a coisa até ser indenizado.",
+        "B": "Correta. I reproduz os arts. 1.196 e 1.198; II reproduz os arts. 1.200 e 1.201; IV reproduz o art. 1.219, todos do Código Civil. A III está errada porque o art. 1.217 diz o contrário: o possuidor de boa-fé não responde pela perda ou deterioração da coisa a que não der causa.",
+        "C": "Inclui a III, que está errada (art. 1.217: o possuidor de boa-fé só responde pela perda ou deterioração a que der causa), e deixa de fora a I, que define corretamente possuidor e detentor nos arts. 1.196 e 1.198.",
+        "D": "Inclui a III, que está errada pelo mesmo motivo (art. 1.217), e deixa de fora a II, que reproduz corretamente os conceitos de posse justa e de boa-fé dos arts. 1.200 e 1.201 do Código Civil.",
+        "E": "Não estão todas corretas: a III contraria o art. 1.217 do Código Civil, que isenta o possuidor de boa-fé da responsabilidade pela perda ou deterioração da coisa a que ele não deu causa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.196, 1.198, 1.200, 1.201, 1.217 e 1.219", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0014",
+      "tema": "Modalidades e prazos de usucapião",
+      "enunciado": "Sobre as modalidades de usucapião de bens imóveis e móveis previstas no Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Aquele que, por quinze anos, sem interrupção nem oposição, possuir como seu um imóvel, adquire-lhe a propriedade, independentemente de título e boa-fé, prazo que se reduz a dez anos se o possuidor houver estabelecido no imóvel sua moradia habitual, ou nele realizado obras ou serviços de caráter produtivo.",
+        "B": "Adquire a propriedade do imóvel aquele que, contínua e incontestadamente, com justo título e boa-fé, o possuir por dez anos, prazo que se reduz a cinco anos se o imóvel houver sido adquirido onerosamente com base em registro cancelado posteriormente, desde que o possuidor tenha nele estabelecido moradia ou realizado investimentos de interesse social e econômico.",
+        "C": "Aquele que possuir, como sua, área urbana de até duzentos e cinquenta metros quadrados, por cinco anos ininterruptamente e sem oposição, utilizando-a para sua moradia ou de sua família, adquire-lhe o domínio, desde que não seja proprietário de outro imóvel urbano ou rural, direito que pode ser reconhecido ao mesmo possuidor mais de uma vez.",
+        "D": "Aquele que possuir coisa móvel como sua, contínua e incontestadamente, durante três anos, com justo título e boa-fé, adquire-lhe a propriedade; se a posse se prolongar por cinco anos, produzirá usucapião independentemente de título ou boa-fé.",
+        "E": "Aquele que, não sendo proprietário de imóvel rural ou urbano, possua como sua, por cinco anos ininterruptos e sem oposição, área de terra em zona rural não superior a cinquenta hectares, tornando-a produtiva por seu trabalho ou de sua família e tendo nela sua moradia, adquire-lhe a propriedade."
+      },
+      "correta": "C",
+      "dica": "Confira se a usucapião especial urbana, pensada para garantir moradia, pode ser usada mais de uma vez pela mesma pessoa.",
+      "explicacao": {
+        "A": "Correta. É o art. 1.238, caput e parágrafo único, do Código Civil: usucapião extraordinária de quinze anos, reduzida a dez quando houver moradia habitual ou obras ou serviços produtivos no imóvel.",
+        "B": "Correta. É o art. 1.242, caput e parágrafo único, do Código Civil: usucapião ordinária de dez anos, com justo título e boa-fé, reduzida a cinco anos na hipótese do chamado usucapião tabular (registro cancelado posteriormente, com moradia ou investimentos de interesse social e econômico).",
+        "C": "É a incorreta, e por isso é a resposta. O § 2º do art. 1.240 do Código Civil diz exatamente o oposto: o direito à usucapião especial urbana não será reconhecido ao mesmo possuidor mais de uma vez, por se tratar de benefício voltado à moradia, e não de mecanismo de aquisição repetida de imóveis.",
+        "D": "Correta. É a combinação dos arts. 1.260 (usucapião ordinária de bem móvel, três anos, com título e boa-fé) e 1.261 (usucapião extraordinária de bem móvel, cinco anos, independentemente de título ou boa-fé) do Código Civil.",
+        "E": "Correta. É o art. 1.239 do Código Civil: usucapião especial rural, cinco anos, área rural de até cinquenta hectares, trabalho produtivo e moradia do possuidor ou de sua família."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.238, 1.239, 1.240, 1.242, 1.260 e 1.261", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0015",
+      "tema": "Usufruto: constituição, direitos e extinção",
+      "enunciado": "Sobre o usufruto, disciplinado pelos arts. 1.390 a 1.411 do Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "O usufruto pode recair em um ou mais bens, móveis ou imóveis, ou em um patrimônio inteiro ou parte deste, abrangendo, no todo ou em parte, os frutos e utilidades, constituindo-se, quando sobre imóveis e não resultante de usucapião, mediante registro no Cartório de Registro de Imóveis.",
+        "B": "O usufruto pode ser transferido pelo usufrutuário a terceiro mediante alienação, tornando-se o adquirente o novo titular do direito de usufruir da coisa.",
+        "C": "O usufrutuário tem direito à posse, ao uso e à administração da coisa, mas não à percepção dos frutos, que pertencem exclusivamente ao nu-proprietário durante toda a vigência do usufruto.",
+        "D": "Incumbem ao usufrutuário as reparações extraordinárias e as de custo elevado, ficando a cargo do nu-proprietário apenas as pequenas reparações de conservação.",
+        "E": "Constituído o usufruto em favor de duas ou mais pessoas, a parte do usufrutuário falecido sempre se transmite aos seus herdeiros, ainda que não haja estipulação expressa nesse sentido."
+      },
+      "correta": "A",
+      "dica": "Veja se o próprio direito de usufruto pode ser vendido a terceiro, ou só o seu exercício.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 1.390 (objeto do usufruto) e 1.391 (constituição por registro, quando sobre imóveis e não resultante de usucapião) do Código Civil.",
+        "B": "O art. 1.393 do Código Civil veda a transferência do usufruto por alienação; o que pode ser cedido, a título gratuito ou oneroso, é apenas o exercício do usufruto, permanecendo o usufrutuário como titular do direito.",
+        "C": "O art. 1.394 do Código Civil assegura ao usufrutuário também o direito à percepção dos frutos, além da posse, do uso e da administração da coisa — é justamente a fruição dos frutos que dá nome ao instituto.",
+        "D": "O art. 1.404 do Código Civil atribui ao dono, isto é, ao nu-proprietário, as reparações extraordinárias e as de custo elevado; ao usufrutuário cabe pagar os juros do capital despendido nas reparações necessárias à conservação ou que aumentem o rendimento da coisa — o inverso do que diz a alternativa.",
+        "E": "O art. 1.411 do Código Civil estabelece que, havendo dois ou mais usufrutuários, a parte de quem falecer se extingue, e não se transmite aos herdeiros, salvo se houver estipulação expressa de que o quinhão caberá ao sobrevivente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.390, 1.391, 1.393, 1.394, 1.404 e 1.411", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0016",
+      "tema": "Direitos de vizinhança e condomínio edilício",
+      "enunciado": "Sobre os direitos de vizinhança e o condomínio edilício, nos termos do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O proprietário ou o possuidor de um prédio tem o direito de fazer cessar as interferências prejudiciais à segurança, ao sossego e à saúde dos que o habitam, provocadas pela utilização de propriedade vizinha; esse direito não prevalece, porém, quando as interferências forem justificadas por interesse público, caso em que o causador delas pagará indenização cabal ao vizinho.",
+        "B": "O dono do prédio que não tiver acesso a via pública, nascente ou porto pode, mediante pagamento de indenização cabal, constranger o vizinho a lhe dar passagem, cujo rumo será judicialmente fixado, se necessário.",
+        "C": "É defeso abrir janelas, ou fazer eirado, terraço ou varanda, a menos de metro e meio do terreno vizinho, regra que não se aplica às aberturas para luz ou ventilação não maiores de dez centímetros de largura sobre vinte de comprimento, construídas a mais de dois metros de altura de cada piso.",
+        "D": "O condômino que não cumprir os deveres de não realizar obras que comprometam a segurança da edificação, de não alterar a forma e a cor da fachada e de dar às suas partes a destinação da edificação está sujeito à multa prevista no ato constitutivo ou na convenção, limitada, independentemente de deliberação da assembleia, ao valor de até duas vezes suas contribuições mensais.",
+        "E": "Cada condômino pode usar da coisa conforme sua destinação, exercer sobre ela todos os direitos compatíveis com a indivisão, reivindicá-la de terceiro, defender a sua posse e alhear a respectiva parte ideal, não podendo, porém, nenhum deles alterar a destinação da coisa comum, nem dar posse, uso ou gozo dela a estranhos, sem o consenso dos outros."
+      },
+      "correta": "D",
+      "dica": "Confira, no artigo sobre a multa ao condômino infrator, qual é o teto em número de contribuições mensais e quem precisa deliberar quando a convenção é omissa.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 1.277 (direito de fazer cessar interferências prejudiciais) e 1.278 (ressalva do interesse público, com dever de indenizar) do Código Civil.",
+        "B": "Correta. É o art. 1.285 do Código Civil, que disciplina a passagem forçada em favor do imóvel encravado, mediante indenização cabal ao vizinho que sofre o constrangimento.",
+        "C": "Correta. É o art. 1.301, caput e § 2º, do Código Civil, sobre a distância mínima para abertura de janelas e a exceção das pequenas aberturas para luz ou ventilação.",
+        "D": "É a incorreta, e por isso é a resposta. O § 2º do art. 1.336 do Código Civil fixa a multa em até cinco vezes o valor das contribuições mensais, e não duas vezes; além disso, quando não houver disposição expressa no ato constitutivo ou na convenção, a cobrança depende de deliberação da assembleia geral por, no mínimo, dois terços dos condôminos, e não independe de qualquer deliberação.",
+        "E": "Correta. É o art. 1.314, caput e parágrafo único, do Código Civil, sobre os direitos e limites do condômino no condomínio comum tradicional."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.277, 1.278, 1.285, 1.301, 1.314 e 1.336", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

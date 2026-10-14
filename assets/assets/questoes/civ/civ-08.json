@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-08",
+    "titulo": "Locações de Imóveis Urbanos e Direitos Autorais",
+    "itemEdital": 8
+  },
+  "questoes": [
+    {
+      "id": "civ-0029",
+      "tema": "Âmbito de aplicação da Lei do Inquilinato",
+      "enunciado": "Sobre o âmbito de aplicação da Lei nº 8.245/1991, que regula a locação de imóveis urbanos, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Continuam regulados pelo Código Civil e pelas leis especiais, e não pela Lei nº 8.245/1991, as locações de imóveis de propriedade da União, dos Estados e dos Municípios, de suas autarquias e fundações públicas, bem como o arrendamento mercantil, em qualquer de suas modalidades.",
+        "B": "A Lei nº 8.245/1991 se aplica integralmente às locações de imóveis de propriedade de Município, inclusive quanto aos prazos e às garantias locatícias nela previstos, por força do princípio da isonomia entre locador público e locador privado.",
+        "C": "Havendo mais de um locador ou mais de um locatário, presume-se que são solidários, salvo se o contrário for estipulado, e os ocupantes de habitações coletivas multifamiliares nunca se presumem locatários ou sublocatários.",
+        "D": "O contrato de locação pode ser ajustado por qualquer prazo, dependendo de vênia conjugal se igual ou superior a cinco anos, ficando o cônjuge que não a prestou obrigado a observar o prazo excedente.",
+        "E": "Durante o prazo estipulado para a duração do contrato, o locador poderá reaver o imóvel alugado a qualquer momento, mediante simples notificação com trinta dias de antecedência, independentemente de multa."
+      },
+      "correta": "A",
+      "dica": "Veja quem fica de fora do âmbito da Lei do Inquilinato quando o imóvel pertence a um ente público.",
+      "explicacao": {
+        "A": "Correta. É o parágrafo único, alínea 'a', item 1, e alínea 'b', do art. 1º da Lei 8.245/1991: essas locações ficam fora do regime da Lei do Inquilinato e continuam regidas pelo Código Civil e por leis especiais.",
+        "B": "O parágrafo único do art. 1º da Lei 8.245/1991 exclui expressamente do seu âmbito as locações de imóveis públicos municipais, e também da União, dos Estados e de suas autarquias e fundações, que seguem o Código Civil, e não a Lei do Inquilinato.",
+        "C": "O parágrafo único do art. 2º da Lei 8.245/1991 estabelece o oposto da segunda parte da alternativa: os ocupantes de habitações coletivas multifamiliares presumem-se locatários ou sublocatários, e não o contrário.",
+        "D": "O art. 3º da Lei 8.245/1991 exige vênia conjugal para prazo igual ou superior a dez anos, e não a cinco; e o parágrafo único diz que, ausente a vênia, o cônjuge que não a prestou não fica obrigado a observar o prazo excedente — o inverso do que diz a alternativa.",
+        "E": "O art. 4º da Lei 8.245/1991 estabelece o contrário: durante o prazo estipulado, o locador não pode reaver o imóvel alugado; é o locatário quem pode devolvê-lo antecipadamente, pagando a multa pactuada ou a judicialmente estipulada."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.245/1991, arts. 1º, 2º, 3º e 4º", "data": "1991-10-18" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0030",
+      "tema": "Direito de preferência do locatário",
+      "enunciado": "Sobre o direito de preferência do locatário na aquisição do imóvel locado, nos termos da Lei nº 8.245/1991, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "No caso de venda, promessa de venda, cessão ou promessa de cessão de direitos, ou dação em pagamento, o locatário tem preferência para adquirir o imóvel locado, em igualdade de condições com terceiros, devendo o locador dar-lhe conhecimento do negócio mediante notificação judicial, extrajudicial ou outro meio de ciência inequívoca.",
+        "B": "A comunicação ao locatário deve conter todas as condições do negócio, em especial o preço, a forma de pagamento, a existência de ônus reais, bem como o local e o horário em que pode ser examinada a documentação pertinente.",
+        "C": "O direito de preferência do locatário caduca se não manifestada, de maneira inequívoca, sua aceitação integral à proposta, no prazo de trinta dias.",
+        "D": "Havendo condomínio no imóvel locado, a preferência do locatário terá prioridade sobre a do condômino.",
+        "E": "O locatário preterido no seu direito de preferência poderá reclamar do alienante perdas e danos ou, depositando o preço e as demais despesas do ato de transferência, haver para si o imóvel locado, se o requerer no prazo de seis meses a contar do registro do ato no cartório de imóveis, desde que o contrato de locação esteja averbado pelo menos trinta dias antes da alienação junto à matrícula do imóvel."
+      },
+      "correta": "D",
+      "dica": "Veja quem tem preferência na compra quando o imóvel locado está em condomínio: o condômino ou o locatário.",
+      "explicacao": {
+        "A": "Correta. É o art. 27, caput, da Lei 8.245/1991, que assegura ao locatário o direito de preferência na aquisição do imóvel locado, em igualdade de condições com terceiros.",
+        "B": "Correta. É o parágrafo único do art. 27 da Lei 8.245/1991, que detalha o conteúdo mínimo da comunicação ao locatário sobre o negócio pretendido.",
+        "C": "Correta. É o art. 28 da Lei 8.245/1991: o locatário tem trinta dias para manifestar, de forma inequívoca, a aceitação integral da proposta, sob pena de caducidade do direito de preferência.",
+        "D": "É a incorreta, e por isso é a resposta. O art. 34 da Lei 8.245/1991 estabelece o oposto: havendo condomínio no imóvel, a preferência do condômino tem prioridade sobre a do locatário, e não o contrário.",
+        "E": "Correta. É o art. 33 da Lei 8.245/1991, que dá ao locatário preterido a opção entre perdas e danos e a aquisição do próprio imóvel, condicionada à averbação do contrato de locação antes da alienação e ao prazo de seis meses do registro do ato."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.245/1991, arts. 27, 28, 33 e 34", "data": "1991-10-18" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0031",
+      "tema": "Ação renovatória na locação não residencial",
+      "enunciado": "Sobre a renovação compulsória do contrato de locação não residencial (ação renovatória), nos termos da Lei nº 8.245/1991, analise as afirmativas a seguir.\n\nI. O locatário de imóvel destinado ao comércio terá direito a renovação do contrato, por igual prazo, desde que, cumulativamente, o contrato a renovar tenha sido celebrado por escrito e com prazo determinado, o prazo mínimo do contrato a renovar ou a soma dos prazos ininterruptos dos contratos escritos seja de cinco anos, e o locatário esteja explorando seu comércio, no mesmo ramo, pelo prazo mínimo e ininterrupto de três anos.\nII. Do direito a renovação decai aquele que não propuser a ação no interregno de um ano, no máximo, até seis meses, no mínimo, anteriores à data da finalização do prazo do contrato em vigor.\nIII. O locador não estará obrigado a renovar o contrato se, por determinação do Poder Público, tiver que realizar no imóvel obras que importem na sua radical transformação, ou se o imóvel vier a ser utilizado por ele próprio ou para transferência de fundo de comércio existente há mais de um ano, sendo detentor da maioria do capital o locador, seu cônjuge, ascendente ou descendente.\nIV. Nas locações de espaço em shopping centers, o locador pode recusar a renovação do contrato com fundamento na pretensão de uso próprio do espaço pelo locador, hipótese em que não cabe ao locatário qualquer indenização.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e III estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Veja se o locador de espaço em shopping center pode recusar a renovação alegando que vai usar o espaço para si mesmo.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a III, que também está certa: pelo art. 52, I e II, da Lei 8.245/1991, o locador não é obrigado a renovar o contrato nas hipóteses de obra determinada pelo Poder Público ou de uso próprio/transferência de fundo de comércio em condições de controle societário pelo locador ou parentes próximos.",
+        "B": "Correta. I reproduz o art. 51, caput e incisos I a III; II reproduz o § 5º do art. 51; III reproduz o art. 52, I e II, todos da Lei 8.245/1991. A IV está errada porque o § 2º do art. 52 veda, nas locações de shopping center, a recusa da renovação com fundamento no inciso II (uso próprio ou transferência de fundo de comércio), justamente para proteger o lojista; além disso, o § 3º do art. 52 assegura indenização ao locatário em determinadas hipóteses de não renovação, o que contraria a parte final da afirmativa IV.",
+        "C": "Inclui a IV, que está errada pelos dois motivos expostos (a recusa com base no inciso II não vale para shopping centers, e há indenização cabível), e deixa de fora a I, que reproduz corretamente os requisitos cumulativos da ação renovatória do art. 51.",
+        "D": "Inclui a IV, que está errada pelo mesmo motivo, e deixa de fora a II, que reproduz corretamente o prazo decadencial do § 5º do art. 51 da Lei 8.245/1991.",
+        "E": "Não estão todas corretas: a IV contraria o § 2º do art. 52 (que veda a recusa por uso próprio em shopping centers) e o § 3º do mesmo artigo (que prevê indenização ao locatário em certas hipóteses de não renovação)."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 8.245/1991, arts. 51 e 52", "data": "1991-10-18" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0032",
+      "tema": "Direitos morais e patrimoniais do autor (Lei 9.610/1998)",
+      "enunciado": "Sobre os direitos morais e patrimoniais do autor, disciplinados pela Lei nº 9.610/1998, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São direitos morais do autor, entre outros, o de reivindicar, a qualquer tempo, a autoria da obra, e o de ter seu nome, pseudônimo ou sinal convencional indicado ou anunciado como sendo o do autor, na utilização de sua obra.",
+        "B": "Os direitos morais do autor são inalienáveis e irrenunciáveis, mas, por morte do autor, transmitem-se a seus sucessores os direitos de reivindicar a autoria, de ter o nome indicado, de conservar a obra inédita e de assegurar a integridade da obra.",
+        "C": "Os direitos patrimoniais do autor perduram por setenta anos, contados de 1º de janeiro do ano subsequente ao de seu falecimento, obedecida a ordem sucessória da lei civil.",
+        "D": "Pertencem ao domínio público, além das obras em relação às quais decorreu o prazo de proteção aos direitos patrimoniais, as obras de autores falecidos que não tenham deixado sucessores e as de autor desconhecido, ressalvada a proteção legal aos conhecimentos étnicos e tradicionais.",
+        "E": "Os direitos morais e patrimoniais do autor são sempre transmissíveis e disponíveis em conjunto, de modo que a cessão dos direitos patrimoniais sobre a obra implica automaticamente a transferência, ao cessionário, dos direitos morais do autor, inclusive do direito de ter seu nome indicado na obra."
+      },
+      "correta": "E",
+      "dica": "Veja se o autor pode se desfazer, por cessão dos direitos patrimoniais, dos seus direitos morais sobre a obra.",
+      "explicacao": {
+        "A": "Correta. Reproduz os incisos I e II do art. 24 da Lei 9.610/1998, que listam os direitos morais do autor.",
+        "B": "Correta. É a combinação do § 1º do art. 24 (transmissão aos sucessores dos direitos dos incisos I a IV, por morte do autor) com o art. 27 (inalienabilidade e irrenunciabilidade dos direitos morais em vida do autor), ambos da Lei 9.610/1998.",
+        "C": "Correta. É o art. 41, caput, da Lei 9.610/1998: setenta anos de proteção patrimonial, contados de 1º de janeiro do ano seguinte ao falecimento do autor, segundo a ordem sucessória civil.",
+        "D": "Correta. É o art. 45, incisos I e II, da Lei 9.610/1998, sobre as hipóteses de obras que caem em domínio público mesmo antes, ou independentemente, do decurso do prazo geral de proteção.",
+        "E": "É a incorreta, e por isso é a resposta. O art. 27 da Lei 9.610/1998 estabelece justamente o oposto: os direitos morais do autor são inalienáveis e irrenunciáveis, não se transferindo ao cessionário dos direitos patrimoniais; a cessão destes, regulada pelos arts. 28 e 29, não arrasta consigo os direitos morais, que permanecem com o autor."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 9.610/1998, arts. 24, 27, 41 e 45", "data": "1998-02-19" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
