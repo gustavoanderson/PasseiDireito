@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-06",
+    "titulo": "Direito Sucessório",
+    "itemEdital": 6
+  },
+  "questoes": [
+    {
+      "id": "civ-0021",
+      "tema": "Abertura da sucessão e aceitação ou renúncia da herança",
+      "enunciado": "Sobre a abertura da sucessão e a aceitação ou renúncia da herança, nos termos do Código Civil, analise as afirmativas a seguir.\n\nI. Aberta a sucessão, a herança transmite-se, desde logo, aos herdeiros legítimos e testamentários, e a sucessão abre-se no lugar do último domicílio do falecido.\nII. Morrendo a pessoa sem testamento, transmite-se a herança aos herdeiros legítimos; o mesmo ocorre quanto aos bens não compreendidos no testamento, e subsiste a sucessão legítima se o testamento caducar ou for julgado nulo.\nIII. A renúncia da herança pode ser expressa ou tácita, resultando esta de atos próprios da qualidade de herdeiro, como o funeral do finado ou os atos meramente conservatórios.\nIV. Não se pode aceitar ou renunciar a herança em parte, sob condição ou a termo, mas o herdeiro a quem se testarem legados pode aceitá-los, renunciando à herança, ou, aceitando-a, repudiá-los.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e IV estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Compare o que a lei exige para a renúncia da herança com o que ela diz sobre atos que não configuram aceitação.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a IV, que também está certa: pelo art. 1.808, caput e § 1º, do Código Civil, não se aceita nem se renuncia a herança em parte, mas o herdeiro contemplado também com legado pode aceitar um e renunciar o outro.",
+        "B": "Correta. I reproduz os arts. 1.784 e 1.785; II reproduz o art. 1.788; IV reproduz o art. 1.808, caput e § 1º, todos do Código Civil. A III está errada porque confunde dois institutos: a renúncia da herança, pelo art. 1.806, deve sempre constar expressamente de instrumento público ou termo judicial, nunca é tácita; os atos como o funeral do finado e os meramente conservatórios, pelo art. 1.805, § 1º, são exemplos de atos que não geram aceitação, e não de renúncia tácita.",
+        "C": "Inclui a III, que está errada pelo motivo exposto (a renúncia nunca é tácita, e os exemplos citados são, na verdade, de atos que não configuram aceitação), e deixa de fora a I, que reproduz corretamente os arts. 1.784 e 1.785 do Código Civil.",
+        "D": "Inclui a III, que está errada pelo mesmo motivo, e deixa de fora a II, que reproduz corretamente a regra de transmissão da herança do art. 1.788 do Código Civil.",
+        "E": "Não estão todas corretas: a III erra ao atribuir à renúncia da herança uma forma tácita que o art. 1.806 do Código Civil não admite, e ao citar, como exemplo dela, atos que o art. 1.805, § 1º, trata como não configuradores de aceitação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.784, 1.785, 1.788, 1.805, 1.806 e 1.808", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0022",
+      "tema": "Ordem de vocação hereditária e sucessão do companheiro",
+      "enunciado": "Sobre a ordem de vocação hereditária prevista no Código Civil e sua aplicação à sucessão do companheiro, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A sucessão legítima defere-se, em regra, aos descendentes, em concorrência com o cônjuge sobrevivente, salvo se casado este com o falecido no regime da comunhão universal, ou no da separação obrigatória de bens, ou se, no regime da comunhão parcial, o autor da herança não houver deixado bens particulares; na falta de descendentes, são chamados os ascendentes, em concorrência com o cônjuge; e, em falta de descendentes e ascendentes, defere-se a sucessão por inteiro ao cônjuge sobrevivente.",
+        "B": "O Supremo Tribunal Federal, em repercussão geral, declarou constitucional o art. 1.790 do Código Civil, de modo que, até hoje, a sucessão do companheiro em união estável segue regras próprias e mais restritas do que a sucessão do cônjuge, prevista no art. 1.829.",
+        "C": "Ao cônjuge sobrevivente, qualquer que seja o regime de bens, nunca é assegurado o direito real de habitação sobre o imóvel destinado à residência da família, ainda que seja o único bem dessa natureza a inventariar.",
+        "D": "Entre os descendentes, os em grau mais remoto sempre excluem os mais próximos, por prevalecer a presunção de que o falecido desejaria beneficiar a geração mais nova.",
+        "E": "Na falta de cônjuge sobrevivente, nas condições do art. 1.830, e de descendentes ou ascendentes, a herança é desde logo declarada vacante, não sendo chamados os colaterais à sucessão."
+      },
+      "correta": "A",
+      "dica": "Lembre qual foi o resultado do julgamento do STF sobre a diferença de regras sucessórias entre cônjuge e companheiro.",
+      "explicacao": {
+        "A": "Correta. Reproduz o art. 1.829, incisos I a III, do Código Civil, que estabelece a ordem de vocação hereditária e as hipóteses em que o cônjuge concorre, ou não, com os descendentes, conforme o regime de bens.",
+        "B": "O Supremo Tribunal Federal, no julgamento conjunto dos Recursos Extraordinários 646.721 e 878.694, com repercussão geral (10/05/2017), declarou a inconstitucionalidade do art. 1.790 do Código Civil, fixando a tese de que se aplica, tanto ao casamento quanto à união estável, o regime sucessório do art. 1.829 — e não o contrário.",
+        "C": "O art. 1.831 do Código Civil assegura justamente o oposto: ao cônjuge sobrevivente, qualquer que seja o regime de bens, é garantido o direito real de habitação sobre o imóvel destinado à residência da família, desde que seja o único dessa natureza a inventariar.",
+        "D": "O art. 1.833 do Código Civil estabelece a regra oposta: entre os descendentes, os em grau mais próximo excluem os mais remotos, ressalvado apenas o direito de representação.",
+        "E": "O art. 1.839 do Código Civil chama os colaterais até o quarto grau antes de declarar a vacância da herança, que só ocorre, pelo art. 1.844, quando não sobrevier cônjuge, companheiro, nem parente sucessível algum, ou quando todos tiverem renunciado."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.829, 1.831, 1.833, 1.839 e 1.844", "data": "2002-01-10" },
+        { "tipo": "repercussao-geral", "referencia": "STF, RE 646.721 e RE 878.694 (Tema 809), inconstitucionalidade do art. 1.790 do Código Civil", "data": "2017-05-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0023",
+      "tema": "Herdeiros necessários e direito de representação",
+      "enunciado": "Sobre os herdeiros necessários e o direito de representação, nos termos do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São herdeiros necessários os descendentes, os ascendentes e o cônjuge, pertencendo a eles, de pleno direito, a metade dos bens da herança, que constitui a legítima.",
+        "B": "O herdeiro necessário a quem o testador deixar a sua parte disponível, ou algum legado, não perde o direito à legítima.",
+        "C": "Dá-se o direito de representação quando a lei chama certos parentes do falecido a suceder em todos os direitos em que ele sucederia, se vivo fosse, dando-se esse direito tanto na linha reta descendente quanto na ascendente.",
+        "D": "Na linha transversal, somente se dá o direito de representação em favor dos filhos de irmãos do falecido, quando com irmãos deste concorrerem.",
+        "E": "Os representantes só podem herdar, como tais, o que herdaria o representado, se vivo fosse, partindo-se o quinhão do representado por igual entre os representantes."
+      },
+      "correta": "C",
+      "dica": "Confira em qual linha de parentesco o direito de representação é expressamente afastado pelo Código Civil.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 1.845 (rol dos herdeiros necessários) e 1.846 (a legítima corresponde à metade da herança) do Código Civil.",
+        "B": "Correta. É o art. 1.849 do Código Civil: receber a parte disponível ou um legado não retira do herdeiro necessário o seu direito à legítima, que é intangível.",
+        "C": "É a incorreta, e por isso é a resposta. O art. 1.852 do Código Civil é expresso ao limitar o direito de representação à linha reta descendente, afastando-o, categoricamente, da linha ascendente — não existe representação de ascendentes.",
+        "D": "Correta. É o art. 1.853 do Código Civil: na linha transversal (colateral), a representação só beneficia os filhos de irmãos do falecido, concorrendo com irmãos deste.",
+        "E": "Correta. É a combinação dos arts. 1.854 (o representante herda o que herdaria o representado) e 1.855 (partilha igualitária entre os representantes) do Código Civil."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.845, 1.846, 1.849, 1.852, 1.853, 1.854 e 1.855", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0024",
+      "tema": "Herança jacente e vacante; destinação dos bens ao Poder Público",
+      "enunciado": "Sobre a herança jacente, a herança vacante e o pagamento das dívidas do espólio, nos termos do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Falecendo alguém sem deixar testamento nem herdeiro legítimo notoriamente conhecido, os bens da herança, depois de arrecadados, ficarão sob a guarda e administração de um curador, até a entrega ao sucessor devidamente habilitado ou a declaração de sua vacância.",
+        "B": "A declaração de vacância da herança não prejudicará os herdeiros que legalmente se habilitarem; mas, decorridos cinco anos da abertura da sucessão, os bens arrecadados passarão ao domínio do Município ou do Distrito Federal, se localizados nas respectivas circunscrições, incorporando-se ao domínio da União quando situados em território federal.",
+        "C": "A herança responde pelo pagamento das dívidas do falecido; mas, feita a partilha, só respondem os herdeiros, cada qual em proporção da parte que na herança lhe coube.",
+        "D": "Não se habilitando os colaterais até a declaração de vacância, eles permanecem com o direito de reclamar os bens arrecadados a qualquer tempo, ainda que já tenham passado ao domínio do Município, do Distrito Federal ou da União.",
+        "E": "Quando todos os chamados a suceder renunciarem à herança, será esta desde logo declarada vacante."
+      },
+      "correta": "D",
+      "dica": "Veja o que acontece com o direito dos colaterais que não se habilitaram antes da declaração de vacância.",
+      "explicacao": {
+        "A": "Correta. É o art. 1.819 do Código Civil, sobre a arrecadação e a administração da herança jacente até a habilitação do sucessor ou a declaração de vacância.",
+        "B": "Correta. É o art. 1.822, caput, do Código Civil: cinco anos após a abertura da sucessão, os bens arrecadados vão para o Município ou o Distrito Federal da situação do bem, ou para a União, se em território federal — é o destino final dos bens sem sucessor habilitado, que reverte ao Poder Público.",
+        "C": "Correta. É o art. 1.997, caput, do Código Civil, sobre a responsabilidade da herança e, depois da partilha, de cada herdeiro, pelas dívidas do falecido.",
+        "D": "É a incorreta, e por isso é a resposta. O parágrafo único do art. 1.822 do Código Civil diz o oposto: não se habilitando até a declaração de vacância, os colaterais ficam excluídos da sucessão — não há direito de reclamar os bens depois, ainda menos depois de incorporados ao patrimônio do Município, do Distrito Federal ou da União.",
+        "E": "Correta. É o art. 1.823 do Código Civil: a renúncia de todos os chamados a suceder antecipa a declaração de vacância, sem necessidade de aguardar o procedimento normal de habilitação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 1.819, 1.822, 1.823 e 1.997", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

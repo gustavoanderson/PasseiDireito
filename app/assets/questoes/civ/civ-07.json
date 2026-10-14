@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-07",
+    "titulo": "Registros Públicos (Lei 6.015/1973)",
+    "itemEdital": 7
+  },
+  "questoes": [
+    {
+      "id": "civ-0025",
+      "tema": "Princípio da prioridade no Registro de Imóveis",
+      "enunciado": "Sobre o princípio da prioridade no Registro de Imóveis, nos termos da Lei nº 6.015/1973, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O número de ordem determina a prioridade do título, e esta a preferência dos direitos reais, ainda que apresentados pela mesma pessoa mais de um título simultaneamente.",
+        "B": "Apresentado título de segunda hipoteca, com referência expressa à existência de outra anterior, o oficial, depois de prenotá-lo, aguardará durante trinta dias que os interessados na primeira promovam a inscrição; esgotado esse prazo sem que seja apresentado o título anterior, o segundo será inscrito e obterá preferência sobre aquele.",
+        "C": "Não serão registrados, no mesmo dia, títulos pelos quais se constituam direitos reais contraditórios sobre o mesmo imóvel.",
+        "D": "Quando apresentados no mesmo dia, prevalecerão, para efeito de prioridade de registro, os títulos prenotados no Protocolo sob número de ordem mais baixo, regra que se aplica inclusive às escrituras públicas da mesma data e apresentadas no mesmo dia que determinem taxativamente a hora de sua lavratura.",
+        "E": "Nenhuma exigência fiscal, ou dúvida, obstará a apresentação de um título e o seu lançamento no Protocolo com o respectivo número de ordem, nos casos em que da precedência decorra prioridade de direitos para o apresentante."
+      },
+      "correta": "D",
+      "dica": "Veja se a regra do menor número de protocolo vale também para as escrituras públicas que registram a hora exata da lavratura.",
+      "explicacao": {
+        "A": "Correta. É o art. 186 da Lei 6.015/1973, base do princípio da prioridade: o número de ordem do Protocolo determina a preferência entre os direitos reais.",
+        "B": "Correta. É o art. 189 da Lei 6.015/1973: prazo de trinta dias para o titular da hipoteca anterior promover sua inscrição, sob pena de perder a preferência para a segunda hipoteca já prenotada.",
+        "C": "Correta. É o art. 190 da Lei 6.015/1973, que veda o registro simultâneo, no mesmo dia, de direitos reais contraditórios sobre o mesmo imóvel.",
+        "D": "É a incorreta, e por isso é a resposta. O art. 192 da Lei 6.015/1973 abre uma exceção à regra do número de protocolo: ela não se aplica às escrituras públicas da mesma data e apresentadas no mesmo dia que determinem taxativamente a hora de sua lavratura, caso em que prevalece, para a prioridade, a escritura lavrada em primeiro lugar, e não o menor número de protocolo.",
+        "E": "Correta. É o art. 12 da Lei 6.015/1973: nem exigência fiscal, nem dúvida registral impedem o lançamento do título no Protocolo, preservando a prioridade do apresentante."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.015/1973, arts. 12, 186, 189, 190 e 192", "data": "1973-12-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0026",
+      "tema": "Procedimento de dúvida no Registro de Imóveis",
+      "enunciado": "Sobre o procedimento de dúvida registral, nos termos da Lei nº 6.015/1973, analise as afirmativas a seguir.\n\nI. Se houver exigência a ser satisfeita, o oficial a indicará por escrito, dentro do prazo legal, de uma só vez, articuladamente, de forma clara e objetiva; caso o interessado não se conforme ou não seja possível cumpri-la, poderá requerer que o título e a dúvida sejam remetidos ao juízo competente.\nII. Se o interessado não impugnar a dúvida no prazo legal, ela será, ainda assim, julgada por sentença.\nIII. Impugnada a dúvida com os documentos que o interessado apresentar, será ouvido o Ministério Público, no prazo de dez dias.\nIV. A decisão da dúvida tem natureza jurisdicional definitiva, impedindo que a mesma questão seja rediscutida pelas vias do processo contencioso comum.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e III estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Veja que natureza jurídica a lei atribui à decisão da dúvida registral, e se ela fecha as portas do processo contencioso.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a III, que também está certa: pelo art. 200 da Lei 6.015/1973, impugnada a dúvida com os documentos apresentados pelo interessado, o Ministério Público será ouvido no prazo de dez dias.",
+        "B": "Correta. I reproduz o art. 198, caput e incisos V e VI; II reproduz o art. 199; III reproduz o art. 200, todos da Lei 6.015/1973. A IV está errada porque o art. 204 diz o contrário: a decisão da dúvida tem natureza administrativa, e não jurisdicional definitiva, e não impede o uso do processo contencioso competente pela parte interessada.",
+        "C": "Inclui a IV, que está errada (art. 204: a decisão da dúvida é administrativa e não impede o processo contencioso), e deixa de fora a I, que reproduz corretamente o procedimento de exigência do art. 198 da Lei 6.015/1973.",
+        "D": "Inclui a IV, que está errada pelo mesmo motivo, e deixa de fora a II, que reproduz corretamente a regra do art. 199 sobre o julgamento da dúvida não impugnada.",
+        "E": "Não estão todas corretas: a IV contraria o art. 204 da Lei 6.015/1973, que classifica a decisão da dúvida como administrativa, sem efeito de coisa julgada material, podendo a questão ser rediscutida pela via contenciosa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.015/1973, arts. 198, 199, 200 e 204", "data": "1973-12-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0027",
+      "tema": "Princípio da continuidade e abertura de matrícula de imóvel público municipal",
+      "enunciado": "Sobre o princípio da continuidade do registro de imóveis e a abertura de matrícula de imóveis públicos, nos termos da Lei nº 6.015/1973, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Se o imóvel não estiver matriculado ou registrado em nome do outorgante, o oficial exigirá a prévia matrícula e o registro do título anterior, qualquer que seja a sua natureza, para manter a continuidade do registro; e, ainda que o imóvel já esteja matriculado, não se fará registro que dependa da apresentação de título anterior não registrado, pela mesma razão.",
+        "B": "O Município não pode requerer, perante o cartório de registro de imóveis competente, a abertura de matrícula de imóveis públicos oriundos de parcelamento do solo urbano implantado, ainda que não inscritos ou registrados, pois tal iniciativa é exclusiva do loteador privado.",
+        "C": "A exigência de continuidade do registro impede que a Administração Municipal obtenha matrícula de bem público nessas condições sem antes promover ação judicial de usucapião ou de desapropriação contra o loteador.",
+        "D": "O princípio da continuidade do registro de imóveis não se aplica aos casos em que o adquirente seja pessoa jurídica de direito público, dispensando-se, nesses casos, a matrícula ou o registro do título anterior.",
+        "E": "Ainda que o imóvel esteja matriculado, o oficial sempre poderá efetuar o registro de ato que dependa da apresentação de título anterior não registrado, desde que o interessado assine termo de responsabilidade pela regularidade da cadeia dominial."
+      },
+      "correta": "A",
+      "dica": "Veja o que a lei permite ao Município fazer, por via própria, com um imóvel público de loteamento ainda não registrado.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 195 (exigência de prévia matrícula e registro do título anterior quando o imóvel não estiver em nome do outorgante) e 237 (vedação de registro que dependa de título anterior não apresentado, mesmo já havendo matrícula), ambos da Lei 6.015/1973 — as duas faces do princípio da continuidade.",
+        "B": "O art. 195-A da Lei 6.015/1973 prevê exatamente o contrário: o Município pode solicitar ao cartório de registro de imóveis a abertura de matrícula de parte ou da totalidade de imóveis públicos oriundos de parcelamento do solo urbano implantado, ainda que não inscritos ou registrados, mediante requerimento instruído com planta e memorial descritivo.",
+        "C": "Não há essa exigência na Lei 6.015/1973: o art. 195-A permite a abertura da matrícula em nome do Município diretamente pela via administrativa, mediante requerimento e documentos (planta, memorial descritivo, comprovação de intimação dos confrontantes), sem necessidade de ação judicial de usucapião ou de desapropriação.",
+        "D": "Não existe essa exceção na lei: o princípio da continuidade do art. 195 da Lei 6.015/1973 aplica-se a qualquer outorgante, inclusive quando o adquirente for pessoa jurídica de direito público; o que a lei facilita, no art. 195-A, é o procedimento de abertura da matrícula em nome do Município, não a dispensa do princípio da continuidade.",
+        "E": "O art. 237 da Lei 6.015/1973 veda esse registro mesmo havendo matrícula, justamente para preservar a continuidade da cadeia de transmissões; não há previsão de que um termo de responsabilidade do interessado supra essa exigência."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.015/1973, arts. 195, 195-A e 237", "data": "1973-12-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0028",
+      "tema": "Atos sujeitos a registro e a averbação no Registro de Imóveis",
+      "enunciado": "Segundo o art. 167 da Lei nº 6.015/1973, no Registro de Imóveis, além da matrícula, são feitos o registro e a averbação de determinados atos. Assinale a alternativa que associa INCORRETAMENTE o ato ao instrumento (registro ou averbação) exigido pela lei.",
+      "alternativas": {
+        "A": "Registro: das hipotecas legais, judiciais e convencionais.",
+        "B": "Registro: da instituição de bem de família.",
+        "C": "Averbação: das convenções antenupciais e do regime de bens diverso do legal, nos registros referentes a imóveis ou a direitos reais pertencentes a qualquer dos cônjuges.",
+        "D": "Averbação: do penhor de máquinas e de aparelhos utilizados na indústria, instalados e em funcionamento.",
+        "E": "Averbação: da mudança de denominação e de numeração dos prédios, da edificação, da reconstrução, da demolição, do desmembramento e do loteamento de imóveis."
+      },
+      "correta": "D",
+      "dica": "Veja em qual dos dois incisos do art. 167 (registro ou averbação) a lei coloca o penhor de máquinas industriais.",
+      "explicacao": {
+        "A": "Correta a associação. O item 2 do inciso I do art. 167 da Lei 6.015/1973 inclui as hipotecas legais, judiciais e convencionais entre os atos de registro.",
+        "B": "Correta a associação. O item 1 do inciso I do art. 167 da Lei 6.015/1973 inclui a instituição de bem de família entre os atos de registro.",
+        "C": "Correta a associação. O item 1 do inciso II do art. 167 da Lei 6.015/1973 inclui as convenções antenupciais e o regime de bens diverso do legal entre os atos de averbação.",
+        "D": "É a resposta, porque a associação está errada. O penhor de máquinas e de aparelhos utilizados na indústria está no item 4 do inciso I do art. 167 da Lei 6.015/1973, entre os atos de registro, e não de averbação.",
+        "E": "Correta a associação. O item 4 do inciso II do art. 167 da Lei 6.015/1973 inclui a mudança de denominação e numeração dos prédios, edificação, reconstrução, demolição, desmembramento e loteamento entre os atos de averbação."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 6.015/1973, art. 167", "data": "1973-12-31" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

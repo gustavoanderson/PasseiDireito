@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-02",
+    "titulo": "Obrigações e Contratos",
+    "itemEdital": 2
+  },
+  "questoes": [
+    {
+      "id": "civ-0005",
+      "tema": "Obrigações solidárias",
+      "enunciado": "Sobre a solidariedade nas obrigações, disciplinada pelos arts. 264 a 285 do Código Civil, analise as afirmativas a seguir.\n\nI. Há solidariedade quando, na mesma obrigação, concorre mais de um credor, ou mais de um devedor, cada um com direito, ou obrigado, à dívida toda.\nII. A solidariedade se presume sempre que houver pluralidade de credores ou devedores em uma mesma obrigação, ainda que o título constitutivo nada diga a respeito.\nIII. O credor pode exigir e receber de um ou de alguns dos devedores solidários, parcial ou totalmente, a dívida comum, continuando os demais obrigados solidariamente pelo restante, se o pagamento tiver sido parcial.\nIV. O devedor solidário que satisfez a dívida por inteiro tem direito a exigir de cada um dos codevedores a sua quota, dividindo-se igualmente entre todos a quota do insolvente, se houver.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e III estão corretas.",
+        "B": "Somente I, II e III estão corretas.",
+        "C": "Somente I, III e IV estão corretas.",
+        "D": "Somente II, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "C",
+      "dica": "Confira se a solidariedade nasce automaticamente da simples pluralidade de credores ou devedores, ou se depende de algo mais.",
+      "explicacao": {
+        "A": "Incompleta. I e III estão corretas, mas falta a IV, que também está certa: pelo art. 283 do Código Civil, o devedor solidário que pagou a dívida toda pode cobrar de cada codevedor a sua quota, repartindo-se entre todos, igualmente, a quota do insolvente.",
+        "B": "Inclui a II, que está errada (o art. 265 do Código Civil diz que a solidariedade não se presume, resulta da lei ou da vontade das partes), e deixa de fora a IV, que reproduz corretamente o direito de regresso do art. 283.",
+        "C": "Correta. I reproduz o art. 264; III reproduz o art. 275, caput; IV reproduz o art. 283, todos do Código Civil. A II está errada porque o art. 265 afirma o contrário: a solidariedade não se presume, resulta da lei ou da vontade das partes.",
+        "D": "Inclui a II, que está errada pelo mesmo motivo (art. 265: a solidariedade não se presume), e deixa de fora a I, que reproduz corretamente o conceito de solidariedade do art. 264 do Código Civil.",
+        "E": "Não estão todas corretas: a II contraria o art. 265 do Código Civil, que exige lei ou vontade das partes para haver solidariedade, afastando qualquer presunção automática."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 264, 265, 275 e 283", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0006",
+      "tema": "Inadimplemento das obrigações, mora e cláusula penal",
+      "enunciado": "Sobre o inadimplemento das obrigações, a mora e a cláusula penal, nos termos do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "O inadimplemento da obrigação positiva e líquida, em seu termo, constitui de pleno direito em mora o devedor; não havendo termo, a mora se constitui mediante interpelação judicial ou extrajudicial.",
+        "B": "O devedor em mora responde pela impossibilidade da prestação, ainda que essa impossibilidade resulte de caso fortuito ou de força maior, se estes ocorrerem durante o atraso, salvo se o devedor provar isenção de culpa ou que o dano sobreviria ainda que a obrigação fosse oportunamente cumprida.",
+        "C": "Incorre de pleno direito o devedor na cláusula penal desde que, culposamente, deixe de cumprir a obrigação ou se constitua em mora, não podendo o valor da cominação exceder o da obrigação principal.",
+        "D": "Para exigir a pena convencional, é necessário que o credor alegue e comprove prejuízo efetivo, funcionando a cláusula penal apenas como teto máximo da indenização, nunca como valor mínimo garantido.",
+        "E": "A penalidade deve ser reduzida equitativamente pelo juiz se a obrigação principal tiver sido cumprida em parte, ou se o montante da penalidade for manifestamente excessivo, tendo-se em vista a natureza e a finalidade do negócio."
+      },
+      "correta": "D",
+      "dica": "Veja se a cláusula penal funciona só como teto máximo da indenização ou também pode servir de piso mínimo.",
+      "explicacao": {
+        "A": "Correta. É o art. 397, caput e parágrafo único, do Código Civil: havendo termo certo, a mora é automática; não havendo termo, depende de interpelação judicial ou extrajudicial.",
+        "B": "Correta. É o art. 399 do Código Civil: o devedor em mora responde até pelo caso fortuito ou força maior ocorridos durante o atraso, salvo se provar que não teve culpa ou que o dano ocorreria de qualquer forma.",
+        "C": "Correta. É a combinação dos arts. 408 (a cláusula penal incide de pleno direito havendo culpa do devedor) e 412 (o valor da cominação não pode exceder o da obrigação principal), ambos do Código Civil.",
+        "D": "É a incorreta, e por isso é a resposta. O art. 416, caput, do Código Civil diz o oposto: não é necessário que o credor alegue prejuízo para exigir a pena convencional. E, pelo parágrafo único, se as partes convencionarem indenização suplementar, a cláusula penal vale como valor mínimo da indenização, e não apenas como teto.",
+        "E": "Correta. É o art. 413 do Código Civil, que autoriza a redução equitativa da cláusula penal pelo juiz, no cumprimento parcial da obrigação ou no excesso manifesto da penalidade."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 397, 399, 408, 412, 413 e 416", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0007",
+      "tema": "Função social e boa-fé nos contratos; vícios redibitórios e evicção",
+      "enunciado": "Sobre os princípios contratuais e as garantias do adquirente nos contratos onerosos, nos termos do Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A liberdade contratual será exercida nos limites da função social do contrato, prevalecendo, nas relações contratuais privadas, o princípio da intervenção mínima e a excepcionalidade da revisão contratual.",
+        "B": "Os contratantes são obrigados a guardar os princípios de probidade e boa-fé apenas no momento da execução do contrato, não se exigindo tal conduta na fase de formação ou conclusão do negócio.",
+        "C": "A coisa recebida em virtude de contrato comutativo não pode ser enjeitada por vícios ou defeitos ocultos quando a doação for onerosa, aplicando-se a disciplina dos vícios redibitórios apenas às doações puras.",
+        "D": "Subsiste a responsabilidade do alienante pela evicção ainda que a coisa alienada esteja deteriorada, inclusive quando a deterioração decorrer de dolo do próprio adquirente.",
+        "E": "O adquirente decai do direito de obter a redibição ou o abatimento no preço, por vício oculto, no prazo de um ano se a coisa for móvel e de trinta dias se for imóvel, contado da entrega efetiva."
+      },
+      "correta": "A",
+      "dica": "No artigo sobre prazos de decadência dos vícios redibitórios, veja qual prazo é mais curto: o da coisa móvel ou o da coisa imóvel.",
+      "explicacao": {
+        "A": "Correta. É o art. 421, caput e parágrafo único, do Código Civil, com a redação dada pela Lei 13.874/2019: a liberdade contratual é limitada pela função social do contrato e, nas relações privadas, prevalecem a intervenção mínima e a excepcionalidade da revisão judicial do contrato.",
+        "B": "O art. 422 do Código Civil exige boa-fé e probidade tanto na conclusão quanto na execução do contrato, ao contrário do que diz a alternativa, que restringe a exigência apenas à fase de execução.",
+        "C": "O parágrafo único do art. 441 do Código Civil diz o oposto: a disciplina dos vícios redibitórios também se aplica às doações onerosas, e não só às puras, exatamente porque nestas o donatário assume algum encargo em contrapartida.",
+        "D": "O art. 451 do Código Civil ressalva expressamente o dolo do adquirente: a responsabilidade do alienante pela evicção, mesmo com a coisa deteriorada, não subsiste se a deterioração decorreu de dolo de quem adquiriu a coisa.",
+        "E": "Os prazos estão trocados. Pelo art. 445 do Código Civil, o prazo para obter a redibição ou o abatimento no preço é de trinta dias para bem móvel e de um ano para bem imóvel, contado da entrega efetiva — o inverso do que afirma a alternativa."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 421, 422, 441, 445 e 451", "data": "2002-01-10" },
+        { "tipo": "lei", "referencia": "Lei 13.874/2019, que deu nova redação ao art. 421 do Código Civil", "data": "2019-09-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0008",
+      "tema": "Fiança: constituição, benefício de ordem e extinção",
+      "enunciado": "Sobre o contrato de fiança, disciplinado pelos arts. 818 a 839 do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "A fiança dar-se-á por escrito e não admite interpretação extensiva, podendo ser estipulada ainda que sem o consentimento do devedor ou contra a sua vontade.",
+        "B": "O fiador demandado pelo pagamento da dívida tem direito a exigir, até a contestação da lide, que sejam primeiro executados os bens do devedor, benefício que não aproveita ao fiador que se obrigou como principal pagador ou devedor solidário.",
+        "C": "Não sendo limitada, a fiança compreenderá todos os acessórios da dívida principal, inclusive as despesas judiciais, desde a citação do fiador.",
+        "D": "O fiador poderá exonerar-se da fiança assinada sem limitação de tempo sempre que lhe convier, ficando imediatamente desobrigado de todos os efeitos da fiança a partir da notificação ao credor, ainda que a dívida já esteja vencida.",
+        "E": "O fiador, ainda que solidário, ficará desobrigado se, sem consentimento seu, o credor conceder moratória ao devedor, ou se, por fato do credor, for impossível a sub-rogação do fiador nos seus direitos e preferências."
+      },
+      "correta": "D",
+      "dica": "Veja a partir de quando a exoneração do fiador, numa fiança sem prazo, produz efeito pleno.",
+      "explicacao": {
+        "A": "Correta. É a combinação dos arts. 819 (forma escrita, sem interpretação extensiva) e 820 (dispensa de consentimento do devedor) do Código Civil.",
+        "B": "Correta. É o art. 827, caput, do Código Civil (benefício de ordem), afastado pelo art. 828, II, quando o fiador se obriga como principal pagador ou devedor solidário.",
+        "C": "Correta. É o art. 822 do Código Civil: a fiança sem limitação abrange todos os acessórios da dívida principal, inclusive as despesas judiciais desde a citação do fiador.",
+        "D": "É a incorreta, e por isso é a resposta. O art. 835 do Código Civil não desobriga o fiador de imediato: ele continua respondendo por todos os efeitos da fiança durante sessenta dias após a notificação ao credor, e só depois desse prazo a exoneração produz efeito pleno.",
+        "E": "Correta. É o art. 838, incisos I e II, do Código Civil, que libera o fiador, mesmo solidário, na moratória concedida sem seu consentimento e na impossibilidade de sub-rogação causada pelo credor."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 819, 820, 822, 827, 828, 835 e 838", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

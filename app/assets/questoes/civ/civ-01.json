@@ -1,0 +1,112 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-01",
+    "titulo": "Parte Geral: LINDB, pessoas, bens e negócio jurídico",
+    "itemEdital": 1
+  },
+  "questoes": [
+    {
+      "id": "civ-0001",
+      "tema": "Prescrição quinquenal contra a Fazenda Pública",
+      "enunciado": "Sobre a prescrição das dívidas e ações contra a Fazenda Pública, disciplinada pelo Decreto nº 20.910/1932, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "Prescrevem em cinco anos, contados da data do ato ou fato de que se originarem, as dívidas passivas da União, dos Estados e dos Municípios, bem como todo e qualquer direito ou ação contra a Fazenda Pública, seja qual for a sua natureza.",
+        "B": "Quando o pagamento for dividido por dias, meses ou anos, a prescrição atinge progressivamente as prestações à medida que completarem os respectivos prazos.",
+        "C": "A prescrição contra a Fazenda Pública pode ser interrompida quantas vezes forem necessárias, desde que sobrevenha novo fato interruptivo idôneo.",
+        "D": "Interrompida a prescrição, o prazo recomeça a correr pela metade, contado da data do ato que a interrompeu ou do último ato do processo respectivo.",
+        "E": "As regras do Decreto nº 20.910/1932 não alteram os prazos de prescrição de menor duração previstos em leis e regulamentos especiais, os quais permanecem subordinados às mesmas regras de suspensão e interrupção."
+      },
+      "correta": "C",
+      "dica": "Releia o artigo que diz quantas vezes a prescrição contra a Fazenda Pública pode ser interrompida.",
+      "explicacao": {
+        "A": "Correta. É o art. 1º do Decreto 20.910/1932: cinco anos, contados da data do ato ou fato que deu origem ao direito ou à ação, para toda e qualquer dívida ou direito contra a Fazenda federal, estadual ou municipal.",
+        "B": "Correta. É o art. 3º do Decreto 20.910/1932: pagamentos divididos em prestações periódicas prescrevem prestação a prestação, à medida que cada uma completa o prazo de cinco anos, e não todas de uma só vez.",
+        "C": "É a incorreta, e por isso é a resposta. O art. 8º do Decreto 20.910/1932 diz o oposto: a prescrição contra a Fazenda Pública somente pode ser interrompida uma única vez, ainda que surjam novos fatos interruptivos depois da primeira interrupção.",
+        "D": "Correta. É o art. 9º do Decreto 20.910/1932: depois de interrompida (uma única vez, por força do art. 8º), a prescrição recomeça a correr pela metade do prazo original, contada da data do ato interruptivo ou do último ato do processo.",
+        "E": "Correta. É o art. 10 do Decreto 20.910/1932: o decreto não revoga os prazos de prescrição menores previstos em leis especiais; esses prazos mais curtos continuam valendo, subordinados porém às mesmas regras de suspensão e interrupção do próprio decreto."
+      },
+      "fontes": [
+        { "tipo": "decreto", "referencia": "Decreto 20.910/1932, arts. 1º, 3º, 8º, 9º e 10", "data": "1932-01-06" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0002",
+      "tema": "Bens públicos: classificação e regime jurídico",
+      "enunciado": "Sobre os bens públicos, nos termos dos arts. 98 a 103 do Código Civil, analise as afirmativas a seguir.\n\nI. São bens públicos os de uso comum do povo, os de uso especial e os dominicais, sendo estes últimos os que constituem o patrimônio das pessoas jurídicas de direito público, como objeto de direito pessoal ou real.\nII. Os bens públicos de uso comum do povo e os de uso especial são inalienáveis, enquanto conservarem essa qualificação, na forma que a lei determinar.\nIII. Os bens públicos dominicais podem ser alienados, observadas as exigências legais, e também estão sujeitos à aquisição por usucapião quando o particular exercer posse mansa e pacífica por prazo superior a quinze anos.\nIV. Não dispondo a lei em contrário, consideram-se dominicais os bens pertencentes às pessoas jurídicas de direito público a que se tenha dado estrutura de direito privado.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e IV estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Veja se um bem público dominical, mesmo sendo alienável, pode também ser adquirido por usucapião.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a IV, que também está certa: o parágrafo único do art. 99 do Código Civil classifica como dominicais os bens das pessoas jurídicas de direito público que tiverem estrutura de direito privado, salvo disposição legal em contrário.",
+        "B": "Correta. I reproduz o art. 99, incisos I a III; II reproduz o art. 100 (inalienabilidade dos bens de uso comum e de uso especial enquanto conservarem essa qualificação); IV reproduz o parágrafo único do art. 99. A III está errada porque o art. 102 do Código Civil veda a usucapião de bens públicos, inclusive dos dominicais.",
+        "C": "Inclui a III, que está errada, e deixa de fora a I. O art. 102 do Código Civil é categórico: os bens públicos não estão sujeitos a usucapião, nem mesmo os dominicais, que só podem ser alienados pela via contratual própria, observadas as exigências legais do art. 101.",
+        "D": "Inclui a III, que está errada pelo mesmo motivo (art. 102: nenhum bem público, nem o dominical, se adquire por usucapião), e deixa de fora a II, que reproduz corretamente a regra de inalienabilidade do art. 100 do Código Civil.",
+        "E": "Não estão todas corretas: a III contraria o art. 102 do Código Civil, que proíbe a usucapião de bens públicos sem exceção, ainda que o bem dominical possa ser alienado pela via própria do art. 101."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 98 a 103", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0003",
+      "tema": "Pessoa jurídica: desconsideração da personalidade jurídica",
+      "enunciado": "Com base no art. 50 do Código Civil, que disciplina a desconsideração da personalidade jurídica, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "A desconsideração pode ser decretada de ofício pelo juiz, independentemente de requerimento da parte ou do Ministério Público, sempre que verificado qualquer prejuízo a credores.",
+        "B": "Caracteriza confusão patrimonial, para os fins do art. 50, a mera existência de grupo econômico entre sociedades, ainda que não haja outros elementos de ausência de separação patrimonial de fato.",
+        "C": "Configurado o abuso da personalidade jurídica, caracterizado por desvio de finalidade ou confusão patrimonial, pode o juiz, a requerimento da parte ou do Ministério Público quando lhe couber intervir, estender os efeitos de certas e determinadas obrigações aos bens particulares de administradores ou sócios beneficiados direta ou indiretamente pelo abuso.",
+        "D": "O desvio de finalidade, para fins de desconsideração, configura-se pela mera expansão ou alteração da finalidade original da atividade econômica específica da pessoa jurídica.",
+        "E": "A desconsideração da personalidade jurídica somente pode ser requerida para estender aos sócios obrigações da sociedade, sendo vedada sua aplicação inversa, isto é, para estender à própria pessoa jurídica obrigações de sócios ou administradores."
+      },
+      "correta": "C",
+      "dica": "Confira, no caput do art. 50, quem pode pedir a desconsideração e o que a lei entende por abuso da personalidade jurídica.",
+      "explicacao": {
+        "A": "O art. 50, caput, exige requerimento da parte ou do Ministério Público, quando lhe couber intervir no processo; a desconsideração não pode ser decretada de ofício pelo juiz, ao contrário do que diz a alternativa.",
+        "B": "O § 4º do art. 50 afirma o oposto: a mera existência de grupo econômico, sem a presença dos requisitos do caput (desvio de finalidade ou confusão patrimonial), não autoriza a desconsideração da personalidade jurídica.",
+        "C": "Correta. É a redação do caput do art. 50 do Código Civil, dada pela Lei 13.874/2019 (Lei da Liberdade Econômica): exige requerimento da parte ou do Ministério Público e abuso caracterizado por desvio de finalidade ou confusão patrimonial.",
+        "D": "O § 5º do art. 50 afirma o contrário: não constitui desvio de finalidade a mera expansão ou a alteração da finalidade original da atividade econômica específica da pessoa jurídica.",
+        "E": "O § 3º do art. 50 prevê expressamente a chamada desconsideração inversa: o disposto no caput e nos §§ 1º e 2º também se aplica à extensão das obrigações de sócios ou administradores à própria pessoa jurídica."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), art. 50", "data": "2002-01-10" },
+        { "tipo": "lei", "referencia": "Lei 13.874/2019, que deu nova redação ao art. 50 do Código Civil", "data": "2019-09-20" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0004",
+      "tema": "Negócio jurídico: defeitos e invalidade",
+      "enunciado": "Sobre os defeitos do negócio jurídico e as hipóteses de nulidade e anulabilidade previstas no Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "É nulo o negócio jurídico celebrado por pessoa absolutamente incapaz, bem como aquele cujo objeto for ilícito, impossível ou indeterminável.",
+        "B": "Configura-se o estado de perigo quando alguém, premido da necessidade de salvar-se, ou a pessoa de sua família, de grave dano conhecido pela outra parte, assume obrigação excessivamente onerosa.",
+        "C": "É de quatro anos o prazo de decadência para pleitear a anulação do negócio jurídico por coação, contado do dia em que esta cessar; para o erro, o dolo, a fraude contra credores, o estado de perigo ou a lesão, o prazo também é de quatro anos, mas contado do dia em que se realizou o negócio jurídico.",
+        "D": "Os negócios de transmissão gratuita de bens, praticados pelo devedor já insolvente, podem ser anulados por qualquer credor quirografário, a qualquer tempo, ainda que este não fosse credor à época do ato, bastando comprovar a lesão aos seus direitos.",
+        "E": "Ocorre a lesão quando uma pessoa, sob premente necessidade ou por inexperiência, se obriga a prestação manifestamente desproporcional ao valor da prestação oposta, não se decretando a anulação do negócio se for oferecido suplemento suficiente ou se a parte favorecida concordar com a redução do proveito."
+      },
+      "correta": "D",
+      "dica": "Veja, no artigo sobre fraude contra credores, quem precisa já ser credor para poder pedir a anulação.",
+      "explicacao": {
+        "A": "Correta. Reproduz os incisos I e II do art. 166 do Código Civil, que trata das hipóteses de nulidade do negócio jurídico.",
+        "B": "Correta. É a definição de estado de perigo do art. 156 do Código Civil, um dos defeitos do negócio jurídico que o tornam anulável, nos termos do art. 171, II.",
+        "C": "Correta. É o art. 178 do Código Civil: quatro anos para anular por coação, contados do dia em que esta cessar, e, para erro, dolo, fraude contra credores, estado de perigo ou lesão, quatro anos contados do dia em que se realizou o negócio jurídico.",
+        "D": "É a incorreta, e por isso é a resposta. O § 2º do art. 158 do Código Civil restringe esse direito: só podem pleitear a anulação os credores que já o eram ao tempo da transmissão gratuita ou da redução do devedor à insolvência; quem se tornou credor depois não tem legitimidade para a ação pauliana.",
+        "E": "Correta. É a definição de lesão do art. 157, caput e § 2º, do Código Civil, que afasta a anulação do negócio quando houver suplemento do preço ou concordância da parte favorecida com a redução do proveito."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 156, 157, 158, 166, 171 e 178", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "versaoFormato": 1,
+  "materia": "civ",
+  "unidade": {
+    "id": "civ-03",
+    "titulo": "Responsabilidade Civil",
+    "itemEdital": 3
+  },
+  "questoes": [
+    {
+      "id": "civ-0009",
+      "tema": "Teorias e elementos da responsabilidade civil",
+      "enunciado": "Sobre as teorias e os elementos da responsabilidade civil, nos termos do Código Civil, assinale a alternativa correta.",
+      "alternativas": {
+        "A": "Comete ato ilícito aquele que, por ação ou omissão voluntária, negligência ou imprudência, viola direito e causa dano a outrem, ainda que exclusivamente moral; também comete ato ilícito o titular de um direito que, ao exercê-lo, excede manifestamente os limites impostos pelo seu fim econômico ou social, pela boa-fé ou pelos bons costumes.",
+        "B": "A responsabilidade civil subjetiva é a única admitida pelo Código Civil, sendo vedada a responsabilização sem culpa, ainda que a atividade normalmente desenvolvida pelo autor do dano implique, por sua natureza, risco para os direitos de outrem.",
+        "C": "O dano é elemento dispensável da responsabilidade civil, bastando a conduta culposa e o nexo de causalidade para gerar o dever de indenizar, independentemente de qualquer prejuízo concreto sofrido pela vítima.",
+        "D": "A responsabilidade civil depende da responsabilidade criminal, não podendo o juízo cível reconhecer o dever de indenizar enquanto não transitada em julgado a sentença penal sobre o mesmo fato.",
+        "E": "O abuso de direito, para o Código Civil, somente se configura quando há dolo específico de prejudicar terceiro, sendo irrelevante o excesso objetivo aos limites econômicos, sociais ou à boa-fé."
+      },
+      "correta": "A",
+      "dica": "Compare o ato ilícito do art. 186 com a hipótese em que a lei dispensa a prova de culpa do autor do dano.",
+      "explicacao": {
+        "A": "Correta. Reproduz os arts. 186 (ato ilícito por violação de direito, com dano, ainda que só moral) e 187 (abuso de direito, pelo excesso aos limites do fim econômico, social, da boa-fé ou dos bons costumes) do Código Civil, duas das bases da responsabilidade civil subjetiva e do abuso de direito.",
+        "B": "O parágrafo único do art. 927 do Código Civil admite expressamente a responsabilidade objetiva, independente de culpa, nos casos especificados em lei ou quando a atividade normalmente desenvolvida pelo autor do dano implicar risco para os direitos de outrem (teoria do risco).",
+        "C": "O dano é elemento indispensável da responsabilidade civil: sem prejuízo concreto não há o que reparar, por mais grave que tenha sido a conduta do agente. A obrigação de indenizar, pelo art. 927, pressupõe a existência de dano a reparar.",
+        "D": "O art. 935 do Código Civil estabelece o contrário: a responsabilidade civil é independente da criminal, só se vinculando ao juízo penal quando lá já estiverem decididas a existência do fato ou a autoria.",
+        "E": "O abuso de direito do art. 187 do Código Civil é aferido objetivamente, pelo excesso manifesto aos limites do fim econômico ou social do direito, da boa-fé ou dos bons costumes, sendo dispensável a prova de dolo específico de prejudicar."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 186, 187, 927 e 935", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0010",
+      "tema": "Responsabilidade civil por fato de terceiro",
+      "enunciado": "Sobre a responsabilidade civil por fato de terceiro, nos termos dos arts. 932 a 934 do Código Civil, assinale a alternativa INCORRETA.",
+      "alternativas": {
+        "A": "São responsáveis pela reparação civil os pais, pelos filhos menores que estiverem sob sua autoridade e em sua companhia, e o empregador ou comitente, por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir ou em razão dele.",
+        "B": "As pessoas indicadas nos incisos I a V do art. 932 respondem pelos atos praticados pelos terceiros ali referidos somente se ficar demonstrada culpa in vigilando ou in eligendo de sua parte.",
+        "C": "Os donos de hotéis, hospedarias, casas ou estabelecimentos onde se albergue por dinheiro respondem pelos seus hóspedes, moradores e educandos, mesmo para fins de educação.",
+        "D": "Aquele que ressarcir o dano causado por outrem pode reaver o que houver pago daquele por quem pagou, salvo se o causador do dano for descendente seu, absoluta ou relativamente incapaz.",
+        "E": "Também são responsáveis pela reparação civil o tutor e o curador, pelos pupilos e curatelados que se acharem sob sua autoridade e companhia."
+      },
+      "correta": "B",
+      "dica": "Veja se a responsabilidade das pessoas listadas no art. 932 exige prova de culpa própria ou dispensa essa prova.",
+      "explicacao": {
+        "A": "Correta. Reproduz os incisos I e III do art. 932 do Código Civil, que atribuem responsabilidade aos pais pelos filhos menores sob sua autoridade e companhia, e ao empregador ou comitente pelos atos de empregados e prepostos no exercício do trabalho.",
+        "B": "É a incorreta, e por isso é a resposta. O art. 933 do Código Civil diz o oposto: as pessoas dos incisos I a V do art. 932 respondem pelos atos de terceiros ainda que não haja culpa de sua parte — é responsabilidade objetiva, dispensada a prova de culpa in vigilando ou in eligendo.",
+        "C": "Correta. É o art. 932, IV, do Código Civil, que responsabiliza hotéis, hospedarias e estabelecimentos semelhantes pelos danos causados por seus hóspedes, moradores e educandos.",
+        "D": "Correta. É o art. 934 do Código Civil: quem ressarciu o dano causado por outrem tem ação regressiva, salvo se o causador do dano for descendente seu, absoluta ou relativamente incapaz.",
+        "E": "Correta. É o art. 932, II, do Código Civil, que responsabiliza tutor e curador pelos atos de pupilos e curatelados nas mesmas condições dos filhos menores."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 932, 933 e 934", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0011",
+      "tema": "Extensão do dano e indenização (dano material, moral e estético)",
+      "enunciado": "Sobre a extensão do dano e a indenização, nos termos dos arts. 944 a 954 do Código Civil, analise as afirmativas a seguir.\n\nI. A indenização mede-se pela extensão do dano, podendo o juiz reduzi-la equitativamente se houver excessiva desproporção entre a gravidade da culpa e o dano.\nII. Se a vítima tiver concorrido culposamente para o evento danoso, a sua indenização será fixada tendo-se em conta a gravidade de sua culpa em confronto com a do autor do dano.\nIII. No caso de lesão ou outra ofensa à saúde que resulte em defeito pelo qual o ofendido não possa exercer seu ofício ou profissão, a indenização incluirá pensão correspondente à importância do trabalho para que se inabilitou, sempre a ser paga mensalmente, sendo vedado o arbitramento em parcela única.\nIV. Se o ofendido, em caso de injúria, difamação ou calúnia, não puder provar prejuízo material, caberá ao juiz fixar, equitativamente, o valor da indenização, na conformidade das circunstâncias do caso.\n\nAssinale a alternativa CORRETA.",
+      "alternativas": {
+        "A": "Somente I e II estão corretas.",
+        "B": "Somente I, II e IV estão corretas.",
+        "C": "Somente II, III e IV estão corretas.",
+        "D": "Somente I, III e IV estão corretas.",
+        "E": "Todas as afirmativas estão corretas."
+      },
+      "correta": "B",
+      "dica": "Veja se o prejudicado, que tem direito a pensão por invalidez para o trabalho, pode escolher recebê-la de uma só vez.",
+      "explicacao": {
+        "A": "Incompleta. I e II estão corretas, mas falta a IV, que também está certa: pelo parágrafo único do art. 953 do Código Civil, não provado o prejuízo material em caso de injúria, difamação ou calúnia, cabe ao juiz arbitrar a indenização equitativamente.",
+        "B": "Correta. I reproduz o art. 944, caput e parágrafo único; II reproduz o art. 945; IV reproduz o parágrafo único do art. 953, todos do Código Civil. A III está errada porque o parágrafo único do art. 950 dá ao prejudicado a opção de exigir que a indenização seja arbitrada e paga de uma só vez, e não a veda.",
+        "C": "Inclui a III, que está errada (o art. 950, parágrafo único, permite, e não proíbe, o pagamento em parcela única, a critério do prejudicado), e deixa de fora a I, que reproduz corretamente a regra geral de mensuração do dano do art. 944.",
+        "D": "Inclui a III, que está errada pelo mesmo motivo (art. 950, parágrafo único), e deixa de fora a II, que reproduz corretamente a regra sobre culpa concorrente da vítima do art. 945 do Código Civil.",
+        "E": "Não estão todas corretas: a III contraria o parágrafo único do art. 950 do Código Civil, que faculta ao prejudicado exigir o pagamento da pensão de uma só vez, em vez de só mensalmente."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 944, 945, 950 e 953", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    },
+    {
+      "id": "civ-0012",
+      "tema": "Hipóteses de responsabilidade civil objetiva no Código Civil",
+      "enunciado": "O Código Civil prevê diversas hipóteses de responsabilidade civil independente de culpa. Assinale a alternativa que NÃO corresponde a uma dessas hipóteses, tal como disciplinada pelo próprio Código.",
+      "alternativas": {
+        "A": "O dono, ou detentor, do animal ressarcirá o dano por este causado, se não provar culpa da vítima ou força maior.",
+        "B": "O dono de edifício ou construção responde pelos danos que resultarem de sua ruína, se esta provier de falta de reparos cuja necessidade fosse manifesta.",
+        "C": "Os empresários individuais e as empresas respondem independentemente de culpa pelos danos causados pelos produtos postos em circulação, ressalvados outros casos previstos em lei especial.",
+        "D": "Aquele que habitar prédio, ou parte dele, responde pelo dano proveniente das coisas que dele caírem ou forem lançadas em lugar indevido.",
+        "E": "O credor que demandar o devedor antes de vencida a dívida, fora dos casos em que a lei o permita, somente responderá pelos prejuízos causados ao devedor se ficar comprovada a sua má-fé na cobrança antecipada."
+      },
+      "correta": "E",
+      "dica": "Olhe com atenção o artigo sobre cobrança de dívida antes do vencimento: ele exige prova de má-fé do credor para a sanção incidir?",
+      "explicacao": {
+        "A": "É uma hipótese de responsabilidade objetiva: o art. 936 do Código Civil inverte o ônus da prova, cabendo ao dono ou detentor do animal provar culpa da vítima ou força maior para se eximir, e não à vítima provar a culpa do dono.",
+        "B": "É uma hipótese de responsabilidade objetiva: o art. 937 do Código Civil responsabiliza o dono do edifício pela ruína decorrente de falta de reparos manifestamente necessários, sem exigir prova de culpa específica na conduta do proprietário.",
+        "C": "É uma hipótese de responsabilidade objetiva: o art. 931 do Código Civil responsabiliza empresários e empresas, independentemente de culpa, pelos danos causados por produtos postos em circulação, ressalvados os casos de lei especial.",
+        "D": "É uma hipótese de responsabilidade objetiva: o art. 938 do Código Civil responsabiliza quem habita o prédio pelas coisas que dele caírem ou forem lançadas em lugar indevido, sem exigir prova de que o próprio morador causou a queda.",
+        "E": "É a resposta: o art. 939 do Código Civil não trata de responsabilidade objetiva por fato de animal, de coisa ou de produto, mas de uma sanção automática ao credor que cobra dívida antes do vencimento fora dos casos legais — ele terá de esperar o prazo faltante, descontar os juros e pagar custas em dobro, independentemente de prova de má-fé."
+      },
+      "fontes": [
+        { "tipo": "lei", "referencia": "Lei 10.406/2002 (Código Civil), arts. 931, 936, 937, 938 e 939", "data": "2002-01-10" }
+      ],
+      "origem": { "tipo": "inedita" }
+    }
+  ]
+}
