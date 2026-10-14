@@ -16,6 +16,7 @@ Questao _q(String id, String unidade) => Questao(
       dica: 'Dica da $id.',
       explicacao: {for (final l in letras) l: 'Explicação $l da $id'},
       fontes: const [Fonte(referencia: 'Lei X')],
+      origem: const Origem(tipo: 'inedita'),
     );
 
 Unidade _u(String id, String titulo, List<String> questoes) => Unidade(

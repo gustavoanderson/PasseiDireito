@@ -139,6 +139,8 @@ class _TelaQuestaoState extends State<TelaQuestao> {
                       Text(q.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
                     ],
                   ),
+                  const SizedBox(height: 6),
+                  _Origem(q.origem),
                   if (q.alerta != null) ...[
                     const SizedBox(height: 12),
                     FlagMudanca(q.alerta!),
@@ -219,6 +221,40 @@ class _Etiqueta extends StatelessWidget {
           color: esquema.primary,
         ),
       ),
+    );
+  }
+}
+
+/// De qual prova real a questão foi tirada, ou que é uma questão inédita.
+/// A Flávia pediu isso explicitamente: precisa poder conferir, questão por
+/// questão, se o conteúdo bate com o edital de Curitiba.
+class _Origem extends StatelessWidget {
+  const _Origem(this.origem);
+
+  final Origem origem;
+
+  @override
+  Widget build(BuildContext context) {
+    final esquema = Theme.of(context).colorScheme;
+    final texto = origem.adaptada ? 'Prova de origem: ${origem.prova}' : 'Questão inédita, elaborada para este edital';
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Icon(
+          origem.adaptada ? Icons.description_outlined : Icons.auto_awesome_outlined,
+          size: 14,
+          color: esquema.onSurfaceVariant,
+        ),
+        const SizedBox(width: 5),
+        Flexible(
+          child: Text(
+            texto,
+            key: const Key('origem-questao'),
+            style: TextStyle(fontSize: 12, fontStyle: FontStyle.italic, color: esquema.onSurfaceVariant),
+          ),
+        ),
+      ],
     );
   }
 }
@@ -653,6 +689,8 @@ class TelaRevisaoQuestao extends StatelessWidget {
                 Text(questao.tema, style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant)),
               ],
             ),
+            const SizedBox(height: 6),
+            _Origem(questao.origem),
             if (questao.alerta != null) ...[
               const SizedBox(height: 12),
               FlagMudanca(questao.alerta!),

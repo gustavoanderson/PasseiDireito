@@ -13,6 +13,7 @@ Questao _q(String id, {String unidade = 'adm-04'}) => Questao(
       dica: 'd',
       explicacao: {for (final l in letras) l: l},
       fontes: const [],
+      origem: const Origem(tipo: 'inedita'),
     );
 
 List<String> _ids(List<Questao> qs) => [for (final q in qs) q.id];

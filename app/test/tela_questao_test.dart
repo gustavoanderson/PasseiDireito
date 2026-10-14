@@ -18,6 +18,7 @@ Questao _questao(String id, String correta) => Questao(
       dica: 'Dica da questão $id.',
       explicacao: {for (final l in letras) l: 'Explicação da $l de $id'},
       fontes: const [Fonte(referencia: 'Lei 9.784/1999, art. 54')],
+      origem: const Origem(tipo: 'inedita'),
     );
 
 final _sessao = [_questao('adm-0001', 'B'), _questao('adm-0002', 'D')];
@@ -189,6 +190,60 @@ void main() {
         ),
       ));
       expect(find.byKey(const Key('flag-mudanca')), findsOneWidget);
+    });
+  });
+
+  group('origem da questão', () {
+    testWidgets('questão inédita mostra o aviso de elaborada para o edital', (tester) async {
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaQuestao(
+            nomeDaMateria: 'Direito Administrativo',
+            questoes: [questaoDeTeste('adm-0050', origem: const Origem(tipo: 'inedita'))],
+            registro: ProgressoEmMemoria(),
+          ),
+        ),
+      ));
+      expect(find.text('Questão inédita, elaborada para este edital'), findsOneWidget);
+    });
+
+    testWidgets('questão adaptada mostra de qual prova real ela veio', (tester) async {
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaQuestao(
+            nomeDaMateria: 'Direito Administrativo',
+            questoes: [
+              questaoDeTeste(
+                'adm-0051',
+                origem: const Origem(tipo: 'adaptada', prova: 'FAFIPA 2026, PGM Matinhos/PR'),
+              ),
+            ],
+            registro: ProgressoEmMemoria(),
+          ),
+        ),
+      ));
+      expect(find.text('Prova de origem: FAFIPA 2026, PGM Matinhos/PR'), findsOneWidget);
+    });
+
+    testWidgets('continua visível na revisão da questão', (tester) async {
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaRevisaoQuestao(
+            questao: questaoDeTeste(
+              'adm-0052',
+              origem: const Origem(tipo: 'adaptada', prova: 'FAFIPA 2026, PGM Matinhos/PR'),
+            ),
+            nomeDaMateria: 'Direito Administrativo',
+          ),
+        ),
+      ));
+      expect(find.text('Prova de origem: FAFIPA 2026, PGM Matinhos/PR'), findsOneWidget);
     });
   });
 

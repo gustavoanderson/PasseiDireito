@@ -33,6 +33,20 @@ class Fonte {
       Fonte(referencia: json['referencia'] as String);
 }
 
+/// De onde a questão veio: inédita (elaborada para este edital) ou adaptada
+/// de uma prova real — nesse caso, qual.
+class Origem {
+  const Origem({required this.tipo, this.prova});
+
+  final String tipo;
+  final String? prova;
+
+  bool get adaptada => tipo == 'adaptada';
+
+  factory Origem.deJson(Map<String, dynamic> json) =>
+      Origem(tipo: json['tipo'] as String, prova: json['prova'] as String?);
+}
+
 class Questao {
   const Questao({
     required this.id,
@@ -45,6 +59,7 @@ class Questao {
     required this.dica,
     required this.explicacao,
     required this.fontes,
+    required this.origem,
     this.alerta,
   });
 
@@ -61,6 +76,7 @@ class Questao {
   final String dica;
   final Map<String, String> explicacao;
   final List<Fonte> fontes;
+  final Origem origem;
 
   /// Flag de mudança na lei. Aparece na trilha e na revisão, nunca no simulado.
   final String? alerta;
@@ -78,6 +94,7 @@ class Questao {
         fontes: [
           for (final f in json['fontes'] as List) Fonte.deJson(f as Map<String, dynamic>),
         ],
+        origem: Origem.deJson(json['origem'] as Map<String, dynamic>),
         alerta: json['alerta'] as String?,
       );
 }
