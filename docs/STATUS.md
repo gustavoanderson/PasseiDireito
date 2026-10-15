@@ -1,6 +1,6 @@
 # Status do PasseiDireito
 
-Atualizado em 14/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 15/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
 ## Onde estamos
 
@@ -75,7 +75,7 @@ Proporção equilibrada entre matérias (3,7 a 5,7 questões por ponto de peso).
 
 **Pendências abertas, para a próxima sessão:**
 - **⚠️ PRIORITÁRIA (pedido do Gustavo em 14/10: confira em toda sessão nova, até resolver).** Formalizar a Lei 9.610/1998 (`l9610`) em `corpus/normas.json` e rodar `montar_corpus.py l9610` — Planalto estava inacessível no fim da sessão de 13-14/10. Ver a seção equivalente no topo do CLAUDE.md.
-- **Achado da auditoria de pc/trab:** conferir se `trib/` já cobre execução fiscal (Lei 6.830/80) — tema que foi retirado de Processo Civil por não ser o item 7 de Curitiba.
+- ~~Achado da auditoria de pc/trab: conferir se `trib/` já cobre execução fiscal.~~ **Conferido em 15/10:** sim, `trib-11.json` (item 11) já cobre exatamente isso — citação de 5 dias, garantia prévia para embargos, prescrição intercorrente, penhora (6 questões, trib-0033 a trib-0047). Sem lacuna, nada a fazer.
 - ~~Matinhos.~~ **Feito em 05/10** (ver acima): +53 questões, banco em 498.
 - **Matinhos, resultado definitivo em 27/10/2026:** reavaliar a questão de Improbidade deixada de fora (gabarito preliminar parecia errado) e, se sobrar tempo, conferir se alguma das 53 adaptadas teve a resposta alterada no recurso.
 - Duas lacunas de ferramenta na base de Curitiba (Lei 1.656/1958 arts. 102-269; Decreto 868/2024 Anexo) — sem questão exposta hoje, mas não escrever questão nova nesses trechos.
