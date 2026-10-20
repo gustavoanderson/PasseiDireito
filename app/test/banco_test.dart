@@ -190,6 +190,22 @@ void main() {
     expect(find.text('Legislação de Curitiba'), findsOneWidget);
   });
 
+  testWidgets('o atalho de provas anteriores abre a lista de provas', (tester) async {
+    await _abrirInicio(tester, ProgressoEmMemoria());
+    await tester.tap(find.byKey(const Key('abrir-provas')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Provas anteriores'), findsOneWidget);
+  });
+
+  testWidgets('o atalho de simulado personalizado abre a tela de montar o simulado', (tester) async {
+    await _abrirInicio(tester, ProgressoEmMemoria());
+    await tester.tap(find.byKey(const Key('abrir-simulado-personalizado')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Simulado personalizado'), findsOneWidget);
+  });
+
   testWidgets('sem Firebase, a tela avisa que o progresso não está sendo salvo', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria(), salvo: false);
     expect(find.byKey(const Key('aviso-sem-salvar')), findsOneWidget);

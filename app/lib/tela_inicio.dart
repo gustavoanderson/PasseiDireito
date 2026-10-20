@@ -8,8 +8,10 @@ import 'tela_desempenho.dart';
 import 'tela_curitiba.dart';
 import 'tela_favoritas.dart';
 import 'tela_log.dart';
+import 'tela_provas.dart';
 import 'tela_questao.dart';
 import 'tela_simulado.dart';
+import 'tela_simulado_personalizado.dart';
 import 'tema.dart';
 import 'trilha.dart';
 
@@ -130,6 +132,20 @@ class _TelaInicioState extends State<TelaInicio> {
     ));
   }
 
+  Future<void> _abrirProvas() async {
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaProvas(registro: widget.registro),
+    ));
+  }
+
+  Future<void> _abrirSimuladoPersonalizado() async {
+    final unidades = await _unidades;
+    if (!mounted) return;
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaSimuladoPersonalizado(unidades: unidades, registro: widget.registro),
+    ));
+  }
+
   @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
@@ -224,6 +240,22 @@ class _TelaInicioState extends State<TelaInicio> {
                   titulo: 'Log de alterações',
                   subtitulo: 'O que saiu ou entrou no banco por causa do edital, e quando',
                   aoTocar: _abrirLog,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-provas',
+                  icone: Icons.assignment_outlined,
+                  titulo: 'Provas anteriores',
+                  subtitulo: 'Refaça uma prova real, exatamente como ela caiu',
+                  aoTocar: _abrirProvas,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-simulado-personalizado',
+                  icone: Icons.tune,
+                  titulo: 'Simulado personalizado',
+                  subtitulo: 'Monte um simulado combinando provas anteriores e questões novas',
+                  aoTocar: _abrirSimuladoPersonalizado,
                 ),
               ],
             );
