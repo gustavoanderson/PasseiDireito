@@ -26,6 +26,20 @@ List<Materia> agruparPorMateria(List<Unidade> unidades) {
   ];
 }
 
+/// Só as questões cujas fontes citam legislação ou decreto do Município de
+/// Curitiba, agrupadas por matéria — pedido da Flávia em 20/10/2026, pra
+/// treinar a lei municipal em separado do resto da matéria.
+List<Materia> materiasDeLegislacaoCuritiba(List<Unidade> unidades) => agruparPorMateria([
+      for (final u in unidades)
+        Unidade(
+          materia: u.materia,
+          id: u.id,
+          titulo: u.titulo,
+          itemEdital: u.itemEdital,
+          questoes: [for (final q in u.questoes) if (q.legislacaoCuritiba) q],
+        ),
+    ]);
+
 /// A última resposta de cada questão, de todas as unidades.
 Map<String, bool> ultimasRespostas(Map<String, ResumoUnidade> resumos) => {
       for (final r in resumos.values) ...r.ultimaPorQuestao,

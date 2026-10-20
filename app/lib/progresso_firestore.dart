@@ -112,6 +112,23 @@ class ProgressoFirestore implements RegistroDeProgresso {
     return [for (final d in docs.docs) d.id];
   }
 
+  /// Apagar, e não registrar: por isso espera o servidor confirmar, ao
+  /// contrário de [registrar]. É uma ação rara e explícita da aluna; ela quer
+  /// saber que funcionou antes de sair da tela.
+  @override
+  Future<void> zerarProgresso(String materia) async {
+    final lote = _db.batch();
+    final unidades = await _usuaria.collection('unidades').where('materia', isEqualTo: materia).get();
+    for (final d in unidades.docs) {
+      lote.delete(d.reference);
+    }
+    final respostas = await _usuaria.collection('respostas').where('materia', isEqualTo: materia).get();
+    for (final d in respostas.docs) {
+      lote.delete(d.reference);
+    }
+    await lote.commit();
+  }
+
   static Map<String, dynamic> _respostaParaMapa(Resposta r) => {
         'questaoId': r.questaoId,
         'unidadeId': r.unidadeId,

@@ -94,6 +94,12 @@ abstract interface class RegistroDeProgresso {
 
   /// Ids das questões favoritas, da mais recente marcada para a mais antiga.
   Future<List<String>> favoritas();
+
+  /// Apaga o progresso de uma matéria: o resumo (última resposta de cada
+  /// questão) e o histórico de respostas, de trilha ou de simulado. Não mexe
+  /// nas outras matérias, nos favoritos, nem no histórico de simulados
+  /// (a nota de uma prova já feita continua valendo como registro).
+  Future<void> zerarProgresso(String materia);
 }
 
 /// Versão sem persistência: usada nos testes e quando o Firebase não está
@@ -134,4 +140,9 @@ class ProgressoEmMemoria implements RegistroDeProgresso {
 
   @override
   Future<List<String>> favoritas() async => _favoritos.reversed.toList();
+
+  @override
+  Future<void> zerarProgresso(String materia) async {
+    respostas.removeWhere((r) => r.materia == materia);
+  }
 }

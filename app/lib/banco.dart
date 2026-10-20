@@ -81,6 +81,11 @@ class Questao {
   /// Flag de mudança na lei. Aparece na trilha e na revisão, nunca no simulado.
   final String? alerta;
 
+  /// Se alguma fonte cita legislação ou decreto do Município de Curitiba.
+  /// Derivado das fontes, não é um campo do arquivo: cresce sozinho conforme
+  /// o banco ganha mais questões de lei municipal.
+  bool get legislacaoCuritiba => fontes.any((f) => f.referencia.toLowerCase().contains('curitiba'));
+
   factory Questao.deJson(Map<String, dynamic> json, {required String materia, required String unidadeId}) => Questao(
         id: json['id'] as String,
         materia: materia,

@@ -133,6 +133,36 @@ void _contrato(String nome, RegistroDeProgresso Function() criar) {
       }
       expect(await p.favoritas(), ['adm-0003', 'adm-0002', 'adm-0001']);
     });
+
+    test('zerarProgresso apaga o resumo e o histórico só da matéria indicada', () async {
+      final p = criar();
+      await _registrar(p, _r('adm-0001', true));
+      await _registrar(p, _r('adm-0002', false));
+      await _registrar(p, _r('const-0001', true, unidade: 'const-03'));
+
+      await p.zerarProgresso('adm');
+      await pumpEventQueue();
+
+      final resumos = await p.resumos();
+      expect(resumos.containsKey('adm-04'), isFalse, reason: 'o resumo de adm some');
+      expect(resumos['const-03']!.acertos, 1, reason: 'const não é afetado');
+    });
+
+    test('zerarProgresso não mexe no histórico de simulados já entregues', () async {
+      final p = criar();
+      await p.registrarSimulado(ResultadoSimulado(
+        inicio: DateTime(2026, 11, 1),
+        duracao: const Duration(hours: 1),
+        tempoPrevisto: const Duration(hours: 5),
+        respostas: [_r('adm-0001', true)],
+      ));
+      await pumpEventQueue();
+
+      await p.zerarProgresso('adm');
+      await pumpEventQueue();
+
+      expect(await p.simulados(), hasLength(1), reason: 'a nota do simulado já feito continua valendo');
+    });
   });
 }
 

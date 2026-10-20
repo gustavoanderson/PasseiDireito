@@ -5,6 +5,7 @@ import 'logo.dart';
 import 'progresso.dart';
 import 'tela_banca.dart';
 import 'tela_desempenho.dart';
+import 'tela_curitiba.dart';
 import 'tela_favoritas.dart';
 import 'tela_log.dart';
 import 'tela_questao.dart';
@@ -121,6 +122,14 @@ class _TelaInicioState extends State<TelaInicio> {
     await Navigator.of(context).push(MaterialPageRoute(builder: (_) => const TelaLog()));
   }
 
+  Future<void> _abrirCuritiba() async {
+    final unidades = await _unidades;
+    if (!mounted) return;
+    await Navigator.of(context).push(MaterialPageRoute(
+      builder: (_) => TelaCuritiba(unidades: unidades, registro: widget.registro),
+    ));
+  }
+
   @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
@@ -191,6 +200,14 @@ class _TelaInicioState extends State<TelaInicio> {
                   titulo: 'Questões favoritas',
                   subtitulo: 'Releia a explicação das questões que você marcou',
                   aoTocar: _abrirFavoritas,
+                ),
+                const SizedBox(height: 10),
+                _Atalho(
+                  chave: 'abrir-curitiba',
+                  icone: Icons.account_balance_outlined,
+                  titulo: 'Legislação de Curitiba',
+                  subtitulo: 'Pratique só a lei e os decretos do Município, por matéria',
+                  aoTocar: _abrirCuritiba,
                 ),
                 const SizedBox(height: 10),
                 _Atalho(

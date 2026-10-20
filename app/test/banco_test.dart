@@ -79,6 +79,29 @@ void main() {
     final comAlerta = [for (final u in unidades) ...u.questoes.where((q) => q.alerta != null)];
     expect(comAlerta.map((q) => q.id), containsAll(['const-0020', 'trib-0010', 'trib-0044']));
     expect(comAlerta.every((q) => q.alerta!.contains('21/09/2026')), isTrue);
+
+    final deCuritiba = [for (final u in unidades) ...u.questoes.where((q) => q.legislacaoCuritiba)];
+    expect(deCuritiba, isNotEmpty, reason: 'o banco já tem questões de legislação municipal de Curitiba');
+  });
+
+  test('legislacaoCuritiba identifica a questão pela fonte, não pela matéria', () {
+    Questao comFonte(String referencia) => Questao(
+          id: 'adm-0001',
+          materia: 'adm',
+          unidadeId: 'adm-04',
+          tema: 'Tema',
+          enunciado: 'Enunciado.',
+          alternativas: {for (final l in letras) l: 'Alternativa $l'},
+          correta: 'A',
+          dica: 'Dica.',
+          explicacao: {for (final l in letras) l: 'Explicação $l'},
+          fontes: [Fonte(referencia: referencia)],
+          origem: const Origem(tipo: 'inedita'),
+        );
+
+    expect(comFonte('Lei Municipal de Curitiba 1.656/1958, art. 10').legislacaoCuritiba, isTrue);
+    expect(comFonte('lei municipal de curitiba 1.656/1958').legislacaoCuritiba, isTrue, reason: 'sem diferenciar maiúsculas');
+    expect(comFonte('Lei 9.784/1999, art. 54').legislacaoCuritiba, isFalse);
   });
 
   testWidgets('a tela inicial mostra só as matérias, sem os assuntos', (tester) async {
@@ -157,6 +180,14 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Log de alterações'), findsOneWidget);
+  });
+
+  testWidgets('o atalho de legislação de Curitiba abre a tela filtrada por matéria', (tester) async {
+    await _abrirInicio(tester, ProgressoEmMemoria());
+    await tester.tap(find.byKey(const Key('abrir-curitiba')));
+    await tester.pumpAndSettle();
+
+    expect(find.text('Legislação de Curitiba'), findsOneWidget);
   });
 
   testWidgets('sem Firebase, a tela avisa que o progresso não está sendo salvo', (tester) async {

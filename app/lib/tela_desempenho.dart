@@ -13,7 +13,7 @@ String dataCurta(DateTime d) =>
 
 /// Estatísticas e caderno de erros: onde a Flávia acerta, onde erra e o que
 /// rever. Recebe tudo já carregado, para ser testável sem rede.
-class TelaDesempenho extends StatelessWidget {
+class TelaDesempenho extends StatefulWidget {
   const TelaDesempenho({
     super.key,
     required this.unidades,
@@ -32,9 +32,53 @@ class TelaDesempenho extends StatelessWidget {
   final Set<String> favoritas;
 
   @override
+  State<TelaDesempenho> createState() => _TelaDesempenhoState();
+}
+
+class _TelaDesempenhoState extends State<TelaDesempenho> {
+  // Cópia local: zerar uma matéria atualiza a tela na hora, sem precisar
+  // voltar pra tela inicial e reabrir pra ver o efeito.
+  final Map<String, bool> _ultimas = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _ultimas.addAll(widget.ultimas);
+  }
+
+  Future<void> _zerarMateria(DesempenhoMateria m) async {
+    final confirmar = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Zerar o progresso de ${m.nome}?'),
+        content: const Text(
+          'Apaga o que você já respondeu nessa matéria, na trilha e nos simulados. '
+          'As outras matérias e os simulados já feitos não são afetados.',
+        ),
+        actions: [
+          TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancelar')),
+          FilledButton(
+            key: const Key('confirmar-zerar'),
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Zerar'),
+          ),
+        ],
+      ),
+    );
+    if (confirmar != true) return;
+
+    await widget.registro.zerarProgresso(m.codigo);
+    if (!mounted) return;
+    final idsDaMateria = {
+      for (final t in m.temas) for (final q in t.unidade.questoes) q.id,
+    };
+    setState(() => _ultimas.removeWhere((id, _) => idsDaMateria.contains(id)));
+  }
+
+  @override
   Widget build(BuildContext context) {
     final esquema = Theme.of(context).colorScheme;
-    final d = analisarDesempenho(unidades, ultimas);
+    final d = analisarDesempenho(widget.unidades, _ultimas);
     final reforcar = d.temasAReforcar.take(5).toList();
     final comErros = d.materias.where((m) => m.erradas.isNotEmpty).toList();
 
@@ -45,7 +89,7 @@ class TelaDesempenho extends StatelessWidget {
         actions: const [BotaoTema()],
       ),
       body: SafeArea(
-        child: d.feitas == 0 && simulados.isEmpty
+        child: d.feitas == 0 && widget.simulados.isEmpty
             ? Center(
                 child: Padding(
                   padding: const EdgeInsets.all(32),
@@ -69,17 +113,19 @@ class TelaDesempenho extends StatelessWidget {
                     const SizedBox(height: 10),
                     for (final t in reforcar) _LinhaTema(tema: t, mostrarMateria: true),
                   ],
-                  if (simulados.isNotEmpty) ...[
+                  if (widget.simulados.isNotEmpty) ...[
                     const _Secao('Simulados'),
-                    for (final s in simulados) _LinhaSimulado(simulado: s),
+                    for (final s in widget.simulados) _LinhaSimulado(simulado: s),
                   ],
                   if (d.feitas > 0) ...[
                     const _Secao('Por matéria'),
-                    for (final m in d.materias.where((m) => m.feitas > 0)) _BlocoMateria(materia: m),
+                    for (final m in d.materias.where((m) => m.feitas > 0))
+                      _BlocoMateria(materia: m, aoZerar: () => _zerarMateria(m)),
                   ],
                   if (comErros.isNotEmpty) ...[
                     const _Secao('Caderno de erros'),
-                    for (final m in comErros) _CadernoDaMateria(materia: m, registro: registro, favoritas: favoritas),
+                    for (final m in comErros)
+                      _CadernoDaMateria(materia: m, registro: widget.registro, favoritas: widget.favoritas),
                   ],
                 ],
               ),
@@ -241,9 +287,10 @@ class _LinhaSimulado extends StatelessWidget {
 }
 
 class _BlocoMateria extends StatelessWidget {
-  const _BlocoMateria({required this.materia});
+  const _BlocoMateria({required this.materia, required this.aoZerar});
 
   final DesempenhoMateria materia;
+  final VoidCallback aoZerar;
 
   @override
   Widget build(BuildContext context) {
@@ -258,6 +305,18 @@ class _BlocoMateria extends StatelessWidget {
         subtitle: Text(
           '${porcento(materia.taxa)} de acerto · ${materia.feitas} de ${materia.total} feitas',
           style: TextStyle(fontSize: 13, color: esquema.onSurfaceVariant),
+        ),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+              key: Key('zerar-${materia.codigo}'),
+              tooltip: 'Zerar progresso de ${materia.nome}',
+              icon: Icon(Icons.restart_alt, color: esquema.onSurfaceVariant, size: 20),
+              onPressed: aoZerar,
+            ),
+            Icon(Icons.expand_more, color: esquema.onSurfaceVariant),
+          ],
         ),
         children: [for (final t in materia.temas.where((t) => t.feitas > 0)) _LinhaTema(tema: t)],
       ),
