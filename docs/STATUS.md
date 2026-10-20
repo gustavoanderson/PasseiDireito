@@ -1,8 +1,34 @@
 # Status do PasseiDireito
 
-Atualizado em 15/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 20/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+
+## ▶️ Próximo passo combinado (começar em 21/10/2026)
+
+**Pedidos novos da Flávia em 20/10/2026 (4 itens). Os itens 3 e 4 já estão prontos e publicados** (ver "Onde estamos"). **Os itens 1 e 2 foram desenhados e aprovados pelo Gustavo, mas o Gustavo pediu pra eu só começar a produzir o conteúdo a partir de 21/10** — por isso ainda não escrevi nenhuma questão disso, só o plano abaixo.
+
+1. **"Refazer uma prova anterior exatamente como ela caiu"** (por ano/concurso).
+2. **"Simulado personalizado"**: escolher quais provas combinar (ex.: 2024 + 2025) e se quer somar questões inéditas do banco atual — pergunta isso antes de gerar.
+
+**Desenho aprovado:**
+- Pasta nova, separada da trilha normal: `app/assets/provas/<slug>.json`, um arquivo por prova real (ex.: `matinhos-2026.json`, `foz-iguacu-2019.json`). Separada porque aqui entra também o que NÃO bate com o Anexo II de Curitiba (ex.: Civil puro nas provas antigas) — é reprodução histórica, não trilha de estudo, então não pode contar nas mesmas estatísticas nem usar o mesmo critério de admissão do banco principal.
+- Cada arquivo guarda os dados da prova (concurso, banca, ano, cargo, gabarito definitivo ou preliminar, link da fonte) + a lista de questões **na ordem e numeração originais**, cada uma com matéria (classificada por mim), enunciado, alternativas, gabarito, dica e explicação completas — **mesmo padrão de qualidade do resto do banco** (confirmado pelo Gustavo: nada de pular a explicação pra ir mais rápido).
+- **Só questões jurídicas** (confirmado pelo Gustavo): sem português, matemática, informática ou atualidades — o app inteiro é conteúdo jurídico.
+- Duas telas novas: "Provas anteriores" (lista por ano/concurso, toca e cai no simulado com as questões exatas, na ordem original) e "Simulado personalizado" (pergunta como combinar antes de gerar).
+
+**Escopo de provas (decisão do Gustavo em 20/10): todas as 10 já catalogadas.**
+- **Matinhos 2026** (FAFIPA, Procurador Municipal) — já começamos a digitalizar (51 de ~100 adaptadas pra trilha); faltam as ~49 que ficaram de fora por não bater com o edital de Curitiba (precisam entrar aqui, completas). Fonte: https://anexos-r2.selecao.net.br/uploads/281/concursos/4197/anexos/e7fe936b-a20d-43f8-ae61-117fef6e0a47.pdf (checar se ainda está no ar).
+- As **9 provas com caderno completo já catalogadas em `docs/estilo-fafipa.md` seção 1.1** (2016-2021, 326 questões jurídicas ao todo), com destaque pra **Foz do Iguaçu-PR 2019, Procurador do Município Júnior, 80 questões** — o perfil mais parecido com o cargo da Flávia. As outras 8 são de Advogado/Assessor Jurídico (perfil mais distante, mas ainda assim a mesma banca): Cambará 2016 (60), Fundação Araucária 2017 (50), Bandeirantes 2017 (21), Campina Grande do Sul 2018 (15), CREA-PR 2019 (35), IPREV Nova Esperança 2019 (20), Novo Horizonte do Sul-MS 2021 (30), Brasilândia-MS 2021 (15). Links de cada uma na tabela da seção 1.1 de `docs/estilo-fafipa.md`.
+
+**Ordem sugerida pra começar (ainda não é compromisso rígido, só o plano):** 1) completar Matinhos 2026; 2) Foz do Iguaçu 2019; 3) as outras 8, na ordem que estiver na tabela. É trabalho grande (centenas de questões com dica e explicação completas) — vai levar várias sessões, não uma só.
+
+**Ainda falta construir antes do conteúdo:** `tools/prova.schema.json`, validador (`tools/validar_provas.py`), modelo Dart (`app/lib/prova.dart`) + telas (`tela_provas.dart`, `tela_simulado_personalizado.dart`), entrada no `pubspec.yaml`. Nada disso foi escrito ainda — só o plano.
 
 ## Onde estamos
+
+**Mais dois pedidos da Flávia, feitos e publicados em 20/10/2026:**
+1. **Zerar progresso de uma matéria.** Botão (ícone de "reiniciar") no bloco de cada matéria em "Seu desempenho", com confirmação. `RegistroDeProgresso.zerarProgresso(materia)` apaga o resumo e o histórico de respostas só daquela matéria; não mexe nas outras nem no histórico de simulados já entregues.
+2. **Praticar só legislação de Curitiba.** Nova tela "Legislação de Curitiba" na tela inicial: filtra, por matéria, as questões cuja fonte cita "Curitiba" (`Questao.legislacaoCuritiba`, derivado das fontes já existentes — não precisou marcar questão por questão nem mudar o schema). Hoje são 100 das 517 questões do banco, em 6 matérias (adm 32, trib 28, const 13, prev 10, urb 11, pc 6).
+- Banco segue em **517 questões**; nenhuma foi criada ou removida nesses dois itens, só funcionalidade nova. Suíte: 123 testes Flutter, `flutter analyze` limpo, validador 0 avisos.
 
 **Retificação nº 1/2026 do edital — repassada pela Flávia em 13/10/2026, verificada direto no PDF oficial da Retificação (republicado 06/10/2026).** Três frentes:
 1. **Datas:** prova discursiva antecipada para 31/01/2027 (era 24/02/2027), em dois turnos de 4h; inscrições até 05/11, isenção até 13/10, objetiva mantida em 13/12/2026, resultado final 14/04/2027. Ver tabela de datas no CLAUDE.md.
