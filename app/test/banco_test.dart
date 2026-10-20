@@ -116,6 +116,28 @@ void main() {
     expect(comFonte('Lei 9.784/1999, art. 54').legislacaoCuritiba, isFalse);
   });
 
+  test('letrasDaQuestao reflete o número real de alternativas, 4 ou 5', () {
+    Questao comAlternativas(Map<String, String> alternativas, Map<String, String> explicacao) => Questao(
+          id: 'teste-001',
+          materia: 'adm',
+          unidadeId: 'teste',
+          tema: 'Tema',
+          enunciado: 'Enunciado.',
+          alternativas: alternativas,
+          correta: 'A',
+          dica: 'Dica.',
+          explicacao: explicacao,
+          fontes: const [Fonte(referencia: 'Lei X')],
+          origem: const Origem(tipo: 'inedita'),
+        );
+
+    final cincoAlternativas = {for (final l in letras) l: 'Alternativa $l'};
+    expect(comAlternativas(cincoAlternativas, cincoAlternativas).letrasDaQuestao, ['A', 'B', 'C', 'D', 'E']);
+
+    final quatroAlternativas = {for (final l in ['A', 'B', 'C', 'D']) l: 'Alternativa $l'};
+    expect(comAlternativas(quatroAlternativas, quatroAlternativas).letrasDaQuestao, ['A', 'B', 'C', 'D']);
+  });
+
   testWidgets('a tela inicial mostra só as matérias, sem os assuntos', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria());
 

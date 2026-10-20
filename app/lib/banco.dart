@@ -86,6 +86,12 @@ class Questao {
   /// o banco ganha mais questões de lei municipal.
   bool get legislacaoCuritiba => fontes.any((f) => f.referencia.toLowerCase().contains('curitiba'));
 
+  /// As letras desta questão, em ordem (A, B, C, D, e E quando existir).
+  /// Normalmente são as 5 de [letras], mas uma prova real anterior pode ter
+  /// só 4 (A-D) — a prova de Curitiba nunca muda isso, só "Provas anteriores"
+  /// reproduz o número real de alternativas que a prova original tinha.
+  List<String> get letrasDaQuestao => letras.where(alternativas.containsKey).toList();
+
   factory Questao.deJson(Map<String, dynamic> json, {required String materia, required String unidadeId}) => Questao(
         id: json['id'] as String,
         materia: materia,

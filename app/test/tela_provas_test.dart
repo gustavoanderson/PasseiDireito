@@ -6,16 +6,16 @@ import 'package:passeidireito/prova.dart';
 import 'package:passeidireito/tela_provas.dart';
 import 'package:passeidireito/tema.dart';
 
-Questao _q(String id, String tema, String correta) => Questao(
+Questao _q(String id, String tema, String correta, {List<String> letrasDisponiveis = letras}) => Questao(
       id: id,
       materia: 'adm',
       unidadeId: 'teste-2020',
       tema: tema,
       enunciado: 'Enunciado da $id.',
-      alternativas: {for (final l in letras) l: 'Alternativa $l da $id'},
+      alternativas: {for (final l in letrasDisponiveis) l: 'Alternativa $l da $id'},
       correta: correta,
       dica: 'Dica da $id.',
-      explicacao: {for (final l in letras) l: 'Explicação $l da $id'},
+      explicacao: {for (final l in letrasDisponiveis) l: 'Explicação $l da $id'},
       fontes: const [Fonte(referencia: 'Lei de teste')],
       origem: const Origem(tipo: 'adaptada', prova: 'FAFIPA 2020 · Teste'),
     );
@@ -125,6 +125,30 @@ void main() {
       await _tocar(tester, 'comecar-prova');
       expect(find.text('Questão 1 de 4'), findsOneWidget);
       expect(find.textContaining('Tema'), findsNothing);
+    });
+
+    testWidgets('questão de prova com só 4 alternativas (A-D) não mostra a E', (tester) async {
+      tester.view.physicalSize = const Size(1080, 4400);
+      tester.view.devicePixelRatio = 2.0;
+      addTearDown(tester.view.reset);
+      final registro = ProgressoEmMemoria();
+      await tester.pumpWidget(ControleTema(
+        alternar: (_) {},
+        child: MaterialApp(
+          theme: temaClaro(),
+          home: TelaFazerProva(
+            titulo: 'Prova de 4 alternativas',
+            questoes: [_q('quatro-001', 'Tema', 'A', letrasDisponiveis: const ['A', 'B', 'C', 'D'])],
+            registro: registro,
+          ),
+        ),
+      ));
+      await tester.pumpAndSettle();
+      await _tocar(tester, 'comecar-prova');
+
+      expect(find.byKey(const Key('alternativa-prova-A')), findsOneWidget);
+      expect(find.byKey(const Key('alternativa-prova-D')), findsOneWidget);
+      expect(find.byKey(const Key('alternativa-prova-E')), findsNothing, reason: 'esta prova só tinha 4 alternativas');
     });
 
     testWidgets('tocar de novo na alternativa marcada deixa a questão em branco', (tester) async {

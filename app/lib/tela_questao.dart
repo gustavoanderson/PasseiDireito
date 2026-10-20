@@ -176,7 +176,7 @@ class _TelaQuestaoState extends State<TelaQuestao> {
                     _CaixaDica(q.dica),
                   ],
                   const SizedBox(height: 16),
-                  for (final letra in letras) ...[
+                  for (final letra in q.letrasDaQuestao) ...[
                     _Alternativa(
                       letra: letra,
                       texto: q.alternativas[letra]!,
@@ -449,7 +449,7 @@ class _Explicacao extends StatelessWidget {
     final cores = Cores.de(context);
     final titulo = TextStyle(fontFamily: fonteTitulo, fontSize: 18, fontWeight: FontWeight.w600, color: esquema.onSurface);
     final corpo = Theme.of(context).textTheme.bodyMedium;
-    final erradas = letras.where((l) => l != questao.correta);
+    final erradas = questao.letrasDaQuestao.where((l) => l != questao.correta);
 
     return Container(
       key: const Key('explicacao'),
@@ -773,7 +773,7 @@ class _TelaRevisaoQuestaoState extends State<TelaRevisaoQuestao> {
             const SizedBox(height: 16),
             Text(questao.enunciado, style: Theme.of(context).textTheme.titleLarge),
             const SizedBox(height: 16),
-            for (final letra in letras) ...[
+            for (final letra in questao.letrasDaQuestao) ...[
               _Alternativa(letra: letra, texto: questao.alternativas[letra]!, estado: estado(letra), aoTocar: () {}),
               const SizedBox(height: 10),
             ],

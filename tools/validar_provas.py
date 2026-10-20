@@ -85,18 +85,26 @@ def validar_arquivo(caminho, dados, esquema, relatorio, ids_vistos, enunciados_v
             relatorio.erro(onde, f"numeroOriginal {q['numeroOriginal']} repetido nesta prova")
         numeros_vistos.add(q["numeroOriginal"])
 
-        chave = normalizar(q["enunciado"]) + "|" + "|".join(normalizar(q["alternativas"][l]) for l in "ABCDE")
+        # Quantidade real de alternativas desta questao: 4 (A-D) ou 5 (A-E),
+        # conforme o caderno original — nunca fixo em "ABCDE".
+        letras_da_questao = sorted(q["alternativas"].keys())
+        if sorted(q["explicacao"].keys()) != letras_da_questao:
+            relatorio.erro(onde, "'explicacao' nao tem exatamente as mesmas letras de 'alternativas'")
+        if q["correta"] not in letras_da_questao:
+            relatorio.erro(onde, f"'correta' ({q['correta']}) nao e uma das alternativas desta questao ({''.join(letras_da_questao)})")
+
+        chave = normalizar(q["enunciado"]) + "|" + "|".join(normalizar(q["alternativas"][l]) for l in letras_da_questao)
         if chave in enunciados_vistos:
             relatorio.erro(onde, f"questao identica a {enunciados_vistos[chave]}")
         enunciados_vistos[chave] = q["id"]
 
-        textos = [normalizar(q["alternativas"][l]) for l in "ABCDE"]
+        textos = [normalizar(q["alternativas"][l]) for l in letras_da_questao]
         repetidas = [t for t, n in Counter(textos).items() if n > 1]
         if repetidas:
             relatorio.erro(onde, "duas alternativas com o mesmo texto")
 
-        for letra in "ABCDE":
-            explicacao = q["explicacao"][letra].strip()
+        for letra in letras_da_questao:
+            explicacao = q["explicacao"].get(letra, "").strip()
             if len(explicacao) < MINIMO_EXPLICACAO:
                 papel = "a correta" if letra == q["correta"] else "uma errada"
                 relatorio.erro(onde, f"explicacao da {letra} ({papel}) tem {len(explicacao)} caracteres; minimo {MINIMO_EXPLICACAO}")

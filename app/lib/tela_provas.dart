@@ -336,7 +336,7 @@ class _TelaFazerProvaState extends State<TelaFazerProva> {
                   const SizedBox(height: 12),
                   Text(q.enunciado, style: Theme.of(context).textTheme.titleLarge),
                   const SizedBox(height: 16),
-                  for (final letra in letras) ...[
+                  for (final letra in q.letrasDaQuestao) ...[
                     _AlternativaDaProva(
                       letra: letra,
                       texto: q.alternativas[letra]!,

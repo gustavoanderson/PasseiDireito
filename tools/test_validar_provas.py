@@ -152,6 +152,39 @@ class TestValidadorDeProvas(unittest.TestCase):
         self.gravar(dados)
         self.assertReprova("deve se chamar 'id-diferente.json'")
 
+    # --- provas antigas com só 4 alternativas (A-D), sem inventar a E ---
+
+    def _para_quatro_alternativas(self, dados):
+        q = self.questao(dados)
+        del q["alternativas"]["E"]
+        del q["explicacao"]["E"]
+        return dados
+
+    def test_questao_de_quatro_alternativas_passa(self):
+        dados = self._para_quatro_alternativas(copy.deepcopy(BASE))
+        self.gravar(dados)
+        relatorio = self.rodar()
+        self.assertEqual(relatorio.erros, [])
+
+    def test_gabarito_apontando_para_e_numa_prova_de_quatro_reprova(self):
+        dados = self._para_quatro_alternativas(copy.deepcopy(BASE))
+        self.questao(dados)["correta"] = "E"
+        self.gravar(dados)
+        self.assertReprova("nao e uma das alternativas desta questao (ABCD)")
+
+    def test_alternativas_e_explicacao_com_letras_diferentes_reprova(self):
+        dados = self._para_quatro_alternativas(copy.deepcopy(BASE))
+        # alternativas ficou com A-D, mas explicacao manteve a E: incompatível.
+        dados["questoes"][0]["explicacao"]["E"] = "Explicação perdida da letra E, que não deveria mais existir aqui."
+        self.gravar(dados)
+        self.assertReprova("nao tem exatamente as mesmas letras de 'alternativas'")
+
+    def test_duas_alternativas_iguais_entre_quatro_reprova(self):
+        dados = self._para_quatro_alternativas(copy.deepcopy(BASE))
+        self.questao(dados)["alternativas"]["B"] = self.questao(dados)["alternativas"]["A"]
+        self.gravar(dados)
+        self.assertReprova("duas alternativas com o mesmo texto")
+
 
 if __name__ == "__main__":
     unittest.main()

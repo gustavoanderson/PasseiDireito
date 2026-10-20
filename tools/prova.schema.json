@@ -80,17 +80,33 @@
       "type": "string",
       "enum": ["A", "B", "C", "D", "E"]
     },
-    "cincoTextos": {
-      "type": "object",
-      "required": ["A", "B", "C", "D", "E"],
-      "additionalProperties": false,
-      "properties": {
-        "A": { "type": "string", "minLength": 1 },
-        "B": { "type": "string", "minLength": 1 },
-        "C": { "type": "string", "minLength": 1 },
-        "D": { "type": "string", "minLength": 1 },
-        "E": { "type": "string", "minLength": 1 }
-      }
+    "quatroOuCincoTextos": {
+      "description": "Quatro alternativas (A-D) ou cinco (A-E), conforme o caderno original da prova — algumas provas antigas da FAFIPA so tinham 4. Nunca inventar uma alternativa que a prova nao tinha.",
+      "oneOf": [
+        {
+          "type": "object",
+          "required": ["A", "B", "C", "D"],
+          "additionalProperties": false,
+          "properties": {
+            "A": { "type": "string", "minLength": 1 },
+            "B": { "type": "string", "minLength": 1 },
+            "C": { "type": "string", "minLength": 1 },
+            "D": { "type": "string", "minLength": 1 }
+          }
+        },
+        {
+          "type": "object",
+          "required": ["A", "B", "C", "D", "E"],
+          "additionalProperties": false,
+          "properties": {
+            "A": { "type": "string", "minLength": 1 },
+            "B": { "type": "string", "minLength": 1 },
+            "C": { "type": "string", "minLength": 1 },
+            "D": { "type": "string", "minLength": 1 },
+            "E": { "type": "string", "minLength": 1 }
+          }
+        }
+      ]
     },
     "questaoDeProva": {
       "type": "object",
@@ -133,7 +149,7 @@
           "minLength": 20
         },
         "alternativas": {
-          "$ref": "#/definitions/cincoTextos"
+          "$ref": "#/definitions/quatroOuCincoTextos"
         },
         "correta": {
           "$ref": "#/definitions/letra"
@@ -144,8 +160,8 @@
           "minLength": 20
         },
         "explicacao": {
-          "description": "Por que a correta esta correta e por que CADA errada esta errada.",
-          "$ref": "#/definitions/cincoTextos"
+          "description": "Por que a correta esta correta e por que CADA errada esta errada. As mesmas chaves de 'alternativas' (4 ou 5).",
+          "$ref": "#/definitions/quatroOuCincoTextos"
         },
         "fontes": {
           "type": "array",
