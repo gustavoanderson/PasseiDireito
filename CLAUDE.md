@@ -29,6 +29,7 @@ As regras do [CLAUDE.md do DevLingo](../DevLingo/CLAUDE.md) valem aqui também. 
 2. **Nunca avance sem consultar.** Apresente o plano e peça autorização. A análise técnica é sua; a decisão é dele.
 3. **Antes de qualquer commit, rode a suíte inteira** (comandos no fim deste arquivo).
 4. Declare erros e limitações abertamente. Defeito encontrado vira teste.
+5. **Todo arquivo-fonte que o Gustavo enviar (PDF de prova, lei, imagem, qualquer documento que não exista em lugar público) tem que ser salvo de forma permanente no repositório antes de processar — nunca só no scratchpad da sessão.** O scratchpad é temporário e por sessão: o sistema o apaga quando a sessão termina, e o que estiver só lá se perde pra sempre, mesmo que já tenha virado conteúdo do banco. Guarde o arquivo original em `app/assets/provas/_fontes-originais/` (ou pasta equivalente, se for de outra natureza) — essa pasta está coberta pelo `.gitignore` do mesmo jeito que `app/assets/provas/`, então arquivos com direito autoral de terceiros (ex.: caderno de prova) não vazam pro repositório público, mas sobrevivem entre sessões no computador do Gustavo. **Isto já causou perda de trabalho uma vez** (o caderno do Matinhos 2026, extraído em 05/10/2026 e perdido ao fim daquela sessão) — não repetir.
 
 **O conteúdo é jurídico e é para uma prova real.** Uma questão com gabarito errado ensina errado. Na dúvida sobre uma norma, busque o texto oficial; nunca escreva questão sobre norma que você não leu.
 
