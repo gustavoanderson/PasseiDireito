@@ -62,6 +62,18 @@ Future<void> _responder(RegistroDeProgresso r, String id, String unidade, bool a
       em: DateTime(2026, 10, 1),
     ));
 
+/// pumpAndSettle não serve quando a tela carrega um asset real do disco
+/// (ex.: provas anteriores, que podem pesar centenas de KB): o pump dele é
+/// rápido demais e nunca dá tempo real pro I/O terminar. Pumps manuais, com
+/// atraso de verdade, dentro de runAsync, resolvem.
+Future<void> _pumpAteAssetCarregar(WidgetTester tester) => tester.runAsync(() async {
+      for (var i = 0; i < 50; i++) {
+        await Future<void>.delayed(const Duration(milliseconds: 100));
+        // Com duração: também avança a animação de transição de tela, não só o I/O.
+        await tester.pump(const Duration(milliseconds: 100));
+      }
+    });
+
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -193,7 +205,8 @@ void main() {
   testWidgets('o atalho de provas anteriores abre a lista de provas', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria());
     await tester.tap(find.byKey(const Key('abrir-provas')));
-    await tester.pumpAndSettle();
+    await tester.pump();
+    await _pumpAteAssetCarregar(tester);
 
     expect(find.text('Provas anteriores'), findsOneWidget);
   });
@@ -201,7 +214,8 @@ void main() {
   testWidgets('o atalho de simulado personalizado abre a tela de montar o simulado', (tester) async {
     await _abrirInicio(tester, ProgressoEmMemoria());
     await tester.tap(find.byKey(const Key('abrir-simulado-personalizado')));
-    await tester.pumpAndSettle();
+    await tester.pump();
+    await _pumpAteAssetCarregar(tester);
 
     expect(find.text('Simulado personalizado'), findsOneWidget);
   });
