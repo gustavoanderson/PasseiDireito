@@ -1,27 +1,29 @@
 # Status do PasseiDireito
 
-Atualizado em 20/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
+Atualizado em 21/10/2026. Leia junto com o [CLAUDE.md](../CLAUDE.md).
 
-## ▶️ Próximo passo combinado (começar em 21/10/2026)
+## ▶️ Provas Anteriores e Simulado Personalizado — infraestrutura pronta, conteúdo em andamento
 
-**Pedidos novos da Flávia em 20/10/2026 (4 itens). Os itens 3 e 4 já estão prontos e publicados** (ver "Onde estamos"). **Os itens 1 e 2 foram desenhados e aprovados pelo Gustavo, mas o Gustavo pediu pra eu só começar a produzir o conteúdo a partir de 21/10** — por isso ainda não escrevi nenhuma questão disso, só o plano abaixo.
+**Pedidos da Flávia em 20/10/2026, itens 1 e 2** (itens 3 e 4 já entregues, ver "Onde estamos"): "Refazer uma prova anterior exatamente como ela caiu" e "Simulado personalizado" (combinar provas + questões inéditas).
 
-1. **"Refazer uma prova anterior exatamente como ela caiu"** (por ano/concurso).
-2. **"Simulado personalizado"**: escolher quais provas combinar (ex.: 2024 + 2025) e se quer somar questões inéditas do banco atual — pergunta isso antes de gerar.
+**Infraestrutura construída e publicada em 21/10/2026** (commit com schema, validador, modelo e as duas telas):
+- `tools/prova.schema.json` + `tools/validar_provas.py` (11 testes) — formato separado do banco de trilha, porque aqui entra também o que não bate com o Anexo II de Curitiba. Cada prova tem sua própria data de corte (a data em que ela foi aplicada, não 21/09/2026).
+- `app/lib/prova.dart` — modelo `ProvaReal`/`DadosDaProva`, reaproveitando a classe `Questao` já existente.
+- `app/lib/tela_provas.dart` — tela "Provas anteriores" + `TelaFazerProva` (modo de prova cronometrada genérico, sem matéria/tema/correção até entregar).
+- `app/lib/tela_simulado_personalizado.dart` — escolhe quais provas combinar e se soma questões inéditas, antes de gerar.
+- Dois atalhos novos na tela inicial. Telas já tratam "ainda não há nenhuma prova" graciosamente.
 
-**Desenho aprovado:**
-- Pasta nova, separada da trilha normal: `app/assets/provas/<slug>.json`, um arquivo por prova real (ex.: `matinhos-2026.json`, `foz-iguacu-2019.json`). Separada porque aqui entra também o que NÃO bate com o Anexo II de Curitiba (ex.: Civil puro nas provas antigas) — é reprodução histórica, não trilha de estudo, então não pode contar nas mesmas estatísticas nem usar o mesmo critério de admissão do banco principal.
-- Cada arquivo guarda os dados da prova (concurso, banca, ano, cargo, gabarito definitivo ou preliminar, link da fonte) + a lista de questões **na ordem e numeração originais**, cada uma com matéria (classificada por mim), enunciado, alternativas, gabarito, dica e explicação completas — **mesmo padrão de qualidade do resto do banco** (confirmado pelo Gustavo: nada de pular a explicação pra ir mais rápido).
-- **Só questões jurídicas** (confirmado pelo Gustavo): sem português, matemática, informática ou atualidades — o app inteiro é conteúdo jurídico.
-- Duas telas novas: "Provas anteriores" (lista por ano/concurso, toca e cai no simulado com as questões exatas, na ordem original) e "Simulado personalizado" (pergunta como combinar antes de gerar).
+**Duas decisões importantes, tomadas em 21/10/2026, antes de escrever qualquer conteúdo:**
+1. **Texto literal da banca, não reescrito** (decisão do Gustavo, ciente do risco). Diferente da trilha normal, onde toda questão adaptada é reescrita com outras palavras de propósito — aqui o objetivo é reproduzir a prova exatamente como caiu, então o enunciado e as alternativas são o texto original da FAFIPA.
+2. **Por isso, `app/assets/provas/` foi colocado no `.gitignore`** — existe no computador e no APK gerado pra Flávia, mas não sobe pro repositório público no GitHub (que hospeda todo o resto do código e do banco, públicos desde 02/10/2026). **Atenção ao republicar a versão web**: o build (`build/web`) embute o conteúdo compilado, então uma build feita depois que houver provas aqui pode acabar publicando esse texto literal no GitHub Pages — reconferir antes de publicar uma versão web nova a partir de agora.
 
 **Escopo de provas (decisão do Gustavo em 20/10): todas as 10 já catalogadas.**
-- **Matinhos 2026** (FAFIPA, Procurador Municipal) — já começamos a digitalizar (51 de ~100 adaptadas pra trilha); faltam as ~49 que ficaram de fora por não bater com o edital de Curitiba (precisam entrar aqui, completas). Fonte: https://anexos-r2.selecao.net.br/uploads/281/concursos/4197/anexos/e7fe936b-a20d-43f8-ae61-117fef6e0a47.pdf (checar se ainda está no ar).
-- As **9 provas com caderno completo já catalogadas em `docs/estilo-fafipa.md` seção 1.1** (2016-2021, 326 questões jurídicas ao todo), com destaque pra **Foz do Iguaçu-PR 2019, Procurador do Município Júnior, 80 questões** — o perfil mais parecido com o cargo da Flávia. As outras 8 são de Advogado/Assessor Jurídico (perfil mais distante, mas ainda assim a mesma banca): Cambará 2016 (60), Fundação Araucária 2017 (50), Bandeirantes 2017 (21), Campina Grande do Sul 2018 (15), CREA-PR 2019 (35), IPREV Nova Esperança 2019 (20), Novo Horizonte do Sul-MS 2021 (30), Brasilândia-MS 2021 (15). Links de cada uma na tabela da seção 1.1 de `docs/estilo-fafipa.md`.
+- **Matinhos 2026** (FAFIPA, Procurador Municipal) — já começamos a digitalizar pra trilha normal, reescrito (51 de ~100 adaptadas); faltam as ~49 que ficaram de fora por não bater com o edital de Curitiba. Para "Provas Anteriores", as 100 precisam existir **em texto literal**, separadas das 51 já reescritas (são pools diferentes, com propósitos diferentes). Fonte: https://anexos-r2.selecao.net.br/uploads/281/concursos/4197/anexos/e7fe936b-a20d-43f8-ae61-117fef6e0a47.pdf (confirmado acessível em 20/10).
+- As **9 provas com caderno completo já catalogadas em `docs/estilo-fafipa.md` seção 1.1** (2016-2021, 326 questões jurídicas ao todo), com destaque pra **Foz do Iguaçu-PR 2019, Procurador do Município Júnior, 80 questões** — o perfil mais parecido com o cargo da Flávia. As outras 8 (Advogado/Assessor Jurídico, perfil mais distante): Cambará 2016 (60), Fundação Araucária 2017 (50), Bandeirantes 2017 (21), Campina Grande do Sul 2018 (15), CREA-PR 2019 (35), IPREV Nova Esperança 2019 (20), Novo Horizonte do Sul-MS 2021 (30), Brasilândia-MS 2021 (15). Links na tabela da seção 1.1 de `docs/estilo-fafipa.md`.
 
-**Ordem sugerida pra começar (ainda não é compromisso rígido, só o plano):** 1) completar Matinhos 2026; 2) Foz do Iguaçu 2019; 3) as outras 8, na ordem que estiver na tabela. É trabalho grande (centenas de questões com dica e explicação completas) — vai levar várias sessões, não uma só.
+**Ordem sugerida (ainda não é compromisso rígido):** 1) Matinhos 2026 completo (100 questões, texto literal); 2) Foz do Iguaçu 2019; 3) as outras 8. É trabalho grande — várias sessões, não uma só.
 
-**Ainda falta construir antes do conteúdo:** `tools/prova.schema.json`, validador (`tools/validar_provas.py`), modelo Dart (`app/lib/prova.dart`) + telas (`tela_provas.dart`, `tela_simulado_personalizado.dart`), entrada no `pubspec.yaml`. Nada disso foi escrito ainda — só o plano.
+**Falta ainda:** adicionar `assets/provas/` ao `pubspec.yaml` assim que o primeiro arquivo real existir (antes disso, declarar a pasta quebraria o build, porque ela não existe).
 
 ## Onde estamos
 

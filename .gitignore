@@ -10,3 +10,12 @@ firebase_options.dart
 # Python
 __pycache__/
 *.pyc
+
+# Provas reais anteriores com texto literal da banca (decisão do Gustavo,
+# 20/10/2026): existem no computador e no APK gerado, mas não sobem pro
+# repositório público. tools/validar_provas.py e os testes continuam
+# funcionando, porque rodam no que existe localmente, não no que está
+# versionado. Cuidado ao republicar a versão web (build/web): ela embute o
+# conteúdo compilado — não publicar uma build que já tenha provas reais sem
+# reconferir antes se é o pretendido.
+app/assets/provas/
