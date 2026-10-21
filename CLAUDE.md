@@ -197,4 +197,4 @@ https://github.com/gustavoanderson/PasseiDireito — decisão do Gustavo, pergun
   flutter build apk --release
   gh release create vX.Y caminho/do.apk --title "PasseiDireito vX.Y" --notes "..."
   ```
-  Versão atual: v1.0, https://github.com/gustavoanderson/PasseiDireito/releases/download/v1.0/PasseiDireito-v1.0.apk. Atualize este link (e o de cima) a cada release nova, e o `docs/STATUS.md`.
+  Versão atual: v1.1, https://github.com/gustavoanderson/PasseiDireito/releases/download/v1.1/PasseiDireito-v1.1.apk. Atualize este link (e o de cima) a cada release nova, e o `docs/STATUS.md`. **A versão web está atrasada (ainda em v1.0)** — não inclui Provas Anteriores, Simulado Personalizado, Legislação de Curitiba nem Zerar Progresso; republicar exige cuidado extra porque `app/assets/provas/` (gitignored, texto literal de provas reais) não pode vazar pro build público do GitHub Pages.
